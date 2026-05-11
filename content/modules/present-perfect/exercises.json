@@ -1,1 +1,187 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "pp-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present perfect form.",
+      "prompt": "I ___ this movie three times already — it's amazing!",
+      "options": ["see", "saw", "have seen", "have saw"],
+      "answer": "have seen",
+      "explanation": "Present perfect: have + V3. 'see' is irregular: V3 = seen, not 'saw' (that's V2)."
+    },
+    {
+      "id": "pp-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form. Watch have vs has.",
+      "prompt": "She ___ in Jakarta since she graduated from university.",
+      "options": ["lives", "lived", "has lived", "have lived"],
+      "answer": "has lived",
+      "hint": "'Since' + no end point = present perfect. Subject is 'she' → has.",
+      "explanation": "'Since' signals duration up to now → present perfect. 'She' takes 'has'."
+    },
+    {
+      "id": "pp-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Simple past or present perfect?",
+      "prompt": "They ___ to Bali twice, and they want to go again.",
+      "options": ["go", "went", "have gone", "have been"],
+      "answer": "have been",
+      "hint": "'Twice' here = accumulated experience up to now. 'have been to' = visited and came back.",
+      "explanation": "Experience up to now → present perfect. 'have been to' (visited + returned) is correct here."
+    },
+    {
+      "id": "pp-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative present perfect.",
+      "prompt": "I ___ my homework yet — I'll do it after dinner.",
+      "options": ["didn't finish", "haven't finished", "haven't finish", "don't finish"],
+      "answer": "haven't finished",
+      "explanation": "'Yet' signals present perfect. Negative: haven't + V3 (finished)."
+    },
+    {
+      "id": "pp-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form for he/she/it negative.",
+      "prompt": "He ___ back since he left for Surabaya last month.",
+      "options": ["didn't come", "hasn't came", "hasn't come", "haven't come"],
+      "answer": "hasn't come",
+      "explanation": "'Since' = present perfect. 'He' takes 'hasn't'. V3 of come = come (not 'came')."
+    },
+    {
+      "id": "pp-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Pick the correct present perfect question.",
+      "prompt": "___ you ever ___ a traditional wayang performance?",
+      "options": ["Did / see", "Have / seen", "Has / seen", "Did / seen"],
+      "answer": "Have / seen",
+      "hint": "'Ever' = present perfect question. Subject 'you' → Have.",
+      "explanation": "Question with 'ever': Have/Has + subject + V3. 'You' → Have."
+    },
+    {
+      "id": "pp-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Simple past or present perfect question?",
+      "prompt": "___ she ___ her passport? She can't find it anywhere.",
+      "options": ["Did / lose", "Has / lost", "Have / lost", "Did / lost"],
+      "answer": "Has / lost",
+      "hint": "The result (can't find it) matters now → present perfect. 'She' → Has.",
+      "explanation": "Result still relevant now → present perfect. 'She' takes 'Has', V3 = lost."
+    },
+    {
+      "id": "pp-mc-forsinc-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'for' or 'since'.",
+      "prompt": "We have been friends ___ we were in primary school.",
+      "options": ["for", "since", "during", "from"],
+      "answer": "since",
+      "hint": "'We were in primary school' is a starting point in time → since.",
+      "explanation": "'Since' precedes a point in time. 'For' precedes a span (how long)."
+    },
+    {
+      "id": "pp-mc-forsinc-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'for' or 'since'.",
+      "prompt": "She has worked at this company ___ almost ten years.",
+      "options": ["since", "for", "from", "during"],
+      "answer": "for",
+      "explanation": "'Almost ten years' = a span of time → for."
+    },
+    {
+      "id": "pp-mc-ppspp-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Simple past or present perfect? Look for a specific past time.",
+      "prompt": "I ___ my keys — I can't get into the house!",
+      "options": ["lost", "have lost", "lose", "have lose"],
+      "answer": "have lost",
+      "explanation": "No specific past time + result relevant now → present perfect."
+    },
+    {
+      "id": "pp-fb-pos-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the present perfect form.",
+      "prompt": "I ___ (just / arrive) at the airport. Please wait for me.",
+      "acceptedAnswers": ["have just arrived"],
+      "explanation": "'Just' = very recently → present perfect: have + just + V3."
+    },
+    {
+      "id": "pp-fb-pos-2",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct form. Watch the subject.",
+      "prompt": "He ___ (read) over 50 books this year.",
+      "acceptedAnswers": ["has read"],
+      "hint": "V3 of 'read' = read (same spelling, pronounced /red/).",
+      "explanation": "'He' → has. V3 of read = read."
+    },
+    {
+      "id": "pp-fb-neg-1",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative present perfect. Both 'have not' and 'haven't' accepted.",
+      "prompt": "I ___ (not / visit) my hometown since I moved to Jakarta.",
+      "acceptedAnswers": ["have not visited", "haven't visited"],
+      "explanation": "'Since' + not visited → present perfect negative."
+    },
+    {
+      "id": "pp-fb-q-1",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Form the present perfect question.",
+      "prompt": "___ (you / ever / eat) sushi?",
+      "acceptedAnswers": ["have you ever eaten"],
+      "hint": "'Ever' in a question = present perfect. Have + you + ever + V3.",
+      "explanation": "Experience question: Have + subject + ever + V3."
+    },
+    {
+      "id": "pp-tr-pos-1",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate using present perfect.",
+      "prompt": "Saya sudah membaca buku itu tiga kali.",
+      "modelAnswer": "I have read that book three times.",
+      "alternativeAnswers": ["I have read the book three times."],
+      "keyTokens": ["have read", "three times"],
+      "explanation": "No specific past time + accumulated experience → present perfect."
+    },
+    {
+      "id": "pp-tr-neg-1",
+      "kind": "translation_id_to_en",
+      "form": "negative",
+      "instruction": "Translate as a negative present perfect.",
+      "prompt": "Dia belum makan sejak pagi tadi.",
+      "modelAnswer": "She hasn't eaten since this morning.",
+      "alternativeAnswers": [
+        "He hasn't eaten since this morning.",
+        "She has not eaten since this morning.",
+        "He has not eaten since this morning."
+      ],
+      "keyTokens": ["hasn't eaten", "since"],
+      "explanation": "'Belum' → negative present perfect. 'Sejak' = since (starting point)."
+    },
+    {
+      "id": "pp-tr-q-1",
+      "kind": "translation_id_to_en",
+      "form": "question",
+      "instruction": "Translate as a present perfect question.",
+      "prompt": "Apakah kamu pernah mengunjungi Candi Borobudur?",
+      "modelAnswer": "Have you ever visited Borobudur Temple?",
+      "alternativeAnswers": [
+        "Have you ever visited the Borobudur Temple?",
+        "Have you ever been to Borobudur Temple?"
+      ],
+      "keyTokens": ["have you ever", "borobudur"],
+      "explanation": "Experience question: Have + subject + ever + V3."
+    }
+  ]
+}

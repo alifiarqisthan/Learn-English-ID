@@ -1,1 +1,229 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "pc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past continuous form.",
+      "prompt": "At 9pm last night, I ___ a report for tomorrow's meeting.",
+      "options": ["write", "wrote", "was writing", "were writing"],
+      "answer": "was writing",
+      "explanation": "'At 9pm last night' = a specific past moment → action in progress → past continuous. Subject 'I' → was."
+    },
+    {
+      "id": "pc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form. Watch was vs were.",
+      "prompt": "The children ___ noisily when the teacher walked in.",
+      "options": ["played", "play", "was playing", "were playing"],
+      "answer": "were playing",
+      "hint": "'The children' = plural, so use 'were'. Action was in progress when the teacher arrived.",
+      "explanation": "'The children' is plural → were. Action in progress when interrupted → past continuous."
+    },
+    {
+      "id": "pc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Past continuous or simple past? Choose carefully.",
+      "prompt": "While she ___ her essay, the power suddenly went out.",
+      "options": ["wrote", "writes", "was writing", "had written"],
+      "answer": "was writing",
+      "hint": "'While' introduces the background ongoing action → past continuous.",
+      "explanation": "'While' + ongoing background action → past continuous. 'Went out' (sudden event) uses simple past."
+    },
+    {
+      "id": "pc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative past continuous form.",
+      "prompt": "I ___ — I was actually concentrating on the road.",
+      "options": ["didn't daydream", "wasn't daydreaming", "weren't daydreaming", "don't daydream"],
+      "answer": "wasn't daydreaming",
+      "hint": "Subject 'I' → wasn't. Past continuous negative = wasn't/weren't + Ving.",
+      "explanation": "Negative past continuous: wasn't/weren't + Ving. Never use 'didn't' with past continuous."
+    },
+    {
+      "id": "pc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form.",
+      "prompt": "They ___ when we knocked — they were out shopping.",
+      "options": ["didn't sleep", "wasn't sleeping", "weren't sleeping", "aren't sleeping"],
+      "answer": "weren't sleeping",
+      "explanation": "'They' → weren't. Negative past continuous for an ongoing state at a past moment."
+    },
+    {
+      "id": "pc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct past continuous question.",
+      "prompt": "What ___ you ___ at this time yesterday?",
+      "options": ["did / do", "were / doing", "was / doing", "did / doing"],
+      "answer": "were / doing",
+      "hint": "'At this time yesterday' = a past moment → past continuous. Subject 'you' → were.",
+      "explanation": "Wh-question past continuous: What + were/was + subject + Ving? 'You' → were."
+    },
+    {
+      "id": "pc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correctly formed question.",
+      "prompt": "___ it ___ heavily when you left the house?",
+      "options": ["Did / rain", "Was / raining", "Were / raining", "Did / raining"],
+      "answer": "Was / raining",
+      "hint": "Subject 'it' → was. Question: Was/Were + subject + Ving?",
+      "explanation": "Yes/no question past continuous: Was/Were + subject + Ving. 'It' takes 'was'."
+    },
+    {
+      "id": "pc-mc-interrupt-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Interruption pattern: choose the correct tense for the background action.",
+      "prompt": "I ___ a shower when I heard a strange noise outside.",
+      "options": ["took", "was taking", "had taken", "take"],
+      "answer": "was taking",
+      "hint": "The shower was in progress when the noise interrupted it → past continuous for the background action.",
+      "explanation": "Ongoing background action + 'when' + sudden event → past continuous."
+    },
+    {
+      "id": "pc-mc-interrupt-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense for the interrupting event.",
+      "prompt": "While we were having a picnic, it suddenly ___.",
+      "options": ["was raining", "rained", "rains", "had rained"],
+      "answer": "rained",
+      "hint": "'Suddenly' = a short, sudden event. The sudden event uses simple past.",
+      "explanation": "The interrupting event uses simple past. 'While + past continuous' sets the background."
+    },
+    {
+      "id": "pc-fb-pos-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the past continuous form.",
+      "prompt": "At midnight, the baby ___ (cry) and everyone was awake.",
+      "acceptedAnswers": ["was crying"],
+      "explanation": "Action in progress at midnight → was crying (I/he/she/it → was)."
+    },
+    {
+      "id": "pc-fb-pos-2",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct form. Think about whether this is ongoing or completed.",
+      "prompt": "While my mother ___ (cook), I set the table.",
+      "acceptedAnswers": ["was cooking"],
+      "hint": "'While' introduces the ongoing background action.",
+      "explanation": "'While' + ongoing background → past continuous: was cooking."
+    },
+    {
+      "id": "pc-fb-neg-1",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative past continuous. Both 'wasn't' and 'was not' are accepted.",
+      "prompt": "He ___ (not / pay attention) in class, so he missed the key point.",
+      "acceptedAnswers": ["wasn't paying attention", "was not paying attention", "wasn't paying", "was not paying"],
+      "explanation": "Negative past continuous: wasn't/was not + Ving. 'He' → wasn't."
+    },
+    {
+      "id": "pc-fb-q-1",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Form the past continuous question.",
+      "prompt": "___ (you / wait) long when the bus finally arrived?",
+      "acceptedAnswers": ["were you waiting"],
+      "hint": "Yes/no question: Was/Were + subject + Ving. 'You' → were.",
+      "explanation": "Past continuous question: Were you waiting? (Were + subject + Ving)"
+    },
+    {
+      "id": "pc-fb-interrupt-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct tenses for the interruption pattern.",
+      "prompt": "I ___ (walk) home when I ___ (meet) my old teacher.",
+      "acceptedAnswers": ["was walking / met", "was walking/met"],
+      "hint": "First blank: ongoing background (past continuous). Second blank: sudden event (simple past).",
+      "explanation": "Interruption pattern: was walking (background) + when + met (event, simple past)."
+    },
+    {
+      "id": "pc-tr-pos-1",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate using past continuous.",
+      "prompt": "Saya sedang mandi ketika telepon berdering.",
+      "modelAnswer": "I was taking a shower when the phone rang.",
+      "alternativeAnswers": [
+        "I was having a shower when the phone rang.",
+        "I was bathing when the phone rang."
+      ],
+      "keyTokens": ["was taking", "when", "rang"],
+      "explanation": "Interruption pattern: was taking a shower (background) + when + rang (sudden event)."
+    },
+    {
+      "id": "pc-tr-pos-2",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. Two parallel actions use 'while + past continuous'.",
+      "prompt": "Sementara dia memasak makan malam, saya mengerjakan PR.",
+      "modelAnswer": "While she was cooking dinner, I was doing my homework.",
+      "alternativeAnswers": [
+        "While he was cooking dinner, I was doing my homework.",
+        "I was doing my homework while she was cooking dinner."
+      ],
+      "keyTokens": ["while", "was cooking", "was doing"],
+      "explanation": "Two simultaneous ongoing past actions: while + past continuous + past continuous."
+    },
+    {
+      "id": "pc-tr-neg-1",
+      "kind": "translation_id_to_en",
+      "form": "negative",
+      "instruction": "Translate as a negative past continuous.",
+      "prompt": "Mereka tidak sedang memperhatikan ketika guru menjelaskan.",
+      "modelAnswer": "They weren't paying attention when the teacher was explaining.",
+      "alternativeAnswers": [
+        "They were not paying attention when the teacher was explaining.",
+        "They weren't paying attention when the teacher explained."
+      ],
+      "keyTokens": ["weren't paying attention", "when"],
+      "explanation": "Negative past continuous: weren't + Ving. 'They' → weren't."
+    },
+    {
+      "id": "pc-tr-q-1",
+      "kind": "translation_id_to_en",
+      "form": "question",
+      "instruction": "Translate as a past continuous question.",
+      "prompt": "Apa yang sedang kamu lakukan ketika gempa terjadi?",
+      "modelAnswer": "What were you doing when the earthquake happened?",
+      "alternativeAnswers": ["What were you doing when the earthquake occurred?"],
+      "keyTokens": ["what were you doing", "when", "happened"],
+      "explanation": "Wh-question past continuous: What + were + subject + Ving. Event clause uses simple past."
+    },
+    {
+      "id": "pc-mc-stative-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Stative or action verb? Choose the correct past form.",
+      "prompt": "Even during the chaos, she ___ exactly what to do.",
+      "options": ["was knowing", "knew", "was knowing about", "is knowing"],
+      "answer": "knew",
+      "hint": "'Know' is a stative verb — even in the past, it uses simple past, not past continuous.",
+      "explanation": "Stative verb 'know' cannot use continuous form. Use simple past: knew."
+    },
+    {
+      "id": "pc-mc-sp-pc-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Simple past or past continuous? Read the context carefully.",
+      "prompt": "She ___ the meeting at 10am and ___ home at 5pm.",
+      "options": [
+        "was starting / was going",
+        "started / went",
+        "was starting / went",
+        "started / was going"
+      ],
+      "answer": "started / went",
+      "hint": "Two completed sequential events in a narrative → both use simple past.",
+      "explanation": "Sequential completed events use simple past. Both actions were completed, not ongoing background."
+    }
+  ]
+}

@@ -12,20 +12,25 @@ import ExerciseRunner from "../components/ExerciseRunner";
 export default function ModulePage() {
   const { slug = "" } = useParams();
   const [mod, setMod] = useState<ModuleDetail | null>(null);
-  const [allModules, setAllModules] = useState<ModuleSummary[]>([]);
+  const [groupModules, setGroupModules] = useState<ModuleSummary[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     setMod(null);
-    api.getModule(slug).then(setMod).catch((e) => setError(String(e)));
-    api.listModules().then(setAllModules).catch(() => {});
+    setGroupModules([]);
+    api.getModule(slug).then((m) => {
+      setMod(m);
+      if (m.group) {
+        api.getGroup(m.group).then((g) => setGroupModules(g.modules)).catch(() => {});
+      }
+    }).catch((e) => setError(String(e)));
   }, [slug]);
 
   const nextModule = (() => {
-    if (!mod || allModules.length === 0) return null;
-    const i = allModules.findIndex((m) => m.slug === mod.slug);
-    if (i < 0 || i >= allModules.length - 1) return null;
-    return allModules[i + 1] ?? null;
+    if (!mod || groupModules.length === 0) return null;
+    const i = groupModules.findIndex((m) => m.slug === mod.slug);
+    if (i < 0 || i >= groupModules.length - 1) return null;
+    return groupModules[i + 1] ?? null;
   })();
 
   if (error)
@@ -35,9 +40,9 @@ export default function ModulePage() {
   return (
     <article className="space-y-8">
       <Button variant="ghost" size="sm" asChild className="-ml-3">
-        <Link to="/">
+        <Link to={mod.group ? `/groups/${mod.group}` : "/groups"}>
           <ChevronLeft className="h-4 w-4" />
-          All modules
+          {mod.group ? `${mod.group.charAt(0).toUpperCase() + mod.group.slice(1)} Tenses` : "All groups"}
         </Link>
       </Button>
 

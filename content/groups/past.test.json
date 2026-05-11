@@ -1,0 +1,188 @@
+{
+  "exercises": [
+    {
+      "id": "past-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the tense that best fits the context.",
+      "prompt": "I ___ breakfast and then went to the office.",
+      "options": ["was eating", "had been eating", "ate", "had eaten"],
+      "answer": "ate",
+      "explanation": "Sequential completed actions in a narrative → simple past. No need for past perfect — 'and then' already shows the order."
+    },
+    {
+      "id": "past-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense.",
+      "prompt": "Look at the mud on his boots — he ___ in the garden.",
+      "options": ["worked", "was working", "had worked", "had been working"],
+      "answer": "had been working",
+      "hint": "Visible evidence of an extended activity that just stopped → past perfect continuous.",
+      "explanation": "Evidence of prolonged activity visible at a past moment → past perfect continuous."
+    },
+    {
+      "id": "past-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which tense shows the interrupted background action?",
+      "prompt": "She ___ a bath when the doorbell rang.",
+      "options": ["had", "was having", "had had", "had been having"],
+      "answer": "was having",
+      "hint": "Ongoing action at the moment it was interrupted → past continuous.",
+      "explanation": "Action in progress when interrupted by a sudden event (doorbell) → past continuous."
+    },
+    {
+      "id": "past-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Past perfect or simple past? Two events — which came first?",
+      "prompt": "When we arrived at the cinema, the film ___.",
+      "options": ["started", "was starting", "has started", "had already started"],
+      "answer": "had already started",
+      "hint": "Film starting happened before our arrival → past perfect for the earlier event.",
+      "explanation": "Earlier event (film starting) → past perfect. Later event (arriving) → simple past."
+    },
+    {
+      "id": "past-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the tense that shows duration before a past point.",
+      "prompt": "She was exhausted because she ___ for 12 hours straight.",
+      "options": ["worked", "was working", "had worked", "had been working"],
+      "answer": "had been working",
+      "hint": "'For 12 hours straight' + cause of exhaustion → past perfect continuous.",
+      "explanation": "Duration of activity explaining a past state → past perfect continuous."
+    },
+    {
+      "id": "past-test-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative form.",
+      "prompt": "He ___ anything since the argument — not a single word.",
+      "options": ["didn't say", "wasn't saying", "hasn't said", "hadn't said"],
+      "answer": "hadn't said",
+      "hint": "No words up to a past reference point → past perfect negative.",
+      "explanation": "Silence from an earlier point up to a past moment → past perfect negative: hadn't + V3."
+    },
+    {
+      "id": "past-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Two parallel past actions — choose the correct pattern.",
+      "prompt": "While the students ___ the exam, the teacher ___ the classroom.",
+      "options": [
+        "took / was monitoring",
+        "were taking / monitored",
+        "were taking / was monitoring",
+        "took / monitored"
+      ],
+      "answer": "were taking / was monitoring",
+      "hint": "Two simultaneous ongoing past actions → both in past continuous.",
+      "explanation": "Two parallel background actions at the same time → both past continuous."
+    },
+    {
+      "id": "past-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which is correct for the earlier event in a sequence?",
+      "prompt": "After she ___ the report, she sent it to her manager.",
+      "options": ["finished", "was finishing", "had finished", "had been finishing"],
+      "answer": "had finished",
+      "hint": "Finishing came before sending → past perfect for the earlier event.",
+      "explanation": "Earlier completed action → past perfect simple. The result (finished report) is the point, not the duration."
+    },
+    {
+      "id": "past-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Stative verb + past — which form is correct?",
+      "prompt": "Even as a child, she ___ that she wanted to be a doctor.",
+      "options": ["was knowing", "had been knowing", "knew", "had known"],
+      "answer": "knew",
+      "hint": "'Know' is stative. For a general past state, use simple past.",
+      "explanation": "Stative verb in a past state → simple past: knew. No continuous form."
+    },
+    {
+      "id": "past-test-10",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct past tense.",
+      "prompt": "I ___ (read) on the sofa when my flatmate ___ (come) home and startled me.",
+      "acceptedAnswers": ["was reading / came", "was reading/came"],
+      "hint": "'Was reading' = ongoing background. 'Came home' = interrupting event.",
+      "explanation": "Interruption pattern: was reading (past continuous) + when + came (simple past)."
+    },
+    {
+      "id": "past-test-11",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct form.",
+      "prompt": "By the time the ambulance arrived, the neighbours ___ (give) first aid for twenty minutes.",
+      "acceptedAnswers": ["had been giving"],
+      "hint": "'By the time' + 'for twenty minutes' → duration before a past event = past perfect continuous.",
+      "explanation": "'By the time' + duration → past perfect continuous: had been + Ving."
+    },
+    {
+      "id": "past-test-12",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate — decide which past tense each clause needs.",
+      "prompt": "Ketika saya menelepon, dia sedang belajar untuk ujiannya.",
+      "modelAnswer": "When I called, she was studying for her exam.",
+      "alternativeAnswers": [
+        "When I called, he was studying for his exam.",
+        "She was studying for her exam when I called."
+      ],
+      "keyTokens": ["called", "was studying"],
+      "hint": "'Sedang belajar' = ongoing background = past continuous. 'Menelepon' = completed event = simple past.",
+      "explanation": "Interruption pattern: was studying (past continuous) + when + called (simple past)."
+    },
+    {
+      "id": "past-test-13",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. The 'sudah…sebelum' pattern = past perfect.",
+      "prompt": "Mereka sudah makan malam sebelum tamu-tamu tiba.",
+      "modelAnswer": "They had eaten dinner before the guests arrived.",
+      "alternativeAnswers": [
+        "They had already eaten dinner before the guests arrived.",
+        "They had had dinner before the guests arrived."
+      ],
+      "keyTokens": ["had eaten", "before", "arrived"],
+      "hint": "'Sudah makan sebelum' = had eaten before. Earlier event → past perfect.",
+      "explanation": "Earlier completed event → had + V3. Later event → simple past."
+    },
+    {
+      "id": "past-test-14",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate — emphasise duration before the past event.",
+      "prompt": "Dia sudah menunggu selama dua jam ketika temannya akhirnya muncul.",
+      "modelAnswer": "He had been waiting for two hours when his friend finally showed up.",
+      "alternativeAnswers": [
+        "She had been waiting for two hours when her friend finally showed up.",
+        "He had been waiting for two hours when his friend finally appeared."
+      ],
+      "keyTokens": ["had been waiting", "for two hours", "when"],
+      "hint": "'Sudah menunggu selama' + past event = had been waiting for … when.",
+      "explanation": "Duration before a past event → past perfect continuous."
+    },
+    {
+      "id": "past-test-15",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate — two completed sequential events.",
+      "prompt": "Dia masuk kamar, menyalakan lampu, dan langsung tidur.",
+      "modelAnswer": "She entered the room, turned on the light, and went straight to sleep.",
+      "alternativeAnswers": [
+        "He entered the room, turned on the light, and went straight to sleep.",
+        "She went into the room, turned on the light, and went straight to sleep.",
+        "She came into the room, turned on the light, and went straight to sleep."
+      ],
+      "keyTokens": ["entered", "turned on", "went"],
+      "hint": "Three completed sequential actions in a narrative → all simple past.",
+      "explanation": "Sequential completed events in a story → simple past throughout."
+    }
+  ]
+}

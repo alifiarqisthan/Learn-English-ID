@@ -1,280 +1,168 @@
 {
   "exercises": [
     {
-      "id": "pc-mc-pos-1",
+      "id": "prc-mc-pos-1",
       "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Pick the correct present continuous form.",
-      "prompt": "Look — the children ___ in the park.",
-      "options": ["play", "plays", "are playing", "is playing"],
-      "answer": "are playing",
-      "hint": "'Look' signals an action happening right now → present continuous. 'The children' is plural.",
-      "explanation": "Plural subject + 'are' + Ving."
+      "instruction": "Choose the correct present continuous form.",
+      "prompt": "Look outside! It ___ heavily.",
+      "options": ["rains", "is raining", "has rained", "rained"],
+      "answer": "is raining",
+      "explanation": "'Look!' = right now, observable → Present Continuous."
     },
     {
-      "id": "pc-mc-pos-2",
+      "id": "prc-mc-pos-2",
       "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Choose the correct verb form.",
-      "prompt": "She ___ for her IELTS exam this month.",
-      "options": ["studies", "is studying", "studying", "study"],
-      "answer": "is studying",
-      "explanation": "'This month' = around now, a temporary period → present continuous."
+      "instruction": "Choose the correct form for a temporary situation.",
+      "prompt": "She usually lives in Bandung, but she ___ with her aunt in Jakarta this month.",
+      "options": ["stays", "is staying", "has stayed", "stayed"],
+      "answer": "is staying",
+      "explanation": "Temporary situation contrasting with permanent → Present Continuous."
     },
     {
-      "id": "pc-mc-pos-3",
+      "id": "prc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative present continuous.",
+      "prompt": "Please don't disturb him. He ___ right now.",
+      "options": ["doesn't work", "isn't working", "hasn't worked", "won't work"],
+      "answer": "isn't working",
+      "explanation": "Action in progress right now, negative → isn't + Ving."
+    },
+    {
+      "id": "prc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct present continuous question.",
+      "prompt": "Why ___ you ___ at me like that?",
+      "options": ["do / look", "are / looking", "have / looked", "did / look"],
+      "answer": "are / looking",
+      "explanation": "Action happening at this moment → Present Continuous question: Are + subject + Ving."
+    },
+    {
+      "id": "prc-mc-stative-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Stative or action verb? Choose the correct form.",
+      "prompt": "I ___ what you are saying, but I disagree.",
+      "options": ["am understanding", "understand", "am knowing", "knowing"],
+      "answer": "understand",
+      "explanation": "'Understand' is a stative verb → use Present Simple, not Continuous."
+    },
+    {
+      "id": "prc-mc-future-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form for an arranged future plan.",
+      "prompt": "We ___ the Eiffel Tower next Tuesday — tickets are booked.",
+      "options": ["visit", "will visit", "are visiting", "have visited"],
+      "answer": "are visiting",
+      "explanation": "Arranged future plan with a time marker → Present Continuous."
+    },
+    {
+      "id": "prc-fb-pos-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the present continuous form.",
+      "prompt": "Shh! The baby ___ (sleep). Don't make noise.",
+      "acceptedAnswers": ["is sleeping"],
+      "explanation": "Action in progress at this moment → is + sleeping."
+    },
+    {
+      "id": "prc-fb-pos-2",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct form. Watch the -ing spelling.",
+      "prompt": "He ___ (write) a report for tomorrow's meeting.",
+      "acceptedAnswers": ["is writing"],
+      "explanation": "write → writing (drop silent -e). Action in progress → is + writing."
+    },
+    {
+      "id": "prc-fb-neg-1",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative present continuous. Both 'aren't' and 'are not' accepted.",
+      "prompt": "They ___ (not / come) to the party tonight — they have other plans.",
+      "acceptedAnswers": ["aren't coming", "are not coming"],
+      "explanation": "Arranged plan, negative → aren't/are not + coming."
+    },
+    {
+      "id": "prc-fb-q-1",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Form the present continuous question.",
+      "prompt": "What ___ (you / do) this weekend?",
+      "acceptedAnswers": ["are you doing"],
+      "explanation": "Present Continuous question for future plans: Are + subject + Ving."
+    },
+    {
+      "id": "prc-tr-pos-1",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate using present continuous.",
+      "prompt": "Tolong jangan berisik. Adik saya sedang belajar.",
+      "modelAnswer": "Please don't make noise. My younger sibling is studying.",
+      "alternativeAnswers": [
+        "Please be quiet. My brother is studying.",
+        "Please be quiet. My sister is studying.",
+        "Please don't be noisy. My little brother is studying."
+      ],
+      "keyTokens": ["is studying"],
+      "explanation": "'Sedang belajar' = action in progress → is + studying."
+    },
+    {
+      "id": "prc-tr-pos-2",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate using present continuous for a changing situation.",
+      "prompt": "Harga-harga sedang naik akhir-akhir ini.",
+      "modelAnswer": "Prices are rising these days.",
+      "alternativeAnswers": [
+        "Prices are going up these days.",
+        "Prices are increasing these days."
+      ],
+      "keyTokens": ["are rising", "these days"],
+      "explanation": "Changing/developing situation → Present Continuous."
+    },
+    {
+      "id": "prc-tr-q-1",
+      "kind": "translation_id_to_en",
+      "form": "question",
+      "instruction": "Translate as a present continuous question.",
+      "prompt": "Kamu sedang mengerjakan apa sekarang?",
+      "modelAnswer": "What are you working on right now?",
+      "alternativeAnswers": [
+        "What are you doing right now?",
+        "What are you working on now?"
+      ],
+      "keyTokens": ["what are you", "right now"],
+      "explanation": "Wh-question for action in progress → What + are + subject + Ving."
+    },
+    {
+      "id": "prc-mc-spelling-1",
       "kind": "multiple_choice",
       "form": "positive",
       "instruction": "Choose the correctly spelled -ing form.",
-      "prompt": "He ___ at the gym right now.",
-      "options": ["runing", "is runing", "is running", "runs"],
-      "answer": "is running",
-      "hint": "Run is CVC (consonant-vowel-consonant) → double the consonant before -ing.",
-      "explanation": "run → running (double the n). 'Right now' signals present continuous."
+      "prompt": "He is ___ in the pool.",
+      "options": ["swiming", "swimming", "swimeing", "swimm"],
+      "answer": "swimming",
+      "explanation": "CVC rule (one syllable, consonant-vowel-consonant): double the final consonant → swimming."
     },
     {
-      "id": "pc-mc-pos-4",
+      "id": "prc-mc-simple-vs-cont-1",
       "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Pick the correctly spelled -ing form.",
-      "prompt": "I ___ a letter to my grandmother.",
-      "options": ["am writeing", "am writing", "writting", "am writting"],
-      "answer": "am writing",
-      "hint": "Drop the silent -e before adding -ing.",
-      "explanation": "write → writing (drop the silent e)."
-    },
-    {
-      "id": "pc-mc-neg-1",
-      "kind": "multiple_choice",
-      "form": "negative",
-      "instruction": "Choose the correct negative form.",
-      "prompt": "We ___ today — the office is closed.",
-      "options": ["don't working", "aren't working", "not working", "isn't working"],
-      "answer": "aren't working",
-      "explanation": "'We' takes 'are' → negation: aren't / are not. Never use 'don't' with 'to be'."
-    },
-    {
-      "id": "pc-mc-neg-2",
-      "kind": "multiple_choice",
-      "form": "negative",
-      "instruction": "Pick the correct negative form.",
-      "prompt": "She ___ to me — she's ignoring me!",
-      "options": ["doesn't listen", "isn't listening", "not listening", "isn't listen"],
-      "answer": "isn't listening",
-      "hint": "An action happening at this moment → present continuous.",
-      "explanation": "Present continuous: isn't + Ving."
-    },
-    {
-      "id": "pc-mc-q-1",
-      "kind": "multiple_choice",
-      "form": "question",
-      "instruction": "Pick the correctly formed question.",
-      "prompt": "___ you ___ to the music?",
-      "options": ["Do / listen", "Are / listening", "Is / listening", "Do / listening"],
-      "answer": "Are / listening",
-      "explanation": "Question with 'to be': Are + subject + Ving. Don't use 'do' with continuous."
-    },
-    {
-      "id": "pc-mc-q-2",
-      "kind": "multiple_choice",
-      "form": "question",
-      "instruction": "Choose the correct Wh-question form.",
-      "prompt": "What ___ your sister ___ in the kitchen?",
-      "options": ["does / cook", "is / cooking", "is / cook", "does / cooks"],
-      "answer": "is / cooking",
-      "explanation": "Wh + is + subject + Ving for present continuous questions."
-    },
-    {
-      "id": "pc-mc-stative-1",
-      "kind": "multiple_choice",
-      "form": "positive",
-      "instruction": "Stative verbs don't take -ing. Pick the correct form.",
-      "prompt": "I ___ the answer to question number 5.",
-      "options": ["am knowing", "know", "knows", "am know"],
-      "answer": "know",
-      "hint": "'Know' is a stative verb — use present simple even for 'right now'.",
-      "explanation": "Stative verbs (know, want, like, love, understand) don't take -ing."
-    },
-    {
-      "id": "pc-mc-stative-2",
-      "kind": "multiple_choice",
-      "form": "positive",
-      "instruction": "Pick the correct form. Watch for stative verbs.",
-      "prompt": "She ___ this song — it reminds her of her childhood.",
-      "options": ["is loving", "loves", "love", "is love"],
-      "answer": "loves",
-      "explanation": "'Love' is a stative verb of emotion — use present simple."
-    },
-    {
-      "id": "pc-fb-pos-1",
-      "kind": "fill_blank",
-      "form": "positive",
-      "instruction": "Fill in the present continuous form.",
-      "prompt": "The students ___ (take) a test right now.",
-      "acceptedAnswers": ["are taking"],
-      "hint": "Drop the silent -e before -ing: take → taking.",
-      "explanation": "Plural subject + are + taking (drop the e)."
-    },
-    {
-      "id": "pc-fb-pos-2",
-      "kind": "fill_blank",
-      "form": "positive",
-      "instruction": "Fill in the present continuous form.",
-      "prompt": "Look! It ___ (snow) outside!",
-      "acceptedAnswers": ["is snowing"],
-      "explanation": "'It' + is + snowing. 'Look!' signals present continuous."
-    },
-    {
-      "id": "pc-fb-pos-3",
-      "kind": "fill_blank",
-      "form": "positive",
-      "instruction": "Fill in with the correct -ing spelling.",
-      "prompt": "My grandfather ___ (sit) on the porch reading the newspaper.",
-      "acceptedAnswers": ["is sitting"],
-      "hint": "Sit is CVC → double the t.",
-      "explanation": "sit → sitting (double the consonant)."
-    },
-    {
-      "id": "pc-fb-pos-4",
-      "kind": "fill_blank",
-      "form": "positive",
-      "instruction": "Fill in the present continuous form.",
-      "prompt": "I ___ (try) to focus, but it's very noisy.",
-      "acceptedAnswers": ["am trying", "'m trying"],
-      "explanation": "I + am + trying. (try ends in consonant + y, but for -ing the y stays.)"
-    },
-    {
-      "id": "pc-fb-neg-1",
-      "kind": "fill_blank",
-      "form": "negative",
-      "instruction": "Fill in the negative form. Both 'is not' and 'isn't' are accepted.",
-      "prompt": "He ___ (not / pay) attention to the teacher.",
-      "acceptedAnswers": ["is not paying", "isn't paying"],
-      "explanation": "Third-person singular + isn't + Ving."
-    },
-    {
-      "id": "pc-fb-neg-2",
-      "kind": "fill_blank",
-      "form": "negative",
-      "instruction": "Fill in the negative.",
-      "prompt": "We ___ (not / argue) — we're just discussing.",
-      "acceptedAnswers": ["are not arguing", "aren't arguing"],
-      "hint": "argue ends in -e: drop the e, add -ing.",
-      "explanation": "argue → arguing (drop the silent e). Plural + aren't + Ving."
-    },
-    {
-      "id": "pc-fb-q-1",
-      "kind": "fill_blank",
-      "form": "question",
-      "instruction": "Build the question. Type the words in order.",
-      "prompt": "___ (the baby / sleep) right now?",
-      "acceptedAnswers": ["is the baby sleeping"],
-      "hint": "Yes/no question with 'to be': Is + subject + Ving.",
-      "explanation": "Is + the baby + sleeping?"
-    },
-    {
-      "id": "pc-fb-q-2",
-      "kind": "fill_blank",
-      "form": "question",
-      "instruction": "Build the Wh-question.",
-      "prompt": "What ___ (you / read) at the moment?",
-      "acceptedAnswers": ["are you reading"],
-      "explanation": "Wh + are + subject + Ving."
-    },
-    {
-      "id": "pc-fb-stative-1",
-      "kind": "fill_blank",
-      "form": "positive",
-      "instruction": "Fill in the correct form. Watch for stative verbs.",
-      "prompt": "I ___ (understand) what you're saying now.",
-      "acceptedAnswers": ["understand"],
-      "hint": "Understand is stative — even though the moment is 'now', use present simple.",
-      "explanation": "Stative verb → present simple, no -ing."
-    },
-    {
-      "id": "pc-tr-pos-1",
-      "kind": "translation_id_to_en",
-      "form": "positive",
-      "instruction": "Translate using present continuous.",
-      "prompt": "Saya sedang membaca buku di perpustakaan.",
-      "modelAnswer": "I am reading a book in the library.",
-      "alternativeAnswers": [
-        "I'm reading a book in the library.",
-        "I am reading a book at the library.",
-        "I'm reading a book at the library."
+      "instruction": "Present Simple or Present Continuous? Read the context carefully.",
+      "prompt": "I usually ___ tea, but today I ___ coffee because we ran out of tea.",
+      "options": [
+        "drink / am drinking",
+        "am drinking / drink",
+        "drink / drink",
+        "am drinking / am drinking"
       ],
-      "keyTokens": ["am reading", "book", "library"],
-      "hint": "'Sedang' = present continuous. Drop 'sedang', add 'am' + Ving.",
-      "explanation": "I + am + reading. The Indonesian 'sedang' becomes the 'am' + -ing combination."
-    },
-    {
-      "id": "pc-tr-pos-2",
-      "kind": "translation_id_to_en",
-      "form": "positive",
-      "instruction": "Translate using present continuous.",
-      "prompt": "Mereka sedang menonton film di bioskop sekarang.",
-      "modelAnswer": "They are watching a movie at the cinema now.",
-      "alternativeAnswers": [
-        "They're watching a movie at the cinema now.",
-        "They are watching a film at the cinema now.",
-        "They're watching a film at the cinema now."
-      ],
-      "keyTokens": ["are watching", "movie", "cinema"],
-      "explanation": "Plural subject + are + watching."
-    },
-    {
-      "id": "pc-tr-pos-3",
-      "kind": "translation_id_to_en",
-      "form": "positive",
-      "instruction": "Translate using present continuous.",
-      "prompt": "Adikku sedang belajar untuk ujian besok.",
-      "modelAnswer": "My younger sibling is studying for the exam tomorrow.",
-      "alternativeAnswers": [
-        "My little brother is studying for the exam tomorrow.",
-        "My little sister is studying for the exam tomorrow.",
-        "My younger brother is studying for tomorrow's exam.",
-        "My younger sister is studying for tomorrow's exam."
-      ],
-      "keyTokens": ["is studying", "exam", "tomorrow"],
-      "hint": "'Adikku' = my younger sibling. Third-person singular → 'is'.",
-      "explanation": "Singular subject + is + studying."
-    },
-    {
-      "id": "pc-tr-neg-1",
-      "kind": "translation_id_to_en",
-      "form": "negative",
-      "instruction": "Translate as a negative present continuous sentence.",
-      "prompt": "Dia tidak sedang bekerja hari ini karena hari libur.",
-      "modelAnswer": "He is not working today because it is a holiday.",
-      "alternativeAnswers": [
-        "She is not working today because it is a holiday.",
-        "He isn't working today because it's a holiday.",
-        "She isn't working today because it's a holiday."
-      ],
-      "keyTokens": ["is not working", "today", "holiday"],
-      "hint": "'Tidak sedang' = isn't / is not. Don't use don't/doesn't with continuous.",
-      "explanation": "Third-person singular + isn't + Ving."
-    },
-    {
-      "id": "pc-tr-q-1",
-      "kind": "translation_id_to_en",
-      "form": "question",
-      "instruction": "Translate as a yes/no question in present continuous.",
-      "prompt": "Apakah kamu sedang menunggu seseorang?",
-      "modelAnswer": "Are you waiting for someone?",
-      "keyTokens": ["are you waiting", "someone"],
-      "hint": "'Menunggu' = wait for (with preposition).",
-      "explanation": "Are + subject + Ving. 'Wait' takes the preposition 'for' before its object."
-    },
-    {
-      "id": "pc-tr-q-2",
-      "kind": "translation_id_to_en",
-      "form": "question",
-      "instruction": "Translate as a Wh-question in present continuous.",
-      "prompt": "Apa yang sedang kamu lakukan di sini?",
-      "modelAnswer": "What are you doing here?",
-      "keyTokens": ["what are you doing"],
-      "explanation": "Wh + are + subject + Ving."
+      "answer": "drink / am drinking",
+      "explanation": "'Usually' = habit → Present Simple. 'Today' = temporary change → Present Continuous."
     }
   ]
 }

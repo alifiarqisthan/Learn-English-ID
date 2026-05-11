@@ -83,7 +83,6 @@
       "hint": "'to be' (was/were) makes questions by inverting subject — no 'did' needed.",
       "explanation": "Was/were invert directly: 'They were' → 'Were they?'. No auxiliary 'did' for to-be."
     },
-
     {
       "id": "sp-fb-pos-1",
       "kind": "fill_blank",
@@ -135,35 +134,12 @@
       "id": "sp-fb-q-1",
       "kind": "fill_blank",
       "form": "question",
-      "instruction": "Build the question. Type the words that go in the blanks separated by ' / '.",
+      "instruction": "Build the question.",
       "prompt": "What time ___ you ___ (wake) up this morning?",
       "acceptedAnswers": ["did / wake", "did wake"],
       "hint": "Wh-question structure: Wh-word + did + subject + base verb.",
       "explanation": "After 'did', the verb returns to base form."
     },
-    {
-      "id": "sp-fb-q-2",
-      "kind": "fill_blank",
-      "form": "question",
-      "instruction": "Form the question.",
-      "prompt": "___ (your sister / visit) Bali last summer?",
-      "acceptedAnswers": [
-        "did your sister visit",
-        "did your sister visited"
-      ],
-      "explanation": "Yes/no question: Did + subject + base verb. The second option is a common mistake (we accept it leniently here, but the correct form is 'Did your sister visit?')."
-    },
-    {
-      "id": "sp-fb-q-3",
-      "kind": "fill_blank",
-      "form": "question",
-      "instruction": "Form the past question with 'to be'.",
-      "prompt": "___ (you / be) at home when the package arrived?",
-      "acceptedAnswers": ["were you"],
-      "hint": "'to be' inverts directly: 'You were' → 'Were you?'",
-      "explanation": "Was/were make questions by subject-verb inversion. No 'did' needed."
-    },
-
     {
       "id": "sp-tr-pos-1",
       "kind": "translation_id_to_en",
@@ -171,9 +147,7 @@
       "instruction": "Translate the Indonesian sentence into English. Use simple past tense.",
       "prompt": "Kemarin saya membaca buku tentang sejarah.",
       "modelAnswer": "Yesterday I read a book about history.",
-      "alternativeAnswers": [
-        "I read a book about history yesterday."
-      ],
+      "alternativeAnswers": ["I read a book about history yesterday."],
       "keyTokens": ["yesterday", "read", "book", "history"],
       "hint": "'read' is irregular — same spelling, but pronounced /red/ in past tense.",
       "explanation": "Time marker 'kemarin' = 'yesterday'. The verb 'read' is irregular and unchanged in spelling."
@@ -194,21 +168,6 @@
       "explanation": "'pergi' → 'went' (irregular). 'tahun lalu' = 'last year'."
     },
     {
-      "id": "sp-tr-pos-3",
-      "kind": "translation_id_to_en",
-      "form": "positive",
-      "instruction": "Translate using simple past.",
-      "prompt": "Dia menulis surat panjang untuk ibunya minggu lalu.",
-      "modelAnswer": "He wrote a long letter to his mother last week.",
-      "alternativeAnswers": [
-        "She wrote a long letter to her mother last week.",
-        "Last week he wrote a long letter to his mother.",
-        "Last week she wrote a long letter to her mother."
-      ],
-      "keyTokens": ["wrote", "long letter", "mother", "last week"],
-      "explanation": "'menulis' → 'wrote' (irregular). 'minggu lalu' = 'last week'."
-    },
-    {
       "id": "sp-tr-neg-1",
       "kind": "translation_id_to_en",
       "form": "negative",
@@ -221,23 +180,7 @@
         "She did not go to school last week because she was sick."
       ],
       "keyTokens": ["did not go", "school", "last week", "sick"],
-      "hint": "'tidak pergi' = 'did not go / didn't go'. 'sakit' = 'was sick' (to be in past).",
-      "explanation": "Negative: did not / didn't + base verb. 'sakit' translates as 'was sick' because we need the past form of 'to be'."
-    },
-    {
-      "id": "sp-tr-neg-2",
-      "kind": "translation_id_to_en",
-      "form": "negative",
-      "instruction": "Translate using a negative simple past sentence.",
-      "prompt": "Saya tidak melihat kamu di pesta tadi malam.",
-      "modelAnswer": "I did not see you at the party last night.",
-      "alternativeAnswers": [
-        "I didn't see you at the party last night.",
-        "Last night I didn't see you at the party.",
-        "Last night I did not see you at the party."
-      ],
-      "keyTokens": ["did not see", "party", "last night"],
-      "explanation": "'melihat' → 'see' (base form after did/didn't). 'tadi malam' = 'last night'."
+      "explanation": "Negative: did not / didn't + base verb. 'sakit' = 'was sick'."
     },
     {
       "id": "sp-tr-q-1",
@@ -246,26 +189,9 @@
       "instruction": "Translate as a yes/no question in simple past.",
       "prompt": "Apakah kamu menonton film itu tadi malam?",
       "modelAnswer": "Did you watch that movie last night?",
-      "alternativeAnswers": [
-        "Did you watch the movie last night?"
-      ],
+      "alternativeAnswers": ["Did you watch the movie last night?"],
       "keyTokens": ["did you watch", "movie", "last night"],
       "explanation": "Yes/no question: Did + subject + base verb."
-    },
-    {
-      "id": "sp-tr-q-2",
-      "kind": "translation_id_to_en",
-      "form": "question",
-      "instruction": "Translate as a Wh-question in simple past.",
-      "prompt": "Di mana kamu makan siang kemarin?",
-      "modelAnswer": "Where did you have lunch yesterday?",
-      "alternativeAnswers": [
-        "Where did you eat lunch yesterday?",
-        "Where did you have lunch yesterday?"
-      ],
-      "keyTokens": ["where did you", "lunch", "yesterday"],
-      "hint": "'makan siang' = 'have lunch' or 'eat lunch'. Both are accepted.",
-      "explanation": "Wh-question: Wh-word + did + subject + base verb."
     },
     {
       "id": "sp-mc-be-1",
@@ -277,16 +203,6 @@
       "answer": "were",
       "hint": "'We' takes 'were'. Only 'I / he / she / it' use 'was'.",
       "explanation": "We / you / they → were. I / he / she / it → was."
-    },
-    {
-      "id": "sp-mc-be-2",
-      "kind": "multiple_choice",
-      "form": "negative",
-      "instruction": "Pick the correct negative form of 'to be' in the past.",
-      "prompt": "She ___ at school yesterday — she was at home with a fever.",
-      "options": ["didn't was", "wasn't", "weren't", "isn't"],
-      "answer": "wasn't",
-      "explanation": "Past 'to be' negates directly: was not / wasn't. Never use 'did' with was/were."
     },
     {
       "id": "sp-fb-be-1",
@@ -310,8 +226,7 @@
         "I was very tired after work last night."
       ],
       "keyTokens": ["was", "tired", "last night"],
-      "hint": "There is no Indonesian word for 'was' here — you have to add it because English requires it.",
-      "explanation": "Indonesian drops 'to be' (no word for 'was'), but English requires it. 'I' takes 'was'."
+      "explanation": "Indonesian drops 'to be', but English requires it. 'I' takes 'was'."
     }
   ]
 }

@@ -1,0 +1,181 @@
+{
+  "exercises": [
+    {
+      "id": "future-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the tense that best fits the context.",
+      "prompt": "\"The doorbell just rang.\" — \"I ___ it!\"",
+      "options": ["am going to get", "will be getting", "will get", "am getting"],
+      "answer": "will get",
+      "explanation": "Spontaneous decision made at the moment of speaking → will + V1."
+    },
+    {
+      "id": "future-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense.",
+      "prompt": "By the time the guests arrive, we ___ all the food.",
+      "options": ["will prepare", "will be preparing", "will have prepared", "will have been preparing"],
+      "answer": "will have prepared",
+      "hint": "'By the time' + completion before a future event → future perfect.",
+      "explanation": "Action completed before a future point → will have + V3."
+    },
+    {
+      "id": "future-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which tense shows an action in progress at a specific future moment?",
+      "prompt": "This time next month, she ___ her finals.",
+      "options": ["will sit", "will be sitting", "will have sat", "is going to sit"],
+      "answer": "will be sitting",
+      "hint": "'This time next month' = a future moment → action in progress at that point → future continuous.",
+      "explanation": "Action in progress at a specific future moment → will be + Ving."
+    },
+    {
+      "id": "future-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Plan already decided — which form is correct?",
+      "prompt": "I ___ quit my job and travel the world — I've already handed in my notice.",
+      "options": ["will", "am going to", "will be", "will have"],
+      "answer": "am going to",
+      "hint": "Proof of a pre-decided plan (handed in notice already) → going to.",
+      "explanation": "Pre-decided plan with evidence → am/is/are going to + V1."
+    },
+    {
+      "id": "future-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the tense that shows duration reaching a future milestone.",
+      "prompt": "By next June, she ___ at the hospital for three years.",
+      "options": ["will work", "will be working", "will have worked", "will have been working"],
+      "answer": "will have been working",
+      "hint": "'By next June' + 'for three years' + duration emphasis → future perfect continuous.",
+      "explanation": "Duration of ongoing activity reaching a future deadline → will have been + Ving."
+    },
+    {
+      "id": "future-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Visible evidence now — prediction about the future.",
+      "prompt": "Look at the forecast — it ___ all weekend.",
+      "options": ["will rain", "is going to rain", "will be raining", "will have rained"],
+      "answer": "is going to rain",
+      "hint": "Visible evidence (forecast) → going to for prediction.",
+      "explanation": "Prediction based on current evidence → is/are going to."
+    },
+    {
+      "id": "future-test-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative future form.",
+      "prompt": "She ___ the meeting by 5pm — the discussion is running long.",
+      "options": ["won't finish", "isn't going to finish", "won't have finished", "won't be finishing"],
+      "answer": "won't have finished",
+      "hint": "'By 5pm' + not completing before that deadline → future perfect negative.",
+      "explanation": "Not completed before a future deadline → won't have + V3."
+    },
+    {
+      "id": "future-test-8",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the polite inquiry form.",
+      "prompt": "___ you ___ the projector for the whole afternoon?",
+      "options": ["Will / use", "Are / going to use", "Will / be using", "Do / use"],
+      "answer": "Will / be using",
+      "hint": "Polite inquiry about existing plans → future continuous.",
+      "explanation": "'Will you be using?' = polite future continuous inquiry. Softer than 'Will you use?'"
+    },
+    {
+      "id": "future-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Stative verb + future — which form is correct?",
+      "prompt": "By their 20th anniversary, they ___ each other for over 25 years.",
+      "options": ["will have been knowing", "will know", "will have known", "will be knowing"],
+      "answer": "will have known",
+      "hint": "'Know' is stative. Duration to a future point + stative = future perfect simple.",
+      "explanation": "Stative verb 'know' cannot use continuous. Duration to future point → will have known."
+    },
+    {
+      "id": "future-test-10",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct future tense.",
+      "prompt": "By the time the conference starts, I ___ (rehearse) my speech for over a week.",
+      "acceptedAnswers": ["will have been rehearsing"],
+      "hint": "'By the time' + 'for over a week' + duration emphasis → future perfect continuous.",
+      "explanation": "Duration of ongoing activity up to a future point → will have been + Ving."
+    },
+    {
+      "id": "future-test-11",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct form.",
+      "prompt": "Don't call at 3pm — she ___ (meet) a client at that time.",
+      "acceptedAnswers": ["will be meeting"],
+      "hint": "'At that time' = a specific future moment → action in progress → future continuous.",
+      "explanation": "Action in progress at a specific future time → will be + Ving."
+    },
+    {
+      "id": "future-test-12",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate — decide which future tense each clause needs.",
+      "prompt": "Besok pagi, saya akan pergi ke dokter. Saya sudah membuat janji temu.",
+      "modelAnswer": "Tomorrow morning, I am going to go to the doctor. I have already made an appointment.",
+      "alternativeAnswers": [
+        "Tomorrow morning, I'm going to go to the doctor. I've already made an appointment.",
+        "Tomorrow morning, I am going to see the doctor. I have already made an appointment.",
+        "I am going to go to the doctor tomorrow morning. I have already made an appointment."
+      ],
+      "keyTokens": ["going to", "tomorrow", "already made"],
+      "hint": "Appointment already made = pre-decided plan → going to.",
+      "explanation": "Evidence of pre-decided plan → going to + V1."
+    },
+    {
+      "id": "future-test-13",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. Action in progress at a future moment.",
+      "prompt": "Pada tengah malam nanti, pesawat mereka sedang terbang di atas Samudra Pasifik.",
+      "modelAnswer": "At midnight tonight, their plane will be flying over the Pacific Ocean.",
+      "alternativeAnswers": ["At midnight, their plane will be flying over the Pacific."],
+      "keyTokens": ["will be flying", "at midnight", "pacific"],
+      "hint": "'Sedang terbang' at a future time = will be flying.",
+      "explanation": "Action in progress at a specific future moment → will be + Ving."
+    },
+    {
+      "id": "future-test-14",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate — completion before a future deadline.",
+      "prompt": "Sebelum akhir semester, dia sudah menyelesaikan semua tesisnya.",
+      "modelAnswer": "Before the end of the semester, she will have completed her entire thesis.",
+      "alternativeAnswers": [
+        "Before the end of the semester, he will have completed his entire thesis.",
+        "She will have finished her thesis before the end of the semester.",
+        "By the end of the semester, she will have completed her entire thesis."
+      ],
+      "keyTokens": ["will have completed", "before", "end of the semester"],
+      "hint": "'Sudah menyelesaikan sebelum' = will have completed before → future perfect.",
+      "explanation": "Completion before a future deadline → will have + V3."
+    },
+    {
+      "id": "future-test-15",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate — duration reaching a future milestone.",
+      "prompt": "Pada ulang tahun perusahaan ke-10, kami sudah melayani pelanggan selama satu dekade.",
+      "modelAnswer": "By the company's 10th anniversary, we will have been serving customers for a decade.",
+      "alternativeAnswers": [
+        "By the company's tenth anniversary, we will have been serving customers for a decade.",
+        "By our 10th anniversary, we will have been serving customers for ten years."
+      ],
+      "keyTokens": ["will have been serving", "for a decade", "anniversary"],
+      "hint": "'Sudah melayani selama satu dekade' at a future point = will have been serving for a decade.",
+      "explanation": "Duration of ongoing activity to a future milestone → will have been + Ving."
+    }
+  ]
+}

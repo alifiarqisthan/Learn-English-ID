@@ -19,13 +19,9 @@ export type SentenceForm = z.infer<typeof sentenceForm>;
 const baseExercise = z.object({
   id: z.string().min(1),
   prompt: z.string().min(1),
-  /** What the user should do — shown above the prompt as guidance */
   instruction: z.string().optional(),
-  /** Optional hint, hidden behind a button */
   hint: z.string().optional(),
-  /** Why the correct answer is correct — shown after grading */
   explanation: z.string().optional(),
-  /** Tag for balanced selection */
   form: sentenceForm.optional(),
 });
 
@@ -44,7 +40,6 @@ export const translationExercise = baseExercise.extend({
   kind: z.literal("translation_id_to_en"),
   modelAnswer: z.string(),
   alternativeAnswers: z.array(z.string()).default([]),
-  /** Words/phrases that must appear (in any order) for soft-match credit */
   keyTokens: z.array(z.string()).default([]),
 });
 
@@ -55,8 +50,42 @@ export const exercise = z.discriminatedUnion("kind", [
 ]);
 export type Exercise = z.infer<typeof exercise>;
 
-export const moduleGroupSlug = z.enum(["present", "past", "future"]);
+/** All subgroup slugs — each module belongs to exactly one subgroup */
+export const moduleGroupSlug = z.enum([
+  // 1. 12 Tenses
+  "present", "past", "future",
+  // 2. Sentence Structure & Clauses
+  "sentence-types", "relative-clauses", "noun-clauses", "adverb-clauses",
+  // 3. Nouns, Articles & Determiners
+  "articles", "quantifiers-determiners", "subject-verb-agreement",
+  // 4. Passive Voice
+  "passive-tenses", "passive-modal-reporting",
+  // 5. Modals & Hedging
+  "modals-core", "modals-advanced", "hedging",
+  // 6. Conditionals
+  "conditionals-real", "conditionals-hypothetical", "mixed-conditionals",
+  // 7. Verb Patterns
+  "gerunds-infinitives", "reported-speech", "causative",
+  // 8. Comparisons
+  "comparative-superlative", "comparison-structures",
+  // 9. Connectors & Cohesion
+  "connectors-basic", "connectors-advanced",
+]);
 export type ModuleGroupSlug = z.infer<typeof moduleGroupSlug>;
+
+/** Top-level master group */
+export const masterGroupSlug = z.enum([
+  "tenses",
+  "sentence-structure",
+  "nouns-articles",
+  "passive-voice",
+  "modals-hedging",
+  "conditionals",
+  "verb-patterns",
+  "comparisons",
+  "connectors-cohesion",
+]);
+export type MasterGroupSlug = z.infer<typeof masterGroupSlug>;
 
 export const moduleFrontmatter = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/),
@@ -64,14 +93,8 @@ export const moduleFrontmatter = z.object({
   level: cefrLevel,
   order: z.number().int().nonnegative(),
   summary: z.string().optional(),
-  /** How many questions to draw per attempt (defaults to all) */
   questionsPerAttempt: z.number().int().positive().optional(),
-  /** Which tense group this module belongs to */
   group: moduleGroupSlug,
-  /**
-   * If true, the module is a planned placeholder (no real lesson body yet).
-   * Roadmap shows it as "coming soon" and it can't be opened.
-   */
   placeholder: z.boolean().optional(),
 });
 export type ModuleFrontmatter = z.infer<typeof moduleFrontmatter>;
@@ -96,31 +119,25 @@ export const moduleDetail = moduleSummary.extend({
 });
 export type ModuleDetail = z.infer<typeof moduleDetail>;
 
-/* ---------------- Module groups (Present / Past / Future) ---------------- */
+/* ------------------- Module groups (subgroups) ------------------- */
 
 export const moduleGroupFrontmatter = z.object({
   slug: moduleGroupSlug,
   title: z.string().min(1),
   order: z.number().int().nonnegative(),
   summary: z.string().optional(),
+  masterGroup: masterGroupSlug,
 });
 export type ModuleGroupFrontmatter = z.infer<typeof moduleGroupFrontmatter>;
 
 export const moduleGroupSummary = moduleGroupFrontmatter.extend({
-  /** How many member modules in this group (placeholders count) */
   moduleCount: z.number().int().nonnegative(),
-  /** Whether the group test has authored questions yet */
   hasTest: z.boolean(),
 });
 export type ModuleGroupSummary = z.infer<typeof moduleGroupSummary>;
 
 export const moduleGroupDetail = moduleGroupSummary.extend({
-  /** The group's intro/explanation MDX body */
   body: z.string(),
-  /**
-   * Auto-generated summary content stitched from each member module's
-   * "Quick Summary" section (or null if a member doesn't have one).
-   */
   autoSummary: z.array(
     z.object({
       slug: z.string(),
@@ -134,7 +151,7 @@ export const moduleGroupDetail = moduleGroupSummary.extend({
 export type ModuleGroupDetail = z.infer<typeof moduleGroupDetail>;
 
 export const moduleGroupTest = z.object({
-  slug: moduleGroupSlug,
+  slug: z.string(),
   title: z.string(),
   exercises: z.array(exercise),
 });
@@ -148,13 +165,10 @@ export const attemptInput = z.object({
 });
 export type AttemptInput = z.infer<typeof attemptInput>;
 
-/* ---------- Reference (cheat-sheet) modules ---------- */
+/* ---------- References ---------- */
 
 export const referenceCategory = z.enum([
-  "foundation",
-  "vocabulary",
-  "structure",
-  "exam",
+  "foundation", "vocabulary", "structure", "exam",
 ]);
 export type ReferenceCategory = z.infer<typeof referenceCategory>;
 
@@ -164,7 +178,6 @@ export const referenceFrontmatter = z.object({
   category: referenceCategory,
   order: z.number().int().nonnegative(),
   summary: z.string().optional(),
-  /** Estimated reading time in minutes */
   readingMinutes: z.number().int().positive().optional(),
 });
 export type ReferenceFrontmatter = z.infer<typeof referenceFrontmatter>;

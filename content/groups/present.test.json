@@ -1,0 +1,175 @@
+{
+  "exercises": [
+    {
+      "id": "present-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the tense that best fits the context.",
+      "prompt": "Water ___ at 100 degrees Celsius.",
+      "options": ["is boiling", "boils", "has boiled", "has been boiling"],
+      "answer": "boils",
+      "explanation": "Universal scientific fact → Present Simple. Not an action in progress, not a recent result."
+    },
+    {
+      "id": "present-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense.",
+      "prompt": "Look out the window! It ___. We can't go out now.",
+      "options": ["rains", "is raining", "has rained", "has been raining"],
+      "answer": "is raining",
+      "hint": "'Look!' = right now, observable → Present Continuous.",
+      "explanation": "Action happening at this moment → Present Continuous."
+    },
+    {
+      "id": "present-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Simple past, present perfect, or present continuous?",
+      "prompt": "I can't find my wallet. I think I ___ it.",
+      "options": ["lose", "lost", "have lost", "am losing"],
+      "answer": "have lost",
+      "explanation": "Result still relevant now (can't find it) + no specific time stated → Present Perfect."
+    },
+    {
+      "id": "present-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the form that emphasizes ongoing duration.",
+      "prompt": "She ___ on that essay for three hours — she must be exhausted.",
+      "options": ["works", "is working", "has worked", "has been working"],
+      "answer": "has been working",
+      "hint": "'For three hours' + emphasis on effort/process → Present Perfect Continuous.",
+      "explanation": "Duration of ongoing activity → Present Perfect Continuous."
+    },
+    {
+      "id": "present-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which tense is correct with 'every day'?",
+      "prompt": "My father ___ to work by bicycle every day.",
+      "options": ["is going", "goes", "has gone", "has been going"],
+      "answer": "goes",
+      "explanation": "'Every day' = habitual routine → Present Simple."
+    },
+    {
+      "id": "present-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Present perfect or simple past?",
+      "prompt": "___ you ever ___ durian ice cream?",
+      "options": ["Did / try", "Have / tried", "Did / tried", "Have / try"],
+      "answer": "Have / tried",
+      "hint": "'Ever' = experience up to now → Present Perfect.",
+      "explanation": "Experience question → Have + subject + ever + V3."
+    },
+    {
+      "id": "present-test-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative form.",
+      "prompt": "He ___ a word all evening — he must be deep in thought.",
+      "options": ["doesn't say", "isn't saying", "hasn't said", "hasn't been saying"],
+      "answer": "hasn't said",
+      "hint": "No specific time + result (silence so far) → Present Perfect. Action is not in progress.",
+      "explanation": "Result up to now (silence all evening) → Present Perfect. 'He' → hasn't."
+    },
+    {
+      "id": "present-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which is correct for an ongoing process vs a completed result?",
+      "prompt": "I ___ the project. You can review it now.",
+      "options": ["am finishing", "have been finishing", "have finished", "finish"],
+      "answer": "have finished",
+      "hint": "'You can review it now' = it's done → focus is on completion, not duration.",
+      "explanation": "Completed result → Present Perfect Simple. Continuous would imply it's still in progress."
+    },
+    {
+      "id": "present-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which tense shows a temporary situation?",
+      "prompt": "She usually lives in Bandung, but she ___ with her aunt in Jakarta this month.",
+      "options": ["stays", "is staying", "has stayed", "has been staying"],
+      "answer": "is staying",
+      "hint": "'This month' + temporary (not permanent) → Present Continuous.",
+      "explanation": "Temporary situation, contrasting with permanent → Present Continuous."
+    },
+    {
+      "id": "present-test-10",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct present tense.",
+      "prompt": "My English ___ (improve) a lot since I started using this app.",
+      "acceptedAnswers": ["has improved", "has been improving"],
+      "hint": "'Since' = duration up to now. Both perfect and perfect continuous work here.",
+      "explanation": "'Since' + progress up to now → Present Perfect or Present Perfect Continuous. Both accepted."
+    },
+    {
+      "id": "present-test-11",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Fill in the correct form for this context.",
+      "prompt": "Why ___ (you / look) at me like that? Did I say something wrong?",
+      "acceptedAnswers": ["are you looking"],
+      "explanation": "Right now, at this moment → Present Continuous."
+    },
+    {
+      "id": "present-test-12",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate carefully — which of the 4 present tenses does this need?",
+      "prompt": "Saya biasanya bangun jam 6 pagi setiap hari.",
+      "modelAnswer": "I usually wake up at 6 in the morning every day.",
+      "alternativeAnswers": [
+        "I usually wake up at 6 am every day.",
+        "I usually get up at 6 in the morning every day.",
+        "I usually get up at 6 am every day."
+      ],
+      "keyTokens": ["usually", "every day"],
+      "hint": "'Biasanya' = usually + 'setiap hari' = every day → habit → Present Simple.",
+      "explanation": "Habitual routine → Present Simple."
+    },
+    {
+      "id": "present-test-13",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. This one is a result still relevant now.",
+      "prompt": "Teman saya baru saja lulus ujian IELTS.",
+      "modelAnswer": "My friend has just passed the IELTS exam.",
+      "alternativeAnswers": ["My friend has just passed the IELTS test."],
+      "keyTokens": ["has just passed"],
+      "hint": "'Baru saja' = just → recent result → Present Perfect.",
+      "explanation": "'Baru saja' = just, very recently → Present Perfect."
+    },
+    {
+      "id": "present-test-14",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate — emphasis is on how long the action has been going on.",
+      "prompt": "Dia sudah menunggu di luar selama satu jam dan masih menunggu.",
+      "modelAnswer": "He has been waiting outside for one hour and is still waiting.",
+      "alternativeAnswers": [
+        "She has been waiting outside for one hour and is still waiting.",
+        "He has been waiting outside for an hour and is still waiting.",
+        "She has been waiting outside for an hour and is still waiting."
+      ],
+      "keyTokens": ["has been waiting", "for", "still waiting"],
+      "hint": "'Sudah…selama' + 'masih menunggu' (still ongoing) → Present Perfect Continuous.",
+      "explanation": "Duration + still in progress → Present Perfect Continuous."
+    },
+    {
+      "id": "present-test-15",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. An action happening right at this moment.",
+      "prompt": "Tolong jangan berisik. Bayi saya sedang tidur.",
+      "modelAnswer": "Please don't make noise. My baby is sleeping.",
+      "alternativeAnswers": ["Please be quiet. My baby is sleeping."],
+      "keyTokens": ["is sleeping"],
+      "hint": "'Sedang' = right now → Present Continuous.",
+      "explanation": "Action in progress at this moment → Present Continuous."
+    }
+  ]
+}

@@ -4,7 +4,8 @@ import { cn } from "@/lib/utils";
 import { ThemeToggle } from "./theme-toggle";
 
 const tabs = [
-  { to: "/", label: "Modules", end: true },
+  { to: "/", label: "Home", end: true },
+  { to: "/groups", label: "Modules" },
   { to: "/references", label: "References" },
   { to: "/practice", label: "Practice" },
   { to: "/progress", label: "Progress" },

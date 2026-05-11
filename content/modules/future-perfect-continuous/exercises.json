@@ -1,1 +1,140 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "fpc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future perfect continuous form.",
+      "prompt": "By the end of this year, I ___ English for five years.",
+      "options": ["will study", "will be studying", "will have studied", "will have been studying"],
+      "answer": "will have been studying",
+      "hint": "'By the end of this year' + duration emphasis → future perfect continuous.",
+      "explanation": "Duration of ongoing activity up to a future point → will have been + Ving."
+    },
+    {
+      "id": "fpc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the form that emphasises duration of effort.",
+      "prompt": "By the time she crosses the finish line, she ___ for over three hours.",
+      "options": ["will run", "will be running", "will have run", "will have been running"],
+      "answer": "will have been running",
+      "hint": "'Over three hours' of continuous activity before a future point → future perfect continuous.",
+      "explanation": "Duration of ongoing activity before a future point → will have been + Ving."
+    },
+    {
+      "id": "fpc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative future perfect continuous.",
+      "prompt": "By next month, she ___ properly for several weeks — the stress is taking its toll.",
+      "options": ["won't sleep", "won't be sleeping", "won't have slept", "won't have been sleeping"],
+      "answer": "won't have been sleeping",
+      "hint": "Ongoing pattern leading to a future point, negative → won't have been + Ving.",
+      "explanation": "Negative ongoing activity up to a future point → won't have been + Ving."
+    },
+    {
+      "id": "fpc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct 'How long' future perfect continuous question.",
+      "prompt": "How long ___ you ___ this company when you retire?",
+      "options": ["will / run", "will / be running", "will / have run", "will / have been running"],
+      "answer": "will / have been running",
+      "hint": "'How long' + duration up to a future point → will have been + Ving.",
+      "explanation": "Duration question to a future point: How long + will + subject + have been + Ving."
+    },
+    {
+      "id": "fpc-mc-stative-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Stative or action verb? Choose the right form.",
+      "prompt": "By our wedding anniversary, we ___ each other for ten years.",
+      "options": ["will have been knowing", "will have known", "will be knowing", "will know"],
+      "answer": "will have known",
+      "hint": "'Know' is stative — cannot use continuous. Duration to a future point + stative = future perfect simple.",
+      "explanation": "Stative verb → future perfect simple: will have known (not will have been knowing)."
+    },
+    {
+      "id": "fpc-mc-fp-fpc-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Completion vs duration — which tense fits?",
+      "prompt": "By 5pm, he ___ the entire proposal. You can read it then.",
+      "options": ["will have been writing", "will have written", "will be writing", "will write"],
+      "answer": "will have written",
+      "hint": "'You can read it then' = it's finished → focus on completion → future perfect simple.",
+      "explanation": "Completed result → future perfect simple. Continuous would imply still in progress."
+    },
+    {
+      "id": "fpc-fb-pos-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the future perfect continuous form.",
+      "prompt": "By the time this project ends, the team ___ (work) on it for two years.",
+      "acceptedAnswers": ["will have been working"],
+      "explanation": "'By the time' + duration → will have been + Ving."
+    },
+    {
+      "id": "fpc-fb-neg-1",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative. Both 'won't have been' and 'will not have been' accepted.",
+      "prompt": "By next year, she ___ (not / teach) long enough to apply for promotion.",
+      "acceptedAnswers": ["won't have been teaching", "will not have been teaching"],
+      "explanation": "Negative future perfect continuous: won't have been / will not have been + Ving."
+    },
+    {
+      "id": "fpc-fb-q-1",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Form the 'How long' future perfect continuous question.",
+      "prompt": "How long ___ (she / study) medicine by the time she qualifies as a doctor?",
+      "acceptedAnswers": ["will she have been studying"],
+      "hint": "How long + will + subject + have been + Ving.",
+      "explanation": "Duration question to a future point: How long + will she have been + Ving."
+    },
+    {
+      "id": "fpc-tr-pos-1",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate using future perfect continuous.",
+      "prompt": "Pada bulan Desember, saya sudah belajar bahasa Inggris selama 5 tahun.",
+      "modelAnswer": "By December, I will have been studying English for five years.",
+      "alternativeAnswers": [
+        "By December, I will have been learning English for five years.",
+        "By December, I'll have been studying English for 5 years."
+      ],
+      "keyTokens": ["by december", "will have been studying", "five years"],
+      "explanation": "Duration of ongoing activity to a future deadline → will have been + Ving."
+    },
+    {
+      "id": "fpc-tr-pos-2",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. Emphasise how long the work has been ongoing.",
+      "prompt": "Saat proyek ini selesai, tim kami sudah bekerja keras selama dua tahun.",
+      "modelAnswer": "By the time this project is done, our team will have been working hard for two years.",
+      "alternativeAnswers": [
+        "When this project is finished, our team will have been working hard for two years.",
+        "By the time this project ends, our team will have been working hard for 2 years."
+      ],
+      "keyTokens": ["will have been working", "two years", "by the time"],
+      "explanation": "Duration of ongoing effort up to a future point → will have been + Ving."
+    },
+    {
+      "id": "fpc-tr-pos-3",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate — watch for the stative verb trap.",
+      "prompt": "Pada ulang tahun pernikahan kami yang ke-10, kami sudah saling mengenal selama 15 tahun.",
+      "modelAnswer": "By our 10th wedding anniversary, we will have known each other for 15 years.",
+      "alternativeAnswers": [
+        "By our tenth wedding anniversary, we will have known each other for 15 years."
+      ],
+      "keyTokens": ["will have known", "for 15 years", "anniversary"],
+      "hint": "'Mengenal' = know → stative verb. Use future perfect SIMPLE: will have known.",
+      "explanation": "'Know' is stative — cannot use continuous form. Future perfect simple: will have known."
+    }
+  ]
+}

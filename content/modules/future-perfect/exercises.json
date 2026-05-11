@@ -1,1 +1,150 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "fp-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future perfect form.",
+      "prompt": "By the time she gets home, I ___ dinner already.",
+      "options": ["will cook", "will be cooking", "will have cooked", "am going to cook"],
+      "answer": "will have cooked",
+      "hint": "'By the time' + two future events → the earlier one uses future perfect.",
+      "explanation": "'By the time she gets home' = a future reference point. Action completed before that → will have + V3."
+    },
+    {
+      "id": "fp-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Future simple or future perfect?",
+      "prompt": "By 2030, the company ___ its 100th anniversary.",
+      "options": ["celebrates", "will celebrate", "will have celebrated", "will be celebrating"],
+      "answer": "will have celebrated",
+      "hint": "'By 2030' = future deadline → completion before that point → future perfect.",
+      "explanation": "'By 2030' signals completion before a future deadline → will have + V3."
+    },
+    {
+      "id": "fp-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form. Watch the V3.",
+      "prompt": "Before the end of the year, she ___ all her debts.",
+      "options": ["will pay", "will paid", "will have paid", "will has paid"],
+      "answer": "will have paid",
+      "hint": "'Before the end of the year' = deadline. 'will has' is always wrong — use 'will have'.",
+      "explanation": "Future perfect: will have + V3. Never 'will has'. V3 of pay = paid."
+    },
+    {
+      "id": "fp-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative future perfect.",
+      "prompt": "Don't come at 5pm — I ___ the report yet.",
+      "options": ["won't finish", "won't have finished", "will not be finishing", "haven't finished"],
+      "answer": "won't have finished",
+      "hint": "Not completed by 5pm → won't have + V3.",
+      "explanation": "Negative future perfect: won't have + V3. Completion will not occur before the deadline."
+    },
+    {
+      "id": "fp-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct future perfect question.",
+      "prompt": "___ you ___ all the chapters by the end of the week?",
+      "options": ["Will / read", "Will / have read", "Have / read", "Will / be reading"],
+      "answer": "Will / have read",
+      "hint": "Future perfect question: Will + subject + have + V3.",
+      "explanation": "Will + subject + have + V3. V3 of read = read."
+    },
+    {
+      "id": "fp-mc-v3-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Watch the V3 form — not V2.",
+      "prompt": "By the time you arrive, she ___ to Paris already.",
+      "options": ["will have went", "will have gone", "will went", "will has gone"],
+      "answer": "will have gone",
+      "hint": "V3 of 'go' = gone (not 'went' which is V2). After 'will have', always use V3.",
+      "explanation": "V2 = went, V3 = gone. Future perfect: will have + V3 → will have gone."
+    },
+    {
+      "id": "fp-fb-pos-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the future perfect form.",
+      "prompt": "By Friday afternoon, the technicians ___ (install) the new system.",
+      "acceptedAnswers": ["will have installed"],
+      "explanation": "'By Friday' = future deadline → will have + V3."
+    },
+    {
+      "id": "fp-fb-pos-2",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in. Watch the irregular V3.",
+      "prompt": "By the time the guests arrive, she ___ (write) 50 invitations.",
+      "acceptedAnswers": ["will have written"],
+      "hint": "V3 of 'write' = written (not wrote).",
+      "explanation": "V3 of write = written. Future perfect: will have + written."
+    },
+    {
+      "id": "fp-fb-neg-1",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative future perfect. Both 'won't have' and 'will not have' accepted.",
+      "prompt": "I'm worried — by the deadline, we ___ (not / collect) enough data.",
+      "acceptedAnswers": ["won't have collected", "will not have collected"],
+      "explanation": "Negative future perfect: won't have / will not have + V3."
+    },
+    {
+      "id": "fp-fb-q-1",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Form the future perfect question.",
+      "prompt": "___ (they / finish) construction by the time the president visits?",
+      "acceptedAnswers": ["will they have finished"],
+      "hint": "Will + subject + have + V3.",
+      "explanation": "Future perfect question: Will + subject + have + V3."
+    },
+    {
+      "id": "fp-tr-pos-1",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. 'Sudah selesai sebelum' = future perfect signal.",
+      "prompt": "Sebelum kamu tiba, saya sudah selesai memasak.",
+      "modelAnswer": "By the time you arrive, I will have finished cooking.",
+      "alternativeAnswers": [
+        "Before you arrive, I will have finished cooking.",
+        "I will have finished cooking before you arrive."
+      ],
+      "keyTokens": ["will have finished", "by the time", "arrive"],
+      "explanation": "Completion before a future event → will have + V3."
+    },
+    {
+      "id": "fp-tr-neg-1",
+      "kind": "translation_id_to_en",
+      "form": "negative",
+      "instruction": "Translate as a negative future perfect.",
+      "prompt": "Dia tidak akan selesai proyek itu sebelum akhir bulan.",
+      "modelAnswer": "She won't have finished the project before the end of the month.",
+      "alternativeAnswers": [
+        "He won't have finished the project before the end of the month.",
+        "She will not have finished the project by the end of the month."
+      ],
+      "keyTokens": ["won't have finished", "by the end of the month"],
+      "explanation": "Negative future perfect: won't have + V3 before a deadline."
+    },
+    {
+      "id": "fp-tr-q-1",
+      "kind": "translation_id_to_en",
+      "form": "question",
+      "instruction": "Translate as a future perfect question.",
+      "prompt": "Apakah kamu akan sudah menyelesaikan tugas itu pada hari Jumat?",
+      "modelAnswer": "Will you have finished the assignment by Friday?",
+      "alternativeAnswers": [
+        "Will you have completed the assignment by Friday?",
+        "Will you have finished the task by Friday?"
+      ],
+      "keyTokens": ["will you have finished", "by friday"],
+      "explanation": "Future perfect question: Will + subject + have + V3 + by [deadline]."
+    }
+  ]
+}

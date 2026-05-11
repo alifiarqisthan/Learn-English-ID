@@ -1,13 +1,16 @@
 import { Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SiteHeader } from "@/components/site-header";
-import ModuleList from "./pages/ModuleList";
-import ModulePage from "./pages/ModulePage";
+import HomePage from "./pages/HomePage";
+import GroupListPage from "./pages/GroupListPage";
 import GroupPage from "./pages/GroupPage";
+import GroupDetailPage from "./pages/GroupDetailPage";
 import GroupTestPage from "./pages/GroupTestPage";
+import ModulePage from "./pages/ModulePage";
 import PracticePage from "./pages/PracticePage";
 import ProgressPage from "./pages/ProgressPage";
 import MockTestPage from "./pages/MockTestPage";
+import MasterTestPage from "./pages/MasterTestPage";
 import ReferenceList from "./pages/ReferenceList";
 import ReferencePage from "./pages/ReferencePage";
 
@@ -18,15 +21,18 @@ export default function App() {
         <SiteHeader />
         <main className="container py-8">
           <Routes>
-            <Route path="/" element={<ModuleList />} />
-            <Route path="/modules/:slug" element={<ModulePage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/groups" element={<GroupListPage />} />
             <Route path="/groups/:slug" element={<GroupPage />} />
+            <Route path="/groups/:slug/overview" element={<GroupDetailPage />} />
             <Route path="/groups/:slug/test" element={<GroupTestPage />} />
+            <Route path="/modules/:slug" element={<ModulePage />} />
             <Route path="/references" element={<ReferenceList />} />
             <Route path="/references/:slug" element={<ReferencePage />} />
             <Route path="/practice" element={<PracticePage />} />
             <Route path="/progress" element={<ProgressPage />} />
             <Route path="/mock-test" element={<MockTestPage />} />
+            <Route path="/master-test" element={<MasterTestPage />} />
           </Routes>
         </main>
       </div>

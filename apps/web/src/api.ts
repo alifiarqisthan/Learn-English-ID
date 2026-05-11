@@ -43,4 +43,6 @@ export const api = {
   getGroup: (slug: string) => jsonFetch<ModuleGroupDetail>(`/groups/${slug}`),
   getGroupTest: (slug: string) =>
     jsonFetch<ModuleGroupTest>(`/groups/${slug}/test`),
+  getMasterTest: () =>
+    jsonFetch<ModuleGroupTest>("/groups/master/test"),
 };

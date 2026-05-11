@@ -33,7 +33,7 @@ export default function GroupTestPage() {
       <Button variant="ghost" size="sm" asChild className="-ml-3">
         <Link to={`/groups/${slug}`}>
           <ChevronLeft className="h-4 w-4" />
-          Back to group
+          Back to roadmap
         </Link>
       </Button>
 

@@ -1,1 +1,174 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ppc2-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past perfect continuous form.",
+      "prompt": "I ___ for the bus for forty minutes when it finally arrived.",
+      "options": ["waited", "was waiting", "had waited", "had been waiting"],
+      "answer": "had been waiting",
+      "hint": "'For forty minutes' + action before the bus arrived → past perfect continuous.",
+      "explanation": "Duration of ongoing action before a past event → had been + Ving."
+    },
+    {
+      "id": "ppc2-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the form that best explains the visible result.",
+      "prompt": "Her hands were covered in paint — she ___ all morning.",
+      "options": ["painted", "was painting", "had painted", "had been painting"],
+      "answer": "had been painting",
+      "hint": "Visible evidence (paint on hands) of a prolonged activity that just ended → past perfect continuous.",
+      "explanation": "Evidence of extended past activity → had been + Ving."
+    },
+    {
+      "id": "ppc2-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which form emphasises ongoing duration before a past point?",
+      "prompt": "By the time the rescue team found them, they ___ without food for five days.",
+      "options": ["survived", "were surviving", "had survived", "had been surviving"],
+      "answer": "had been surviving",
+      "hint": "'By the time' + duration → past perfect continuous.",
+      "explanation": "Duration of ongoing action up to a past reference point → had been + Ving."
+    },
+    {
+      "id": "ppc2-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative past perfect continuous.",
+      "prompt": "The project failed partly because the team ___ properly.",
+      "options": ["didn't communicate", "wasn't communicating", "hadn't been communicating", "hasn't been communicating"],
+      "answer": "hadn't been communicating",
+      "hint": "Ongoing failure (before the project's end) → past perfect continuous negative.",
+      "explanation": "Ongoing pattern leading up to a past point → hadn't been + Ving."
+    },
+    {
+      "id": "ppc2-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct 'How long' question.",
+      "prompt": "How long ___ you ___ English before you passed IELTS?",
+      "options": ["did / study", "have / been studying", "had / studied", "had / been studying"],
+      "answer": "had / been studying",
+      "hint": "Duration before a past event: How long + had + subject + been + Ving.",
+      "explanation": "'How long had you been studying?' = classic past perfect continuous question."
+    },
+    {
+      "id": "ppc2-mc-stative-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Stative or action verb? Choose the right form.",
+      "prompt": "They ___ each other for ten years before they got married.",
+      "options": ["had been knowing", "had known", "were knowing", "knew"],
+      "answer": "had known",
+      "hint": "'Know' is stative → past perfect SIMPLE, even with duration.",
+      "explanation": "Stative verb 'know' cannot use continuous form. Use past perfect simple: had known."
+    },
+    {
+      "id": "ppc2-mc-ppc-pp-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which form shows the action is complete vs still ongoing at that past point?",
+      "prompt": "I ___ the report, so I handed it to my manager.",
+      "options": ["had been writing", "had written", "was writing", "have written"],
+      "answer": "had written",
+      "hint": "'So I handed it' = it was finished. Focus on completion → past perfect simple.",
+      "explanation": "Completed result → past perfect simple. Continuous would imply still being written."
+    },
+    {
+      "id": "ppc2-fb-pos-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the past perfect continuous form.",
+      "prompt": "The students ___ (study) for six hours straight when the teacher finally dismissed them.",
+      "acceptedAnswers": ["had been studying"],
+      "explanation": "'For six hours' + action before a past event → had been + Ving."
+    },
+    {
+      "id": "ppc2-fb-pos-2",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in. Watch have/has → had.",
+      "prompt": "It ___ (rain) for three days before the flood warning was issued.",
+      "acceptedAnswers": ["had been raining"],
+      "explanation": "Duration before a past event: had been + Ving. Subject 'it' takes 'had'."
+    },
+    {
+      "id": "ppc2-fb-neg-1",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative past perfect continuous. Both 'hadn't been' and 'had not been' accepted.",
+      "prompt": "She ___ (not / sleep) properly for weeks before she went to the doctor.",
+      "acceptedAnswers": ["hadn't been sleeping", "had not been sleeping"],
+      "explanation": "'For weeks' + negative ongoing pattern before a past point → hadn't been + Ving."
+    },
+    {
+      "id": "ppc2-fb-q-1",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Build the 'How long' question.",
+      "prompt": "How long ___ (he / work) at that company before he resigned?",
+      "acceptedAnswers": ["had he been working"],
+      "hint": "How long + had + subject + been + Ving.",
+      "explanation": "Duration question: How long + had he been + Ving."
+    },
+    {
+      "id": "ppc2-tr-pos-1",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate using past perfect continuous. Focus on duration before the past event.",
+      "prompt": "Saya sudah menunggu selama satu jam ketika taksi akhirnya tiba.",
+      "modelAnswer": "I had been waiting for one hour when the taxi finally arrived.",
+      "alternativeAnswers": [
+        "I had been waiting for an hour when the taxi finally arrived.",
+        "I'd been waiting for one hour when the taxi finally arrived."
+      ],
+      "keyTokens": ["had been waiting", "for", "when"],
+      "explanation": "Duration before a past event → past perfect continuous."
+    },
+    {
+      "id": "ppc2-tr-pos-2",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. The visible result explains the ongoing past activity.",
+      "prompt": "Matanya merah dan bengkak — dia sudah menangis sejak lama.",
+      "modelAnswer": "Her eyes were red and swollen — she had been crying for a long time.",
+      "alternativeAnswers": [
+        "His eyes were red and swollen — he had been crying for a long time.",
+        "Her eyes were red and puffy — she had been crying for a long time."
+      ],
+      "keyTokens": ["had been crying", "for a long time"],
+      "explanation": "Evidence of extended activity before the observation point → past perfect continuous."
+    },
+    {
+      "id": "ppc2-tr-neg-1",
+      "kind": "translation_id_to_en",
+      "form": "negative",
+      "instruction": "Translate as a negative past perfect continuous.",
+      "prompt": "Mesinnya rusak karena tidak pernah dirawat dengan baik selama bertahun-tahun.",
+      "modelAnswer": "The machine broke down because it hadn't been maintained properly for years.",
+      "alternativeAnswers": [
+        "The engine broke down because it hadn't been maintained properly for years.",
+        "The machine broke down because it had not been maintained properly for years."
+      ],
+      "keyTokens": ["hadn't been maintained", "for years"],
+      "explanation": "Duration of negative ongoing action before a past event → hadn't been + Ving."
+    },
+    {
+      "id": "ppc2-tr-q-1",
+      "kind": "translation_id_to_en",
+      "form": "question",
+      "instruction": "Translate as a 'How long' question.",
+      "prompt": "Sudah berapa lama kamu belajar bahasa Inggris sebelum kamu lulus IELTS?",
+      "modelAnswer": "How long had you been studying English before you passed IELTS?",
+      "alternativeAnswers": [
+        "How long had you been learning English before you passed IELTS?",
+        "How long had you been studying English before passing IELTS?"
+      ],
+      "keyTokens": ["how long had you been studying", "before"],
+      "explanation": "Duration question before a past event: How long + had you been + Ving + before [simple past]."
+    }
+  ]
+}

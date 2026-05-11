@@ -274,6 +274,8 @@ export default function ExerciseRunner({
           value={draft}
           onChange={setDraft}
           disabled={feedback !== null}
+          onSubmit={submit}
+          onNext={next}
         />
 
         {current!.hint && !feedback && (
@@ -359,15 +361,33 @@ function ExerciseInput({
   value,
   onChange,
   disabled,
+  onSubmit,
+  onNext,
 }: {
   exercise: Exercise;
   value: string;
   onChange: (v: string) => void;
   disabled: boolean;
+  onSubmit: () => void;
+  onNext: () => void;
 }) {
+  function handleKeyDown(e: React.KeyboardEvent) {
+    if (e.key !== "Enter") return;
+    if (disabled) {
+      e.preventDefault();
+      onNext();
+      return;
+    }
+    if (!value.trim()) return;
+    // Shift+Enter = newline in translation textarea; plain Enter = submit
+    if (exercise.kind === "translation_id_to_en" && e.shiftKey) return;
+    e.preventDefault();
+    onSubmit();
+  }
+
   if (exercise.kind === "multiple_choice") {
     return (
-      <div className="grid gap-2">
+      <div className="grid gap-2" onKeyDown={handleKeyDown}>
         {exercise.options.map((opt) => {
           const selected = value === opt;
           return (
@@ -420,11 +440,12 @@ function ExerciseInput({
       rows={exercise.kind === "translation_id_to_en" ? 3 : 1}
       placeholder={
         exercise.kind === "translation_id_to_en"
-          ? "Type your English translation…"
+          ? "Type your English translation… (Shift+Enter for newline)"
           : "Type your answer…"
       }
       value={value}
       onChange={(e) => onChange(e.target.value)}
+      onKeyDown={handleKeyDown}
       disabled={disabled}
     />
   );

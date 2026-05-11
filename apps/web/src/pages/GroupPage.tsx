@@ -1,129 +1,123 @@
-import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import { ArrowRight, ChevronLeft, Sparkles, Trophy } from "lucide-react";
-import type { ModuleGroupDetail } from "@app/shared";
+import { useCallback, useEffect, useState } from "react";
+import { Link, useLocation, useParams } from "react-router-dom";
+import { ArrowRight, BookOpen, ChevronLeft } from "lucide-react";
+import type { ModuleGroupSummary, ModuleSummary } from "@app/shared";
 import { api } from "../api";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Markdown } from "@/components/markdown";
+  GroupRoadmap,
+  isGroupComplete,
+} from "@/components/group-roadmap";
+
+type Progress = Record<
+  string,
+  { completedAt: string | null; lastScore: number | null }
+>;
 
 export default function GroupPage() {
   const { slug = "" } = useParams();
-  const [group, setGroup] = useState<ModuleGroupDetail | null>(null);
+  const [modules, setModules] = useState<ModuleSummary[] | null>(null);
+  const [groups, setGroups] = useState<ModuleGroupSummary[] | null>(null);
+  const [progress, setProgress] = useState<Progress>({});
   const [error, setError] = useState<string | null>(null);
+  const location = useLocation();
+
+  const fetchProgress = useCallback(() => {
+    api.getProgress().then((rows) => {
+      const map: Progress = {};
+      for (const r of rows) map[r.slug] = { completedAt: r.completedAt, lastScore: r.lastScore };
+      setProgress(map);
+    }).catch(() => {});
+  }, []);
 
   useEffect(() => {
-    setGroup(null);
-    api.getGroup(slug).then(setGroup).catch((e) => setError(String(e)));
-  }, [slug]);
+    api.listModules().then(setModules).catch((e) => setError(String(e)));
+    api.listGroups().then(setGroups).catch((e) => setError(String(e)));
+  }, []);
 
-  if (error)
-    return <p className="text-destructive">Failed to load: {error}</p>;
-  if (!group) return <p className="text-muted-foreground">Loading…</p>;
+  useEffect(() => { fetchProgress(); }, [fetchProgress, location.key]);
+
+  useEffect(() => {
+    const onFocus = () => fetchProgress();
+    window.addEventListener("focus", onFocus);
+    return () => window.removeEventListener("focus", onFocus);
+  }, [fetchProgress]);
+
+  if (error) return <p className="text-destructive">Failed to load: {error}</p>;
+  if (!modules || !groups) return <p className="text-muted-foreground">Loading…</p>;
+
+  const group = groups.find((g) => g.slug === slug);
+  if (!group) return <p className="text-destructive">Group not found.</p>;
+
+  const groupModules = modules.filter((m) => m.group === slug);
+
+  // Cascade: determine if this group is unlocked
+  let groupUnlocked = true;
+  for (const g of groups) {
+    if (g.slug === slug) break;
+    const gMods = modules.filter((m) => m.group === g.slug);
+    if (!isGroupComplete({ slug: g.slug, modules: gMods }, progress)) {
+      groupUnlocked = false;
+      break;
+    }
+  }
+
+  const ctx = { groupUnlocked, hasTest: group.hasTest };
+  const groupIdx = groups.findIndex((g) => g.slug === slug);
 
   return (
-    <article className="space-y-8">
-      <Button variant="ghost" size="sm" asChild className="-ml-3">
-        <Link to="/">
-          <ChevronLeft className="h-4 w-4" />
-          All groups
-        </Link>
-      </Button>
+    <div className="space-y-8">
+      <div className="space-y-1">
+        <Button variant="ghost" size="sm" asChild className="-ml-3">
+          <Link to="/groups">
+            <ChevronLeft className="h-4 w-4" />
+            All groups
+          </Link>
+        </Button>
+      </div>
 
-      <header className="space-y-3">
-        <Badge variant="accent" className="rounded">
-          Group {group.order}
-        </Badge>
-        <h1 className="font-serif text-4xl font-semibold tracking-tight">
-          {group.title}
-        </h1>
+      <header className="space-y-2">
+        <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
+          Group {groupIdx + 1} of {groups.length}
+        </p>
+        <div className="flex items-baseline gap-3">
+          <h1 className="font-serif text-3xl font-semibold tracking-tight">{group.title}</h1>
+          {!groupUnlocked && <Badge variant="secondary">Locked</Badge>}
+        </div>
         {group.summary && (
           <p className="max-w-2xl text-muted-foreground">{group.summary}</p>
         )}
       </header>
 
-      <Card>
-        <CardContent className="prose-module pt-6">
-          <Markdown>{group.body}</Markdown>
+      {/* Roadmap */}
+      <GroupRoadmap
+        group={group}
+        modules={groupModules}
+        progress={progress}
+        context={ctx}
+      />
+
+      {/* Link to full group explanation / summaries */}
+      <Card className="border-dashed border-accent/40">
+        <CardContent className="flex items-center justify-between gap-4 py-4">
+          <div className="flex items-center gap-3">
+            <BookOpen className="h-5 w-5 text-accent shrink-0" />
+            <div>
+              <p className="font-medium text-sm">{group.title} — Explanation & Summaries</p>
+              <p className="text-xs text-muted-foreground">
+                Group intro, quick summaries from all 4 modules, and the group test.
+              </p>
+            </div>
+          </div>
+          <Button asChild variant="outline" size="sm" className="shrink-0">
+            <Link to={`/groups/${slug}/overview`}>
+              Open <ArrowRight className="h-4 w-4" />
+            </Link>
+          </Button>
         </CardContent>
       </Card>
-
-      <section className="space-y-4">
-        <div className="flex items-center gap-2">
-          <Sparkles className="h-5 w-5 text-accent" />
-          <h2 className="font-serif text-2xl font-semibold">Quick Summaries</h2>
-        </div>
-        <p className="text-sm text-muted-foreground">
-          Pulled directly from each module's "Quick Summary" section.
-        </p>
-        <div className="grid gap-4 sm:grid-cols-2">
-          {group.autoSummary.map((s) => (
-            <Card key={s.slug}>
-              <CardHeader>
-                <CardTitle className="text-lg">{s.title}</CardTitle>
-                {!s.summary && (
-                  <CardDescription>
-                    No summary yet — the module is still being written.
-                  </CardDescription>
-                )}
-              </CardHeader>
-              {s.summary && (
-                <CardContent className="prose-module pt-0">
-                  <Markdown>{s.summary}</Markdown>
-                </CardContent>
-              )}
-              <CardContent className="pt-0">
-                <Button variant="link" asChild className="px-0">
-                  <Link to={`/modules/${s.slug}`}>
-                    Open module <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
-
-      <section className="space-y-3">
-        <div className="flex items-center gap-2">
-          <Trophy className="h-5 w-5 text-accent" />
-          <h2 className="font-serif text-2xl font-semibold">Group Test</h2>
-        </div>
-        {group.hasTest ? (
-          <Card>
-            <CardContent className="flex flex-col items-start gap-3 pt-6 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <p className="font-medium">
-                  {group.testExerciseCount} contrast questions
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  Mixed-tense questions to lock in the differences between the
-                  modules in this group.
-                </p>
-              </div>
-              <Button asChild>
-                <Link to={`/groups/${group.slug}/test`}>
-                  Start group test <ArrowRight className="h-4 w-4" />
-                </Link>
-              </Button>
-            </CardContent>
-          </Card>
-        ) : (
-          <Card>
-            <CardContent className="pt-6 text-sm text-muted-foreground">
-              The group test for <strong>{group.title}</strong> hasn't been
-              authored yet. Check back after the member modules are complete.
-            </CardContent>
-          </Card>
-        )}
-      </section>
-    </article>
+    </div>
   );
 }

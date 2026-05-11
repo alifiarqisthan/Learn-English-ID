@@ -41,7 +41,7 @@ async function loadOne(
 
   const parsed = matter(raw);
   const fm = moduleFrontmatter.parse({ ...parsed.data, slug });
-  assertAllSections(slug, parsed.content);
+  if (!fm.placeholder) assertAllSections(slug, parsed.content);
 
   const { exercises } = exercisesFileSchema.parse(JSON.parse(exercisesRaw));
 

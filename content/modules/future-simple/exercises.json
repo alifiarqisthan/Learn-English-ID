@@ -1,1 +1,162 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "fs-mc-will-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future form for this spontaneous decision.",
+      "prompt": "\"There's no milk left.\" — \"Don't worry, I ___ some on my way home.\"",
+      "options": ["am going to get", "will get", "get", "am getting"],
+      "answer": "will get",
+      "hint": "Decision made at this exact moment → will.",
+      "explanation": "Spontaneous decision made at the moment of speaking → will + V1."
+    },
+    {
+      "id": "fs-mc-gto-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future form for a plan already decided.",
+      "prompt": "I ___ apply for a master's degree next year — I've already researched the universities.",
+      "options": ["will", "am going to", "going to", "am will"],
+      "answer": "am going to",
+      "hint": "Plan decided before this moment, already researched → going to.",
+      "explanation": "Pre-decided plan or intention → am/is/are going to + V1."
+    },
+    {
+      "id": "fs-mc-will-gto-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Evidence visible now — which form is correct?",
+      "prompt": "Look at those dark clouds — it ___ rain any minute.",
+      "options": ["will", "is going to", "going to", "is willing to"],
+      "answer": "is going to",
+      "hint": "Visible evidence right now (dark clouds) → going to for prediction.",
+      "explanation": "Prediction based on current visible evidence → is/are going to."
+    },
+    {
+      "id": "fs-mc-will-gto-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "General prediction — which is more natural?",
+      "prompt": "I think electric cars ___ replace petrol cars completely within 20 years.",
+      "options": ["are going to", "will", "are", "going to"],
+      "answer": "will",
+      "hint": "General opinion about the future, no specific evidence in front of you → will.",
+      "explanation": "General prediction based on belief (not visible evidence) → will."
+    },
+    {
+      "id": "fs-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative future form.",
+      "prompt": "She ___ tell anyone about the surprise — she promised.",
+      "options": ["isn't going to tell", "won't tell", "doesn't tell", "will not tells"],
+      "answer": "won't tell",
+      "hint": "A promise → will. Negative of will = won't.",
+      "explanation": "Promise not to do something → won't + V1."
+    },
+    {
+      "id": "fs-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct question form.",
+      "prompt": "___ you ___ the seminar next week?",
+      "options": ["Will / attend", "Are / going to attend", "Will / attending", "Do / attend"],
+      "answer": "Will / attend",
+      "hint": "Will + subject + V1?",
+      "explanation": "Will + subject + V1. 'Will you attending' is wrong — V1 needed after will, not Ving."
+    },
+    {
+      "id": "fs-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correctly formed going-to question.",
+      "prompt": "What ___ she ___ with the money she won?",
+      "options": ["will / does", "is / going to do", "does / going to do", "will / going to do"],
+      "answer": "is / going to do",
+      "hint": "Going to question: Am/Is/Are + subject + going to + V1?",
+      "explanation": "Going to question: Is + subject + going to + V1."
+    },
+    {
+      "id": "fs-fb-will-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in using 'will' — this is a promise.",
+      "prompt": "Don't worry about the presentation. I ___ (help) you prepare tonight.",
+      "acceptedAnswers": ["will help"],
+      "explanation": "Offer/promise → will + V1."
+    },
+    {
+      "id": "fs-fb-gto-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in using 'going to' — this is a plan.",
+      "prompt": "She ___ (start) a new diet next Monday. She's already bought all the ingredients.",
+      "acceptedAnswers": ["is going to start"],
+      "hint": "Already prepared = plan decided before now → is going to + V1.",
+      "explanation": "Pre-decided plan with evidence of preparation → is going to + V1."
+    },
+    {
+      "id": "fs-fb-neg-1",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative. Both 'will not' and 'won't' accepted.",
+      "prompt": "I ___ (not / be) late — I promise to leave home an hour early.",
+      "acceptedAnswers": ["will not be", "won't be"],
+      "explanation": "Promise not to do something → won't/will not + V1."
+    },
+    {
+      "id": "fs-fb-q-1",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Form the will-question.",
+      "prompt": "___ (you / join) us for dinner tonight?",
+      "acceptedAnswers": ["will you join"],
+      "hint": "Will + subject + V1.",
+      "explanation": "Yes/no question with will: Will + subject + V1."
+    },
+    {
+      "id": "fs-tr-will-1",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. Context: spontaneous offer → use 'will'.",
+      "prompt": "\"Tasnya berat sekali.\" — \"Biar saya bantu bawa.\"",
+      "modelAnswer": "\"The bag is very heavy.\" — \"I'll help you carry it.\"",
+      "alternativeAnswers": [
+        "\"The bag is so heavy.\" — \"I'll help carry it.\"",
+        "\"The bag is very heavy.\" — \"I will help you carry it.\""
+      ],
+      "keyTokens": ["will", "help", "carry"],
+      "explanation": "Spontaneous offer at the moment of speaking → will + V1."
+    },
+    {
+      "id": "fs-tr-gto-1",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate. Context: a plan already made → use 'going to'.",
+      "prompt": "Kami akan pindah ke Yogyakarta tahun depan. Kami sudah mendapatkan rumah di sana.",
+      "modelAnswer": "We are going to move to Yogyakarta next year. We have already found a house there.",
+      "alternativeAnswers": [
+        "We're going to move to Yogyakarta next year. We've already found a house there.",
+        "We are going to move to Yogyakarta next year. We've already got a house there."
+      ],
+      "keyTokens": ["going to move", "next year", "already found"],
+      "explanation": "Pre-decided plan with evidence → going to. 'Sudah mendapatkan' = have already found."
+    },
+    {
+      "id": "fs-tr-q-1",
+      "kind": "translation_id_to_en",
+      "form": "question",
+      "instruction": "Translate as a future question.",
+      "prompt": "Apakah kamu akan ikut ke konser malam ini?",
+      "modelAnswer": "Are you going to come to the concert tonight?",
+      "alternativeAnswers": [
+        "Will you come to the concert tonight?",
+        "Are you going to attend the concert tonight?",
+        "Will you attend the concert tonight?"
+      ],
+      "keyTokens": ["will you", "tonight"],
+      "explanation": "Both will and going to work for this question. Either form is accepted."
+    }
+  ]
+}
