@@ -1,0 +1,296 @@
+{
+  "exercises": [
+    {
+      "id": "ps-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Pick the correct present simple form. Watch for the subject.",
+      "prompt": "She ___ at a hospital in Surabaya.",
+      "options": ["work", "works", "working", "is work"],
+      "answer": "works",
+      "explanation": "Third-person singular (she) takes V1 + -s: works."
+    },
+    {
+      "id": "ps-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Pick the correct verb form.",
+      "prompt": "The library ___ at 8 a.m. every weekday.",
+      "options": ["open", "opens", "is open", "opening"],
+      "answer": "opens",
+      "explanation": "'The library' = it (third-person singular) → opens. 'Every weekday' signals a routine."
+    },
+    {
+      "id": "ps-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct spelling of the third-person form.",
+      "prompt": "He ___ his bicycle to school every day.",
+      "options": ["rides", "ridies", "ride", "is ride"],
+      "answer": "rides",
+      "hint": "Vowel + 'e' verbs just add -s: ride → rides.",
+      "explanation": "Regular -s ending: ride → rides."
+    },
+    {
+      "id": "ps-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Pick the correctly spelled third-person form.",
+      "prompt": "My sister ___ medicine at university.",
+      "options": ["studys", "studyies", "studies", "study"],
+      "answer": "studies",
+      "hint": "Consonant + y → change y to i and add -es.",
+      "explanation": "study → studies. The y becomes i because it follows a consonant (d)."
+    },
+    {
+      "id": "ps-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Pick the correct negative form.",
+      "prompt": "He ___ coffee — only tea.",
+      "options": ["doesn't drinks", "doesn't drink", "don't drink", "not drink"],
+      "answer": "doesn't drink",
+      "explanation": "After doesn't, the verb returns to V1: doesn't drink (not 'doesn't drinks')."
+    },
+    {
+      "id": "ps-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative form.",
+      "prompt": "We ___ on Saturdays — the office is closed.",
+      "options": ["doesn't work", "don't work", "don't works", "not work"],
+      "answer": "don't work",
+      "explanation": "'We' takes don't, and the verb stays in V1."
+    },
+    {
+      "id": "ps-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Pick the correct question form.",
+      "prompt": "___ your father ___ English at home?",
+      "options": ["Do / speak", "Does / speak", "Does / speaks", "Is / speak"],
+      "answer": "Does / speak",
+      "explanation": "'Your father' is third-person singular → Does + subject + V1."
+    },
+    {
+      "id": "ps-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correctly formed question.",
+      "prompt": "Where ___ they ___ on weekends?",
+      "options": ["does / go", "do / go", "do / goes", "is / go"],
+      "answer": "do / go",
+      "explanation": "'They' takes 'do' in present simple questions; the verb stays V1."
+    },
+    {
+      "id": "ps-mc-be-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form of 'to be'.",
+      "prompt": "The students ___ very excited about the trip.",
+      "options": ["is", "am", "are", "be"],
+      "answer": "are",
+      "hint": "Plural subject (the students) → are.",
+      "explanation": "Plural subject takes 'are' in present simple."
+    },
+    {
+      "id": "ps-mc-be-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Pick the correct negative form.",
+      "prompt": "I ___ ready for the exam yet.",
+      "options": ["don't ready", "isn't", "am not", "doesn't"],
+      "answer": "am not",
+      "explanation": "'Ready' is an adjective → use 'to be'. 'I' takes 'am', and negation is 'am not' (no contraction for 'I am not')."
+    },
+    {
+      "id": "ps-fb-pos-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct present simple form.",
+      "prompt": "She ___ (watch) the news every evening.",
+      "acceptedAnswers": ["watches"],
+      "hint": "Verbs ending in -ch take -es.",
+      "explanation": "watch → watches (-ch ending takes -es)."
+    },
+    {
+      "id": "ps-fb-pos-2",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct present simple form.",
+      "prompt": "My brother ___ (go) to the gym three times a week.",
+      "acceptedAnswers": ["goes"],
+      "explanation": "go → goes (verbs ending in -o take -es)."
+    },
+    {
+      "id": "ps-fb-pos-3",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct present simple form.",
+      "prompt": "Bali ___ (have) beautiful beaches and welcoming people.",
+      "acceptedAnswers": ["has"],
+      "hint": "'Have' is irregular: he/she/it → has.",
+      "explanation": "Irregular: have → has for third-person singular."
+    },
+    {
+      "id": "ps-fb-pos-4",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct present simple form.",
+      "prompt": "I ___ (work) as a software engineer in Jakarta.",
+      "acceptedAnswers": ["work"],
+      "explanation": "'I' takes V1 with no -s."
+    },
+    {
+      "id": "ps-fb-neg-1",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative form. Both 'does not' and 'doesn't' are accepted.",
+      "prompt": "She ___ (not / like) spicy food.",
+      "acceptedAnswers": ["does not like", "doesn't like"],
+      "explanation": "Negative: doesn't + V1. The -s is on doesn't, not on 'like'."
+    },
+    {
+      "id": "ps-fb-neg-2",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative.",
+      "prompt": "We ___ (not / understand) this question.",
+      "acceptedAnswers": ["do not understand", "don't understand"],
+      "explanation": "'We' takes don't + V1."
+    },
+    {
+      "id": "ps-fb-be-1",
+      "kind": "fill_blank",
+      "form": "positive",
+      "instruction": "Fill in the correct form of 'to be'.",
+      "prompt": "Indonesia ___ a large country with thousands of islands.",
+      "acceptedAnswers": ["is"],
+      "explanation": "Singular subject (Indonesia) takes 'is'."
+    },
+    {
+      "id": "ps-fb-be-2",
+      "kind": "fill_blank",
+      "form": "negative",
+      "instruction": "Fill in the negative form of 'to be'.",
+      "prompt": "They ___ (not / be) at home right now.",
+      "acceptedAnswers": ["are not", "aren't"],
+      "explanation": "'They' takes 'are' → negation: are not / aren't. Never use 'don't' with 'to be'."
+    },
+    {
+      "id": "ps-fb-q-1",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Fill in the correct question form. Type the words in order.",
+      "prompt": "___ (your sister / play) tennis on weekends?",
+      "acceptedAnswers": ["does your sister play"],
+      "hint": "Third-person singular question: Does + subject + V1.",
+      "explanation": "Does + subject + V1. The verb 'play' stays in V1."
+    },
+    {
+      "id": "ps-fb-q-2",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Build the question with 'to be'.",
+      "prompt": "___ (you / be) a student at this university?",
+      "acceptedAnswers": ["are you"],
+      "explanation": "'To be' inverts directly: 'You are' → 'Are you?'. No do/does needed."
+    },
+    {
+      "id": "ps-fb-q-3",
+      "kind": "fill_blank",
+      "form": "question",
+      "instruction": "Build the Wh-question.",
+      "prompt": "What time ___ (the train / leave) for Bandung?",
+      "acceptedAnswers": ["does the train leave"],
+      "explanation": "Wh-word + does + subject + V1."
+    },
+    {
+      "id": "ps-tr-pos-1",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate using the present simple. Watch for the third-person -s.",
+      "prompt": "Dia bekerja di sebuah bank di Jakarta.",
+      "modelAnswer": "He works at a bank in Jakarta.",
+      "alternativeAnswers": [
+        "She works at a bank in Jakarta.",
+        "He works in a bank in Jakarta.",
+        "She works in a bank in Jakarta."
+      ],
+      "keyTokens": ["works", "bank", "jakarta"],
+      "hint": "Subject is 'dia' (he/she) — third person — so add -s to the verb.",
+      "explanation": "Third-person singular subject + -s: works."
+    },
+    {
+      "id": "ps-tr-pos-2",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate using the present simple.",
+      "prompt": "Saya selalu minum kopi di pagi hari.",
+      "modelAnswer": "I always drink coffee in the morning.",
+      "alternativeAnswers": [
+        "I always have coffee in the morning."
+      ],
+      "keyTokens": ["always", "coffee", "morning"],
+      "hint": "Frequency adverb 'always' goes BEFORE the main verb.",
+      "explanation": "I + always + V1. 'Always' goes between subject and main verb."
+    },
+    {
+      "id": "ps-tr-pos-3",
+      "kind": "translation_id_to_en",
+      "form": "positive",
+      "instruction": "Translate to English. Indonesian drops 'to be' — make sure you add it.",
+      "prompt": "Adik saya seorang dokter.",
+      "modelAnswer": "My younger sibling is a doctor.",
+      "alternativeAnswers": [
+        "My little brother is a doctor.",
+        "My little sister is a doctor.",
+        "My younger brother is a doctor.",
+        "My younger sister is a doctor."
+      ],
+      "keyTokens": ["is", "doctor"],
+      "hint": "'Adik' = younger sibling. Don't forget 'is' — Indonesian dropped it but English needs it.",
+      "explanation": "'Adik saya' = my younger sibling. English requires 'is' even though Indonesian doesn't have a word for it."
+    },
+    {
+      "id": "ps-tr-neg-1",
+      "kind": "translation_id_to_en",
+      "form": "negative",
+      "instruction": "Translate as a negative present simple sentence.",
+      "prompt": "Dia tidak suka makanan pedas.",
+      "modelAnswer": "She does not like spicy food.",
+      "alternativeAnswers": [
+        "He does not like spicy food.",
+        "She doesn't like spicy food.",
+        "He doesn't like spicy food."
+      ],
+      "keyTokens": ["does not like", "spicy food"],
+      "hint": "Third-person singular subject + doesn't + V1.",
+      "explanation": "Negative: doesn't + V1 (not 'doesn't likes')."
+    },
+    {
+      "id": "ps-tr-q-1",
+      "kind": "translation_id_to_en",
+      "form": "question",
+      "instruction": "Translate as a yes/no question in present simple.",
+      "prompt": "Apakah kamu tinggal di Bandung?",
+      "modelAnswer": "Do you live in Bandung?",
+      "keyTokens": ["do you live", "bandung"],
+      "explanation": "Yes/no question: Do + subject + V1."
+    },
+    {
+      "id": "ps-tr-q-2",
+      "kind": "translation_id_to_en",
+      "form": "question",
+      "instruction": "Translate as a question in present simple.",
+      "prompt": "Jam berapa restoran ini buka?",
+      "modelAnswer": "What time does this restaurant open?",
+      "alternativeAnswers": [
+        "What time does the restaurant open?"
+      ],
+      "keyTokens": ["what time does", "restaurant", "open"],
+      "hint": "'Jam berapa' = 'what time'. Subject = 'this restaurant' (third-person singular) → does.",
+      "explanation": "Wh-word + does + singular subject + V1. Note: open stays in V1, not opens."
+    }
+  ]
+}

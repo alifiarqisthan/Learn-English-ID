@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Academic / textbook palette — warm cream + ink */
+    --background: 38 38% 96%;          /* #FAF7F2 cream */
+    --foreground: 30 8% 12%;           /* #1F1D1B ink */
+
+    --card: 38 50% 99%;                /* #FEFCF8 paper */
+    --card-foreground: 30 8% 12%;
+
+    --popover: 38 50% 99%;
+    --popover-foreground: 30 8% 12%;
+
+    --primary: 25 45% 25%;             /* deep coffee #5C4326 */
+    --primary-foreground: 38 38% 96%;
+
+    --secondary: 36 25% 88%;           /* soft tan */
+    --secondary-foreground: 30 10% 18%;
+
+    --muted: 36 20% 90%;
+    --muted-foreground: 30 8% 38%;
+
+    --accent: 12 65% 50%;              /* warm rust accent */
+    --accent-foreground: 38 38% 96%;
+
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 38 38% 96%;
+
+    --border: 36 18% 82%;
+    --input: 36 18% 82%;
+    --ring: 25 45% 25%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark academic — deep navy/ink with cream text */
+    --background: 222 28% 10%;         /* #131822 */
+    --foreground: 38 30% 94%;          /* warm cream */
+
+    --card: 222 25% 14%;
+    --card-foreground: 38 30% 94%;
+
+    --popover: 222 25% 16%;
+    --popover-foreground: 38 30% 94%;
+
+    --primary: 38 60% 82%;             /* warm cream as primary in dark */
+    --primary-foreground: 222 28% 10%;
+
+    --secondary: 222 20% 24%;          /* lifted for contrast on cards */
+    --secondary-foreground: 38 30% 94%;
+
+    --muted: 222 18% 22%;
+    --muted-foreground: 38 20% 78%;    /* much brighter — tab labels, captions, summaries */
+
+    --accent: 18 80% 62%;              /* brighter rust on dark */
+    --accent-foreground: 222 28% 10%;
+
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 38 30% 94%;
+
+    --border: 222 15% 32%;             /* visible connector lines + outline borders */
+    --input: 222 15% 30%;
+    --ring: 18 80% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+/* MDX module body styles — textbook feel */
+.prose-module h2 {
+  @apply font-serif text-2xl font-semibold mt-8 mb-3 text-foreground border-b border-border pb-2;
+}
+.prose-module h3 {
+  @apply font-serif text-lg font-semibold mt-6 mb-2 text-foreground;
+}
+.prose-module h4 {
+  @apply font-serif text-base font-semibold mt-4 mb-2 text-foreground;
+}
+.prose-module p {
+  @apply my-3 leading-relaxed text-foreground;
+}
+.prose-module ul {
+  @apply list-disc pl-6 my-3 space-y-1.5 text-foreground;
+}
+.prose-module ol {
+  @apply list-decimal pl-6 my-3 space-y-1.5 text-foreground;
+}
+.prose-module table {
+  @apply w-full text-left border-collapse my-4 text-sm;
+}
+.prose-module th, .prose-module td {
+  @apply border border-border px-3 py-2;
+}
+.prose-module th {
+  @apply bg-secondary font-semibold;
+}
+.prose-module strong {
+  @apply font-semibold text-foreground;
+}
+.prose-module em {
+  @apply italic text-muted-foreground;
+}
+.prose-module code {
+  @apply bg-muted px-1.5 py-0.5 rounded text-sm font-mono;
+}
+.prose-module blockquote {
+  @apply border-l-4 border-accent pl-4 italic text-muted-foreground my-4;
+}

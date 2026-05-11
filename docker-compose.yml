@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: learn-english-id-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app
+      POSTGRES_DB: learn_english_id
+    ports:
+      - "5432:5432"
+    volumes:
+      - learn_english_id_data:/var/lib/postgresql/data
+
+volumes:
+  learn_english_id_data:

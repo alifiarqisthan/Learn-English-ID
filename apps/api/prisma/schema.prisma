@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Attempt {
+  id          String   @id @default(cuid())
+  moduleSlug  String
+  exerciseId  String
+  userAnswer  String
+  isCorrect   Boolean
+  createdAt   DateTime @default(now())
+
+  @@index([moduleSlug])
+}
+
+model ModuleProgress {
+  slug        String   @id
+  completedAt DateTime?
+  lastScore   Int?
+  attempts    Int      @default(0)
+  updatedAt   DateTime @updatedAt
+}
