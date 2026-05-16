@@ -1,1 +1,306 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "sc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct subordinating conjunction.",
+      "prompt": "___ she had studied for weeks, she still felt nervous before the exam.",
+      "options": [
+        "Because",
+        "Although",
+        "So that",
+        "Unless"
+      ],
+      "answer": "Although",
+      "explanation": "The sentence expresses contrast — she studied but still felt nervous. 'Although' is correct."
+    },
+    {
+      "id": "sc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly punctuated complex sentence.",
+      "prompt": "___",
+      "options": [
+        "Because it was raining we stayed inside.",
+        "Because it was raining, we stayed inside.",
+        "We stayed inside, because it was raining.",
+        "We stayed inside because, it was raining."
+      ],
+      "answer": "Because it was raining, we stayed inside.",
+      "explanation": "When the dependent clause comes first, a comma follows it before the main clause."
+    },
+    {
+      "id": "sc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct conjunction to express purpose.",
+      "prompt": "She left the house early ___ she could catch the first train.",
+      "options": [
+        "because",
+        "although",
+        "so that",
+        "unless"
+      ],
+      "answer": "so that",
+      "explanation": "'So that' expresses purpose — she left early in order to achieve something."
+    },
+    {
+      "id": "sc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with the double-conjunction error.",
+      "prompt": "___",
+      "options": [
+        "Although she was tired, she kept working.",
+        "Although she was tired, but she kept working.",
+        "She was tired, but she kept working.",
+        "Even though she was tired, she kept working."
+      ],
+      "answer": "Although she was tired, but she kept working.",
+      "explanation": "You cannot use both 'although' and 'but' together. Choose one: 'although...,' or '..., but'."
+    },
+    {
+      "id": "sc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that correctly uses 'despite'.",
+      "prompt": "___",
+      "options": [
+        "Despite she was tired, she finished the report.",
+        "Despite of being tired, she finished the report.",
+        "Despite being tired, she finished the report.",
+        "Despite that she was tired, she finished the report."
+      ],
+      "answer": "Despite being tired, she finished the report.",
+      "explanation": "'Despite' is followed by a noun or gerund (being tired), not a full clause."
+    },
+    {
+      "id": "sc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'unless'?",
+      "prompt": "___",
+      "options": [
+        "You will fail unless if you don't study.",
+        "Unless you study, you will fail.",
+        "Unless you don't study, you will fail.",
+        "You will fail, unless study."
+      ],
+      "answer": "Unless you study, you will fail.",
+      "explanation": "'Unless' already means 'if not' — never add 'not' or 'if' with it. 'Unless you study' = 'If you don't study'."
+    },
+    {
+      "id": "sc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which is NOT a subordinating conjunction?",
+      "prompt": "___",
+      "options": [
+        "because",
+        "although",
+        "however",
+        "unless"
+      ],
+      "answer": "however",
+      "explanation": "'However' is a conjunctive adverb, not a subordinating conjunction. It cannot introduce a dependent clause."
+    },
+    {
+      "id": "sc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence. The dependent clause comes second — should there be a comma?",
+      "prompt": "She passed the exam ___ she had studied every night.",
+      "options": [
+        "She passed the exam, because she had studied every night.",
+        "She passed the exam because she had studied every night.",
+        "She passed the exam; because she had studied every night.",
+        "She passed the exam — because she had studied every night."
+      ],
+      "answer": "She passed the exam because she had studied every night.",
+      "explanation": "When the dependent clause comes after the main clause, no comma is used before 'because'."
+    },
+    {
+      "id": "sc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the conjunction that expresses condition.",
+      "prompt": "___ you submit the application before Friday, you will be considered for the scholarship.",
+      "options": [
+        "Although",
+        "Because",
+        "If",
+        "While"
+      ],
+      "answer": "If",
+      "explanation": "'If' introduces a conditional clause — a condition that must be met for the result to occur."
+    },
+    {
+      "id": "sc-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct subordinating conjunction to express time.",
+      "prompt": "___ the meeting ended, everyone left the room quickly.",
+      "options": [
+        "Once",
+        "When",
+        "As soon as",
+        "After"
+      ],
+      "answer": "When",
+      "explanation": "Time conjunctions (when, after, once, as soon as) connect the timing of events."
+    },
+    {
+      "id": "sc-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the missing comma if needed. Write ',' or 'none'.",
+      "prompt": "She will pass the exam ___ she studies consistently.",
+      "options": [
+        "nones",
+        "if",
+        "none",
+        "noneing"
+      ],
+      "answer": "none",
+      "hint": "The dependent clause comes after the main clause.",
+      "explanation": "No comma when the dependent clause follows the main clause."
+    },
+    {
+      "id": "sc-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the correct conjunction. 'Despite' or 'Although'?",
+      "prompt": "___ the heavy traffic, she arrived on time.",
+      "options": [
+        "Despite",
+        "did despite",
+        "despiteing",
+        "despites"
+      ],
+      "answer": "Despite",
+      "hint": "'The heavy traffic' is a noun phrase, not a full clause.",
+      "explanation": "'Despite' + noun/noun phrase. 'Although' + full clause (subject + verb)."
+    },
+    {
+      "id": "sc-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: the subordinating conjunction meaning 'if not'.",
+      "prompt": "You won't improve ___ you practise regularly.",
+      "options": [
+        "did unles",
+        "unles",
+        "unlesing",
+        "unless"
+      ],
+      "answer": "unless",
+      "explanation": "'Unless' = 'if not' — you won't improve if you don't practise."
+    },
+    {
+      "id": "sc-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct conjunction. Express contrast using 'whereas'.",
+      "prompt": "___ some students prefer studying alone, others work better in groups.",
+      "options": [
+        "while",
+        "Whereas",
+        "however",
+        "Although"
+      ],
+      "answer": "Whereas",
+      "explanation": "'Whereas' and 'while' both express contrast between two clauses."
+    },
+    {
+      "id": "sc-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Karena dia belajar keras, dia lulus ujian.\"",
+      "prompt": "Karena dia belajar keras, dia lulus ujian.",
+      "options": [
+        "Because she studied hard, she passed the exam, every day.",
+        "Because she studied hard, she passed an exam.",
+        "Because she studied hard, she passed the exam. (incorrect)",
+        "Because she studied hard, she passed the exam."
+      ],
+      "answer": "Because she studied hard, she passed the exam.",
+      "explanation": "'Karena' = because. When the dependent clause comes first, use a comma after it."
+    },
+    {
+      "id": "sc-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Meskipun dia lelah, dia tetap terus bekerja.\"",
+      "prompt": "Meskipun dia lelah, dia tetap terus bekerja.",
+      "options": [
+        "Although she was tired, she kept working.",
+        "working. kept she tired, was she Although",
+        "Although she were tired, she kept working.",
+        "Although she is tired, she kept working."
+      ],
+      "answer": "Although she was tired, she kept working.",
+      "explanation": "'Meskipun' = although. Do NOT add 'but' after the comma — that creates the double-conjunction error."
+    },
+    {
+      "id": "sc-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Kamu tidak akan lulus kecuali kamu belajar.\"",
+      "prompt": "Kamu tidak akan lulus kecuali kamu belajar.",
+      "options": [
+        "You will not pass unless you study. (incorrect)",
+        "This is not correct English.",
+        "You will not pass unless you study.",
+        "You will not pass unless you study, every day."
+      ],
+      "answer": "You will not pass unless you study.",
+      "explanation": "'Kecuali' = unless. 'Unless you study' = 'if you don't study'."
+    },
+    {
+      "id": "sc-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Dia pergi lebih awal agar bisa duduk di baris depan.\"",
+      "prompt": "Dia pergi lebih awal agar bisa duduk di baris depan.",
+      "options": [
+        "She left early so that she could sit in a front row.",
+        "She left early so that she could sit in the front row.",
+        "She left early so that she could sit in the front row, every day.",
+        "She left early so that she could sit in the front row. (incorrect)"
+      ],
+      "answer": "She left early so that she could sit in the front row.",
+      "explanation": "'Agar' = so that (purpose). 'In order to' is also correct when the subject is the same."
+    },
+    {
+      "id": "sc-mc-fragment-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which of the following is NOT a fragment?",
+      "prompt": "___",
+      "options": [
+        "When she arrived at the station.",
+        "If the project is approved.",
+        "She worked late because the deadline was urgent.",
+        "Although the results were inconclusive."
+      ],
+      "answer": "She worked late because the deadline was urgent.",
+      "explanation": "This is a complete complex sentence — one independent clause ('She worked late') + one dependent clause."
+    },
+    {
+      "id": "sc-mc-while-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the clearest contrast sentence.",
+      "prompt": "I prefer tea. My colleague prefers coffee. Best as a complex sentence with contrast:",
+      "options": [
+        "While I prefer tea, my colleague prefers coffee.",
+        "Whereas I prefer tea, my colleague prefers coffee.",
+        "Although I prefer tea, my colleague prefers coffee.",
+        "Since I prefer tea, my colleague prefers coffee."
+      ],
+      "answer": "Whereas I prefer tea, my colleague prefers coffee.",
+      "explanation": "'Whereas' is the clearest signal of contrast between two parallel preferences. 'While' can be ambiguous (time vs. contrast)."
+    }
+  ]
+}

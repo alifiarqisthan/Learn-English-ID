@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "sv-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly inverted sentence.",
+      "prompt": "Rewrite 'She had never experienced such cold weather.' with inversion.",
+      "options": [
+        "Never she had experienced such cold weather.",
+        "Never had she experienced such cold weather.",
+        "Never she experienced such cold weather.",
+        "Never has she experienced such cold weather."
+      ],
+      "answer": "Never had she experienced such cold weather.",
+      "explanation": "After 'never', auxiliary (had) comes before subject (she): Never + had + she + past participle."
+    },
+    {
+      "id": "sv-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct it-cleft sentence to emphasize 'the new policy'.",
+      "prompt": "Normal: 'The new policy caused the confusion.' → It-cleft:",
+      "options": [
+        "It was the new policy caused the confusion.",
+        "It was the new policy which caused the confusion.",
+        "It was the new policy that caused the confusion.",
+        "It is the new policy that caused the confusion."
+      ],
+      "answer": "It was the new policy that caused the confusion.",
+      "explanation": "It-cleft: It + was + [emphasis] + that + rest. 'That' is required after a non-person subject."
+    },
+    {
+      "id": "sv-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct wh-cleft sentence.",
+      "prompt": "Normal: 'The team needed more time.' → Wh-cleft:",
+      "options": [
+        "What the team needed it was more time.",
+        "What the team needed was more time.",
+        "What needed the team was more time.",
+        "What the team needs is more time."
+      ],
+      "answer": "What the team needed was more time.",
+      "explanation": "Wh-cleft: What + [subject + verb] + was/is + [emphasized element]. No extra 'it'."
+    },
+    {
+      "id": "sv-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correctly inverted sentence using 'not only'.",
+      "prompt": "Normal: 'She not only won the competition but also set a new record.'",
+      "options": [
+        "Not only she won the competition, but also she set a new record.",
+        "Not only did she win the competition, but she also set a new record.",
+        "Not only did she win the competition, but also she set a new record.",
+        "Not only she did win the competition, but she also set a new record."
+      ],
+      "answer": "Not only did she win the competition, but she also set a new record.",
+      "explanation": "After 'not only', invert: did + she + win. In the second clause, 'also' follows the subject: 'she also set'."
+    },
+    {
+      "id": "sv-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct paired structure for 'no sooner'.",
+      "prompt": "No sooner ___ the presentation begun ___ the fire alarm went off.",
+      "options": [
+        "had / when",
+        "had / than",
+        "did / than",
+        "was / when"
+      ],
+      "answer": "had / than",
+      "explanation": "'No sooner...than' is the fixed pair. Use 'had' (past perfect) for past events."
+    },
+    {
+      "id": "sv-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct agreement response.",
+      "prompt": "A: I haven't visited Japan yet. B: ___",
+      "options": [
+        "So haven't I.",
+        "Neither have I.",
+        "Neither do I.",
+        "So have I."
+      ],
+      "answer": "Neither have I.",
+      "explanation": "Negative agreement = Neither/Nor + auxiliary (have) + subject (I). Match the tense of the original."
+    },
+    {
+      "id": "sv-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which negative adverbial correctly triggers subject-verb inversion?",
+      "prompt": "___ should you give your password to anyone.",
+      "options": [
+        "Not only",
+        "Under no circumstances",
+        "Rarely",
+        "Never"
+      ],
+      "answer": "Under no circumstances",
+      "explanation": "All options trigger inversion, but 'Under no circumstances should you...' is the grammatically correct answer here because of the modal 'should'."
+    },
+    {
+      "id": "sv-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that uses fronting (not inversion) correctly.",
+      "prompt": "___",
+      "options": [
+        "In the morning drinks she coffee.",
+        "In the morning, she drinks coffee.",
+        "In the morning she drinks coffee.",
+        "She in the morning drinks coffee."
+      ],
+      "answer": "In the morning, she drinks coffee.",
+      "explanation": "Fronting an adverbial phrase requires a comma after it. The subject-verb order (she drinks) does NOT change."
+    },
+    {
+      "id": "sv-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'hardly...when' structure.",
+      "prompt": "Hardly ___ she finished the test ___ the bell rang.",
+      "options": [
+        "had / than",
+        "has / when",
+        "had / when",
+        "did / when"
+      ],
+      "answer": "had / when",
+      "explanation": "'Hardly...when' uses past perfect (had) + when for past events. 'Than' is used with 'no sooner', not 'hardly'."
+    },
+    {
+      "id": "sv-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Rewrite with inversion. Fill in the blank: 'She rarely misses a deadline.' → Rarely ___ she miss a deadline.",
+      "prompt": "Rarely ___ she miss a deadline.",
+      "options": [
+        "doing",
+        "does",
+        "did do",
+        "do"
+      ],
+      "answer": "does",
+      "explanation": "After 'rarely', invert with auxiliary: Rarely + does + she + base verb."
+    },
+    {
+      "id": "sv-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Complete the it-cleft. 'It was the lack of funding ___ caused the project to fail.'",
+      "prompt": "It was the lack of funding ___ caused the project to fail.",
+      "options": [
+        "thats",
+        "that",
+        "did that",
+        "thating"
+      ],
+      "answer": "that",
+      "explanation": "It-cleft with a non-person subject uses 'that' (not 'who' or 'which')."
+    },
+    {
+      "id": "sv-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Complete the agreement response. A: I don't enjoy crowds. B: ___ do I.",
+      "prompt": "A: I don't enjoy crowds. B: ___ do I.",
+      "options": [
+        "neithering",
+        "Neither",
+        "Nor",
+        "neithers"
+      ],
+      "answer": "Neither",
+      "explanation": "Negative agreement: Neither/Nor + auxiliary + I. Match the auxiliary to the original sentence."
+    },
+    {
+      "id": "sv-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Complete the wh-cleft. '___ we need is more practice.'",
+      "prompt": "___ we need is more practice.",
+      "options": [
+        "What",
+        "did what",
+        "whats",
+        "whating"
+      ],
+      "answer": "What",
+      "explanation": "Wh-cleft begins with 'What' to introduce the emphasized clause."
+    },
+    {
+      "id": "sv-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the missing comma if needed. Write the sentence correctly: 'Under no circumstances should you share your password'.",
+      "prompt": "Under no circumstances ___ you share your password.",
+      "options": [
+        "shoulds",
+        "should",
+        "shoulding",
+        "did should"
+      ],
+      "answer": "should",
+      "hint": "After a negative adverbial, the auxiliary comes before the subject.",
+      "explanation": "After 'Under no circumstances', invert: should + you. No comma between adverbial and inverted subject."
+    },
+    {
+      "id": "sv-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Yang membangun jembatan ini adalah timnya. (Emphasize 'the team')\"",
+      "prompt": "Yang membangun jembatan ini adalah timnya. (Emphasize 'the team')",
+      "options": [
+        "It was the team that built this bridge.",
+        "It is the team that built this bridge.",
+        "It was the team that built is thiing bridge.",
+        "It was a team that built this bridge."
+      ],
+      "answer": "It was the team that built this bridge.",
+      "explanation": "Yang...adalah = It was...that. The emphasized element goes between 'It was' and 'that/who'."
+    },
+    {
+      "id": "sv-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Yang dibutuhkan tim ini adalah lebih banyak waktu.\"",
+      "prompt": "Yang dibutuhkan tim ini adalah lebih banyak waktu.",
+      "options": [
+        "What this team needs is more time.",
+        "What is thiing team is needing is more time.",
+        "What this team needs was more time.",
+        "time. more is needs team this What"
+      ],
+      "answer": "What this team needs is more time.",
+      "explanation": "Yang dibutuhkan = What [subject] needs. Wh-cleft: What + clause + is/was + emphasis."
+    },
+    {
+      "id": "sv-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Dia jarang terlambat.\"",
+      "prompt": "Dia jarang terlambat.",
+      "options": [
+        "Rarely is he late.",
+        "Rarely he is late.",
+        "Rarely was he late.",
+        "He is rarely late."
+      ],
+      "answer": "Rarely is he late.",
+      "explanation": "After 'Rarely/Seldom', invert with 'to be': Rarely + is + subject + adjective."
+    },
+    {
+      "id": "sv-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Dia tidak hanya lulus ujian, tetapi juga meraih nilai tertinggi.\"",
+      "prompt": "Dia tidak hanya lulus ujian, tetapi juga meraih nilai tertinggi.",
+      "options": [
+        "Not only did she pass the exam, but she also achieved the highest score, every day.",
+        "Not only did she pass an exam, but she also achieved a highest score.",
+        "Not only did she pass the exam, but she also achieved the highest score. (incorrect)",
+        "Not only did she pass the exam, but she also achieved the highest score."
+      ],
+      "answer": "Not only did she pass the exam, but she also achieved the highest score.",
+      "explanation": "After 'Not only', invert with auxiliary: Not only + did + she + pass. Second clause keeps normal order with 'also'."
+    },
+    {
+      "id": "sv-mc-cleft-who-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct it-cleft when emphasizing a person.",
+      "prompt": "Normal: 'Dr. Santos discovered the compound.' → It-cleft emphasizing Dr. Santos:",
+      "options": [
+        "It was Dr. Santos that discovered the compound.",
+        "It was Dr. Santos who discovered the compound.",
+        "Both A and B are correct.",
+        "It is Dr. Santos who discovered the compound."
+      ],
+      "answer": "Both A and B are correct.",
+      "explanation": "For people, both 'that' and 'who' are acceptable in it-clefts. 'Who' is more natural with persons."
+    },
+    {
+      "id": "sv-mc-fronting-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence uses fronting correctly without inversion?",
+      "prompt": "___",
+      "options": [
+        "On the table were the documents.",
+        "On the table, the documents are placed.",
+        "On the table the documents are.",
+        "On the table are the documents placed."
+      ],
+      "answer": "On the table, the documents are placed.",
+      "explanation": "Fronting an adverbial ('On the table') moves it first with a comma. Subject-verb order remains: the documents are placed."
+    }
+  ]
+}

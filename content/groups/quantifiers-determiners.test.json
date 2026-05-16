@@ -1,1 +1,169 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "qd-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier for a countable noun.",
+      "prompt": "There are ___ students absent today — only two.",
+      "options": ["a little", "a few", "much", "less"],
+      "answer": "a few",
+      "explanation": "'A few' = a small positive number → used with countable nouns. 'A little' = uncountable. 'Much' = uncountable. 'Less' = uncountable or formal comparative."
+    },
+    {
+      "id": "qd-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier for an uncountable noun.",
+      "prompt": "She has ___ experience in project management.",
+      "options": ["a few", "many", "little", "fewer"],
+      "answer": "little",
+      "explanation": "'Little' = small amount (uncountable) — 'experience' is uncountable. 'A few/many/fewer' are for countable nouns."
+    },
+    {
+      "id": "qd-test-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the quantifier error.",
+      "prompt": "___",
+      "options": [
+        "There is a little water left in the bottle.",
+        "Few students submitted their assignments on time.",
+        "She has less experience than her colleague.",
+        "There are less participants than expected."
+      ],
+      "answer": "There are less participants than expected.",
+      "explanation": "'Participants' is countable — use 'fewer', not 'less'. 'Less' is for uncountable nouns. 'Fewer participants' is correct."
+    },
+    {
+      "id": "qd-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct use of 'both'.",
+      "prompt": "___ students passed the final exam.",
+      "options": ["Both of the", "Both the", "Both", "All of the above are correct."],
+      "answer": "All of the above are correct.",
+      "explanation": "'Both the students', 'Both of the students', and 'Both students' are all correct. 'Both' works with or without 'the' or 'of the'. All three forms are acceptable."
+    },
+    {
+      "id": "qd-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier meaning 'the entire group'.",
+      "prompt": "___ the members agreed to the new policy.",
+      "options": ["All of", "Each of", "Both of", "Neither of"],
+      "answer": "All of",
+      "explanation": "'All of the members' = every single one (more than two). 'Each of' = considered individually. 'Both of' = exactly two. 'Neither of' = negative (for two)."
+    },
+    {
+      "id": "qd-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct determiner for indicating which one.",
+      "prompt": "I'll take ___ book — the one on the right.",
+      "options": ["this", "these", "those", "that"],
+      "answer": "that",
+      "explanation": "'That book' = singular + distant (pointing to one further away or specified 'the one on the right'). 'This' = near. 'These/Those' = plural."
+    },
+    {
+      "id": "qd-test-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the sentence.",
+      "prompt": "Every students must submit their assignment by Friday.",
+      "options": [
+        "Should be 'Every student' — 'every' takes a singular noun.",
+        "Should be 'All students' — 'every' is wrong here.",
+        "Should be 'their assignments' — plural needed.",
+        "No error — 'every students' is correct."
+      ],
+      "answer": "Should be 'Every student' — 'every' takes a singular noun.",
+      "explanation": "'Every' is always followed by a singular noun and singular verb: 'Every student must submit.' 'Every students' (plural) is incorrect."
+    },
+    {
+      "id": "qd-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier for a large amount (uncountable).",
+      "prompt": "There is ___ traffic in the city during rush hour.",
+      "options": ["many", "a lot of", "few", "a few"],
+      "answer": "a lot of",
+      "explanation": "'A lot of' works with both countable and uncountable nouns. 'Traffic' is uncountable → 'a lot of traffic'. 'Many' requires countable nouns."
+    },
+    {
+      "id": "qd-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Tidak ada mahasiswa yang datang terlambat.' → English:",
+      "prompt": "___ students came late.",
+      "options": ["No", "None", "Neither", "Not any of the"],
+      "answer": "No",
+      "explanation": "'No + noun' as a determiner: 'No students came late.' 'None' is a pronoun (no noun follows): 'None of them came late.' 'Neither' = exactly two options."
+    },
+    {
+      "id": "qd-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'each' or 'every' — referring to members of a group individually.",
+      "prompt": "___ student received a personalised feedback report.",
+      "options": ["Each", "Every", "Both are correct.", "All"],
+      "answer": "Both are correct.",
+      "explanation": "'Each student' (focus on individuals separately) and 'Every student' (all considered as a group) are both grammatically correct here. 'All' requires plural: 'All students received'."
+    },
+    {
+      "id": "qd-test-11",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the determiner error.",
+      "prompt": "Neither of the students have submitted their work.",
+      "options": [
+        "Should be 'has submitted' — 'neither of' takes singular verb.",
+        "Should be 'their' → 'his/her' — singular subject.",
+        "Should be 'None of' — 'neither' is for two only.",
+        "No error — 'have submitted' is correct."
+      ],
+      "answer": "Should be 'has submitted' — 'neither of' takes singular verb.",
+      "explanation": "'Neither of' is grammatically singular → singular verb: 'Neither of the students has submitted their work.' (Note: 'their' as singular pronoun is acceptable.)"
+    },
+    {
+      "id": "qd-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier for a negative context (uncountable).",
+      "prompt": "There wasn't ___ time left for questions.",
+      "options": ["many", "few", "much", "a few"],
+      "answer": "much",
+      "explanation": "'Much' = large amount (uncountable) — used in negatives and questions. 'Time' is uncountable. 'Many/few/a few' are for countable nouns."
+    },
+    {
+      "id": "qd-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct advanced determiner 'such'.",
+      "prompt": "I have never seen ___ dedication in a student before.",
+      "options": ["so", "such a", "such", "very"],
+      "answer": "such",
+      "explanation": "'Such + uncountable noun' (without article): 'such dedication'. 'Such a' is for singular countable nouns: 'such a dedicated student'. 'Dedication' is uncountable."
+    },
+    {
+      "id": "qd-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose between 'both' and 'all'.",
+      "prompt": "___ three proposals were rejected by the committee.",
+      "options": ["Both", "All", "Each of", "Neither"],
+      "answer": "All",
+      "explanation": "'Both' = exactly two. 'All' = three or more. Since there are three proposals → 'All three proposals.' 'Neither' = negative for two."
+    },
+    {
+      "id": "qd-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Sebagian besar mahasiswa setuju.' → English:",
+      "prompt": "___ students agreed.",
+      "options": ["All the", "Most", "Each", "Both of the"],
+      "answer": "Most",
+      "explanation": "'Sebagian besar' = most (the majority). 'Most students' = more than half. 'All' = 100%; 'Each' = individually; 'Both' = two only."
+    }
+  ]
+}

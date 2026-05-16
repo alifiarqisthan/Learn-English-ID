@@ -1,1 +1,249 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ps2-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present simple passive.",
+      "prompt": "English ___ as the official language in many countries.",
+      "options": ["is spoken", "speaks", "spoken", "was spoken"],
+      "answer": "is spoken",
+      "explanation": "Present simple passive: is/are + V3. 'English' = singular → 'is spoken'."
+    },
+    {
+      "id": "ps2-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past simple passive.",
+      "prompt": "The Borobudur temple ___ in the 9th century.",
+      "options": ["is built", "built", "was built", "were built"],
+      "answer": "was built",
+      "explanation": "Past simple passive: was/were + V3. Singular subject → 'was built'."
+    },
+    {
+      "id": "ps2-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive form.",
+      "prompt": "The results ___ to all participants after the study.",
+      "options": ["send", "were sent", "was sent", "are send"],
+      "answer": "were sent",
+      "explanation": "Past simple passive. 'The results' = plural → 'were sent'."
+    },
+    {
+      "id": "ps2-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present passive. The subject is plural.",
+      "prompt": "New regulations ___ every year by the ministry.",
+      "options": ["is issued", "are issued", "was issued", "issues"],
+      "answer": "are issued",
+      "explanation": "Present simple passive. 'New regulations' = plural → 'are issued'."
+    },
+    {
+      "id": "ps2-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative passive.",
+      "prompt": "The application ___ online — you must submit it in person.",
+      "options": ["is not accepted", "does not accept", "was not accepted", "not accepted"],
+      "answer": "is not accepted",
+      "explanation": "Present simple passive negative: is/are + not + V3. General ongoing rule → present."
+    },
+    {
+      "id": "ps2-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with the passive voice error.",
+      "prompt": "___",
+      "options": [
+        "The documents were signed by the director.",
+        "The report is reviewed every Monday.",
+        "The building was design by a famous architect.",
+        "New staff are trained during the first week."
+      ],
+      "answer": "The building was design by a famous architect.",
+      "explanation": "Passive requires V3 (past participle), not V1. 'design' → 'designed'."
+    },
+    {
+      "id": "ps2-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with a 'to be' agreement error.",
+      "prompt": "___",
+      "options": [
+        "The contracts were signed yesterday.",
+        "The proposal was rejected by the board.",
+        "The samples was collected from three sites.",
+        "The findings were published last month."
+      ],
+      "answer": "The samples was collected from three sites.",
+      "explanation": "'The samples' = plural → 'were collected'. 'Was' is for singular subjects only."
+    },
+    {
+      "id": "ps2-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct passive question.",
+      "prompt": "___ the suspect ___ by the police?",
+      "options": ["Was / arrested", "Did / arrested", "Was / arrest", "Were / arrested"],
+      "answer": "Was / arrested",
+      "explanation": "Past simple passive question: Was/Were + subject + V3. Singular 'the suspect' → 'Was'."
+    },
+    {
+      "id": "ps2-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct present passive question.",
+      "prompt": "___ applicants ___ of the decision by email?",
+      "options": ["Is / informed", "Are / informed", "Were / informed", "Are / inform"],
+      "answer": "Are / informed",
+      "explanation": "Present simple passive question. 'Applicants' = plural → 'Are informed'."
+    },
+    {
+      "id": "ps2-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence correctly uses 'by' to name the agent?",
+      "prompt": "___",
+      "options": [
+        "The vaccine was developed by Pfizer.",
+        "The vaccine was developed from Pfizer.",
+        "The vaccine developed by Pfizer.",
+        "The vaccine was develop by Pfizer."
+      ],
+      "answer": "The vaccine was developed by Pfizer.",
+      "explanation": "Passive + 'by' + agent. V3 = 'developed'. Agent introduced with 'by', not 'from'."
+    },
+    {
+      "id": "ps2-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Active to passive: 'The chef prepares the meal every day.' → Passive:",
+      "prompt": "The meal ___ every day.",
+      "options": ["prepares", "is prepared", "was prepared", "prepared"],
+      "answer": "is prepared",
+      "explanation": "Active: prepares (present simple). Passive: is prepared. Object 'the meal' becomes subject."
+    },
+    {
+      "id": "ps2-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Active to passive: 'Workers built the bridge in 1965.' → Passive:",
+      "prompt": "The bridge ___ in 1965.",
+      "options": ["is built", "was built", "were built", "built"],
+      "answer": "was built",
+      "explanation": "Active past simple → past simple passive. 'The bridge' = singular → 'was built'."
+    },
+    {
+      "id": "ps2-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the sentence where 'by + agent' should be OMITTED (agent is unknown/unimportant).",
+      "prompt": "___",
+      "options": [
+        "The Mona Lisa was painted by Leonardo da Vinci.",
+        "My car was stolen last night by someone.",
+        "The report was written by Dr Santos.",
+        "The law was passed by the parliament in 2001."
+      ],
+      "answer": "My car was stolen last night by someone.",
+      "explanation": "'By someone' is redundant — 'someone' adds no information. Omit: 'My car was stolen last night.'"
+    },
+    {
+      "id": "ps2-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Laporan ini ditulis oleh tim peneliti.' → Passive in English:",
+      "prompt": "This report ___ by the research team.",
+      "options": ["writes", "was written", "is write", "were written"],
+      "answer": "was written",
+      "explanation": "'Ditulis' = was written (past passive). Singular subject 'this report' → 'was written'."
+    },
+    {
+      "id": "ps2-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correctly formed negative past passive.",
+      "prompt": "The contract ___ on time due to a technical error.",
+      "options": ["was not signed", "did not signed", "not was signed", "were not signed"],
+      "answer": "was not signed",
+      "explanation": "Past simple passive negative: was/were + not + V3. Singular → 'was not signed'."
+    },
+    {
+      "id": "ps2-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the sentence that correctly converts the active to a passive question.",
+      "prompt": "Active: 'Did they approve the budget?' → Passive:",
+      "options": [
+        "Was the budget approved?",
+        "Did the budget approved?",
+        "Was the budget approve?",
+        "Were the budget approved?"
+      ],
+      "answer": "Was the budget approved?",
+      "explanation": "Past passive question: Was/Were + subject + V3. 'The budget' = singular → 'Was approved'."
+    },
+    {
+      "id": "ps2-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Peraturan baru diumumkan setiap tahun.' → English:",
+      "prompt": "New regulations ___ every year.",
+      "options": ["announces", "are announced", "is announced", "were announced"],
+      "answer": "are announced",
+      "explanation": "'Diumumkan' = are announced (present passive, general/habitual). Plural → 'are announced'."
+    },
+    {
+      "id": "ps2-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the active sentence that CANNOT be easily passivised (intransitive verb — no object).",
+      "prompt": "___",
+      "options": [
+        "The manager approved the plan.",
+        "They published the report last week.",
+        "She arrived at the conference early.",
+        "The company hired 50 new employees."
+      ],
+      "answer": "She arrived at the conference early.",
+      "explanation": "'Arrive' is intransitive — it has no object. Intransitive verbs cannot be made passive."
+    },
+    {
+      "id": "ps2-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which option correctly completes the present passive?",
+      "prompt": "This data ___ automatically when you submit the form.",
+      "options": ["saves", "is saved", "was saved", "are saved"],
+      "answer": "is saved",
+      "explanation": "Present simple passive. 'This data' = singular/uncountable → 'is saved'."
+    },
+    {
+      "id": "ps2-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive. The action is a general ongoing fact.",
+      "prompt": "Coffee ___ in over 70 countries around the world.",
+      "options": ["grew", "is grown", "was grown", "grows"],
+      "answer": "is grown",
+      "explanation": "General ongoing fact → present simple passive. 'Coffee' = singular → 'is grown'."
+    },
+    {
+      "id": "ps2-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in this passive sentence.",
+      "prompt": "The ancient city was discover by archaeologists in 1922.",
+      "options": [
+        "The tense is wrong — should be present.",
+        "'discover' should be 'discovered' (V3).",
+        "'was' should be 'were' — plural subject.",
+        "The 'by' phrase should be removed."
+      ],
+      "answer": "'discover' should be 'discovered' (V3).",
+      "explanation": "Passive requires the past participle (V3). 'discover' → 'discovered'."
+    }
+  ]
+}

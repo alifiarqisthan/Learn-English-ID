@@ -1,1 +1,304 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "az-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for a general statement.",
+      "prompt": "___ elephants are the largest land animals on Earth.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article (∅)"
+      ],
+      "answer": "No article (∅)",
+      "explanation": "General statement about the whole species → zero article. 'The elephants' would mean specific elephants."
+    },
+    {
+      "id": "az-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article before an academic subject.",
+      "prompt": "She has always found ___ mathematics challenging.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article",
+      "explanation": "Academic subjects take zero article: mathematics, biology, history, economics."
+    },
+    {
+      "id": "az-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for means of transport.",
+      "prompt": "Most employees travel to work by ___ car.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article",
+      "explanation": "'By + transport' uses zero article: by car, by train, by bus, by plane."
+    },
+    {
+      "id": "az-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with an incorrect article.",
+      "prompt": "___",
+      "options": [
+        "She skipped breakfast to finish the report.",
+        "He plays the football every Saturday morning.",
+        "Life is full of unexpected challenges.",
+        "She speaks English and Mandarin fluently."
+      ],
+      "answer": "He plays the football every Saturday morning.",
+      "explanation": "Sports and games take zero article: 'He plays football'. 'The football' refers to a specific ball, not the sport."
+    },
+    {
+      "id": "az-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with an incorrect article use.",
+      "prompt": "___",
+      "options": [
+        "Knowledge is power.",
+        "The knowledge she gained during her internship was invaluable.",
+        "The knowledge is essential for every student.",
+        "Her knowledge of the subject impressed everyone."
+      ],
+      "answer": "The knowledge is essential for every student.",
+      "explanation": "General philosophical statement about 'knowledge' → zero article. 'The knowledge' would imply specific knowledge already discussed."
+    },
+    {
+      "id": "az-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct article. The person is in hospital as a patient.",
+      "prompt": "He has been in ___ hospital for three days after the accident.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article",
+      "explanation": "'In hospital' (British English) = as a patient, functional use → zero article. 'In the hospital' = inside the building (more common in American English)."
+    },
+    {
+      "id": "az-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct article for a language.",
+      "prompt": "She is fluent in ___ French and ___ English.",
+      "options": [
+        "the / the",
+        "no article / no article",
+        "a / a",
+        "the / no article"
+      ],
+      "answer": "no article / no article",
+      "explanation": "Languages take zero article: French, English, Mandarin, Arabic."
+    },
+    {
+      "id": "az-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article. This is a general statement about a season.",
+      "prompt": "___ spring is the most beautiful season in this region.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": "No article",
+      "explanation": "Seasons used as general concepts take zero article: spring, summer, autumn, winter."
+    },
+    {
+      "id": "az-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article before a meal.",
+      "prompt": "She always has ___ lunch at her desk.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article",
+      "explanation": "Meals without adjectives take zero article: breakfast, lunch, dinner. With adjective: 'a quick lunch'."
+    },
+    {
+      "id": "az-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'the' or write 'no article' (∅).",
+      "prompt": "___ water is essential for all living organisms.",
+      "options": [
+        "no article",
+        "a",
+        "an",
+        "∅"
+      ],
+      "answer": "no article",
+      "explanation": "General statement about water (uncountable, general) → zero article."
+    },
+    {
+      "id": "az-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'the' or write 'no article' (∅).",
+      "prompt": "She studied ___ economics at Universitas Indonesia.",
+      "options": [
+        "an",
+        "no article",
+        "∅",
+        "a"
+      ],
+      "answer": "no article",
+      "explanation": "Academic subjects → zero article."
+    },
+    {
+      "id": "az-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: 'the' or write 'no article'. The noun is specific — already discussed.",
+      "prompt": "I read an article about climate change. ___ article was very informative.",
+      "options": [
+        "did the",
+        "thes",
+        "theing",
+        "The"
+      ],
+      "answer": "The",
+      "explanation": "Second mention of a specific article (already introduced) → 'the'."
+    },
+    {
+      "id": "az-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'the' or 'no article'. General philosophical statement.",
+      "prompt": "___ life is too short to spend it on regrets.",
+      "options": [
+        "∅",
+        "no article",
+        "an",
+        "a"
+      ],
+      "answer": "no article",
+      "explanation": "General philosophical statement → zero article. 'The life' would need a specific context."
+    },
+    {
+      "id": "az-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'the' or 'no article'. Institution used for its function.",
+      "prompt": "After finishing secondary school, she went to ___ university.",
+      "options": [
+        "no article",
+        "∅",
+        "a",
+        "an"
+      ],
+      "answer": "no article",
+      "explanation": "Functional use — she went there to study → zero article."
+    },
+    {
+      "id": "az-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Anjing adalah hewan yang setia.\"",
+      "prompt": "Anjing adalah hewan yang setia.",
+      "options": [
+        "Dogs are loyal animals.",
+        "is Doging are loyal is animaling.",
+        "animals. loyal are Dogs",
+        "Dogs were loyal animals."
+      ],
+      "answer": "Dogs are loyal animals.",
+      "explanation": "General statement about all dogs → zero article. Not 'The dogs are loyal animals'."
+    },
+    {
+      "id": "az-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia mengajar biologi di sebuah SMA.\"",
+      "prompt": "Dia mengajar biologi di sebuah SMA.",
+      "options": [
+        "She is teacheing biology at a high school.",
+        "She teaches biology at an high school.",
+        "She teaches biology in a high school.",
+        "She teaches biology at a high school."
+      ],
+      "answer": "She teaches biology at a high school.",
+      "explanation": "Academic subject 'biology' → zero article. 'A high school' = first mention."
+    },
+    {
+      "id": "az-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Pengetahuan adalah dasar dari kemajuan.\"",
+      "prompt": "Pengetahuan adalah dasar dari kemajuan.",
+      "options": [
+        "Knowledge is the foundation of progress.",
+        "Knowledge is the foundation of is progresing.",
+        "Knowledge is a foundation of progress.",
+        "Knowledge was the foundation of progress."
+      ],
+      "answer": "Knowledge is the foundation of progress.",
+      "explanation": "General uncountable noun 'knowledge' → zero article. 'The foundation' is specific (of progress)."
+    },
+    {
+      "id": "az-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Dia fasih berbahasa Inggris dan Mandarin.\"",
+      "prompt": "Dia fasih berbahasa Inggris dan Mandarin.",
+      "options": [
+        "Mandarin. and English in fluent is She",
+        "she are fluent in English and Mandarin.",
+        "She is fluent in English and Mandarin.",
+        "She was fluent in English and Mandarin."
+      ],
+      "answer": "She is fluent in English and Mandarin.",
+      "explanation": "Languages take zero article: English, Mandarin, French."
+    },
+    {
+      "id": "az-mc-general-specific-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "One sentence uses zero article (general) and one uses 'the' (specific). Which pair is correct?",
+      "prompt": "___",
+      "options": [
+        "A: Music is beautiful. / B: Music at the café was too loud.",
+        "A: The music is beautiful. / B: The music at the café was too loud.",
+        "A: Music is beautiful. / B: The music at the café was too loud.",
+        "A: The music is beautiful. / B: Music at the café was too loud."
+      ],
+      "answer": "A: Music is beautiful. / B: The music at the café was too loud.",
+      "explanation": "General statement → zero article ('Music is beautiful'). Specific music in a specific place → 'the music at the café'."
+    },
+    {
+      "id": "az-mc-sport-meal-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence with ALL articles correct.",
+      "prompt": "___",
+      "options": [
+        "She had the breakfast and then played the tennis.",
+        "She had breakfast and then played tennis.",
+        "She had a breakfast and then played a tennis.",
+        "She had the breakfast and then played tennis."
+      ],
+      "answer": "She had breakfast and then played tennis.",
+      "explanation": "Meals → zero article (breakfast). Sports → zero article (tennis). Neither takes 'the' or 'a/an' in this context."
+    }
+  ]
+}

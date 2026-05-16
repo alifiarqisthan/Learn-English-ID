@@ -8,6 +8,7 @@ import {
   loadAllGroups,
   loadGroup,
   loadGroupTestExercises,
+  loadMasterGroupTest,
 } from "../content/groups.js";
 
 const masterTestSchema = z.object({ exercises: z.array(exerciseSchema) });
@@ -64,6 +65,22 @@ groupsRouter.get("/:slug/test", async (req, res, next) => {
     );
     if (!test) {
       res.status(404).json({ error: "Group test not yet authored" });
+      return;
+    }
+    res.json(test);
+  } catch (err) {
+    next(err);
+  }
+});
+
+groupsRouter.get("/:masterSlug/master-test", async (req, res, next) => {
+  try {
+    const test = await loadMasterGroupTest(
+      config.groupDir,
+      req.params.masterSlug,
+    );
+    if (!test) {
+      res.status(404).json({ error: "Master group test not yet authored" });
       return;
     }
     res.json(test);

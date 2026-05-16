@@ -1,0 +1,239 @@
+{
+  "exercises": [
+    {
+      "id": "ss-master-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the sentence type.",
+      "prompt": "The manager reviewed the report and sent it to the board.",
+      "options": ["Simple", "Compound", "Complex", "Compound-complex"],
+      "answer": "Compound",
+      "explanation": "Two independent clauses joined by 'and' → compound. Each clause could stand alone."
+    },
+    {
+      "id": "ss-master-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the sentence type.",
+      "prompt": "Although the exam was difficult, most students passed.",
+      "options": ["Simple", "Compound", "Complex", "Compound-complex"],
+      "answer": "Complex",
+      "explanation": "One subordinate clause ('Although…') + one main clause → complex sentence."
+    },
+    {
+      "id": "ss-master-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the run-on sentence.",
+      "prompt": "___",
+      "options": [
+        "The meeting was long, but it was productive.",
+        "She submitted; the professor graded it the same day.",
+        "He studied all night he passed the exam the next morning.",
+        "Although they were tired, they continued."
+      ],
+      "answer": "He studied all night he passed the exam the next morning.",
+      "explanation": "Two independent clauses with no conjunction or punctuation → run-on sentence."
+    },
+    {
+      "id": "ss-master-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct relative pronoun for a person who did something.",
+      "prompt": "The student ___ scored the highest was awarded a scholarship.",
+      "options": ["who", "which", "whose", "whom"],
+      "answer": "who",
+      "explanation": "Person + subject of relative clause → 'who'. 'Which' = things. 'Whose' = possessive. 'Whom' = object."
+    },
+    {
+      "id": "ss-master-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the non-defining relative clause with a punctuation error.",
+      "prompt": "___",
+      "options": [
+        "My thesis, which took two years, was finally approved.",
+        "Professor Arman, who is retiring, wrote the textbook.",
+        "The research paper which was peer-reviewed, received high praise.",
+        "Jakarta, which is Indonesia's capital, has a large population."
+      ],
+      "answer": "The research paper which was peer-reviewed, received high praise.",
+      "explanation": "Non-defining clauses need commas on BOTH sides: 'The research paper, which was peer-reviewed, received high praise.'"
+    },
+    {
+      "id": "ss-master-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Reduce the relative clause correctly.",
+      "prompt": "The report that was submitted yesterday has been reviewed. → Reduced:",
+      "options": ["The report that submitted yesterday…", "The report submitted yesterday…", "The report which submitted yesterday…", "The report being submitted yesterday…"],
+      "answer": "The report submitted yesterday…",
+      "explanation": "Passive relative clause ('that was submitted') reduces to past participle V3: 'the report submitted yesterday.' Remove 'that was'."
+    },
+    {
+      "id": "ss-master-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the noun clause function: 'Everyone knows [that climate change is accelerating].'",
+      "prompt": "The noun clause functions as:",
+      "options": ["Subject", "Object", "Subject complement", "Appositive"],
+      "answer": "Object",
+      "explanation": "'That climate change is accelerating' is the object of 'knows' — it answers 'what does everyone know?'"
+    },
+    {
+      "id": "ss-master-8",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the reported question with incorrect word order.",
+      "prompt": "He asked me where did I live.",
+      "options": [
+        "Should be 'where I lived' — indirect questions use statement word order.",
+        "Should be 'where do I live' — present tense needed.",
+        "Should be 'where was I living' — continuous needed.",
+        "No error — 'where did I live' is correct in indirect questions."
+      ],
+      "answer": "Should be 'where I lived' — indirect questions use statement word order.",
+      "explanation": "Indirect questions use statement word order (subject + verb), not question inversion. 'He asked me where I lived.'"
+    },
+    {
+      "id": "ss-master-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech transformation.",
+      "prompt": "She said: 'I will submit tomorrow.' → She said ___ submit the next day.",
+      "options": ["that she will", "that she would", "she would", "Both B and C are correct."],
+      "answer": "Both B and C are correct.",
+      "explanation": "Reported speech: 'will' → 'would'. 'That' is optional. Both 'she said that she would' and 'she said she would' are correct."
+    },
+    {
+      "id": "ss-master-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct adverb clause for time.",
+      "prompt": "She will call you ___ she arrives at the airport.",
+      "options": ["when", "although", "so that", "unless"],
+      "answer": "when",
+      "explanation": "'When' introduces the time clause. Note: future time clauses use present tense after 'when/after/before/until': 'when she arrives' (not 'will arrive')."
+    },
+    {
+      "id": "ss-master-11",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the future time clause error.",
+      "prompt": "I will call you when I will arrive.",
+      "options": [
+        "Should be 'when I arrive' — present tense in future time clauses.",
+        "Should be 'when I arrived' — past tense required.",
+        "Should be 'when I am arriving' — continuous needed.",
+        "No error — 'will arrive' is correct in future time clauses."
+      ],
+      "answer": "Should be 'when I arrive' — present tense in future time clauses.",
+      "explanation": "After 'when, after, before, until, as soon as' in future contexts, use present simple (not 'will'): 'when I arrive.'"
+    },
+    {
+      "id": "ss-master-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct contrast clause.",
+      "prompt": "He continued working ___ he was exhausted.",
+      "options": ["because", "so that", "even though", "unless"],
+      "answer": "even though",
+      "explanation": "'Even though' (stronger than 'although') introduces contrast. He worked despite being exhausted."
+    },
+    {
+      "id": "ss-master-13",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the double conjunction error.",
+      "prompt": "Although she studied hard, but she failed the exam.",
+      "options": [
+        "Remove 'but' — 'although' and 'but' cannot both connect the same clauses.",
+        "Remove 'although' — 'but' is the correct conjunction.",
+        "Both are correct — they can be used together.",
+        "Replace 'although' with 'even though'."
+      ],
+      "answer": "Remove 'but' — 'although' and 'but' cannot both connect the same clauses.",
+      "explanation": "Using both 'although' (subordinating) and 'but' (coordinating) to join the same clauses is a double conjunction error. Use one or the other."
+    },
+    {
+      "id": "ss-master-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct purpose clause.",
+      "prompt": "She spoke slowly ___ the students could understand her.",
+      "options": ["because", "although", "so that", "unless"],
+      "answer": "so that",
+      "explanation": "'So that' introduces purpose — she spoke slowly with the aim that students would understand. 'In order to' also works for purpose but needs an infinitive."
+    },
+    {
+      "id": "ss-master-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence with a result clause.",
+      "prompt": "The presentation was ___ long ___ half the audience fell asleep.",
+      "options": ["too / that", "so / that", "such a / that", "very / that"],
+      "answer": "so / that",
+      "explanation": "'So + adjective + that' = result structure. 'The presentation was so long that…'"
+    },
+    {
+      "id": "ss-master-16",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct noun clause after 'wonder'.",
+      "prompt": "I wonder ___ she received my email.",
+      "options": ["that", "if", "which", "who"],
+      "answer": "if",
+      "explanation": "'Wonder' + yes/no question takes 'if' or 'whether': 'I wonder if she received my email.'"
+    },
+    {
+      "id": "ss-master-17",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported command.",
+      "prompt": "The professor said: 'Submit your work by Friday.' → The professor told students ___ their work by Friday.",
+      "options": ["to submit", "that to submit", "should submit", "submitting"],
+      "answer": "to submit",
+      "explanation": "Reported commands: tell + object + to-infinitive. 'The professor told students to submit…'"
+    },
+    {
+      "id": "ss-master-18",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct object relative pronoun (formal).",
+      "prompt": "The professor ___ I admire most is retiring this year.",
+      "options": ["who", "whom", "which", "whose"],
+      "answer": "whom",
+      "explanation": "The professor is the object of 'admire' → formal object pronoun 'whom'. Informal English accepts 'who' here."
+    },
+    {
+      "id": "ss-master-19",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence fragment.",
+      "prompt": "___",
+      "options": [
+        "The results were inconclusive.",
+        "Because the data was insufficient.",
+        "She submitted her thesis on time.",
+        "The professor reviewed all the papers."
+      ],
+      "answer": "Because the data was insufficient.",
+      "explanation": "A subordinate clause with no main clause = sentence fragment. 'Because the data was insufficient' cannot stand alone."
+    },
+    {
+      "id": "ss-master-20",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses the best structural variety for academic writing?",
+      "prompt": "___",
+      "options": [
+        "Results improved. Students worked harder. Scores rose. Teachers helped.",
+        "Although scores initially declined, they improved after feedback, and most students passed.",
+        "Results improved and students worked harder and teachers provided feedback and scores rose.",
+        "Results improved. Results showed improvement. Improvement was seen in results."
+      ],
+      "answer": "Although scores initially declined, they improved after feedback, and most students passed.",
+      "explanation": "This compound-complex sentence combines subordination + coordination — the best structural variety. The other options use repetitive structures."
+    }
+  ]
+}

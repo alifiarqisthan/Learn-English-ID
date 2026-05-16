@@ -1,1 +1,219 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "rs-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I am tired.\" → She said that she ___.",
+      "options": ["is tired", "was tired", "has been tired", "were tired"],
+      "answer": "was tired",
+      "explanation": "Present Simple 'am' → Past Simple 'was' in reported speech (tense backshift)."
+    },
+    {
+      "id": "rs-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I have finished the report.\" → He said that he ___.",
+      "options": ["has finished the report", "had finished the report", "finished the report", "was finishing the report"],
+      "answer": "had finished the report",
+      "explanation": "Present Perfect 'have finished' → Past Perfect 'had finished' in reported speech."
+    },
+    {
+      "id": "rs-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"We will call you tomorrow.\" → They said they ___ me the next day.",
+      "options": ["will call", "would call", "are going to call", "called"],
+      "answer": "would call",
+      "explanation": "'Will' → 'would' in reported speech. 'Tomorrow' → 'the next day'."
+    },
+    {
+      "id": "rs-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I can swim.\" → She said she ___ swim.",
+      "options": ["can", "could", "may", "would"],
+      "answer": "could",
+      "explanation": "'Can' → 'could' in reported speech (modal backshift)."
+    },
+    {
+      "id": "rs-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I called her yesterday.\" → He said he ___ her the day before.",
+      "options": ["called", "had called", "was calling", "has called"],
+      "answer": "had called",
+      "explanation": "Past Simple 'called' → Past Perfect 'had called' in reported speech."
+    },
+    {
+      "id": "rs-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I must leave now.\" → She said she ___ leave then.",
+      "options": ["must", "had to", "should", "would"],
+      "answer": "had to",
+      "explanation": "'Must' → 'had to' in reported speech when expressing obligation."
+    },
+    {
+      "id": "rs-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I may join you later.\" → He said he ___ join us later.",
+      "options": ["may", "might", "could", "would"],
+      "answer": "might",
+      "explanation": "'May' → 'might' in reported speech (modal backshift)."
+    },
+    {
+      "id": "rs-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I don't know the answer.\" → She said she ___ the answer.",
+      "options": ["doesn't know", "didn't know", "hadn't known", "wouldn't know"],
+      "answer": "didn't know",
+      "explanation": "Present Simple negative 'don't know' → Past Simple 'didn't know' in reported speech."
+    },
+    {
+      "id": "rs-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with the correct reported speech.",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "She said she doesn't like coffee.",
+        "She said she didn't like coffee.",
+        "She said she hadn't liked coffee.",
+        "She said she won't like coffee."
+      ],
+      "answer": "She said she didn't like coffee.",
+      "explanation": "With a past reporting verb ('said'), the verb must backshift: 'doesn't' → 'didn't'."
+    },
+    {
+      "id": "rs-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that uses 'told' correctly.",
+      "prompt": "Which reported speech sentence uses 'told' correctly?",
+      "options": [
+        "He told that he was busy.",
+        "He told me that he was busy.",
+        "He told to me that he was busy.",
+        "He told that she should wait."
+      ],
+      "answer": "He told me that he was busy.",
+      "explanation": "'Told' must be followed directly by a personal object ('me', 'her', 'us'). 'Told that' without an object is incorrect."
+    },
+    {
+      "id": "rs-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I haven't eaten today.\" → She said she ___ that day.",
+      "options": ["hasn't eaten", "didn't eat", "hadn't eaten", "wouldn't eat"],
+      "answer": "hadn't eaten",
+      "explanation": "Present Perfect 'haven't eaten' → Past Perfect 'hadn't eaten'. 'Today' → 'that day'."
+    },
+    {
+      "id": "rs-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which of the following reported speech sentences is INCORRECT?",
+      "options": [
+        "He said he would come later.",
+        "She said she had already finished.",
+        "They said they will arrive soon.",
+        "He said he couldn't find his keys."
+      ],
+      "answer": "They said they will arrive soon.",
+      "explanation": "With a past reporting verb ('said'), 'will' must backshift to 'would': 'They said they would arrive soon'."
+    },
+    {
+      "id": "rs-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct time expression for reported speech.",
+      "prompt": "Direct: \"I will submit the project tomorrow.\" → She said she would submit the project ___.",
+      "options": ["tomorrow", "the next day", "the following morning", "yesterday"],
+      "answer": "the next day",
+      "explanation": "'Tomorrow' in direct speech becomes 'the next day' (or 'the following day') in reported speech."
+    },
+    {
+      "id": "rs-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I was studying when you called.\" → She said she ___ when I called.",
+      "options": ["was studying", "had been studying", "is studying", "studied"],
+      "answer": "had been studying",
+      "explanation": "Past Continuous 'was studying' → Past Perfect Continuous 'had been studying' in reported speech."
+    },
+    {
+      "id": "rs-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct reported speech form.",
+      "prompt": "Direct: \"I live here.\" → He said he lived ___.",
+      "options": ["here", "there", "nearby", "anywhere"],
+      "answer": "there",
+      "explanation": "'Here' in direct speech changes to 'there' in reported speech."
+    },
+    {
+      "id": "rs-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct word for reported speech.",
+      "prompt": "Direct: \"I bought this yesterday.\" → She said she had bought ___ the day before.",
+      "options": ["this", "that", "these", "those"],
+      "answer": "that",
+      "explanation": "'This' becomes 'that' in reported speech to reflect the change in perspective."
+    },
+    {
+      "id": "rs-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct reported speech.",
+      "prompt": "Direct: \"We finished the task last week.\" → They said they ___ the task the week before.",
+      "options": ["finished", "had finished", "have finished", "were finishing"],
+      "answer": "had finished",
+      "explanation": "Past Simple 'finished' → Past Perfect 'had finished'. 'Last week' → 'the week before'."
+    },
+    {
+      "id": "rs-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the correct reported speech.",
+      "prompt": "Direct: \"The Earth orbits the Sun.\" → The scientist said the Earth ___ the Sun.",
+      "options": ["orbited", "orbits", "had orbited", "would orbit"],
+      "answer": "orbits",
+      "explanation": "Scientific facts do not require backshift because they are always true. 'Orbits' remains in the present tense."
+    },
+    {
+      "id": "rs-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct reported speech.",
+      "prompt": "Direct: \"I am working on a new project.\" → She says she ___ on a new project.",
+      "options": ["was working", "is working", "has been working", "worked"],
+      "answer": "is working",
+      "explanation": "When the reporting verb is present tense ('says'), no backshift is needed. The verb stays in its original form."
+    },
+    {
+      "id": "rs-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct reported speech.",
+      "prompt": "Direct: \"My sister will visit me today.\" → He said his sister ___ visit him that day.",
+      "options": ["will", "would", "could", "might"],
+      "answer": "would",
+      "explanation": "'Will' → 'would' in reported speech. 'My' → 'his' (pronoun change). 'Today' → 'that day'."
+    }
+  ]
+}

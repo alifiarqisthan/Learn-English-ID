@@ -1,1 +1,179 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ch-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct second conditional.",
+      "prompt": "If I ___ more time, I ___ travel more.",
+      "options": ["have / will", "had / would", "would have / could", "had / will"],
+      "answer": "had / would",
+      "explanation": "Second conditional (unreal present): if + past simple, would + V1. 'If I had more time, I would travel more' — I don't have the time."
+    },
+    {
+      "id": "ch-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct subjunctive 'were' in a second conditional.",
+      "prompt": "If I ___ you, I ___ apply for the position.",
+      "options": ["was / will", "were / would", "was / would", "were / will"],
+      "answer": "were / would",
+      "explanation": "In second conditionals with 'be', formal English uses 'were' for all persons: 'If I were you, I would apply.' 'Was' is informal/spoken but 'were' is standard."
+    },
+    {
+      "id": "ch-test-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the second conditional error.",
+      "prompt": "If she would study harder, she would pass.",
+      "options": [
+        "Should be 'studied' — 'would' is not used in the if-clause.",
+        "Should be 'studies' — present simple in the if-clause.",
+        "Should be 'had studied' — past perfect needed.",
+        "No error — 'would study' is correct in second conditionals."
+      ],
+      "answer": "Should be 'studied' — 'would' is not used in the if-clause.",
+      "explanation": "'Would' never goes in the if-clause of a second conditional. Correct: 'If she studied harder, she would pass.'"
+    },
+    {
+      "id": "ch-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct third conditional.",
+      "prompt": "If she ___ earlier, she ___ the meeting.",
+      "options": ["arrived / wouldn't miss", "had arrived / wouldn't have missed", "arrived / won't miss", "would arrive / wouldn't miss"],
+      "answer": "had arrived / wouldn't have missed",
+      "explanation": "Third conditional (unreal past): if + past perfect (had + V3), would have + V3. She didn't arrive early, so she missed it."
+    },
+    {
+      "id": "ch-test-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the third conditional error.",
+      "prompt": "If I would have known, I would have helped.",
+      "options": [
+        "Should be 'If I had known' — past perfect in the if-clause, not 'would have'.",
+        "Should be 'If I knew' — past simple needed.",
+        "Should be 'If I had known, I helped' — no 'would have' in result.",
+        "No error — 'would have known' is correct."
+      ],
+      "answer": "Should be 'If I had known' — past perfect in the if-clause, not 'would have'.",
+      "explanation": "'Would have' never goes in the if-clause. Third conditional if-clause: had + V3. Correct: 'If I had known, I would have helped.'"
+    },
+    {
+      "id": "ch-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct V3 in the third conditional.",
+      "prompt": "If she had ___ earlier, she would have caught the train.",
+      "options": ["leave", "left", "leaved", "leaving"],
+      "answer": "left",
+      "explanation": "Past perfect = had + V3. 'Leave' → irregular V3 = 'left'. 'Leaved' does not exist."
+    },
+    {
+      "id": "ch-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Andaikan saya punya lebih banyak waktu, saya akan bepergian.' → English:",
+      "prompt": "If I ___ more time, I ___ travel.",
+      "options": ["have / will", "had / would", "would have / could", "had / will"],
+      "answer": "had / would",
+      "explanation": "'Andaikan' = hypothetical ('if only', 'if I had…') → second conditional. 'If I had more time, I would travel.'"
+    },
+    {
+      "id": "ch-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'could have' or 'might have' in a third conditional.",
+      "prompt": "If she had prepared better, she ___ a higher score.",
+      "options": ["would have got", "could have got", "Both are correct.", "might got"],
+      "answer": "Both are correct.",
+      "explanation": "'Would have got' (certain hypothetical result) and 'could have got' (possible hypothetical result) are both valid. 'Might got' is wrong — needs 'have got'."
+    },
+    {
+      "id": "ch-test-9",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "What is the difference between second and third conditional?",
+      "prompt": "___",
+      "options": [
+        "Second: unreal present/future. Third: unreal past.",
+        "Second: unreal past. Third: unreal present/future.",
+        "Both describe unreal present situations.",
+        "Second uses 'would have'; third uses 'would'."
+      ],
+      "answer": "Second: unreal present/future. Third: unreal past.",
+      "explanation": "Second conditional: imagining a different present or future. Third conditional: imagining a different past. Key difference is the time of the hypothetical situation."
+    },
+    {
+      "id": "ch-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct second conditional with result clause inversion.",
+      "prompt": "___ I have more time, I would read more.",
+      "options": ["If", "Were", "Had", "Should"],
+      "answer": "Were",
+      "explanation": "Inverted second conditional (formal): 'Were I to have more time' or 'Were I + adj/noun'. Omits 'if' and inverts subject-auxiliary: 'Were I to have more time, I would read more.'"
+    },
+    {
+      "id": "ch-test-11",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the third conditional with the wrong verb form.",
+      "prompt": "___",
+      "options": [
+        "If she had studied, she would have passed.",
+        "If he had gone earlier, he would have caught the bus.",
+        "If they had knew the answer, they would have responded.",
+        "If we had left sooner, we wouldn't have been late."
+      ],
+      "answer": "If they had knew the answer, they would have responded.",
+      "explanation": "Past perfect = had + V3. 'Know' → V3 = 'known', not 'knew' (which is V2). Correct: 'If they had known the answer…'"
+    },
+    {
+      "id": "ch-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Seandainya saya belajar lebih keras, saya sudah lulus.' → English:",
+      "prompt": "If I ___ harder, I ___ passed.",
+      "options": ["studied / would", "had studied / would have", "study / will have", "studied / would have"],
+      "answer": "had studied / would have",
+      "explanation": "'Seandainya saya sudah' = if I had (done something in the past) → third conditional. 'If I had studied harder, I would have passed.'"
+    },
+    {
+      "id": "ch-test-13",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct second conditional question.",
+      "prompt": "What ___ you do if you ___ the manager?",
+      "options": ["would / are", "would / were", "will / are", "would / was"],
+      "answer": "would / were",
+      "explanation": "Second conditional question: What + would + subject + V1 + if + past simple? 'What would you do if you were the manager?' — 'were' is preferred (subjunctive)."
+    },
+    {
+      "id": "ch-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the inverted third conditional (formal).",
+      "prompt": "___ I known about the problem, I would have fixed it sooner.",
+      "options": ["If", "Were", "Had", "Should"],
+      "answer": "Had",
+      "explanation": "Inverted third conditional: 'Had + subject + V3, would have + V3.' Omits 'if', inverts had + subject. 'Had I known…' = 'If I had known…'"
+    },
+    {
+      "id": "ch-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence expresses regret using a third conditional?",
+      "prompt": "___",
+      "options": [
+        "If I study harder, I will pass.",
+        "If I studied harder, I would pass.",
+        "If I had studied harder, I would have passed.",
+        "If I were to study harder, I could pass."
+      ],
+      "answer": "If I had studied harder, I would have passed.",
+      "explanation": "Third conditional expresses regret about the past — the studying didn't happen and neither did the passing. 'If I had studied harder, I would have passed.'"
+    }
+  ]
+}

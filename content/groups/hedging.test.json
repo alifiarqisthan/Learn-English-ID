@@ -1,1 +1,194 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "hed-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best hedging modal for an uncertain academic claim.",
+      "prompt": "The increase in temperature ___ affect crop yields in tropical regions.",
+      "options": ["will", "may", "must", "shall"],
+      "answer": "may",
+      "explanation": "'May affect' = hedged academic claim (~50% possibility). 'Will' is too certain for an uncertain scientific relationship."
+    },
+    {
+      "id": "hed-test-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with inappropriate hedging (over-hedging).",
+      "prompt": "___",
+      "options": [
+        "This may indicate a trend in the data.",
+        "This might perhaps possibly indicate a trend.",
+        "This possibly indicates a trend in the data.",
+        "This could suggest a pattern worth investigating."
+      ],
+      "answer": "This might perhaps possibly indicate a trend.",
+      "explanation": "Stacking three hedges ('might', 'perhaps', 'possibly') is over-hedging — redundant and unclear. Use one hedging device per claim."
+    },
+    {
+      "id": "hed-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct hedging adverb position.",
+      "prompt": "___",
+      "options": [
+        "Probably the data reflects a sampling error.",
+        "The data probably reflects a sampling error.",
+        "The data reflects probably a sampling error.",
+        "The data reflects a probably sampling error."
+      ],
+      "answer": "The data probably reflects a sampling error.",
+      "explanation": "Hedging adverbs go in mid-position, before the main verb. 'The data probably reflects' is correct. Starting with 'Probably' is possible but less preferred in academic style."
+    },
+    {
+      "id": "hed-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Replace the unhedged verb with an appropriate academic hedging verb.",
+      "prompt": "The data ___ a correlation between screen time and reduced attention.",
+      "options": ["proves", "suggests", "confirms completely", "establishes definitely"],
+      "answer": "suggests",
+      "explanation": "'Suggests' = cautious evidence-based interpretation. 'Proves' is too strong. 'Confirms completely' and 'establishes definitely' are absolute."
+    },
+    {
+      "id": "hed-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct structure for 'seem' in the to-infinitive pattern.",
+      "prompt": "The new approach ___ more effective than the previous method.",
+      "options": ["seems be", "seem to be", "seems to be", "is seeming to be"],
+      "answer": "seems to be",
+      "explanation": "'Seem + to-infinitive': 'seems to be'. Third person singular → 'seems'. 'Is seeming' is wrong — 'seem' is a stative verb."
+    },
+    {
+      "id": "hed-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'tend to' structure.",
+      "prompt": "Learners ___ rely on memorisation rather than contextual learning.",
+      "options": ["tend to", "tend to be", "tends to being", "tending to"],
+      "answer": "tend to",
+      "explanation": "'Tend to + V1': 'tend to rely'. Plural subject 'learners' → 'tend' (not 'tends'). Not 'tend to being' (gerund)."
+    },
+    {
+      "id": "hed-test-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the claim that should NOT be hedged.",
+      "prompt": "___",
+      "options": [
+        "This method may improve learning outcomes.",
+        "Water may boil at 100°C at standard atmospheric pressure.",
+        "The results may suggest a correlation.",
+        "This approach might be more effective in certain contexts."
+      ],
+      "answer": "Water may boil at 100°C at standard atmospheric pressure.",
+      "explanation": "The boiling point of water is an established scientific fact — state it directly: 'Water boils at 100°C.' Hedging established facts signals poor academic judgement."
+    },
+    {
+      "id": "hed-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best sentence-level hedging phrase.",
+      "prompt": "___ the decline in participation is linked to changes in assessment format.",
+      "options": ["Certainly", "It appears that", "It is proven that", "Obviously"],
+      "answer": "It appears that",
+      "explanation": "'It appears that' = a sentence-level hedge for a cautious interpretation. 'Certainly', 'It is proven that', and 'Obviously' claim certainty — inappropriate for hedging."
+    },
+    {
+      "id": "hed-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct approximator for a numerical claim.",
+      "prompt": "___ 45% of respondents reported improved outcomes after the intervention.",
+      "options": ["Exactly", "Approximately", "Completely", "Always"],
+      "answer": "Approximately",
+      "explanation": "'Approximately 45%' = hedged quantitative claim. In academic writing, survey percentages should be hedged with 'approximately', 'around', or 'roughly' unless exact."
+    },
+    {
+      "id": "hed-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the scope-limiting phrase that correctly hedges the claim.",
+      "prompt": "These findings apply, ___, to populations with similar demographic characteristics.",
+      "options": ["in all cases", "to some extent", "always", "completely"],
+      "answer": "to some extent",
+      "explanation": "'To some extent' = scope limitation — the findings don't apply universally. 'In all cases', 'always', and 'completely' are all absolute."
+    },
+    {
+      "id": "hed-test-11",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'seem' error.",
+      "prompt": "___",
+      "options": [
+        "The results seem to support the hypothesis.",
+        "It seems that the results support the hypothesis.",
+        "The results seem support the hypothesis.",
+        "The method seems to be working well."
+      ],
+      "answer": "The results seem support the hypothesis.",
+      "explanation": "'Seem' must be followed by 'to + V1' or 'it seems that + clause'. 'Seem support' (missing 'to') is incorrect."
+    },
+    {
+      "id": "hed-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that demonstrates the best academic hedging practice.",
+      "prompt": "___",
+      "options": [
+        "This study proves that mindfulness reduces anxiety in all participants.",
+        "This study suggests that mindfulness may reduce anxiety in some participants.",
+        "This study might perhaps possibly suggest that mindfulness could reduce anxiety.",
+        "This study shows mindfulness will always reduce anxiety."
+      ],
+      "answer": "This study suggests that mindfulness may reduce anxiety in some participants.",
+      "explanation": "Best: 'suggests' (hedging verb) + 'may reduce' (modal hedge) + 'some participants' (scope limitation). Others use absolute language or over-hedge."
+    },
+    {
+      "id": "hed-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Tampaknya metode ini cukup efektif.' → hedged English:",
+      "prompt": "___",
+      "options": [
+        "This method is definitely effective.",
+        "This method appears to be effective.",
+        "This method proves to be effective.",
+        "This method seems effective always."
+      ],
+      "answer": "This method appears to be effective.",
+      "explanation": "'Tampaknya' = appears/seems → 'appears to be effective'. 'Definitely' and 'proves' are unhedged. 'Seems effective always' is ungrammatical."
+    },
+    {
+      "id": "hed-test-14",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'tend to' error.",
+      "prompt": "Students tend to struggling with academic writing conventions.",
+      "options": [
+        "Should be 'tend to struggle' — V1 (base form) after 'tend to'.",
+        "Should be 'tends to struggling' — singular form needed.",
+        "Should be 'tend to be struggling' — continuous needed.",
+        "No error — 'tend to struggling' is correct."
+      ],
+      "answer": "Should be 'tend to struggle' — V1 (base form) after 'tend to'.",
+      "explanation": "'Tend to + V1': base form only. 'Struggling' (V-ing) is incorrect. Correct: 'Students tend to struggle with academic writing conventions.'"
+    },
+    {
+      "id": "hed-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the most varied and appropriate hedging for a research conclusion.",
+      "prompt": "The results ___ that mindfulness ___ reduce anxiety ___ in certain populations.",
+      "options": [
+        "prove / will certainly / completely",
+        "suggest / may / to some extent",
+        "show / possibly always / mostly",
+        "confirm completely / must / in all cases"
+      ],
+      "answer": "suggest / may / to some extent",
+      "explanation": "'Suggest' (hedging verb) + 'may reduce' (modal hedge) + 'to some extent' (scope limiter) = excellent varied academic hedging without redundancy."
+    }
+  ]
+}

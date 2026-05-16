@@ -1,1 +1,174 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "pt-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present simple passive.",
+      "prompt": "Coffee ___ in Brazil, Vietnam, and Colombia.",
+      "options": ["grows", "is grown", "was grown", "has been grown"],
+      "answer": "is grown",
+      "explanation": "Present simple passive: is/are + V3. The subject (coffee) receives the action — it is grown by farmers. General/habitual fact → present simple."
+    },
+    {
+      "id": "pt-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past simple passive.",
+      "prompt": "The ancient temple ___ over five hundred years ago.",
+      "options": ["built", "was built", "has been built", "is built"],
+      "answer": "was built",
+      "explanation": "Specific past time ('over five hundred years ago') + passive → past simple passive: was/were + V3."
+    },
+    {
+      "id": "pt-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present continuous passive.",
+      "prompt": "The new highway ___ right now. You can see the cranes from here.",
+      "options": ["is constructing", "is being constructed", "has been constructed", "was being constructed"],
+      "answer": "is being constructed",
+      "explanation": "Action happening right now (passive) → present continuous passive: is/are + being + V3. 'Is constructing' would be active."
+    },
+    {
+      "id": "pt-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present perfect passive.",
+      "prompt": "Three proposals ___ so far, but none have been approved.",
+      "options": ["submitted", "have been submitted", "were submitted", "are submitted"],
+      "answer": "have been submitted",
+      "explanation": "Present perfect passive: have/has + been + V3. 'So far' = up to now → present perfect. Three proposals (plural) → 'have been'."
+    },
+    {
+      "id": "pt-test-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the passive voice error.",
+      "prompt": "___",
+      "options": [
+        "The report was reviewed by the committee.",
+        "The results are being analysed by the research team.",
+        "The data has been collected last week.",
+        "Several samples were sent to the laboratory."
+      ],
+      "answer": "The data has been collected last week.",
+      "explanation": "'Last week' is a specific past time → use past simple passive ('was collected'), not present perfect ('has been collected'). Present perfect cannot be used with a specific past time reference."
+    },
+    {
+      "id": "pt-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Convert to passive: 'They are building a new sports complex.' →",
+      "prompt": "A new sports complex ___.",
+      "options": ["is building", "is being built", "has been built", "was built"],
+      "answer": "is being built",
+      "explanation": "Active present continuous → passive present continuous: is/are + being + V3. 'Are building' → 'is being built' (subject changes to 'a new sports complex')."
+    },
+    {
+      "id": "pt-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future passive.",
+      "prompt": "The exam results ___ by the end of next week.",
+      "options": ["will announce", "will be announced", "are announced", "are being announced"],
+      "answer": "will be announced",
+      "explanation": "Future passive: will + be + V3. The results (subject) receive the action of announcing. 'Will announce' is active (requires an agent performing the action)."
+    },
+    {
+      "id": "pt-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive with 'going to'.",
+      "prompt": "The conference ___ held online due to travel restrictions.",
+      "options": ["is going to be", "is going to being", "will be being", "was going to being"],
+      "answer": "is going to be",
+      "explanation": "'Going to' passive: is/are + going to + be + V3. 'Is going to be held' — planned future passive."
+    },
+    {
+      "id": "pt-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive infinitive.",
+      "prompt": "The application needs ___ before the deadline.",
+      "options": ["to submit", "to be submitted", "to be submitting", "being submitted"],
+      "answer": "to be submitted",
+      "explanation": "Passive infinitive: to + be + V3. 'Needs to be submitted' = the application (subject) needs someone to submit it."
+    },
+    {
+      "id": "pt-test-10",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Gedung ini sedang direnovasi.' → English:",
+      "prompt": "This building ___.",
+      "options": [
+        "is renovating",
+        "is being renovated",
+        "has been renovated",
+        "was renovated"
+      ],
+      "answer": "is being renovated",
+      "explanation": "'Sedang direnovasi' = currently being renovated → present continuous passive: is being + V3."
+    },
+    {
+      "id": "pt-test-11",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the past continuous passive.",
+      "prompt": "The suspect was being followed by the police when he entered the building.",
+      "options": [
+        "Should be 'was followed' — past simple passive.",
+        "Should be 'is being followed' — present continuous passive.",
+        "No error — 'was being followed' is the correct past continuous passive.",
+        "Should be 'had been followed' — past perfect passive."
+      ],
+      "answer": "No error — 'was being followed' is the correct past continuous passive.",
+      "explanation": "Past continuous passive: was/were + being + V3. 'Was being followed' describes an ongoing action at a past time — correct structure."
+    },
+    {
+      "id": "pt-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive for the 'being vs been' distinction.",
+      "prompt": "The samples ___ analysed when the power cut occurred.",
+      "options": ["were being", "have been", "had been", "were"],
+      "answer": "were being",
+      "explanation": "Past continuous passive ('were being analysed') = the analysis was in progress when interrupted. 'Were being' = interrupted ongoing action. 'Had been' = already completed before the interruption."
+    },
+    {
+      "id": "pt-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past perfect passive.",
+      "prompt": "By the time the auditors arrived, all the files ___ deleted.",
+      "options": ["were", "had been", "have been", "were being"],
+      "answer": "had been",
+      "explanation": "Past perfect passive: had + been + V3. The deletion happened before the auditors arrived (earlier past) → 'had been deleted'."
+    },
+    {
+      "id": "pt-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive with a modal (obligation).",
+      "prompt": "This form ___ submitted before the end of the month.",
+      "options": ["must be", "must been", "must is", "must being"],
+      "answer": "must be",
+      "explanation": "Modal passive: modal + be + V3. 'Must be submitted' — always base form 'be' after a modal, never 'been' or 'is'."
+    },
+    {
+      "id": "pt-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly forms a passive question?",
+      "prompt": "___",
+      "options": [
+        "When was the Eiffel Tower built?",
+        "When the Eiffel Tower was built?",
+        "When built was the Eiffel Tower?",
+        "When has the Eiffel Tower been built?"
+      ],
+      "answer": "When was the Eiffel Tower built?",
+      "explanation": "Passive question with specific past time: When + was + subject + V3? 'When was the Eiffel Tower built?' is correct. The present perfect ('has been built') would not be used with 'when' for a historical event."
+    }
+  ]
+}

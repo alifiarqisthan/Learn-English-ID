@@ -1,1 +1,174 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "gi-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form after 'enjoy'.",
+      "prompt": "She enjoys ___ classical music in the evenings.",
+      "options": ["to listen", "listening", "listen", "listened"],
+      "answer": "listening",
+      "explanation": "'Enjoy' always takes a gerund: enjoy + V-ing. 'Enjoy to listen' is incorrect."
+    },
+    {
+      "id": "gi-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form after 'want'.",
+      "prompt": "She wants ___ the conference next month.",
+      "options": ["attending", "to attend", "attend", "attended"],
+      "answer": "to attend",
+      "explanation": "'Want' takes a to-infinitive: want + to + V1. 'Want attending' is incorrect."
+    },
+    {
+      "id": "gi-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form after a preposition.",
+      "prompt": "She is good at ___ complex problems.",
+      "options": ["solve", "to solve", "solving", "solved"],
+      "answer": "solving",
+      "explanation": "After prepositions, always use a gerund (V-ing): 'good at solving'. Never a bare verb or infinitive after a preposition."
+    },
+    {
+      "id": "gi-test-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the gerund/infinitive error.",
+      "prompt": "___",
+      "options": [
+        "I enjoy reading academic papers.",
+        "She avoided making the same mistake twice.",
+        "He wants going to the conference.",
+        "They decided to postpone the meeting."
+      ],
+      "answer": "He wants going to the conference.",
+      "explanation": "'Want' takes a to-infinitive: 'He wants to go to the conference.' 'Wants going' is incorrect."
+    },
+    {
+      "id": "gi-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form — same meaning with both.",
+      "prompt": "She started ___ the report. (both forms correct)",
+      "options": ["write", "to write / writing", "to write only", "writing only"],
+      "answer": "to write / writing",
+      "explanation": "After 'start', both gerund and infinitive are correct with no change in meaning: 'started writing' = 'started to write'."
+    },
+    {
+      "id": "gi-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the meaning-changing pair for 'stop'.",
+      "prompt": "He stopped ___ to take a photo. (He paused his walk)",
+      "options": ["walking", "to walk", "walk", "walked"],
+      "answer": "to walk",
+      "explanation": "'Stop + to-infinitive' = stop in order to do something (purpose). 'Stop + gerund' = quit doing it. 'He stopped to walk' = he stopped (doing something else) in order to walk."
+    },
+    {
+      "id": "gi-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct meaning of 'remember'.",
+      "prompt": "Please remember ___ submit the form before Friday. (future task)",
+      "options": ["submitting", "to submit", "submit", "submitted"],
+      "answer": "to submit",
+      "explanation": "'Remember + to-infinitive' = remember to do a future task. 'Remember + gerund' = recall a past event. 'Please remember to submit' = don't forget to do it."
+    },
+    {
+      "id": "gi-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb + object + infinitive structure.",
+      "prompt": "The professor told the students ___ their essays by midnight.",
+      "options": ["submitting", "to submit", "submit", "that submit"],
+      "answer": "to submit",
+      "explanation": "Tell + object + to-infinitive: 'told the students to submit'. This is a reported command structure."
+    },
+    {
+      "id": "gi-test-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error with 'look forward to'.",
+      "prompt": "I'm looking forward to meet you at the conference.",
+      "options": [
+        "Should be 'meeting' — 'look forward to' takes a gerund ('to' is a preposition here).",
+        "Should be 'to meet' — infinitive after 'look forward'.",
+        "Should be 'met' — past form needed.",
+        "No error — 'to meet' is correct."
+      ],
+      "answer": "Should be 'meeting' — 'look forward to' takes a gerund ('to' is a preposition here).",
+      "explanation": "In 'look forward to', the 'to' is a preposition, not part of the infinitive. Prepositions are followed by gerunds: 'looking forward to meeting'."
+    },
+    {
+      "id": "gi-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct bare infinitive after 'make'.",
+      "prompt": "The teacher made the students ___ the exercise again.",
+      "options": ["to redo", "redoing", "redo", "redone"],
+      "answer": "redo",
+      "explanation": "'Make + object + bare infinitive (V1)': 'made the students redo'. No 'to' after 'make' in active sentences."
+    },
+    {
+      "id": "gi-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form of 'forget'.",
+      "prompt": "I'll never forget ___ the northern lights for the first time. (past memory)",
+      "options": ["to see", "seeing", "see", "seen"],
+      "answer": "seeing",
+      "explanation": "'Forget + gerund' = recall that you did something in the past. 'I'll never forget seeing' = I remember the experience of seeing it."
+    },
+    {
+      "id": "gi-test-12",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the gerund error after 'avoid'.",
+      "prompt": "___",
+      "options": [
+        "She avoided making the same mistake.",
+        "He avoids to use slang in formal writing.",
+        "They avoided discussing the sensitive topic.",
+        "I avoid eating processed food."
+      ],
+      "answer": "He avoids to use slang in formal writing.",
+      "explanation": "'Avoid' always takes a gerund: 'avoids using'. 'Avoid to use' is incorrect — there is no to-infinitive after 'avoid'."
+    },
+    {
+      "id": "gi-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form after 'let'.",
+      "prompt": "My manager let me ___ early on Friday.",
+      "options": ["to leave", "leaving", "leave", "left"],
+      "answer": "leave",
+      "explanation": "'Let + object + bare infinitive (V1)': 'let me leave'. No 'to' after 'let'. Compare: 'allowed me to leave' (with 'to')."
+    },
+    {
+      "id": "gi-test-14",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses 'try' with a different meaning from gerund to infinitive?",
+      "prompt": "___",
+      "options": [
+        "'Try writing' = make an effort to write. 'Try to write' = experiment with writing.",
+        "'Try writing' = experiment with writing as a method. 'Try to write' = make an effort to write.",
+        "Both mean the same thing.",
+        "'Try writing' is informal; 'try to write' is formal."
+      ],
+      "answer": "'Try writing' = experiment with writing as a method. 'Try to write' = make an effort to write.",
+      "explanation": "'Try + gerund' = experiment with a method (try writing → see if it helps). 'Try + infinitive' = make an effort to do it (try to write → attempt it)."
+    },
+    {
+      "id": "gi-test-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dia menikmati membaca novel berbahasa Inggris.' → English:",
+      "prompt": "She enjoys ___ English novels.",
+      "options": ["to read", "reading", "read", "having read"],
+      "answer": "reading",
+      "explanation": "'Menikmati' = enjoys → 'enjoy' + gerund. 'She enjoys reading English novels.' 'Enjoy to read' is always wrong."
+    }
+  ]
+}

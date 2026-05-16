@@ -1,1 +1,184 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ma-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal perfect for a strong positive deduction.",
+      "prompt": "The keys are gone and her coat is missing. She ___ home.",
+      "options": ["might have gone", "could have gone", "must have gone", "may have gone"],
+      "answer": "must have gone",
+      "explanation": "Strong deduction from converging evidence → 'must have gone'. 'Might/may/could have' imply uncertainty, which doesn't match strong evidence."
+    },
+    {
+      "id": "ma-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal perfect for a strong negative deduction.",
+      "prompt": "He ___ the announcement — he would have called us otherwise.",
+      "options": ["must have seen", "can't have seen", "might not have seen", "shouldn't have seen"],
+      "answer": "can't have seen",
+      "explanation": "'Can't have seen' = strong negative deduction — it's almost impossible that he saw it. Clear evidence points to the negative."
+    },
+    {
+      "id": "ma-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form for regret (the action didn't happen).",
+      "prompt": "I ___ harder for the exam — I only got a C.",
+      "options": ["should study", "should have studied", "had to study", "must have studied"],
+      "answer": "should have studied",
+      "explanation": "'Should have studied' = regret — the studying didn't happen. 'Must have studied' = deduction (it happened). 'Should study' = present advice."
+    },
+    {
+      "id": "ma-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form for criticism (the other person did the wrong thing).",
+      "prompt": "I ___ so much — now I can't sleep.",
+      "options": ["should have eaten", "shouldn't have eaten", "couldn't have eaten", "needn't eat"],
+      "answer": "shouldn't have eaten",
+      "explanation": "'Shouldn't have eaten' = I ate (the action happened) and it was a mistake. 'Should have eaten' = I didn't eat but should have (opposite meaning)."
+    },
+    {
+      "id": "ma-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal perfect for an unrealised past opportunity.",
+      "prompt": "She ___ a doctor — she had the talent for it, but chose a different path.",
+      "options": ["should have been", "could have been", "must have been", "would have been"],
+      "answer": "could have been",
+      "explanation": "'Could have been' = an unrealised past possibility — she had the ability but it didn't happen. 'Should have been' implies it was the right/obligatory path."
+    },
+    {
+      "id": "ma-test-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the structure error.",
+      "prompt": "She should have went to the doctor sooner.",
+      "options": [
+        "Should be 'gone' — V3 required after 'have'.",
+        "Should be 'should went' — 'have' is not needed.",
+        "Should be 'should go' — base form after modal.",
+        "No error — 'went' is the past of 'go'."
+      ],
+      "answer": "Should be 'gone' — V3 required after 'have'.",
+      "explanation": "Modal perfect: modal + have + V3. 'Go' → V3 is 'gone' (past participle), not 'went' (V2). Correct: 'should have gone.'"
+    },
+    {
+      "id": "ma-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'needn't have' form.",
+      "prompt": "I ___ so many slides — they cut my presentation time in half.",
+      "options": ["didn't have to prepare", "needn't have prepared", "shouldn't prepare", "couldn't have prepared"],
+      "answer": "needn't have prepared",
+      "explanation": "'Needn't have prepared' = I did prepare, but it turned out unnecessary. 'Didn't have to prepare' implies I knew in advance and didn't do it."
+    },
+    {
+      "id": "ma-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Type 2 conditional result.",
+      "prompt": "If I won the lottery, I ___ travel around the world.",
+      "options": ["will", "would", "should", "could have"],
+      "answer": "would",
+      "explanation": "Type 2 conditional (unreal present) → 'would + V1' in the result clause. 'Will' is for Type 1 (real). 'Could have' is past conditional."
+    },
+    {
+      "id": "ma-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Type 3 conditional result.",
+      "prompt": "If she had applied earlier, she ___ the scholarship.",
+      "options": [
+        "would receive",
+        "would have received",
+        "will have received",
+        "should have received"
+      ],
+      "answer": "would have received",
+      "explanation": "Type 3 conditional (unreal past): if + had + V3 → would + have + V3. She didn't apply early, so she didn't receive it."
+    },
+    {
+      "id": "ma-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for past habit — action verb.",
+      "prompt": "When I was a child, we ___ walk to school every day.",
+      "options": ["used to", "would", "Both are correct.", "were"],
+      "answer": "Both are correct.",
+      "explanation": "Past habit with action verbs: both 'used to walk' and 'would walk' are correct. 'Would' has a more nostalgic tone; 'used to' is more common."
+    },
+    {
+      "id": "ma-test-11",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error with 'would' and a stative verb.",
+      "prompt": "She would own a small house in the countryside when she was young.",
+      "options": [
+        "Should be 'used to own' — 'would' is not used with stative verbs.",
+        "Should be 'would owned' — past form needed after 'would'.",
+        "Should be 'used to owned' — past form needed.",
+        "No error — 'would own' is correct."
+      ],
+      "answer": "Should be 'used to own' — 'would' is not used with stative verbs.",
+      "explanation": "'Own' is a stative verb. 'Would' for past habits only works with action verbs. Use 'used to own' for stative verbs."
+    },
+    {
+      "id": "ma-test-12",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the 'would' conditional.",
+      "prompt": "If you would come earlier, we would have more time to talk.",
+      "options": [
+        "Should be 'came' — 'would' is not used in the if-clause.",
+        "Should be 'will come' — Type 1 required.",
+        "Should be 'had come' — Type 3 required.",
+        "No error — 'would' in the if-clause is correct."
+      ],
+      "answer": "Should be 'came' — 'would' is not used in the if-clause.",
+      "explanation": "'Would' is generally not placed in the if-clause. Correct: 'If you came earlier, we would have more time to talk.' (Type 2)"
+    },
+    {
+      "id": "ma-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Arrange modals from least to most certain for past deduction.",
+      "prompt": "___",
+      "options": [
+        "must have → may have → might have",
+        "might have → may have → must have",
+        "may have → might have → must have",
+        "must have → might have → may have"
+      ],
+      "answer": "might have → may have → must have",
+      "explanation": "Certainty scale: 'might have' (most tentative) → 'may have' (~50%) → 'must have' (near certain, strong evidence)."
+    },
+    {
+      "id": "ma-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Seharusnya kamu menghubungi dia lebih awal.' → English:",
+      "prompt": "You ___ her earlier.",
+      "options": ["should contact", "should have contacted", "had to contact", "must have contacted"],
+      "answer": "should have contacted",
+      "explanation": "'Seharusnya kamu [melakukan]' = you should have (but didn't) → 'should have contacted'. Past form requires 'have + V3'."
+    },
+    {
+      "id": "ma-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'would' in reported speech?",
+      "prompt": "___",
+      "options": [
+        "She said she will call me after the meeting.",
+        "She said she would call me after the meeting.",
+        "She said she would called me after the meeting.",
+        "She told she would call me after the meeting."
+      ],
+      "answer": "She said she would call me after the meeting.",
+      "explanation": "Reported speech: 'will' → 'would'. 'She said she would call me.' 'Would called' has a verb form error; 'told' needs an object ('told me')."
+    }
+  ]
+}

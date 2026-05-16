@@ -1,1 +1,306 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "rr-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly reduced relative clause.",
+      "prompt": "Full: 'The student who is sleeping in the back row will miss important content.'",
+      "options": [
+        "The student slept in the back row will miss important content.",
+        "The student sleeping in the back row will miss important content.",
+        "The student sleep in the back row will miss important content.",
+        "The student is sleeping in the back row will miss important content."
+      ],
+      "answer": "The student sleeping in the back row will miss important content.",
+      "explanation": "Active continuous → drop 'who is' → leave -ing participle: 'sleeping'."
+    },
+    {
+      "id": "rr-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly reduced passive relative clause.",
+      "prompt": "Full: 'The samples that were collected from three sites were analysed.'",
+      "options": [
+        "The samples collecting from three sites were analysed.",
+        "The samples collected from three sites were analysed.",
+        "The samples that collected from three sites were analysed.",
+        "The samples being collected from three sites were analysed."
+      ],
+      "answer": "The samples collected from three sites were analysed.",
+      "explanation": "Passive relative clause → drop 'that were' → leave past participle: 'collected'."
+    },
+    {
+      "id": "rr-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct infinitive reduction.",
+      "prompt": "Full: 'She was the only researcher who survived the expedition.'",
+      "options": [
+        "She was the only researcher surviving the expedition.",
+        "She was the only researcher survived the expedition.",
+        "She was the only researcher to survive the expedition.",
+        "She was the only researcher that surviving the expedition."
+      ],
+      "answer": "She was the only researcher to survive the expedition.",
+      "explanation": "After 'only' (and first, last, next), use to-infinitive for reduction."
+    },
+    {
+      "id": "rr-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the incorrectly reduced clause.",
+      "prompt": "___",
+      "options": [
+        "The documents submitted last week were approved.",
+        "The professor teaching this course has won several awards.",
+        "The results obtaining from the experiment were significant.",
+        "The first person to arrive received a prize."
+      ],
+      "answer": "The results obtaining from the experiment were significant.",
+      "explanation": "'Obtaining' suggests the results are actively obtaining something. The correct passive form is 'obtained' — results were obtained (passive)."
+    },
+    {
+      "id": "rr-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Which clause CANNOT be reduced?",
+      "prompt": "___",
+      "options": [
+        "The woman who is standing at the door.",
+        "The report that was published last month.",
+        "The book that I bought yesterday.",
+        "The first student who answered correctly."
+      ],
+      "answer": "The book that I bought yesterday.",
+      "explanation": "'That' is the object of 'bought' (I bought the book). Object relative clauses cannot be reduced — the reduced form 'the book bought' is ambiguous."
+    },
+    {
+      "id": "rr-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct reduced form for an active clause.",
+      "prompt": "Full: 'The children who were playing in the park ran home when it started to rain.'",
+      "options": [
+        "The children played in the park ran home when it started to rain.",
+        "The children to play in the park ran home when it started to rain.",
+        "The children playing in the park ran home when it started to rain.",
+        "The children having played in the park ran home when it started to rain."
+      ],
+      "answer": "The children playing in the park ran home when it started to rain.",
+      "explanation": "Active continuous → drop 'who were' → leave -ing participle: 'playing'."
+    },
+    {
+      "id": "rr-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which reduction is correct for the passive clause?",
+      "prompt": "Full: 'Proposals that are submitted after the deadline will not be considered.'",
+      "options": [
+        "Proposals submitting after the deadline will not be considered.",
+        "Proposals submitted after the deadline will not be considered.",
+        "Proposals to submit after the deadline will not be considered.",
+        "Proposals that submitted after the deadline will not be considered."
+      ],
+      "answer": "Proposals submitted after the deadline will not be considered.",
+      "explanation": "Passive → drop 'that are' → past participle: 'submitted'. Present passive 'that are submitted' → 'submitted'."
+    },
+    {
+      "id": "rr-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence uses an infinitive reduction correctly?",
+      "prompt": "___",
+      "options": [
+        "He was the last person leaving the building.",
+        "He was the last person left the building.",
+        "He was the last person to leave the building.",
+        "He was the last person who leaving the building."
+      ],
+      "answer": "He was the last person to leave the building.",
+      "explanation": "After 'last', use to-infinitive: 'the last person to leave'."
+    },
+    {
+      "id": "rr-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reduced form.",
+      "prompt": "Full: 'The language that is spoken in Brazil is Portuguese.'",
+      "options": [
+        "The language speaking in Brazil is Portuguese.",
+        "The language spoken in Brazil is Portuguese.",
+        "The language to speak in Brazil is Portuguese.",
+        "The language speaks in Brazil is Portuguese."
+      ],
+      "answer": "The language spoken in Brazil is Portuguese.",
+      "explanation": "Passive: 'that is spoken' → past participle: 'spoken'. The language doesn't speak — it is spoken."
+    },
+    {
+      "id": "rr-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Reduce the relative clause. Write the correct participle form.",
+      "prompt": "The man who is standing near the entrance is the security guard. → The man ___ near the entrance is the security guard.",
+      "options": [
+        "did standing",
+        "standinging",
+        "standings",
+        "standing"
+      ],
+      "answer": "standing",
+      "explanation": "Active 'who is standing' → drop 'who is' → 'standing' (-ing participle)."
+    },
+    {
+      "id": "rr-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Reduce the passive clause. Write the correct form.",
+      "prompt": "The report that was written by the committee was 50 pages long. → The report ___ by the committee was 50 pages long.",
+      "options": [
+        "did written",
+        "writtening",
+        "written",
+        "writtens"
+      ],
+      "answer": "written",
+      "explanation": "Passive 'that was written' → drop 'that was' → past participle 'written'."
+    },
+    {
+      "id": "rr-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the correct infinitive form.",
+      "prompt": "She was the first student who answered all questions correctly. → She was the first student ___ all questions correctly.",
+      "options": [
+        "to answer",
+        "to answered",
+        "answer to",
+        "tos answer"
+      ],
+      "answer": "to answer",
+      "hint": "Use to-infinitive after 'first, last, only, next'.",
+      "explanation": "After 'first', reduce with to-infinitive: 'to answer'."
+    },
+    {
+      "id": "rr-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Can this clause be reduced? Write 'yes' or 'no'.",
+      "prompt": "The film that she recommended was excellent. Can it be reduced to 'The film recommended was excellent'?",
+      "options": [
+        "noing",
+        "did no",
+        "nos",
+        "no"
+      ],
+      "answer": "no",
+      "hint": "Is 'that' the subject or object of 'recommended'?",
+      "explanation": "'That' = object of 'recommended' (she recommended the film). Object clauses cannot be reduced — the meaning becomes ambiguous."
+    },
+    {
+      "id": "rr-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Reduce the clause. Write the -ing form.",
+      "prompt": "Researchers who are working on this problem face many challenges. → Researchers ___ on this problem face many challenges.",
+      "options": [
+        "workings",
+        "working",
+        "workinging",
+        "did working"
+      ],
+      "answer": "working",
+      "explanation": "Active 'who are working' → drop 'who are' → 'working'."
+    },
+    {
+      "id": "rr-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Pria yang duduk di sudut itu adalah direktur.\"",
+      "prompt": "Pria yang duduk di sudut itu adalah direktur.",
+      "options": [
+        "The man sitting in a corner is a director.",
+        "The man sitting in the corner was the director.",
+        "The man sitting in the corner is the director.",
+        "The man sitting in corner is director."
+      ],
+      "answer": "The man sitting in the corner is the director.",
+      "explanation": "'Yang duduk' (who is sitting) → reduce to 'sitting' (-ing participle)."
+    },
+    {
+      "id": "rr-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Data yang dikumpulkan dari tiga lokasi dianalisis oleh tim peneliti.\"",
+      "prompt": "Data yang dikumpulkan dari tiga lokasi dianalisis oleh tim peneliti.",
+      "options": [
+        "The data collected from three is locationing was analysed by the research team.",
+        "The data collected from three locations is analysed by the research team.",
+        "The data collected from three locations was analysed by a research team.",
+        "The data collected from three locations was analysed by the research team."
+      ],
+      "answer": "The data collected from three locations was analysed by the research team.",
+      "explanation": "'Yang dikumpulkan' (that was collected) → past participle 'collected' for passive reduction."
+    },
+    {
+      "id": "rr-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Dia adalah orang pertama yang memenangkan penghargaan itu dua kali.\"",
+      "prompt": "Dia adalah orang pertama yang memenangkan penghargaan itu dua kali.",
+      "options": [
+        "She was the first person to win the award twice.",
+        "She was a first person to win an award twice.",
+        "She is the first person to win the award twice.",
+        "she were the first person to win the award twice."
+      ],
+      "answer": "She was the first person to win the award twice.",
+      "explanation": "'Orang pertama yang' + verb → 'the first person to' + infinitive."
+    },
+    {
+      "id": "rr-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Produk yang dijual di sini semuanya buatan tangan.\"",
+      "prompt": "Produk yang dijual di sini semuanya buatan tangan.",
+      "options": [
+        "Products sold here were all handmade.",
+        "handmade. all are here sold Products",
+        "Products sold here are all handmade.",
+        "is Producting sold here are all handmade."
+      ],
+      "answer": "Products sold here are all handmade.",
+      "explanation": "'Yang dijual' (that are sold) → passive → past participle 'sold'."
+    },
+    {
+      "id": "rr-mc-active-passive-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct participle form.",
+      "prompt": "The article ___ in Nature last year has been cited over 500 times.",
+      "options": [
+        "publishing",
+        "published",
+        "to publish",
+        "being publish"
+      ],
+      "answer": "published",
+      "explanation": "The article was published (passive) → past participle 'published'. The article didn't publish itself."
+    },
+    {
+      "id": "rr-mc-active-passive-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct participle form.",
+      "prompt": "The team ___ the experiment encountered several unexpected problems.",
+      "options": [
+        "conducted",
+        "conducting",
+        "to conduct",
+        "conducted by"
+      ],
+      "answer": "conducting",
+      "explanation": "The team actively conducts the experiment → active -ing: 'conducting'. The team = subject doing the action."
+    }
+  ]
+}

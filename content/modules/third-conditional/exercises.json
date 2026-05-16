@@ -1,0 +1,229 @@
+{
+  "exercises": [
+    {
+      "id": "tc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct third conditional form.",
+      "prompt": "If she ___ earlier, she would have caught the last train.",
+      "options": ["left", "had left", "has left", "would leave"],
+      "answer": "had left",
+      "explanation": "Third conditional if-clause uses past perfect (had + V3). 'Had left' is correct; the situation is unreal past."
+    },
+    {
+      "id": "tc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct result clause.",
+      "prompt": "If he had studied medicine, he ___ a doctor now.",
+      "options": ["would become", "would have become", "will become", "had become"],
+      "answer": "would have become",
+      "explanation": "Third conditional result clause uses 'would have + V3'. 'Would have become' is correct."
+    },
+    {
+      "id": "tc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past participle to complete the third conditional.",
+      "prompt": "If they had ___ the instructions carefully, the experiment would have worked.",
+      "options": ["follow", "followed", "following", "follows"],
+      "answer": "followed",
+      "explanation": "After 'had' in the if-clause, use the past participle (V3). 'Followed' is correct."
+    },
+    {
+      "id": "tc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly formed third conditional sentence.",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "If I knew her address, I would have sent a card.",
+        "If I had known her address, I would send a card.",
+        "If I had known her address, I would have sent a card.",
+        "If I would have known her address, I would have sent a card."
+      ],
+      "answer": "If I had known her address, I would have sent a card.",
+      "explanation": "Third conditional: 'had + V3' in if-clause and 'would have + V3' in result clause. Never use 'would have' in the if-clause."
+    },
+    {
+      "id": "tc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the modal that expresses possibility (not certainty) in the result clause.",
+      "prompt": "If Reza had applied for that scholarship, he ___ gotten it.",
+      "options": ["would have", "might have", "will have", "should"],
+      "answer": "might have",
+      "explanation": "'Might have' expresses less certain past possibility in the result clause of a third conditional — correct when the outcome is not guaranteed."
+    },
+    {
+      "id": "tc-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past participle (V3) for the irregular verb.",
+      "prompt": "If he had ___ the truth from the beginning, things would have been different.",
+      "options": ["told", "tell", "telled", "telling"],
+      "answer": "told",
+      "explanation": "The past participle of 'tell' is 'told' (not 'telled'). 'Had told' is correct in the if-clause."
+    },
+    {
+      "id": "tc-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct third conditional form.",
+      "prompt": "If the team ___ better tactics, they could have won the championship.",
+      "options": ["used", "had used", "have used", "would use"],
+      "answer": "had used",
+      "explanation": "Third conditional if-clause: 'had + V3'. 'Had used' is the correct past perfect form."
+    },
+    {
+      "id": "tc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative form for the if-clause.",
+      "prompt": "If she ___ so much, she wouldn't have lost her voice.",
+      "options": ["didn't sing", "hadn't sung", "hasn't sung", "wouldn't sing"],
+      "answer": "hadn't sung",
+      "explanation": "Negative if-clause in third conditional: 'hadn't + V3'. 'Sung' is the past participle of 'sing'."
+    },
+    {
+      "id": "tc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative result clause.",
+      "prompt": "If they had backed up their files, they ___ lost all their data.",
+      "options": ["wouldn't lose", "wouldn't have lost", "didn't lose", "hadn't lost"],
+      "answer": "wouldn't have lost",
+      "explanation": "Negative result clause in third conditional: 'wouldn't have + V3'. 'Wouldn't have lost' is correct."
+    },
+    {
+      "id": "tc-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the correct negative third conditional sentence.",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "If I hadn't helped him, he wouldn't have passed.",
+        "If I didn't help him, he wouldn't have passed.",
+        "If I hadn't helped him, he wouldn't pass.",
+        "If I hadn't help him, he wouldn't have passed."
+      ],
+      "answer": "If I hadn't helped him, he wouldn't have passed.",
+      "explanation": "Both clauses must use correct third conditional forms: 'hadn't + V3' in the if-clause, 'wouldn't have + V3' in the result clause."
+    },
+    {
+      "id": "tc-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct third conditional form.",
+      "prompt": "He ___ the accident if he had been paying attention.",
+      "options": ["could avoid", "could have avoided", "can have avoided", "had avoided"],
+      "answer": "could have avoided",
+      "explanation": "'Could have + V3' expresses past ability/possibility in a third conditional result clause. 'Avoided' is the correct V3."
+    },
+    {
+      "id": "tc-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "If the doctor ___ the error in time, the patient might have died.",
+      "options": ["didn't catch", "hadn't caught", "wouldn't catch", "hasn't caught"],
+      "answer": "hadn't caught",
+      "explanation": "Negative past perfect in the if-clause: 'hadn't caught'. 'Caught' is the past participle of 'catch'."
+    },
+    {
+      "id": "tc-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with a grammar error.",
+      "prompt": "Which sentence contains an error?",
+      "options": [
+        "If she hadn't lied, he wouldn't have been angry.",
+        "If I had known, I wouldn't have said anything.",
+        "If they hadn't been warned, they would have made a mistake.",
+        "If he wouldn't have forgotten, the meeting would have gone well."
+      ],
+      "answer": "If he wouldn't have forgotten, the meeting would have gone well.",
+      "explanation": "'Wouldn't have forgotten' in the if-clause is wrong. The if-clause must use 'hadn't forgotten' (past perfect), not 'would have'."
+    },
+    {
+      "id": "tc-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative third conditional form.",
+      "prompt": "The project ___ if the manager hadn't intervened at the last minute.",
+      "options": ["would fail", "would have failed", "had failed", "failed"],
+      "answer": "would have failed",
+      "explanation": "'Would have + V3' is the result clause form for a third conditional. 'Would have failed' shows the hypothetical outcome."
+    },
+    {
+      "id": "tc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct third conditional question form.",
+      "prompt": "What ___ you have done if the fire alarm had gone off during the exam?",
+      "options": ["will", "would", "did", "had"],
+      "answer": "would",
+      "explanation": "Third conditional questions use 'would + subject + have + V3'. The if-clause 'had gone off' confirms past perfect."
+    },
+    {
+      "id": "tc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct question form.",
+      "prompt": "___ you have accepted the offer if they had paid you more?",
+      "options": ["Will", "Would", "Had", "Do"],
+      "answer": "Would",
+      "explanation": "Third conditional yes/no questions begin with 'Would'. 'Had paid' in the if-clause confirms past perfect."
+    },
+    {
+      "id": "tc-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct third conditional question.",
+      "prompt": "Which sentence is the correctly formed question?",
+      "options": [
+        "Would you tell me if you had found out?",
+        "Would you have told me if you had found out?",
+        "Did you have told me if you had found out?",
+        "Would you have told me if you found out?"
+      ],
+      "answer": "Would you have told me if you had found out?",
+      "explanation": "Third conditional question: 'would + subject + have + V3' in the result, 'had + V3' in the if-clause. Both parts must be in the correct form."
+    },
+    {
+      "id": "tc-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct completion for the third conditional question.",
+      "prompt": "How would the situation have been different if they ___ the contract?",
+      "options": ["sign", "signed", "had signed", "would sign"],
+      "answer": "had signed",
+      "explanation": "The if-clause in a third conditional question uses 'had + V3'. 'Had signed' is the correct past perfect form."
+    },
+    {
+      "id": "tc-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the option that correctly translates the Indonesian sentence.",
+      "prompt": "Seandainya kamu sudah tahu, apakah kamu akan memberitahu aku? → If you had known, ___ you have told me?",
+      "options": ["will", "would", "did", "had"],
+      "answer": "would",
+      "explanation": "'Seandainya sudah' signals a third conditional. The English question uses 'would + subject + have + V3'."
+    },
+    {
+      "id": "tc-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correctly formed third conditional question.",
+      "prompt": "Where ___ if you had been given a one-year sabbatical?",
+      "options": [
+        "would you go",
+        "would you have gone",
+        "will you have gone",
+        "had you gone"
+      ],
+      "answer": "would you have gone",
+      "explanation": "Third conditional question: 'would + subject + have + V3'. 'Gone' is the past participle of 'go'. The if-clause 'had been given' is past perfect."
+    }
+  ]
+}

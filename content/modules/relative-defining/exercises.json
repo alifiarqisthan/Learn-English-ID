@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "rd-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct relative pronoun.",
+      "prompt": "The scientist ___ discovered penicillin changed the history of medicine.",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "whom"
+      ],
+      "answer": "who",
+      "explanation": "'Who' refers to people when it is the subject of the relative clause (the scientist discovered)."
+    },
+    {
+      "id": "rd-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct relative pronoun.",
+      "prompt": "The research paper ___ she submitted won the departmental award.",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answer": "which",
+      "explanation": "'Which' refers to things (a research paper). 'That' would also be correct but is not offered here."
+    },
+    {
+      "id": "rd-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct relative pronoun for possession.",
+      "prompt": "The student ___ thesis was published last year has now graduated.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "that"
+      ],
+      "answer": "whose",
+      "explanation": "'Whose' shows possession — the thesis belongs to the student."
+    },
+    {
+      "id": "rd-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with an error.",
+      "prompt": "___",
+      "options": [
+        "The report that she submitted was excellent.",
+        "The doctor who treated me was excellent.",
+        "The book that I read it was fascinating.",
+        "The city where she grew up no longer exists."
+      ],
+      "answer": "The book that I read it was fascinating.",
+      "explanation": "Double pronoun error: 'it' is redundant because 'that' already represents the book. Remove 'it'."
+    },
+    {
+      "id": "rd-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with the wrong relative pronoun.",
+      "prompt": "___",
+      "options": [
+        "The report which the team submitted was approved.",
+        "The engineer who designed the bridge retired.",
+        "The professor which taught me retired last year.",
+        "The moment when she realized the truth changed everything."
+      ],
+      "answer": "The professor which taught me retired last year.",
+      "explanation": "'Which' cannot refer to people. Use 'who': 'The professor who taught me.'"
+    },
+    {
+      "id": "rd-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "In which sentence can the relative pronoun be omitted?",
+      "prompt": "___",
+      "options": [
+        "The man who called me was very polite.",
+        "The book that I borrowed was overdue.",
+        "The student whose laptop was stolen reported it.",
+        "The city where she was born is beautiful."
+      ],
+      "answer": "The book that I borrowed was overdue.",
+      "explanation": "'That' is the object of 'borrowed' (I borrowed the book). Object pronouns can be omitted: 'The book I borrowed.'"
+    },
+    {
+      "id": "rd-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct relative pronoun for a time.",
+      "prompt": "The year ___ the company was founded is still celebrated annually.",
+      "options": [
+        "which",
+        "that",
+        "when",
+        "where"
+      ],
+      "answer": "when",
+      "explanation": "'When' is used to refer to times (the year, the moment, the day)."
+    },
+    {
+      "id": "rd-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best sentence — the relative pronoun is correctly omitted.",
+      "prompt": "___",
+      "options": [
+        "The report submitted she won an award.",
+        "The report she submitted won an award.",
+        "The report which she submitted it won an award.",
+        "The report that submitted won an award."
+      ],
+      "answer": "The report she submitted won an award.",
+      "explanation": "Object relative pronoun omitted: 'The report [that] she submitted' — 'she' is the subject of 'submitted', so 'that' is the object and can be dropped."
+    },
+    {
+      "id": "rd-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'where'.",
+      "prompt": "___",
+      "options": [
+        "The hospital which I was born is still open.",
+        "The hospital where I was born is still open.",
+        "The hospital that I was born is still open.",
+        "The hospital who I was born is still open."
+      ],
+      "answer": "The hospital where I was born is still open.",
+      "explanation": "'Where' = 'in which' for places. 'The hospital where' is correct for location."
+    },
+    {
+      "id": "rd-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct relative pronoun.",
+      "prompt": "The engineer ___ designed the new bridge won a national award.",
+      "options": [
+        "whoing",
+        "that",
+        "whos",
+        "who"
+      ],
+      "answer": "who",
+      "explanation": "'Who' or 'that' — both correct for a person who is the subject of the relative clause."
+    },
+    {
+      "id": "rd-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct relative pronoun for possession.",
+      "prompt": "The company ___ products were recalled issued a full refund.",
+      "options": [
+        "whoseing",
+        "did whose",
+        "whose",
+        "whoses"
+      ],
+      "answer": "whose",
+      "explanation": "'Whose' = possessive. The products belong to the company."
+    },
+    {
+      "id": "rd-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the correct relative pronoun. The noun is a place.",
+      "prompt": "The laboratory ___ the experiment was conducted has since been upgraded.",
+      "options": [
+        "in which",
+        "wheres",
+        "where",
+        "whereing"
+      ],
+      "answer": "where",
+      "explanation": "'Where' = 'in which' for a place. Both are correct."
+    },
+    {
+      "id": "rd-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Can the relative pronoun be omitted? Write 'yes' or 'no' and explain why.",
+      "prompt": "The professor ___ teaches us has written three books. Can 'who' be omitted?",
+      "options": [
+        "noing",
+        "did no",
+        "no",
+        "nos"
+      ],
+      "answer": "no",
+      "hint": "Is 'who' the subject or object of 'teaches'?",
+      "explanation": "'Who' is the subject of 'teaches' — subject relative pronouns cannot be omitted."
+    },
+    {
+      "id": "rd-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct relative pronoun or write 'omit' if it can be dropped.",
+      "prompt": "The book ___ I borrowed from the library was overdue.",
+      "options": [
+        "thats",
+        "omit",
+        "that",
+        "which"
+      ],
+      "answer": "that",
+      "explanation": "The relative pronoun is the object of 'borrowed' — 'that' or 'which' are correct, or it can be omitted."
+    },
+    {
+      "id": "rd-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Pria yang menelepon saya kemarin adalah dokter.\"",
+      "prompt": "Pria yang menelepon saya kemarin adalah dokter.",
+      "options": [
+        "The man who called me yesterday is an doctor.",
+        "The man who called me yesterday is doctor.",
+        "The man who called me yesterday was a doctor.",
+        "The man who called me yesterday is a doctor."
+      ],
+      "answer": "The man who called me yesterday is a doctor.",
+      "explanation": "'Yang' referring to a person (subject) → 'who' or 'that' in English."
+    },
+    {
+      "id": "rd-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Mahasiswa yang laptopnya dicuri melapor ke keamanan.\"",
+      "prompt": "Mahasiswa yang laptopnya dicuri melapor ke keamanan.",
+      "options": [
+        "The student whose laptop was stolen reported it to security.",
+        "The student whose laptop was stolen reported to security.",
+        "The student which laptop was stolen reported it to security.",
+        "The student whose laptop is stolen reported it to security."
+      ],
+      "answer": "The student whose laptop was stolen reported it to security.",
+      "explanation": "'Yang laptopnya' = 'whose laptop'. Use 'whose' for possession."
+    },
+    {
+      "id": "rd-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Buku yang saya baca itu sangat menarik.\"",
+      "prompt": "Buku yang saya baca itu sangat menarik.",
+      "options": [
+        "The book I read was very interesting.",
+        "The book I read is very interesting.",
+        "The book I read it was very interesting.",
+        "The book which I read was very interesting."
+      ],
+      "answer": "The book I read was very interesting.",
+      "explanation": "'Yang saya baca' = 'that I read' or omit 'that'. Do NOT add 'it' at the end."
+    },
+    {
+      "id": "rd-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Kafe yang kami bertemu sudah tutup.\"",
+      "prompt": "Kafe yang kami bertemu sudah tutup.",
+      "options": [
+        "The café where we met is closed.",
+        "The café which we met has closed.",
+        "The café where we met has closed.",
+        "The café where we met have closed."
+      ],
+      "answer": "The café where we met has closed.",
+      "explanation": "Place noun (café) + 'yang' → 'where' in English."
+    },
+    {
+      "id": "rd-mc-whose-whos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct word.",
+      "prompt": "The researcher ___ findings were published last month will give a talk today.",
+      "options": [
+        "who's",
+        "whose",
+        "which",
+        "that"
+      ],
+      "answer": "whose",
+      "explanation": "'Whose' = possessive relative pronoun. 'Who's' = who is/has — completely different meaning."
+    },
+    {
+      "id": "rd-mc-omit-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence where the relative pronoun CAN be omitted.",
+      "prompt": "___",
+      "options": [
+        "The student who won the prize is my classmate.",
+        "The novel that she recommended is out of stock.",
+        "The café whose coffee I love has closed.",
+        "The year when she graduated was memorable."
+      ],
+      "answer": "The novel that she recommended is out of stock.",
+      "explanation": "'That' is the object of 'recommended' (she recommended the novel) — object pronouns can be omitted."
+    }
+  ]
+}

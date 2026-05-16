@@ -1,1 +1,174 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cs-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adjective.",
+      "prompt": "This laptop is ___ than my old one.",
+      "options": ["more fast", "faster", "more faster", "fastest"],
+      "answer": "faster",
+      "explanation": "One-syllable adjective 'fast' → comparative: -er form ('faster'). 'More fast' and 'more faster' are both wrong. 'Fastest' is superlative."
+    },
+    {
+      "id": "cs-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative for a long adjective.",
+      "prompt": "Her presentation was ___ than expected.",
+      "options": ["more informative", "informativeer", "informative than", "most informative"],
+      "answer": "more informative",
+      "explanation": "Multi-syllable adjectives use 'more' for the comparative: 'more informative'. Never add '-er' to long adjectives."
+    },
+    {
+      "id": "cs-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative.",
+      "prompt": "This is ___ film I have ever seen.",
+      "options": ["a best", "the best", "the most good", "better"],
+      "answer": "the best",
+      "explanation": "Irregular superlative: good → the best. 'The most good' is wrong. Superlatives always take 'the'."
+    },
+    {
+      "id": "cs-test-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the comparative error.",
+      "prompt": "___",
+      "options": [
+        "She is taller than her sister.",
+        "This method is more efficient than the previous one.",
+        "He is more smarter than his classmates.",
+        "The results are worse than we expected."
+      ],
+      "answer": "He is more smarter than his classmates.",
+      "explanation": "'Smarter' is already a comparative — don't add 'more'. 'More smarter' is a double comparative error. Correct: 'He is smarter than his classmates.'"
+    },
+    {
+      "id": "cs-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative with present perfect.",
+      "prompt": "This is ___ book I have ever read.",
+      "options": ["the more interesting", "the most interesting", "most interesting", "a most interesting"],
+      "answer": "the most interesting",
+      "explanation": "Superlative pattern: the + most + adjective. Superlatives always need 'the'. 'Most interesting' without 'the' is informal/literary."
+    },
+    {
+      "id": "cs-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adverb.",
+      "prompt": "She works ___ than anyone else in the team.",
+      "options": ["more hard", "harder", "hardest", "most hard"],
+      "answer": "harder",
+      "explanation": "One-syllable adverb 'hard' → comparative: 'harder'. 'More hard' is also acceptable but 'harder' is more common."
+    },
+    {
+      "id": "cs-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct irregular comparative.",
+      "prompt": "The situation is getting ___ — we need to act now.",
+      "options": ["more bad", "badder", "worse", "more worse"],
+      "answer": "worse",
+      "explanation": "Irregular: bad → worse (comparative) → worst (superlative). 'More bad', 'badder', and 'more worse' are all wrong."
+    },
+    {
+      "id": "cs-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'one of the' + superlative structure.",
+      "prompt": "She is one of ___ researchers in the field.",
+      "options": ["the most talented", "the most talented researcher", "most talented", "the more talented"],
+      "answer": "the most talented",
+      "explanation": "'One of the + superlative + plural noun': 'one of the most talented researchers'. The noun after the superlative must be plural."
+    },
+    {
+      "id": "cs-test-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the superlative error.",
+      "prompt": "Jakarta is the most large city in Indonesia.",
+      "options": [
+        "Should be 'the largest' — one-syllable adjective uses -est, not 'most'.",
+        "Should be 'the more large' — comparative form needed.",
+        "Should be 'most largest' — both forms together.",
+        "No error — 'most large' is correct."
+      ],
+      "answer": "Should be 'the largest' — one-syllable adjective uses -est, not 'most'.",
+      "explanation": "One-syllable adjective 'large' → superlative: 'the largest'. 'The most large' is wrong. Use 'most' only for multi-syllable adjectives."
+    },
+    {
+      "id": "cs-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dia lebih tinggi dari kakaknya.' → English:",
+      "prompt": "She is ___ her sister.",
+      "options": ["more tall than", "taller than", "tallest of", "more taller than"],
+      "answer": "taller than",
+      "explanation": "'Lebih tinggi dari' = taller than. One-syllable adjective 'tall' → comparative: 'taller'. Always use 'than' after comparatives."
+    },
+    {
+      "id": "cs-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative adverb.",
+      "prompt": "Of all the runners, she finished ___.",
+      "options": ["the most quickly", "the quickliest", "most quick", "the more quickly"],
+      "answer": "the most quickly",
+      "explanation": "Multi-syllable adverb 'quickly' → superlative: the most quickly. 'Quickliest' doesn't exist. 'Most quick' uses the wrong word form (adjective instead of adverb)."
+    },
+    {
+      "id": "cs-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct irregular adverb comparative.",
+      "prompt": "She performed ___ than last time.",
+      "options": ["more good", "better", "gooder", "best"],
+      "answer": "better",
+      "explanation": "Irregular adverb: well → better (comparative) → best (superlative). 'More good' and 'gooder' don't exist."
+    },
+    {
+      "id": "cs-test-13",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which correctly uses a superlative in an academic context?",
+      "prompt": "___",
+      "options": [
+        "This is the more effective method in the study.",
+        "This is the most effective method examined in the study.",
+        "This is most effective method in the study.",
+        "This is the effectivest method in the study."
+      ],
+      "answer": "This is the most effective method examined in the study.",
+      "explanation": "Multi-syllable adjective → 'the most effective'. Always needs 'the'. 'Effectivest' is not a word. 'The more effective' is comparative, not superlative."
+    },
+    {
+      "id": "cs-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Ini adalah universitas terbaik di Indonesia.' → English:",
+      "prompt": "This is ___ university in Indonesia.",
+      "options": ["a best", "the best", "the most good", "better"],
+      "answer": "the best",
+      "explanation": "'Terbaik' = the best (superlative of good). Always 'the best' — never 'a best' or 'the most good'."
+    },
+    {
+      "id": "cs-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify all correct comparatives in the list.",
+      "prompt": "___",
+      "options": [
+        "more tall, more large, more fast — all correct",
+        "taller, larger, faster — all correct",
+        "more tall, larger, fastest — mixed, all correct",
+        "taller, more large, faster — all correct"
+      ],
+      "answer": "taller, larger, faster — all correct",
+      "explanation": "One-syllable adjectives use -er: tall→taller, large→larger (ends in -e, just add -r), fast→faster. 'More tall/large/fast' are non-standard (though 'more fast' is rare but possible)."
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "exercises": [
+    {
+      "id": "hvp-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Replace the unhedged verb with an appropriate academic hedging verb.",
+      "prompt": "The data ___ a correlation between screen time and reduced attention span.",
+      "options": ["proves", "suggests", "confirms completely", "establishes definitely"],
+      "answer": "suggests",
+      "explanation": "'Suggests' = cautious evidence-based interpretation. 'Proves' is too strong for data interpretation. 'Confirms completely' and 'establishes definitely' are both absolute and unhedged."
+    },
+    {
+      "id": "hvp-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct structure for 'seem' in the to-infinitive pattern.",
+      "prompt": "The new approach ___ more effective than the previous method.",
+      "options": ["seems be", "seem to be", "seems to be", "is seeming to be"],
+      "answer": "seems to be",
+      "explanation": "'Seem + to-infinitive': 'seems to be'. Third person singular → 'seems' (not 'seem'). 'Is seeming' is wrong — 'seem' is a stative verb, not used in continuous form."
+    },
+    {
+      "id": "hvp-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'tend to' structure.",
+      "prompt": "Learners ___ rely on memorisation rather than contextual learning.",
+      "options": ["tend to", "tend to be", "tend", "tends to being"],
+      "answer": "tend to",
+      "explanation": "'Tend to + V1': 'tend to rely'. Not 'tend to + V-ing'. Third person plural → 'tend' (not 'tends'). 'Tends' would be correct for a singular subject."
+    },
+    {
+      "id": "hvp-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best sentence-level hedging phrase.",
+      "prompt": "___ the decline in participation is linked to changes in assessment format.",
+      "options": ["Certainly", "It appears that", "It is proven that", "Obviously"],
+      "answer": "It appears that",
+      "explanation": "'It appears that' = a sentence-level hedge for a cautious interpretation. 'Certainly', 'It is proven that', and 'Obviously' are all unhedged and claim certainty."
+    },
+    {
+      "id": "hvp-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Tampaknya metode ini cukup efektif.' → hedged English:",
+      "prompt": "___",
+      "options": [
+        "This method is definitely effective.",
+        "This method appears to be effective.",
+        "This method proves to be effective.",
+        "This method seems effective always."
+      ],
+      "answer": "This method appears to be effective.",
+      "explanation": "'Tampaknya' = appears/seems → 'appears to be effective'. 'Definitely' and 'proves' are unhedged. 'Seems effective always' is ungrammatical — 'seems' needs 'to be' or a that-clause."
+    },
+    {
+      "id": "hvp-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct approximator for a numerical claim.",
+      "prompt": "___ 45% of respondents reported improved outcomes after the intervention.",
+      "options": ["Exactly", "Approximately", "Completely", "Always"],
+      "answer": "Approximately",
+      "explanation": "'Approximately 45%' = hedged quantitative claim. In academic writing, percentages from surveys are not exact — use 'approximately', 'around', or 'roughly' unless the figure is a precise count."
+    },
+    {
+      "id": "hvp-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that uses 'seem' incorrectly.",
+      "prompt": "___",
+      "options": [
+        "The results seem to support the hypothesis.",
+        "It seems that the results support the hypothesis.",
+        "The results seem support the hypothesis.",
+        "The method seems to be working well."
+      ],
+      "answer": "The results seem support the hypothesis.",
+      "explanation": "'Seem' must be followed by 'to + V1' or used in 'it seems that + clause'. 'Seem support' (no 'to') is incorrect. The other three are all grammatically correct."
+    },
+    {
+      "id": "hvp-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the 'tend to' sentence.",
+      "prompt": "Students tend to struggling with academic writing conventions.",
+      "options": [
+        "Should be 'tend to struggle' — V1 (base form) after 'tend to'.",
+        "Should be 'tends to struggling' — singular form needed.",
+        "Should be 'tend to be struggling' — continuous needed.",
+        "No error — 'tend to struggling' is correct."
+      ],
+      "answer": "Should be 'tend to struggle' — V1 (base form) after 'tend to'.",
+      "explanation": "'Tend to + V1': base form only. 'Struggling' is V-ing (gerund/participle) — incorrect here. Correct: 'Students tend to struggle with academic writing conventions.'"
+    },
+    {
+      "id": "hvp-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the unhedged sentence that needs hedging in academic writing.",
+      "prompt": "___",
+      "options": [
+        "The data suggests a possible link between variables.",
+        "This study proves that socioeconomic status determines outcomes.",
+        "Results appear to support the original hypothesis.",
+        "It seems that the effect diminishes over time."
+      ],
+      "answer": "This study proves that socioeconomic status determines outcomes.",
+      "explanation": "'Proves' and 'determines' are both absolute — inappropriate for academic writing where causal claims require hedging. Should be: 'This study suggests that socioeconomic status may influence outcomes.'"
+    },
+    {
+      "id": "hvp-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the scope-limiting phrase that best hedges this claim.",
+      "prompt": "These findings apply, ___, to populations with similar demographic characteristics.",
+      "options": ["in all cases", "to some extent", "always", "completely"],
+      "answer": "to some extent",
+      "explanation": "'To some extent' = scope limitation — the findings have limited applicability. 'In all cases' and 'always' are absolute (opposite of hedging). 'Completely' is an intensifier, not a scope limiter."
+    },
+    {
+      "id": "hvp-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the mixed-pattern error with 'appear'.",
+      "prompt": "It appears that the method to be working effectively.",
+      "options": [
+        "Should be 'It appears that the method is working' — that-clause needs a finite verb.",
+        "Should be 'The method appears that working effectively' — different pattern needed.",
+        "Should be 'The method appears to be working' — but the original is also correct.",
+        "No error — mixing patterns is acceptable."
+      ],
+      "answer": "Should be 'It appears that the method is working' — that-clause needs a finite verb.",
+      "explanation": "'It appears that + clause' → the clause needs a finite verb: 'It appears that the method **is** working.' OR use the to-infinitive pattern: 'The method **appears to be** working.' Never mix the two."
+    },
+    {
+      "id": "hvp-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Mahasiswa cenderung meremehkan beban kerja mereka.' → English:",
+      "prompt": "Students ___ underestimate their workload.",
+      "options": [
+        "tend to",
+        "tend to be",
+        "are tending to",
+        "tends to"
+      ],
+      "answer": "tend to",
+      "explanation": "'Cenderung' = tend to. 'Students tend to underestimate' — plural subject 'students' → 'tend to' (not 'tends to'). 'Are tending to' is wrong — stative-like pattern here doesn't use continuous."
+    },
+    {
+      "id": "hvp-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the best hedging verb to replace 'show' in academic writing.",
+      "prompt": "The findings ___ that early intervention reduces long-term costs.",
+      "options": ["show definitely", "indicate", "prove absolutely", "demonstrate completely"],
+      "answer": "indicate",
+      "explanation": "'Indicate' = a cautious evidence-based interpretation. 'Show' is acceptable in academic writing but less hedged than 'indicate' or 'suggest'. 'Prove absolutely' and 'demonstrate completely' are unhedged absolute claims."
+    },
+    {
+      "id": "hvp-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses the 'it seems that' pattern correctly?",
+      "prompt": "___",
+      "options": [
+        "It seems that further research is needed.",
+        "It seems that further research to be needed.",
+        "It seems further research is needed.",
+        "Both A and C are correct."
+      ],
+      "answer": "Both A and C are correct.",
+      "explanation": "'It seems that + clause' is the standard form (A). 'It seems + clause' without 'that' (C) is also grammatically acceptable in informal/semi-formal writing. Option B mixes patterns incorrectly."
+    },
+    {
+      "id": "hvp-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence best demonstrates appropriate academic hedging using a verb + modal combination?",
+      "prompt": "___",
+      "options": [
+        "The results prove that the treatment will always be effective.",
+        "The results suggest that the treatment may be effective.",
+        "The results indicate the treatment is completely effective.",
+        "The results show the treatment definitely works."
+      ],
+      "answer": "The results suggest that the treatment may be effective.",
+      "explanation": "Best hedging: 'suggest' (hedging verb) + 'may be' (modal hedge) — double hedging without over-hedging. The other three use absolute language ('prove', 'always', 'completely', 'definitely')."
+    },
+    {
+      "id": "hvp-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Sebagian besar data konsisten dengan hipotesis awal.' → English:",
+      "prompt": "___",
+      "options": [
+        "All of the data is consistent with the initial hypothesis.",
+        "For the most part, the data is consistent with the initial hypothesis.",
+        "The data always supports the initial hypothesis.",
+        "The data completely confirms the initial hypothesis."
+      ],
+      "answer": "For the most part, the data is consistent with the initial hypothesis.",
+      "explanation": "'Sebagian besar' = for the most part / mostly. This is a scope-limiting hedge. 'All of the data' and 'always' are absolute. 'Completely confirms' is unhedged."
+    },
+    {
+      "id": "hvp-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct structure: 'It is possible that + clause' to hedge the claim.",
+      "prompt": "___ the discrepancy is due to measurement error.",
+      "options": [
+        "It is possible that",
+        "It is possible",
+        "It possibly that",
+        "Possibly it that"
+      ],
+      "answer": "It is possible that",
+      "explanation": "'It is possible that + finite clause' is the standard hedging phrase. 'It is possible' alone (without 'that') needs a to-infinitive: 'It is possible for this to be…' 'It possibly that' is ungrammatical."
+    },
+    {
+      "id": "hvp-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly uses an approximator for a quantitative claim.",
+      "prompt": "___",
+      "options": [
+        "Exactly 72.3% of participants showed improvement.",
+        "Around 70% of participants showed improvement.",
+        "Completely 70% of participants showed improvement.",
+        "All 70% of participants showed improvement."
+      ],
+      "answer": "Around 70% of participants showed improvement.",
+      "explanation": "'Around 70%' = approximator hedge for a survey statistic. 'Exactly 72.3%' could be a precise figure — no approximator needed if the data is exact. 'Completely' and 'All 70%' are ungrammatical or contradictory."
+    },
+    {
+      "id": "hvp-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that uses hedging verbs most effectively for academic writing.",
+      "prompt": "___",
+      "options": [
+        "This proves the theory is wrong.",
+        "This appears to challenge key assumptions of the theory.",
+        "This destroys the existing theory completely.",
+        "This certainly demonstrates the theory is incorrect."
+      ],
+      "answer": "This appears to challenge key assumptions of the theory.",
+      "explanation": "'Appears to challenge' = hedging verb + careful wording ('key assumptions' rather than absolute rejection). The other three use strong, unhedged language ('proves', 'destroys completely', 'certainly demonstrates')."
+    },
+    {
+      "id": "hvp-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which hedging phrase correctly limits the scope of a finding?",
+      "prompt": "___",
+      "options": [
+        "These findings apply to all populations universally.",
+        "These findings apply in all cases without exception.",
+        "These findings apply, in some cases, to similar populations.",
+        "These findings apply completely across all contexts."
+      ],
+      "answer": "These findings apply, in some cases, to similar populations.",
+      "explanation": "'In some cases' = scope limiter — the findings don't apply universally. 'In all cases', 'universally', 'all cases without exception', and 'completely' are all absolute and contradict hedging."
+    },
+    {
+      "id": "hvp-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the most varied and academically appropriate hedging for a research conclusion.",
+      "prompt": "The results ___ that mindfulness ___ reduce symptoms of anxiety ___ in adults with mild to moderate anxiety.",
+      "options": [
+        "prove / will certainly / completely",
+        "suggest / may / to some extent",
+        "show / possibly always / mostly",
+        "confirm completely / must / in all cases"
+      ],
+      "answer": "suggest / may / to some extent",
+      "explanation": "'Suggest' (hedging verb) + 'may reduce' (modal hedge) + 'to some extent' (scope limiter) = excellent varied academic hedging. The other options combine absolute language with hedges, which is contradictory."
+    }
+  ]
+}

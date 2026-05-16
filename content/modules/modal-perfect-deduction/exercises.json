@@ -1,0 +1,254 @@
+{
+  "exercises": [
+    {
+      "id": "mpd-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct strong positive deduction.",
+      "prompt": "The keys are gone and her coat is missing. She ___ left.",
+      "options": ["must have", "could have", "might have", "should have"],
+      "answer": "must have",
+      "explanation": "Strong past deduction based on clear evidence → 'must have left'. The evidence (missing keys and coat) makes this near certain."
+    },
+    {
+      "id": "mpd-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for a tentative past possibility.",
+      "prompt": "He didn't reply to the email. He ___ seen it yet.",
+      "options": ["must have", "can't have", "might not have", "had to"],
+      "answer": "might not have",
+      "explanation": "'Might not have seen it yet' = tentative negative possibility — maybe he hasn't seen it, maybe he has. A remote possibility."
+    },
+    {
+      "id": "mpd-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the modal that best expresses 50% past possibility.",
+      "prompt": "She's not at her desk. She ___ gone to lunch.",
+      "options": ["must have", "can't have", "may have", "had"],
+      "answer": "may have",
+      "explanation": "'May have gone' = approximately 50% possibility — she might have gone to lunch. 'Must have' would be too certain without stronger evidence."
+    },
+    {
+      "id": "mpd-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dia pasti sudah mengirim emailnya.' → English:",
+      "prompt": "She ___ the email.",
+      "options": ["must send", "must have sent", "had to send", "should have sent"],
+      "answer": "must have sent",
+      "explanation": "'Pasti sudah' = must have. Past deduction → 'must have + V3'. 'Must send' is present obligation; 'had to' is past obligation; 'should have' is regret."
+    },
+    {
+      "id": "mpd-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct V3 form in the modal perfect.",
+      "prompt": "He ___ the wrong train — he ended up on the other side of the city.",
+      "options": ["must have took", "must have taken", "must took", "must takes"],
+      "answer": "must have taken",
+      "explanation": "Modal perfect: must + have + V3. 'Take' → past participle is 'taken' (not 'took' which is V2). Correct: 'must have taken'."
+    },
+    {
+      "id": "mpd-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the neutral past possibility — something that was possible.",
+      "prompt": "There are several reasons the data is missing. Someone ___ accidentally deleted the file.",
+      "options": ["must have", "could have", "can't have", "should have"],
+      "answer": "could have",
+      "explanation": "'Could have accidentally deleted' = it was a possible past action (neutral possibility). 'Must have' = strong deduction; 'should have' = criticism/regret."
+    },
+    {
+      "id": "mpd-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct strong negative deduction.",
+      "prompt": "He ___ the announcement — he would have mentioned it otherwise.",
+      "options": ["must have seen", "can't have seen", "might not have seen", "shouldn't have seen"],
+      "answer": "can't have seen",
+      "explanation": "'Can't have seen' = strong negative deduction — it's almost impossible that he saw it, given the evidence."
+    },
+    {
+      "id": "mpd-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the negative deduction.",
+      "prompt": "She mustn't have understood the question — she answered something completely different.",
+      "options": [
+        "Should be 'can't have understood' — 'mustn't have' is wrong for deduction.",
+        "Should be 'must not have understood' — negative needed.",
+        "Should be 'couldn't understand' — past tense needed.",
+        "No error — 'mustn't have' is correct."
+      ],
+      "answer": "Should be 'can't have understood' — 'mustn't have' is wrong for deduction.",
+      "explanation": "'Mustn't have' sounds like a past prohibition. For negative past deduction, use 'can't have + V3' — it's almost impossible that she understood."
+    },
+    {
+      "id": "mpd-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Dia tidak mungkin sudah tahu tentang hal itu.' → English:",
+      "prompt": "She ___ known about it.",
+      "options": ["must not have", "can't have", "might not have", "couldn't"],
+      "answer": "can't have",
+      "explanation": "'Tidak mungkin sudah' = it's impossible that she already knew → 'can't have known'. 'Must not have' sounds like prohibition; 'might not have' is too tentative."
+    },
+    {
+      "id": "mpd-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the structure error.",
+      "prompt": "They can't have went to the wrong building.",
+      "options": [
+        "Should be 'gone' — V3 required after 'have'.",
+        "Should be 'can't went' — no 'have' needed.",
+        "Should be 'couldn't went' — past tense needed.",
+        "No error — 'went' is correct here."
+      ],
+      "answer": "Should be 'gone' — V3 required after 'have'.",
+      "explanation": "'Have' is always followed by V3 (past participle). 'Go' → V3 is 'gone', not 'went' (V2). Correct: 'They can't have gone to the wrong building.'"
+    },
+    {
+      "id": "mpd-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with the correct negative past deduction.",
+      "prompt": "___",
+      "options": [
+        "He must have not arrived — his name isn't on the register.",
+        "He can't have arrived — his name isn't on the register.",
+        "He mustn't have arrived — his name isn't on the register.",
+        "He couldn't arrived — his name isn't on the register."
+      ],
+      "answer": "He can't have arrived — his name isn't on the register.",
+      "explanation": "'Can't have arrived' = negative deduction. 'Must have not' is non-standard. 'Mustn't have' is wrong for deduction. 'Couldn't arrived' is missing 'have'."
+    },
+    {
+      "id": "mpd-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error: 'She must have left' vs 'She must left'.",
+      "prompt": "___",
+      "options": [
+        "'She must left' is wrong — 'have' cannot be omitted in modal perfects.",
+        "'She must have left' is wrong — 'must' should be 'should'.",
+        "Both are correct in informal English.",
+        "'She must have left' is wrong — 'have' should be 'had'."
+      ],
+      "answer": "'She must left' is wrong — 'have' cannot be omitted in modal perfects.",
+      "explanation": "Modal perfect structure is fixed: modal + have + V3. 'Must left' drops the required 'have'. Correct: 'She must have left.'"
+    },
+    {
+      "id": "mpd-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses a modal perfect for a question?",
+      "prompt": "___ he ___ the wrong address?",
+      "options": ["Must / gave", "Could / have given", "Should / gave", "Must / give"],
+      "answer": "Could / have given",
+      "explanation": "Modal perfect question: modal + subject + have + V3. 'Could he have given the wrong address?' — asking about a past possibility."
+    },
+    {
+      "id": "mpd-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Apakah dia mungkin sudah pergi?' → English:",
+      "prompt": "___",
+      "options": [
+        "Must she have gone?",
+        "Could she have left already?",
+        "Should she have left?",
+        "Had she left already?"
+      ],
+      "answer": "Could she have left already?",
+      "explanation": "'Mungkin sudah pergi' = possibly already left. 'Could she have left?' asks about a past possibility. 'Must she have gone?' implies strong deduction, which is not implied."
+    },
+    {
+      "id": "mpd-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses a modal perfect to express near certainty (not mere possibility)?",
+      "prompt": "___",
+      "options": [
+        "She might have made an error in her calculations.",
+        "She may have submitted the wrong version.",
+        "She must have misread the instructions — her answer is completely off.",
+        "She could have chosen a different method."
+      ],
+      "answer": "She must have misread the instructions — her answer is completely off.",
+      "explanation": "'Must have misread' = strong deduction from strong evidence ('completely off'). The other three use 'might have', 'may have', and 'could have' — all less certain."
+    },
+    {
+      "id": "mpd-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct certainty level: the evidence is very strong.",
+      "prompt": "Her phone is off, her bag is gone, and the lights are out. She ___ home.",
+      "options": ["might have gone", "could have gone", "must have gone", "may have gone"],
+      "answer": "must have gone",
+      "explanation": "Three pieces of converging evidence → strong deduction → 'must have gone'. 'Might/may/could have' imply uncertainty, which doesn't match the strength of the evidence."
+    },
+    {
+      "id": "mpd-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Arrange the modals from least to most certain: might have, must have, may have.",
+      "prompt": "___",
+      "options": [
+        "must have → may have → might have",
+        "might have → may have → must have",
+        "may have → might have → must have",
+        "must have → might have → may have"
+      ],
+      "answer": "might have → may have → must have",
+      "explanation": "Certainty scale: 'might have' (least certain/most tentative) → 'may have' (~50%) → 'must have' (near certain, based on strong evidence)."
+    },
+    {
+      "id": "mpd-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Which sentence correctly uses 'couldn't have' as an alternative to 'can't have'?",
+      "prompt": "___",
+      "options": [
+        "He couldn't have taken the file — he doesn't have access.",
+        "He couldn't have took the file — he doesn't have access.",
+        "He couldn't took the file — he doesn't have access.",
+        "He couldn't have take the file — he doesn't have access."
+      ],
+      "answer": "He couldn't have taken the file — he doesn't have access.",
+      "explanation": "'Couldn't have + V3' is an alternative to 'can't have + V3' for negative deduction. 'Taken' is the correct V3 of 'take'. All other options have verb form errors."
+    },
+    {
+      "id": "mpd-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the response that correctly uses a modal perfect deduction.",
+      "prompt": "A: 'Where's the report?' B: 'I'm not sure — ___ it to the wrong folder.'",
+      "options": [
+        "I must moved",
+        "I might have moved",
+        "I may moved",
+        "I could moved"
+      ],
+      "answer": "I might have moved",
+      "explanation": "Past possibility (uncertain) → 'might have moved'. Modal perfect: modal + have + V3. 'Must moved', 'may moved', and 'could moved' all drop the required 'have'."
+    },
+    {
+      "id": "mpd-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Bisa saja dia salah paham.' → English (past neutral possibility):",
+      "prompt": "She ___ the situation.",
+      "options": [
+        "must have misunderstood",
+        "could have misunderstood",
+        "can't have misunderstood",
+        "should have misunderstood"
+      ],
+      "answer": "could have misunderstood",
+      "explanation": "'Bisa saja' = it's possible / could have → 'could have misunderstood'. A neutral past possibility — it was possible but we're not certain. 'Must have' is too certain; 'can't have' is negative."
+    }
+  ]
+}

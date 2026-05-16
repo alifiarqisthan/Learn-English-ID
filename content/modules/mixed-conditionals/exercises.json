@@ -1,1 +1,254 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "mc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mixed conditional form (past condition → present result).",
+      "prompt": "If I ___ that scholarship, I would be studying in the UK right now.",
+      "options": ["got", "had gotten", "have gotten", "would get"],
+      "answer": "had gotten",
+      "explanation": "Mixed conditional Type A: past condition uses past perfect (had + V3). The result 'would be… right now' confirms a present result."
+    },
+    {
+      "id": "mc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct result clause for this mixed conditional.",
+      "prompt": "If she had chosen to study medicine, she ___ a doctor by now.",
+      "options": ["would be", "would have been", "will be", "had been"],
+      "answer": "would be",
+      "explanation": "Mixed conditional Type A: when the result is in the present ('by now'), use 'would + V1', not 'would have + V3'."
+    },
+    {
+      "id": "mc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mixed conditional form (present condition → past result).",
+      "prompt": "If he ___ more organised, he would have met the deadline last week.",
+      "options": ["were", "had been", "was being", "has been"],
+      "answer": "were",
+      "explanation": "Mixed conditional Type B: present condition uses past simple or 'were'. 'Were' is correct (subjunctive) for a permanent characteristic."
+    },
+    {
+      "id": "mc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the correct mixed conditional sentence.",
+      "prompt": "Which sentence correctly uses a mixed conditional?",
+      "options": [
+        "If I had taken the job, I would have been in London now.",
+        "If I had taken the job, I would be in London now.",
+        "If I took the job, I would be in London now.",
+        "If I took the job, I would have been in London now."
+      ],
+      "answer": "If I had taken the job, I would be in London now.",
+      "explanation": "Mixed conditional Type A: past perfect if-clause ('had taken') + present result ('would be… now'). The other options mix tenses incorrectly."
+    },
+    {
+      "id": "mc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mixed conditional form.",
+      "prompt": "If Rina ___ English fluently, she would have impressed the interviewers yesterday.",
+      "options": ["spoke", "had spoken", "speaks", "will speak"],
+      "answer": "spoke",
+      "explanation": "Mixed conditional Type B: present condition (she doesn't speak English fluently — current state) uses past simple 'spoke'. The past result 'would have impressed… yesterday' confirms Type B."
+    },
+    {
+      "id": "mc-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct result clause.",
+      "prompt": "If they had saved more money over the years, they ___ able to buy a house today.",
+      "options": ["would be", "would have been", "will be", "were"],
+      "answer": "would be",
+      "explanation": "'Today' signals a present result. Mixed conditional Type A: past perfect if-clause → 'would be' (not 'would have been') in the result."
+    },
+    {
+      "id": "mc-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the type of mixed conditional in this sentence: 'If I were more patient, I would have handled that argument better.'",
+      "prompt": "What type of mixed conditional is this?",
+      "options": [
+        "Type A: past condition → present result",
+        "Type B: present condition → past result",
+        "Pure second conditional",
+        "Pure third conditional"
+      ],
+      "answer": "Type B: present condition → past result",
+      "explanation": "'If I were more patient' describes a present characteristic (I am not patient). 'Would have handled… better' refers to a past situation. This is Type B."
+    },
+    {
+      "id": "mc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative mixed conditional form.",
+      "prompt": "If he ___ such a risk-taker, he wouldn't have made those reckless investments last year.",
+      "options": ["isn't", "weren't", "hadn't been", "wouldn't be"],
+      "answer": "weren't",
+      "explanation": "Type B negative: present characteristic (he is a risk-taker) → past result. The if-clause uses 'weren't' (negative of 'were', subjunctive)."
+    },
+    {
+      "id": "mc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative result clause.",
+      "prompt": "If she hadn't dropped out of university, she ___ struggling to find work now.",
+      "options": ["wouldn't be", "wouldn't have been", "won't be", "isn't"],
+      "answer": "wouldn't be",
+      "explanation": "Type A negative: past condition ('hadn't dropped out') → present negative result ('wouldn't be… now'). 'Would not be' is correct."
+    },
+    {
+      "id": "mc-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correctly formed negative mixed conditional.",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "If I hadn't moved here, I wouldn't know anyone in the city now.",
+        "If I didn't move here, I wouldn't have known anyone in the city now.",
+        "If I hadn't moved here, I wouldn't have known anyone in the city now.",
+        "If I didn't move here, I wouldn't know anyone in the city now."
+      ],
+      "answer": "If I hadn't moved here, I wouldn't know anyone in the city now.",
+      "explanation": "Type A: past condition ('hadn't moved') → present result ('wouldn't know… now'). The 'now' confirms the result is present."
+    },
+    {
+      "id": "mc-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the mixed conditional.",
+      "prompt": "If he ___ so arrogant, the team would have accepted his ideas more readily.",
+      "options": ["wasn't", "weren't", "hadn't been", "isn't"],
+      "answer": "weren't",
+      "explanation": "Type B: his arrogance is a present trait, so the if-clause uses 'weren't' (subjunctive past of 'be'). The past result confirms Type B."
+    },
+    {
+      "id": "mc-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in this mixed conditional sentence.",
+      "prompt": "Which sentence contains a grammar error?",
+      "options": [
+        "If I had invested early, I would be wealthy now.",
+        "If she weren't so impulsive, she would have thought it through.",
+        "If he had trained harder, he would have been a champion today.",
+        "If they had planned better, they wouldn't be in this mess now."
+      ],
+      "answer": "If he had trained harder, he would have been a champion today.",
+      "explanation": "'Today' signals a present result, so 'would be' is needed — not 'would have been'. The correct form is 'he would be a champion today'."
+    },
+    {
+      "id": "mc-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct mixed conditional to express: 'He doesn't have a driving licence — that's why he didn't drive to the meeting yesterday.'",
+      "prompt": "If he ___ a driving licence, he ___ to the meeting yesterday.",
+      "options": [
+        "had / would drive",
+        "had had / would have driven",
+        "had / would have driven",
+        "had had / would drive"
+      ],
+      "answer": "had / would have driven",
+      "explanation": "Type B: present condition (he doesn't have a licence → 'if he had') + past result ('would have driven… yesterday'). 'Had had' would suggest a past condition, but lacking a licence is his current state."
+    },
+    {
+      "id": "mc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct mixed conditional question form.",
+      "prompt": "Where ___ you be living now if you had accepted that transfer two years ago?",
+      "options": ["will", "would", "did", "had"],
+      "answer": "would",
+      "explanation": "Mixed conditional Type A question: 'would + subject + V1' in the result, 'had + V3' in the if-clause. 'Now' confirms the present result."
+    },
+    {
+      "id": "mc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correctly formed mixed conditional question.",
+      "prompt": "Which question is correctly formed?",
+      "options": [
+        "Would you have taken that risk if you were more cautious by nature?",
+        "Would you take that risk if you had been more cautious by nature?",
+        "Will you have taken that risk if you were more cautious?",
+        "Had you taken that risk if you were more cautious?"
+      ],
+      "answer": "Would you have taken that risk if you were more cautious by nature?",
+      "explanation": "Type B question: 'would + subject + have + V3' (past result question) + 'if + past simple' (present condition). 'By nature' signals a current trait."
+    },
+    {
+      "id": "mc-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the mixed conditional question.",
+      "prompt": "Would she still be working at that company if she ___ a better offer elsewhere?",
+      "options": [
+        "didn't accept",
+        "hadn't accepted",
+        "wouldn't accept",
+        "hasn't accepted"
+      ],
+      "answer": "hadn't accepted",
+      "explanation": "Type A: the if-clause refers to a past event (accepting an offer) that affected the present ('still be working'). Past perfect 'hadn't accepted' is correct."
+    },
+    {
+      "id": "mc-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct mixed conditional question.",
+      "prompt": "Seandainya kamu tidak pemalu, apakah kamu sudah menerima tawaran itu dulu? → If you ___ shy, ___ you have accepted that offer?",
+      "options": [
+        "weren't / would",
+        "hadn't been / would",
+        "weren't / will",
+        "hadn't been / did"
+      ],
+      "answer": "weren't / would",
+      "explanation": "Type B: 'weren't' (present characteristic — shy) in the if-clause; 'would + subject + have + V3' for the past result question."
+    },
+    {
+      "id": "mc-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct mixed conditional question form.",
+      "prompt": "How ___ your life ___ different now if you had grown up in a big city?",
+      "options": [
+        "would / have been",
+        "would / be",
+        "will / be",
+        "had / been"
+      ],
+      "answer": "would / be",
+      "explanation": "Type A: past if-clause ('had grown up') → present result question ('would… be… now'). 'Now' confirms a present result, so 'would be' is correct, not 'would have been'."
+    },
+    {
+      "id": "mc-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify which question uses a mixed conditional correctly.",
+      "prompt": "Which question correctly expresses: 'He is lazy — that's why he didn't finish the project on time.'",
+      "options": [
+        "Would he have finished the project if he hadn't been lazy?",
+        "Would he have finished the project if he weren't lazy?",
+        "Would he finish the project if he weren't lazy?",
+        "Had he finished the project if he wasn't lazy?"
+      ],
+      "answer": "Would he have finished the project if he weren't lazy?",
+      "explanation": "Type B question: his laziness is a present trait ('weren't lazy' = if-clause), and not finishing was a past event ('would have finished' = result question)."
+    },
+    {
+      "id": "mc-mc-q-7",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct time marker that best fits this mixed conditional result clause.",
+      "prompt": "If Budi had stayed at that company, he would be the CEO ___.",
+      "options": ["yesterday", "last year", "by now", "at that time"],
+      "answer": "by now",
+      "explanation": "'By now' signals a present result — consistent with Mixed conditional Type A where 'would be' (not 'would have been') is used. The other options suggest past results, which would need 'would have been'."
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "exercises": [
+    {
+      "id": "pv-master-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present simple passive.",
+      "prompt": "Coffee ___ in Brazil, Vietnam, and Colombia.",
+      "options": ["grows", "is grown", "was grown", "has been grown"],
+      "answer": "is grown",
+      "explanation": "Present simple passive: is/are + V3. General/habitual fact about where coffee is produced."
+    },
+    {
+      "id": "pv-master-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past simple passive.",
+      "prompt": "The ancient temple ___ over five hundred years ago.",
+      "options": ["built", "was built", "has been built", "is built"],
+      "answer": "was built",
+      "explanation": "Specific past time ('five hundred years ago') + passive → past simple passive: was/were + V3."
+    },
+    {
+      "id": "pv-master-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present continuous passive.",
+      "prompt": "The new highway ___ right now — you can see the cranes.",
+      "options": ["is constructing", "is being constructed", "has been constructed", "was constructed"],
+      "answer": "is being constructed",
+      "explanation": "Ongoing action right now (passive) → is/are + being + V3."
+    },
+    {
+      "id": "pv-master-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the passive tense error.",
+      "prompt": "___",
+      "options": [
+        "The report was reviewed by the committee.",
+        "The results are being analysed by the team.",
+        "The data has been collected last week.",
+        "Several samples were sent to the laboratory."
+      ],
+      "answer": "The data has been collected last week.",
+      "explanation": "'Last week' = specific past time → use 'was collected'. Present perfect cannot be used with specific past time references."
+    },
+    {
+      "id": "pv-master-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past continuous passive.",
+      "prompt": "The samples ___ analysed when the power cut occurred.",
+      "options": ["were being", "have been", "had been", "were"],
+      "answer": "were being",
+      "explanation": "Past continuous passive: was/were + being + V3. The analysis was in progress when interrupted."
+    },
+    {
+      "id": "pv-master-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past perfect passive.",
+      "prompt": "By the time the auditors arrived, all the files ___ deleted.",
+      "options": ["were", "had been", "have been", "were being"],
+      "answer": "had been",
+      "explanation": "Past perfect passive: had + been + V3. The deletion happened before the auditors arrived."
+    },
+    {
+      "id": "pv-master-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future passive.",
+      "prompt": "The exam results ___ by the end of next week.",
+      "options": ["will announce", "will be announced", "are announced", "are being announced"],
+      "answer": "will be announced",
+      "explanation": "Future passive: will + be + V3. The results receive the action of announcing."
+    },
+    {
+      "id": "pv-master-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive infinitive.",
+      "prompt": "The application needs ___ before the deadline.",
+      "options": ["to submit", "to be submitted", "to be submitting", "being submitted"],
+      "answer": "to be submitted",
+      "explanation": "Passive infinitive: to + be + V3. 'Needs to be submitted' = needs someone to submit it."
+    },
+    {
+      "id": "pv-master-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal passive.",
+      "prompt": "All applications ___ before the closing date.",
+      "options": ["must submitted", "must be submitted", "must been submitted", "must is submitted"],
+      "answer": "must be submitted",
+      "explanation": "Modal passive: modal + be + V3. Always base form 'be' after a modal, never 'been' or 'is'."
+    },
+    {
+      "id": "pv-master-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal perfect passive for a past deduction.",
+      "prompt": "The file is gone. It ___ accidentally deleted.",
+      "options": ["must be", "must been", "must have been", "should be"],
+      "answer": "must have been",
+      "explanation": "Past deduction → modal perfect passive: must + have + been + V3."
+    },
+    {
+      "id": "pv-master-11",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative modal passive.",
+      "prompt": "Confidential data ___ outside the organisation.",
+      "options": ["must not be shared", "must be not shared", "must not shared", "not must be shared"],
+      "answer": "must not be shared",
+      "explanation": "Negative modal passive: modal + not + be + V3. 'Not' goes after the modal."
+    },
+    {
+      "id": "pv-master-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Pattern 1 passive reporting structure.",
+      "prompt": "___ the new treatment is more effective than existing options.",
+      "options": ["It is claimed that", "It claimed that", "Is claimed that", "It is claiming that"],
+      "answer": "It is claimed that",
+      "explanation": "Pattern 1: It + is/was + V3 + that-clause. Dummy subject 'It' is always required."
+    },
+    {
+      "id": "pv-master-13",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the passive reporting error.",
+      "prompt": "___",
+      "options": [
+        "It is believed that climate change is accelerating.",
+        "The treatment is known to be effective.",
+        "He is said that he is the leading expert.",
+        "It was reported that people were injured."
+      ],
+      "answer": "He is said that he is the leading expert.",
+      "explanation": "Pattern 2 does not use 'that'. Correct: 'He is said to be the leading expert.' Or Pattern 1: 'It is said that he is…'"
+    },
+    {
+      "id": "pv-master-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative (someone else does the action).",
+      "prompt": "She ___ every six weeks at the salon.",
+      "options": ["cuts her hair", "has her hair cut", "had her hair cut", "is cutting her hair"],
+      "answer": "has her hair cut",
+      "explanation": "Present causative: have + object + V3. She arranges for a hairdresser to cut it. Regular service → present simple."
+    },
+    {
+      "id": "pv-master-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct named-agent causative.",
+      "prompt": "I'll ___ the technician ___ at it.",
+      "options": ["have / looked", "have / look", "get / looked", "have / looking"],
+      "answer": "have / look",
+      "explanation": "Named agent causative: have + person + base verb (V1). 'Have the technician look' — base form, not V3."
+    },
+    {
+      "id": "pv-master-16",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the causative error.",
+      "prompt": "___",
+      "options": [
+        "She had her teeth checked by the dentist.",
+        "I need to have my passport renewed.",
+        "He had the mechanic repaired his car.",
+        "They got their house repainted last summer."
+      ],
+      "answer": "He had the mechanic repaired his car.",
+      "explanation": "Named agent (the mechanic) → base verb, not V3. Correct: 'He had the mechanic repair his car.'"
+    },
+    {
+      "id": "pv-master-17",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct perfect passive infinitive (past event).",
+      "prompt": "The company ___ millions last year.",
+      "options": ["is reported to lose", "is reported to have lost", "was reported to lose", "is reported having lost"],
+      "answer": "is reported to have lost",
+      "explanation": "Past completed action → perfect passive infinitive: is reported + to have + V3."
+    },
+    {
+      "id": "pv-master-18",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Gedung ini sedang direnovasi.' → English:",
+      "prompt": "This building ___.",
+      "options": ["is renovating", "is being renovated", "has been renovated", "was renovated"],
+      "answer": "is being renovated",
+      "explanation": "'Sedang direnovasi' = currently being renovated → present continuous passive: is being + V3."
+    },
+    {
+      "id": "pv-master-19",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct academic modal passive for hedging.",
+      "prompt": "This trend ___ attributed to changes in government policy.",
+      "options": ["must be", "can be", "would be", "may be"],
+      "answer": "may be",
+      "explanation": "'May be attributed to' = hedged academic claim. 'May' signals cautious possibility — appropriate for academic writing."
+    },
+    {
+      "id": "pv-master-20",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly converts Pattern 1 to Pattern 2?",
+      "prompt": "It is estimated that the population will reach 10 billion by 2050. → Pattern 2:",
+      "options": [
+        "The population is estimated to reach 10 billion by 2050.",
+        "The population is estimated reaching 10 billion by 2050.",
+        "The population estimated to reach 10 billion by 2050.",
+        "The population is estimated that reaches 10 billion by 2050."
+      ],
+      "answer": "The population is estimated to reach 10 billion by 2050.",
+      "explanation": "Pattern 2: Subject + is + V3 + to-infinitive. Future action → simple infinitive 'to reach'."
+    }
+  ]
+}

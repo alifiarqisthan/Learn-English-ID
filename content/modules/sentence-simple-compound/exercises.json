@@ -1,1 +1,306 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ssc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct coordinating conjunction to complete the compound sentence.",
+      "prompt": "She wanted to rest, ___ she had too much work to finish.",
+      "options": [
+        "and",
+        "but",
+        "so",
+        "for"
+      ],
+      "answer": "but",
+      "explanation": "'But' signals contrast — she wanted to rest, yet the situation was the opposite."
+    },
+    {
+      "id": "ssc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct coordinating conjunction.",
+      "prompt": "The power went out, ___ we lit some candles.",
+      "options": [
+        "but",
+        "or",
+        "so",
+        "nor"
+      ],
+      "answer": "so",
+      "explanation": "'So' introduces a result. The power going out caused the action of lighting candles."
+    },
+    {
+      "id": "ssc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence is correctly punctuated as a compound sentence?",
+      "prompt": "___",
+      "options": [
+        "She studied all night but she still failed.",
+        "She studied all night, but she still failed.",
+        "She studied all night; but she still failed.",
+        "She studied all night, but, she still failed."
+      ],
+      "answer": "She studied all night, but she still failed.",
+      "explanation": "A coordinating conjunction joining two independent clauses takes a comma before it, not a semicolon."
+    },
+    {
+      "id": "ssc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct way to complete this sentence with 'nor'.",
+      "prompt": "He didn't study for the exam, ___ he ask for extra time.",
+      "options": [
+        "nor did",
+        "nor he did",
+        "nor does he",
+        "nor he"
+      ],
+      "answer": "nor did",
+      "explanation": "After 'nor', subject and auxiliary invert: nor + auxiliary + subject + verb."
+    },
+    {
+      "id": "ssc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with a comma splice error.",
+      "prompt": "___",
+      "options": [
+        "I was hungry; I ate lunch early.",
+        "I was hungry, so I ate lunch early.",
+        "I was hungry, I ate lunch early.",
+        "I was hungry. I ate lunch early."
+      ],
+      "answer": "I was hungry, I ate lunch early.",
+      "explanation": "This is a comma splice — two independent clauses joined by only a comma, with no conjunction."
+    },
+    {
+      "id": "ssc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses a conjunctive adverb?",
+      "prompt": "___",
+      "options": [
+        "She studied hard, however she failed.",
+        "She studied hard; however she failed.",
+        "She studied hard; however, she failed.",
+        "She studied hard however, she failed."
+      ],
+      "answer": "She studied hard; however, she failed.",
+      "explanation": "Conjunctive adverbs need a semicolon before them and a comma after them."
+    },
+    {
+      "id": "ssc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which of the following is a fragment?",
+      "prompt": "___",
+      "options": [
+        "The lecture was cancelled.",
+        "Because the professor was ill.",
+        "The professor was ill, so the lecture was cancelled.",
+        "The professor cancelled the lecture."
+      ],
+      "answer": "Because the professor was ill.",
+      "explanation": "'Because' introduces a dependent clause. Without a main clause, it is a fragment."
+    },
+    {
+      "id": "ssc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence is a simple sentence (not compound)?",
+      "prompt": "___",
+      "options": [
+        "She studies, and he reads.",
+        "Rain and wind destroyed the harvest.",
+        "I wanted tea, but they had only coffee.",
+        "It rained; we stayed inside."
+      ],
+      "answer": "Rain and wind destroyed the harvest.",
+      "explanation": "This has a compound subject (rain and wind) but only ONE independent clause — it is a simple sentence."
+    },
+    {
+      "id": "ssc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct conjunction for this result relationship.",
+      "prompt": "The research was groundbreaking, ___ the team received a major grant.",
+      "options": [
+        "but",
+        "nor",
+        "so",
+        "yet"
+      ],
+      "answer": "so",
+      "explanation": "'So' expresses result. The research quality caused the grant to follow."
+    },
+    {
+      "id": "ssc-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct coordinating conjunction (FANBOYS).",
+      "prompt": "You can submit the report today, ___ you can request a one-day extension.",
+      "options": [
+        "or",
+        "ors",
+        "did or",
+        "oring"
+      ],
+      "answer": "or",
+      "explanation": "'Or' presents an alternative between two options."
+    },
+    {
+      "id": "ssc-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Complete the sentence using 'nor' with correct inversion.",
+      "prompt": "The manager didn't respond to the email, ___ she call back.",
+      "options": [
+        "nor did",
+        "nor did she",
+        "nor dided",
+        "nors did"
+      ],
+      "answer": "nor did",
+      "hint": "After 'nor', the auxiliary comes before the subject.",
+      "explanation": "Nor + did + subject: 'nor did she call back.'"
+    },
+    {
+      "id": "ssc-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the conjunctive adverb. The sample size was small; ___, the conclusions were limited.",
+      "prompt": "The sample size was small; ___, the conclusions were limited.",
+      "options": [
+        "therefore",
+        "therefores",
+        "consequently",
+        "thereforeing"
+      ],
+      "answer": "therefore",
+      "explanation": "Conjunctive adverbs follow a semicolon and are followed by a comma: '; therefore,'"
+    },
+    {
+      "id": "ssc-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: the missing punctuation. Write the missing character(s) that go before 'but'.",
+      "prompt": "She was exhausted ___ but she kept going.",
+      "options": [
+        ",ing",
+        "did ,",
+        ",",
+        ",s"
+      ],
+      "answer": ",",
+      "explanation": "A comma is needed before 'but' when joining two independent clauses."
+    },
+    {
+      "id": "ssc-fb-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the conjunctive adverb to add information. Use 'furthermore'.",
+      "prompt": "The study had a large sample size. ___, the methodology was rigorous.",
+      "options": [
+        "furthermoreing",
+        "furthermores",
+        "Furthermore",
+        "however"
+      ],
+      "answer": "Furthermore",
+      "hint": "Conjunctive adverbs after a period start a new sentence: 'Furthermore,'",
+      "explanation": "'; Furthermore,' or a new sentence with 'Furthermore,' — the conjunctive adverb adds the next idea."
+    },
+    {
+      "id": "ssc-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia suka teh, dan saya suka kopi.\"",
+      "prompt": "Dia suka teh, dan saya suka kopi.",
+      "options": [
+        "She likes tea, and I like coffee.",
+        "She is likeing tea, and I like coffee.",
+        "She like tea, and I like coffee.",
+        "coffee. like I and tea, likes She"
+      ],
+      "answer": "She likes tea, and I like coffee.",
+      "explanation": "Two independent clauses joined by 'and' — comma before the conjunction."
+    },
+    {
+      "id": "ssc-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Hujan lebat turun, jadi pertandingan dibatalkan.\"",
+      "prompt": "Hujan lebat turun, jadi pertandingan dibatalkan.",
+      "options": [
+        "It rained heavily, so the match is cancelled.",
+        "It rained heavily, so match was cancelled.",
+        "It rained heavily, so a match was cancelled.",
+        "It rained heavily, so the match was cancelled."
+      ],
+      "answer": "It rained heavily, so the match was cancelled.",
+      "explanation": "'Jadi' = so (result). Comma before 'so' when joining two independent clauses."
+    },
+    {
+      "id": "ssc-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Saya sudah belajar keras, tetapi saya tidak lulus ujian.\"",
+      "prompt": "Saya sudah belajar keras, tetapi saya tidak lulus ujian.",
+      "options": [
+        "I studied hard, but I not pass the exam.",
+        "I studied hard, but I didn't pass an exam.",
+        "I studied hard, but I didn't pass the exam. (incorrect)",
+        "I studied hard, but I didn't pass the exam."
+      ],
+      "answer": "I studied hard, but I didn't pass the exam.",
+      "explanation": "'Tetapi' = but (contrast). Comma before 'but' between two independent clauses."
+    },
+    {
+      "id": "ssc-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Dia lapar dia makan siang lebih awal.\"",
+      "prompt": "Dia lapar dia makan siang lebih awal.",
+      "options": [
+        "She was hungry, so she ate lunch early.",
+        "She is hungry, so she ate lunch early.",
+        "she were hungry, so she ate lunch early.",
+        "early. lunch ate she so hungry, was She"
+      ],
+      "answer": "She was hungry, so she ate lunch early.",
+      "explanation": "Two independent clauses need a coordinating conjunction or semicolon between them."
+    },
+    {
+      "id": "ssc-mc-fragment-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which option correctly fixes the fragment 'Although the results were promising.'?",
+      "prompt": "Although the results were promising, ___.",
+      "options": [
+        "but more research is needed.",
+        "more research is needed.",
+        "and more research is needed.",
+        "however, more research is needed."
+      ],
+      "answer": "more research is needed.",
+      "explanation": "'Although' introduces a dependent clause. It needs an independent clause — with no additional conjunction."
+    },
+    {
+      "id": "ssc-mc-conj-for-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the conjunction that expresses reason in formal written English.",
+      "prompt": "She left the conference early, ___ she had a flight to catch.",
+      "options": [
+        "so",
+        "for",
+        "and",
+        "yet"
+      ],
+      "answer": "for",
+      "explanation": "'For' as a coordinating conjunction means 'because' in formal/written English."
+    }
+  ]
+}

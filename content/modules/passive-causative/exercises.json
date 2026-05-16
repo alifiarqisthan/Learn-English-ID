@@ -1,1 +1,239 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "pc3-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative. Someone else cut the hair.",
+      "prompt": "She ___ every six weeks at the salon.",
+      "options": ["cuts her hair", "has her hair cut", "had her hair cut", "is cutting her hair"],
+      "answer": "has her hair cut",
+      "explanation": "Present simple causative: have + object + V3. 'Has her hair cut' = she arranges for a hairdresser to cut it regularly."
+    },
+    {
+      "id": "pc3-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative in past tense.",
+      "prompt": "He ___ before the interview.",
+      "options": ["got his suit dry-cleaned", "had dry-clean his suit", "had his suit dry-clean", "got dry-cleaned his suit"],
+      "answer": "got his suit dry-cleaned",
+      "explanation": "'Get something done' causative: got + object + V3. 'Got his suit dry-cleaned' = he arranged for it to be dry-cleaned."
+    },
+    {
+      "id": "pc3-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "A named person performs the action. Choose the correct form.",
+      "prompt": "Can you ___ the documents before the meeting?",
+      "options": ["have your assistant prepared", "have your assistant prepare", "have prepared your assistant", "get your assistant prepared"],
+      "answer": "have your assistant prepare",
+      "explanation": "Named agent causative: have + person + base verb. 'Have your assistant prepare' — base verb, not V3."
+    },
+    {
+      "id": "pc3-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct informal get-passive.",
+      "prompt": "After the merger, 200 employees ___.",
+      "options": ["were made redundant", "got make redundant", "got to make redundant", "get made redundant"],
+      "answer": "were made redundant",
+      "explanation": "Formal context (corporate news) → formal passive 'were made redundant'. 'Got made redundant' is informal/spoken."
+    },
+    {
+      "id": "pc3-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the causative error.",
+      "prompt": "___",
+      "options": [
+        "She had her teeth checked by the dentist.",
+        "I need to have my passport renewed before the trip.",
+        "He had the mechanic repaired his car.",
+        "They got their house repainted last summer."
+      ],
+      "answer": "He had the mechanic repaired his car.",
+      "explanation": "Named agent (the mechanic) → base verb, not V3. Correct: 'He had the mechanic repair his car.'"
+    },
+    {
+      "id": "pc3-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that implies the subject did the action themselves (not a causative).",
+      "prompt": "___",
+      "options": [
+        "She had her report edited by a colleague.",
+        "She edited her report herself.",
+        "She got her report edited before submission.",
+        "She had someone edit her report."
+      ],
+      "answer": "She edited her report herself.",
+      "explanation": "Simple past active 'edited' means she performed the action. The other three all use causative structures where someone else edits."
+    },
+    {
+      "id": "pc3-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the causative with wrong word order.",
+      "prompt": "___",
+      "options": [
+        "I had my phone repaired at the service centre.",
+        "She got repaired her laptop at a local shop.",
+        "He had his eyes tested at the clinic.",
+        "They got their data analysed by an expert."
+      ],
+      "answer": "She got repaired her laptop at a local shop.",
+      "explanation": "The object must come between 'got' and V3: 'got + object + V3'. Correct: 'She got her laptop repaired at a local shop.'"
+    },
+    {
+      "id": "pc3-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct causative question.",
+      "prompt": "Where did you ___ your suit ___?",
+      "options": ["have / tailored", "had / tailor", "have / tailor", "get / tailoring"],
+      "answer": "have / tailored",
+      "explanation": "Causative question: did + you + have + object + V3. 'Have your suit tailored' — object + V3."
+    },
+    {
+      "id": "pc3-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Di mana dia memperbaiki laptopnya?' → Causative English:",
+      "prompt": "Where did she ___?",
+      "options": ["repair her laptop", "get her laptop repaired", "got her laptop repaired", "have repaired her laptop"],
+      "answer": "get her laptop repaired",
+      "explanation": "Causative with 'get': get + object + V3. 'Where did she get her laptop repaired?' implies someone else repaired it."
+    },
+    {
+      "id": "pc3-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya minta asisten saya menyiapkan presentasinya.' → English:",
+      "prompt": "I ___ the presentation.",
+      "options": ["had my assistant prepared", "had my assistant prepare", "had prepared my assistant", "got my assistant to preparing"],
+      "answer": "had my assistant prepare",
+      "explanation": "Named agent causative: had + person + base verb. 'Had my assistant prepare' — base verb after named person."
+    },
+    {
+      "id": "pc3-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future causative.",
+      "prompt": "She ___ before the conference next month.",
+      "options": ["will cut her hair", "will have her hair cut", "will have cut her hair", "is going to cut her hair"],
+      "answer": "will have her hair cut",
+      "explanation": "Future causative: will + have + object + V3. 'Will have her hair cut' = she'll arrange it."
+    },
+    {
+      "id": "pc3-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct unpleasant experience causative.",
+      "prompt": "She ___ while commuting on the train.",
+      "options": ["got stolen her wallet", "had stolen her wallet", "had her wallet stolen", "got her wallet stolen"],
+      "answer": "had her wallet stolen",
+      "explanation": "Unpleasant experience: had + object + V3. 'Had her wallet stolen' — she didn't arrange it; it happened to her. 'Got her wallet stolen' is also possible but less common in this sense."
+    },
+    {
+      "id": "pc3-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'have' causative in the present perfect?",
+      "prompt": "___",
+      "options": [
+        "I have had my eyes tested recently.",
+        "I have my eyes tested recently.",
+        "I had my eyes tested recently.",
+        "I have had my eyes testing recently."
+      ],
+      "answer": "I have had my eyes tested recently.",
+      "explanation": "Present perfect causative: have + had + object + V3. 'I have had my eyes tested' — 'have' for present perfect, 'had' as causative verb, 'tested' as V3."
+    },
+    {
+      "id": "pc3-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present continuous causative.",
+      "prompt": "We can't use the office — we ___ it ___ right now.",
+      "options": ["are having / redecorated", "have / redecorated", "are having / redecorate", "are getting / redecorate"],
+      "answer": "are having / redecorated",
+      "explanation": "Present continuous causative: are + having + object + V3. 'Are having it redecorated' — ongoing arrangement."
+    },
+    {
+      "id": "pc3-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error: 'He had his tyre changed by a mechanic.'",
+      "prompt": "___",
+      "options": [
+        "Should be 'got' — 'had' is not used with 'by'.",
+        "Should be 'change' — base verb after mechanic.",
+        "No error — causative 'have' with 'by' agent is correct.",
+        "Should be 'changing' — continuous form needed."
+      ],
+      "answer": "No error — causative 'have' with 'by' agent is correct.",
+      "explanation": "'Had his tyre changed by a mechanic' is correct — causative (object + V3) with an optional 'by + agent'. This is valid."
+    },
+    {
+      "id": "pc3-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence implies the subject did the action themselves?",
+      "prompt": "___",
+      "options": [
+        "She got her essay proofread before submission.",
+        "She had her essay proofread by a tutor.",
+        "She proofread her essay carefully before submission.",
+        "She had someone proofread her essay."
+      ],
+      "answer": "She proofread her essay carefully before submission.",
+      "explanation": "Simple past active ('proofread') = she did it herself. All other options use causative structures implying someone else did it."
+    },
+    {
+      "id": "pc3-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct informal get-passive for spoken English.",
+      "prompt": "She ___ after just six months in the new role.",
+      "options": ["was promoted", "got promoted", "Both are correct.", "had promoted"],
+      "answer": "Both are correct.",
+      "explanation": "'Was promoted' (formal passive) and 'got promoted' (informal get-passive) are both grammatically correct. 'Got promoted' is more casual/spoken."
+    },
+    {
+      "id": "pc3-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Saya memperbaiki mobil saya di bengkel.' (someone else repaired it) → English causative:",
+      "prompt": "I ___ at the garage.",
+      "options": ["repaired my car", "had my car repaired", "got repaired my car", "had repaired my car"],
+      "answer": "had my car repaired",
+      "explanation": "Causative: had + object + V3. 'Had my car repaired' — a mechanic did it. Word order: had + my car + repaired."
+    },
+    {
+      "id": "pc3-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which causative structure should you use in formal academic writing?",
+      "prompt": "The samples ___ by an accredited laboratory.",
+      "options": [
+        "got tested",
+        "were tested",
+        "had tested",
+        "got to be tested"
+      ],
+      "answer": "were tested",
+      "explanation": "Formal academic writing → standard passive 'were tested'. 'Got tested' is informal. 'Had tested' is wrong word order."
+    },
+    {
+      "id": "pc3-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal causative.",
+      "prompt": "You ___ that suspicious mole ___ by a dermatologist.",
+      "options": ["should have / checked", "should get / check", "should have / check", "should get / checked"],
+      "answer": "should have / checked",
+      "explanation": "Modal + have + object + V3: 'should have that mole checked'. Named the doctor? Use base verb. Object only? Use V3."
+    }
+  ]
+}

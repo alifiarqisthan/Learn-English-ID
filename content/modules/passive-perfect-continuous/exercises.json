@@ -1,1 +1,224 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ppc3-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present continuous passive.",
+      "prompt": "The new hospital ___ by a team of international architects.",
+      "options": ["is been designed", "is being designed", "has been designed", "was being designed"],
+      "answer": "is being designed",
+      "explanation": "Present continuous passive: is/are + being + V3. The design is ongoing now."
+    },
+    {
+      "id": "ppc3-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present perfect passive.",
+      "prompt": "The annual report ___ and is now available for download.",
+      "options": ["is being published", "was published", "has been published", "had been published"],
+      "answer": "has been published",
+      "explanation": "Present perfect passive: has/have + been + V3. Action completed at some point before now, relevant to present."
+    },
+    {
+      "id": "ppc3-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past perfect passive.",
+      "prompt": "All the evidence ___ before the trial began.",
+      "options": ["has been collected", "was being collected", "had been collected", "is being collected"],
+      "answer": "had been collected",
+      "explanation": "Past perfect passive: had + been + V3. Action completed before another past event (the trial)."
+    },
+    {
+      "id": "ppc3-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past continuous passive.",
+      "prompt": "The suspect ___ by detectives when he boarded the plane.",
+      "options": ["was followed", "was being followed", "has been followed", "had been followed"],
+      "answer": "was being followed",
+      "explanation": "Past continuous passive: was/were + being + V3. The following was ongoing at a past moment."
+    },
+    {
+      "id": "ppc3-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with 'being' vs 'been' error.",
+      "prompt": "___",
+      "options": [
+        "The proposal is being reviewed by the committee.",
+        "The results have been analysed by the research team.",
+        "The system is been upgraded — please wait.",
+        "The bridge was being repaired when the storm hit."
+      ],
+      "answer": "The system is been upgraded — please wait.",
+      "explanation": "'Is been' is never correct. Choose: 'is being upgraded' (ongoing) or 'has been upgraded' (completed)."
+    },
+    {
+      "id": "ppc3-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the tense error.",
+      "prompt": "All samples have been collected before the experiment started last week.",
+      "options": [
+        "Should be 'are being collected' — continuous needed.",
+        "Should be 'had been collected' — past perfect, before another past event.",
+        "Should be 'were collected' — simple past.",
+        "No error — the sentence is correct."
+      ],
+      "answer": "Should be 'had been collected' — past perfect, before another past event.",
+      "explanation": "'Before the experiment started' signals past perfect is needed. 'Had been collected' = completed before that past point."
+    },
+    {
+      "id": "ppc3-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative present perfect passive.",
+      "prompt": "The invoice ___ yet — the accounts team is still processing it.",
+      "options": ["is not being sent", "has not been sent", "had not been sent", "was not sent"],
+      "answer": "has not been sent",
+      "explanation": "Present perfect passive negative: has/have + not + been + V3. 'Yet' signals present perfect."
+    },
+    {
+      "id": "ppc3-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct present continuous passive question.",
+      "prompt": "___ the new policy ___ by the legal team right now?",
+      "options": ["Is / being reviewed", "Has / been reviewed", "Was / being reviewed", "Is / been reviewed"],
+      "answer": "Is / being reviewed",
+      "explanation": "Present continuous passive question: Is/Are + subject + being + V3."
+    },
+    {
+      "id": "ppc3-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct present perfect passive question.",
+      "prompt": "___ the candidates ___ of the decision yet?",
+      "options": ["Were / informed", "Are / being informed", "Have / been informed", "Had / been informed"],
+      "answer": "Have / been informed",
+      "explanation": "Present perfect passive question: Have/Has + subject + been + V3. 'Yet' is a present perfect marker."
+    },
+    {
+      "id": "ppc3-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Proposal itu sedang ditinjau.' → English:",
+      "prompt": "The proposal ___.",
+      "options": ["has been reviewed", "is being reviewed", "was reviewed", "had been reviewed"],
+      "answer": "is being reviewed",
+      "explanation": "'Sedang ditinjau' = is being reviewed (present continuous passive). Ongoing now."
+    },
+    {
+      "id": "ppc3-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Semua data sudah dikumpulkan sebelum analisis dimulai.' → English:",
+      "prompt": "All data ___ before the analysis began.",
+      "options": ["has been collected", "was collected", "had been collected", "was being collected"],
+      "answer": "had been collected",
+      "explanation": "'Sudah dikumpulkan sebelum' = had been collected before. Past perfect passive needed."
+    },
+    {
+      "id": "ppc3-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative past continuous passive.",
+      "prompt": "He didn't know he ___ — the surveillance was very discreet.",
+      "options": ["has been watched", "was watched", "is being watched", "was being watched"],
+      "answer": "was being watched",
+      "explanation": "Past continuous passive: was/were + being + V3. Ongoing action in the past the subject was unaware of."
+    },
+    {
+      "id": "ppc3-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses the present continuous passive?",
+      "prompt": "___",
+      "options": [
+        "The road has been repaired at the moment.",
+        "The road is being repaired at the moment.",
+        "The road was being repaired at the moment.",
+        "The road is been repaired at the moment."
+      ],
+      "answer": "The road is being repaired at the moment.",
+      "explanation": "'At the moment' signals present continuous: is being repaired. 'Has been' = completed, not ongoing."
+    },
+    {
+      "id": "ppc3-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct agreement in present perfect passive.",
+      "prompt": "Several complaints ___ received by the customer service team.",
+      "options": ["has been", "is being", "have been", "had been"],
+      "answer": "have been",
+      "explanation": "'Several complaints' = plural → 'have been received'. 'Has been' is for singular subjects."
+    },
+    {
+      "id": "ppc3-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "The software has being updated to the latest version.",
+      "options": [
+        "Should be 'is being updated' — present continuous.",
+        "Should be 'has been updated' — 'being' should be 'been'.",
+        "Should be 'had been updated' — past perfect.",
+        "No error — 'has being' is correct."
+      ],
+      "answer": "Should be 'has been updated' — 'being' should be 'been'.",
+      "explanation": "After 'has/have', use 'been' (not 'being'). Present perfect passive: has + been + V3."
+    },
+    {
+      "id": "ppc3-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which time marker signals past perfect passive is needed?",
+      "prompt": "The contract ___ by the time she arrived at the office.",
+      "options": ["is being signed", "has been signed", "had been signed", "was signed"],
+      "answer": "had been signed",
+      "explanation": "'By the time she arrived' = reference point in past → past perfect passive: had + been + V3."
+    },
+    {
+      "id": "ppc3-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form. Context: the construction is still in progress.",
+      "prompt": "The new campus ___ for the past three years.",
+      "options": ["is built", "has been built", "is being built", "was built"],
+      "answer": "has been built",
+      "explanation": "'For the past three years' with a still-ongoing construction → present perfect passive. 'Has been built' covers the period up to now. ('Is being built' also works contextually but 'for three years' pairs more naturally with perfect.)"
+    },
+    {
+      "id": "ppc3-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Active to passive: 'They have not notified the applicants yet.' → Passive:",
+      "prompt": "The applicants ___ yet.",
+      "options": ["are not being notified", "have not been notified", "were not notified", "had not been notified"],
+      "answer": "have not been notified",
+      "explanation": "Active present perfect negative → passive present perfect negative. Have + not + been + V3."
+    },
+    {
+      "id": "ppc3-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct passive for a future perfect context.",
+      "prompt": "By next Friday, the repairs ___.",
+      "options": ["will be completed", "are being completed", "will have been completed", "have been completed"],
+      "answer": "will have been completed",
+      "explanation": "'By next Friday' signals future perfect. Future perfect passive: will + have + been + V3."
+    },
+    {
+      "id": "ppc3-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Sistem itu sedang diperbarui ketika terjadi pemadaman listrik.' → English:",
+      "prompt": "The system ___ when the power outage occurred.",
+      "options": ["has been updated", "is being updated", "was being updated", "had been updated"],
+      "answer": "was being updated",
+      "explanation": "'Sedang diperbarui ketika...' = was being updated when... Past continuous passive: was + being + V3."
+    }
+  ]
+}

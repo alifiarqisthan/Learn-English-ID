@@ -1,0 +1,259 @@
+{
+  "exercises": [
+    {
+      "id": "mmm-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for a real but uncertain future possibility.",
+      "prompt": "I ___ attend the seminar — it depends on whether I finish my assignment in time.",
+      "options": ["will", "might", "must", "should"],
+      "answer": "might",
+      "explanation": "'Might' expresses a tentative or uncertain possibility — attending depends on a condition. 'Will' is certain; 'must' is obligation; 'should' is expectation."
+    },
+    {
+      "id": "mmm-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct formal permission modal.",
+      "prompt": "___ I ask you a few questions for my research?",
+      "options": ["Can", "May", "Both are correct.", "Might"],
+      "answer": "Both are correct.",
+      "explanation": "Both 'Can I?' and 'May I?' are grammatically correct for asking permission. 'May I?' is more formal/polite. 'Might I?' is archaic. Both 'Can' and 'May' are acceptable here."
+    },
+    {
+      "id": "mmm-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct academic hedging modal.",
+      "prompt": "These findings ___ suggest a link between diet and cognitive performance.",
+      "options": ["must", "will", "may", "shall"],
+      "answer": "may",
+      "explanation": "'May' is the standard academic hedging modal — it softens the claim without completely dismissing it. 'Must' = strong certainty (too strong for hedging). 'Will' = definite future."
+    },
+    {
+      "id": "mmm-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Mungkin dia sedang rapat sekarang.' → English:",
+      "prompt": "She ___ be in a meeting right now.",
+      "options": ["must", "may", "should", "will"],
+      "answer": "may",
+      "explanation": "'Mungkin' = possibly → 'may' or 'might'. 'She may be in a meeting' = it's a real possibility. 'Must' would be a strong deduction from evidence, which isn't indicated here."
+    },
+    {
+      "id": "mmm-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the more tentative/remote possibility modal.",
+      "prompt": "I'm not sure she's coming — she ___ show up if she finishes early, but I doubt it.",
+      "options": ["may", "might", "Both are equally correct.", "should"],
+      "answer": "might",
+      "explanation": "'Might' expresses a more remote or tentative possibility than 'may'. The speaker is doubtful, so 'might' better captures the low probability."
+    },
+    {
+      "id": "mmm-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the sentence that uses 'may' for permission (not possibility).",
+      "prompt": "___",
+      "options": [
+        "It may rain tomorrow.",
+        "The project may take longer than expected.",
+        "You may leave once you've signed the form.",
+        "She may not remember you."
+      ],
+      "answer": "You may leave once you've signed the form.",
+      "explanation": "'You may leave' = permission granted (you are allowed to leave). The other three use 'may' for possibility."
+    },
+    {
+      "id": "mmm-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative possibility form.",
+      "prompt": "He ___ be available on Thursday — check with him first.",
+      "options": ["might not", "mayn't", "must not", "can not"],
+      "answer": "might not",
+      "explanation": "'Might not' = it's possible that he won't be available. 'Mayn't' is non-standard. 'Must not' = prohibition. 'Cannot' = certain inability."
+    },
+    {
+      "id": "mmm-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence where 'may not' means prohibition (formal context).",
+      "prompt": "___",
+      "options": [
+        "She may not come to the party.",
+        "Visitors may not enter the restricted area.",
+        "The report may not be ready by noon.",
+        "He may not know about the change."
+      ],
+      "answer": "Visitors may not enter the restricted area.",
+      "explanation": "In formal/official contexts (signs, rules), 'may not' often means prohibition. The other three sentences use 'may not' for possibility."
+    },
+    {
+      "id": "mmm-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the sentence.",
+      "prompt": "Maybe she might call you this evening.",
+      "options": [
+        "Should be 'She might call' — 'maybe' and 'might' are redundant.",
+        "Should be 'Maybe she may call' — 'may' is more formal.",
+        "Should be 'She should call' — stronger expectation needed.",
+        "No error — both 'maybe' and 'might' together is correct."
+      ],
+      "answer": "Should be 'She might call' — 'maybe' and 'might' are redundant.",
+      "explanation": "'Maybe' and 'might' both express uncertainty — using both is redundant. Use either: 'She might call this evening' or 'Maybe she'll call this evening.'"
+    },
+    {
+      "id": "mmm-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative form: 'It's possible the shipment won't arrive today.'",
+      "prompt": "The shipment ___ arrive today.",
+      "options": ["must not", "may not", "cannot", "shouldn't"],
+      "answer": "may not",
+      "explanation": "'May not' = it's possible that it won't arrive. 'Must not' = prohibition. 'Cannot' = certain impossibility. 'Shouldn't' = not expected/not advisable."
+    },
+    {
+      "id": "mmm-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the modal structure.",
+      "prompt": "She might to call after the meeting.",
+      "options": [
+        "Should be 'might call' — no 'to' after 'might'.",
+        "Should be 'may to call' — 'may' is more appropriate.",
+        "Should be 'might calling' — continuous form needed.",
+        "No error — 'might to call' is correct."
+      ],
+      "answer": "Should be 'might call' — no 'to' after 'might'.",
+      "explanation": "Modal verbs are followed by V1 (base form) directly — never 'to'. Correct: 'She might call after the meeting.'"
+    },
+    {
+      "id": "mmm-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Mungkin saya tidak bisa hadir besok.' → English:",
+      "prompt": "I ___ be able to attend tomorrow.",
+      "options": ["must not", "may not", "cannot", "shouldn't"],
+      "answer": "may not",
+      "explanation": "'Mungkin tidak bisa' = possibly unable → 'may not be able to'. Not 'must not' (prohibition) or 'cannot' (certain inability)."
+    },
+    {
+      "id": "mmm-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the most formal way to ask for permission.",
+      "prompt": "___ I ask a question?",
+      "options": ["Can", "May", "Both are equally formal.", "Might"],
+      "answer": "May",
+      "explanation": "'May I ask a question?' is more formal than 'Can I ask a question?'. In academic or professional contexts, 'May I?' is preferred. 'Might I?' is very rare and archaic."
+    },
+    {
+      "id": "mmm-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Bolehkah saya melihat dokumen itu?' → formal English:",
+      "prompt": "___ I see that document?",
+      "options": ["Could", "May", "Might", "Should"],
+      "answer": "May",
+      "explanation": "'Bolehkah' in formal context → 'May I…?' — the standard formal permission question. 'Could I?' is polite but less formal. 'Should' = advice, not permission."
+    },
+    {
+      "id": "mmm-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which question uses 'may/might' for possibility (not permission)?",
+      "prompt": "___",
+      "options": [
+        "May I borrow your pen?",
+        "Might this approach cause side effects?",
+        "May I leave the room?",
+        "May I interrupt for a moment?"
+      ],
+      "answer": "Might this approach cause side effects?",
+      "explanation": "'Might this approach cause…?' uses 'might' for possibility — asking whether an outcome is possible. The other three use 'may/might' for formal permission."
+    },
+    {
+      "id": "mmm-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct way to hedge a research claim in academic writing.",
+      "prompt": "The data ___ indicate that further study is needed.",
+      "options": ["must", "will", "may", "shall"],
+      "answer": "may",
+      "explanation": "'May indicate' = a hedged, cautious claim appropriate for academic writing. 'Must indicate' is too certain; 'will indicate' is definite; 'shall' is formal future/obligation (rare in academic hedging)."
+    },
+    {
+      "id": "mmm-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which pair correctly shows the difference between 'may' and 'might' in certainty?",
+      "prompt": "___",
+      "options": [
+        "'May come' = certain; 'might come' = possible",
+        "'May come' = possible (~50%); 'might come' = more tentative (~30%)",
+        "'May come' = past; 'might come' = present",
+        "Both express exactly the same degree of certainty"
+      ],
+      "answer": "'May come' = possible (~50%); 'might come' = more tentative (~30%)",
+      "explanation": "'May' expresses a real, 50% possibility. 'Might' is more tentative or remote (~30%). In practice they overlap, but 'might' signals lower probability."
+    },
+    {
+      "id": "mmm-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly uses 'might' for a very remote possibility.",
+      "prompt": "___",
+      "options": [
+        "I will definitely finish by 5 pm.",
+        "I might finish by 5 pm — but I have a lot left to do.",
+        "I must finish by 5 pm — it's the deadline.",
+        "I should finish by 5 pm — it's what was agreed."
+      ],
+      "answer": "I might finish by 5 pm — but I have a lot left to do.",
+      "explanation": "'Might finish' = low possibility — the context ('a lot left to do') makes it unlikely. This is the correct use of 'might' for a remote possibility."
+    },
+    {
+      "id": "mmm-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence where 'may' is used incorrectly.",
+      "prompt": "___",
+      "options": [
+        "The plan may succeed if implemented correctly.",
+        "She may comes to the event — I'm not sure.",
+        "You may not use electronic devices during the test.",
+        "This finding may have important implications."
+      ],
+      "answer": "She may comes to the event — I'm not sure.",
+      "explanation": "Modal + V1 (base form): 'she may come' — never 'may comes'. Modals never take an inflected verb form."
+    },
+    {
+      "id": "mmm-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'might' as a more tentative alternative to 'may'?",
+      "prompt": "___",
+      "options": [
+        "The policy might change next year — there are strong signals.",
+        "The policy may change next year — there are strong signals.",
+        "Both are correct; 'might' signals slightly more uncertainty than 'may'.",
+        "Neither is correct — use 'will' for future predictions."
+      ],
+      "answer": "Both are correct; 'might' signals slightly more uncertainty than 'may'.",
+      "explanation": "Both 'may change' and 'might change' are correct. 'May' implies a somewhat higher probability; 'might' is more tentative. The choice depends on how confident the speaker is."
+    },
+    {
+      "id": "mmm-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Boleh kamu pergi sekarang.' (giving permission) → formal English:",
+      "prompt": "You ___ go now.",
+      "options": ["can", "may", "Both are correct.", "might"],
+      "answer": "Both are correct.",
+      "explanation": "'You may go now' (formal) and 'You can go now' (less formal) both grant permission correctly. 'Might' is not used to grant permission."
+    }
+  ]
+}

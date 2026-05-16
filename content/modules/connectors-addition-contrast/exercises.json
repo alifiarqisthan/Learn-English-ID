@@ -1,1 +1,254 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cac-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the connector that correctly completes the sentence.",
+      "prompt": "The report was thorough. ___, it was submitted ahead of schedule.",
+      "options": ["Furthermore", "However", "Although", "Despite"],
+      "answer": "Furthermore",
+      "explanation": "Addition connector needed — 'furthermore' adds a positive point to another positive point and starts a new sentence followed by a comma."
+    },
+    {
+      "id": "cac-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence.",
+      "prompt": "Which sentence uses 'moreover' correctly?",
+      "options": [
+        "The study was well-designed; moreover, it produced reliable results.",
+        "The study was well-designed, moreover it produced reliable results.",
+        "Moreover the study was well-designed and produced reliable results.",
+        "The study was well-designed moreover produced reliable results."
+      ],
+      "answer": "The study was well-designed; moreover, it produced reliable results.",
+      "explanation": "'Moreover' is a conjunctive adverb — it requires a semicolon before it (or a new sentence) and a comma after it."
+    },
+    {
+      "id": "cac-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the most appropriate addition connector for formal academic writing.",
+      "prompt": "The new curriculum covers more topics. ___, it introduces critical thinking skills from the first semester.",
+      "options": ["What is more", "And also", "Plus", "And then"],
+      "answer": "What is more",
+      "explanation": "'What is more' is a formal addition connector suitable for academic writing. 'And also', 'plus', and 'and then' are too informal or structurally wrong here."
+    },
+    {
+      "id": "cac-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the connector that correctly completes the sentence.",
+      "prompt": "The team finished the project on time. ___, they came in under budget.",
+      "options": ["In addition", "Nevertheless", "Whereas", "By contrast"],
+      "answer": "In addition",
+      "explanation": "'In addition' adds a positive point to another positive point. 'Nevertheless' and 'by contrast' signal contrast, not addition."
+    },
+    {
+      "id": "cac-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct option.",
+      "prompt": "Urban areas offer many job opportunities. ___, they tend to have higher living costs.",
+      "options": ["On the other hand", "In addition", "Furthermore", "What is more"],
+      "answer": "On the other hand",
+      "explanation": "'On the other hand' presents an alternative or contrasting perspective. The sentence contrasts a benefit (jobs) with a drawback (costs)."
+    },
+    {
+      "id": "cac-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence.",
+      "prompt": "Which sentence uses 'in addition' correctly?",
+      "options": [
+        "In addition, the participants were given a follow-up survey.",
+        "In addition the participants were given a follow-up survey.",
+        "The participants, in addition, were given a follow-up survey to.",
+        "In addition to the participants were given a follow-up survey."
+      ],
+      "answer": "In addition, the participants were given a follow-up survey.",
+      "explanation": "'In addition' at the start of a sentence is always followed by a comma. No other preposition or particle is needed when it stands alone as a sentence connector."
+    },
+    {
+      "id": "cac-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best contrast connector.",
+      "prompt": "The economy has grown rapidly in recent years. ___, income inequality has also worsened.",
+      "options": ["However", "Furthermore", "In addition", "What is more"],
+      "answer": "However",
+      "explanation": "'However' introduces a contrasting or unexpected point. The second sentence contrasts the positive (growth) with a negative (inequality)."
+    },
+    {
+      "id": "cac-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with a punctuation error.",
+      "prompt": "Which sentence contains an error?",
+      "options": [
+        "The exam was hard, however, most students passed.",
+        "The exam was hard. However, most students passed.",
+        "The exam was hard; however, most students passed.",
+        "Most students passed; the exam was hard, however."
+      ],
+      "answer": "The exam was hard, however, most students passed.",
+      "explanation": "Comma splice: 'however' is a conjunctive adverb and cannot join two independent clauses with only commas. A semicolon or new sentence is required before it."
+    },
+    {
+      "id": "cac-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the incorrect sentence.",
+      "prompt": "Which sentence has a grammatical error?",
+      "options": [
+        "Furthermore, the sample size was too small.",
+        "The sample size was too small; furthermore, the data was incomplete.",
+        "The sample size was too small, furthermore the data was incomplete.",
+        "The data was incomplete. Furthermore, the sample size was too small."
+      ],
+      "answer": "The sample size was too small, furthermore the data was incomplete.",
+      "explanation": "'Furthermore' cannot join two independent clauses with only a comma — this is a comma splice. Use a semicolon before 'furthermore' or start a new sentence."
+    },
+    {
+      "id": "cac-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that contains a double-connector error.",
+      "prompt": "Which sentence incorrectly uses two contrast connectors?",
+      "options": [
+        "Although it was expensive, we bought it.",
+        "It was expensive, but we bought it.",
+        "Although it was expensive, but we bought it.",
+        "It was expensive. Nevertheless, we bought it."
+      ],
+      "answer": "Although it was expensive, but we bought it.",
+      "explanation": "'Although' and 'but' both signal contrast. Using both in the same sentence creates a double connector error — use one or the other."
+    },
+    {
+      "id": "cac-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in this sentence: 'The results were promising, moreover the methodology was sound.'",
+      "prompt": "What is wrong with the sentence above?",
+      "options": [
+        "The wrong connector is used — 'moreover' signals contrast, not addition.",
+        "'Moreover' needs a semicolon before it or a new sentence — the comma alone is a comma splice.",
+        "'Moreover' cannot appear in this position in any sentence.",
+        "'Moreover' is too informal for this context."
+      ],
+      "answer": "'Moreover' needs a semicolon before it or a new sentence — the comma alone is a comma splice.",
+      "explanation": "'Moreover' is a conjunctive adverb. A comma alone cannot join two independent clauses with it. The fix: 'The results were promising; moreover, the methodology was sound.'"
+    },
+    {
+      "id": "cac-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that correctly uses 'nevertheless'.",
+      "prompt": "Which option is grammatically correct?",
+      "options": [
+        "The evidence was weak, nevertheless the judge upheld the ruling.",
+        "The evidence was weak; nevertheless, the judge upheld the ruling.",
+        "Nevertheless, the evidence was weak the judge upheld the ruling.",
+        "The evidence was weak nevertheless, the judge upheld the ruling."
+      ],
+      "answer": "The evidence was weak; nevertheless, the judge upheld the ruling.",
+      "explanation": "'Nevertheless' requires a semicolon before it (or a new sentence) and a comma after it. All other options are comma splices or have incorrect punctuation."
+    },
+    {
+      "id": "cac-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the incorrect use of 'besides'.",
+      "prompt": "Which sentence misuses 'besides'?",
+      "options": [
+        "Besides, the team had no other option.",
+        "Besides the cost issue, the schedule was also a problem.",
+        "The design was flawed. Besides, the materials were substandard.",
+        "Besides English, she does not speak any other language."
+      ],
+      "answer": "Besides English, she does not speak any other language.",
+      "explanation": "Here, the intended meaning is 'except for English' — but 'besides' means 'in addition to.' The correct word is 'apart from': 'Apart from English, she does not speak any other language.'"
+    },
+    {
+      "id": "cac-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that incorrectly uses 'on the contrary'.",
+      "prompt": "Which sentence misuses 'on the contrary'?",
+      "options": [
+        "He wasn't late. On the contrary, he arrived twenty minutes early.",
+        "Cats are independent. On the contrary, dogs require constant attention.",
+        "She didn't fail. On the contrary, she passed with distinction.",
+        "The project wasn't expensive. On the contrary, it was the cheapest option."
+      ],
+      "answer": "Cats are independent. On the contrary, dogs require constant attention.",
+      "explanation": "'On the contrary' corrects a false statement. It is not used to compare two different things. The correct connector here is 'On the other hand' — presenting an alternative perspective, not correcting a claim."
+    },
+    {
+      "id": "cac-mc-question-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct connector to complete this academic sentence.",
+      "prompt": "___ the costs are high, the long-term benefits justify the investment.",
+      "options": ["However", "Although", "Furthermore", "In addition"],
+      "answer": "Although",
+      "explanation": "'Although' is a subordinating conjunction that introduces a concessive clause — acknowledging the high costs before stating the contrasting benefit. 'However' cannot start a subordinate clause."
+    },
+    {
+      "id": "cac-mc-question-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which connector best completes this sentence in formal academic writing?",
+      "prompt": "The first study had methodological flaws. ___, its conclusions were widely cited.",
+      "options": ["Nevertheless", "In addition", "Moreover", "Besides"],
+      "answer": "Nevertheless",
+      "explanation": "'Nevertheless' signals that the main point (widely cited) holds despite the opposing fact (methodological flaws). It is appropriate for formal contrast/concession."
+    },
+    {
+      "id": "cac-mc-question-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct option.",
+      "prompt": "The new policy aims to reduce emissions. ___, it is expected to create green jobs.",
+      "options": ["What is more", "However", "In contrast", "Yet"],
+      "answer": "What is more",
+      "explanation": "'What is more' is a formal addition connector that introduces an extra positive point. The sentence is adding a benefit (green jobs) to another benefit (reduced emissions)."
+    },
+    {
+      "id": "cac-mc-question-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the best connector.",
+      "prompt": "City A has a modern infrastructure. ___, City B still relies on outdated systems.",
+      "options": ["By contrast", "In addition", "Furthermore", "What is more"],
+      "answer": "By contrast",
+      "explanation": "'By contrast' introduces an explicit comparison between two different things (City A vs City B). 'In addition' and 'furthermore' are addition connectors, not contrast connectors."
+    },
+    {
+      "id": "cac-mc-question-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct sentence for a formal essay.",
+      "prompt": "Which sentence would be most appropriate in a formal academic essay?",
+      "options": [
+        "The data supports the hypothesis, and also the findings confirm the model.",
+        "The data supports the hypothesis. Furthermore, the findings confirm the model.",
+        "The data supports the hypothesis, plus the findings confirm the model.",
+        "The data supports the hypothesis and then the findings confirm the model."
+      ],
+      "answer": "The data supports the hypothesis. Furthermore, the findings confirm the model.",
+      "explanation": "In formal academic writing, 'furthermore' (new sentence, comma after) is the appropriate addition connector. 'And also', 'plus', and 'and then' are too informal or structurally awkward."
+    },
+    {
+      "id": "cac-mc-question-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the connector that signals the strongest addition in formal writing.",
+      "prompt": "The treatment reduced symptoms significantly. ___, it had no major side effects.",
+      "options": ["Moreover", "But", "Yet", "However"],
+      "answer": "Moreover",
+      "explanation": "'Moreover' adds an emphatic positive point to another positive point — ideal for building a formal argument. 'But', 'yet', and 'however' all signal contrast, which is wrong here."
+    }
+  ]
+}

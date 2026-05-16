@@ -6,7 +6,12 @@
       "form": "positive",
       "instruction": "Choose the correct present continuous form.",
       "prompt": "Look outside! It ___ heavily.",
-      "options": ["rains", "is raining", "has rained", "rained"],
+      "options": [
+        "rains",
+        "is raining",
+        "has rained",
+        "rained"
+      ],
       "answer": "is raining",
       "explanation": "'Look!' = right now, observable → Present Continuous."
     },
@@ -16,7 +21,12 @@
       "form": "positive",
       "instruction": "Choose the correct form for a temporary situation.",
       "prompt": "She usually lives in Bandung, but she ___ with her aunt in Jakarta this month.",
-      "options": ["stays", "is staying", "has stayed", "stayed"],
+      "options": [
+        "stays",
+        "is staying",
+        "has stayed",
+        "stayed"
+      ],
       "answer": "is staying",
       "explanation": "Temporary situation contrasting with permanent → Present Continuous."
     },
@@ -26,7 +36,12 @@
       "form": "negative",
       "instruction": "Choose the correct negative present continuous.",
       "prompt": "Please don't disturb him. He ___ right now.",
-      "options": ["doesn't work", "isn't working", "hasn't worked", "won't work"],
+      "options": [
+        "doesn't work",
+        "isn't working",
+        "hasn't worked",
+        "won't work"
+      ],
       "answer": "isn't working",
       "explanation": "Action in progress right now, negative → isn't + Ving."
     },
@@ -36,7 +51,12 @@
       "form": "question",
       "instruction": "Choose the correct present continuous question.",
       "prompt": "Why ___ you ___ at me like that?",
-      "options": ["do / look", "are / looking", "have / looked", "did / look"],
+      "options": [
+        "do / look",
+        "are / looking",
+        "have / looked",
+        "did / look"
+      ],
       "answer": "are / looking",
       "explanation": "Action happening at this moment → Present Continuous question: Are + subject + Ving."
     },
@@ -46,7 +66,12 @@
       "form": "positive",
       "instruction": "Stative or action verb? Choose the correct form.",
       "prompt": "I ___ what you are saying, but I disagree.",
-      "options": ["am understanding", "understand", "am knowing", "knowing"],
+      "options": [
+        "am understanding",
+        "understand",
+        "am knowing",
+        "knowing"
+      ],
       "answer": "understand",
       "explanation": "'Understand' is a stative verb → use Present Simple, not Continuous."
     },
@@ -56,87 +81,118 @@
       "form": "positive",
       "instruction": "Choose the correct form for an arranged future plan.",
       "prompt": "We ___ the Eiffel Tower next Tuesday — tickets are booked.",
-      "options": ["visit", "will visit", "are visiting", "have visited"],
+      "options": [
+        "visit",
+        "will visit",
+        "are visiting",
+        "have visited"
+      ],
       "answer": "are visiting",
       "explanation": "Arranged future plan with a time marker → Present Continuous."
     },
     {
       "id": "prc-fb-pos-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the present continuous form.",
+      "instruction": "Choose the correct answer for: the present continuous form.",
       "prompt": "Shh! The baby ___ (sleep). Don't make noise.",
-      "acceptedAnswers": ["is sleeping"],
+      "options": [
+        "is sleepinged",
+        "is sleeping",
+        "sleeping is",
+        "iss sleeping"
+      ],
+      "answer": "is sleeping",
       "explanation": "Action in progress at this moment → is + sleeping."
     },
     {
       "id": "prc-fb-pos-2",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the correct form. Watch the -ing spelling.",
+      "instruction": "Choose the correct answer for: the correct form. Watch the -ing spelling.",
       "prompt": "He ___ (write) a report for tomorrow's meeting.",
-      "acceptedAnswers": ["is writing"],
+      "options": [
+        "iss writing",
+        "is writing",
+        "writing is",
+        "is writinged"
+      ],
+      "answer": "is writing",
       "explanation": "write → writing (drop silent -e). Action in progress → is + writing."
     },
     {
       "id": "prc-fb-neg-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "negative",
-      "instruction": "Fill in the negative present continuous. Both 'aren't' and 'are not' accepted.",
+      "instruction": "Choose the correct answer for: the negative present continuous. Both 'aren't' and 'are not' accepted.",
       "prompt": "They ___ (not / come) to the party tonight — they have other plans.",
-      "acceptedAnswers": ["aren't coming", "are not coming"],
+      "options": [
+        "aren't coming",
+        "do not come",
+        "aren't cominged",
+        "aren'ts coming"
+      ],
+      "answer": "aren't coming",
       "explanation": "Arranged plan, negative → aren't/are not + coming."
     },
     {
       "id": "prc-fb-q-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "question",
       "instruction": "Form the present continuous question.",
       "prompt": "What ___ (you / do) this weekend?",
-      "acceptedAnswers": ["are you doing"],
+      "options": [
+        "ares you doing",
+        "doing you are",
+        "are you doinged",
+        "are you doing"
+      ],
+      "answer": "are you doing",
       "explanation": "Present Continuous question for future plans: Are + subject + Ving."
     },
     {
       "id": "prc-tr-pos-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate using present continuous.",
+      "instruction": "Translate into English: \"Tolong jangan berisik. Adik saya sedang belajar.\"",
       "prompt": "Tolong jangan berisik. Adik saya sedang belajar.",
-      "modelAnswer": "Please don't make noise. My younger sibling is studying.",
-      "alternativeAnswers": [
-        "Please be quiet. My brother is studying.",
-        "Please be quiet. My sister is studying.",
-        "Please don't be noisy. My little brother is studying."
+      "options": [
+        "Please don't make noise. My younger sibling was studying.",
+        "Please doesn't make noise. My younger sibling is studying.",
+        "Please don't make noise. My younger sibling is studying.",
+        "Please not make noise. My younger sibling is studying."
       ],
-      "keyTokens": ["is studying"],
+      "answer": "Please don't make noise. My younger sibling is studying.",
       "explanation": "'Sedang belajar' = action in progress → is + studying."
     },
     {
       "id": "prc-tr-pos-2",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate using present continuous for a changing situation.",
+      "instruction": "Translate into English: \"Harga-harga sedang naik akhir-akhir ini.\"",
       "prompt": "Harga-harga sedang naik akhir-akhir ini.",
-      "modelAnswer": "Prices are rising these days.",
-      "alternativeAnswers": [
-        "Prices are going up these days.",
-        "Prices are increasing these days."
+      "options": [
+        "days. these rising are Prices",
+        "Prices were rising these days.",
+        "Prices are rising these days.",
+        "is Priceing are rising these is daying."
       ],
-      "keyTokens": ["are rising", "these days"],
+      "answer": "Prices are rising these days.",
       "explanation": "Changing/developing situation → Present Continuous."
     },
     {
       "id": "prc-tr-q-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "question",
-      "instruction": "Translate as a present continuous question.",
+      "instruction": "Translate into English: \"Kamu sedang mengerjakan apa sekarang?\"",
       "prompt": "Kamu sedang mengerjakan apa sekarang?",
-      "modelAnswer": "What are you working on right now?",
-      "alternativeAnswers": [
-        "What are you doing right now?",
-        "What are you working on now?"
+      "options": [
+        "now? right on working you are What",
+        "What were you working on right now?",
+        "What are you working on right now?",
+        "What are you working in right now?"
       ],
-      "keyTokens": ["what are you", "right now"],
+      "answer": "What are you working on right now?",
       "explanation": "Wh-question for action in progress → What + are + subject + Ving."
     },
     {
@@ -145,7 +201,12 @@
       "form": "positive",
       "instruction": "Choose the correctly spelled -ing form.",
       "prompt": "He is ___ in the pool.",
-      "options": ["swiming", "swimming", "swimeing", "swimm"],
+      "options": [
+        "swiming",
+        "swimming",
+        "swimeing",
+        "swimm"
+      ],
       "answer": "swimming",
       "explanation": "CVC rule (one syllable, consonant-vowel-consonant): double the final consonant → swimming."
     },

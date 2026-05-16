@@ -1,1 +1,219 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ca-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adjective to complete the sentence.",
+      "prompt": "Mount Rinjani is ___ than Mount Merapi.",
+      "options": ["more high", "higher", "more higher", "the highest"],
+      "answer": "higher",
+      "explanation": "High is a one-syllable adjective → add -er. 'More higher' is a double comparative error. 'The highest' is superlative, not comparative."
+    },
+    {
+      "id": "ca-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adjective to complete the sentence.",
+      "prompt": "This laptop is ___ than my old one.",
+      "options": ["expensiver", "more expensive", "more expensiver", "expensiveer"],
+      "answer": "more expensive",
+      "explanation": "Expensive has three syllables → use more + adjective. The -er ending never applies to long adjectives."
+    },
+    {
+      "id": "ca-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adjective to complete the sentence.",
+      "prompt": "She felt ___ after a good night's sleep.",
+      "options": ["gooder", "more good", "better", "more better"],
+      "answer": "better",
+      "explanation": "Good is irregular — its comparative is better, not 'gooder' or 'more good.'"
+    },
+    {
+      "id": "ca-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adjective to complete the sentence.",
+      "prompt": "The weather today is ___ than it was yesterday.",
+      "options": ["hotter", "more hot", "hoter", "more hotter"],
+      "answer": "hotter",
+      "explanation": "Hot is one syllable, consonant-vowel-consonant → double the t and add -er. 'More hot' and 'more hotter' are wrong."
+    },
+    {
+      "id": "ca-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adjective to complete the sentence.",
+      "prompt": "The new policy is ___ than the previous one.",
+      "options": ["more effective", "effectiver", "more effectiver", "effectiveer"],
+      "answer": "more effective",
+      "explanation": "Effective has three syllables → use more + adjective. Never add -er to a long adjective."
+    },
+    {
+      "id": "ca-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adjective to complete the sentence.",
+      "prompt": "My younger sister is ___ than me.",
+      "options": ["more happy", "happier", "more happier", "happyer"],
+      "answer": "happier",
+      "explanation": "Happy ends in -y → change y to i and add -er → happier."
+    },
+    {
+      "id": "ca-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adjective to complete the sentence.",
+      "prompt": "The results of the second test were ___ than the first.",
+      "options": ["more bad", "badder", "worse", "worser"],
+      "answer": "worse",
+      "explanation": "Bad is irregular — its comparative is worse. 'Badder,' 'more bad,' and 'worser' are all errors."
+    },
+    {
+      "id": "ca-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct comparative adjective to complete the negative sentence.",
+      "prompt": "The second film was ___ than the first one.",
+      "options": ["less interest", "less interesting", "not interesting", "lesser interesting"],
+      "answer": "less interesting",
+      "explanation": "To express that something has less of a quality, use less + adjective + than. 'Lesser interesting' is not correct English."
+    },
+    {
+      "id": "ca-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "This road is more dangerous than that one.",
+        "The coffee here is more bad than at the other café.",
+        "She is more confident than her classmates.",
+        "This exercise is more difficult than the last."
+      ],
+      "answer": "The coffee here is more bad than at the other café.",
+      "explanation": "Bad is irregular — the comparative is worse, not 'more bad.'"
+    },
+    {
+      "id": "ca-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "His performance was better than expected.",
+        "The new model is more lighter than the previous one.",
+        "This route is farther than the highway.",
+        "She is more organised than her colleagues."
+      ],
+      "answer": "The new model is more lighter than the previous one.",
+      "explanation": "'More lighter' is a double comparative error. Light is one syllable → lighter (no 'more')."
+    },
+    {
+      "id": "ca-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct word to complete the sentence.",
+      "prompt": "The situation became ___ as the night went on.",
+      "options": ["more worst", "more worser", "worse", "worst"],
+      "answer": "worse",
+      "explanation": "Worse is the comparative of bad. 'Worst' is superlative (not comparative). 'More worser' and 'more worst' are double comparative errors."
+    },
+    {
+      "id": "ca-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "He is taller than his father.",
+        "This test is easier than the mock exam.",
+        "The new apartment is more bigger than the old one.",
+        "She feels better after the medication."
+      ],
+      "answer": "The new apartment is more bigger than the old one.",
+      "explanation": "'More bigger' is a double comparative. Big is one syllable → bigger (no 'more')."
+    },
+    {
+      "id": "ca-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "The traffic is ___ in the morning than in the afternoon.",
+      "options": ["more heavy", "heavier", "more heavier", "heavyer"],
+      "answer": "heavier",
+      "explanation": "Heavy ends in -y → change y to i + -er → heavier."
+    },
+    {
+      "id": "ca-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "This path is ___ than the one through the forest.",
+      "options": ["more safe", "safer", "more safer", "safest"],
+      "answer": "safer",
+      "explanation": "Safe is one syllable (ending in -e) → add -r → safer. 'Safest' is superlative."
+    },
+    {
+      "id": "ca-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct comparative adjective for the question.",
+      "prompt": "Which city is ___ — Jakarta or Surabaya?",
+      "options": ["more large", "more larger", "larger", "largest"],
+      "answer": "larger",
+      "explanation": "Large is one syllable (ending in -e) → add -r. Superlatives (largest) are not used when comparing two items."
+    },
+    {
+      "id": "ca-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct word to complete the comparative question.",
+      "prompt": "Is the new version ___ efficient than the old one?",
+      "options": ["more", "most", "much", "many"],
+      "answer": "more",
+      "explanation": "Efficient has three syllables → use more + adjective for the comparative."
+    },
+    {
+      "id": "ca-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Do you think online classes are ___ than face-to-face ones?",
+      "options": ["more effective", "most effective", "effectiver", "more effectiver"],
+      "answer": "more effective",
+      "explanation": "Effective has three syllables → comparative is more effective. Superlatives (most effective) are not used in two-item comparisons."
+    },
+    {
+      "id": "ca-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct comparative form to complete the question.",
+      "prompt": "Is public transport ___ here than in your hometown?",
+      "options": ["gooder", "more better", "better", "more good"],
+      "answer": "better",
+      "explanation": "Good → better (irregular). 'Gooder' and 'more good' are errors; 'more better' is a double comparative."
+    },
+    {
+      "id": "ca-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the word that correctly completes the comparative structure.",
+      "prompt": "She is taller ___ her older brother.",
+      "options": ["as", "from", "than", "that"],
+      "answer": "than",
+      "explanation": "Comparative adjectives are always followed by 'than' when naming the second item. 'As' is used in the as…as structure, not after comparatives."
+    },
+    {
+      "id": "ca-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct comparative form to complete the question.",
+      "prompt": "Which option is ___ — taking the bus or riding a motorbike?",
+      "options": ["more fast", "fastest", "faster", "more faster"],
+      "answer": "faster",
+      "explanation": "Fast is one syllable → add -er for the comparative. 'Fastest' is superlative (for 3+ items). 'More faster' is a double comparative error."
+    }
+  ]
+}

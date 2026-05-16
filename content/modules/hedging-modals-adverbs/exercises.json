@@ -1,0 +1,269 @@
+{
+  "exercises": [
+    {
+      "id": "hma-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best hedging modal for an uncertain academic claim.",
+      "prompt": "The increase in temperature ___ affect crop yields in tropical regions.",
+      "options": ["will", "may", "must", "shall"],
+      "answer": "may",
+      "explanation": "'May affect' = hedged academic claim (~50% possibility). 'Will' is too certain for an uncertain scientific relationship. 'Must' implies logical necessity, not possibility."
+    },
+    {
+      "id": "hma-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct hedging adverb position.",
+      "prompt": "___",
+      "options": [
+        "Probably the data reflects a sampling error.",
+        "The data probably reflects a sampling error.",
+        "The data reflects probably a sampling error.",
+        "The data reflects a probably sampling error."
+      ],
+      "answer": "The data probably reflects a sampling error.",
+      "explanation": "Hedging adverbs appear before the main verb in mid-position. 'Probably reflects' is correct. Starting with 'Probably' is acceptable in informal writing but less preferred in academic style."
+    },
+    {
+      "id": "hma-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the most appropriate hedging for an academic writing sentence.",
+      "prompt": "Stress ___ contribute to lower academic performance among university students.",
+      "options": ["proves to", "may", "will always", "is"],
+      "answer": "may",
+      "explanation": "'May contribute' = appropriately hedged. 'Proves to' is too strong (hedging is needed for causal claims). 'Will always' is both certain and absolute — never appropriate for academic hedging."
+    },
+    {
+      "id": "hma-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best frequency adverb to hedge the claim.",
+      "prompt": "Students ___ struggle with time management during their first year of university.",
+      "options": ["always", "often", "never", "completely"],
+      "answer": "often",
+      "explanation": "'Often struggle' = a hedged frequency claim. 'Always' and 'never' are absolute and not appropriate for academic generalisations. 'Completely' is an intensifier, not a frequency adverb."
+    },
+    {
+      "id": "hma-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Kemungkinan besar hal ini disebabkan oleh faktor ekonomi.' → hedged English:",
+      "prompt": "This is ___ caused by economic factors.",
+      "options": ["certainly", "likely", "always", "completely"],
+      "answer": "likely",
+      "explanation": "'Kemungkinan besar' = high probability → 'likely'. 'Likely caused by' = a hedged academic claim. 'Certainly' would be too strong. 'Always' is absolute."
+    },
+    {
+      "id": "hma-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct certainty adverb to hedge a degree claim.",
+      "prompt": "The results are ___ due to differences in sample size across the two studies.",
+      "options": ["probably", "largely", "Both are correct.", "always"],
+      "answer": "Both are correct.",
+      "explanation": "'Largely due to' = hedging the extent/degree. 'Probably due to' = hedging certainty. Both are valid academic hedging strategies. 'Always' is absolute and not a hedge."
+    },
+    {
+      "id": "hma-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with inappropriate hedging (over-hedging).",
+      "prompt": "___",
+      "options": [
+        "This may indicate a trend in the data.",
+        "This might perhaps possibly indicate a trend.",
+        "This possibly indicates a trend in the data.",
+        "This could suggest a pattern worth investigating."
+      ],
+      "answer": "This might perhaps possibly indicate a trend.",
+      "explanation": "Stacking three hedges ('might', 'perhaps', 'possibly') is over-hedging — redundant and unclear. Use one hedging device per claim."
+    },
+    {
+      "id": "hma-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the claim that should NOT be hedged (it's an established fact).",
+      "prompt": "___",
+      "options": [
+        "This method may improve learning outcomes.",
+        "Water may boil at 100°C at standard atmospheric pressure.",
+        "The results may suggest a correlation.",
+        "This approach might be more effective in certain contexts."
+      ],
+      "answer": "Water may boil at 100°C at standard atmospheric pressure.",
+      "explanation": "The boiling point of water is an established scientific fact — it should be stated directly: 'Water boils at 100°C.' Hedging established facts with 'may' is inappropriate and signals poor academic judgement."
+    },
+    {
+      "id": "hma-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence where 'will' is used incorrectly (too certain for an academic claim).",
+      "prompt": "___",
+      "options": [
+        "This intervention will improve all student outcomes.",
+        "This intervention may improve student outcomes.",
+        "This intervention is likely to improve student outcomes.",
+        "This intervention could contribute to improved outcomes."
+      ],
+      "answer": "This intervention will improve all student outcomes.",
+      "explanation": "'Will improve all student outcomes' is too certain and absolute for academic writing — both 'will' (certainty) and 'all' (absolute) are problematic. The other three correctly hedge."
+    },
+    {
+      "id": "hma-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the incorrectly placed hedging adverb.",
+      "prompt": "___",
+      "options": [
+        "The findings largely support the hypothesis.",
+        "Largely, the findings support the hypothesis.",
+        "The findings support largely the hypothesis.",
+        "The findings probably support the hypothesis."
+      ],
+      "answer": "The findings support largely the hypothesis.",
+      "explanation": "Mid-position adverbs go before the main verb or after an auxiliary — not between the verb and its object. Correct positions: 'largely support' or 'probably support'."
+    },
+    {
+      "id": "hma-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that uses hedging incorrectly for a causal claim.",
+      "prompt": "___",
+      "options": [
+        "Exercise may contribute to improved mental health.",
+        "Exercise proves better mental health outcomes.",
+        "Exercise is often associated with improved mental health.",
+        "Exercise could have a positive effect on mental health."
+      ],
+      "answer": "Exercise proves better mental health outcomes.",
+      "explanation": "'Proves' is an absolute, unhedged causal claim — inappropriate in academic writing where correlation ≠ causation. The other three correctly hedge the relationship."
+    },
+    {
+      "id": "hma-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Hal ini tidak selalu menyebabkan masalah.' → appropriate hedged English:",
+      "prompt": "This does not ___ cause problems.",
+      "options": ["always", "never", "possibly", "completely"],
+      "answer": "always",
+      "explanation": "'Tidak selalu' = not always → 'does not always cause problems'. This is a frequency hedge. 'Never' would be absolute. 'Possibly' doesn't fit the negative frequency frame."
+    },
+    {
+      "id": "hma-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the most academically appropriate modal for this research statement.",
+      "prompt": "The data ___ indicate that sleep deprivation affects cognitive performance.",
+      "options": ["proves to", "may", "will always", "is"],
+      "answer": "may",
+      "explanation": "'May indicate' = appropriate hedging for research data interpretation. Research data 'indicates' possibilities, not proves certainties. 'Will always' is absolute and incorrect."
+    },
+    {
+      "id": "hma-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly hedges the degree of a relationship?",
+      "prompt": "___",
+      "options": [
+        "This is completely caused by genetic factors.",
+        "This is largely caused by genetic factors.",
+        "This is possibly completely caused by genetic factors.",
+        "This is caused by genetic factors in all cases."
+      ],
+      "answer": "This is largely caused by genetic factors.",
+      "explanation": "'Largely caused by' hedges the degree — genetics plays a major but not exclusive role. 'Completely' is absolute; stacking 'possibly completely' is contradictory; 'in all cases' is absolute."
+    },
+    {
+      "id": "hma-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Arrange these modals from most to least certain: may, could, will, might.",
+      "prompt": "___",
+      "options": [
+        "will → may → might → could",
+        "will → may → could → might",
+        "will → might → may → could",
+        "could → may → might → will"
+      ],
+      "answer": "will → may → could → might",
+      "explanation": "Certainty scale (high to low): 'will' (~100%) → 'may' (~50%) → 'could' (variable, often ~40%) → 'might' (~30%). In academic hedging, prefer 'may', 'could', and 'might' over 'will'."
+    },
+    {
+      "id": "hma-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses the correct position for the hedging adverb 'typically'?",
+      "prompt": "___",
+      "options": [
+        "Typically findings from small studies do not generalise.",
+        "Findings typically from small studies do not generalise.",
+        "Findings from small studies typically do not generalise.",
+        "Findings from small studies do typically not generalise."
+      ],
+      "answer": "Findings from small studies typically do not generalise.",
+      "explanation": "With negative auxiliaries, the adverb goes before the auxiliary: 'typically do not'. Starting with 'Typically' is also possible in academic writing, making both A and C arguably correct, but C is the most natural mid-position placement."
+    },
+    {
+      "id": "hma-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best hedging phrase to soften a research limitation.",
+      "prompt": "The findings ___ generalisable to other populations given the sample size.",
+      "options": ["are always", "may not be", "are never", "will not be"],
+      "answer": "may not be",
+      "explanation": "'May not be generalisable' = hedged limitation statement. Research findings are tentatively limited, not definitively. 'Will not be' is too certain; 'are never' is absolute."
+    },
+    {
+      "id": "hma-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which hedging adverb best replaces 'generally' in this sentence?",
+      "prompt": "Students who attend lectures ___ perform better in assessments.",
+      "options": ["generally / typically", "always / never", "Both 'generally' and 'typically' work.", "possibly / perhaps"],
+      "answer": "Both 'generally' and 'typically' work.",
+      "explanation": "'Generally' and 'typically' are both frequency hedges meaning 'in most cases'. Both are appropriate in academic writing. 'Possibly' and 'perhaps' are certainty hedges — different in meaning."
+    },
+    {
+      "id": "hma-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that demonstrates the best hedging practice overall.",
+      "prompt": "___",
+      "options": [
+        "This study proves that mindfulness reduces anxiety in all participants.",
+        "This study suggests that mindfulness may reduce anxiety in some participants.",
+        "This study might perhaps possibly suggest that mindfulness could reduce anxiety.",
+        "This study shows mindfulness will always reduce anxiety."
+      ],
+      "answer": "This study suggests that mindfulness may reduce anxiety in some participants.",
+      "explanation": "Best hedging: 'suggests' (hedging verb) + 'may reduce' (modal hedge) + 'some participants' (scope limitation). Option A is unhedged; C is over-hedged; D is absolute."
+    },
+    {
+      "id": "hma-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Data ini mungkin menunjukkan adanya korelasi.' → hedged academic English:",
+      "prompt": "This data ___ a correlation.",
+      "options": [
+        "proves",
+        "may indicate",
+        "will indicate",
+        "always shows"
+      ],
+      "answer": "may indicate",
+      "explanation": "'Mungkin menunjukkan' = possibly indicates → 'may indicate'. 'Proves' is unhedged; 'will indicate' is too certain; 'always shows' is absolute and unhedged."
+    },
+    {
+      "id": "hma-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct hedging degree adverb for a partial explanation.",
+      "prompt": "The increase in dropout rates is ___ explained by financial pressures on students.",
+      "options": ["completely", "largely", "always", "never"],
+      "answer": "largely",
+      "explanation": "'Largely explained by' = hedged degree — financial pressure is a major but not exclusive factor. 'Completely' and 'always' are absolute; 'never' contradicts the meaning."
+    }
+  ]
+}

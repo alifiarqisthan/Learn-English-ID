@@ -1,0 +1,214 @@
+{
+  "exercises": [
+    {
+      "id": "gav-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "She really enjoys ___ to classical music before bed.",
+      "options": ["listen", "to listen", "listening", "listened"],
+      "answer": "listening",
+      "explanation": "'Enjoy' is a gerund-only verb. It must be followed by V-ing: enjoys listening."
+    },
+    {
+      "id": "gav-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "He admitted ___ the documents without permission.",
+      "options": ["to take", "taking", "taken", "take"],
+      "answer": "taking",
+      "explanation": "'Admit' takes a gerund. He admitted taking (not to take) the documents."
+    },
+    {
+      "id": "gav-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "The manager recommended ___ the project deadline by two weeks.",
+      "options": ["extend", "to extend", "extending", "extended"],
+      "answer": "extending",
+      "explanation": "'Recommend' is a gerund-only verb: recommended extending."
+    },
+    {
+      "id": "gav-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "___ a second language opens many career opportunities.",
+      "options": ["To learn", "Learn", "Learning", "Learned"],
+      "answer": "Learning",
+      "explanation": "A gerund is the standard form for a verb acting as the subject of a sentence: Learning a second language..."
+    },
+    {
+      "id": "gav-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "She is very good at ___ complex ideas in simple terms.",
+      "options": ["explain", "to explain", "explained", "explaining"],
+      "answer": "explaining",
+      "explanation": "After the preposition 'at', a gerund is required: good at explaining."
+    },
+    {
+      "id": "gav-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "They finally finished ___ the annual report at midnight.",
+      "options": ["write", "to write", "writing", "written"],
+      "answer": "writing",
+      "explanation": "'Finish' takes a gerund. The action is complete: finished writing."
+    },
+    {
+      "id": "gav-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "I look forward to ___ you at the conference next month.",
+      "options": ["meet", "met", "to meet", "meeting"],
+      "answer": "meeting",
+      "explanation": "In 'look forward to', 'to' is a preposition, so the following verb must be a gerund: look forward to meeting."
+    },
+    {
+      "id": "gav-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "The doctor advised him to stop ___ fatty foods immediately.",
+      "options": ["eat", "to eat", "eaten", "eating"],
+      "answer": "eating",
+      "explanation": "After 'stop' + object pattern, or as a gerund complement, 'eating' is correct. 'Eating' follows 'stop' when describing the action being ceased."
+    },
+    {
+      "id": "gav-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "She denied ___ anything about the missing files.",
+      "options": ["know", "to know", "knowing", "known"],
+      "answer": "knowing",
+      "explanation": "'Deny' is a gerund-only verb: denied knowing."
+    },
+    {
+      "id": "gav-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "He left the meeting without ___ goodbye to anyone.",
+      "options": ["say", "to say", "saying", "said"],
+      "answer": "saying",
+      "explanation": "After the preposition 'without', a gerund is required: without saying."
+    },
+    {
+      "id": "gav-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "She couldn't resist ___ the last piece of chocolate cake.",
+      "options": ["eat", "to eat", "eating", "eaten"],
+      "answer": "eating",
+      "explanation": "'Resist' is a gerund-only verb: couldn't resist eating."
+    },
+    {
+      "id": "gav-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is INCORRECT?",
+      "options": [
+        "I avoid driving during rush hour.",
+        "She enjoys to read mystery novels.",
+        "He practises speaking English every morning.",
+        "They postponed making the announcement."
+      ],
+      "answer": "She enjoys to read mystery novels.",
+      "explanation": "'Enjoy' is a gerund-only verb. The correct form is: She enjoys reading mystery novels."
+    },
+    {
+      "id": "gav-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "Instead of ___ by plane, they decided to take the train.",
+      "options": ["travel", "to travel", "travelled", "travelling"],
+      "answer": "travelling",
+      "explanation": "After the preposition 'instead of', a gerund is required: instead of travelling."
+    },
+    {
+      "id": "gav-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "He keeps ___ the same grammar mistakes even after studying the rules.",
+      "options": ["make", "to make", "making", "made"],
+      "answer": "making",
+      "explanation": "'Keep' is a gerund-only verb meaning to continue doing something: keeps making."
+    },
+    {
+      "id": "gav-mc-que-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Do you mind ___ the window? It's getting hot in here.",
+      "options": ["open", "to open", "opening", "opened"],
+      "answer": "opening",
+      "explanation": "'Mind' is a gerund-only verb: Do you mind opening...? (not 'to open')"
+    },
+    {
+      "id": "gav-mc-que-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Have you ever considered ___ for a master's degree abroad?",
+      "options": ["apply", "to apply", "applying", "applied"],
+      "answer": "applying",
+      "explanation": "'Consider' takes a gerund: considered applying. Using 'to apply' is a common error."
+    },
+    {
+      "id": "gav-mc-que-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Would you risk ___ your scholarship for one bad semester?",
+      "options": ["lose", "to lose", "losing", "lost"],
+      "answer": "losing",
+      "explanation": "'Risk' is a gerund-only verb: risk losing. 'Losing' follows because 'risk' requires a gerund object."
+    },
+    {
+      "id": "gav-mc-que-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Are you interested in ___ a volunteer programme this summer?",
+      "options": ["join", "to join", "joined", "joining"],
+      "answer": "joining",
+      "explanation": "After the preposition 'in', a gerund is required: interested in joining."
+    },
+    {
+      "id": "gav-mc-que-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Can you imagine ___ without your smartphone for a whole month?",
+      "options": ["live", "to live", "living", "lived"],
+      "answer": "living",
+      "explanation": "'Imagine' is a gerund-only verb: imagine living. 'To live' is incorrect here."
+    },
+    {
+      "id": "gav-mc-que-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the sentence that is CORRECT.",
+      "prompt": "Which sentence uses the gerund correctly?",
+      "options": [
+        "She suggested to postpone the meeting.",
+        "He is responsible of managing the team.",
+        "They look forward to hearing from you.",
+        "I miss to see my hometown."
+      ],
+      "answer": "They look forward to hearing from you.",
+      "explanation": "'Look forward to' uses 'to' as a preposition, so 'hearing' (gerund) is correct. The other options contain gerund-only verbs followed by infinitives, or wrong prepositions."
+    }
+  ]
+}

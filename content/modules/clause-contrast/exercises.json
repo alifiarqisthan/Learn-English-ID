@@ -1,1 +1,304 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct contrast conjunction. The next word is a full clause.",
+      "prompt": "___ the project was underfunded, the team delivered outstanding results.",
+      "options": [
+        "Despite",
+        "In spite of",
+        "Although",
+        "Nevertheless"
+      ],
+      "answer": "Although",
+      "explanation": "A full clause follows ('the project was underfunded') → use a conjunction. 'Although' is correct. 'Despite/in spite of' need a noun/-ing phrase."
+    },
+    {
+      "id": "cc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct contrast word. The next word starts a noun phrase.",
+      "prompt": "___ the heavy traffic, she arrived on time.",
+      "options": [
+        "Although",
+        "Even though",
+        "Despite",
+        "Whereas"
+      ],
+      "answer": "Despite",
+      "explanation": "'The heavy traffic' is a noun phrase (no verb) → use 'despite' or 'in spite of'. 'Although/even though' need a full clause."
+    },
+    {
+      "id": "cc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly uses 'whereas'.",
+      "prompt": "___",
+      "options": [
+        "Whereas she loves coffee, but her brother prefers tea.",
+        "Whereas she loves coffee, her brother prefers tea.",
+        "Whereas she loves coffee; her brother prefers tea.",
+        "Whereas she loves coffee. Her brother prefers tea."
+      ],
+      "answer": "Whereas she loves coffee, her brother prefers tea.",
+      "explanation": "'Whereas' introduces a dependent clause. When first, follow with a comma then the main clause. No 'but' — double conjunction error."
+    },
+    {
+      "id": "cc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with a double-conjunction error.",
+      "prompt": "___",
+      "options": [
+        "Although it was raining, we went for a walk.",
+        "Even though she was tired, she kept going.",
+        "Although he studied hard, but he didn't pass.",
+        "Despite the rain, they continued the outdoor session."
+      ],
+      "answer": "Although he studied hard, but he didn't pass.",
+      "explanation": "Using both 'although' and 'but' in the same sentence is a double-conjunction error. Remove either one."
+    },
+    {
+      "id": "cc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'despite + that' error.",
+      "prompt": "___",
+      "options": [
+        "Despite being busy, she found time to volunteer.",
+        "Despite the noise, he concentrated well.",
+        "Despite that the food was cold, they ate it.",
+        "Despite her best efforts, the project failed."
+      ],
+      "answer": "Despite that the food was cold, they ate it.",
+      "explanation": "'Despite' cannot be followed by a 'that'-clause. Use 'Despite the cold food' or 'Although the food was cold'."
+    },
+    {
+      "id": "cc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct 'however' structure.",
+      "prompt": "___",
+      "options": [
+        "The study had limitations, however the findings were significant.",
+        "The study had limitations; however the findings were significant.",
+        "The study had limitations; however, the findings were significant.",
+        "The study had limitations however, the findings were significant."
+      ],
+      "answer": "The study had limitations; however, the findings were significant.",
+      "explanation": "Conjunctive adverbs: semicolon before, comma after. '; however,' is correct."
+    },
+    {
+      "id": "cc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the most formal and unambiguous contrast word.",
+      "prompt": "___ some species adapt to urban environments, others decline sharply.",
+      "options": [
+        "While",
+        "Whereas",
+        "Although",
+        "Even though"
+      ],
+      "answer": "Whereas",
+      "explanation": "'Whereas' is the most formal and clearest contrast signal for parallel facts. 'While' could be ambiguous (time vs. contrast)."
+    },
+    {
+      "id": "cc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'in spite of' + -ing.",
+      "prompt": "___",
+      "options": [
+        "In spite of she was tired, she submitted the work.",
+        "In spite of being tired, she submitted the work.",
+        "In spite of that she was tired, she submitted the work.",
+        "In spite of tired, she submitted the work."
+      ],
+      "answer": "In spite of being tired, she submitted the work.",
+      "explanation": "'In spite of' + -ing (gerund phrase). 'In spite of being tired' = 'although she was tired'."
+    },
+    {
+      "id": "cc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly uses 'even though' to express stronger contrast.",
+      "prompt": "___",
+      "options": [
+        "Even though the evidence is strong, yet the panel rejected it.",
+        "Even though the evidence is strong, the panel rejected it.",
+        "Even though the evidence is strong; the panel rejected it.",
+        "Even though, the evidence is strong, the panel rejected it."
+      ],
+      "answer": "Even though the evidence is strong, the panel rejected it.",
+      "explanation": "'Even though' + clause, comma, main clause. No 'yet' — double conjunction. No semicolon after 'even though'."
+    },
+    {
+      "id": "cc-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'although' or 'despite'. The blank is followed by a full clause.",
+      "prompt": "___ the cost was high, the committee approved the budget.",
+      "options": [
+        "althoughs",
+        "Although",
+        "Though",
+        "Even though"
+      ],
+      "answer": "Although",
+      "explanation": "Full clause follows → conjunction. 'Although / Even though / Though' are correct."
+    },
+    {
+      "id": "cc-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: 'despite' or 'although'. The blank is followed by a noun phrase.",
+      "prompt": "___ his extensive experience, he failed the interview.",
+      "options": [
+        "despites",
+        "despiteing",
+        "Despite",
+        "In spite of"
+      ],
+      "answer": "Despite",
+      "explanation": "'His extensive experience' is a noun phrase → preposition required. 'Despite' or 'in spite of'."
+    },
+    {
+      "id": "cc-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct conjunctive adverb. Meaning: 'even so' (concessive).",
+      "prompt": "The data had several gaps; ___, the team proceeded with the analysis.",
+      "options": [
+        "nonetheless",
+        "however",
+        "nevertheles",
+        "nevertheless"
+      ],
+      "answer": "nevertheless",
+      "explanation": "After a semicolon, use a conjunctive adverb + comma. 'Nevertheless / nonetheless / however' all express 'even so'."
+    },
+    {
+      "id": "cc-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Convert to 'despite + -ing'. Fill in the gerund phrase.",
+      "prompt": "Although she was exhausted → Despite ___ exhausted, she continued.",
+      "options": [
+        "being",
+        "beinging",
+        "beings",
+        "did being"
+      ],
+      "answer": "being",
+      "explanation": "Despite + being + adjective: 'Despite being exhausted'."
+    },
+    {
+      "id": "cc-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct formal contrast conjunction for two parallel facts.",
+      "prompt": "___ urban areas have high employment rates, rural areas often struggle with job shortages.",
+      "options": [
+        "whereaing",
+        "While",
+        "Whereas",
+        "wherea"
+      ],
+      "answer": "Whereas",
+      "explanation": "'Whereas' or 'while' both express parallel contrast. 'Whereas' is preferred in formal academic writing."
+    },
+    {
+      "id": "cc-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Meskipun dia sakit, dia tetap masuk kerja.\"",
+      "prompt": "Meskipun dia sakit, dia tetap masuk kerja.",
+      "options": [
+        "Although she were sick, she still went to work.",
+        "work. to went still she sick, was she Although",
+        "Although she was sick, she still went to work.",
+        "Although she is sick, she still went to work."
+      ],
+      "answer": "Although she was sick, she still went to work.",
+      "explanation": "'Meskipun' = although/even though. Do NOT add 'but' after the comma."
+    },
+    {
+      "id": "cc-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Meskipun cuacanya buruk, mereka tetap bermain di luar.\"",
+      "prompt": "Meskipun cuacanya buruk, mereka tetap bermain di luar.",
+      "options": [
+        "Despite the bad weather, they still played outside. (incorrect)",
+        "Despite a bad weather, they still played outside.",
+        "Despite the bad weather, they still played outside.",
+        "Despite the bad weather, they still played outside, every day."
+      ],
+      "answer": "Despite the bad weather, they still played outside.",
+      "explanation": "'Meskipun cuacanya buruk' → 'Despite the bad weather' (noun phrase) OR 'Although the weather was bad' (clause)."
+    },
+    {
+      "id": "cc-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Sedangkan beberapa siswa lebih suka belajar sendiri, yang lain lebih baik dalam kelompok.\"",
+      "prompt": "Sedangkan beberapa siswa lebih suka belajar sendiri, yang lain lebih baik dalam kelompok.",
+      "options": [
+        "Whereas some students prefer studying alone, others learn better in groups, every day.",
+        "Whereas some students prefer studying alone, others learn better in groups. (incorrect)",
+        "Whereas some students prefer studying alone, others learn better in groups.",
+        "This is not correct English."
+      ],
+      "answer": "Whereas some students prefer studying alone, others learn better in groups.",
+      "explanation": "'Sedangkan' = whereas (formal parallel contrast). No double conjunction."
+    },
+    {
+      "id": "cc-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Penelitian ini memiliki keterbatasan. Namun, temuannya tetap signifikan.\"",
+      "prompt": "Penelitian ini memiliki keterbatasan. Namun, temuannya tetap signifikan.",
+      "options": [
+        "The research had limitations; however, the findings were still significant.",
+        "The research had limitations; however, the findings are still significant.",
+        "The research had is limitationing; however, the is findinging were still significant.",
+        "The research had limitations; however, a findings were still significant."
+      ],
+      "answer": "The research had limitations; however, the findings were still significant.",
+      "explanation": "'Namun' = however (conjunctive adverb). Use '; however,' or start a new sentence with 'However,'."
+    },
+    {
+      "id": "cc-mc-despite-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which is NOT a correct way to express contrast?",
+      "prompt": "___",
+      "options": [
+        "Although she was nervous, she spoke confidently.",
+        "Despite being nervous, she spoke confidently.",
+        "Despite that she was nervous, she spoke confidently.",
+        "In spite of her nervousness, she spoke confidently."
+      ],
+      "answer": "Despite that she was nervous, she spoke confidently.",
+      "explanation": "'Despite that + clause' is grammatically incorrect. Use 'despite + noun/-ing' or 'although + clause'."
+    },
+    {
+      "id": "cc-mc-however-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct structure for 'nevertheless'.",
+      "prompt": "The task was difficult. ___, the team completed it ahead of schedule.",
+      "options": [
+        "Nevertheless, the team...",
+        "Nevertheless the team...",
+        ", nevertheless the team...",
+        "; Nevertheless the team..."
+      ],
+      "answer": "Nevertheless, the team...",
+      "explanation": "After a period (new sentence), the conjunctive adverb 'Nevertheless' is followed by a comma. No semicolon needed — it's a new sentence."
+    }
+  ]
+}

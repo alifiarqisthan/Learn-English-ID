@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ct-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. The event is in the future.",
+      "prompt": "We will start the meeting ___ she arrives.",
+      "options": [
+        "when she will arrive",
+        "when she arrives",
+        "when she arrived",
+        "when she has arrived"
+      ],
+      "answer": "when she arrives",
+      "explanation": "Future time clause: use present simple, NOT 'will'. 'When she arrives' signals future time."
+    },
+    {
+      "id": "ct-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct time conjunction for simultaneous actions.",
+      "prompt": "She was listening to music ___ she was working.",
+      "options": [
+        "when",
+        "while",
+        "before",
+        "until"
+      ],
+      "answer": "while",
+      "explanation": "'While' connects two simultaneous ongoing actions. Both actions were happening at the same time."
+    },
+    {
+      "id": "ct-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence with the correct punctuation.",
+      "prompt": "___",
+      "options": [
+        "After she graduated she moved to Jakarta.",
+        "After she graduated, she moved to Jakarta.",
+        "She moved to Jakarta, after she graduated.",
+        "She moved after, she graduated to Jakarta."
+      ],
+      "answer": "After she graduated, she moved to Jakarta.",
+      "explanation": "Time clause first → comma after it. Time clause second → no comma."
+    },
+    {
+      "id": "ct-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with the 'will in time clause' error.",
+      "prompt": "___",
+      "options": [
+        "As soon as the results are ready, I will call you.",
+        "Once he finishes the report, he will send it.",
+        "Before she will leave, she needs to sign the form.",
+        "When you arrive, please check in at the front desk."
+      ],
+      "answer": "Before she will leave, she needs to sign the form.",
+      "explanation": "Time clauses with future meaning use present tense, not 'will'. 'Before she leaves' is correct."
+    },
+    {
+      "id": "ct-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct tense with 'by the time'.",
+      "prompt": "By the time the paramedics arrived, the patient ___ consciousness.",
+      "options": [
+        "lost",
+        "had lost",
+        "has lost",
+        "was losing"
+      ],
+      "answer": "had lost",
+      "explanation": "'By the time' + past simple → past perfect. The losing happened before the arrival."
+    },
+    {
+      "id": "ct-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct conjunction for a duration from past to present.",
+      "prompt": "I have studied English ___ I was in elementary school.",
+      "options": [
+        "when",
+        "while",
+        "since",
+        "until"
+      ],
+      "answer": "since",
+      "explanation": "'Since' marks the starting point of a period that continues to now. Use with present perfect."
+    },
+    {
+      "id": "ct-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct conjunction for 'immediately when'.",
+      "prompt": "___ the announcement was made, reporters flooded the press room.",
+      "options": [
+        "Until",
+        "As soon as",
+        "By the time",
+        "While"
+      ],
+      "answer": "As soon as",
+      "explanation": "'As soon as' = immediately when. The reporters reacted the moment the announcement was made."
+    },
+    {
+      "id": "ct-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'until'.",
+      "prompt": "___",
+      "options": [
+        "She studied until she finished the chapter.",
+        "She studied until she will finish the chapter.",
+        "She studies until she had finished the chapter.",
+        "She studied until finishing her the chapter."
+      ],
+      "answer": "She studied until she finished the chapter.",
+      "explanation": "'Until' + past simple for a completed past action: she studied up to the point when she finished."
+    },
+    {
+      "id": "ct-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'by the time' future structure.",
+      "prompt": "By the time you read this, I ___ already ___.",
+      "options": [
+        "will / leave",
+        "will have / left",
+        "have / left",
+        "had / left"
+      ],
+      "answer": "will have / left",
+      "explanation": "Future context: 'by the time' + present → future perfect (will have + past participle) in the main clause."
+    },
+    {
+      "id": "ct-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct verb form. The event is in the future.",
+      "prompt": "As soon as the package ___ (arrive), please sign for it.",
+      "options": [
+        "arrives",
+        "did arriv",
+        "arriv",
+        "arriving"
+      ],
+      "answer": "arrives",
+      "explanation": "Future time clause: present tense. 'As soon as it arrives' — not 'will arrive'."
+    },
+    {
+      "id": "ct-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'when' or 'while'.",
+      "prompt": "The power went out ___ she was presenting her findings.",
+      "options": [
+        "whileing",
+        "whiles",
+        "when",
+        "while"
+      ],
+      "answer": "while",
+      "hint": "Was she presenting an ongoing action when it happened?",
+      "explanation": "'While' (or 'when') can both work. 'While' emphasizes the ongoing presentation; 'when' can introduce an interrupting event."
+    },
+    {
+      "id": "ct-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the correct perfect tense form.",
+      "prompt": "By the time the supervisor checked, the team ___ already ___ (submit) the report.",
+      "options": [
+        "had already submitteded",
+        "had already submitted",
+        "hads already submitted",
+        "had submitted"
+      ],
+      "answer": "had already submitted",
+      "explanation": "By the time + past simple → past perfect. The submission was completed before the checking."
+    },
+    {
+      "id": "ct-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: the correct time conjunction. Meaning: 'from that point until now'.",
+      "prompt": "She has been the team leader ___ the company was founded.",
+      "options": [
+        "sinces",
+        "did since",
+        "sinceing",
+        "since"
+      ],
+      "answer": "since",
+      "explanation": "'Since' = from a past starting point to now. Use with present perfect."
+    },
+    {
+      "id": "ct-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the missing comma if needed. Write ',' or 'none'.",
+      "prompt": "She turned off her phone before the meeting started ___.",
+      "options": [
+        "nones",
+        "none",
+        ".",
+        "noneing"
+      ],
+      "answer": "none",
+      "explanation": "Time clause second → no comma. 'She turned off her phone before the meeting started.' is correct without a comma before 'before'."
+    },
+    {
+      "id": "ct-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Setelah rapat selesai, kami akan makan siang bersama.\"",
+      "prompt": "Setelah rapat selesai, kami akan makan siang bersama.",
+      "options": [
+        "After a meeting ends, we will have lunch together.",
+        "After the meeting ends, we will lunch together.",
+        "After the meeting ends, we will has lunch together.",
+        "After the meeting ends, we will have lunch together."
+      ],
+      "answer": "After the meeting ends, we will have lunch together.",
+      "explanation": "Future time clause: 'setelah selesai' → 'after it ends' (present tense, not 'will end')."
+    },
+    {
+      "id": "ct-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia mendengarkan podcast sementara dia berolahraga.\"",
+      "prompt": "Dia mendengarkan podcast sementara dia berolahraga.",
+      "options": [
+        "This is not correct English.",
+        "She listens to podcasts while she exercises.",
+        "She listens to podcasts while she exercises, every day.",
+        "She listens to podcasts while she exercises. (incorrect)"
+      ],
+      "answer": "She listens to podcasts while she exercises.",
+      "explanation": "'Sementara' = while. Two simultaneous actions → 'while'."
+    },
+    {
+      "id": "ct-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Pada saat kami tiba, film sudah mulai.\"",
+      "prompt": "Pada saat kami tiba, film sudah mulai.",
+      "options": [
+        "By a time we arrived, a film had already started.",
+        "By the time we arrived, the film had already started, every day.",
+        "By the time we arrived, the film had already started.",
+        "By the time we arrived, the film had already started. (incorrect)"
+      ],
+      "answer": "By the time we arrived, the film had already started.",
+      "explanation": "'Pada saat kami tiba' = by the time we arrived. Film was already started (past perfect) before our arrival."
+    },
+    {
+      "id": "ct-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Saya sudah tinggal di Jakarta sejak saya lulus kuliah.\"",
+      "prompt": "Saya sudah tinggal di Jakarta sejak saya lulus kuliah.",
+      "options": [
+        "I have lived in Jakarta since I graduated.",
+        "I have lived at Jakarta since I graduated.",
+        "graduated. I since Jakarta in lived have I",
+        "I has lived in Jakarta since I graduated."
+      ],
+      "answer": "I have lived in Jakarta since I graduated.",
+      "explanation": "'Sejak' = since. Duration from past to now → present perfect. 'Have lived' or 'have been living' are both correct."
+    },
+    {
+      "id": "ct-mc-when-while-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the more precise conjunction.",
+      "prompt": "The phone rang ___ I was in the shower.",
+      "options": [
+        "when",
+        "while",
+        "Both are correct.",
+        "as soon as"
+      ],
+      "answer": "Both are correct.",
+      "explanation": "Both 'when' and 'while' can be used here. 'While' emphasizes the ongoing state (showering). 'When' emphasizes the interruption (phone rings during that activity)."
+    },
+    {
+      "id": "ct-mc-once-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct conjunction. Meaning: 'after you have understood this'.",
+      "prompt": "___ you understand the pattern, the rest becomes easy.",
+      "options": [
+        "While",
+        "Until",
+        "Once",
+        "By the time"
+      ],
+      "answer": "Once",
+      "explanation": "'Once' = after completion of the first action. 'Once you understand' = after understanding is achieved."
+    }
+  ]
+}

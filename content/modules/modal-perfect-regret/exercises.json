@@ -1,0 +1,279 @@
+{
+  "exercises": [
+    {
+      "id": "mpr-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form for a regret (you didn't do it).",
+      "prompt": "I ___ harder for the exam — I only got a C.",
+      "options": ["should study", "should have studied", "had to study", "must have studied"],
+      "answer": "should have studied",
+      "explanation": "'Should have studied' = regret — the studying didn't happen. 'Must have studied' = deduction (the studying happened). 'Should study' = present/future advice."
+    },
+    {
+      "id": "mpr-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to express a missed opportunity.",
+      "prompt": "She ___ a doctor — she had the talent for it, but she chose a different path.",
+      "options": ["should have been", "could have been", "must have been", "would have been"],
+      "answer": "could have been",
+      "explanation": "'Could have been' = an unrealised past possibility — she had the ability but it didn't happen. 'Should have been' implies it was the right/obligatory path, which is too strong."
+    },
+    {
+      "id": "mpr-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form for criticism (the other person didn't do it).",
+      "prompt": "You ___ me it was cancelled! I waited for an hour.",
+      "options": ["should have told", "could tell", "must have told", "should tell"],
+      "answer": "should have told",
+      "explanation": "'Should have told' = criticism — the person did not tell me, which was wrong. The past action of telling didn't happen."
+    },
+    {
+      "id": "mpr-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'needn't have' or 'didn't have to' — the action happened but turned out unnecessary.",
+      "prompt": "I ___ prepared so many slides — they cut my presentation time in half.",
+      "options": ["didn't have to prepare", "needn't have prepared", "Both are correct.", "shouldn't prepare"],
+      "answer": "needn't have prepared",
+      "explanation": "'Needn't have prepared' = I did prepare, but it turned out unnecessary. 'Didn't have to prepare' implies I knew in advance and didn't prepare. The context says I prepared — so 'needn't have' is correct."
+    },
+    {
+      "id": "mpr-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Seharusnya kamu menghubungi dia lebih awal.' → English:",
+      "prompt": "You ___ her earlier.",
+      "options": [
+        "should contact",
+        "should have contacted",
+        "had to contact",
+        "must have contacted"
+      ],
+      "answer": "should have contacted",
+      "explanation": "'Seharusnya kamu [melakukan]' = you should have done (but didn't) → 'should have contacted'. Past form requires 'have + V3'."
+    },
+    {
+      "id": "mpr-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the softer reproach alternative to 'should have'.",
+      "prompt": "You ___ mentioned you'd be late — I could have adjusted my schedule.",
+      "options": ["should have", "might have", "Both express the same meaning.", "must have"],
+      "answer": "Both express the same meaning.",
+      "explanation": "'You should have mentioned' (stronger criticism) and 'You might have mentioned' (softer reproach) both express that the person failed to inform you. The choice depends on how strongly you want to criticise."
+    },
+    {
+      "id": "mpr-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative regret form (the action DID happen and was wrong).",
+      "prompt": "I ___ so much — now I can't sleep.",
+      "options": ["should have eaten", "shouldn't have eaten", "couldn't have eaten", "needn't eat"],
+      "answer": "shouldn't have eaten",
+      "explanation": "'Shouldn't have eaten' = I ate (the action happened) and it was a mistake. 'Should have eaten' = I didn't eat (the opposite meaning)."
+    },
+    {
+      "id": "mpr-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the modal perfect.",
+      "prompt": "She should have went to the doctor sooner.",
+      "options": [
+        "Should be 'gone' — V3 required after 'have'.",
+        "Should be 'should went' — 'have' is not needed.",
+        "Should be 'should go' — base form after modal.",
+        "No error — 'went' is the past of 'go'."
+      ],
+      "answer": "Should be 'gone' — V3 required after 'have'.",
+      "explanation": "Modal perfect: modal + have + V3. 'Go' → V3 is 'gone' (past participle), not 'went' (V2 simple past). Correct: 'She should have gone to the doctor.'"
+    },
+    {
+      "id": "mpr-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Kamu seharusnya tidak mengatakan itu.' → English:",
+      "prompt": "You ___ that.",
+      "options": [
+        "should have said",
+        "shouldn't have said",
+        "couldn't have said",
+        "must not have said"
+      ],
+      "answer": "shouldn't have said",
+      "explanation": "'Seharusnya tidak [melakukan]' = the action happened and was wrong → 'shouldn't have said'. The saying did happen — it was a mistake."
+    },
+    {
+      "id": "mpr-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence where 'should have' is used incorrectly.",
+      "prompt": "___",
+      "options": [
+        "I should have brought an umbrella — it's raining.",
+        "You should have left earlier to avoid traffic.",
+        "She should have eaten too much at the party.",
+        "They should have checked the schedule before leaving."
+      ],
+      "answer": "She should have eaten too much at the party.",
+      "explanation": "If she 'ate too much', that's a negative action → 'she **shouldn't** have eaten too much'. 'Should have eaten' implies she didn't eat enough."
+    },
+    {
+      "id": "mpr-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct sentence where 'needn't have' is used correctly.",
+      "prompt": "___",
+      "options": [
+        "I needn't have worried — the flight was fine.",
+        "I needn't have worried — so I didn't worry.",
+        "I didn't have to worry — but I did anyway.",
+        "Both A and C are correct."
+      ],
+      "answer": "Both A and C are correct.",
+      "explanation": "'I needn't have worried' = I did worry, but it was unnecessary. 'I didn't have to worry — but I did anyway' also correctly expresses that despite not having to worry, I did. Both are correct uses."
+    },
+    {
+      "id": "mpr-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the sentence about unnecessary past action.",
+      "prompt": "You didn't have to bought a gift — but thank you!",
+      "options": [
+        "Should be 'buy' — 'didn't have to' takes V1 (base form).",
+        "Should be 'needn't have bought' — action happened.",
+        "Both corrections are possible, depending on whether the gift was bought.",
+        "No error — 'bought' is correct here."
+      ],
+      "answer": "Both corrections are possible, depending on whether the gift was bought.",
+      "explanation": "If the gift was bought: 'You needn't have bought a gift.' If the gift wasn't bought (you're saying it wasn't necessary): 'You didn't have to buy a gift.' The correct form depends on whether the action happened."
+    },
+    {
+      "id": "mpr-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct question form expressing regret.",
+      "prompt": "___ I ___ applied for the scholarship?",
+      "options": ["Should / have", "Must / have", "Could / have", "Should / had"],
+      "answer": "Should / have",
+      "explanation": "Regret question: 'Should I have applied?' — asking whether applying was the right thing to do in retrospect. Modal perfect question: should + subject + have + V3."
+    },
+    {
+      "id": "mpr-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the form that expresses a reproach as a question.",
+      "prompt": "___ you ___ me about the change in venue?",
+      "options": [
+        "Should / told",
+        "Couldn't / have told",
+        "Shouldn't / told",
+        "Could / have told"
+      ],
+      "answer": "Could / have told",
+      "explanation": "'Could you have told me?' = mild reproach question — you had the opportunity but didn't. 'Should you have told me?' is also possible but less common as a rhetorical reproach."
+    },
+    {
+      "id": "mpr-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Harusnya saya tidak berkata begitu.' → English:",
+      "prompt": "___",
+      "options": [
+        "I should have said that.",
+        "I shouldn't have said that.",
+        "I must not have said that.",
+        "I couldn't have said that."
+      ],
+      "answer": "I shouldn't have said that.",
+      "explanation": "'Harusnya tidak' = the action happened and was wrong → 'shouldn't have said'. The saying did occur — it's a regret."
+    },
+    {
+      "id": "mpr-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'could have' for a missed opportunity?",
+      "prompt": "___",
+      "options": [
+        "You could have told me earlier — now it's too late.",
+        "You could have tell me earlier.",
+        "You could told me earlier.",
+        "You could have telling me earlier."
+      ],
+      "answer": "You could have told me earlier — now it's too late.",
+      "explanation": "'Could have told' = modal perfect, correct V3. All other options have verb form errors: 'tell' (V1 instead of V3), 'told' without 'have', 'telling' (wrong form)."
+    },
+    {
+      "id": "mpr-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Distinguish 'should have' from 'could have': which implies stronger criticism?",
+      "prompt": "___",
+      "options": [
+        "'You could have helped me' — stronger criticism",
+        "'You should have helped me' — stronger criticism",
+        "Both imply exactly the same strength of criticism",
+        "'You might have helped me' — stronger than both"
+      ],
+      "answer": "'You should have helped me' — stronger criticism",
+      "explanation": "'Should have' = it was the right/expected thing to do (stronger criticism of duty). 'Could have' = it was possible (weaker reproach — you had the option). 'Might have' is the softest reproach."
+    },
+    {
+      "id": "mpr-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for: 'The action happened, but was not necessary.'",
+      "prompt": "You ___ so much food — we already had plenty.",
+      "options": ["shouldn't have bought", "needn't have bought", "Both are correct.", "didn't have to buy"],
+      "answer": "Both are correct.",
+      "explanation": "Both 'needn't have bought' and 'shouldn't have bought' can express that buying was unnecessary. 'Needn't have bought' focuses on the action being unnecessary; 'shouldn't have bought' adds a note of criticism."
+    },
+    {
+      "id": "mpr-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that correctly uses 'should have' to express regret.",
+      "prompt": "___",
+      "options": [
+        "I should have backed up my files — now everything is lost.",
+        "I should have forgot to back up my files.",
+        "I should not backed up my files.",
+        "I should have back up my files."
+      ],
+      "answer": "I should have backed up my files — now everything is lost.",
+      "explanation": "'Should have backed up' = correct regret — I didn't back up, and now I regret it. V3 'backed up' is correct. Other options have verb form errors."
+    },
+    {
+      "id": "mpr-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses the correct contrast between 'needn't have' and 'didn't have to'?",
+      "prompt": "___",
+      "options": [
+        "'I needn't have brought food' = I didn't bring food because it wasn't necessary.",
+        "'I didn't have to bring food' = I brought food but it turned out unnecessary.",
+        "'I needn't have brought food' = I brought food but it turned out unnecessary.",
+        "Both 'needn't have' and 'didn't have to' always mean the same thing."
+      ],
+      "answer": "'I needn't have brought food' = I brought food but it turned out unnecessary.",
+      "explanation": "'Needn't have + V3' = the action DID happen but was unnecessary. 'Didn't have to + V1' = the action was not required, so it (typically) didn't happen."
+    },
+    {
+      "id": "mpr-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya menyesal tidak melamar beasiswa itu.' → English (regret):",
+      "prompt": "I ___ for that scholarship.",
+      "options": [
+        "should apply",
+        "should have applied",
+        "must have applied",
+        "could apply"
+      ],
+      "answer": "should have applied",
+      "explanation": "'Menyesal tidak' = I regret not doing it → 'should have applied'. The application didn't happen — 'should have + V3' expresses regret about a past action that didn't occur."
+    }
+  ]
+}

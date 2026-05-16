@@ -1,0 +1,239 @@
+{
+  "exercises": [
+    {
+      "id": "cond-master-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the zero conditional.",
+      "prompt": "___",
+      "options": [
+        "If it rains tomorrow, we will cancel.",
+        "If you heat ice, it melts.",
+        "If she had studied, she would have passed.",
+        "If I were you, I would apply."
+      ],
+      "answer": "If you heat ice, it melts.",
+      "explanation": "Zero conditional: present simple in both clauses — universal truth. The others are first, third, and second conditionals."
+    },
+    {
+      "id": "cond-master-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct first conditional.",
+      "prompt": "If it ___ tomorrow, we ___ the picnic.",
+      "options": ["rains / will cancel", "will rain / cancel", "rained / would cancel", "rains / cancel"],
+      "answer": "rains / will cancel",
+      "explanation": "First conditional: if + present simple, will + V1. Never 'will' in the if-clause."
+    },
+    {
+      "id": "cond-master-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the first conditional error.",
+      "prompt": "If she will pass, she will celebrate.",
+      "options": [
+        "Should be 'passes' — present simple in the if-clause.",
+        "Should be 'passed' — past tense needed.",
+        "Should be 'would celebrate' — conditional result.",
+        "No error."
+      ],
+      "answer": "Should be 'passes' — present simple in the if-clause.",
+      "explanation": "If-clause: never 'will'. Correct: 'If she passes, she will celebrate.'"
+    },
+    {
+      "id": "cond-master-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct second conditional.",
+      "prompt": "If I ___ more time, I ___ travel more.",
+      "options": ["have / will", "had / would", "would have / could", "had / will"],
+      "answer": "had / would",
+      "explanation": "Second conditional (unreal present): if + past simple, would + V1."
+    },
+    {
+      "id": "cond-master-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the second conditional error.",
+      "prompt": "If she would study harder, she would pass.",
+      "options": [
+        "Should be 'studied' — 'would' is not used in the if-clause.",
+        "Should be 'studies' — present simple in the if-clause.",
+        "Should be 'had studied' — past perfect needed.",
+        "No error."
+      ],
+      "answer": "Should be 'studied' — 'would' is not used in the if-clause.",
+      "explanation": "'Would' never goes in the if-clause. Correct: 'If she studied harder, she would pass.'"
+    },
+    {
+      "id": "cond-master-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct third conditional.",
+      "prompt": "If she ___ earlier, she ___ the meeting.",
+      "options": ["arrived / wouldn't miss", "had arrived / wouldn't have missed", "arrived / won't miss", "would arrive / wouldn't miss"],
+      "answer": "had arrived / wouldn't have missed",
+      "explanation": "Third conditional: if + past perfect, would have + V3. Unreal past situation."
+    },
+    {
+      "id": "cond-master-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the third conditional error.",
+      "prompt": "If I would have known, I would have helped.",
+      "options": [
+        "Should be 'If I had known' — past perfect, never 'would have' in the if-clause.",
+        "Should be 'If I knew' — past simple needed.",
+        "Should be 'I would help' — present result.",
+        "No error."
+      ],
+      "answer": "Should be 'If I had known' — past perfect, never 'would have' in the if-clause.",
+      "explanation": "'Would have' never goes in the if-clause. Third conditional: if + had + V3. 'If I had known, I would have helped.'"
+    },
+    {
+      "id": "cond-master-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mixed conditional: past condition → present result.",
+      "prompt": "If I ___ that job, I ___ in London now.",
+      "options": ["took / would be", "had taken / would be", "had taken / would have been", "took / will be"],
+      "answer": "had taken / would be",
+      "explanation": "Mixed Type A: past condition (had + V3) → present result (would + V1). I didn't take the job, so I'm not in London now."
+    },
+    {
+      "id": "cond-master-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mixed conditional: present condition → past result.",
+      "prompt": "If she ___ so shy, she ___ for the position last year.",
+      "options": ["wasn't / would apply", "weren't / would have applied", "hadn't been / would apply", "isn't / would have applied"],
+      "answer": "weren't / would have applied",
+      "explanation": "Mixed Type B: present condition (weren't = she's still shy) → past result (would have applied). She didn't apply because she's shy."
+    },
+    {
+      "id": "cond-master-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'unless' equivalent.",
+      "prompt": "If you don't submit by Friday, you'll lose marks. → ___ you submit by Friday, you'll lose marks.",
+      "options": ["Unless", "Even if", "Provided that", "Whether or not"],
+      "answer": "Unless",
+      "explanation": "'Unless' = 'if not'. 'Unless you submit' = 'if you don't submit'. The unless-clause uses affirmative verb."
+    },
+    {
+      "id": "cond-master-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'provided that' or 'as long as'.",
+      "prompt": "You may use the equipment, ___ you have completed the safety training.",
+      "options": ["unless", "even if", "provided that", "in case"],
+      "answer": "provided that",
+      "explanation": "'Provided that' = only if / on the condition that. Sets a requirement for permission."
+    },
+    {
+      "id": "cond-master-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct use of 'even if'.",
+      "prompt": "___ it rains, we will go ahead with the outdoor event.",
+      "options": ["Unless", "Even if", "Provided that", "As long as"],
+      "answer": "Even if",
+      "explanation": "'Even if' = despite the condition / regardless of whether. The event continues regardless of rain."
+    },
+    {
+      "id": "cond-master-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Distinguish 'in case' from 'if'.",
+      "prompt": "Take an umbrella ___ it rains. (precaution before knowing whether it will rain)",
+      "options": ["if", "in case", "even if", "unless"],
+      "answer": "in case",
+      "explanation": "'In case' = as a precaution. 'Take an umbrella in case it rains' = take it before you know. 'If it rains, take an umbrella' = wait until it rains."
+    },
+    {
+      "id": "cond-master-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Seandainya saya belajar lebih keras, saya sudah lulus.' → English:",
+      "prompt": "If I ___ harder, I ___ passed.",
+      "options": ["studied / would", "had studied / would have", "study / will have", "studied / would have"],
+      "answer": "had studied / would have",
+      "explanation": "'Seandainya saya sudah' = if I had (past hypothetical) → third conditional. 'If I had studied harder, I would have passed.'"
+    },
+    {
+      "id": "cond-master-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct inverted conditional (formal).",
+      "prompt": "___ I known about the issue, I would have addressed it sooner.",
+      "options": ["If", "Were", "Had", "Should"],
+      "answer": "Had",
+      "explanation": "Inverted third conditional (formal, no 'if'): Had + subject + V3. 'Had I known' = 'If I had known.' Subject-auxiliary inversion replaces 'if'."
+    },
+    {
+      "id": "cond-master-16",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which correctly shows the difference between second and third conditional?",
+      "prompt": "___",
+      "options": [
+        "Second: unreal past. Third: unreal present.",
+        "Second: unreal present/future. Third: unreal past.",
+        "Both describe unreal present situations.",
+        "Second uses 'would have'; third uses 'would'."
+      ],
+      "answer": "Second: unreal present/future. Third: unreal past.",
+      "explanation": "Second conditional: imagining a different present or future. Third conditional: imagining a different past."
+    },
+    {
+      "id": "cond-master-17",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'unless' error.",
+      "prompt": "Unless you don't bring your ID, you can't enter.",
+      "options": [
+        "Should be 'Unless you bring' — 'unless' already means 'if not'.",
+        "No error — 'unless you don't' is correct.",
+        "Should be 'If you don't bring' — 'unless' is wrong.",
+        "Should be 'Unless you brought' — past tense."
+      ],
+      "answer": "Should be 'Unless you bring' — 'unless' already means 'if not'.",
+      "explanation": "'Unless you don't bring' is a double negative. 'Unless' = 'if not'. Correct: 'Unless you bring your ID, you can't enter.'"
+    },
+    {
+      "id": "cond-master-18",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct zero conditional for a scientific fact.",
+      "prompt": "If you ___ plants too much, they ___.",
+      "options": ["water / will die", "water / die", "will water / die", "watered / would die"],
+      "answer": "water / die",
+      "explanation": "Zero conditional: present simple in both clauses. Overwatering always causes death = scientific/general truth."
+    },
+    {
+      "id": "cond-master-19",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'were' or 'was' in a second conditional (formal).",
+      "prompt": "If I ___ you, I would apply for the position.",
+      "options": ["was", "were", "Both are correct in formal English.", "am"],
+      "answer": "were",
+      "explanation": "Subjunctive 'were' is used for all persons in formal second conditionals: 'If I were you.' 'Was' is common in informal speech but 'were' is standard in writing."
+    },
+    {
+      "id": "cond-master-20",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses the correct conditional for an academic writing argument?",
+      "prompt": "___",
+      "options": [
+        "If governments will invest in education, outcomes would improve.",
+        "If governments invest in education, outcomes will improve.",
+        "If governments invested in education, outcomes will improve.",
+        "If governments would invest, outcomes improve."
+      ],
+      "answer": "If governments invest in education, outcomes will improve.",
+      "explanation": "First conditional for a real, argued-for policy outcome: if + present simple + will + V1. Common and correct in IELTS/TOEFL argument essays."
+    }
+  ]
+}

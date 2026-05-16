@@ -1,1 +1,174 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "pmr-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal passive.",
+      "prompt": "All applications ___ before the closing date.",
+      "options": ["must submitted", "must be submitted", "must been submitted", "must is submitted"],
+      "answer": "must be submitted",
+      "explanation": "Modal passive: modal + be + V3. 'Must be submitted' — base form 'be', not 'been' or 'is'."
+    },
+    {
+      "id": "pmr-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal perfect passive.",
+      "prompt": "The file is missing. It ___ accidentally deleted.",
+      "options": ["must be", "must been", "must have been", "should be"],
+      "answer": "must have been",
+      "explanation": "Past deduction → modal perfect passive: must + have + been + V3. 'Must have been deleted' = strong deduction about a past event."
+    },
+    {
+      "id": "pmr-test-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative modal passive.",
+      "prompt": "Confidential data ___ outside the organisation.",
+      "options": ["must not be shared", "must be not shared", "must not shared", "not must be shared"],
+      "answer": "must not be shared",
+      "explanation": "Negative modal passive: modal + not + be + V3. 'Not' goes after the modal, before 'be'. 'Must not be shared'."
+    },
+    {
+      "id": "pmr-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive reporting structure (Pattern 1).",
+      "prompt": "___ the new treatment is more effective than existing options.",
+      "options": ["It is claimed that", "It claimed that", "Is claimed that", "It is claiming that"],
+      "answer": "It is claimed that",
+      "explanation": "Pattern 1 passive reporting: It + is/was + V3 + that-clause. Dummy subject 'It' is required. 'It is claimed that…'"
+    },
+    {
+      "id": "pmr-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Pattern 2 passive reporting.",
+      "prompt": "The ruins ___ over 2,000 years old.",
+      "options": ["are believed to be", "are believed that are", "is believed to be", "are believing to be"],
+      "answer": "are believed to be",
+      "explanation": "Pattern 2: Subject + are/is + V3 + to-infinitive. 'The ruins' (plural) → 'are believed to be'."
+    },
+    {
+      "id": "pmr-test-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the passive reporting structure.",
+      "prompt": "___",
+      "options": [
+        "It is believed that climate change is accelerating.",
+        "The treatment is known to be effective.",
+        "He is said that he is the leading expert.",
+        "It was reported that several people were injured."
+      ],
+      "answer": "He is said that he is the leading expert.",
+      "explanation": "Pattern 2 does not use 'that'. Correct: 'He is said to be the leading expert.' Or Pattern 1: 'It is said that he is…'"
+    },
+    {
+      "id": "pmr-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative (someone else did the action).",
+      "prompt": "She ___ every six weeks at the salon.",
+      "options": ["cuts her hair", "has her hair cut", "had her hair cut", "is cutting her hair"],
+      "answer": "has her hair cut",
+      "explanation": "Present causative: have + object + V3. 'Has her hair cut' = she arranges for a hairdresser to cut it. Regular service → present simple."
+    },
+    {
+      "id": "pmr-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct named-agent causative.",
+      "prompt": "Can you ___ the documents before the meeting?",
+      "options": ["have your assistant prepared", "have your assistant prepare", "have prepared your assistant", "get your assistant prepared"],
+      "answer": "have your assistant prepare",
+      "explanation": "Named-agent causative: have + person + base verb. 'Have your assistant prepare' — base form V1 after a named person, not V3."
+    },
+    {
+      "id": "pmr-test-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the causative error.",
+      "prompt": "___",
+      "options": [
+        "She had her teeth checked by the dentist.",
+        "I need to have my passport renewed before the trip.",
+        "He had the mechanic repaired his car.",
+        "They got their house repainted last summer."
+      ],
+      "answer": "He had the mechanic repaired his car.",
+      "explanation": "Named agent (the mechanic) → base verb, not V3. Correct: 'He had the mechanic repair his car.' Object + V3 only applies when the agent is not named."
+    },
+    {
+      "id": "pmr-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future causative.",
+      "prompt": "She ___ before the conference next month.",
+      "options": ["will cut her hair", "will have her hair cut", "will have cut her hair", "is going to cut her hair"],
+      "answer": "will have her hair cut",
+      "explanation": "Future causative: will + have + object + V3. 'Will have her hair cut' = she will arrange for a hairdresser to cut it."
+    },
+    {
+      "id": "pmr-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the perfect passive infinitive for a past event in Pattern 2.",
+      "prompt": "The company ___ millions last year.",
+      "options": ["is reported to lose", "is reported to have lost", "was reported to lose", "is reported having lost"],
+      "answer": "is reported to have lost",
+      "explanation": "Past completed action → perfect passive infinitive: is reported + to have + V3. 'To lose' would imply a current or future action."
+    },
+    {
+      "id": "pmr-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct academic modal passive for hedging.",
+      "prompt": "This trend ___ attributed to changes in government policy.",
+      "options": ["must be", "can be", "would be", "may be"],
+      "answer": "may be",
+      "explanation": "'May be attributed to' = hedged academic claim. 'May' signals cautious possibility — appropriate for academic writing."
+    },
+    {
+      "id": "pmr-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct get-passive (informal).",
+      "prompt": "She ___ after just six months in the new role.",
+      "options": ["was promoted", "got promoted", "Both are correct.", "had promoted"],
+      "answer": "Both are correct.",
+      "explanation": "'Was promoted' (formal passive) and 'got promoted' (informal get-passive) are both grammatically correct. 'Got promoted' is more casual/spoken."
+    },
+    {
+      "id": "pmr-test-14",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the modal passive negation.",
+      "prompt": "Patients must be not told about their diagnosis without consent.",
+      "options": [
+        "Should be 'must not be told' — 'not' comes after the modal.",
+        "Should be 'must been not told' — perfect form needed.",
+        "Should be 'must be told not' — 'not' goes at the end.",
+        "No error — the sentence is correct."
+      ],
+      "answer": "Should be 'must not be told' — 'not' comes after the modal.",
+      "explanation": "Negative modal passive: modal + not + be + V3. 'Must not be told' — not 'must be not told'."
+    },
+    {
+      "id": "pmr-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly converts Pattern 1 to Pattern 2?",
+      "prompt": "It is estimated that the population will reach 10 billion by 2050. → Pattern 2:",
+      "options": [
+        "The population is estimated to reach 10 billion by 2050.",
+        "The population is estimated reaching 10 billion by 2050.",
+        "The population estimated to reach 10 billion by 2050.",
+        "The population is estimated that reaches 10 billion by 2050."
+      ],
+      "answer": "The population is estimated to reach 10 billion by 2050.",
+      "explanation": "Pattern 2: Subject + is + V3 + to-infinitive. 'Is estimated to reach' — future action → simple infinitive (not perfect)."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "exercises": [
+    {
+      "id": "iav-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "She wants ___ medicine at a top university.",
+      "options": ["study", "studying", "to study", "studied"],
+      "answer": "to study",
+      "explanation": "'Want' is an infinitive-only verb. It must be followed by to + base verb: wants to study."
+    },
+    {
+      "id": "iav-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "He managed ___ the project on time despite the difficulties.",
+      "options": ["finish", "finishing", "to finish", "finished"],
+      "answer": "to finish",
+      "explanation": "'Manage' takes a to-infinitive: managed to finish. It means he succeeded in doing it."
+    },
+    {
+      "id": "iav-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "The company intends ___ its operations to three new cities next year.",
+      "options": ["expand", "expanding", "to expand", "expanded"],
+      "answer": "to expand",
+      "explanation": "'Intend' takes a to-infinitive: intends to expand."
+    },
+    {
+      "id": "iav-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "The teacher encouraged her students ___ in the national essay competition.",
+      "options": ["participate", "participating", "to participate", "participated"],
+      "answer": "to participate",
+      "explanation": "'Encourage + object' takes a to-infinitive: encouraged her students to participate."
+    },
+    {
+      "id": "iav-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "She seems ___ a lot about ancient history.",
+      "options": ["know", "knowing", "to know", "known"],
+      "answer": "to know",
+      "explanation": "'Seem' takes a to-infinitive: seems to know. 'Knowing' would be incorrect here."
+    },
+    {
+      "id": "iav-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "We can't afford ___ mistakes at this stage of the project.",
+      "options": ["make", "making", "to make", "made"],
+      "answer": "to make",
+      "explanation": "'Afford' is an infinitive-only verb: can't afford to make. 'Making' is a common error."
+    },
+    {
+      "id": "iav-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "He offered ___ us a lift to the airport.",
+      "options": ["give", "giving", "to give", "given"],
+      "answer": "to give",
+      "explanation": "'Offer' takes a to-infinitive: offered to give. This expresses a future-oriented action."
+    },
+    {
+      "id": "iav-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "She refused ___ the false report.",
+      "options": ["sign", "signing", "to sign", "signed"],
+      "answer": "to sign",
+      "explanation": "'Refuse' is an infinitive-only verb: refused to sign. 'Signing' is incorrect."
+    },
+    {
+      "id": "iav-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "The coach didn't allow the players ___ the field before the game ended.",
+      "options": ["leave", "leaving", "to leave", "left"],
+      "answer": "to leave",
+      "explanation": "'Allow + object' requires a to-infinitive: didn't allow the players to leave."
+    },
+    {
+      "id": "iav-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is INCORRECT?",
+      "options": [
+        "She decided to quit her job.",
+        "He failed to submit the assignment on time.",
+        "They hoped passing the national exam.",
+        "We plan to visit our relatives during the holiday."
+      ],
+      "answer": "They hoped passing the national exam.",
+      "explanation": "'Hope' is an infinitive-only verb. The correct form is: They hoped to pass the national exam."
+    },
+    {
+      "id": "iav-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "The boss made all the employees ___ overtime last weekend.",
+      "options": ["work", "working", "to work", "worked"],
+      "answer": "work",
+      "explanation": "'Make + object' takes a bare infinitive (no 'to'): made them work. Using 'to work' is a common error."
+    },
+    {
+      "id": "iav-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "He tends ___ late when he has a heavy workload.",
+      "options": ["work", "working", "to work", "worked"],
+      "answer": "to work",
+      "explanation": "'Tend' takes a to-infinitive: tends to work. It describes a habitual pattern."
+    },
+    {
+      "id": "iav-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct verb form to complete the sentence.",
+      "prompt": "Her parents let her ___ the overnight trip with her classmates.",
+      "options": ["join", "joining", "to join", "joined"],
+      "answer": "join",
+      "explanation": "'Let + object' takes a bare infinitive (no 'to'): let her join. Using 'to join' is incorrect."
+    },
+    {
+      "id": "iav-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that is CORRECT.",
+      "prompt": "Which sentence uses the infinitive pattern correctly?",
+      "options": [
+        "She wants to going abroad for her studies.",
+        "He told her waiting outside the office.",
+        "They asked the presenter to speak more slowly.",
+        "The director made the actors to rehearse the scene again."
+      ],
+      "answer": "They asked the presenter to speak more slowly.",
+      "explanation": "'Ask + object + to-infinitive' is the correct pattern. The others contain errors: 'to going' (should be 'to go'), 'told her waiting' (should be 'to wait'), 'made them to rehearse' (bare infinitive: 'made them rehearse')."
+    },
+    {
+      "id": "iav-mc-que-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Do you expect ___ the results before the end of the week?",
+      "options": ["receive", "receiving", "to receive", "received"],
+      "answer": "to receive",
+      "explanation": "'Expect' is an infinitive-only verb: expect to receive. 'Receiving' would be incorrect."
+    },
+    {
+      "id": "iav-mc-que-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Did she agree ___ the new terms of the contract?",
+      "options": ["accept", "accepting", "to accept", "accepted"],
+      "answer": "to accept",
+      "explanation": "'Agree' takes a to-infinitive: agreed to accept. It is a forward-looking action."
+    },
+    {
+      "id": "iav-mc-que-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Would you like me ___ you with your presentation?",
+      "options": ["help", "helping", "to help", "helped"],
+      "answer": "to help",
+      "explanation": "'Would like + object' takes a to-infinitive: would like me to help. This is an offer using an object + infinitive construction."
+    },
+    {
+      "id": "iav-mc-que-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Did he pretend ___ asleep when his mother came in?",
+      "options": ["be", "being", "to be", "been"],
+      "answer": "to be",
+      "explanation": "'Pretend' takes a to-infinitive: pretended to be. It describes a feigned state."
+    },
+    {
+      "id": "iav-mc-que-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Can the university force international students ___ in the dormitory?",
+      "options": ["live", "living", "to live", "lived"],
+      "answer": "to live",
+      "explanation": "'Force + object' takes a to-infinitive: force students to live. This is the standard object + infinitive pattern."
+    },
+    {
+      "id": "iav-mc-que-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb form to complete the question.",
+      "prompt": "Did she promise ___ you back before noon?",
+      "options": ["call", "calling", "to call", "called"],
+      "answer": "to call",
+      "explanation": "'Promise' takes a to-infinitive: promised to call. It expresses a future commitment."
+    }
+  ]
+}

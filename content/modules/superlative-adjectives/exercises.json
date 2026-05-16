@@ -1,1 +1,229 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "sa-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative adjective to complete the sentence.",
+      "prompt": "Mount Everest is ___ mountain in the world.",
+      "options": ["the most high", "the highest", "the most highest", "highest"],
+      "answer": "the highest",
+      "explanation": "High is one syllable → the + -est. 'The most highest' is a double superlative error. 'Highest' without 'the' is incorrect."
+    },
+    {
+      "id": "sa-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative adjective to complete the sentence.",
+      "prompt": "That was ___ film I have ever seen.",
+      "options": ["the most good", "the better", "the best", "the most better"],
+      "answer": "the best",
+      "explanation": "Good → best (irregular superlative). This uses the superlative + present perfect pattern."
+    },
+    {
+      "id": "sa-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative adjective to complete the sentence.",
+      "prompt": "This is ___ project our team has ever completed.",
+      "options": ["the most ambitious", "the most ambitionest", "the ambitiousest", "most ambitious"],
+      "answer": "the most ambitious",
+      "explanation": "Ambitious has four syllables → the most + adjective. Always include 'the' before the superlative."
+    },
+    {
+      "id": "sa-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative adjective to complete the sentence.",
+      "prompt": "Jakarta is ___ city in Indonesia.",
+      "options": ["the most large", "the larger", "largest", "the largest"],
+      "answer": "the largest",
+      "explanation": "Large is one syllable (ends in -e) → the + -st. Always include 'the.'"
+    },
+    {
+      "id": "sa-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative adjective to complete the sentence.",
+      "prompt": "He is ___ student the professor has ever taught.",
+      "options": ["the most bright", "the more bright", "the brightest", "the most brightest"],
+      "answer": "the brightest",
+      "explanation": "Bright is one syllable → the + -est. 'The most brightest' is a double superlative error."
+    },
+    {
+      "id": "sa-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative adjective to complete the sentence.",
+      "prompt": "Borobudur is one of ___ temples in Southeast Asia.",
+      "options": ["the most beautiful", "the most beautiful temple", "the beautifullest", "most beautiful"],
+      "answer": "the most beautiful",
+      "explanation": "Beautiful has four syllables → the most + adjective. The noun 'temples' follows in the sentence. Always include 'the.'"
+    },
+    {
+      "id": "sa-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative adjective to complete the sentence.",
+      "prompt": "That was ___ decision he has ever made.",
+      "options": ["the most bad", "the worst", "the badder", "the most worse"],
+      "answer": "the worst",
+      "explanation": "Bad → worst (irregular superlative). 'The most bad' and 'the most worse' are errors."
+    },
+    {
+      "id": "sa-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "She is the most dedicated employee in the company.",
+        "He is most intelligent student I have ever met.",
+        "That was the worst meal I have ever eaten.",
+        "This is one of the most important decisions we will make."
+      ],
+      "answer": "He is most intelligent student I have ever met.",
+      "explanation": "Superlatives always need 'the' — 'the most intelligent student.' Missing 'the' is the error."
+    },
+    {
+      "id": "sa-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "Bali is one of the most popular tourist destinations in the world.",
+        "She is one of the best researcher in the department.",
+        "He is one of the most experienced doctors at the hospital.",
+        "This is one of the hardest courses offered by the university."
+      ],
+      "answer": "She is one of the best researcher in the department.",
+      "explanation": "'One of the + superlative' must be followed by a plural noun — 'researchers,' not 'researcher.'"
+    },
+    {
+      "id": "sa-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "That is the most difficult question I have ever answered.",
+        "She is the most happy person I know.",
+        "This is the fastest car in the showroom.",
+        "He is the best candidate for the job."
+      ],
+      "answer": "She is the most happy person I know.",
+      "explanation": "Happy ends in -y → change y to i + -est → the happiest. 'The most happy' is incorrect."
+    },
+    {
+      "id": "sa-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "Bali is the most beautiful island I have ever visited.",
+        "This is the most expensive hotel in the city.",
+        "Bali is the most beautiful island I never visited.",
+        "He is the most talented musician she has ever heard."
+      ],
+      "answer": "Bali is the most beautiful island I never visited.",
+      "explanation": "In the superlative + present perfect pattern, use 'ever' not 'never': 'the most beautiful island I have ever visited.'"
+    },
+    {
+      "id": "sa-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct superlative form to complete the sentence.",
+      "prompt": "The ___ exam I have ever taken was the IELTS writing section.",
+      "options": ["most hardest", "harder", "hardest", "most harder"],
+      "answer": "hardest",
+      "explanation": "Hard is one syllable → the + -est. 'Most hardest' is a double superlative error."
+    },
+    {
+      "id": "sa-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct superlative form to complete the sentence.",
+      "prompt": "Of all the students, she works ___.",
+      "options": ["the most hard", "the harder", "the hardest", "the most hardest"],
+      "answer": "the hardest",
+      "explanation": "Hard is a short one-syllable adjective → the hardest. 'The most hard' is incorrect. Always include 'the.'"
+    },
+    {
+      "id": "sa-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "He is one of the most productive employees in the office.",
+        "She is one of the best scientists in the country.",
+        "Komodo dragons are one of the most endangered animal in the world.",
+        "This is one of the most creative solutions I have seen."
+      ],
+      "answer": "Komodo dragons are one of the most endangered animal in the world.",
+      "explanation": "'One of the + superlative' must be followed by a plural noun — 'animals,' not 'animal.'"
+    },
+    {
+      "id": "sa-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct superlative form to complete the question.",
+      "prompt": "What is ___ river in Indonesia?",
+      "options": ["the longest", "the most long", "the most longest", "longest"],
+      "answer": "the longest",
+      "explanation": "Long is one syllable → the + -est. Always include 'the' in superlative questions."
+    },
+    {
+      "id": "sa-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct superlative form to complete the question.",
+      "prompt": "Is this ___ course the department has ever offered?",
+      "options": ["a most popular", "most popular", "the most popular", "the popularest"],
+      "answer": "the most popular",
+      "explanation": "Popular has three syllables → the most + adjective. Always include 'the.'"
+    },
+    {
+      "id": "sa-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct superlative form to complete the question.",
+      "prompt": "Who is ___ player on the national team?",
+      "options": ["the best", "the most good", "the better", "best"],
+      "answer": "the best",
+      "explanation": "Good → best (irregular superlative). Always include 'the.'"
+    },
+    {
+      "id": "sa-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct superlative form to complete the question.",
+      "prompt": "Which of these three options is ___?",
+      "options": ["the most practical", "most practical", "the most practicallest", "the practicallest"],
+      "answer": "the most practical",
+      "explanation": "Practical has three syllables → the most + adjective. Always include 'the.'"
+    },
+    {
+      "id": "sa-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct superlative form to complete the question.",
+      "prompt": "What was ___ challenge you faced during the project?",
+      "options": ["the most bigger", "the biggest", "the most big", "biggest"],
+      "answer": "the biggest",
+      "explanation": "Big is one syllable, consonant-vowel-consonant → double g + -est → the biggest. Always include 'the.'"
+    },
+    {
+      "id": "sa-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct superlative structure.",
+      "prompt": "She is one of the ___ in the country.",
+      "options": ["best scientist", "best scientists", "most best scientists", "better scientists"],
+      "answer": "best scientists",
+      "explanation": "'One of the + superlative + plural noun' — the noun must be plural: 'scientists,' not 'scientist.'"
+    }
+  ]
+}

@@ -88,16 +88,15 @@ export function GroupRoadmap({
           : "current";
 
   return (
-    <div className="relative">
-      <ol className="flex flex-col gap-4 md:flex-row md:flex-wrap md:gap-x-2 md:gap-y-8">
+    <div className="space-y-8">
+      {/* Row 1: module steps */}
+      <ol className="flex flex-col gap-4 md:flex-row md:gap-x-2">
         {modules.map((mod, i) => (
           <li
             key={mod.slug}
-            className="relative flex md:flex-1 md:min-w-[200px] md:flex-col md:items-center"
+            className="relative flex md:flex-1 md:min-w-[160px] md:flex-col md:items-center"
           >
-            <Connector
-              passed={moduleStatuses[i] === "passed"}
-            />
+            <Connector passed={moduleStatuses[i] === "passed"} />
             <ModuleNode
               mod={mod}
               status={moduleStatuses[i] ?? "locked"}
@@ -106,19 +105,18 @@ export function GroupRoadmap({
             />
           </li>
         ))}
+      </ol>
 
-        {/* Group Summary card */}
-        <li className="relative flex md:flex-1 md:min-w-[200px] md:flex-col md:items-center">
-          <Connector passed={allMembersPassed && context.groupUnlocked} />
+      {/* Row 2: summary + test always on their own row */}
+      <div className="flex flex-col gap-4 md:flex-row md:gap-x-2">
+        <div className="relative flex md:flex-1 md:min-w-[200px] md:flex-col md:items-center">
           <SummaryNode
             group={group}
             unlocked={context.groupUnlocked}
             allMembersPassed={allMembersPassed}
           />
-        </li>
-
-        {/* Group Test card */}
-        <li className="relative flex md:flex-1 md:min-w-[200px] md:flex-col md:items-center">
+        </div>
+        <div className="relative flex md:flex-1 md:min-w-[200px] md:flex-col md:items-center">
           <TestNode
             group={group}
             status={testStatus}
@@ -126,8 +124,8 @@ export function GroupRoadmap({
             hasTest={context.hasTest}
             isLast
           />
-        </li>
-      </ol>
+        </div>
+      </div>
     </div>
   );
 }

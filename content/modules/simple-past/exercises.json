@@ -6,7 +6,12 @@
       "form": "positive",
       "instruction": "Choose the verb form that fits the past time marker.",
       "prompt": "Yesterday I ___ to the library to study for the exam.",
-      "options": ["go", "goes", "went", "gone"],
+      "options": [
+        "go",
+        "goes",
+        "went",
+        "gone"
+      ],
       "answer": "went",
       "explanation": "'Yesterday' signals simple past. 'go' is irregular: go → went."
     },
@@ -16,7 +21,12 @@
       "form": "positive",
       "instruction": "Pick the correct simple past form.",
       "prompt": "When I was a child, my family ___ in Surabaya.",
-      "options": ["lives", "lived", "live", "living"],
+      "options": [
+        "lives",
+        "lived",
+        "live",
+        "living"
+      ],
       "answer": "lived",
       "explanation": "Regular verb: live → lived. The clause 'When I was a child' establishes a past time frame."
     },
@@ -26,7 +36,12 @@
       "form": "positive",
       "instruction": "Choose the correct past form. Watch for irregular verbs.",
       "prompt": "She ___ a beautiful song at the wedding last weekend.",
-      "options": ["sing", "sang", "sung", "singed"],
+      "options": [
+        "sing",
+        "sang",
+        "sung",
+        "singed"
+      ],
       "answer": "sang",
       "hint": "Sing is irregular: sing → sang → sung. The simple past is 'sang'.",
       "explanation": "Irregular verb pattern: sing / sang / sung. Past simple uses 'sang'."
@@ -37,7 +52,12 @@
       "form": "negative",
       "instruction": "Pick the correct negative form.",
       "prompt": "We ___ the email because the internet was down.",
-      "options": ["didn't received", "didn't receive", "not received", "wasn't received"],
+      "options": [
+        "didn't received",
+        "didn't receive",
+        "not received",
+        "wasn't received"
+      ],
       "answer": "didn't receive",
       "explanation": "Negative simple past = did not / didn't + base verb. After 'didn't', the verb stays in base form."
     },
@@ -47,7 +67,12 @@
       "form": "negative",
       "instruction": "Choose the correct negative simple past.",
       "prompt": "He ___ at home yesterday — he was at the office.",
-      "options": ["wasn't", "weren't", "didn't was", "isn't"],
+      "options": [
+        "wasn't",
+        "weren't",
+        "didn't was",
+        "isn't"
+      ],
       "answer": "wasn't",
       "hint": "For 'to be', use was/were directly — no auxiliary 'did'.",
       "explanation": "The verb 'to be' takes was/were directly in past. Negative is just was not / wasn't."
@@ -58,7 +83,12 @@
       "form": "question",
       "instruction": "Pick the correct question form.",
       "prompt": "___ you ___ the homework last night?",
-      "options": ["Did / finished", "Did / finish", "Was / finish", "Have / finished"],
+      "options": [
+        "Did / finished",
+        "Did / finish",
+        "Was / finish",
+        "Have / finished"
+      ],
       "answer": "Did / finish",
       "explanation": "Question form: Did + subject + base verb. The verb returns to its base after 'did'."
     },
@@ -68,7 +98,12 @@
       "form": "question",
       "instruction": "Choose the correctly formed past question.",
       "prompt": "Where ___ she ___ for her last vacation?",
-      "options": ["did / went", "did / go", "was / go", "did / gone"],
+      "options": [
+        "did / went",
+        "did / go",
+        "was / go",
+        "did / gone"
+      ],
       "answer": "did / go",
       "explanation": "Wh-question + did + subject + base verb. Common mistake: keeping the past form after 'did'."
     },
@@ -78,119 +113,167 @@
       "form": "question",
       "instruction": "Pick the correct question form for the verb 'to be'.",
       "prompt": "___ they at the meeting yesterday?",
-      "options": ["Did", "Were", "Was", "Have"],
+      "options": [
+        "Did",
+        "Were",
+        "Was",
+        "Have"
+      ],
       "answer": "Were",
       "hint": "'to be' (was/were) makes questions by inverting subject — no 'did' needed.",
       "explanation": "Was/were invert directly: 'They were' → 'Were they?'. No auxiliary 'did' for to-be."
     },
     {
       "id": "sp-fb-pos-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the blank with the simple past form of the verb in parentheses.",
+      "instruction": "Choose the correct answer for: the blank with the simple past form of the verb in parentheses.",
       "prompt": "Last night, I ___ (write) an essay for my English class.",
-      "acceptedAnswers": ["wrote"],
+      "options": [
+        "wroteing",
+        "did wrote",
+        "wrote",
+        "wrotes"
+      ],
+      "answer": "wrote",
       "explanation": "Irregular verb: write → wrote."
     },
     {
       "id": "sp-fb-pos-2",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the simple past form.",
+      "instruction": "Choose the correct answer for: the simple past form.",
       "prompt": "The kids ___ (eat) all the cake before the party started.",
-      "acceptedAnswers": ["ate"],
+      "options": [
+        "ate",
+        "ateing",
+        "did ate",
+        "ates"
+      ],
+      "answer": "ate",
       "explanation": "Irregular: eat → ate."
     },
     {
       "id": "sp-fb-pos-3",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in with the simple past.",
+      "instruction": "Choose the correct answer for: with the simple past.",
       "prompt": "She ___ (study) French for two years in college.",
-      "acceptedAnswers": ["studied"],
+      "options": [
+        "studieding",
+        "did studied",
+        "studieds",
+        "studied"
+      ],
+      "answer": "studied",
       "hint": "Verbs ending in consonant + y: change y to i and add -ed.",
       "explanation": "Regular verb with spelling change: study → studied."
     },
     {
       "id": "sp-fb-neg-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "negative",
       "instruction": "Make the verb negative in simple past. Both 'did not' and 'didn't' are accepted.",
       "prompt": "She ___ (not / eat) breakfast this morning because she was late.",
-      "acceptedAnswers": ["did not eat", "didn't eat"],
+      "options": [
+        "dids not eat",
+        "does not eat",
+        "didn't eat",
+        "did not eated"
+      ],
+      "answer": "did not eat",
       "explanation": "Negative simple past: did not / didn't + base verb."
     },
     {
       "id": "sp-fb-neg-2",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "negative",
       "instruction": "Use the negative form of 'to be' in the past.",
       "prompt": "They ___ (not / be) ready when the bus arrived.",
-      "acceptedAnswers": ["were not", "weren't"],
+      "options": [
+        "were noted",
+        "was not",
+        "weres not",
+        "weren't"
+      ],
+      "answer": "were not",
       "hint": "'to be' (was/were) doesn't need 'did' — just add 'not'.",
       "explanation": "'to be' negates directly: were not / weren't. Don't use 'did' with was/were."
     },
     {
       "id": "sp-fb-q-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "question",
       "instruction": "Build the question.",
       "prompt": "What time ___ you ___ (wake) up this morning?",
-      "acceptedAnswers": ["did / wake", "did wake"],
+      "options": [
+        "dids / wake",
+        "did / wakeed",
+        "did wake",
+        "did / wake"
+      ],
+      "answer": "did / wake",
       "hint": "Wh-question structure: Wh-word + did + subject + base verb.",
       "explanation": "After 'did', the verb returns to base form."
     },
     {
       "id": "sp-tr-pos-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate the Indonesian sentence into English. Use simple past tense.",
+      "instruction": "Translate into English: \"Kemarin saya membaca buku tentang sejarah.\"",
       "prompt": "Kemarin saya membaca buku tentang sejarah.",
-      "modelAnswer": "Yesterday I read a book about history.",
-      "alternativeAnswers": ["I read a book about history yesterday."],
-      "keyTokens": ["yesterday", "read", "book", "history"],
-      "hint": "'read' is irregular — same spelling, but pronounced /red/ in past tense.",
+      "options": [
+        "Yesterday I read book about history.",
+        "history. about book a read I Yesterday",
+        "Yesterday I read a book about history.",
+        "Yesterday I read an book about history."
+      ],
+      "answer": "Yesterday I read a book about history.",
       "explanation": "Time marker 'kemarin' = 'yesterday'. The verb 'read' is irregular and unchanged in spelling."
     },
     {
       "id": "sp-tr-pos-2",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate using simple past.",
+      "instruction": "Translate into English: \"Tahun lalu kami pergi ke Bali untuk liburan.\"",
       "prompt": "Tahun lalu kami pergi ke Bali untuk liburan.",
-      "modelAnswer": "Last year we went to Bali for a vacation.",
-      "alternativeAnswers": [
-        "We went to Bali for a vacation last year.",
-        "Last year we went to Bali for vacation.",
-        "We went to Bali for vacation last year."
+      "options": [
+        "vacation. a for Bali to went we year Last",
+        "Last year we went to Bali for a vacation.",
+        "Last year we went to Bali for an vacation.",
+        "Last year we went to Bali for vacation."
       ],
-      "keyTokens": ["last year", "went", "bali"],
+      "answer": "Last year we went to Bali for a vacation.",
       "explanation": "'pergi' → 'went' (irregular). 'tahun lalu' = 'last year'."
     },
     {
       "id": "sp-tr-neg-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "negative",
-      "instruction": "Translate using a negative simple past sentence.",
+      "instruction": "Translate into English: \"Dia tidak pergi ke sekolah minggu lalu karena sakit.\"",
       "prompt": "Dia tidak pergi ke sekolah minggu lalu karena sakit.",
-      "modelAnswer": "He did not go to school last week because he was sick.",
-      "alternativeAnswers": [
-        "She didn't go to school last week because she was sick.",
-        "He didn't go to school last week because he was sick.",
-        "She did not go to school last week because she was sick."
+      "options": [
+        "He did not go to school last week because he is sick.",
+        "He did not go to school last week because he was sick.",
+        "sick. was he because week last school to go not did He",
+        "He did not go to school last week because he were sick."
       ],
-      "keyTokens": ["did not go", "school", "last week", "sick"],
+      "answer": "He did not go to school last week because he was sick.",
       "explanation": "Negative: did not / didn't + base verb. 'sakit' = 'was sick'."
     },
     {
       "id": "sp-tr-q-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "question",
-      "instruction": "Translate as a yes/no question in simple past.",
+      "instruction": "Translate into English: \"Apakah kamu menonton film itu tadi malam?\"",
       "prompt": "Apakah kamu menonton film itu tadi malam?",
-      "modelAnswer": "Did you watch that movie last night?",
-      "alternativeAnswers": ["Did you watch the movie last night?"],
-      "keyTokens": ["did you watch", "movie", "last night"],
+      "options": [
+        "you Did watch that movie last night?",
+        "Did you watch that movie last night?",
+        "This is not correct English.",
+        "Did you watch that movie last night? (incorrect)"
+      ],
+      "answer": "Did you watch that movie last night?",
       "explanation": "Yes/no question: Did + subject + base verb."
     },
     {
@@ -199,33 +282,44 @@
       "form": "positive",
       "instruction": "Choose the correct past form of 'to be'.",
       "prompt": "We ___ at the cinema when the storm started.",
-      "options": ["was", "were", "did", "is"],
+      "options": [
+        "was",
+        "were",
+        "did",
+        "is"
+      ],
       "answer": "were",
       "hint": "'We' takes 'were'. Only 'I / he / she / it' use 'was'.",
       "explanation": "We / you / they → were. I / he / she / it → was."
     },
     {
       "id": "sp-fb-be-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the correct past form of 'to be'.",
+      "instruction": "Choose the correct answer for: the correct past form of 'to be'.",
       "prompt": "I ___ very tired after the long flight from Jakarta.",
-      "acceptedAnswers": ["was"],
+      "options": [
+        "was",
+        "had been",
+        "is",
+        "were"
+      ],
+      "answer": "was",
       "explanation": "Subject 'I' uses 'was' in the past."
     },
     {
       "id": "sp-tr-be-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate to English. Indonesian often drops 'to be' — make sure you add was/were.",
+      "instruction": "Translate into English: \"Tadi malam saya sangat lelah setelah bekerja.\"",
       "prompt": "Tadi malam saya sangat lelah setelah bekerja.",
-      "modelAnswer": "Last night I was very tired after working.",
-      "alternativeAnswers": [
-        "I was very tired last night after working.",
+      "options": [
         "Last night I was very tired after work.",
-        "I was very tired after work last night."
+        "Last night I was very tired after working.",
+        "Last night I is very tired after working.",
+        "Last night I were very tired after working."
       ],
-      "keyTokens": ["was", "tired", "last night"],
+      "answer": "Last night I was very tired after working.",
       "explanation": "Indonesian drops 'to be', but English requires it. 'I' takes 'was'."
     }
   ]

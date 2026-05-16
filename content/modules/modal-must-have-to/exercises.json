@@ -1,0 +1,249 @@
+{
+  "exercises": [
+    {
+      "id": "mmht-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for external obligation.",
+      "prompt": "All employees ___ wear a safety helmet on the construction site.",
+      "options": ["must", "have to", "Both are correct.", "should"],
+      "answer": "Both are correct.",
+      "explanation": "Both 'must' and 'have to' express obligation. 'Have to' emphasises an external rule (site policy); 'must' emphasises the importance. In practice, both are used."
+    },
+    {
+      "id": "mmht-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past obligation form.",
+      "prompt": "She ___ retake the exam because she failed by two marks.",
+      "options": ["must", "had to", "has to", "would have to"],
+      "answer": "had to",
+      "explanation": "'Must' has no past tense. For past obligation, use 'had to'. The exam was already retaken — past tense is needed."
+    },
+    {
+      "id": "mmht-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct logical deduction.",
+      "prompt": "The lights are on and the car is in the driveway. She ___ be home.",
+      "options": ["should", "must", "could", "might"],
+      "answer": "must",
+      "explanation": "Strong logical deduction from clear evidence → 'must'. 'Could' and 'might' imply weaker possibility. 'Should' implies expectation, not evidence-based deduction."
+    },
+    {
+      "id": "mmht-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya harus pergi ke dokter kemarin.' → English:",
+      "prompt": "I ___ the doctor yesterday.",
+      "options": ["must visit", "had to visit", "have to visit", "must have visited"],
+      "answer": "had to visit",
+      "explanation": "'Kemarin' = yesterday (past). 'Must' has no past form → use 'had to'. 'Had to visit the doctor' is correct."
+    },
+    {
+      "id": "mmht-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for a strong personal recommendation.",
+      "prompt": "You ___ see this exhibition — it's extraordinary.",
+      "options": ["have to", "must", "Both are correct.", "need to"],
+      "answer": "Both are correct.",
+      "explanation": "For personal strong recommendations, both 'must' and 'have to' are used: 'You must see this' and 'You have to see this' are both natural in spoken English."
+    },
+    {
+      "id": "mmht-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future obligation form.",
+      "prompt": "After the merger, all staff ___ complete a new induction programme.",
+      "options": ["must", "will have to", "had to", "should"],
+      "answer": "will have to",
+      "explanation": "Future external obligation → 'will have to'. 'Must' for future is possible but less common for external institutional requirements."
+    },
+    {
+      "id": "mmht-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form for 'it is not necessary'.",
+      "prompt": "You ___ bring a printed copy — you can submit it online.",
+      "options": ["must not", "don't have to", "needn't to", "won't have to"],
+      "answer": "don't have to",
+      "explanation": "'Don't have to' = no obligation/optional. 'Must not' would mean it is forbidden to bring a printed copy, which contradicts the context."
+    },
+    {
+      "id": "mmht-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct prohibition.",
+      "prompt": "You ___ share your password with anyone — it is a serious security violation.",
+      "options": ["don't have to", "must not", "haven't to", "needn't"],
+      "answer": "must not",
+      "explanation": "'Must not' = prohibition (forbidden). The context says it is a violation, so something is being forbidden, not just made optional."
+    },
+    {
+      "id": "mmht-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that uses 'must not' incorrectly.",
+      "prompt": "___",
+      "options": [
+        "Passengers must not smoke on board.",
+        "Students must not leave the exam hall early.",
+        "You must not bring a dictionary — it's optional.",
+        "Visitors must not enter the restricted area."
+      ],
+      "answer": "You must not bring a dictionary — it's optional.",
+      "explanation": "'Must not' = forbidden. The sentence contradicts itself: if it's optional, use 'don't have to', not 'must not'."
+    },
+    {
+      "id": "mmht-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Kamu tidak perlu datang kalau tidak mau.' → English:",
+      "prompt": "You ___ come if you don't want to.",
+      "options": ["must not", "don't have to", "cannot", "needn't to"],
+      "answer": "don't have to",
+      "explanation": "'Tidak perlu' = not necessary/optional → 'don't have to'. Not 'must not' (prohibition) and not 'needn't to' (wrong — needn't + V1 directly)."
+    },
+    {
+      "id": "mmht-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the modal verb error.",
+      "prompt": "She must to submit her application before midnight.",
+      "options": [
+        "Should be 'must submit' — no 'to' after modal.",
+        "Should be 'must be submitting' — continuous needed.",
+        "Should be 'has to' — 'must' is too strong here.",
+        "No error — 'must to' is correct."
+      ],
+      "answer": "Should be 'must submit' — no 'to' after modal.",
+      "explanation": "Modal verbs are followed by the base form V1 directly — never 'to'. Correct: 'She must submit her application.'"
+    },
+    {
+      "id": "mmht-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the negative logical deduction for impossibility.",
+      "prompt": "He ___ be the thief — he was with me all evening.",
+      "options": ["must not", "can't", "doesn't have to", "shouldn't"],
+      "answer": "can't",
+      "explanation": "Negative logical deduction (impossibility) → 'can't'. 'Must not' means prohibition, not logical impossibility. 'Can't be' = it is impossible that he is the thief."
+    },
+    {
+      "id": "mmht-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct question form.",
+      "prompt": "___ I ___ register in advance, or can I just walk in?",
+      "options": ["Must / to", "Do / have to", "Have / to", "Should / to"],
+      "answer": "Do / have to",
+      "explanation": "'Have to' forms a question with 'do': 'Do I have to register?' This is the standard question form for 'have to'."
+    },
+    {
+      "id": "mmht-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Apakah kamu harus bekerja besok?' → English:",
+      "prompt": "___ you ___ work tomorrow?",
+      "options": ["Must / to", "Do / have to", "Are / must", "Have / must"],
+      "answer": "Do / have to",
+      "explanation": "'Do you have to work tomorrow?' is the correct question form. 'Must' questions exist ('Must you work?') but are more formal; 'Do you have to?' is more natural."
+    },
+    {
+      "id": "mmht-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which question correctly asks about logical deduction?",
+      "prompt": "She's been working since dawn. She ___ be exhausted, ___?",
+      "options": [
+        "must / mustn't she",
+        "must / doesn't she",
+        "should / shouldn't she",
+        "has to / hasn't she"
+      ],
+      "answer": "must / mustn't she",
+      "explanation": "Tag question for 'must' → 'mustn't she'. 'She must be exhausted, mustn't she?' though in practice 'doesn't she?' is also heard, the standard tag for 'must' is 'mustn't'."
+    },
+    {
+      "id": "mmht-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for 'no obligation' in British English.",
+      "prompt": "You ___ wait for me — I can find my own way home.",
+      "options": ["must not", "needn't", "don't must", "haven't to"],
+      "answer": "needn't",
+      "explanation": "'Needn't + V1' = no obligation/optional, equivalent to 'don't have to'. British English. 'Must not' = prohibition. 'Don't must' and 'haven't to' don't exist."
+    },
+    {
+      "id": "mmht-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct present perfect obligation form.",
+      "prompt": "We ___ reschedule the meeting three times due to the director's travel.",
+      "options": ["must", "have had to", "had to", "should have"],
+      "answer": "have had to",
+      "explanation": "Present perfect obligation (a repeated past necessity with current relevance): 'have had to'. Not 'had to' (simple past) or 'must' (present/deduction)."
+    },
+    {
+      "id": "mmht-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in subject-verb agreement with 'have to'.",
+      "prompt": "My manager have to approve all leave requests.",
+      "options": [
+        "Should be 'has to' — third person singular requires 'has to'.",
+        "Should be 'must' — 'have to' is wrong here.",
+        "Should be 'had to' — past tense required.",
+        "No error — 'have to' is correct."
+      ],
+      "answer": "Should be 'has to' — third person singular requires 'has to'.",
+      "explanation": "'Have to' follows subject-verb agreement: I/you/we/they have to; he/she/it **has to**. 'My manager' = third person singular."
+    },
+    {
+      "id": "mmht-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the sentence that correctly expresses a deduction (not obligation).",
+      "prompt": "___",
+      "options": [
+        "You must submit the form by Friday.",
+        "She must be nervous — it's her first presentation.",
+        "All visitors must sign in at reception.",
+        "Employees must not use personal phones during meetings."
+      ],
+      "answer": "She must be nervous — it's her first presentation.",
+      "explanation": "'Must be' + adjective/state = logical deduction. The other three sentences use 'must' for obligation or prohibition."
+    },
+    {
+      "id": "mmht-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Tidak harus' in Indonesian most closely matches which English phrase?",
+      "prompt": "___",
+      "options": [
+        "must not",
+        "don't have to",
+        "cannot",
+        "should not"
+      ],
+      "answer": "don't have to",
+      "explanation": "'Tidak harus' = not obligatory/optional → 'don't have to'. It does NOT mean forbidden. 'Must not' = 'dilarang' in Indonesian."
+    },
+    {
+      "id": "mmht-mc-neg-8",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative form for a past obligation.",
+      "prompt": "They ___ finish the project last night — the deadline was extended.",
+      "options": [
+        "must not have finished",
+        "didn't have to finish",
+        "hadn't to finish",
+        "couldn't finish"
+      ],
+      "answer": "didn't have to finish",
+      "explanation": "Past 'no obligation' → 'didn't have to + V1'. The deadline extension meant finishing was no longer necessary. 'Must not have' implies a past prohibition or negative deduction."
+    }
+  ]
+}

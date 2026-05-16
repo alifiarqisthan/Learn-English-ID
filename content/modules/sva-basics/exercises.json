@@ -1,1 +1,304 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "svab-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form.",
+      "prompt": "The new policy ___ all employees to submit monthly reports.",
+      "options": [
+        "require",
+        "requires",
+        "are requiring",
+        "have required"
+      ],
+      "answer": "requires",
+      "explanation": "'The new policy' = singular subject → singular verb 'requires' (present simple)."
+    },
+    {
+      "id": "svab-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form for an indefinite pronoun.",
+      "prompt": "Everyone in the department ___ been informed about the new schedule.",
+      "options": [
+        "have",
+        "has",
+        "are",
+        "were"
+      ],
+      "answer": "has",
+      "explanation": "'Everyone' is always singular → singular verb 'has'. Despite referring to many people, 'everyone' takes a singular verb."
+    },
+    {
+      "id": "svab-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb. Compound subject with 'and'.",
+      "prompt": "The manager and the assistant ___ both preparing for the presentation.",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "has been"
+      ],
+      "answer": "are",
+      "explanation": "Two subjects joined by 'and' → compound subject → plural verb 'are'."
+    },
+    {
+      "id": "svab-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the agreement error.",
+      "prompt": "___",
+      "options": [
+        "The results of the study are conclusive.",
+        "Neither answer is correct.",
+        "The students needs to submit the form by Friday.",
+        "Both proposals were rejected by the board."
+      ],
+      "answer": "The students needs to submit the form by Friday.",
+      "explanation": "'The students' = plural subject → 'need' (plural verb). Not 'needs'."
+    },
+    {
+      "id": "svab-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the agreement error.",
+      "prompt": "___",
+      "options": [
+        "Nobody knows the exact cause of the accident.",
+        "There are several reasons for the delay.",
+        "Everybody are required to wear a badge.",
+        "Someone has left their bag in the meeting room."
+      ],
+      "answer": "Everybody are required to wear a badge.",
+      "explanation": "'Everybody' is always singular → 'is required'. 'Are' is incorrect."
+    },
+    {
+      "id": "svab-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct 'there is/are'.",
+      "prompt": "___ many unresolved issues with the current system.",
+      "options": [
+        "There is",
+        "There are",
+        "There were",
+        "There has been"
+      ],
+      "answer": "There are",
+      "explanation": "'Many unresolved issues' = plural → 'There are'. 'There is' would be wrong with a plural subject."
+    },
+    {
+      "id": "svab-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb. Subject joined by 'or' — apply the proximity rule.",
+      "prompt": "Either the director or the committee members ___ responsible for the decision.",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "has"
+      ],
+      "answer": "are",
+      "explanation": "Proximity rule: verb agrees with the nearest subject. 'Committee members' (plural) is closest → 'are'."
+    },
+    {
+      "id": "svab-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'to be' form.",
+      "prompt": "The data collected from the three sites ___ now being analysed.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "has"
+      ],
+      "answer": "is",
+      "explanation": "'The data' in formal academic usage is treated as uncountable/singular → 'is'. (Note: 'data' is increasingly accepted as plural in informal usage.)"
+    },
+    {
+      "id": "svab-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb. 'Some' + uncountable noun.",
+      "prompt": "Some of the equipment ___ been damaged in transit.",
+      "options": [
+        "have",
+        "has",
+        "were",
+        "are"
+      ],
+      "answer": "has",
+      "explanation": "'Equipment' is uncountable → singular verb 'has'. 'Some of the equipment has been damaged.'"
+    },
+    {
+      "id": "svab-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct form of 'to be' (present tense).",
+      "prompt": "Neither of the two proposals ___ acceptable to the steering committee.",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "were"
+      ],
+      "answer": "is",
+      "explanation": "'Neither' (of two) → singular verb 'is' in formal English."
+    },
+    {
+      "id": "svab-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct present simple verb form.",
+      "prompt": "The team ___ (meet) every Monday morning to review progress.",
+      "options": [
+        "did meet",
+        "meeting",
+        "meet",
+        "meets"
+      ],
+      "answer": "meets",
+      "explanation": "'The team' = singular (treated as a unit in American English) → 'meets'. (British English may use 'meet'.)"
+    },
+    {
+      "id": "svab-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the correct verb form. Subject = everyone.",
+      "prompt": "Everyone ___ encouraged to participate in the feedback survey.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": "is",
+      "explanation": "'Everyone' = always singular → 'is encouraged'."
+    },
+    {
+      "id": "svab-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'is' or 'are'. Real subject follows 'there'.",
+      "prompt": "There ___ a clear need for further investigation.",
+      "options": [
+        "are",
+        "was",
+        "is",
+        "were"
+      ],
+      "answer": "is",
+      "explanation": "'A clear need' = singular → 'There is'."
+    },
+    {
+      "id": "svab-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct verb. 'Some' + countable plural.",
+      "prompt": "Some of the students ___ already submitted their assignments.",
+      "options": [
+        "has",
+        "have",
+        "are",
+        "had"
+      ],
+      "answer": "have",
+      "explanation": "'Some of the students' — students = plural → plural verb 'have'."
+    },
+    {
+      "id": "svab-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Laporan itu sudah siap untuk ditinjau.\"",
+      "prompt": "Laporan itu sudah siap untuk ditinjau.",
+      "options": [
+        "The report was ready to be reviewed.",
+        "The report are ready to be reviewed.",
+        "The report is ready to reviewed.",
+        "The report is ready to be reviewed."
+      ],
+      "answer": "The report is ready to be reviewed.",
+      "explanation": "'Laporan' = the report (singular) → 'is'. Singular subject → singular verb."
+    },
+    {
+      "id": "svab-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Manajer dan asisten keduanya sudah siap.\"",
+      "prompt": "Manajer dan asisten keduanya sudah siap.",
+      "options": [
+        "The manager and assistant are both ready.",
+        "The manager and the assistant are both ready.",
+        "The manager and an assistant are both ready.",
+        "The manager and the assistant were both ready."
+      ],
+      "answer": "The manager and the assistant are both ready.",
+      "explanation": "Two subjects joined by 'and' → plural verb 'are'."
+    },
+    {
+      "id": "svab-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Semua orang sudah mendapatkan informasi tentang perubahan jadwal.\"",
+      "prompt": "Semua orang sudah mendapatkan informasi tentang perubahan jadwal.",
+      "options": [
+        "Everyone had been informed about the schedule change.",
+        "Everyone have been informed about the schedule change.",
+        "Everyone has been informed about the schedule change.",
+        "Everyone has been informed about a schedule change."
+      ],
+      "answer": "Everyone has been informed about the schedule change.",
+      "explanation": "'Semua orang' = everyone → singular verb 'has'. Not 'everyone have'."
+    },
+    {
+      "id": "svab-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Ada beberapa masalah yang perlu segera diselesaikan.\"",
+      "prompt": "Ada beberapa masalah yang perlu segera diselesaikan.",
+      "options": [
+        "There are several is issueing that need to be resolved immediately.",
+        "There are several issues that need to be resolved immediately.",
+        "immediately. resolved be to need that issues several are There",
+        "There were several issues that need to be resolved immediately."
+      ],
+      "answer": "There are several issues that need to be resolved immediately.",
+      "explanation": "'Beberapa masalah' = several issues (plural) → 'There are'. Not 'There is'."
+    },
+    {
+      "id": "svab-mc-or-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Apply the proximity rule. Which subject is closest to the verb?",
+      "prompt": "Neither the students nor the professor ___ aware of the change.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "was"
+      ],
+      "answer": "is",
+      "explanation": "Proximity rule: 'nor the professor' — 'professor' is singular and closest to the verb → 'is'."
+    },
+    {
+      "id": "svab-mc-nothing-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for an indefinite pronoun.",
+      "prompt": "Nothing ___ been proven beyond a reasonable doubt.",
+      "options": [
+        "have",
+        "has",
+        "were",
+        "are"
+      ],
+      "answer": "has",
+      "explanation": "'Nothing' = always singular → 'has'. 'Nothing has been proven' = correct."
+    }
+  ]
+}

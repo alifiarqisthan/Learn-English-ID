@@ -1,1 +1,244 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ca-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the word that best completes the sentence.",
+      "prompt": "___ you study consistently, you will pass the TOEFL exam.",
+      "options": ["Unless", "As long as", "Even if", "In case"],
+      "answer": "As long as",
+      "explanation": "'As long as' sets a positive ongoing condition: the studying must continue for the result to follow. 'Unless' would mean 'if you don't study', reversing the meaning."
+    },
+    {
+      "id": "ca-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct conditional alternative.",
+      "prompt": "You may submit the application late, ___ you provide a valid reason.",
+      "options": ["unless", "provided that", "even if", "whether or not"],
+      "answer": "provided that",
+      "explanation": "'Provided that' means 'only if' — a single specific condition must be met. It fits formal contexts like application policies."
+    },
+    {
+      "id": "ca-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the word that correctly completes the sentence.",
+      "prompt": "Save a copy of your work to the cloud ___ your laptop crashes.",
+      "options": ["if", "unless", "in case", "even if"],
+      "answer": "in case",
+      "explanation": "'In case' is used for precautions taken before an uncertain event. You save the file now because the laptop might crash later — not in response to it crashing."
+    },
+    {
+      "id": "ca-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the word that correctly expresses 'regardless of whether'.",
+      "prompt": "I'm going to present my research ___ the professor agrees with my conclusions.",
+      "options": ["unless", "provided that", "whether or not", "in case"],
+      "answer": "whether or not",
+      "explanation": "'Whether or not' means the action will happen in both cases — whether the professor agrees or not. 'Provided that' would make the presentation conditional on agreement."
+    },
+    {
+      "id": "ca-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct alternative to 'if not'.",
+      "prompt": "___ you leave now, you'll miss the last bus.",
+      "options": ["Even if", "Unless", "As long as", "Providing"],
+      "answer": "Unless",
+      "explanation": "'Unless you leave now' = 'If you don't leave now'. 'Unless' introduces a negative condition using an affirmative verb."
+    },
+    {
+      "id": "ca-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct conditional alternative.",
+      "prompt": "The deal will go ahead ___ all parties sign the agreement before noon.",
+      "options": ["unless", "in case", "on condition that", "even if"],
+      "answer": "on condition that",
+      "explanation": "'On condition that' is a formal equivalent of 'provided that' — used in legal and official contexts. It means 'only if this specific condition is met'."
+    },
+    {
+      "id": "ca-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the word that shows the condition does NOT prevent the result.",
+      "prompt": "___ it's difficult, learning English grammar is worth the effort.",
+      "options": ["If", "Unless", "Even if", "As long as"],
+      "answer": "Even if",
+      "explanation": "'Even if' shows that the result (learning is worth it) holds true despite the condition (it's difficult). It signals that the condition doesn't change the outcome."
+    },
+    {
+      "id": "ca-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence using 'unless'.",
+      "prompt": "She won't sign the contract ___ the salary is increased.",
+      "options": ["unless", "if", "even if", "whether or not"],
+      "answer": "unless",
+      "explanation": "'Unless the salary is increased' = 'if the salary is not increased'. 'Unless' introduces the negative condition with an affirmative verb."
+    },
+    {
+      "id": "ca-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that correctly uses 'unless'.",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "Unless you don't hurry, we'll be late.",
+        "Unless you hurry, we'll be late.",
+        "Unless you don't hurry, we won't be late.",
+        "Unless you hurry, we won't be late."
+      ],
+      "answer": "Unless you hurry, we'll be late.",
+      "explanation": "'Unless you hurry' = 'if you don't hurry'. The unless-clause must use an affirmative verb. 'Unless you don't hurry' is a double negative and always wrong."
+    },
+    {
+      "id": "ca-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct conditional to express a negative precaution.",
+      "prompt": "Write down the password ___ you forget it.",
+      "options": ["if", "unless", "in case", "even if"],
+      "answer": "in case",
+      "explanation": "'In case you forget' = you write down the password as a precaution, anticipating that you might forget. This is a precaution, not a condition triggered by forgetting."
+    },
+    {
+      "id": "ca-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct sentence that means 'the result happens regardless'.",
+      "prompt": "Which sentence correctly expresses that the speaker will attend the meeting no matter what?",
+      "options": [
+        "I'll attend the meeting unless they cancel it.",
+        "I'll attend the meeting even if they want to cancel it.",
+        "I'll attend the meeting provided that they don't cancel it.",
+        "I'll attend the meeting as long as they hold it."
+      ],
+      "answer": "I'll attend the meeting even if they want to cancel it.",
+      "explanation": "'Even if they want to cancel' shows the result (attending) persists despite an obstacle. The other options all make attendance conditional on something."
+    },
+    {
+      "id": "ca-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct word to complete the negative conditional.",
+      "prompt": "The children cannot leave the building ___ a parent or guardian collects them.",
+      "options": ["unless", "even if", "whether or not", "in case"],
+      "answer": "unless",
+      "explanation": "'Unless a parent collects them' = 'if a parent does not collect them'. The sentence states a negative condition for being allowed to leave."
+    },
+    {
+      "id": "ca-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in this sentence.",
+      "prompt": "Which sentence contains a grammar error?",
+      "options": [
+        "Unless you register early, you won't get a seat.",
+        "As long as you arrive on time, the event will start.",
+        "Unless you don't register early, you won't get a seat.",
+        "Even if it's expensive, the quality is worth it."
+      ],
+      "answer": "Unless you don't register early, you won't get a seat.",
+      "explanation": "'Unless you don't register' is a double negative. 'Unless' already means 'if not' — the verb must be affirmative. Correct: 'Unless you register early…'"
+    },
+    {
+      "id": "ca-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct word to complete the sentence.",
+      "prompt": "He said he would keep working on the project ___ he received written confirmation from the client.",
+      "options": ["unless", "even though", "provided that", "in case"],
+      "answer": "provided that",
+      "explanation": "'Provided that he received confirmation' means 'only if he received it' — a single formal condition. 'Unless' would imply working on the project is the default unless confirmation comes."
+    },
+    {
+      "id": "ca-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct conditional alternative to complete the question.",
+      "prompt": "Will you come to the party ___ it runs past midnight?",
+      "options": ["unless", "even if", "as long as", "in case"],
+      "answer": "even if",
+      "explanation": "'Even if it runs past midnight' asks whether the condition (late finish) would stop the person from attending. 'Even if' introduces the challenging hypothetical condition."
+    },
+    {
+      "id": "ca-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the sentence that correctly asks about a precaution.",
+      "prompt": "Which question correctly uses 'in case'?",
+      "options": [
+        "Did you bring a charger in case your phone dies?",
+        "Did you bring a charger if your phone dies?",
+        "Did you bring a charger unless your phone dies?",
+        "Did you bring a charger even if your phone dies?"
+      ],
+      "answer": "Did you bring a charger in case your phone dies?",
+      "explanation": "'In case your phone dies' is a precaution — you bring the charger beforehand because the phone might die. This is the correct use of 'in case'."
+    },
+    {
+      "id": "ca-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct translation.",
+      "prompt": "Apakah kamu akan tetap pergi entah dia mau ikut atau tidak? →  Will you still go ___ he comes or not?",
+      "options": ["if", "unless", "whether or not", "in case"],
+      "answer": "whether or not",
+      "explanation": "'Entah … atau tidak' translates to 'whether or not'. It shows the action (going) happens regardless of the other person's decision."
+    },
+    {
+      "id": "ca-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct conditional alternative.",
+      "prompt": "___ will the event be cancelled?",
+      "options": [
+        "Unless what conditions",
+        "Under what conditions",
+        "Even if what happens",
+        "In case of what"
+      ],
+      "answer": "Under what conditions",
+      "explanation": "When asking about conditions for cancellation, 'Under what conditions' is the correct form. The other options are grammatically awkward or incorrect."
+    },
+    {
+      "id": "ca-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the word that correctly completes the question.",
+      "prompt": "Would you accept the job ___ the commute is very long?",
+      "options": ["unless", "even if", "as long as", "provided that"],
+      "answer": "even if",
+      "explanation": "'Even if the commute is very long' asks whether an obstacle (long commute) would prevent acceptance. 'Even if' introduces the hypothetical challenging condition."
+    },
+    {
+      "id": "ca-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the error in the question.",
+      "prompt": "Which question contains a grammar error?",
+      "options": [
+        "Will she agree unless we lower the price?",
+        "Can they proceed as long as the budget is approved?",
+        "Would you go even if it rained heavily?",
+        "Should I save a copy in case the file gets corrupted?"
+      ],
+      "answer": "Will she agree unless we lower the price?",
+      "explanation": "'Unless we lower the price' means 'if we don't lower the price' — this makes the question mean 'Will she agree if we don't lower the price?' which is likely the opposite of the intended meaning. The correct form would be 'Will she agree if we lower the price?' or 'She won't agree unless we lower the price.'"
+    },
+    {
+      "id": "ca-mc-q-7",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct conditional alternative for a formal context.",
+      "prompt": "The merger will be approved ___ both boards vote in favour.",
+      "options": ["unless", "provided that", "even if", "whether or not"],
+      "answer": "provided that",
+      "explanation": "'Provided that both boards vote in favour' is a formal condition. This is appropriate for official/legal language. 'Unless' would state a negative condition."
+    }
+  ]
+}

@@ -6,7 +6,12 @@
       "form": "positive",
       "instruction": "Choose the correct past perfect form.",
       "prompt": "By the time I arrived at the party, most of the guests ___ already ___.",
-      "options": ["already / left", "have / left", "had / left", "did / leave"],
+      "options": [
+        "already / left",
+        "have / left",
+        "had / left",
+        "did / leave"
+      ],
       "answer": "had / left",
       "hint": "'By the time' + two past events → the earlier event uses past perfect.",
       "explanation": "'By the time I arrived' sets a past reference point. The earlier event (leaving) → had + V3."
@@ -17,7 +22,12 @@
       "form": "positive",
       "instruction": "Choose the correct form for the earlier event.",
       "prompt": "She was nervous during the presentation because she ___ almost no time to prepare.",
-      "options": ["has", "had", "had had", "have had"],
+      "options": [
+        "has",
+        "had",
+        "had had",
+        "have had"
+      ],
       "answer": "had had",
       "hint": "The nervousness (simple past) happened because of the earlier lack of preparation → past perfect.",
       "explanation": "'had had' = had + V3 of 'have'. She had (possessed) almost no time — earlier than the nervousness."
@@ -28,7 +38,12 @@
       "form": "positive",
       "instruction": "Past perfect or simple past? Choose the earlier event.",
       "prompt": "When the firefighters arrived, the house ___ completely.",
-      "options": ["burned", "was burning", "had burned", "has burned"],
+      "options": [
+        "burned",
+        "was burning",
+        "had burned",
+        "has burned"
+      ],
       "answer": "had burned",
       "hint": "The house burned before the firefighters arrived → past perfect for the earlier event.",
       "explanation": "The burning was complete before the arrival → past perfect. 'Arrived' is simple past (later event)."
@@ -39,7 +54,12 @@
       "form": "negative",
       "instruction": "Choose the correct negative past perfect.",
       "prompt": "She failed the exam because she ___ the material properly.",
-      "options": ["didn't study", "hadn't studied", "hasn't studied", "wasn't studying"],
+      "options": [
+        "didn't study",
+        "hadn't studied",
+        "hasn't studied",
+        "wasn't studying"
+      ],
       "answer": "hadn't studied",
       "hint": "The failure (simple past) was caused by the earlier lack of studying → past perfect negative.",
       "explanation": "Not studying came before the failure → past perfect negative: hadn't + V3."
@@ -50,7 +70,12 @@
       "form": "negative",
       "instruction": "Choose the correct form.",
       "prompt": "It was her first trip abroad — she ___ the country before.",
-      "options": ["never left", "has never left", "had never left", "didn't leave"],
+      "options": [
+        "never left",
+        "has never left",
+        "had never left",
+        "didn't leave"
+      ],
       "answer": "had never left",
       "hint": "'Before' + first experience → past perfect with 'never'.",
       "explanation": "'Had never + V3' = no experience up to that past point. 'left' is V3 of 'leave'."
@@ -61,7 +86,12 @@
       "form": "question",
       "instruction": "Choose the correct past perfect question.",
       "prompt": "___ you ___ that restaurant before last night?",
-      "options": ["Did / visit", "Have / visited", "Had / visited", "Were / visiting"],
+      "options": [
+        "Did / visit",
+        "Have / visited",
+        "Had / visited",
+        "Were / visiting"
+      ],
       "answer": "Had / visited",
       "hint": "'Before last night' = before a past point → past perfect question: Had + subject + V3.",
       "explanation": "Past perfect question: Had + subject + V3. The reference point is 'last night' (already past)."
@@ -72,7 +102,12 @@
       "form": "positive",
       "instruction": "Past perfect vs simple past — does order matter here?",
       "prompt": "When I arrived at the office, I realised I ___ my laptop at home.",
-      "options": ["left", "was leaving", "had left", "have left"],
+      "options": [
+        "left",
+        "was leaving",
+        "had left",
+        "have left"
+      ],
       "answer": "had left",
       "hint": "'Realised' is the later event. The leaving happened before I arrived → past perfect.",
       "explanation": "Leaving the laptop happened before arriving and realising → had + V3 (left)."
@@ -95,82 +130,109 @@
     },
     {
       "id": "pp2-fb-pos-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the past perfect form.",
+      "instruction": "Choose the correct answer for: the past perfect form.",
       "prompt": "The train ___ (leave) by the time we reached the station.",
-      "acceptedAnswers": ["had left"],
+      "options": [
+        "hads left",
+        "had lefted",
+        "left had",
+        "had left"
+      ],
+      "answer": "had left",
       "explanation": "'By the time' + two past events → train leaving is earlier → had + V3 (left)."
     },
     {
       "id": "pp2-fb-pos-2",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the past perfect. Watch the irregular V3.",
+      "instruction": "Choose the correct answer for: the past perfect. Watch the irregular V3.",
       "prompt": "I felt much better after I ___ (sleep) for eight hours.",
-      "acceptedAnswers": ["had slept"],
+      "options": [
+        "hads slept",
+        "had slepted",
+        "slept had",
+        "had slept"
+      ],
+      "answer": "had slept",
       "hint": "V3 of 'sleep' = slept. Sleeping came before feeling better.",
       "explanation": "Sleep → slept (V3). Earlier event → had + slept."
     },
     {
       "id": "pp2-fb-neg-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "negative",
-      "instruction": "Fill in the negative past perfect. Both 'hadn't' and 'had not' are accepted.",
+      "instruction": "Choose the correct answer for: the negative past perfect. Both 'hadn't' and 'had not' are accepted.",
       "prompt": "She was confused because she ___ (not / read) the instructions.",
-      "acceptedAnswers": ["hadn't read", "had not read"],
+      "options": [
+        "did not read",
+        "hadn'ts read",
+        "hadn't read",
+        "hadn't readed"
+      ],
+      "answer": "hadn't read",
       "explanation": "Not reading (earlier) → confusion (later). Negative past perfect: hadn't + V3 (read)."
     },
     {
       "id": "pp2-fb-q-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "question",
       "instruction": "Form the past perfect question.",
       "prompt": "___ (you / ever / try) sushi before you visited Japan?",
-      "acceptedAnswers": ["had you ever tried"],
+      "options": [
+        "had you ever tried",
+        "had you ever trieded",
+        "hads you ever tried",
+        "tried ever you had"
+      ],
+      "answer": "had you ever tried",
       "hint": "Experience before a past point: Had + subject + ever + V3.",
       "explanation": "Past perfect experience question: Had you ever + V3 + before [past event]."
     },
     {
       "id": "pp2-tr-pos-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate. The event marked 'sudah' happened before the other past event.",
+      "instruction": "Translate into English: \"Ketika saya sampai, mereka sudah pergi.\"",
       "prompt": "Ketika saya sampai, mereka sudah pergi.",
-      "modelAnswer": "When I arrived, they had already left.",
-      "alternativeAnswers": [
-        "When I got there, they had already left.",
-        "They had already left when I arrived."
+      "options": [
+        "When I arrived, they had already left, every day.",
+        "When I arrived, they had already left. (incorrect)",
+        "This is not correct English.",
+        "When I arrived, they had already left."
       ],
-      "keyTokens": ["had already left", "when"],
+      "answer": "When I arrived, they had already left.",
       "explanation": "Earlier event (left) → had + V3. Later event (arrived) → simple past."
     },
     {
       "id": "pp2-tr-neg-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "negative",
-      "instruction": "Translate as a negative past perfect.",
+      "instruction": "Translate into English: \"Ini adalah pertama kalinya dia naik pesawat — dia belum pernah terbang sebelumnya.\"",
       "prompt": "Ini adalah pertama kalinya dia naik pesawat — dia belum pernah terbang sebelumnya.",
-      "modelAnswer": "It was her first time on a plane — she had never flown before.",
-      "alternativeAnswers": [
-        "It was his first time on a plane — he had never flown before.",
-        "It was her first flight — she had never flown before."
+      "options": [
+        "It was her first time in a plane — she had never flown before.",
+        "It is her first time on a plane — she had never flown before.",
+        "It was her first time on a plane — she had never flown before.",
+        "It was her first time on an plane — she had never flown before."
       ],
-      "keyTokens": ["had never flown", "before"],
+      "answer": "It was her first time on a plane — she had never flown before.",
       "explanation": "'Belum pernah' + past reference → had never + V3 (flown)."
     },
     {
       "id": "pp2-tr-q-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "question",
-      "instruction": "Translate as a past perfect question.",
+      "instruction": "Translate into English: \"Apakah kamu sudah pernah mencoba masakan Jepang sebelum pergi ke Tokyo?\"",
       "prompt": "Apakah kamu sudah pernah mencoba masakan Jepang sebelum pergi ke Tokyo?",
-      "modelAnswer": "Had you ever tried Japanese food before you went to Tokyo?",
-      "alternativeAnswers": [
-        "Had you ever tried Japanese cuisine before you went to Tokyo?",
-        "Had you ever eaten Japanese food before going to Tokyo?"
+      "options": [
+        "you Had ever tried Japanese food before you went to Tokyo?",
+        "Had you ever tried Japanese food before you went to Tokyo?",
+        "This is not correct English.",
+        "Had you ever tried Japanese food before you went to Tokyo? (incorrect)"
       ],
-      "keyTokens": ["had you ever tried", "before"],
+      "answer": "Had you ever tried Japanese food before you went to Tokyo?",
       "explanation": "Past perfect experience question: Had you ever + V3 before [simple past]."
     }
   ]

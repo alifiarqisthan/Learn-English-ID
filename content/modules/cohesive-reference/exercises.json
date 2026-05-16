@@ -1,1 +1,254 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cr-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best reference device to complete the sentence.",
+      "prompt": "The committee reviewed three proposals. ___ were submitted before the deadline.",
+      "options": ["All of these", "It", "This", "That"],
+      "answer": "All of these",
+      "explanation": "Three proposals (plural) require a plural reference. 'These' (or 'all of these') correctly refers back to the plural noun 'proposals'. 'It' and 'that' are singular."
+    },
+    {
+      "id": "cr-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reference device.",
+      "prompt": "The city experienced severe flooding, power outages, and infrastructure damage. ___ disasters require coordinated emergency response.",
+      "options": ["Such", "This", "Those", "It"],
+      "answer": "Such",
+      "explanation": "'Such' is a formal academic reference device that refers back to a type or category just described. 'Such disasters' = disasters of the kind just described. 'This' would refer to a single specific thing, not a category."
+    },
+    {
+      "id": "cr-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct substitution device.",
+      "prompt": "Students who wish to withdraw from the course must ___ by the end of the first week.",
+      "options": ["do so", "do it", "make it", "do this"],
+      "answer": "do so",
+      "explanation": "'Do so' is the formal substitution device for a verb phrase. Here it substitutes for 'withdraw from the course'. 'Do it' is more informal; 'make it' has a different meaning; 'do this' could be ambiguous."
+    },
+    {
+      "id": "cr-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reference device.",
+      "prompt": "The company considered two options: merger and acquisition. ___ would be cheaper but riskier.",
+      "options": ["The former", "The latter", "These", "Such"],
+      "answer": "The former",
+      "explanation": "'The former' refers to the first of two previously mentioned items — 'merger' (mentioned first). 'The latter' would refer to 'acquisition' (mentioned second)."
+    },
+    {
+      "id": "cr-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct pronoun.",
+      "prompt": "I need to borrow a pen. Do you have ___?",
+      "options": ["one", "it", "this", "that"],
+      "answer": "one",
+      "explanation": "'One' substitutes for a non-specific countable noun (a pen — not the specific same pen). 'It' would refer to a specific, already identified item. 'This' and 'that' are demonstratives, not substitution pronouns."
+    },
+    {
+      "id": "cr-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'do so'.",
+      "prompt": "Which sentence correctly uses 'do so'?",
+      "options": [
+        "She planned to resign and she did so quietly.",
+        "The results seemed reliable and they did so from the start.",
+        "He appeared confident and he did so every day.",
+        "The data existed and it did so for several years."
+      ],
+      "answer": "She planned to resign and she did so quietly.",
+      "explanation": "'Do so' substitutes for action verb phrases. 'Resign' is an action verb — 'did so' replaces 'resigned'. The other options use stative verbs ('seemed', 'appeared', 'existed') — 'do so' cannot substitute for stative verbs."
+    },
+    {
+      "id": "cr-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best reference device.",
+      "prompt": "The report highlighted rising inflation, unemployment, and housing shortages. ___ issues had been predicted by several economists.",
+      "options": ["These", "This", "Such", "Those"],
+      "answer": "These",
+      "explanation": "'These' correctly refers back to the plural list of issues just mentioned (nearby in context). 'These' is precise and direct; 'such' would refer to issues of that general type rather than the specific ones just listed."
+    },
+    {
+      "id": "cr-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the ambiguous reference.",
+      "prompt": "Which sentence has an unclear pronoun reference?",
+      "options": [
+        "The government passed the bill. This legislation takes effect in January.",
+        "The committee reviewed the report and the proposal. This was approved.",
+        "Two methods were tested. The latter proved more reliable.",
+        "She decided to apply for the grant. She did so within the deadline."
+      ],
+      "answer": "The committee reviewed the report and the proposal. This was approved.",
+      "explanation": "'This' is ambiguous — it could refer to either 'the report' or 'the proposal'. The reference should be clarified: 'The report was approved' or 'The latter was approved.'"
+    },
+    {
+      "id": "cr-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "Which sentence incorrectly uses 'the former' or 'the latter'?",
+      "options": [
+        "The study compared Group A and Group B. The former showed greater improvement.",
+        "Three approaches were considered. The former was most cost-effective.",
+        "Speed and accuracy were both assessed. The latter proved more important.",
+        "The company weighed expansion against consolidation. The latter was safer."
+      ],
+      "answer": "Three approaches were considered. The former was most cost-effective.",
+      "explanation": "'The former' and 'the latter' can only refer to the first and second of exactly two previously mentioned items. With three approaches, 'the former' is ambiguous. Use 'the first' or repeat the noun."
+    },
+    {
+      "id": "cr-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence with an incorrect use of 'do so'.",
+      "prompt": "Which sentence misuses 'do so'?",
+      "options": [
+        "If you wish to appeal the decision, you may do so within 30 days.",
+        "The team planned to submit early and did so on Monday.",
+        "The building appeared old and it did so for decades.",
+        "Applicants who fail the test may retake it. They must do so within six months."
+      ],
+      "answer": "The building appeared old and it did so for decades.",
+      "explanation": "'Appeared' is a stative verb. 'Do so' cannot substitute for stative verbs — it only replaces action verb phrases. The sentence should be rewritten: 'The building had appeared old for decades.'"
+    },
+    {
+      "id": "cr-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error with 'such'.",
+      "prompt": "Which sentence incorrectly uses 'such'?",
+      "options": [
+        "Such findings suggest a need for further investigation.",
+        "Such a findings confirm the theory.",
+        "Such behaviour is not tolerated in academic settings.",
+        "Such evidence was difficult to ignore."
+      ],
+      "answer": "Such a findings confirm the theory.",
+      "explanation": "When 'such' refers back to a type or category, it does not take an indefinite article. Also, 'findings' is plural — 'a findings' is doubly wrong. Correct: 'Such findings confirm the theory.'"
+    },
+    {
+      "id": "cr-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the incorrect sentence.",
+      "prompt": "Which sentence incorrectly uses 'it' instead of 'one'?",
+      "options": [
+        "I lost my phone. I need to buy a new one.",
+        "The key was on the table. She picked it up.",
+        "I need a laptop. Can I borrow it?",
+        "These chairs are taken. Use the ones in the corner."
+      ],
+      "answer": "I need a laptop. Can I borrow it?",
+      "explanation": "'It' refers to a specific, already-identified item. Here, no specific laptop has been established — the speaker means any laptop. Use 'one': 'Can I borrow one?' — referring to a non-specific member of the category."
+    },
+    {
+      "id": "cr-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the reference error.",
+      "prompt": "What is wrong with: 'The manager approved the contract and the invoice. That caused confusion among staff.'?",
+      "options": [
+        "Nothing — the sentence is correct.",
+        "'That' is ambiguous — it is unclear whether the contract, the invoice, or both caused confusion.",
+        "'That' should be replaced with 'it' because the nouns are singular.",
+        "'That' can only refer to a single clause, not a noun."
+      ],
+      "answer": "'That' is ambiguous — it is unclear whether the contract, the invoice, or both caused confusion.",
+      "explanation": "When 'that' (or 'this') could refer to multiple previously mentioned nouns, the reference is ambiguous. Fix: 'These approvals caused confusion' or 'Approving both documents caused confusion.'"
+    },
+    {
+      "id": "cr-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the redundant use of 'ones'.",
+      "prompt": "Which sentence contains a redundant use of 'ones'?",
+      "options": [
+        "Of the two designs, the simpler one is preferred.",
+        "These chairs are broken. Use the ones by the window.",
+        "Of the two options, these ones are more cost-effective.",
+        "Can you hand me the red one?"
+      ],
+      "answer": "Of the two options, these ones are more cost-effective.",
+      "explanation": "'These' alone functions as a pronoun here. Adding 'ones' is redundant — 'these are more cost-effective' is the correct form. 'These ones' is a common informal spoken expression but is redundant in formal writing."
+    },
+    {
+      "id": "cr-mc-question-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the best device to complete the sentence.",
+      "prompt": "The study compared two vaccines: Vaccine A and Vaccine B. ___ showed a 90% efficacy rate, while ___ showed 85%.",
+      "options": [
+        "The former / the latter",
+        "This / that",
+        "The first one / the second",
+        "Such / those"
+      ],
+      "answer": "The former / the latter",
+      "explanation": "'The former' (Vaccine A, mentioned first) and 'the latter' (Vaccine B, mentioned second) are the most elegant and formal devices for referring back to exactly two items."
+    },
+    {
+      "id": "cr-mc-question-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct option.",
+      "prompt": "The board decided to postpone the meeting. They ___ after a brief discussion.",
+      "options": ["did so", "did it", "made so", "did that"],
+      "answer": "did so",
+      "explanation": "'Did so' substitutes formally for the verb phrase 'postponed the meeting'. 'Did it' is informal; 'made so' is not a standard substitution; 'did that' could work informally but 'did so' is preferred in formal writing."
+    },
+    {
+      "id": "cr-mc-question-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct option.",
+      "prompt": "Researchers have documented numerous cases of antibiotic resistance in hospitals. ___ cases represent a serious public health threat.",
+      "options": ["Such", "This", "The", "Those"],
+      "answer": "Such",
+      "explanation": "'Such cases' uses 'such' as a formal back-reference device pointing to the type of cases just described (antibiotic resistance in hospitals). It is more formal and precise than 'those cases' for academic contexts."
+    },
+    {
+      "id": "cr-mc-question-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the most cohesive rewrite.",
+      "prompt": "Choose the best rewrite of: 'The researcher collected data. After the researcher collected data, the researcher analysed the data.'",
+      "options": [
+        "The researcher collected data. After collecting it, she analysed it.",
+        "The researcher collected data and then the researcher analysed the data.",
+        "The researcher collected data. After the researcher did, she analysed the data.",
+        "The researcher collected data. After data collection, the data was analysed."
+      ],
+      "answer": "The researcher collected data. After collecting it, she analysed it.",
+      "explanation": "Using 'it' to replace 'data' and a gerund phrase ('after collecting') avoids repetition. This is the most concise and cohesive active-voice rewrite."
+    },
+    {
+      "id": "cr-mc-question-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct device.",
+      "prompt": "The company released its annual report. ___ revealed a 15% increase in net profit.",
+      "options": ["This", "Such", "The former", "One"],
+      "answer": "This",
+      "explanation": "'This' refers back to the specific document just mentioned (the annual report). It is the most natural and clear reference. 'Such' would refer to a category, not a specific document. 'The former' and 'one' are not appropriate here."
+    },
+    {
+      "id": "cr-mc-question-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct option.",
+      "prompt": "Among all the models tested, the neural network ___ performed best.",
+      "options": ["one", "it", "the one", "ones"],
+      "answer": "the one",
+      "explanation": "Here, 'the one' substitutes for 'the neural network model' — referring to a specific one that has been identified within a group. 'It' would also work, but 'the one' is more emphatic. 'One' without 'the' implies non-specific reference."
+    }
+  ]
+}

@@ -1,1 +1,184 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "nc-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the noun clause in the sentence.",
+      "prompt": "Everyone knows [that climate change is accelerating].",
+      "options": ["Subject", "Object", "Subject complement", "Appositive"],
+      "answer": "Object",
+      "explanation": "'That climate change is accelerating' is the object of the verb 'knows' — it answers 'what does everyone know?'"
+    },
+    {
+      "id": "nc-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct that-clause structure.",
+      "prompt": "___ she passed with distinction surprised everyone.",
+      "options": ["Which", "What", "That", "How"],
+      "answer": "That",
+      "explanation": "'That' introduces a noun clause as subject — a complete factual statement. 'What' = indirect question (not a statement). 'Which/How' don't introduce subject noun clauses here."
+    },
+    {
+      "id": "nc-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech transformation.",
+      "prompt": "She said: 'I will submit the assignment tomorrow.' → She said ___ submit the assignment the next day.",
+      "options": ["that she will", "that she would", "she would", "Both B and C are correct."],
+      "answer": "Both B and C are correct.",
+      "explanation": "In reported speech, 'will' → 'would'. 'That' is optional in reported speech: 'she said (that) she would submit.' Both B and C are correct."
+    },
+    {
+      "id": "nc-test-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the reported question.",
+      "prompt": "He asked me where did I live.",
+      "options": [
+        "Should be 'where I lived' — indirect questions use statement word order.",
+        "Should be 'where do I live' — present tense needed.",
+        "Should be 'where was I living' — continuous needed.",
+        "No error — 'where did I live' is correct."
+      ],
+      "answer": "Should be 'where I lived' — indirect questions use statement word order.",
+      "explanation": "Indirect questions (reported) use statement word order (subject + verb), not question word order: 'He asked me where I lived.' Not 'where did I live.'"
+    },
+    {
+      "id": "nc-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dia bertanya apakah saya sudah makan.' → English (reported yes/no question):",
+      "prompt": "She asked me ___ I had eaten.",
+      "options": ["that", "if", "whether or not", "Both B and C are correct."],
+      "answer": "Both B and C are correct.",
+      "explanation": "Reported yes/no questions use 'if' or 'whether': 'She asked me if/whether I had eaten.' Both are correct. 'Whether or not' is slightly more emphatic."
+    },
+    {
+      "id": "nc-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct structure for a reported wh-question.",
+      "prompt": "The teacher asked ___ was late.",
+      "options": ["who", "who was", "who is", "that who"],
+      "answer": "who",
+      "explanation": "'Who' functions as the subject of the indirect question — statement word order: 'who was late.' When 'who' is the subject, no inversion is needed."
+    },
+    {
+      "id": "nc-test-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the reported speech.",
+      "prompt": "She told that she had already finished the project.",
+      "options": [
+        "Should be 'She told me that' or 'She said that' — 'tell' needs an object.",
+        "Should be 'She said to that' — different preposition.",
+        "Should be 'She told that she has finished' — present perfect stays.",
+        "No error — 'told that' is correct."
+      ],
+      "answer": "Should be 'She told me that' or 'She said that' — 'tell' needs an object.",
+      "explanation": "'Tell' always needs a direct object (tell someone): 'She told me that…' 'Say' does not need one: 'She said that…' 'Told that' without an object is incorrect."
+    },
+    {
+      "id": "nc-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence uses a noun clause as subject complement?",
+      "prompt": "___",
+      "options": [
+        "I know that she passed.",
+        "The truth is that nobody read the report.",
+        "That she passed surprised us.",
+        "She believes that practice makes perfect."
+      ],
+      "answer": "The truth is that nobody read the report.",
+      "explanation": "'The truth is [that nobody read the report]' — the noun clause follows a linking verb and completes the subject → subject complement. The other sentences use noun clauses as objects or subjects."
+    },
+    {
+      "id": "nc-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported command.",
+      "prompt": "The professor said: 'Submit your work by Friday.' → The professor told students ___ their work by Friday.",
+      "options": ["to submit", "that to submit", "should submit", "submitting"],
+      "answer": "to submit",
+      "explanation": "Reported commands: tell + object + to-infinitive. 'The professor told students to submit…' Not 'should submit' (for advice/suggestion) or 'that to submit' (wrong structure)."
+    },
+    {
+      "id": "nc-test-10",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the tense error in reported speech.",
+      "prompt": "She said she is going to attend the conference.",
+      "options": [
+        "Should be 'was going to attend' — backshift required.",
+        "Should be 'will attend' — future form needed.",
+        "Should be 'would attend' — 'will' becomes 'would'.",
+        "No error — present tense is allowed in reported speech."
+      ],
+      "answer": "Should be 'was going to attend' — backshift required.",
+      "explanation": "When the reporting verb is past ('said'), the verb in the reported clause usually backshifts: 'is going to' → 'was going to'. 'She said she was going to attend.'"
+    },
+    {
+      "id": "nc-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct noun clause after 'wonder'.",
+      "prompt": "I wonder ___ she received my email.",
+      "options": ["that", "if", "which", "who"],
+      "answer": "if",
+      "explanation": "'Wonder' followed by a yes/no question takes 'if' or 'whether': 'I wonder if she received my email.' 'That' is for factual statements, not questions."
+    },
+    {
+      "id": "nc-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya tidak tahu mengapa dia tidak hadir.' → English:",
+      "prompt": "I don't know ___ she didn't attend.",
+      "options": ["that why", "why", "whether why", "if why"],
+      "answer": "why",
+      "explanation": "'Mengapa' = why → indirect wh-question with 'why'. Statement word order: 'I don't know why she didn't attend.' No auxiliary inversion in indirect questions."
+    },
+    {
+      "id": "nc-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct appositive noun clause.",
+      "prompt": "The fact ___ she completed the programme in three years is remarkable.",
+      "options": ["which", "that", "what", "when"],
+      "answer": "that",
+      "explanation": "'That' introduces an appositive noun clause that renames 'the fact'. 'The fact that she completed…' = what the fact is. 'Which' would introduce a relative clause (modifying), not a noun clause."
+    },
+    {
+      "id": "nc-test-14",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the indirect question with incorrect word order.",
+      "prompt": "___",
+      "options": [
+        "She asked where the meeting room was.",
+        "I want to know how long the seminar will last.",
+        "Can you tell me what time does the library close?",
+        "He wondered whether the results had been published."
+      ],
+      "answer": "Can you tell me what time does the library close?",
+      "explanation": "Indirect questions use statement word order: 'what time the library closes.' Not 'what time does the library close' (question word order belongs in direct questions)."
+    },
+    {
+      "id": "nc-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses a noun clause as object with correct backshift?",
+      "prompt": "___",
+      "options": [
+        "He told me that the event starts at 7 pm. (reported from yesterday)",
+        "He told me that the event started at 7 pm.",
+        "He told me the event will start at 7 pm.",
+        "He told me that does the event start at 7 pm."
+      ],
+      "answer": "He told me that the event started at 7 pm.",
+      "explanation": "Past reporting verb ('told') → backshift: 'starts' → 'started'. 'He told me that the event started at 7 pm' is correct reported speech."
+    }
+  ]
+}

@@ -1,1 +1,229 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "pf-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future simple passive.",
+      "prompt": "The winners ___ at the ceremony next week.",
+      "options": ["will announce", "will be announced", "will been announced", "are announced"],
+      "answer": "will be announced",
+      "explanation": "Future simple passive: will + be + V3. 'The winners' receive the action."
+    },
+    {
+      "id": "pf-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'going to' passive.",
+      "prompt": "Three new branches ___ in Surabaya next quarter.",
+      "options": ["is going to open", "are going to be opened", "will been opened", "is going to be opened"],
+      "answer": "are going to be opened",
+      "explanation": "'Three new branches' = plural → 'are going to be'. going to passive: are/is + going to + be + V3."
+    },
+    {
+      "id": "pf-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive infinitive after 'needs'.",
+      "prompt": "This contract ___ by a lawyer before you sign.",
+      "options": ["needs checked", "needs to check", "needs to be checked", "need be checked"],
+      "answer": "needs to be checked",
+      "explanation": "After 'needs', use to be + V3: 'needs to be checked'. 'Needs checked' omits 'to be'."
+    },
+    {
+      "id": "pf-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive infinitive after 'supposed'.",
+      "prompt": "The report ___ by Friday, but it hasn't been submitted.",
+      "options": ["is supposed to submit", "is supposed to be submitted", "supposed to submit", "is supposed submitting"],
+      "answer": "is supposed to be submitted",
+      "explanation": "Be supposed to + be + V3. The report doesn't submit itself — passive required."
+    },
+    {
+      "id": "pf-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the future passive.",
+      "prompt": "___",
+      "options": [
+        "The new policy will be implemented next month.",
+        "All applications will be reviewed by the committee.",
+        "The announcement will been made tomorrow.",
+        "New equipment will be purchased next year."
+      ],
+      "answer": "The announcement will been made tomorrow.",
+      "explanation": "'Will been' is not correct. Future passive: will + be + V3. Correct: 'will be made'."
+    },
+    {
+      "id": "pf-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative future passive.",
+      "prompt": "The results ___ until all data has been verified.",
+      "options": ["will not be released", "will not released", "won't released", "will be not released"],
+      "answer": "will not be released",
+      "explanation": "Future passive negative: will + not + be + V3. The negation goes between 'will' and 'be'."
+    },
+    {
+      "id": "pf-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the passive infinitive error.",
+      "prompt": "___",
+      "options": [
+        "This issue needs to be addressed urgently.",
+        "All fees have to be paid in advance.",
+        "The form appears to be filled correctly.",
+        "The data tends to be misinterpreted by beginners."
+      ],
+      "answer": "The form appears to be filled correctly.",
+      "explanation": "Ambiguous but acceptable. More precisely: 'appears to have been filled' (completed) or 'appears to be filled in' (the filling is the process). Context determines — this is not a clear error, but watch for 'seems/appears to be + V3' vs 'to have been + V3'."
+    },
+    {
+      "id": "pf-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct future passive question.",
+      "prompt": "___ the new offices ___ before the end of the year?",
+      "options": ["Will / be completed", "Will / been completed", "Are / going to completed", "Will / be complete"],
+      "answer": "Will / be completed",
+      "explanation": "Future passive question: Will + subject + be + V3. 'Completed' is the V3."
+    },
+    {
+      "id": "pf-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct passive infinitive question.",
+      "prompt": "Does this document ___ by both parties?",
+      "options": ["need signed", "need to sign", "need to be signed", "needs to be signing"],
+      "answer": "need to be signed",
+      "explanation": "Passive infinitive after 'need': need + to be + V3. The document is signed by parties (passive)."
+    },
+    {
+      "id": "pf-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Hasilnya akan diumumkan besok.' → English:",
+      "prompt": "The results ___ tomorrow.",
+      "options": ["are announced", "will be announced", "will announced", "are going to announced"],
+      "answer": "will be announced",
+      "explanation": "'Akan diumumkan' = will be announced. Future simple passive: will + be + V3."
+    },
+    {
+      "id": "pf-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct perfect passive infinitive.",
+      "prompt": "The documents appear ___ tampered with.",
+      "options": ["to be", "to have been", "to been", "being"],
+      "answer": "to have been",
+      "explanation": "Perfect passive infinitive: to have been + V3. Completed action before now: 'appear to have been tampered with'."
+    },
+    {
+      "id": "pf-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Formulir ini perlu diisi lengkap.' → English:",
+      "prompt": "This form ___ in full.",
+      "options": ["needs filled", "needs to fill", "needs to be filled", "need being filled"],
+      "answer": "needs to be filled",
+      "explanation": "'Perlu diisi' = needs to be filled. Passive infinitive: needs + to be + V3."
+    },
+    {
+      "id": "pf-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses 'be about to be' correctly?",
+      "prompt": "___",
+      "options": [
+        "The results are about to announcing.",
+        "The results are about to be announced.",
+        "The results about to be announced.",
+        "The results will about to be announced."
+      ],
+      "answer": "The results are about to be announced.",
+      "explanation": "'Be about to' passive: am/is/are + about to + be + V3."
+    },
+    {
+      "id": "pf-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the passive form after 'seem'.",
+      "prompt": "The error ___ introduced during the data entry process.",
+      "options": ["seems to introduce", "seems to be introducing", "seems to have been introduced", "seems been introduced"],
+      "answer": "seems to have been introduced",
+      "explanation": "Perfect passive infinitive after 'seem': seems + to have been + V3. The error was introduced at a past point."
+    },
+    {
+      "id": "pf-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correctly formed going-to passive.",
+      "prompt": "The old market ___ to make way for a new shopping centre.",
+      "options": ["is going to demolish", "are going to be demolished", "is going to be demolished", "will demolished"],
+      "answer": "is going to be demolished",
+      "explanation": "'The old market' = singular → 'is going to be demolished'. Going-to passive: is + going to + be + V3."
+    },
+    {
+      "id": "pf-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Active to passive: 'They will send the package on Friday.' → Passive:",
+      "prompt": "The package ___ on Friday.",
+      "options": ["will send", "will be sent", "is going to send", "will been sent"],
+      "answer": "will be sent",
+      "explanation": "Future simple active → future simple passive. will + be + V3: 'will be sent'."
+    },
+    {
+      "id": "pf-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive infinitive after 'have to'.",
+      "prompt": "All invoices ___ to the finance department by the 30th.",
+      "options": ["have to submit", "have to be submitting", "have to be submitted", "has to be submitted"],
+      "answer": "have to be submitted",
+      "explanation": "Have to + be + V3. 'All invoices' = plural → 'have to'. Passive: have to be submitted."
+    },
+    {
+      "id": "pf-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the going-to passive agreement error.",
+      "prompt": "___",
+      "options": [
+        "The new policy is going to be introduced next month.",
+        "Several factories are going to be closed.",
+        "New guidelines is going to be issued next quarter.",
+        "The project is going to be cancelled."
+      ],
+      "answer": "New guidelines is going to be issued next quarter.",
+      "explanation": "'New guidelines' = plural → 'are going to be issued'. 'Is' is incorrect for a plural subject."
+    },
+    {
+      "id": "pf-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the sentence where the passive infinitive is correctly used.",
+      "prompt": "___",
+      "options": [
+        "There is a lot to do before the deadline.",
+        "There is a lot to be done before the deadline.",
+        "Both A and B are correct.",
+        "Neither is correct — passive infinitive cannot be used here."
+      ],
+      "answer": "Both A and B are correct.",
+      "explanation": "'A lot to do' (active infinitive, implied agent = we) and 'a lot to be done' (passive infinitive) are both grammatically correct. The passive emphasises the tasks themselves."
+    },
+    {
+      "id": "pf-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Kebijakan baru akan diterapkan bulan depan.' → English:",
+      "prompt": "The new policy ___ next month.",
+      "options": ["will implement", "will be implemented", "is being implemented", "has been implemented"],
+      "answer": "will be implemented",
+      "explanation": "'Akan diterapkan' = will be implemented. Future passive: will + be + V3."
+    }
+  ]
+}

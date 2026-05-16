@@ -1,0 +1,274 @@
+{
+  "exercises": [
+    {
+      "id": "zc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct zero conditional form.",
+      "prompt": "If you heat water to 100°C, it ___.",
+      "options": ["will boil", "boils", "boiled", "would boil"],
+      "answer": "boils",
+      "explanation": "Zero conditional = universal scientific fact → present simple in both clauses. 'Will boil' changes it to a first conditional prediction."
+    },
+    {
+      "id": "zc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct if-clause for a zero conditional.",
+      "prompt": "___ you mix blue and yellow, you get green.",
+      "options": ["When", "If", "Both are correct.", "Unless"],
+      "answer": "Both are correct.",
+      "explanation": "In zero conditionals, 'when' and 'if' are interchangeable for expressing universal truths. Both are correct."
+    },
+    {
+      "id": "zc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct zero conditional for a general truth.",
+      "prompt": "Plants die if they ___ enough water.",
+      "options": ["don't get", "won't get", "didn't get", "wouldn't get"],
+      "answer": "don't get",
+      "explanation": "Zero conditional negative: if + don't/doesn't + V1. General truth about plants → present simple."
+    },
+    {
+      "id": "zc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the zero conditional (universal truth).",
+      "prompt": "___",
+      "options": [
+        "If it rains tomorrow, I will stay home.",
+        "If she had studied, she would have passed.",
+        "If you press this button, the alarm sounds.",
+        "If I were you, I would apply."
+      ],
+      "answer": "If you press this button, the alarm sounds.",
+      "explanation": "This is a cause-and-effect fact — pressing always triggers the alarm → zero conditional (present simple in both clauses)."
+    },
+    {
+      "id": "zc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct result clause.",
+      "prompt": "If the temperature drops below 0°C, water ___.",
+      "options": ["will freeze", "freezes", "froze", "would freeze"],
+      "answer": "freezes",
+      "explanation": "Scientific fact → zero conditional. Present simple in result clause: 'freezes'. 'Will freeze' would make it a first conditional."
+    },
+    {
+      "id": "zc-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Jika kamu memanaskan logam, ia memuai.' → English:",
+      "prompt": "If you ___ metal, it ___.",
+      "options": ["heated / expanded", "heat / expands", "will heat / expands", "heat / will expand"],
+      "answer": "heat / expands",
+      "explanation": "Zero conditional: both clauses in present simple. 'If you heat metal, it expands' = scientific fact."
+    },
+    {
+      "id": "zc-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence where the result clause comes first (no comma needed).",
+      "prompt": "___",
+      "options": [
+        "Ice melts if, you heat it.",
+        "Ice melts if you heat it.",
+        "Ice, melts if you heat it.",
+        "If ice melts, you heated it."
+      ],
+      "answer": "Ice melts if you heat it.",
+      "explanation": "When the result clause comes first, no comma is needed. When the if-clause comes first, a comma is needed: 'If you heat it, ice melts.'"
+    },
+    {
+      "id": "zc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the zero conditional error.",
+      "prompt": "If you mix red and blue, you will get purple.",
+      "options": [
+        "Should be 'get' — zero conditional uses present simple, not 'will'.",
+        "Should be 'would get' — hypothetical result needed.",
+        "Should be 'got' — past simple for scientific facts.",
+        "No error — 'will get' is correct in zero conditionals."
+      ],
+      "answer": "Should be 'get' — zero conditional uses present simple, not 'will'.",
+      "explanation": "Zero conditional result clause: present simple, not 'will'. 'If you mix red and blue, you get purple.'"
+    },
+    {
+      "id": "zc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that is NOT a zero conditional.",
+      "prompt": "___",
+      "options": [
+        "If you heat wax, it melts.",
+        "If you don't sleep enough, you feel tired.",
+        "If it rains tomorrow, we will cancel the trip.",
+        "If you drop an object, gravity pulls it down."
+      ],
+      "answer": "If it rains tomorrow, we will cancel the trip.",
+      "explanation": "'If it rains tomorrow, we will cancel' is a first conditional — a specific future prediction, not a universal truth. The others are all zero conditionals."
+    },
+    {
+      "id": "zc-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the punctuation error.",
+      "prompt": "If you exercise regularly you maintain good health.",
+      "options": [
+        "Should have a comma after 'regularly' — if-clause first needs a comma.",
+        "Should have a comma before 'if' — different position needed.",
+        "Should have a semicolon after 'regularly'.",
+        "No error — no comma is needed here."
+      ],
+      "answer": "Should have a comma after 'regularly' — if-clause first needs a comma.",
+      "explanation": "When the if-clause comes first, it must be followed by a comma: 'If you exercise regularly, you maintain good health.'"
+    },
+    {
+      "id": "zc-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the zero conditional error.",
+      "prompt": "___",
+      "options": [
+        "When you mix acid and water, heat is produced.",
+        "If bacteria multiply rapidly, they cause infection.",
+        "If you heated ice, it melted. (describing a general truth)",
+        "Plants wilt if they don't receive sunlight."
+      ],
+      "answer": "If you heated ice, it melted. (describing a general truth)",
+      "explanation": "Zero conditionals use present simple for general truths — not past tense. Correct: 'If you heat ice, it melts.'"
+    },
+    {
+      "id": "zc-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that incorrectly mixes conditional types.",
+      "prompt": "___",
+      "options": [
+        "If you press the button, the door opens.",
+        "If iron gets wet, it would rust.",
+        "If you don't eat, you get hungry.",
+        "When you exercise, your heart rate increases."
+      ],
+      "answer": "If iron gets wet, it would rust.",
+      "explanation": "'If iron gets wet' (present simple) + 'it would rust' (second conditional result) is a mixed conditional error. For a general truth: 'If iron gets wet, it rusts.' For hypothetical: 'If iron were wet, it would rust.'"
+    },
+    {
+      "id": "zc-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative zero conditional.",
+      "prompt": "If students ___ regularly, their vocabulary ___ not improve.",
+      "options": ["don't practise / does", "don't practise / doesn't", "didn't practise / didn't", "won't practise / won't"],
+      "answer": "don't practise / doesn't",
+      "explanation": "Zero conditional negative: both clauses present simple. 'Students' (plural) → 'don't practise'. 'Vocabulary' (singular) → 'doesn't improve'."
+    },
+    {
+      "id": "zc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Form the correct zero conditional question.",
+      "prompt": "What ___ if you ___ salt in water?",
+      "options": ["happens / dissolve", "happens / dissolves", "happens / dissolving", "happened / dissolve"],
+      "answer": "happens / dissolves",
+      "explanation": "Zero conditional question: what + happens (present simple) + if + dissolves (present simple). 'Salt' = singular → 'dissolves'."
+    },
+    {
+      "id": "zc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Apa yang terjadi jika kamu mencampur asam dan basa?' → English:",
+      "prompt": "What ___ if you ___ acid and base?",
+      "options": ["will happen / mix", "happens / mix", "happened / mixed", "would happen / mixed"],
+      "answer": "happens / mix",
+      "explanation": "Zero conditional question about a scientific fact → present simple in both parts. 'What happens if you mix…?'"
+    },
+    {
+      "id": "zc-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'when' as an alternative to 'if' in a zero conditional?",
+      "prompt": "___",
+      "options": [
+        "'When' can replace 'if' in zero conditionals without changing meaning.",
+        "'When' makes the condition more certain than 'if'.",
+        "'When' cannot be used in zero conditionals.",
+        "'When' is only used for future events, not general truths."
+      ],
+      "answer": "'When' can replace 'if' in zero conditionals without changing meaning.",
+      "explanation": "In zero conditionals expressing universal truths, 'when' and 'if' are interchangeable: 'If you heat water, it boils' = 'When you heat water, it boils.'"
+    },
+    {
+      "id": "zc-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct zero conditional for a cause-effect relationship in biology.",
+      "prompt": "If a cell ___ enough nutrients, it ___ to divide.",
+      "options": ["receives / stops", "received / stops", "will receive / stops", "receives / will stop"],
+      "answer": "receives / stops",
+      "explanation": "Biological fact → zero conditional: present simple in both clauses. 'Receives' (third person singular) and 'stops'."
+    },
+    {
+      "id": "zc-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly distinguishes zero from first conditional.",
+      "prompt": "___",
+      "options": [
+        "Zero: If you heat ice, it will melt. First: If you heat ice, it melts.",
+        "Zero: If you heat ice, it melts. First: If you heat ice, it will melt.",
+        "Zero and first are identical in structure.",
+        "Zero: When you heat ice, it would melt. First: If you heat ice, it melts."
+      ],
+      "answer": "Zero: If you heat ice, it melts. First: If you heat ice, it will melt.",
+      "explanation": "Zero conditional: present simple + present simple (universal truth). First conditional: present simple + will + V1 (future prediction about a specific situation)."
+    },
+    {
+      "id": "zc-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the correctly formed negative zero conditional.",
+      "prompt": "___",
+      "options": [
+        "If you won't water the plants, they die.",
+        "If you don't water the plants, they die.",
+        "If you didn't water the plants, they would die.",
+        "Unless you water the plants, they will die."
+      ],
+      "answer": "If you don't water the plants, they die.",
+      "explanation": "'If you don't water the plants, they die' = zero conditional (general truth). The others use 'will', past tense, or 'would' — different conditional types."
+    },
+    {
+      "id": "zc-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which zero conditional best expresses a general truth about human health?",
+      "prompt": "___",
+      "options": [
+        "If you will exercise, you stay healthy.",
+        "If you exercise regularly, you stay healthier.",
+        "If you exercised, you would be healthy.",
+        "If you are exercising, you will stay healthy."
+      ],
+      "answer": "If you exercise regularly, you stay healthier.",
+      "explanation": "Zero conditional: 'If you exercise regularly, you stay healthier.' Present simple in both clauses. Expresses a general truth about health."
+    },
+    {
+      "id": "zc-mc-pos-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Kalau kamu tidak tidur cukup, kamu merasa lelah.' → English:",
+      "prompt": "If you ___ enough sleep, you ___ tired.",
+      "options": [
+        "won't get / feel",
+        "don't get / feel",
+        "didn't get / would feel",
+        "don't get / will feel"
+      ],
+      "answer": "don't get / feel",
+      "explanation": "'Tidak tidur cukup' = don't get enough sleep. Zero conditional: both present simple. 'If you don't get enough sleep, you feel tired' = universal truth."
+    }
+  ]
+}

@@ -1,1 +1,174 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "sva-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form.",
+      "prompt": "The committee ___ meeting tomorrow to discuss the budget.",
+      "options": ["are", "is", "were", "have been"],
+      "answer": "is",
+      "explanation": "Collective nouns (committee, team, government, family) take singular verbs in American English and often in formal British English: 'The committee is meeting.'"
+    },
+    {
+      "id": "sva-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form.",
+      "prompt": "Neither the manager nor the employees ___ aware of the policy change.",
+      "options": ["is", "are", "was", "were"],
+      "answer": "are",
+      "explanation": "Neither…nor: the verb agrees with the closer subject ('the employees' = plural) → 'are'. This is the proximity rule."
+    },
+    {
+      "id": "sva-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form.",
+      "prompt": "The quality of the reports ___ improved significantly this year.",
+      "options": ["have", "has", "are", "were"],
+      "answer": "has",
+      "explanation": "The subject is 'the quality' (singular), not 'the reports'. A prepositional phrase ('of the reports') between subject and verb does not change agreement."
+    },
+    {
+      "id": "sva-test-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the subject-verb agreement error.",
+      "prompt": "___",
+      "options": [
+        "Each of the students has a laptop.",
+        "The data suggests a positive trend.",
+        "Economics are considered a difficult subject.",
+        "Everyone in the team has signed the form."
+      ],
+      "answer": "Economics are considered a difficult subject.",
+      "explanation": "Academic subjects ending in '-ics' (economics, mathematics, physics, politics) are singular: 'Economics is considered a difficult subject.'"
+    },
+    {
+      "id": "sva-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for an indefinite pronoun.",
+      "prompt": "Everyone in the lecture hall ___ expected to turn off their phone.",
+      "options": ["are", "is", "were", "have been"],
+      "answer": "is",
+      "explanation": "Indefinite pronouns (everyone, someone, anyone, nobody, each) are always singular → singular verb: 'Everyone is expected.'"
+    },
+    {
+      "id": "sva-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for a subject with 'as well as'.",
+      "prompt": "The director, as well as her assistants, ___ reviewed the final report.",
+      "options": ["have", "has", "were", "are"],
+      "answer": "has",
+      "explanation": "'As well as', 'together with', 'along with' are not coordinating conjunctions — the subject is still 'the director' (singular) → 'has reviewed'."
+    },
+    {
+      "id": "sva-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for a title or quoted phrase.",
+      "prompt": "'The Proceedings of the Annual Conference' ___ published last month.",
+      "options": ["were", "was", "are", "have been"],
+      "answer": "was",
+      "explanation": "Titles of works (books, journals, publications) take singular verbs even when the title sounds plural: 'The Proceedings…was published.'"
+    },
+    {
+      "id": "sva-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for 'a number of' vs 'the number of'.",
+      "prompt": "A number of participants ___ withdrawn from the study.",
+      "options": ["has", "have", "is", "was"],
+      "answer": "have",
+      "explanation": "'A number of + plural noun' = plural verb: 'A number of participants have withdrawn.' 'The number of + plural noun' = singular verb: 'The number of participants has increased.'"
+    },
+    {
+      "id": "sva-test-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "The number of applications have increased this year.",
+      "options": [
+        "Should be 'has increased' — 'the number of' takes singular verb.",
+        "Should be 'have been increasing' — continuous form needed.",
+        "Should be 'a number of' — plural verb is correct.",
+        "No error — 'have increased' is correct."
+      ],
+      "answer": "Should be 'has increased' — 'the number of' takes singular verb.",
+      "explanation": "'The number of' = singular subject → singular verb. 'The number of applications has increased.' (vs 'A number of applications have increased.')"
+    },
+    {
+      "id": "sva-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for an 'either…or' construction.",
+      "prompt": "Either the students or the professor ___ responsible for scheduling the room.",
+      "options": ["are", "is", "were", "have been"],
+      "answer": "is",
+      "explanation": "Either…or: agree with the closer subject. 'The professor' = singular → 'is responsible'. Proximity rule applies."
+    },
+    {
+      "id": "sva-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for a gerund subject.",
+      "prompt": "Conducting research in tropical environments ___ specific challenges.",
+      "options": ["present", "presents", "present with", "are presenting"],
+      "answer": "presents",
+      "explanation": "Gerund phrases as subjects are singular → singular verb: 'Conducting research presents challenges.' A gerund phrase always takes a third-person singular verb."
+    },
+    {
+      "id": "sva-test-12",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the advanced SVA error.",
+      "prompt": "___",
+      "options": [
+        "The team has submitted all deliverables on time.",
+        "None of the data were corrupted during transfer.",
+        "Five kilometres is a long distance to run.",
+        "The majority of students has passed the final exam."
+      ],
+      "answer": "The majority of students has passed the final exam.",
+      "explanation": "'The majority of students' — when 'majority of' is followed by a plural noun referring to people, a plural verb is preferred: 'The majority of students have passed.' 'Has' is technically allowed but unusual."
+    },
+    {
+      "id": "sva-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for a measurement as subject.",
+      "prompt": "Fifty percent of the data ___ been corrupted.",
+      "options": ["have", "has", "are", "were"],
+      "answer": "has",
+      "explanation": "'Data' is uncountable in formal/academic English → singular: 'fifty percent of the data has been corrupted.' If 'data' were treated as plural: 'have'."
+    },
+    {
+      "id": "sva-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Tidak ada yang tahu jawabannya.' → English:",
+      "prompt": "Nobody ___ the answer.",
+      "options": ["know", "knows", "have known", "are knowing"],
+      "answer": "knows",
+      "explanation": "'Nobody' = singular indefinite pronoun → singular verb: 'Nobody knows.' 'Know' (base form) would be wrong for third-person singular."
+    },
+    {
+      "id": "sva-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence is correct?",
+      "prompt": "___",
+      "options": [
+        "The news are shocking.",
+        "Mathematics are my favourite subject.",
+        "The police have arrested three suspects.",
+        "The staff is all working from home."
+      ],
+      "answer": "The police have arrested three suspects.",
+      "explanation": "'Police' is always treated as a plural noun in English → plural verb: 'The police have arrested.' 'News' and 'mathematics' are singular. 'Staff' can be singular or plural depending on context."
+    }
+  ]
+}

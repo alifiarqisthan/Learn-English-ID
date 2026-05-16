@@ -1,0 +1,219 @@
+{
+  "exercises": [
+    {
+      "id": "mh-master-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for present ability.",
+      "prompt": "She ___ speak three languages — she grew up in a multilingual household.",
+      "options": ["could", "can", "should", "might"],
+      "answer": "can",
+      "explanation": "Present ability → 'can'. 'Could' implies past ability or uncertainty. 'Can speak' = she has this ability now."
+    },
+    {
+      "id": "mh-master-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for past obligation.",
+      "prompt": "She ___ retake the exam because she failed by two marks.",
+      "options": ["must", "had to", "has to", "should"],
+      "answer": "had to",
+      "explanation": "'Must' has no past form. Use 'had to' for past obligation. The exam was already retaken."
+    },
+    {
+      "id": "mh-master-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the critical distinction.",
+      "prompt": "You ___ bring a dictionary — it's optional.",
+      "options": ["must not", "don't have to", "cannot", "should not"],
+      "answer": "don't have to",
+      "explanation": "'Don't have to' = no obligation (optional). 'Must not' = forbidden. These are completely different meanings."
+    },
+    {
+      "id": "mh-master-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for advice.",
+      "prompt": "You look exhausted. You ___ get some rest.",
+      "options": ["must", "should", "can", "would"],
+      "answer": "should",
+      "explanation": "Giving advice → 'should'. 'Must' is too strong (obligation). 'Should' = advisable."
+    },
+    {
+      "id": "mh-master-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for formal permission.",
+      "prompt": "___ I ask you a few questions for my research?",
+      "options": ["Can", "May", "Both are correct.", "Might"],
+      "answer": "Both are correct.",
+      "explanation": "Both 'Can I?' and 'May I?' ask permission. 'May I?' is more formal. 'Might I?' is archaic."
+    },
+    {
+      "id": "mh-master-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for logical deduction.",
+      "prompt": "The lights are off and the car is gone. She ___ be home.",
+      "options": ["should", "must not", "can't", "might"],
+      "answer": "can't",
+      "explanation": "The evidence (lights off, car gone) shows she's NOT home → strong negative deduction: 'can't be home'."
+    },
+    {
+      "id": "mh-master-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct strong positive past deduction.",
+      "prompt": "She got 100% — she ___ very hard for this exam.",
+      "options": ["might have studied", "could have studied", "must have studied", "should have studied"],
+      "answer": "must have studied",
+      "explanation": "Strong deduction from clear evidence → 'must have + V3'. The perfect score makes it near certain."
+    },
+    {
+      "id": "mh-master-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form for regret (the action didn't happen).",
+      "prompt": "I ___ harder for the exam — I only got a C.",
+      "options": ["should study", "should have studied", "had to study", "must have studied"],
+      "answer": "should have studied",
+      "explanation": "'Should have studied' = regret — the studying didn't happen. 'Must have studied' = deduction (it happened)."
+    },
+    {
+      "id": "mh-master-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the modal perfect structure.",
+      "prompt": "She should have went to the doctor sooner.",
+      "options": [
+        "Should be 'gone' — V3 required after 'have'.",
+        "Should be 'should went' — 'have' is not needed.",
+        "Should be 'should go' — base form after modal.",
+        "No error — 'went' is the past of 'go'."
+      ],
+      "answer": "Should be 'gone' — V3 required after 'have'.",
+      "explanation": "Modal perfect: modal + have + V3. 'Go' → V3 is 'gone', not 'went' (V2). Correct: 'should have gone.'"
+    },
+    {
+      "id": "mh-master-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form: 'Needn't have' vs 'didn't have to'.",
+      "prompt": "I ___ so many slides — they cut my presentation time.",
+      "options": ["didn't have to prepare", "needn't have prepared", "Both are correct.", "shouldn't prepare"],
+      "answer": "needn't have prepared",
+      "explanation": "'Needn't have prepared' = I did prepare, but it turned out unnecessary. 'Didn't have to prepare' implies I knew in advance and didn't do it."
+    },
+    {
+      "id": "mh-master-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Type 2 conditional result.",
+      "prompt": "If I won the lottery, I ___ travel around the world.",
+      "options": ["will", "would", "should", "could have"],
+      "answer": "would",
+      "explanation": "Type 2 (unreal present): if + V2 → would + V1 in the result clause."
+    },
+    {
+      "id": "mh-master-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Type 3 conditional result.",
+      "prompt": "If she had applied earlier, she ___ the scholarship.",
+      "options": ["would receive", "would have received", "will have received", "should have received"],
+      "answer": "would have received",
+      "explanation": "Type 3 (unreal past): if + had + V3 → would + have + V3. She didn't apply, so she didn't receive it."
+    },
+    {
+      "id": "mh-master-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'would' or 'used to' for a past habit with a stative verb.",
+      "prompt": "When I was a child, I ___ afraid of the dark.",
+      "options": ["would be", "used to be", "Both are correct.", "was used to be"],
+      "answer": "used to be",
+      "explanation": "'Be' is a stative verb. 'Would' is not used with stative verbs for past habits → 'used to be'."
+    },
+    {
+      "id": "mh-master-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best hedging modal for an academic claim.",
+      "prompt": "The increase in temperature ___ affect crop yields in tropical regions.",
+      "options": ["will", "may", "must", "shall"],
+      "answer": "may",
+      "explanation": "'May affect' = hedged academic claim (~50% possibility). 'Will' is too certain for an uncertain scientific relationship."
+    },
+    {
+      "id": "mh-master-15",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the over-hedged sentence.",
+      "prompt": "___",
+      "options": [
+        "This may indicate a trend in the data.",
+        "This might perhaps possibly indicate a trend.",
+        "This possibly indicates a trend.",
+        "This could suggest a pattern worth investigating."
+      ],
+      "answer": "This might perhaps possibly indicate a trend.",
+      "explanation": "Stacking three hedges ('might', 'perhaps', 'possibly') is over-hedging — redundant. Use one hedging device per claim."
+    },
+    {
+      "id": "mh-master-16",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct hedging verb to replace 'prove'.",
+      "prompt": "The data ___ a correlation between stress and academic performance.",
+      "options": ["proves", "suggests", "confirms completely", "establishes definitely"],
+      "answer": "suggests",
+      "explanation": "'Suggests' = cautious evidence-based interpretation. 'Proves' is too strong for data interpretation in academic writing."
+    },
+    {
+      "id": "mh-master-17",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'tend to' structure.",
+      "prompt": "Learners ___ rely on memorisation rather than contextual learning.",
+      "options": ["tend to", "tend to be", "tends to being", "tending to"],
+      "answer": "tend to",
+      "explanation": "'Tend to + V1' (base form): 'tend to rely'. Plural subject 'learners' → 'tend' (not 'tends')."
+    },
+    {
+      "id": "mh-master-18",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct approximator for a quantitative academic claim.",
+      "prompt": "___ 45% of respondents reported improved outcomes.",
+      "options": ["Exactly", "Approximately", "Completely", "Always"],
+      "answer": "Approximately",
+      "explanation": "'Approximately 45%' = hedged quantitative claim. Survey percentages should be hedged unless exact."
+    },
+    {
+      "id": "mh-master-19",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Seharusnya kamu menghubungi dia lebih awal.' → English:",
+      "prompt": "You ___ her earlier.",
+      "options": ["should contact", "should have contacted", "had to contact", "must have contacted"],
+      "answer": "should have contacted",
+      "explanation": "'Seharusnya [melakukan]' = you should have (but didn't) → 'should have contacted'. Past regret/criticism requires 'have + V3'."
+    },
+    {
+      "id": "mh-master-20",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the sentence with the best overall academic hedging.",
+      "prompt": "___",
+      "options": [
+        "This study proves that mindfulness reduces anxiety in all participants.",
+        "This study suggests that mindfulness may reduce anxiety in some participants.",
+        "This study might perhaps possibly suggest that mindfulness could reduce anxiety.",
+        "This study shows mindfulness will always reduce anxiety."
+      ],
+      "answer": "This study suggests that mindfulness may reduce anxiety in some participants.",
+      "explanation": "'Suggests' (hedging verb) + 'may reduce' (modal hedge) + 'some participants' (scope limiter) = ideal academic hedging without redundancy."
+    }
+  ]
+}

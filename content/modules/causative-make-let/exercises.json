@@ -1,1 +1,244 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cml-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative verb form.",
+      "prompt": "The teacher made the students ___ their essays.",
+      "options": ["rewrite", "to rewrite", "rewriting", "rewrote"],
+      "answer": "rewrite",
+      "explanation": "After causative 'make' in the active voice, use the bare infinitive (base verb, no 'to')."
+    },
+    {
+      "id": "cml-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative verb form.",
+      "prompt": "Her parents let her ___ out until midnight.",
+      "options": ["to stay", "stay", "stays", "staying"],
+      "answer": "stay",
+      "explanation": "After 'let', use the bare infinitive. 'To stay' is incorrect — no 'to' after 'let'."
+    },
+    {
+      "id": "cml-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative verb form.",
+      "prompt": "She got her neighbour ___ her cat while she was away.",
+      "options": ["feed", "to feed", "feeding", "fed"],
+      "answer": "to feed",
+      "explanation": "After 'get', use the full to-infinitive: 'got + object + to + base verb'."
+    },
+    {
+      "id": "cml-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative verb form.",
+      "prompt": "He helped his younger brother ___ the math problem.",
+      "options": ["solve", "to solve", "solved", "solving"],
+      "answer": "solve",
+      "explanation": "After 'help + object', the bare infinitive is correct. Both 'solve' and 'to solve' are acceptable; 'solve' (bare) is given here."
+    },
+    {
+      "id": "cml-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative structure.",
+      "prompt": "The cold weather made everyone ___ warm clothes.",
+      "options": ["wearing", "to wear", "wear", "wore"],
+      "answer": "wear",
+      "explanation": "Causative 'make' in active voice: 'make + object + bare infinitive'. 'Wear', not 'to wear' or 'wearing'."
+    },
+    {
+      "id": "cml-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct causative structure.",
+      "prompt": "The manager got the entire team ___ the presentation again.",
+      "options": ["rehearse", "to rehearse", "rehearsed", "rehearsing"],
+      "answer": "to rehearse",
+      "explanation": "'Get + object + to + base verb'. The to-infinitive is required after 'get'."
+    },
+    {
+      "id": "cml-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly describes compulsion.",
+      "prompt": "Which sentence means the students had no choice?",
+      "options": [
+        "The teacher let the students repeat the exercise.",
+        "The teacher made the students repeat the exercise.",
+        "The teacher got the students to repeat the exercise.",
+        "The teacher helped the students repeat the exercise."
+      ],
+      "answer": "The teacher made the students repeat the exercise.",
+      "explanation": "'Make' expresses compulsion — no choice. 'Let' = permission, 'get' = arrange/persuade, 'help' = assist."
+    },
+    {
+      "id": "cml-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the incorrect sentence.",
+      "prompt": "Which of the following is INCORRECT?",
+      "options": [
+        "She made him apologise.",
+        "She let him go home early.",
+        "She let him to leave the class.",
+        "She got him to sign the contract."
+      ],
+      "answer": "She let him to leave the class.",
+      "explanation": "After 'let', use the bare infinitive. 'To leave' is incorrect — it should be 'She let him leave the class'."
+    },
+    {
+      "id": "cml-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the incorrect sentence.",
+      "prompt": "Which of the following is INCORRECT?",
+      "options": [
+        "He helped her carry the boxes.",
+        "He helped her to carry the boxes.",
+        "He made her carrying the boxes.",
+        "He got her to carry the boxes."
+      ],
+      "answer": "He made her carrying the boxes.",
+      "explanation": "After causative 'make', use the bare infinitive, not the gerund. Correct: 'He made her carry the boxes'."
+    },
+    {
+      "id": "cml-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct passive causative form.",
+      "prompt": "Active: The boss made us work overtime. → Passive: We ___ overtime.",
+      "options": ["were made work", "were made to work", "were let to work", "were made working"],
+      "answer": "were made to work",
+      "explanation": "Passive of 'make': 'be made + to + base verb'. The 'to' reappears in the passive form."
+    },
+    {
+      "id": "cml-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct alternative to the passive of 'let'.",
+      "prompt": "Which sentence correctly expresses permission in the passive?",
+      "options": [
+        "The children were let to stay up late.",
+        "The children were allowed to stay up late.",
+        "The children were made to stay up late.",
+        "The children were let staying up late."
+      ],
+      "answer": "The children were allowed to stay up late.",
+      "explanation": "'Let' has no standard passive form. Use 'be allowed to' to express permission passively."
+    },
+    {
+      "id": "cml-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the incorrect sentence.",
+      "prompt": "Which of the following is INCORRECT?",
+      "options": [
+        "My parents made me to study every night.",
+        "My parents let me choose my own subjects.",
+        "My parents got me to practise the piano.",
+        "My parents helped me apply to university."
+      ],
+      "answer": "My parents made me to study every night.",
+      "explanation": "Active causative 'make' takes a bare infinitive. The correct form is 'made me study', not 'made me to study'."
+    },
+    {
+      "id": "cml-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct causative structure.",
+      "prompt": "The strict rule ___ all staff ___ their ID badges at all times.",
+      "options": ["made / to wear", "made / wear", "let / wore", "got / wearing"],
+      "answer": "made / wear",
+      "explanation": "'Make + object + bare infinitive': 'made all staff wear'. No 'to' in the active causative 'make' pattern."
+    },
+    {
+      "id": "cml-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that correctly distinguishes make from let.",
+      "prompt": "Which sentence correctly shows the meaning of 'make' as compulsion (not permission)?",
+      "options": [
+        "The warden let the prisoners work in the garden. (no choice)",
+        "The warden made the prisoners work in the garden. (compulsion)",
+        "The warden made the prisoners work in the garden. (permission)",
+        "The warden let the prisoners work in the garden. (compulsion)"
+      ],
+      "answer": "The warden made the prisoners work in the garden. (compulsion)",
+      "explanation": "'Make' = force/compel (no choice). 'Let' = allow/permit. Only 'made' correctly expresses compulsion."
+    },
+    {
+      "id": "cml-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct causative form.",
+      "prompt": "The documentary ___ me ___ differently about climate change.",
+      "options": ["made / to think", "made / think", "let / to think", "got / think"],
+      "answer": "made / think",
+      "explanation": "Causative 'make' (cause/result meaning): 'made me think'. Bare infinitive, no 'to'."
+    },
+    {
+      "id": "cml-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct causative form.",
+      "prompt": "After the incident, the players ___ to apologise publicly.",
+      "options": ["were made", "were let", "were helped", "were gotten"],
+      "answer": "were made",
+      "explanation": "Passive of causative 'make': 'were made to apologise'. 'Were let' is not standard English in this context."
+    },
+    {
+      "id": "cml-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct sentence with 'help'.",
+      "prompt": "Which sentence correctly uses 'help'?",
+      "options": [
+        "Can you help me to finding a solution?",
+        "Can you help me finding a solution?",
+        "Can you help me find a solution?",
+        "Can you help me found a solution?"
+      ],
+      "answer": "Can you help me find a solution?",
+      "explanation": "After 'help + object', use the bare or full infinitive. 'Find' (bare infinitive) is correct. 'Finding' (gerund) is not used after 'help + object'."
+    },
+    {
+      "id": "cml-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the causative verb that fits the context (permission, no compulsion).",
+      "prompt": "The school ___ students ___ their own research topics.",
+      "options": ["made / choose", "let / choose", "got / choose", "helped / to chose"],
+      "answer": "let / choose",
+      "explanation": "'Let' expresses permission. 'Let + object + bare infinitive': 'let students choose'. 'Made' would express compulsion, which contradicts the context."
+    },
+    {
+      "id": "cml-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct sentence describing an arrangement.",
+      "prompt": "The director wanted a new logo, so she ___ a designer ___ five different concepts.",
+      "options": ["made / create", "let / create", "got / to create", "helped / creating"],
+      "answer": "got / to create",
+      "explanation": "'Get + object + to + base verb' describes arranging for someone to do something. 'Got a designer to create' is correct."
+    },
+    {
+      "id": "cml-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the correct pair showing active and passive of 'make'.",
+      "prompt": "Which pair correctly contrasts active 'make' and its passive?",
+      "options": [
+        "He made her clean it. / She was made clean it.",
+        "He made her clean it. / She was made to clean it.",
+        "He made her to clean it. / She was made clean it.",
+        "He made her to clean it. / She was made to clean it."
+      ],
+      "answer": "He made her clean it. / She was made to clean it.",
+      "explanation": "Active causative 'make': bare infinitive ('clean', no 'to'). Passive of 'make': 'be made to + base verb' — the 'to' returns in the passive."
+    }
+  ]
+}

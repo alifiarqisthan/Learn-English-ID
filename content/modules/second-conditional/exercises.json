@@ -1,0 +1,229 @@
+{
+  "exercises": [
+    {
+      "id": "sc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct second conditional form.",
+      "prompt": "If I ___ a million dollars, I would donate half of it to charity.",
+      "options": ["have", "had", "will have", "would have"],
+      "answer": "had",
+      "explanation": "Second conditional if-clause takes past simple. 'Had' is correct here — the situation is hypothetical."
+    },
+    {
+      "id": "sc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct second conditional form.",
+      "prompt": "She would get the promotion if she ___ harder.",
+      "options": ["works", "worked", "will work", "would work"],
+      "answer": "worked",
+      "explanation": "The if-clause in a second conditional takes past simple. 'Would work' in the if-clause is a common error."
+    },
+    {
+      "id": "sc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct result clause.",
+      "prompt": "If he knew the answer, he ___ tell us.",
+      "options": ["will", "would", "had", "has"],
+      "answer": "would",
+      "explanation": "The result clause in a second conditional uses 'would + base verb'. The condition (knew) is past simple, confirming second conditional."
+    },
+    {
+      "id": "sc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence correctly uses the subjunctive 'were'?",
+      "prompt": "Choose the grammatically correct sentence.",
+      "options": [
+        "If I was you, I would accept the offer.",
+        "If I were you, I would accept the offer.",
+        "If I am you, I would accept the offer.",
+        "If I be you, I would accept the offer."
+      ],
+      "answer": "If I were you, I would accept the offer.",
+      "explanation": "'If I were you' uses the subjunctive form — 'were' is correct for all subjects in formal second conditional, not 'was'."
+    },
+    {
+      "id": "sc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct word to complete the second conditional.",
+      "prompt": "If the weather were warmer, we ___ go to the beach.",
+      "options": ["will", "would", "can", "are going to"],
+      "answer": "would",
+      "explanation": "When the if-clause has 'were' (subjunctive), the result clause takes 'would + base verb'."
+    },
+    {
+      "id": "sc-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the modal that best completes this second conditional to show possibility, not certainty.",
+      "prompt": "If you asked her nicely, she ___ help you with the report.",
+      "options": ["would definitely", "will", "might", "should"],
+      "answer": "might",
+      "explanation": "'Might' in the result clause expresses less certain possibility than 'would'. It fits a hypothetical where the outcome is uncertain."
+    },
+    {
+      "id": "sc-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct second conditional form.",
+      "prompt": "If Dinda ___ in Jakarta, she would visit us every weekend.",
+      "options": ["lives", "lived", "will live", "is living"],
+      "answer": "lived",
+      "explanation": "Second conditional if-clause takes past simple — 'lived'. The situation (Dinda living in Jakarta) is hypothetical/unreal."
+    },
+    {
+      "id": "sc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative second conditional form.",
+      "prompt": "If she ___ so shy, she would have more friends.",
+      "options": ["isn't", "wasn't", "weren't", "wouldn't be"],
+      "answer": "weren't",
+      "explanation": "In a second conditional, the negative of 'be' in the if-clause is 'weren't' (subjunctive). 'Wasn't' is used informally but 'weren't' is standard."
+    },
+    {
+      "id": "sc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative form for the result clause.",
+      "prompt": "If I had more savings, I ___ need to borrow money.",
+      "options": ["will not", "would not", "do not", "had not"],
+      "answer": "would not",
+      "explanation": "The result clause in a second conditional uses 'would not + base verb' for negatives."
+    },
+    {
+      "id": "sc-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that correctly uses a negative second conditional.",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "If I don't have a car, I would take the bus.",
+        "If I didn't have a car, I would take the bus.",
+        "If I didn't have a car, I will take the bus.",
+        "If I wouldn't have a car, I would take the bus."
+      ],
+      "answer": "If I didn't have a car, I would take the bus.",
+      "explanation": "Negative second conditional: if-clause uses 'didn't + base verb' (past simple negative); result clause uses 'would + base verb'."
+    },
+    {
+      "id": "sc-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the negative second conditional.",
+      "prompt": "He ___ take the job if it meant moving overseas.",
+      "options": ["will not", "would not", "does not", "has not"],
+      "answer": "would not",
+      "explanation": "The result clause of a second conditional uses 'would not'. The if-clause (meant) is past simple, confirming this is hypothetical."
+    },
+    {
+      "id": "sc-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct second conditional form.",
+      "prompt": "If the company ___ going bankrupt, they wouldn't need to cut staff.",
+      "options": ["isn't", "weren't", "wasn't being", "wouldn't be"],
+      "answer": "weren't",
+      "explanation": "'Weren't' is the correct subjunctive negative of 'be' for all subjects in a second conditional if-clause."
+    },
+    {
+      "id": "sc-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct second conditional form.",
+      "prompt": "If they ___ so much noise at night, the neighbours wouldn't complain.",
+      "options": ["don't make", "didn't make", "wouldn't make", "hadn't made"],
+      "answer": "didn't make",
+      "explanation": "Negative if-clause in second conditional: 'didn't + base verb'. This is a hypothetical present situation."
+    },
+    {
+      "id": "sc-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in this sentence.",
+      "prompt": "Which sentence contains a grammar error?",
+      "options": [
+        "If she weren't here, we wouldn't know what to do.",
+        "If he didn't work so late, he would spend more time with his family.",
+        "If I wouldn't have a problem, I wouldn't ask for help.",
+        "If they didn't have debt, they could save more money."
+      ],
+      "answer": "If I wouldn't have a problem, I wouldn't ask for help.",
+      "explanation": "'Wouldn't have' in the if-clause is wrong. The if-clause must use past simple: 'If I didn't have a problem, I wouldn't ask for help.'"
+    },
+    {
+      "id": "sc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct question form for the second conditional.",
+      "prompt": "What ___ you do if you found a large sum of money on the street?",
+      "options": ["will", "would", "do", "did"],
+      "answer": "would",
+      "explanation": "Second conditional questions use 'would + subject + base verb'. The if-clause uses past simple (found)."
+    },
+    {
+      "id": "sc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the second conditional question.",
+      "prompt": "___ you quit your job if you won the lottery?",
+      "options": ["Will", "Would", "Do", "Did"],
+      "answer": "Would",
+      "explanation": "Second conditional yes/no questions start with 'Would'. The if-clause 'won' confirms this is hypothetical."
+    },
+    {
+      "id": "sc-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct if-clause form for this second conditional question.",
+      "prompt": "Where would you live if you ___ choose any city in the world?",
+      "options": ["can", "could", "will", "would"],
+      "answer": "could",
+      "explanation": "'Could' here acts as the past form of 'can' in the if-clause, making this a correct second conditional. Alternatively, 'chose' would work, but among the options, 'could' is the correct hypothetical form."
+    },
+    {
+      "id": "sc-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correctly formed second conditional question.",
+      "prompt": "Which sentence is the correct question form?",
+      "options": [
+        "What will you do if you were the president?",
+        "What would you do if you were the president?",
+        "What would you do if you are the president?",
+        "What do you do if you were the president?"
+      ],
+      "answer": "What would you do if you were the president?",
+      "explanation": "Correct second conditional question: 'would + subject + base verb' in the main clause, 'were' (subjunctive) in the if-clause."
+    },
+    {
+      "id": "sc-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct second conditional question.",
+      "prompt": "___ she be upset if you told her the truth?",
+      "options": ["Will", "Would", "Does", "Is"],
+      "answer": "Would",
+      "explanation": "'Would' opens a second conditional yes/no question. 'Told' (past simple) in the if-clause confirms the hypothetical structure."
+    },
+    {
+      "id": "sc-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the option that correctly completes this translation.",
+      "prompt": "Seandainya kamu bisa pergi ke mana saja, ke mana kamu akan pergi? → If you could go anywhere, where ___?",
+      "options": [
+        "will you go",
+        "would you go",
+        "do you go",
+        "are you going"
+      ],
+      "answer": "would you go",
+      "explanation": "The Indonesian 'seandainya' signals a second conditional. The English equivalent uses 'would you go' in the result question."
+    }
+  ]
+}

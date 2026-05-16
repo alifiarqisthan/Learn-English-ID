@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ncr-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech.",
+      "prompt": "Direct: 'I am tired.' → She said ___.",
+      "options": [
+        "she is tired",
+        "she was tired",
+        "she were tired",
+        "she has been tired"
+      ],
+      "answer": "she was tired",
+      "explanation": "Present simple → past simple in reported speech. 'am' → 'was'."
+    },
+    {
+      "id": "ncr-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech for a future statement.",
+      "prompt": "Direct: 'We will finish the report tomorrow.' → They said ___.",
+      "options": [
+        "they will finish the report the next day",
+        "they would finish the report the next day",
+        "they would finish the report tomorrow",
+        "they finish the report the next day"
+      ],
+      "answer": "they would finish the report the next day",
+      "explanation": "'Will' → 'would' in reported speech. 'Tomorrow' → 'the next day' when reporting later."
+    },
+    {
+      "id": "ncr-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly reported wh-question.",
+      "prompt": "Direct: 'Where do you work?' → She asked me ___.",
+      "options": [
+        "where do I work",
+        "where I worked",
+        "where did I work",
+        "where I work"
+      ],
+      "answer": "where I worked",
+      "explanation": "Reported wh-question: statement order + backshift. 'Where do you work?' → 'where I worked'."
+    },
+    {
+      "id": "ncr-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correctly reported yes/no question.",
+      "prompt": "Direct: 'Have you submitted the assignment?' → He asked me ___.",
+      "options": [
+        "if I have submitted the assignment",
+        "if I had submitted the assignment",
+        "if had I submitted the assignment",
+        "whether I have submitted the assignment"
+      ],
+      "answer": "if I had submitted the assignment",
+      "explanation": "Yes/no question → reported with 'if/whether' + statement order + backshift. Present perfect → past perfect."
+    },
+    {
+      "id": "ncr-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence with a 'deny' error.",
+      "prompt": "___",
+      "options": [
+        "He denied stealing the documents.",
+        "He denied that he had stolen the documents.",
+        "He denied that he didn't steal the documents.",
+        "He denied taking any money from the fund."
+      ],
+      "answer": "He denied that he didn't steal the documents.",
+      "explanation": "'Deny' already implies negation — saying 'denied that he didn't steal' creates a double negative that means he admitted it. Use 'denied that he stole' or 'denied stealing'."
+    },
+    {
+      "id": "ncr-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct reporting of an order.",
+      "prompt": "Direct: 'Please close the window.' → She asked him ___.",
+      "options": [
+        "to close the window",
+        "that he closes the window",
+        "that close the window",
+        "closing the window"
+      ],
+      "answer": "to close the window",
+      "explanation": "Reported requests: ask + person + to-infinitive. 'Please close' → 'to close'."
+    },
+    {
+      "id": "ncr-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correctly reported negative order.",
+      "prompt": "Direct: 'Don't be late!' → She told them ___.",
+      "options": [
+        "not to be late",
+        "not be late",
+        "to not be late",
+        "don't be late"
+      ],
+      "answer": "not to be late",
+      "explanation": "Reported negative orders: tell + person + not to + infinitive."
+    },
+    {
+      "id": "ncr-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech. No backshift needed here.",
+      "prompt": "Direct: 'The Earth orbits the sun.' Scientists have proven that ___.",
+      "options": [
+        "the Earth orbited the sun",
+        "the Earth orbits the sun",
+        "the Earth had orbited the sun",
+        "the Earth would orbit the sun"
+      ],
+      "answer": "the Earth orbits the sun",
+      "explanation": "Universal truths and scientific facts do NOT backshift. The Earth still orbits the sun — present simple is correct."
+    },
+    {
+      "id": "ncr-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reporting verb pattern.",
+      "prompt": "She claimed ___.",
+      "options": [
+        "to have seen the suspect",
+        "having seen the suspect",
+        "that she had seen the suspect",
+        "Both A and C are correct."
+      ],
+      "answer": "Both A and C are correct.",
+      "explanation": "'Claim + that-clause' and 'claim + to-infinitive' are both correct. 'Claim + -ing' is not standard."
+    },
+    {
+      "id": "ncr-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Backshift the tense. Fill in the correct verb form.",
+      "prompt": "Direct: 'I have already submitted the form.' → She said she ___ already submitted the form.",
+      "options": [
+        "had",
+        "have",
+        "was",
+        "has"
+      ],
+      "answer": "had",
+      "explanation": "Present perfect 'have submitted' → past perfect 'had submitted' in reported speech."
+    },
+    {
+      "id": "ncr-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct reporting structure.",
+      "prompt": "Direct: 'Can you help me?' → She asked ___ help her.",
+      "options": [
+        "me to",
+        "mes to",
+        "them to",
+        "him to"
+      ],
+      "answer": "me to",
+      "hint": "Reported requests: ask + person + to-infinitive.",
+      "explanation": "Request → ask + person + to-infinitive: 'She asked me to help her.'"
+    },
+    {
+      "id": "ncr-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Convert to reported speech. Use the correct word order.",
+      "prompt": "Direct: 'Why did she leave early?' → He wanted to know why she ___ early.",
+      "options": [
+        "had lefted",
+        "left",
+        "had left",
+        "hads left"
+      ],
+      "answer": "had left",
+      "explanation": "Reported wh-question: statement order. 'Did she leave' → 'she had left' (past perfect backshift) or 'she left'."
+    },
+    {
+      "id": "ncr-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'say' or 'tell' — only one is correct.",
+      "prompt": "She ___ the manager that the project was delayed.",
+      "options": [
+        "tolds",
+        "did told",
+        "tolding",
+        "told"
+      ],
+      "answer": "told",
+      "explanation": "'Tell' requires a person object: told + the manager + that. 'Said the manager' is wrong."
+    },
+    {
+      "id": "ncr-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Change the time reference. Fill in the reported form of 'yesterday'.",
+      "prompt": "Direct: 'I saw him yesterday.' → She said she had seen him ___.",
+      "options": [
+        "the previous day",
+        "the day before",
+        "thes day before",
+        "the day beforeed"
+      ],
+      "answer": "the day before",
+      "explanation": "'Yesterday' → 'the day before' or 'the previous day' in reported speech."
+    },
+    {
+      "id": "ncr-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia bilang bahwa dia lelah.\"",
+      "prompt": "Dia bilang bahwa dia lelah.",
+      "options": [
+        "She said that she were tired.",
+        "She said that she was tired.",
+        "tired. was she that said She",
+        "She said that she is tired."
+      ],
+      "answer": "She said that she was tired.",
+      "explanation": "'Dia bilang bahwa dia lelah' → reported speech. Present 'is tired' → past 'was tired' (backshift)."
+    },
+    {
+      "id": "ncr-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia bertanya kepada saya di mana saya bekerja.\"",
+      "prompt": "Dia bertanya kepada saya di mana saya bekerja.",
+      "options": [
+        "This is not correct English.",
+        "She asked me where I worked.",
+        "She asked me where I worked. (incorrect)",
+        "She asked me where I worked, every day."
+      ],
+      "answer": "She asked me where I worked.",
+      "explanation": "'Bertanya di mana saya bekerja' → 'asked where I worked'. Statement order: where + I + worked."
+    },
+    {
+      "id": "ncr-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Dia menyangkal bahwa dia mengambil uang itu.\"",
+      "prompt": "Dia menyangkal bahwa dia mengambil uang itu.",
+      "options": [
+        "He denied that he had taken the money, every day.",
+        "He denied that he had taken the money. (incorrect)",
+        "He denied that he had taken the money.",
+        "He denied that he had taken a money."
+      ],
+      "answer": "He denied that he had taken the money.",
+      "explanation": "'Menyangkal bahwa' = 'denied that'. Backshift: 'took' → 'had taken'. Or use 'denied taking' (-ing form)."
+    },
+    {
+      "id": "ncr-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Dia meminta kami untuk tidak terlambat.\"",
+      "prompt": "Dia meminta kami untuk tidak terlambat.",
+      "options": [
+        "She asked us not to be late. (incorrect)",
+        "This is not correct English.",
+        "She asked us not to be late, every day.",
+        "She asked us not to be late."
+      ],
+      "answer": "She asked us not to be late.",
+      "explanation": "'Meminta untuk tidak' = 'asked not to' + infinitive. Negative order: not to + base verb."
+    },
+    {
+      "id": "ncr-mc-verb-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reporting verb + pattern.",
+      "prompt": "He ___ the new policy would reduce costs.",
+      "options": [
+        "argued that",
+        "denied that",
+        "warned to",
+        "suggested that he"
+      ],
+      "answer": "argued that",
+      "explanation": "'Argue that' + that-clause = present a position or claim. This is the academic reporting verb for presenting evidence or claims."
+    },
+    {
+      "id": "ncr-mc-suggest-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'suggest' pattern.",
+      "prompt": "She suggested ___.",
+      "options": [
+        "to wait for the results",
+        "waiting for the results",
+        "that we should to wait for the results",
+        "us to wait for the results"
+      ],
+      "answer": "waiting for the results",
+      "explanation": "'Suggest' does NOT take a to-infinitive directly or 'should to'. Use: suggest + -ing OR suggest that + subject + bare infinitive (subjunctive)."
+    }
+  ]
+}

@@ -1,1 +1,304 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cr-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'because' or 'because of'. The next element is a noun phrase.",
+      "prompt": "___ the unexpected storm, the ceremony was moved indoors.",
+      "options": [
+        "Because",
+        "Because of",
+        "Since",
+        "Due"
+      ],
+      "answer": "Because of",
+      "explanation": "'The unexpected storm' is a noun phrase (no verb) → use 'because of' or 'due to'. 'Because' needs a full clause."
+    },
+    {
+      "id": "cr-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'so...that' or 'such...that'.",
+      "prompt": "It was ___ a long journey that everyone fell asleep on the bus.",
+      "options": [
+        "so",
+        "such",
+        "very",
+        "too"
+      ],
+      "answer": "such",
+      "explanation": "Before a noun ('a long journey') → 'such'. 'So' modifies adjectives/adverbs without a noun."
+    },
+    {
+      "id": "cr-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'so...that' or 'such...that'.",
+      "prompt": "The professor spoke ___ quickly that students couldn't take notes.",
+      "options": [
+        "such",
+        "so",
+        "very",
+        "too"
+      ],
+      "answer": "so",
+      "explanation": "Before an adverb ('quickly') → 'so'. 'Such' is used before nouns."
+    },
+    {
+      "id": "cr-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the cause clause.",
+      "prompt": "___",
+      "options": [
+        "Because she was tired, she went to bed early.",
+        "Due to fatigue, she went to bed early.",
+        "Due to she was tired, she went to bed early.",
+        "Since she was exhausted, she went to bed early."
+      ],
+      "answer": "Due to she was tired, she went to bed early.",
+      "explanation": "'Due to' takes a noun or noun phrase, not a full clause. Correct: 'Due to her fatigue' or 'Because she was tired'."
+    },
+    {
+      "id": "cr-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the punctuation error in the result clause.",
+      "prompt": "___",
+      "options": [
+        "The experiment failed; therefore, the team revised the methodology.",
+        "The experiment failed, therefore the team revised the methodology.",
+        "The experiment failed. Therefore, the team revised the methodology.",
+        "The experiment failed; therefore the team revised the methodology."
+      ],
+      "answer": "The experiment failed, therefore the team revised the methodology.",
+      "explanation": "Conjunctive adverbs ('therefore') need a semicolon before them, not just a comma. '; therefore,' or start a new sentence."
+    },
+    {
+      "id": "cr-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct 'such...that' article.",
+      "prompt": "It was such ___ interesting experiment that it was published in a major journal.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article needed"
+      ],
+      "answer": "an",
+      "explanation": "'An' is used before vowel sounds. 'Interesting' begins with a vowel sound → 'such an interesting experiment'."
+    },
+    {
+      "id": "cr-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct result connector for formal academic writing.",
+      "prompt": "The sample was too small; ___, no generalizations can be made.",
+      "options": [
+        "so",
+        "but",
+        "therefore",
+        "although"
+      ],
+      "answer": "therefore",
+      "explanation": "'Therefore' is the formal result connector. After a semicolon and before the result clause, it expresses logical consequence."
+    },
+    {
+      "id": "cr-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'so...that' structure.",
+      "prompt": "The noise was ___ loud ___ nobody could concentrate.",
+      "options": [
+        "such / that",
+        "so / that",
+        "very / that",
+        "such / as"
+      ],
+      "answer": "so / that",
+      "explanation": "'Loud' is an adjective without a noun following it → 'so + adjective + that'. 'Such' would need a noun: 'such loud noise that'."
+    },
+    {
+      "id": "cr-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'since' for reason.",
+      "prompt": "___",
+      "options": [
+        "Since the report was overdue since last week.",
+        "Since she was the team leader, she presented the findings.",
+        "Since 2020, she has been the team leader so she presented.",
+        "She presented since she was the team leader."
+      ],
+      "answer": "Since she was the team leader, she presented the findings.",
+      "explanation": "'Since' for known reason: 'Since she was the team leader' (the fact is assumed known) → she presented. Comma after the since-clause."
+    },
+    {
+      "id": "cr-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'so' or 'such'.",
+      "prompt": "The results were ___ surprising that the team ran the experiment again.",
+      "options": [
+        "so",
+        "soing",
+        "sos",
+        "did so"
+      ],
+      "answer": "so",
+      "explanation": "'Surprising' = adjective without a noun after it → 'so'. 'So surprising that'."
+    },
+    {
+      "id": "cr-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'so' or 'such'.",
+      "prompt": "It was ___ a long meeting that everyone left exhausted.",
+      "options": [
+        "such",
+        "suchs",
+        "suching",
+        "did such"
+      ],
+      "answer": "such",
+      "explanation": "'A long meeting' = noun phrase → 'such'. 'Such a long meeting that'."
+    },
+    {
+      "id": "cr-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: 'because' or 'because of'.",
+      "prompt": "___ the lack of funding, the research project was cancelled.",
+      "options": [
+        "Because of",
+        "Due to",
+        "becauses of",
+        "Owing to"
+      ],
+      "answer": "Because of",
+      "explanation": "'The lack of funding' is a noun phrase → use 'because of', 'due to', or 'owing to'."
+    },
+    {
+      "id": "cr-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: the correct formal result connector. Use 'consequently'.",
+      "prompt": "The deadline was missed; ___, the contract was terminated.",
+      "options": [
+        "consequentlys",
+        "consequentlying",
+        "consequently",
+        "therefore"
+      ],
+      "answer": "consequently",
+      "explanation": "'; consequently,' — semicolon before, comma after conjunctive adverb."
+    },
+    {
+      "id": "cr-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the missing comma. Write ',' or 'none'.",
+      "prompt": "She cancelled the event ___ because attendance was too low.",
+      "options": [
+        "noneing",
+        "nones",
+        "none",
+        "."
+      ],
+      "answer": "none",
+      "explanation": "No comma before 'because' when it follows the main clause. 'She cancelled the event because attendance was too low.' — no comma needed."
+    },
+    {
+      "id": "cr-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Karena hujan deras, pertandingan dibatalkan.\"",
+      "prompt": "Karena hujan deras, pertandingan dibatalkan.",
+      "options": [
+        "Because it rained heavily, the match is cancelled.",
+        "Because it rained heavily, match was cancelled.",
+        "Because it rained heavily, a match was cancelled.",
+        "Because it rained heavily, the match was cancelled."
+      ],
+      "answer": "Because it rained heavily, the match was cancelled.",
+      "explanation": "'Karena hujan deras' → 'because it rained heavily' (clause) OR 'because of the heavy rain' (noun phrase)."
+    },
+    {
+      "id": "cr-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Cuacanya sangat panas sehingga kami memutuskan untuk tidak keluar.\"",
+      "prompt": "Cuacanya sangat panas sehingga kami memutuskan untuk tidak keluar.",
+      "options": [
+        "It was so hot that we decided to not go out.",
+        "It was so hot that we decided not to go out.",
+        "It was such hot that we decided not to go out.",
+        "It is so hot that we decided not to go out."
+      ],
+      "answer": "It was so hot that we decided not to go out.",
+      "explanation": "'Sangat panas sehingga' = so hot that. Adjective 'hot' → 'so' (not 'such')."
+    },
+    {
+      "id": "cr-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Dia memberikan presentasi yang begitu mengesankan sehingga semua orang bertepuk tangan.\"",
+      "prompt": "Dia memberikan presentasi yang begitu mengesankan sehingga semua orang bertepuk tangan.",
+      "options": [
+        "She gave such an impressive presentation that everyone applauded.",
+        "applauded. everyone that presentation impressive an such gave She",
+        "She gave such impressive presentation that everyone applauded.",
+        "She gave such a impressive presentation that everyone applauded."
+      ],
+      "answer": "She gave such an impressive presentation that everyone applauded.",
+      "explanation": "'Begitu mengesankan' (so impressive) modifies a noun (presentation) → 'such an impressive presentation that'."
+    },
+    {
+      "id": "cr-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Data penelitian tidak mencukupi; oleh karena itu, penelitian harus diulang.\"",
+      "prompt": "Data penelitian tidak mencukupi; oleh karena itu, penelitian harus diulang.",
+      "options": [
+        "The research data was insufficient; therefore, a study had to be repeated.",
+        "The research data was insufficient; therefore, study had to be repeated.",
+        "The research data is insufficient; therefore, the study had to be repeated.",
+        "The research data was insufficient; therefore, the study had to be repeated."
+      ],
+      "answer": "The research data was insufficient; therefore, the study had to be repeated.",
+      "explanation": "'Oleh karena itu' = therefore (formal). Use '; therefore,' — semicolon before, comma after."
+    },
+    {
+      "id": "cr-mc-so-such-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form.",
+      "prompt": "The conference attracted ___ many researchers that extra seating had to be arranged.",
+      "options": [
+        "such",
+        "so",
+        "very",
+        "such a"
+      ],
+      "answer": "so",
+      "explanation": "'Many researchers' = determiner + noun. 'So many' is a fixed expression (not 'such many'). 'So' modifies 'many' (a quantifier adjective)."
+    },
+    {
+      "id": "cr-mc-since-because-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the most appropriate conjunction for a formal academic context where the reason is a known fact.",
+      "prompt": "___ the methodology had already been validated, the team proceeded without further testing.",
+      "options": [
+        "Because",
+        "Since",
+        "So",
+        "Despite"
+      ],
+      "answer": "Since",
+      "explanation": "'Since' signals that the reason is already known/established. In formal academic writing, 'since' here means 'given that' or 'as'."
+    }
+  ]
+}

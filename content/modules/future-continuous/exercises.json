@@ -6,7 +6,12 @@
       "form": "positive",
       "instruction": "Choose the correct future continuous form.",
       "prompt": "Don't call me at 8pm — I ___ the match.",
-      "options": ["watch", "will watch", "will be watching", "am going to watch"],
+      "options": [
+        "watch",
+        "will watch",
+        "will be watching",
+        "am going to watch"
+      ],
       "answer": "will be watching",
       "hint": "Action in progress at a specific future time (8pm) → future continuous.",
       "explanation": "'At 8pm' = a specific future moment → ongoing action → will be + Ving."
@@ -17,7 +22,12 @@
       "form": "positive",
       "instruction": "Future simple or future continuous?",
       "prompt": "At this time next week, she ___ in her new office for the first time.",
-      "options": ["works", "will work", "will be working", "is going to work"],
+      "options": [
+        "works",
+        "will work",
+        "will be working",
+        "is going to work"
+      ],
       "answer": "will be working",
       "hint": "'At this time next week' = in progress at that future moment → future continuous.",
       "explanation": "'At this time next week' signals an action in progress at a future moment → will be + Ving."
@@ -28,7 +38,12 @@
       "form": "question",
       "instruction": "Choose the polite inquiry form.",
       "prompt": "___ you ___ the conference room tomorrow morning?",
-      "options": ["Will / use", "Are / going to use", "Will / be using", "Do / use"],
+      "options": [
+        "Will / use",
+        "Are / going to use",
+        "Will / be using",
+        "Do / use"
+      ],
       "answer": "Will / be using",
       "hint": "Polite inquiry about plans → future continuous (softer than 'will you use').",
       "explanation": "'Will you be using?' = polite inquiry about existing plans."
@@ -39,7 +54,12 @@
       "form": "negative",
       "instruction": "Choose the correct negative future continuous.",
       "prompt": "I ___ the office on Monday — I'll be working from home.",
-      "options": ["won't use", "won't be using", "isn't going to use", "am not using"],
+      "options": [
+        "won't use",
+        "won't be using",
+        "isn't going to use",
+        "am not using"
+      ],
       "answer": "won't be using",
       "hint": "Ongoing situation at a future time, negative → won't be + Ving.",
       "explanation": "Negative future continuous: won't be + Ving."
@@ -50,7 +70,12 @@
       "form": "question",
       "instruction": "Choose the correctly formed future continuous question.",
       "prompt": "Where ___ you ___ this time next year?",
-      "options": ["will / live", "will / be living", "are / going to live", "do / live"],
+      "options": [
+        "will / live",
+        "will / be living",
+        "are / going to live",
+        "do / live"
+      ],
       "answer": "will / be living",
       "hint": "'This time next year' = a future moment → future continuous.",
       "explanation": "Future moment question → will be + Ving. Wh-question: Where will you be living?"
@@ -61,65 +86,90 @@
       "form": "positive",
       "instruction": "Future simple or future continuous — which fits the context?",
       "prompt": "I ___ the report tomorrow, then email it to the team.",
-      "options": ["will finish / will email", "will be finishing / will be emailing", "will finish / will be emailing", "will be finishing / will email"],
+      "options": [
+        "will finish / will email",
+        "will be finishing / will be emailing",
+        "will finish / will be emailing",
+        "will be finishing / will email"
+      ],
       "answer": "will finish / will email",
       "hint": "Sequential completed actions → future simple. Not 'in progress at a moment' → not future continuous.",
       "explanation": "Sequential completed future actions → both future simple."
     },
     {
       "id": "fc-fb-pos-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the future continuous form.",
+      "instruction": "Choose the correct answer for: the future continuous form.",
       "prompt": "At 6am tomorrow, the construction crew ___ (work) already — they start very early.",
-      "acceptedAnswers": ["will be working"],
+      "options": [
+        "wills be working",
+        "will be working",
+        "will be workinged",
+        "working be will"
+      ],
+      "answer": "will be working",
       "explanation": "'At 6am tomorrow' = a specific future moment → will be + Ving."
     },
     {
       "id": "fc-fb-q-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "question",
       "instruction": "Form the polite future continuous question.",
       "prompt": "___ (you / attend) the reception this evening?",
-      "acceptedAnswers": ["will you be attending"],
+      "options": [
+        "wills you be attending",
+        "will you be attending",
+        "attending be you will",
+        "will you be attendinged"
+      ],
+      "answer": "will you be attending",
       "hint": "Polite inquiry about plans: Will + subject + be + Ving.",
       "explanation": "Polite plan inquiry: Will you be attending? (Will + subject + be + Ving)"
     },
     {
       "id": "fc-fb-neg-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "negative",
-      "instruction": "Fill in the negative future continuous.",
+      "instruction": "Choose the correct answer for: the negative future continuous.",
       "prompt": "She ___ (not / present) at the event — she has a prior commitment.",
-      "acceptedAnswers": ["won't be presenting", "will not be presenting"],
+      "options": [
+        "won'ts be presenting",
+        "will be not presenting",
+        "won't be presentinged",
+        "won't be presenting"
+      ],
+      "answer": "won't be presenting",
       "explanation": "Negative future continuous: won't be / will not be + Ving."
     },
     {
       "id": "fc-tr-pos-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate using future continuous.",
+      "instruction": "Translate into English: \"Besok jam 10 pagi, saya sedang presentasi di depan dewan direksi.\"",
       "prompt": "Besok jam 10 pagi, saya sedang presentasi di depan dewan direksi.",
-      "modelAnswer": "Tomorrow at 10am, I will be presenting to the board of directors.",
-      "alternativeAnswers": [
-        "At 10am tomorrow, I will be giving a presentation to the board.",
-        "Tomorrow morning at 10, I will be presenting to the board of directors."
+      "options": [
+        "Tomorrow at 10am, I will be presenting to a board of directors.",
+        "Tomorrow at 10am, I will be presenting to the board of directors, every day.",
+        "Tomorrow at 10am, I will be presenting to the board of directors. (incorrect)",
+        "Tomorrow at 10am, I will be presenting to the board of directors."
       ],
-      "keyTokens": ["will be presenting", "tomorrow", "10am"],
+      "answer": "Tomorrow at 10am, I will be presenting to the board of directors.",
       "explanation": "Action in progress at a specific future moment → will be + Ving."
     },
     {
       "id": "fc-tr-q-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "question",
-      "instruction": "Translate as a polite future continuous question.",
+      "instruction": "Translate into English: \"Apakah kamu akan menggunakan ruang rapat pada jam 3 sore?\"",
       "prompt": "Apakah kamu akan menggunakan ruang rapat pada jam 3 sore?",
-      "modelAnswer": "Will you be using the meeting room at 3pm?",
-      "alternativeAnswers": [
-        "Will you be using the conference room at 3pm?",
-        "Are you going to use the meeting room at 3pm?"
+      "options": [
+        "you Will be using the meeting room at 3pm?",
+        "Will you be using the meeting room at 3pm?",
+        "Will you be using the meeting room at 3pm? (incorrect)",
+        "Will you be using a meeting room at 3pm?"
       ],
-      "keyTokens": ["will you be using", "meeting room", "3pm"],
+      "answer": "Will you be using the meeting room at 3pm?",
       "explanation": "Polite inquiry: Will you be using? (future continuous question)"
     }
   ]

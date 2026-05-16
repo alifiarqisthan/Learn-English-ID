@@ -1,1 +1,289 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ad-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'not only…but also' with fronting.",
+      "prompt": "Which sentence correctly uses subject-auxiliary inversion after 'not only'?",
+      "options": [
+        "Not only did she pass the exam, but she also scored the highest mark.",
+        "Not only she passed the exam, but she also scored the highest mark.",
+        "Not only she did pass the exam, but she also scored the highest mark.",
+        "Not only passed she the exam, but she also scored the highest mark."
+      ],
+      "answer": "Not only did she pass the exam, but she also scored the highest mark.",
+      "explanation": "When 'not only' fronts the sentence, subject-auxiliary inversion is required: 'did she pass' (auxiliary + subject + base verb). Without inversion, the sentence is ungrammatical at C1 level."
+    },
+    {
+      "id": "ad-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct cleft sentence.",
+      "prompt": "Which sentence correctly emphasises 'the committee' using a cleft structure?",
+      "options": [
+        "It was the committee that rejected the proposal.",
+        "It was the committee which rejected the proposal.",
+        "It was the committee rejected the proposal.",
+        "It was the committee who did reject the proposal."
+      ],
+      "answer": "It was the committee that rejected the proposal.",
+      "explanation": "In formal 'it-cleft' sentences, 'that' is the standard connector when emphasising a noun phrase. 'Who' can be used for people, but 'that' is more standard. Option C is missing the connector entirely."
+    },
+    {
+      "id": "ad-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct fronted sentence.",
+      "prompt": "Which sentence correctly uses fronting for emphasis?",
+      "options": [
+        "Particularly important are the ethical implications of this study.",
+        "Particularly important is the ethical implications of this study.",
+        "Particularly important the ethical implications of this study are.",
+        "The ethical implications of this study particularly important are."
+      ],
+      "answer": "Particularly important are the ethical implications of this study.",
+      "explanation": "After fronting, the verb agrees with the real subject ('the ethical implications' — plural). 'Are' is correct. 'Is' would be wrong here because the real subject is plural."
+    },
+    {
+      "id": "ad-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct meaning of 'notwithstanding' in context.",
+      "prompt": "Notwithstanding the criticism, the government proceeded with the reform.",
+      "options": [
+        "Despite the criticism, the government proceeded with the reform.",
+        "However, the criticism made the government proceed with the reform.",
+        "Because of the criticism, the government proceeded with the reform.",
+        "The government proceeded with the reform and then faced criticism."
+      ],
+      "answer": "Despite the criticism, the government proceeded with the reform.",
+      "explanation": "'Notwithstanding' means 'despite' — it acknowledges an obstacle or contrary fact while asserting that the main action still occurred. It does not mean 'however'."
+    },
+    {
+      "id": "ad-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct wh-cleft sentence.",
+      "prompt": "Which sentence correctly uses a wh-cleft to emphasise 'transparency'?",
+      "options": [
+        "What the organisation needs is transparency.",
+        "What the organisation needs are transparency.",
+        "What does the organisation need is transparency.",
+        "That the organisation needs is transparency."
+      ],
+      "answer": "What the organisation needs is transparency.",
+      "explanation": "In a wh-cleft ('what…is'), the singular noun 'transparency' determines the verb: 'is'. 'Are' would be wrong unless the complement were plural. 'That' cannot open a wh-cleft structure."
+    },
+    {
+      "id": "ad-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct use of 'admittedly'.",
+      "prompt": "Which sentence correctly uses 'admittedly' in an academic argument?",
+      "options": [
+        "Admittedly, the sample was small; however, the effect size was significant.",
+        "Admittedly, but the sample was small and the effect size was significant.",
+        "The sample was small. Admittedly however, the effect size was significant.",
+        "Admittedly the sample was small, admittedly the effect was significant."
+      ],
+      "answer": "Admittedly, the sample was small; however, the effect size was significant.",
+      "explanation": "'Admittedly' concedes a point, followed by 'however' to introduce the rebuttal. The semicolon separates the two contrasting clauses. Do not combine 'admittedly' with 'but' directly — use 'however' or 'nevertheless' for the rebuttal."
+    },
+    {
+      "id": "ad-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct use of 'in other words'.",
+      "prompt": "Which sentence correctly uses 'in other words'?",
+      "options": [
+        "The hypothesis was not supported. In other words, the results were insignificant.",
+        "The hypothesis was not supported. In other words, we should fund more research.",
+        "In other words, the study was well-designed and the results are clear.",
+        "The results were positive. In other words, however, more data is needed."
+      ],
+      "answer": "The hypothesis was not supported. In other words, the results were insignificant.",
+      "explanation": "'In other words' paraphrases or clarifies the same idea. 'The results were insignificant' is a restatement of 'the hypothesis was not supported'. Option B introduces a new argument, not a restatement."
+    },
+    {
+      "id": "ad-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "Which sentence incorrectly uses 'not only' without inversion?",
+      "options": [
+        "Not only did the reform reduce costs, but it also improved efficiency.",
+        "Not only was the experiment successful, but it also opened new avenues.",
+        "Not only the policy failed, but it also caused public unrest.",
+        "Not only had the team finished early, but they had also exceeded targets."
+      ],
+      "answer": "Not only the policy failed, but it also caused public unrest.",
+      "explanation": "When 'not only' fronts the sentence, subject-auxiliary inversion is required. Correct: 'Not only did the policy fail, but it also caused public unrest.' Without inversion ('the policy failed'), the sentence is grammatically wrong."
+    },
+    {
+      "id": "ad-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the misuse of 'notwithstanding'.",
+      "prompt": "Which sentence uses 'notwithstanding' incorrectly?",
+      "options": [
+        "Notwithstanding the opposition, the bill was passed.",
+        "The evidence was strong. Notwithstanding, the jury acquitted the defendant.",
+        "The study was well-funded. Notwithstanding, more research is still needed.",
+        "The plan succeeded. Notwithstanding, the results were poor — try a new strategy."
+      ],
+      "answer": "The plan succeeded. Notwithstanding, the results were poor — try a new strategy.",
+      "explanation": "Here, 'notwithstanding' is used as if it means 'however' — to pivot to a new argument. But 'notwithstanding' means 'despite this' (concession). Use 'however' or 'nevertheless' for a simple contrast pivot."
+    },
+    {
+      "id": "ad-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the cleft sentence.",
+      "prompt": "What is wrong with: 'What this policy does is reduces inequality'?",
+      "options": [
+        "Nothing — the sentence is correct.",
+        "After 'What [subject] does is', the verb must be in base form, not inflected ('reduce', not 'reduces').",
+        "'Does' should be 'did' in formal writing.",
+        "The subject of the cleft should be 'it', not 'what'."
+      ],
+      "answer": "After 'What [subject] does is', the verb must be in base form, not inflected ('reduce', not 'reduces').",
+      "explanation": "In a 'What X does is…' cleft, the verb following 'is' appears in the base infinitive form: 'What this policy does is reduce inequality.' Adding the third-person 's' is a common C1 error."
+    },
+    {
+      "id": "ad-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the subject-verb agreement error after fronting.",
+      "prompt": "Which fronted sentence has an agreement error?",
+      "options": [
+        "Of particular importance are the funding gaps identified in this report.",
+        "Of particular importance is the methodology used in this study.",
+        "Particularly significant are the implications for public policy.",
+        "Of particular note is the numerous limitations acknowledged by the authors."
+      ],
+      "answer": "Of particular note is the numerous limitations acknowledged by the authors.",
+      "explanation": "After fronting, the verb agrees with the real subject ('the numerous limitations' — plural). 'Are' is required: 'Of particular note are the numerous limitations…'. 'Is' is incorrect with a plural subject."
+    },
+    {
+      "id": "ad-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that incorrectly uses 'insofar as'.",
+      "prompt": "Which sentence misuses 'insofar as'?",
+      "options": [
+        "The policy is effective insofar as it targets the most vulnerable populations.",
+        "Insofar as the evidence is reliable, the conclusions can be accepted.",
+        "Insofar as it rained heavily, the event was cancelled.",
+        "The law applies insofar as the conduct occurs within the jurisdiction."
+      ],
+      "answer": "Insofar as it rained heavily, the event was cancelled.",
+      "explanation": "'Insofar as' means 'to the extent that' — it qualifies or limits a claim. It does not mean 'because'. 'Insofar as it rained heavily' misuses it as a causal connector. Use 'because' or 'since' instead."
+    },
+    {
+      "id": "ad-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "Which sentence incorrectly combines 'admittedly' with another connector?",
+      "options": [
+        "Admittedly, the evidence is limited; nevertheless, the argument holds.",
+        "Admittedly, but the costs are high, the benefits outweigh them.",
+        "Admittedly, the approach has weaknesses. However, it is the best available.",
+        "The results were mixed. Admittedly, further investigation is warranted."
+      ],
+      "answer": "Admittedly, but the costs are high, the benefits outweigh them.",
+      "explanation": "'Admittedly' already signals concession — adding 'but' immediately after doubles the concession signal and creates an awkward, ungrammatical structure. Use 'admittedly' to concede, then a separate clause with 'however' or 'nevertheless' for the rebuttal."
+    },
+    {
+      "id": "ad-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the misuse of 'in other words'.",
+      "prompt": "Which sentence misuses 'in other words'?",
+      "options": [
+        "The experiment failed to replicate. In other words, the original findings could not be confirmed.",
+        "The data was unreliable. In other words, the conclusions must be questioned.",
+        "Costs rose sharply last year. In other words, the government should raise taxes.",
+        "The proposal was rejected. In other words, the committee found it financially unviable."
+      ],
+      "answer": "Costs rose sharply last year. In other words, the government should raise taxes.",
+      "explanation": "'In other words' signals a restatement or clarification of the same idea — not a new argument or conclusion. 'The government should raise taxes' is a new policy recommendation, not a restatement of 'costs rose'."
+    },
+    {
+      "id": "ad-mc-question-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct fronted inversion.",
+      "prompt": "Rewrite using fronting: 'Such extensive government intervention has rarely been seen.'",
+      "options": [
+        "Rarely has such extensive government intervention been seen.",
+        "Rarely such extensive government intervention has been seen.",
+        "Rarely was such extensive government intervention seen.",
+        "Rarely have such extensive government intervention been seen."
+      ],
+      "answer": "Rarely has such extensive government intervention been seen.",
+      "explanation": "Fronting 'rarely' requires subject-auxiliary inversion: 'Rarely + has + subject + past participle'. The subject ('such extensive government intervention') is singular — 'has' is correct."
+    },
+    {
+      "id": "ad-mc-question-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct sentence.",
+      "prompt": "Which sentence correctly uses 'not only…but also' without fronting?",
+      "options": [
+        "The reform not only reduced emissions but also created new jobs.",
+        "Not only the reform reduced emissions but also created new jobs.",
+        "The reform not only reduces but also created new jobs.",
+        "The reform reduces emissions not only, but also created new jobs."
+      ],
+      "answer": "The reform not only reduced emissions but also created new jobs.",
+      "explanation": "When 'not only' is mid-sentence (not fronted), no inversion is required. Both verbs should be parallel: 'reduced' and 'created'. Option C mixes present and past tense; options B and D are structurally wrong."
+    },
+    {
+      "id": "ad-mc-question-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the best discourse marker.",
+      "prompt": "___, the model has limitations; nonetheless, it provides a useful framework for analysis.",
+      "options": ["Admittedly", "Moreover", "By contrast", "In other words"],
+      "answer": "Admittedly",
+      "explanation": "'Admittedly' concedes a point (the model has limitations) before a rebuttal introduced by 'nonetheless'. This structure — concede, then counter — is a hallmark of balanced academic argumentation."
+    },
+    {
+      "id": "ad-mc-question-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct sentence.",
+      "prompt": "Which correctly uses 'notwithstanding' with a noun phrase?",
+      "options": [
+        "Notwithstanding the risks, the procedure was approved.",
+        "Notwithstanding the risks were significant, the procedure was approved.",
+        "Notwithstanding that risks, the procedure was approved.",
+        "Notwithstanding, because of the risks, the procedure was approved."
+      ],
+      "answer": "Notwithstanding the risks, the procedure was approved.",
+      "explanation": "When 'notwithstanding' precedes a noun phrase, the structure is: 'notwithstanding + noun phrase + comma + main clause'. It cannot be followed directly by a full clause without 'the fact that'."
+    },
+    {
+      "id": "ad-mc-question-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the word that opens the cleft correctly.",
+      "prompt": "___ this policy does is reduce urban poverty — it has had little impact on rural areas.",
+      "options": ["What", "Where", "That", "It"],
+      "answer": "What",
+      "explanation": "A 'What'-cleft ('What [subject] does is…') emphasises what the policy achieves. 'What this policy does is reduce urban poverty' is the correct structure. 'It'-cleft would need a different structure entirely."
+    },
+    {
+      "id": "ad-mc-question-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the most appropriate academic discourse marker.",
+      "prompt": "The findings are consistent with previous research. ___, they add new insights into the underlying mechanisms.",
+      "options": ["What is more", "That is to say", "In other words", "To be sure"],
+      "answer": "What is more",
+      "explanation": "'What is more' formally adds an additional emphatic point — the second sentence goes further than the first. 'That is to say' and 'in other words' signal restatement, not addition. 'To be sure' concedes, which is wrong here."
+    }
+  ]
+}

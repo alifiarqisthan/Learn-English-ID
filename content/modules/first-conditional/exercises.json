@@ -1,0 +1,269 @@
+{
+  "exercises": [
+    {
+      "id": "fc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct first conditional.",
+      "prompt": "If it ___ tomorrow, we ___ the picnic.",
+      "options": ["rains / will cancel", "will rain / cancel", "rains / cancel", "rained / would cancel"],
+      "answer": "rains / will cancel",
+      "explanation": "First conditional: if + present simple, will + V1. 'If it rains' (not 'will rain') + 'we will cancel'."
+    },
+    {
+      "id": "fc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal in the result clause.",
+      "prompt": "If you finish early, you ___ leave before 5 pm.",
+      "options": ["will", "can", "Both are correct.", "should"],
+      "answer": "Both are correct.",
+      "explanation": "Both 'will leave' (definite future) and 'can leave' (permission/ability) are correct in first conditional result clauses. The choice depends on meaning."
+    },
+    {
+      "id": "fc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Kalau kamu belajar keras, kamu akan lulus.' → English:",
+      "prompt": "If you ___ hard, you ___ pass.",
+      "options": ["will study / will", "study / will", "studied / would", "study / would"],
+      "answer": "study / will",
+      "explanation": "First conditional: if + present simple ('study') + will + V1 ('will pass'). Real future possibility."
+    },
+    {
+      "id": "fc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'unless' equivalent.",
+      "prompt": "If you don't submit by Friday, you'll lose marks. → Unless ___",
+      "options": [
+        "you don't submit by Friday, you'll lose marks.",
+        "you submit by Friday, you'll lose marks.",
+        "you don't submit, you won't lose marks.",
+        "you submitted by Friday, you would lose marks."
+      ],
+      "answer": "you submit by Friday, you'll lose marks.",
+      "explanation": "'Unless' = 'if not'. 'Unless you submit by Friday, you'll lose marks.' The unless-clause uses an affirmative verb — never 'unless you don't'."
+    },
+    {
+      "id": "fc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly uses 'might' in the result clause.",
+      "prompt": "If we leave now, we ___ catch the last train.",
+      "options": ["will", "might", "Both are correct.", "should"],
+      "answer": "Both are correct.",
+      "explanation": "'Will catch' = certain result. 'Might catch' = possible result (less certain). Both are grammatically correct first conditionals."
+    },
+    {
+      "id": "fc-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct first conditional with a result clause imperative.",
+      "prompt": "If you feel unwell, ___ the doctor immediately.",
+      "options": ["you will see", "see", "seeing", "you should see"],
+      "answer": "see",
+      "explanation": "First conditional result clause can be an imperative (direct instruction). 'If you feel unwell, see the doctor.' 'You should see' is also acceptable."
+    },
+    {
+      "id": "fc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the first conditional.",
+      "prompt": "If she will pass the exam, she will celebrate.",
+      "options": [
+        "Should be 'passes' — present simple in the if-clause, not 'will'.",
+        "Should be 'passed' — past tense in the if-clause.",
+        "Should be 'would celebrate' — conditional result needed.",
+        "No error — 'will pass' is correct in first conditionals."
+      ],
+      "answer": "Should be 'passes' — present simple in the if-clause, not 'will'.",
+      "explanation": "The if-clause of a first conditional uses present simple, never 'will'. Correct: 'If she passes the exam, she will celebrate.'"
+    },
+    {
+      "id": "fc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'unless' error.",
+      "prompt": "Unless you don't bring your ID, you can't enter.",
+      "options": [
+        "Should be 'Unless you bring' — 'unless' already means 'if not'.",
+        "Should be 'If you don't bring' — 'unless' is wrong here.",
+        "Should be 'Unless you didn't bring' — past tense needed.",
+        "No error — 'unless you don't' is correct."
+      ],
+      "answer": "Should be 'Unless you bring' — 'unless' already means 'if not'.",
+      "explanation": "'Unless' = if not. 'Unless you don't bring' is a double negative. Correct: 'Unless you bring your ID, you can't enter.'"
+    },
+    {
+      "id": "fc-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that mixes first and second conditional.",
+      "prompt": "___",
+      "options": [
+        "If she studies, she will pass.",
+        "If she studied, she would pass.",
+        "If she studies, she would pass.",
+        "Unless she studies, she won't pass."
+      ],
+      "answer": "If she studies, she would pass.",
+      "explanation": "'If she studies' (present simple, first conditional if-clause) + 'she would pass' (second conditional result) is a mixed error. Use either: 'If she studies, she **will** pass' or 'If she **studied**, she would pass.'"
+    },
+    {
+      "id": "fc-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative first conditional.",
+      "prompt": "If you ___ enough sleep, you ___ concentrate properly.",
+      "options": ["don't get / won't be able to", "won't get / can't", "didn't get / wouldn't", "don't get / wouldn't"],
+      "answer": "don't get / won't be able to",
+      "explanation": "First conditional negative: if + don't/doesn't + V1, won't + V1. 'If you don't get enough sleep, you won't be able to concentrate.'"
+    },
+    {
+      "id": "fc-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the correctly formed negative first conditional.",
+      "prompt": "___",
+      "options": [
+        "If she won't attend, please inform the organiser.",
+        "If she doesn't attend, please inform the organiser.",
+        "If she didn't attend, please inform the organiser.",
+        "Unless she won't attend, please inform the organiser."
+      ],
+      "answer": "If she doesn't attend, please inform the organiser.",
+      "explanation": "First conditional negative if-clause: doesn't + V1. 'If she doesn't attend' → present simple negative. 'Won't attend' in the if-clause is wrong."
+    },
+    {
+      "id": "fc-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "Unless the government invests in education, economic outcomes will not improve.",
+      "options": [
+        "Should be 'If the government doesn't invest' — 'unless' is wrong here.",
+        "Should be 'Unless the government won't invest' — future tense needed.",
+        "No error — this is a correct first conditional using 'unless'.",
+        "Should be 'Unless the government invested' — past tense needed."
+      ],
+      "answer": "No error — this is a correct first conditional using 'unless'.",
+      "explanation": "'Unless the government invests' = 'if the government doesn't invest'. The unless-clause correctly uses present simple. The result clause 'will not improve' is correct."
+    },
+    {
+      "id": "fc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct first conditional question.",
+      "prompt": "What ___ you do if it ___ tomorrow?",
+      "options": ["will / rains", "would / rained", "will / will rain", "do / rains"],
+      "answer": "will / rains",
+      "explanation": "First conditional question: What + will + subject + V1 + if + present simple? 'What will you do if it rains?' — 'rains' not 'will rain' in the if-clause."
+    },
+    {
+      "id": "fc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Apakah kamu akan datang jika saya mengundangmu?' → English:",
+      "prompt": "___ you come if I ___ you?",
+      "options": ["Would / invited", "Will / invite", "Would / invite", "Do / invite"],
+      "answer": "Will / invite",
+      "explanation": "First conditional (real future): 'Will you come if I invite you?' 'Would' would make it a second conditional (hypothetical)."
+    },
+    {
+      "id": "fc-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which correctly distinguishes first from zero conditional?",
+      "prompt": "___",
+      "options": [
+        "Zero: If you press it, it will beep. First: If you press it, it beeps.",
+        "Zero: If you press it, it beeps. First: If you press it, it will beep.",
+        "Both first and zero use 'will' in the result clause.",
+        "The only difference is that zero uses 'when' and first uses 'if'."
+      ],
+      "answer": "Zero: If you press it, it beeps. First: If you press it, it will beep.",
+      "explanation": "Zero = present simple in both clauses (universal truth). First = present simple + will (specific future prediction)."
+    },
+    {
+      "id": "fc-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct result clause with 'must' for obligation.",
+      "prompt": "If you break the equipment, you ___ replace it.",
+      "options": ["will", "must", "Both are correct.", "should"],
+      "answer": "Both are correct.",
+      "explanation": "'Will replace' (definite future consequence) and 'must replace' (obligation) are both valid in first conditional result clauses. The meaning shifts slightly."
+    },
+    {
+      "id": "fc-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence with the correct clause order (result clause first).",
+      "prompt": "___",
+      "options": [
+        "You will pass, if you study hard.",
+        "You will pass if you study hard.",
+        "You will pass, if you will study hard.",
+        "If you study hard you will pass."
+      ],
+      "answer": "You will pass if you study hard.",
+      "explanation": "When the result clause comes first, no comma is needed. When the if-clause comes first, a comma is required: 'If you study hard, you will pass.'"
+    },
+    {
+      "id": "fc-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Jika hujan, kami akan membatalkan acara.' → English:",
+      "prompt": "If it ___, we ___ the event.",
+      "options": ["will rain / cancel", "rains / will cancel", "rained / would cancel", "rains / cancel"],
+      "answer": "rains / will cancel",
+      "explanation": "First conditional: if + present simple ('rains') + will + V1 ('will cancel'). Real future possibility — it might rain."
+    },
+    {
+      "id": "fc-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify all correct first conditionals.",
+      "prompt": "___",
+      "options": [
+        "If she studies, she will pass. ✓ / If she studies, she would pass. ✗",
+        "Both are correct first conditionals.",
+        "Neither sentence is a correct first conditional.",
+        "If she will study, she will pass. ✓ / If she studies, she will pass. ✗"
+      ],
+      "answer": "If she studies, she will pass. ✓ / If she studies, she would pass. ✗",
+      "explanation": "'If she studies, she will pass' = correct first conditional. 'If she studies, she would pass' mixes first (if-clause) and second (result clause) — an error."
+    },
+    {
+      "id": "fc-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses 'unless' correctly as a first conditional?",
+      "prompt": "___",
+      "options": [
+        "Unless it rains, we will go to the beach.",
+        "Unless it won't rain, we will go to the beach.",
+        "Unless it doesn't rain, we will go to the beach.",
+        "Unless it rained, we would go to the beach."
+      ],
+      "answer": "Unless it rains, we will go to the beach.",
+      "explanation": "'Unless it rains' = if it doesn't rain → correct. 'Unless it won't rain' and 'unless it doesn't rain' are double negatives. 'Unless it rained' is a second conditional."
+    },
+    {
+      "id": "fc-mc-pos-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best first conditional for an academic writing argument.",
+      "prompt": "If governments ___ in renewable energy, carbon emissions ___ significantly.",
+      "options": [
+        "will invest / will reduce",
+        "invest / will reduce",
+        "invested / would reduce",
+        "invest / reduce"
+      ],
+      "answer": "invest / will reduce",
+      "explanation": "First conditional for a real, argued-for future scenario: if + present simple ('invest') + will + V1 ('will reduce'). Common structure in IELTS/TOEFL argument essays."
+    }
+  ]
+}

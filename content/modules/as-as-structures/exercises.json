@@ -1,1 +1,229 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "aas-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct words to complete the as…as structure.",
+      "prompt": "This exercise is ___ the previous one.",
+      "options": ["as difficult as", "as difficult than", "as more difficult as", "so difficult as"],
+      "answer": "as difficult as",
+      "explanation": "The equality structure is 'as + adjective + as'. Never use 'than' inside this structure."
+    },
+    {
+      "id": "aas-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct words to complete the as…as structure.",
+      "prompt": "She is ___ her older sister.",
+      "options": ["as tall than", "as tall as", "as taller as", "more tall as"],
+      "answer": "as tall as",
+      "explanation": "Equality comparison: as + adjective + as. 'Than,' 'taller,' and 'more' do not belong inside an as…as structure."
+    },
+    {
+      "id": "aas-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct words to complete the multiplier structure.",
+      "prompt": "This new apartment is ___ our old one.",
+      "options": ["twice as large as", "twice as large than", "two times more large as", "two times as larger as"],
+      "answer": "twice as large as",
+      "explanation": "Multiplier structure: twice + as + adjective + as. 'Than' does not replace the second 'as.'"
+    },
+    {
+      "id": "aas-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct words to complete the sentence.",
+      "prompt": "He drinks ___ coffee ___ his manager.",
+      "options": ["as much / as", "as many / as", "as much / than", "as more / as"],
+      "answer": "as much / as",
+      "explanation": "Coffee is uncountable → 'as much + uncountable noun + as'. 'As many' is for countable nouns."
+    },
+    {
+      "id": "aas-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct words to complete the sentence.",
+      "prompt": "She has read ___ books ___ the librarian.",
+      "options": ["as many / as", "as much / as", "as many / than", "as more / as"],
+      "answer": "as many / as",
+      "explanation": "Books is countable → 'as many + countable noun + as'. 'As much' is for uncountable nouns."
+    },
+    {
+      "id": "aas-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "The journey took ___ expected.",
+      "options": ["three times as long as", "three times as long than", "three times longer as", "three times as longer as"],
+      "answer": "three times as long as",
+      "explanation": "Multiplier structure: three times + as + adjective + as. The second 'as' stays — it does not become 'than.'"
+    },
+    {
+      "id": "aas-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modifier to complete the sentence.",
+      "prompt": "He is ___ capable as his colleague, so either of them could lead the project.",
+      "options": ["just as", "almost as", "not quite as", "not as"],
+      "answer": "just as",
+      "explanation": "'Just as' means completely equal. The context ('so either could lead') confirms they are equal in capability."
+    },
+    {
+      "id": "aas-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the negative as…as sentence.",
+      "prompt": "This hotel is ___ the one downtown.",
+      "options": ["not as expensive as", "not as expensive than", "not more expensive as", "as not expensive as"],
+      "answer": "not as expensive as",
+      "explanation": "Negative equality: not as + adjective + as. The structure still uses 'as' on both sides."
+    },
+    {
+      "id": "aas-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "The sequel was not as interesting as the original.",
+        "He is not as experienced as his supervisor.",
+        "She doesn't work as hardly as her partner.",
+        "This version is not as reliable as the previous one."
+      ],
+      "answer": "She doesn't work as hardly as her partner.",
+      "explanation": "'Hard' is already an adverb in this context. 'Hardly' means 'almost not' — a completely different word. Correct: 'as hard as.'"
+    },
+    {
+      "id": "aas-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "This path is not as safe as the highway.",
+        "The new policy is not as effective as the old one.",
+        "He is not as tall as his father.",
+        "She runs not as fast than her teammate."
+      ],
+      "answer": "She runs not as fast than her teammate.",
+      "explanation": "'Not as fast than' is wrong. The structure is 'not as fast as' — both words must be 'as.'"
+    },
+    {
+      "id": "aas-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "He doesn't earn as much as his sister.",
+        "She hasn't read as many books as I have.",
+        "They don't have as much informations as we do.",
+        "This plan is not as practical as the alternative."
+      ],
+      "answer": "They don't have as much informations as we do.",
+      "explanation": "'Information' is uncountable — it has no plural form. Correct: 'as much information as.'"
+    },
+    {
+      "id": "aas-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct modifier to complete the sentence.",
+      "prompt": "He is ___ tall as his father, but he is still growing.",
+      "options": ["almost as", "just as", "not quite as", "not as"],
+      "answer": "almost as",
+      "explanation": "'Almost as' means slightly less. The context ('still growing') implies he is close but not yet equal."
+    },
+    {
+      "id": "aas-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "The second proposal was ___ convincing ___ the first one.",
+      "options": ["not as / as", "not as / than", "not so / as", "less / as"],
+      "answer": "not as / as",
+      "explanation": "'Not as + adjective + as' is the standard negative equality structure. 'Not so…as' is an older variant; 'less…as' is incorrect."
+    },
+    {
+      "id": "aas-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "This road is not as wide as the main highway.",
+        "He is not as confident as he used to be.",
+        "The presentation was as twice long as planned.",
+        "She doesn't speak as fluently as her tutor."
+      ],
+      "answer": "The presentation was as twice long as planned.",
+      "explanation": "Multipliers come before 'as': 'twice as long as', not 'as twice long as.'"
+    },
+    {
+      "id": "aas-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Is this assignment ___ the previous one?",
+      "options": ["as challenging as", "as challenging than", "as more challenging as", "as challinging than"],
+      "answer": "as challenging as",
+      "explanation": "Equality question: as + adjective + as. Never use 'than' inside an as…as structure."
+    },
+    {
+      "id": "aas-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Does he earn ___ money ___ his manager?",
+      "options": ["as much / as", "as many / as", "as much / than", "as more / as"],
+      "answer": "as much / as",
+      "explanation": "Money is uncountable → as much + uncountable noun + as."
+    },
+    {
+      "id": "aas-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Is Jakarta ___ Surabaya in terms of population?",
+      "options": ["twice as large as", "twice as large than", "as twice large as", "twice large than"],
+      "answer": "twice as large as",
+      "explanation": "Multiplier structure: twice + as + adjective + as. The multiplier always precedes 'as.'"
+    },
+    {
+      "id": "aas-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Did she perform ___ well ___ last time?",
+      "options": ["as / as", "as / than", "more / as", "so / than"],
+      "answer": "as / as",
+      "explanation": "As well as = equality with an adverb. Both sides of the structure are 'as.'"
+    },
+    {
+      "id": "aas-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "Is the new phone as fast as the old one?",
+        "Does she work as hard as her colleagues?",
+        "Is he as more experienced as the senior team members?",
+        "Did the second attempt go as smoothly as the first?"
+      ],
+      "answer": "Is he as more experienced as the senior team members?",
+      "explanation": "'As more experienced as' is wrong — do not add 'more' inside an as…as structure. Correct: 'as experienced as.'"
+    },
+    {
+      "id": "aas-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Are there ___ students enrolled this year ___ last year?",
+      "options": ["as many / as", "as much / as", "as many / than", "as more / as"],
+      "answer": "as many / as",
+      "explanation": "Students is countable → as many + countable noun + as."
+    }
+  ]
+}

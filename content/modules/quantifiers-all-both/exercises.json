@@ -1,1 +1,304 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "qab-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier. There are exactly two candidates.",
+      "prompt": "___ candidates were highly qualified for the position.",
+      "options": [
+        "All",
+        "Both",
+        "Each",
+        "Every"
+      ],
+      "answer": "Both",
+      "explanation": "'Both' = exactly two. 'All' would imply more than two. 'Both candidates' → plural verb 'were'."
+    },
+    {
+      "id": "qab-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form.",
+      "prompt": "Each participant ___ required to submit a signed consent form.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": "is",
+      "explanation": "'Each' + singular noun → singular verb. 'Each participant is required...'"
+    },
+    {
+      "id": "qab-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier. You want to emphasise individual attention.",
+      "prompt": "The teacher gave ___ student detailed feedback on their essay.",
+      "options": [
+        "all",
+        "both",
+        "every",
+        "each"
+      ],
+      "answer": "each",
+      "explanation": "'Each' emphasises individual distribution — giving one copy/feedback to every individual one by one."
+    },
+    {
+      "id": "qab-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the grammatical error.",
+      "prompt": "___",
+      "options": [
+        "All the students passed the final exam.",
+        "Both reports were submitted on time.",
+        "Every of the participants received a certificate.",
+        "Each team member contributed to the project."
+      ],
+      "answer": "Every of the participants received a certificate.",
+      "explanation": "'Every' cannot be followed by 'of'. Use 'Every participant received...' or 'Each of the participants received...'."
+    },
+    {
+      "id": "qab-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the verb agreement error.",
+      "prompt": "___",
+      "options": [
+        "All the documents were reviewed by the committee.",
+        "Both the managers approved the plan.",
+        "Each student are expected to bring their own materials.",
+        "Every country has its own legal system."
+      ],
+      "answer": "Each student are expected to bring their own materials.",
+      "explanation": "'Each' + singular noun → singular verb. 'Each student **is** expected to bring their own materials.'"
+    },
+    {
+      "id": "qab-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct structure with 'each of'.",
+      "prompt": "___ the applicants will be interviewed individually.",
+      "options": [
+        "Each of",
+        "Each of the",
+        "Every of the",
+        "All each"
+      ],
+      "answer": "Each of the",
+      "explanation": "'Each of' must be followed by 'the' + plural noun: 'Each of the applicants'. 'Every of' is not grammatical."
+    },
+    {
+      "id": "qab-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct quantifier for a universal statement about a large group.",
+      "prompt": "___ country in the world has its own currency.",
+      "options": [
+        "All",
+        "Both",
+        "Each",
+        "Every"
+      ],
+      "answer": "Every",
+      "explanation": "'Every' = universal (no exceptions), typically for larger groups. 'Every country has' — singular verb."
+    },
+    {
+      "id": "qab-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mid-position structure.",
+      "prompt": "The students ___ completed the survey before the deadline.",
+      "options": [
+        "all have",
+        "all",
+        "both all",
+        "every"
+      ],
+      "answer": "all",
+      "explanation": "'All' can appear in mid-position after a subject: 'The students all completed' (= all the students completed)."
+    },
+    {
+      "id": "qab-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier. The buses run at a fixed interval.",
+      "prompt": "A bus departs ___ fifteen minutes.",
+      "options": [
+        "all",
+        "both",
+        "each",
+        "every"
+      ],
+      "answer": "every",
+      "explanation": "'Every + number + plural noun' = at regular intervals: 'every fifteen minutes', 'every three days'."
+    },
+    {
+      "id": "qab-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'all', 'both', 'each', or 'every'.",
+      "prompt": "___ member of the team was asked to present their results.",
+      "options": [
+        "eachs",
+        "Each",
+        "Every",
+        "eaching"
+      ],
+      "answer": "Each",
+      "explanation": "'Each member' (individual focus) or 'Every member' (universal) — both correct here. Singular verb 'was'."
+    },
+    {
+      "id": "qab-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'all' or 'both'. There are exactly two options.",
+      "prompt": "___ options have advantages and disadvantages.",
+      "options": [
+        "did both",
+        "Both",
+        "bothing",
+        "boths"
+      ],
+      "answer": "Both",
+      "explanation": "Exactly two options → 'Both'. 'All' implies more than two."
+    },
+    {
+      "id": "qab-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the correct verb form for 'every'.",
+      "prompt": "Every employee ___ required to complete annual training.",
+      "options": [
+        "are",
+        "was",
+        "were",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "'Every' + singular noun → singular verb: 'Every employee is required'."
+    },
+    {
+      "id": "qab-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'each of the' or 'every'. The sentence needs 'each of the'.",
+      "prompt": "___ students submitted a different version of the project.",
+      "options": [
+        "Each of the",
+        "the of each",
+        "eachs of the",
+        "each of theed"
+      ],
+      "answer": "Each of the",
+      "explanation": "'Each of the' + plural noun. 'Every student' would also work but 'Each of the students' is the target structure."
+    },
+    {
+      "id": "qab-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct pronoun position. They = the two managers.",
+      "prompt": "The two managers ___ agreed to sign the contract.",
+      "options": [
+        "boths",
+        "both",
+        "bothing",
+        "both agreed"
+      ],
+      "answer": "both",
+      "explanation": "'They both agreed' or 'The two managers both agreed' — 'both' appears after the subject pronoun/noun."
+    },
+    {
+      "id": "qab-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Setiap negara memiliki budaya dan tradisinya sendiri.\"",
+      "prompt": "Setiap negara memiliki budaya dan tradisinya sendiri.",
+      "options": [
+        "traditions. and culture own its has country Every",
+        "Every country has its own culture and traditions.",
+        "Every country has is iting own culture and is traditioning.",
+        "Every country have its own culture and traditions."
+      ],
+      "answer": "Every country has its own culture and traditions.",
+      "explanation": "'Setiap' = every (universal). Singular noun + singular verb: 'every country has'."
+    },
+    {
+      "id": "qab-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Kedua proposal tersebut ditolak oleh komite.\"",
+      "prompt": "Kedua proposal tersebut ditolak oleh komite.",
+      "options": [
+        "Both proposals are rejected by the committee.",
+        "Both proposals were rejected by the committee.",
+        "Both proposals were rejected by a committee.",
+        "Both is proposaling were rejected by the committee."
+      ],
+      "answer": "Both proposals were rejected by the committee.",
+      "explanation": "'Keduanya' = both (exactly two). Plural noun → plural verb 'were'."
+    },
+    {
+      "id": "qab-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Guru tersebut memberikan umpan balik kepada setiap siswa secara individual.\"",
+      "prompt": "Guru tersebut memberikan umpan balik kepada setiap siswa secara individual.",
+      "options": [
+        "This is not correct English.",
+        "The teacher gave each student individual feedback. (incorrect)",
+        "The teacher gave each student individual feedback, every day.",
+        "The teacher gave each student individual feedback."
+      ],
+      "answer": "The teacher gave each student individual feedback.",
+      "explanation": "'Setiap siswa' with individual distribution → 'each student'. Singular noun, singular implied verb."
+    },
+    {
+      "id": "qab-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Semua dokumen harus dikumpulkan sebelum tenggat waktu.\"",
+      "prompt": "Semua dokumen harus dikumpulkan sebelum tenggat waktu.",
+      "options": [
+        "All documents must be submitted before the deadline. (incorrect)",
+        "All documents must be submitted before the deadline, every day.",
+        "All documents must be submitted before the deadline.",
+        "All documents must be submitted before a deadline."
+      ],
+      "answer": "All documents must be submitted before the deadline.",
+      "explanation": "'Semua' = all. Plural noun → plural verb implied. 'All documents' (no article) or 'all the documents' (specific)."
+    },
+    {
+      "id": "qab-mc-each-every-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct fixed expression.",
+      "prompt": "They helped ___ other throughout the difficult project.",
+      "options": [
+        "every",
+        "each",
+        "all",
+        "both"
+      ],
+      "answer": "each",
+      "explanation": "'Each other' is a fixed expression meaning mutual action. 'Every other' means 'alternate'."
+    },
+    {
+      "id": "qab-mc-whole-all-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form.",
+      "prompt": "She worked ___ day without taking a break.",
+      "options": [
+        "the whole",
+        "all the",
+        "both",
+        "each"
+      ],
+      "answer": "the whole",
+      "explanation": "'The whole day' = the entire day (singular). 'All day' is also correct (fixed expression) — but 'all the day' is not natural. 'The whole day' is the best option here."
+    }
+  ]
+}

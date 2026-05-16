@@ -1,1 +1,174 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cst-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct as…as structure for equality.",
+      "prompt": "She is ___ her brother.",
+      "options": ["as tall than", "as tall as", "more tall as", "tall as"],
+      "answer": "as tall as",
+      "explanation": "As…as for equality: as + adjective + as. 'She is as tall as her brother' = they are the same height. Never 'as tall than'."
+    },
+    {
+      "id": "cst-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct negative as…as.",
+      "prompt": "This exam is ___ I expected.",
+      "options": ["not as hard as", "not harder than", "not as hard than", "less hard as"],
+      "answer": "not as hard as",
+      "explanation": "'Not as + adjective + as' expresses inequality (less than): 'not as hard as I expected' = it's easier than I expected."
+    },
+    {
+      "id": "cst-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct multiplier with as…as.",
+      "prompt": "She earns ___ I do.",
+      "options": ["twice more than", "twice as much as", "two times more as", "double as much as"],
+      "answer": "twice as much as",
+      "explanation": "Multiplier + as…as: 'twice as much as', 'three times as large as'. Never 'twice more than' (redundant/incorrect)."
+    },
+    {
+      "id": "cst-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct double comparative.",
+      "prompt": "The more you practise, ___ you get.",
+      "options": ["better", "more better", "the better", "the more better"],
+      "answer": "the better",
+      "explanation": "Double comparative: The + comparative, the + comparative. 'The more you practise, the better you get.' Both parts need 'the'."
+    },
+    {
+      "id": "cst-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct parallel increase structure.",
+      "prompt": "The traffic is getting ___ every year.",
+      "options": ["worse and worse", "more worse and more worse", "worse and more worse", "worser and worser"],
+      "answer": "worse and worse",
+      "explanation": "Comparative + and + comparative for gradual change: 'worse and worse'. 'Worser' doesn't exist. 'More worse' is a double comparative error."
+    },
+    {
+      "id": "cst-test-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the as…as error.",
+      "prompt": "She runs as fast than her brother.",
+      "options": [
+        "Should be 'as fast as' — 'as…as' not 'as…than'.",
+        "Should be 'faster than' — comparative needed.",
+        "Should be 'as faster as' — comparative form needed.",
+        "No error — 'as fast than' is correct."
+      ],
+      "answer": "Should be 'as fast as' — 'as…as' not 'as…than'.",
+      "explanation": "The as…as structure always uses 'as' both times. 'As fast than' is incorrect. Correct: 'She runs as fast as her brother.'"
+    },
+    {
+      "id": "cst-test-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the double comparative error.",
+      "prompt": "The more you study, the more you get smarter.",
+      "options": [
+        "Should be 'the smarter you get' — no 'more' before the comparative.",
+        "Should be 'the more smarter you get' — both needed.",
+        "Should be 'the most smart you get' — superlative needed.",
+        "No error — 'the more you get smarter' is correct."
+      ],
+      "answer": "Should be 'the smarter you get' — no 'more' before the comparative.",
+      "explanation": "'Smarter' is already a comparative — don't add 'more'. Correct: 'The more you study, the smarter you get.'"
+    },
+    {
+      "id": "cst-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'as many as' for countable nouns.",
+      "prompt": "She reads ___ books a month as her sister.",
+      "options": ["as much", "as many", "twice as much", "as more"],
+      "answer": "as many",
+      "explanation": "'As many as' for countable nouns ('books'). 'As much as' for uncountable nouns. 'She reads as many books as her sister.'"
+    },
+    {
+      "id": "cst-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Semakin keras kamu bekerja, semakin besar hasilnya.' → English:",
+      "prompt": "___ you work, ___ the results.",
+      "options": ["The harder / the greater", "More hard / more great", "The more hard / the more great", "Harder / greater"],
+      "answer": "The harder / the greater",
+      "explanation": "'Semakin…semakin' = the + comparative, the + comparative. 'The harder you work, the greater the results.' Both parts need 'the'."
+    },
+    {
+      "id": "cst-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'less and less' for decreasing uncountable quantity.",
+      "prompt": "People are spending ___ time outdoors.",
+      "options": ["fewer and fewer", "less and less", "lesser and lesser", "little and little"],
+      "answer": "less and less",
+      "explanation": "'Less and less' for uncountable nouns ('time'). 'Fewer and fewer' for countable nouns. 'Lesser' is formal/literary; 'little and little' doesn't exist."
+    },
+    {
+      "id": "cst-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'fewer and fewer' for countable nouns.",
+      "prompt": "___ students are studying humanities these days.",
+      "options": ["Less and less", "Fewer and fewer", "Lesser and lesser", "More fewer"],
+      "answer": "Fewer and fewer",
+      "explanation": "'Fewer and fewer' for countable nouns ('students'). 'Less and less' = uncountable. 'Lesser' doesn't repeat. 'More fewer' doesn't exist."
+    },
+    {
+      "id": "cst-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'just as' for equal emphasis.",
+      "prompt": "The results of Study B are ___ significant as those of Study A.",
+      "options": ["just as", "equally as", "just more", "just as more"],
+      "answer": "just as",
+      "explanation": "'Just as + adjective + as' emphasises that the equality is exact or surprising: 'just as significant as'. 'Equally as' is redundant."
+    },
+    {
+      "id": "cst-test-13",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which correctly uses a double comparative in an academic context?",
+      "prompt": "___",
+      "options": [
+        "The higher the temperature, the more fast the reaction.",
+        "The higher the temperature, the faster the reaction.",
+        "The more higher the temperature, the faster the reaction.",
+        "Higher the temperature, faster the reaction."
+      ],
+      "answer": "The higher the temperature, the faster the reaction.",
+      "explanation": "Double comparative: the + comparative, the + comparative. 'The higher…the faster.' Both need 'the'; no 'more' before single-syllable comparatives."
+    },
+    {
+      "id": "cst-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Ini tidak semewah yang saya kira.' → English:",
+      "prompt": "This is ___ I thought.",
+      "options": ["not as luxurious than", "not as luxurious as", "less luxurious as", "not more luxurious than"],
+      "answer": "not as luxurious as",
+      "explanation": "'Tidak se...seperti' = not as…as (inequality). 'This is not as luxurious as I thought' = it's less luxurious than expected."
+    },
+    {
+      "id": "cst-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses a multiplier with as…as?",
+      "prompt": "___",
+      "options": [
+        "This project took twice more time than the last one.",
+        "This project took twice as much time as the last one.",
+        "This project took two times more as the last one.",
+        "This project took double times as the last one."
+      ],
+      "answer": "This project took twice as much time as the last one.",
+      "explanation": "Multiplier + as…as: 'twice as much time as'. 'Twice more than' is redundant/non-standard. 'Two times more as' mixes structures."
+    }
+  ]
+}

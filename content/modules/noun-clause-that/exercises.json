@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "nct-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly structured embedded question.",
+      "prompt": "I don't know ___.",
+      "options": [
+        "where does she live",
+        "where she lives",
+        "where is she living",
+        "where she is live"
+      ],
+      "answer": "where she lives",
+      "explanation": "Embedded questions use statement order: where + subject + verb (not question order: where does + subject + base verb)."
+    },
+    {
+      "id": "nct-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct that-clause sentence.",
+      "prompt": "The research ___ exercise has positive effects on mental health.",
+      "options": [
+        "shows which",
+        "shows that",
+        "shows what",
+        "shows how"
+      ],
+      "answer": "shows that",
+      "explanation": "'Show that' introduces a fact or finding. 'That' links the verb 'shows' to the clause."
+    },
+    {
+      "id": "nct-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct embedded yes/no question.",
+      "prompt": "Can you tell me ___ the office is open on weekends?",
+      "options": [
+        "that",
+        "which",
+        "if",
+        "what"
+      ],
+      "answer": "if",
+      "explanation": "Yes/no embedded questions use 'if' or 'whether'. 'Is the office open?' → 'if the office is open'."
+    },
+    {
+      "id": "nct-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with incorrect word order in the embedded clause.",
+      "prompt": "___",
+      "options": [
+        "She asked me what time the meeting starts.",
+        "Nobody knows why he resigned.",
+        "Please tell me where does the manager sit.",
+        "I wonder whether the results are accurate."
+      ],
+      "answer": "Please tell me where does the manager sit.",
+      "explanation": "Question order ('does the manager sit') is wrong inside an embedded clause. Correct: 'where the manager sits'."
+    },
+    {
+      "id": "nct-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correctly used 'whether' or 'if'.",
+      "prompt": "She couldn't decide ___ to accept the job offer.",
+      "options": [
+        "if",
+        "whether",
+        "that",
+        "what"
+      ],
+      "answer": "whether",
+      "explanation": "Before a to-infinitive, only 'whether' is correct. 'If to accept' is not grammatical."
+    },
+    {
+      "id": "nct-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct dummy-subject structure.",
+      "prompt": "___ students attend all lectures is essential for success.",
+      "options": [
+        "That",
+        "It is",
+        "Whether",
+        "What"
+      ],
+      "answer": "That",
+      "explanation": "'That students attend all lectures' is the subject noun clause. 'That' introduces a nominal clause used as the subject."
+    },
+    {
+      "id": "nct-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct 'it' pattern.",
+      "prompt": "___ clear that more research is needed before any conclusions can be drawn.",
+      "options": [
+        "This is",
+        "It is",
+        "There is",
+        "That is"
+      ],
+      "answer": "It is",
+      "explanation": "Dummy subject 'it' + adjective + that-clause: 'It is clear that...'"
+    },
+    {
+      "id": "nct-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence with the correct 'say' vs. 'tell' usage.",
+      "prompt": "___",
+      "options": [
+        "She said me that she was tired.",
+        "She told me that she was tired.",
+        "She told that she was tired.",
+        "She said to me that she was tired me."
+      ],
+      "answer": "She told me that she was tired.",
+      "explanation": "'Tell' requires a person object: tell + person + that-clause. 'Say' does not take a direct person object."
+    },
+    {
+      "id": "nct-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct embedded question after 'wonder'.",
+      "prompt": "I wonder ___ the new policy will affect our team.",
+      "options": [
+        "that",
+        "how",
+        "whether",
+        "what"
+      ],
+      "answer": "whether",
+      "explanation": "'Wonder whether' introduces an embedded yes/no question. 'Wonder that' is not used this way."
+    },
+    {
+      "id": "nct-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct word order. Embed the question 'What does she want?'",
+      "prompt": "Nobody knows ___.",
+      "options": [
+        "what she wants",
+        "what she wanting",
+        "did what she want",
+        "what she want"
+      ],
+      "answer": "what she wants",
+      "explanation": "Statement order: what + subject (she) + verb (wants). Remove 'does'."
+    },
+    {
+      "id": "nct-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'that', 'if', or 'whether'.",
+      "prompt": "It is important ___ all team members are aware of the new deadline.",
+      "options": [
+        "thats",
+        "that",
+        "did that",
+        "thating"
+      ],
+      "answer": "that",
+      "explanation": "'It is important that' + subject + verb. This pattern uses 'that', not 'if/whether'."
+    },
+    {
+      "id": "nct-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Embed this question using statement word order: 'Why did he leave early?'",
+      "prompt": "She doesn't understand ___.",
+      "options": [
+        "early left he why",
+        "whys he left early",
+        "why he left earlyed",
+        "why he left early"
+      ],
+      "answer": "why he left early",
+      "hint": "Remove 'did', change to past tense: left.",
+      "explanation": "Statement order: why + he + left early. Remove 'did' and convert to past simple."
+    },
+    {
+      "id": "nct-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'whether' or 'if'. The clause is after a preposition.",
+      "prompt": "The decision depends on ___ the funding is approved.",
+      "options": [
+        "whethering",
+        "whethers",
+        "whether",
+        "did whether"
+      ],
+      "answer": "whether",
+      "explanation": "After a preposition ('on'), only 'whether' is correct — not 'if'."
+    },
+    {
+      "id": "nct-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Embed the question 'Where is the nearest hospital?' in statement order.",
+      "prompt": "Can you tell me ___?",
+      "options": [
+        "where the nearest hospital iing",
+        "where the nearest hospital i",
+        "did where the nearest hospital i",
+        "where the nearest hospital is"
+      ],
+      "answer": "where the nearest hospital is",
+      "explanation": "Statement order: where + subject (the nearest hospital) + verb (is)."
+    },
+    {
+      "id": "nct-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Saya tahu bahwa dia salah.\"",
+      "prompt": "Saya tahu bahwa dia salah.",
+      "options": [
+        "wrong. is she that know I",
+        "I know that she is wrong.",
+        "I know that she was wrong.",
+        "I know that she are wrong."
+      ],
+      "answer": "I know that she is wrong.",
+      "explanation": "'Bahwa' = 'that' in a that-clause. 'That' is optional when it's an object clause."
+    },
+    {
+      "id": "nct-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Saya tidak tahu di mana dia bekerja.\"",
+      "prompt": "Saya tidak tahu di mana dia bekerja.",
+      "options": [
+        "I doesn't know where she work.",
+        "I don't know where she works. (incorrect)",
+        "I don't know where she works.",
+        "I not know where she works."
+      ],
+      "answer": "I don't know where she works.",
+      "explanation": "'Di mana dia bekerja' → 'where she works' (statement order, not 'where does she work')."
+    },
+    {
+      "id": "nct-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Saya tidak yakin apakah pertemuan itu akan ditunda.\"",
+      "prompt": "Saya tidak yakin apakah pertemuan itu akan ditunda.",
+      "options": [
+        "I'm not sure whether a meeting will be postponed.",
+        "I'm not sure whether the meeting will be postponed.",
+        "I'm not sure whether the meeting will be postponed. (incorrect)",
+        "I'm not sure whether the meeting will be postponed, every day."
+      ],
+      "answer": "I'm not sure whether the meeting will be postponed.",
+      "explanation": "'Apakah' in embedded form = whether/if. Statement order: whether + subject + verb."
+    },
+    {
+      "id": "nct-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Sudah jelas bahwa lebih banyak penelitian diperlukan.\"",
+      "prompt": "Sudah jelas bahwa lebih banyak penelitian diperlukan.",
+      "options": [
+        "It was clear that more research was needed.",
+        "It is clear that more research is needed.",
+        "It is clearly that more research is needed.",
+        "It is clear that more researches are needed."
+      ],
+      "answer": "It is clear that more research is needed.",
+      "explanation": "'Sudah jelas bahwa' = 'It is clear that'. Use the dummy 'it' + adjective + that-clause pattern."
+    },
+    {
+      "id": "nct-mc-wh-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct embedded question.",
+      "prompt": "The professor asked us ___ we had finished the assignment.",
+      "options": [
+        "that",
+        "if",
+        "what",
+        "how"
+      ],
+      "answer": "if",
+      "explanation": "The professor asked a yes/no question ('Had you finished?') → embedded with 'if' or 'whether'."
+    },
+    {
+      "id": "nct-mc-noun-that-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'the fact that'.",
+      "prompt": "___",
+      "options": [
+        "The fact she won was remarkable.",
+        "The fact that she won was remarkable.",
+        "The fact which she won was remarkable.",
+        "The fact of she won was remarkable."
+      ],
+      "answer": "The fact that she won was remarkable.",
+      "explanation": "After 'the fact', 'that' is required — it cannot be omitted or replaced with 'which'."
+    }
+  ]
+}

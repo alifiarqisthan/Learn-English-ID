@@ -1,1 +1,179 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "mc-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mixed conditional: past condition → present result.",
+      "prompt": "If I ___ that job offer, I ___ in London now.",
+      "options": ["took / would be", "had taken / would be", "had taken / would have been", "took / will be"],
+      "answer": "had taken / would be",
+      "explanation": "Mixed Type A: past condition (if + had + V3) → present result (would + V1). 'If I had taken that job, I would be in London now.'"
+    },
+    {
+      "id": "mc-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mixed conditional: present condition → past result.",
+      "prompt": "If she ___ so shy, she ___ for the position.",
+      "options": ["weren't / would apply", "wasn't / would have applied", "weren't / would have applied", "hadn't been / would apply"],
+      "answer": "weren't / would have applied",
+      "explanation": "Mixed Type B: present condition (if + past simple/were) → past result (would have + V3). She is still shy (present), so she didn't apply (past)."
+    },
+    {
+      "id": "mc-test-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the mixed conditional.",
+      "prompt": "If I had taken better care of my health, I would feel better now.",
+      "options": [
+        "Should be 'would have felt' — past result needed.",
+        "No error — this is a correct mixed conditional (past condition → present result).",
+        "Should be 'had felt' — past perfect needed.",
+        "Should be 'will feel' — future result needed."
+      ],
+      "answer": "No error — this is a correct mixed conditional (past condition → present result).",
+      "explanation": "'If I had taken better care' (past perfect) + 'I would feel better now' (would + V1 for present result) = correct Mixed Type A."
+    },
+    {
+      "id": "mc-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct connector: 'unless' = if not.",
+      "prompt": "___ you register in advance, you won't be able to attend.",
+      "options": ["If", "Unless", "Both are correct.", "Provided that"],
+      "answer": "Both are correct.",
+      "explanation": "'If you don't register in advance, you won't be able to attend.' = 'Unless you register in advance, you won't be able to attend.' Both express the same condition."
+    },
+    {
+      "id": "mc-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct conditional connector meaning 'only if'.",
+      "prompt": "You may use the equipment, ___ you have completed the safety training.",
+      "options": ["unless", "provided that", "even if", "in case"],
+      "answer": "provided that",
+      "explanation": "'Provided that' = on the condition that (only if). It sets a requirement. 'Unless' = if not; 'even if' = regardless; 'in case' = as a precaution."
+    },
+    {
+      "id": "mc-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct use of 'even if'.",
+      "prompt": "___ it rains, we will go ahead with the outdoor event.",
+      "options": ["Unless", "Even if", "Provided that", "As long as"],
+      "answer": "Even if",
+      "explanation": "'Even if' = despite the condition / regardless of whether. The event will go ahead regardless of rain. 'Even if it rains' = whether or not it rains."
+    },
+    {
+      "id": "mc-test-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the conditional connector sentence.",
+      "prompt": "In case you are hungry, you should eat something.",
+      "options": [
+        "Should be 'If you are hungry' — 'in case' means precaution, not condition.",
+        "No error — 'in case' is correct here.",
+        "Should be 'Unless you are hungry'.",
+        "Should be 'As long as you are hungry'."
+      ],
+      "answer": "Should be 'If you are hungry' — 'in case' means precaution, not condition.",
+      "explanation": "'In case' = as a precaution (take an umbrella in case it rains). 'If you are hungry, eat something' = a direct condition. 'In case' ≠ 'if'."
+    },
+    {
+      "id": "mc-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'as long as' sentence.",
+      "prompt": "You can stay ___ you follow the house rules.",
+      "options": ["unless", "even if", "as long as", "in case"],
+      "answer": "as long as",
+      "explanation": "'As long as' = on the condition that / provided that. 'You can stay as long as you follow the rules' = the condition for staying."
+    },
+    {
+      "id": "mc-test-9",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which correctly identifies the two types of mixed conditionals?",
+      "prompt": "___",
+      "options": [
+        "Type A: present condition → past result. Type B: past condition → present result.",
+        "Type A: past condition → present result. Type B: present condition → past result.",
+        "Both types combine a past perfect if-clause with a would + V1 result.",
+        "Mixed conditionals always use 'would have' in the result clause."
+      ],
+      "answer": "Type A: past condition → present result. Type B: present condition → past result.",
+      "explanation": "Type A: if + had + V3 → would + V1 (present). Type B: if + past simple/were → would have + V3 (past). The 'mixed' refers to combining elements from different conditional types."
+    },
+    {
+      "id": "mc-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Kecuali kamu belajar, kamu tidak akan lulus.' → English:",
+      "prompt": "___ you study, you won't pass.",
+      "options": ["If", "Unless", "Even if", "Provided that"],
+      "answer": "Unless",
+      "explanation": "'Kecuali' = unless (if not). 'Unless you study, you won't pass' = 'If you don't study, you won't pass.'"
+    },
+    {
+      "id": "mc-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mixed conditional for: 'I studied medicine (past). I am a doctor now (present).'",
+      "prompt": "If I ___ medicine, I ___ a doctor now.",
+      "options": ["studied / would be", "had studied / would be", "had studied / would have been", "studied / would have been"],
+      "answer": "had studied / would be",
+      "explanation": "Past condition (didn't study medicine) → present result (not a doctor now) → Mixed Type A: if + had + V3, would + V1."
+    },
+    {
+      "id": "mc-test-12",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'even if' vs 'even though' distinction.",
+      "prompt": "___",
+      "options": [
+        "'Even if' = despite the fact; 'even though' = whether or not (hypothetical).",
+        "'Even if' = hypothetical/future concession; 'even though' = real/known concession.",
+        "Both mean exactly the same thing.",
+        "'Even if' is formal; 'even though' is informal."
+      ],
+      "answer": "'Even if' = hypothetical/future concession; 'even though' = real/known concession.",
+      "explanation": "'Even though it was raining, we continued' (it was raining — fact). 'Even if it rains, we'll continue' (hypothetical — may or may not rain)."
+    },
+    {
+      "id": "mc-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'in case' sentence.",
+      "prompt": "Take an umbrella ___ it rains.",
+      "options": ["if", "in case", "even if", "unless"],
+      "answer": "in case",
+      "explanation": "'In case it rains' = take the umbrella as a precaution (before you know if it will rain). 'If it rains, take an umbrella' = wait until it rains, then act."
+    },
+    {
+      "id": "mc-test-14",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses 'whether or not' correctly?",
+      "prompt": "___",
+      "options": [
+        "I will attend whether or not it is convenient.",
+        "I will attend whether or not if it is convenient.",
+        "Whether or not I attend, it will convenient.",
+        "I whether or not attend will be convenient."
+      ],
+      "answer": "I will attend whether or not it is convenient.",
+      "explanation": "'Whether or not' = regardless of whether. 'I will attend whether or not it is convenient' — the attendance is unconditional."
+    },
+    {
+      "id": "mc-test-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct mixed Type B conditional.",
+      "prompt": "If he ___ more confident, he ___ for the leadership role last year.",
+      "options": ["were / would apply", "were / would have applied", "had been / would apply", "is / would have applied"],
+      "answer": "were / would have applied",
+      "explanation": "Mixed Type B: present condition (if + were/past simple) → past result (would have + V3). He's still not confident (present state) → he didn't apply last year (past)."
+    }
+  ]
+}

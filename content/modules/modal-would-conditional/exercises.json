@@ -1,0 +1,264 @@
+{
+  "exercises": [
+    {
+      "id": "mwc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Type 2 conditional result.",
+      "prompt": "If I won the lottery, I ___ travel around the world.",
+      "options": ["will", "would", "should", "could have"],
+      "answer": "would",
+      "explanation": "Type 2 conditional (unreal present situation) → 'would + V1' in the result clause. 'Will' is for Type 1 (real/likely). 'Could have' is for past perfect conditional."
+    },
+    {
+      "id": "mwc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form for a past habit (action verb).",
+      "prompt": "When I was in primary school, we ___ walk home together every day.",
+      "options": ["used to", "would", "Both are correct.", "were"],
+      "answer": "Both are correct.",
+      "explanation": "For past habits with action verbs, both 'used to walk' and 'would walk' are correct. 'Used to' is more common; 'would' adds a nostalgic tone. Both are grammatically fine."
+    },
+    {
+      "id": "mwc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct polite request form.",
+      "prompt": "___ you mind checking this document for me?",
+      "options": ["Do", "Would", "Could", "Both B and C are correct."],
+      "answer": "Both B and C are correct.",
+      "explanation": "'Would you mind checking…?' and 'Could you check…?' are both polite requests. 'Would you mind' + V-ing is the more specific polite structure."
+    },
+    {
+      "id": "mwc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dulu kami selalu bermain di taman setiap sore.' → English (past habit):",
+      "prompt": "We ___ in the park every afternoon.",
+      "options": ["would play", "used to playing", "played", "Both A and C are correct."],
+      "answer": "Both A and C are correct.",
+      "explanation": "Past habit with action verb: 'would play' and 'played' (simple past) both express a past repeated action. 'Used to play' is also correct. 'Used to playing' is wrong (gerund form)."
+    },
+    {
+      "id": "mwc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported speech transformation.",
+      "prompt": "He said: 'I will finish it tomorrow.' → Reported: He said he ___ finish it the next day.",
+      "options": ["will", "would", "should", "had to"],
+      "answer": "would",
+      "explanation": "In reported speech, 'will' in the original statement becomes 'would': 'He said he would finish it.' Tense backshifts in reported speech."
+    },
+    {
+      "id": "mwc-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Type 3 conditional result.",
+      "prompt": "If she had applied earlier, she ___ the scholarship.",
+      "options": [
+        "would receive",
+        "would have received",
+        "will have received",
+        "should have received"
+      ],
+      "answer": "would have received",
+      "explanation": "Type 3 conditional: if + had + V3 → would + have + V3 in the result clause. 'She didn't apply early, so she didn't receive it' — the whole event is in the past."
+    },
+    {
+      "id": "mwc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct use of 'would' vs 'used to' for a stative verb.",
+      "prompt": "When I was a child, I ___ afraid of the dark.",
+      "options": ["would be", "used to be", "Both are correct.", "was used to be"],
+      "answer": "used to be",
+      "explanation": "'Be' is a stative verb. 'Would' is not used with stative verbs for past habits. Use 'used to be'. 'Was used to be' is not correct."
+    },
+    {
+      "id": "mwc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the conditional sentence.",
+      "prompt": "If you would come earlier, we would have more time to talk.",
+      "options": [
+        "Should be 'came' — 'would' is not used in the if-clause.",
+        "Should be 'will come' — Type 1 required.",
+        "Should be 'had come' — Type 3 required.",
+        "No error — 'would' in the if-clause is correct."
+      ],
+      "answer": "Should be 'came' — 'would' is not used in the if-clause.",
+      "explanation": "'Would' is generally not placed in the if-clause of a conditional. Correct: 'If you **came** earlier, we would have more time to talk.' (Type 2)"
+    },
+    {
+      "id": "mwc-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative Type 2 conditional.",
+      "prompt": "If I ___ the time, I ___ have applied.",
+      "options": [
+        "had / would",
+        "have / would",
+        "had had / would have",
+        "would have / had"
+      ],
+      "answer": "had had / would have",
+      "explanation": "Wait — this is Type 3 (unreal past): 'If I had had the time, I would have applied.' The if-clause needs 'had had' (past perfect) because the time is in the past."
+    },
+    {
+      "id": "mwc-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the past habit sentence.",
+      "prompt": "She would own a small house in the countryside when she was young.",
+      "options": [
+        "Should be 'used to own' — 'would' is not used with stative verbs.",
+        "Should be 'would owned' — past form needed after 'would'.",
+        "Should be 'used to owned' — past form needed.",
+        "No error — 'would own' is correct for past habits."
+      ],
+      "answer": "Should be 'used to own' — 'would' is not used with stative verbs.",
+      "explanation": "'Own' is a stative verb. 'Would' for past habits only works with action verbs. Correct: 'She used to own a small house in the countryside.'"
+    },
+    {
+      "id": "mwc-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the polite request.",
+      "prompt": "Would you mind open the door for me?",
+      "options": [
+        "Should be 'opening' — 'mind' is followed by V-ing.",
+        "Should be 'to open' — infinitive after 'mind'.",
+        "Should be 'Could you' — 'would you mind' is too formal.",
+        "No error — 'open' is correct after 'would you mind'."
+      ],
+      "answer": "Should be 'opening' — 'mind' is followed by V-ing.",
+      "explanation": "'Mind' is followed by the gerund (V-ing): 'Would you mind opening the door?' Not 'open' (V1) or 'to open' (infinitive)."
+    },
+    {
+      "id": "mwc-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Kalau saya tahu, saya sudah datang.' → English (Type 3):",
+      "prompt": "If I ___, I ___ come.",
+      "options": [
+        "knew / would",
+        "had known / would have",
+        "know / will",
+        "would know / would have"
+      ],
+      "answer": "had known / would have",
+      "explanation": "Past unreal condition: Type 3 → 'If I had known, I would have come.' If-clause: had + V3. Result clause: would + have + V3."
+    },
+    {
+      "id": "mwc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct polite offer or preference question.",
+      "prompt": "___ you like some more tea?",
+      "options": ["Do", "Would", "Both are correct.", "Will"],
+      "answer": "Both are correct.",
+      "explanation": "'Would you like some more tea?' is more polite/formal. 'Do you want some more tea?' is more direct. Both are grammatically correct; 'would like' is the preferred polite form."
+    },
+    {
+      "id": "mwc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Apakah kamu mau/ingin bergabung dengan kami malam ini?' → polite English:",
+      "prompt": "___ you ___ to join us tonight?",
+      "options": ["Do / want", "Would / like", "Will / come", "Should / like"],
+      "answer": "Would / like",
+      "explanation": "'Would you like to join us tonight?' is the polite equivalent of 'Do you want to come?' 'Ingin' (want) → 'would like' in polite/formal English."
+    },
+    {
+      "id": "mwc-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct conditional question.",
+      "prompt": "What ___ you do if you ___ the opportunity?",
+      "options": ["would / had", "will / have", "would / have", "could / had"],
+      "answer": "would / had",
+      "explanation": "Type 2 conditional question: 'What would you do if you had the opportunity?' — if-clause: had (V2); result clause question: would + V1."
+    },
+    {
+      "id": "mwc-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'would' in reported speech?",
+      "prompt": "___",
+      "options": [
+        "She said she will call me after the meeting.",
+        "She said she would call me after the meeting.",
+        "She said she would called me after the meeting.",
+        "She told she would call me after the meeting."
+      ],
+      "answer": "She said she would call me after the meeting.",
+      "explanation": "Reported speech: 'will' → 'would'. 'She said she would call me' — 'said' + that-clause with 'would'. 'Would called' has a verb form error; 'told' needs an object ('told me')."
+    },
+    {
+      "id": "mwc-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the correct use of 'would have' in the context of a hypothetical past result.",
+      "prompt": "___",
+      "options": [
+        "If she studied harder, she would have passed.",
+        "If she had studied harder, she would have passed.",
+        "If she had studied harder, she would pass.",
+        "If she studied harder, she would pass."
+      ],
+      "answer": "If she had studied harder, she would have passed.",
+      "explanation": "Type 3 conditional (unreal past): if + had + V3 → would + have + V3. 'If she had studied harder, she would have passed.' The other options mix conditional types."
+    },
+    {
+      "id": "mwc-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly uses 'would' for past habit (not stative).",
+      "prompt": "___",
+      "options": [
+        "He would love reading as a child.",
+        "He would read for hours every evening as a child.",
+        "He would know all the answers in class.",
+        "He would have a cat when he was young."
+      ],
+      "answer": "He would read for hours every evening as a child.",
+      "explanation": "'Read' is an action verb — 'would read' for past habit is correct. 'Love', 'know', and 'have' (possess) are stative verbs — 'used to' is needed for these."
+    },
+    {
+      "id": "mwc-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative form in a Type 2 conditional.",
+      "prompt": "If I were the director, I ___ such a decision.",
+      "options": ["wouldn't make", "won't make", "didn't make", "hadn't made"],
+      "answer": "wouldn't make",
+      "explanation": "Type 2 negative result: 'wouldn't + V1'. 'If I were…' signals a hypothetical present → 'wouldn't make' in the result clause."
+    },
+    {
+      "id": "mwc-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly shows the difference between Type 2 and Type 3?",
+      "prompt": "___",
+      "options": [
+        "Type 2: 'If I study, I would pass.' Type 3: 'If I had studied, I would pass.'",
+        "Type 2: 'If I studied, I would pass.' Type 3: 'If I had studied, I would have passed.'",
+        "Type 2: 'If I would study, I pass.' Type 3: 'If I studied, I would have passed.'",
+        "Both types use 'would have' in the result clause."
+      ],
+      "answer": "Type 2: 'If I studied, I would pass.' Type 3: 'If I had studied, I would have passed.'",
+      "explanation": "Type 2: if + V2 → would + V1 (unreal present). Type 3: if + had + V3 → would + have + V3 (unreal past). These are the standard structures."
+    },
+    {
+      "id": "mwc-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya ingin memesan meja untuk dua orang.' → polite English:",
+      "prompt": "I ___ reserve a table for two.",
+      "options": ["want to", "would like to", "Both are correct.", "will like to"],
+      "answer": "Both are correct.",
+      "explanation": "'I would like to reserve a table' (polite/formal) and 'I want to reserve a table' (direct) are both correct. 'Would like to' is preferred in formal contexts. 'Will like to' is not a standard form."
+    }
+  ]
+}

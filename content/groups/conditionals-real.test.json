@@ -1,1 +1,179 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cr-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the zero conditional (universal truth).",
+      "prompt": "___",
+      "options": [
+        "If it rains tomorrow, we will cancel the trip.",
+        "If you press this button, the alarm sounds.",
+        "If she had studied, she would have passed.",
+        "If I were you, I would apply."
+      ],
+      "answer": "If you press this button, the alarm sounds.",
+      "explanation": "Zero conditional: present simple in both clauses — a cause-and-effect fact. The others are first, third, and second conditionals."
+    },
+    {
+      "id": "cr-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct zero conditional.",
+      "prompt": "If you heat water to 100°C, it ___.",
+      "options": ["will boil", "boils", "boiled", "would boil"],
+      "answer": "boils",
+      "explanation": "Zero conditional = universal scientific fact → present simple in both clauses. 'Will boil' makes it a first conditional."
+    },
+    {
+      "id": "cr-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct first conditional.",
+      "prompt": "If it ___ tomorrow, we ___ the picnic.",
+      "options": ["rains / will cancel", "will rain / cancel", "rains / cancel", "rained / would cancel"],
+      "answer": "rains / will cancel",
+      "explanation": "First conditional: if + present simple, will + V1. Never 'will' in the if-clause."
+    },
+    {
+      "id": "cr-test-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the first conditional error.",
+      "prompt": "If she will pass the exam, she will celebrate.",
+      "options": [
+        "Should be 'passes' — present simple in the if-clause, not 'will'.",
+        "Should be 'passed' — past tense in the if-clause.",
+        "Should be 'would celebrate' — conditional result needed.",
+        "No error — 'will pass' is correct."
+      ],
+      "answer": "Should be 'passes' — present simple in the if-clause, not 'will'.",
+      "explanation": "The if-clause of a first conditional uses present simple, never 'will'. Correct: 'If she passes the exam, she will celebrate.'"
+    },
+    {
+      "id": "cr-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'unless' equivalent.",
+      "prompt": "Unless you ___ by Friday, you'll lose marks.",
+      "options": ["don't submit", "submit", "submitted", "won't submit"],
+      "answer": "submit",
+      "explanation": "'Unless' = 'if not'. 'Unless you submit' = 'if you don't submit'. The unless-clause uses an affirmative verb — never 'unless you don't'."
+    },
+    {
+      "id": "cr-test-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'unless' error.",
+      "prompt": "Unless you don't bring your ID, you can't enter.",
+      "options": [
+        "Should be 'Unless you bring' — 'unless' already means 'if not'.",
+        "Should be 'If you don't bring' — 'unless' is wrong here.",
+        "Should be 'Unless you don't bring' — double negative is correct.",
+        "No error."
+      ],
+      "answer": "Should be 'Unless you bring' — 'unless' already means 'if not'.",
+      "explanation": "'Unless you don't bring' is a double negative. Correct: 'Unless you bring your ID, you can't enter.'"
+    },
+    {
+      "id": "cr-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'when' or 'if' for a zero conditional fact.",
+      "prompt": "___ you heat metal, it expands.",
+      "options": ["When", "If", "Both are correct.", "Unless"],
+      "answer": "Both are correct.",
+      "explanation": "In zero conditionals expressing universal truths, 'when' and 'if' are interchangeable."
+    },
+    {
+      "id": "cr-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct first conditional for an academic argument.",
+      "prompt": "If governments ___ in renewable energy, carbon emissions ___ significantly.",
+      "options": ["will invest / will reduce", "invest / will reduce", "invested / would reduce", "invest / reduce"],
+      "answer": "invest / will reduce",
+      "explanation": "First conditional for a real future scenario: if + present simple + will + V1. Common in IELTS/TOEFL argument essays."
+    },
+    {
+      "id": "cr-test-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that mixes first and second conditional.",
+      "prompt": "___",
+      "options": [
+        "If she studies, she will pass.",
+        "If she studied, she would pass.",
+        "If she studies, she would pass.",
+        "Unless she studies, she won't pass."
+      ],
+      "answer": "If she studies, she would pass.",
+      "explanation": "'If she studies' (present simple = first conditional) + 'she would pass' (second conditional result) is a mixed error. Use either 'will pass' or change to 'if she studied'."
+    },
+    {
+      "id": "cr-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Kalau kamu belajar keras, kamu akan lulus.' → English:",
+      "prompt": "If you ___ hard, you ___ pass.",
+      "options": ["will study / will", "study / will", "studied / would", "study / would"],
+      "answer": "study / will",
+      "explanation": "First conditional: if + present simple ('study') + will + V1 ('will pass'). Real future possibility."
+    },
+    {
+      "id": "cr-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct zero conditional negative.",
+      "prompt": "If plants ___ enough sunlight, they ___.",
+      "options": ["don't get / wilt", "won't get / will wilt", "didn't get / would wilt", "don't get / will wilt"],
+      "answer": "don't get / wilt",
+      "explanation": "Zero conditional negative: both clauses in present simple. 'If plants don't get sunlight, they wilt' = general truth."
+    },
+    {
+      "id": "cr-test-12",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct first conditional question.",
+      "prompt": "What ___ you do if it ___ tomorrow?",
+      "options": ["will / rains", "would / rained", "will / will rain", "do / rains"],
+      "answer": "will / rains",
+      "explanation": "First conditional question: What + will + subject + V1 + if + present simple? 'What will you do if it rains?'"
+    },
+    {
+      "id": "cr-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Correctly distinguish zero from first conditional.",
+      "prompt": "___",
+      "options": [
+        "Zero: If you heat ice, it will melt. First: If you heat ice, it melts.",
+        "Zero: If you heat ice, it melts. First: If you heat ice, it will melt.",
+        "Both types use 'will' in the result clause.",
+        "The only difference is 'when' vs 'if'."
+      ],
+      "answer": "Zero: If you heat ice, it melts. First: If you heat ice, it will melt.",
+      "explanation": "Zero = present simple + present simple (universal truth). First = present simple + will (specific future prediction)."
+    },
+    {
+      "id": "cr-test-14",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which first conditional correctly uses 'might' in the result clause?",
+      "prompt": "If we leave now, we ___ catch the last train.",
+      "options": ["will", "might", "Both are correct.", "should"],
+      "answer": "Both are correct.",
+      "explanation": "'Will catch' (certain) and 'might catch' (possible) are both valid first conditional result clauses."
+    },
+    {
+      "id": "cr-test-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Jika kamu tidak tidur cukup, kamu merasa lelah.' → English:",
+      "prompt": "If you ___ enough sleep, you ___ tired.",
+      "options": ["won't get / feel", "don't get / feel", "didn't get / would feel", "don't get / will feel"],
+      "answer": "don't get / feel",
+      "explanation": "Zero conditional: both present simple. 'If you don't get enough sleep, you feel tired' = universal truth."
+    }
+  ]
+}

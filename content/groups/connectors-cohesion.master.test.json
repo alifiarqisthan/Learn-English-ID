@@ -1,0 +1,239 @@
+{
+  "exercises": [
+    {
+      "id": "cc-master-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct addition connector (formal).",
+      "prompt": "The study was well-designed. ___, the sample size was adequate.",
+      "options": ["But", "Furthermore", "Although", "Because"],
+      "answer": "Furthermore",
+      "explanation": "'Furthermore' adds a point that strengthens the previous idea. 'But' = contrast; 'Although' = concession; 'Because' = reason."
+    },
+    {
+      "id": "cc-master-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the comma splice with 'however'.",
+      "prompt": "The data was promising, however the sample was too small.",
+      "options": [
+        "Should be a semicolon before 'however' or start a new sentence.",
+        "Should be 'however,' with only a comma — comma is correct.",
+        "Should be 'but however' — both connectors together.",
+        "No error."
+      ],
+      "answer": "Should be a semicolon before 'however' or start a new sentence.",
+      "explanation": "'However' is a conjunctive adverb — needs a semicolon before it or a new sentence. A comma alone creates a comma splice."
+    },
+    {
+      "id": "cc-master-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct result connector.",
+      "prompt": "The budget was cut. ___, the project had to be scaled back.",
+      "options": ["Although", "Consequently", "Moreover", "Unless"],
+      "answer": "Consequently",
+      "explanation": "'Consequently' = as a result (formal cause-result). 'Although' = concession; 'Moreover' = addition."
+    },
+    {
+      "id": "cc-master-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'because' or 'because of'.",
+      "prompt": "The event was cancelled ___ the heavy rain.",
+      "options": ["because", "because of", "due to it was", "since"],
+      "answer": "because of",
+      "explanation": "'Because of' + noun phrase. 'Because' + clause. 'The heavy rain' is a noun phrase → 'because of'."
+    },
+    {
+      "id": "cc-master-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'due to' error.",
+      "prompt": "The delay was due to it rained heavily.",
+      "options": [
+        "Should be 'due to the heavy rain' — 'due to' takes a noun phrase, not a clause.",
+        "Should be 'because it rained' — 'due to' is wrong entirely.",
+        "Should be 'due to heavy raining' — gerund needed.",
+        "No error."
+      ],
+      "answer": "Should be 'due to the heavy rain' — 'due to' takes a noun phrase, not a clause.",
+      "explanation": "'Due to' = preposition → takes a noun phrase. 'Due to the heavy rain' ✓. For a clause: 'because it rained'."
+    },
+    {
+      "id": "cc-master-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct concession connector.",
+      "prompt": "___ the weather was terrible, the outdoor ceremony continued.",
+      "options": ["Because", "Although", "Therefore", "Moreover"],
+      "answer": "Although",
+      "explanation": "'Although' introduces a concession — the ceremony continued despite the weather."
+    },
+    {
+      "id": "cc-master-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'despite' or 'although'.",
+      "prompt": "___ his lack of experience, he performed well.",
+      "options": ["Although", "Despite", "Even though", "However"],
+      "answer": "Despite",
+      "explanation": "'Despite' + noun phrase. 'Although/Even though' + full clause. 'His lack of experience' = noun phrase → 'despite'."
+    },
+    {
+      "id": "cc-master-8",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the double conjunction error.",
+      "prompt": "Although the study was limited, but it provided valuable insights.",
+      "options": [
+        "Remove 'but' — 'although' and 'but' cannot both connect the same clauses.",
+        "Remove 'although' — 'but' is correct.",
+        "Both are correct for emphasis.",
+        "Replace 'although' with 'even though'."
+      ],
+      "answer": "Remove 'but' — 'although' and 'but' cannot both connect the same clauses.",
+      "explanation": "Double conjunction error: use either 'although' (subordinating) or 'but' (coordinating) — not both."
+    },
+    {
+      "id": "cc-master-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reference pronoun.",
+      "prompt": "Prices rose sharply in Q3. ___ trend worried economists.",
+      "options": ["A", "This", "That kind of", "Such a"],
+      "answer": "This",
+      "explanation": "'This' refers back to the price rise — anaphoric reference to the previous sentence."
+    },
+    {
+      "id": "cc-master-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'the former' or 'the latter' correctly.",
+      "prompt": "Speed and accuracy are both important; ___ is harder to measure.",
+      "options": ["the former", "the latter", "both", "the second"],
+      "answer": "the latter",
+      "explanation": "'The latter' = the second of two items (accuracy). 'The former' = the first (speed). Only for exactly two items."
+    },
+    {
+      "id": "cc-master-11",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'former/latter' error.",
+      "prompt": "Speed, accuracy, and clarity are all important. The former is easiest to measure.",
+      "options": [
+        "Should be 'The first' — 'the former' is only for exactly two items.",
+        "Should be 'The latter' — refers to the last item.",
+        "No error — 'the former' works for any list.",
+        "Should be 'Speed' — repeat the noun."
+      ],
+      "answer": "Should be 'The first' — 'the former' is only for exactly two items.",
+      "explanation": "With three items, use 'the first', 'the second', 'the last'. 'Former/latter' = exactly two."
+    },
+    {
+      "id": "cc-master-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'not only…but also' with inversion.",
+      "prompt": "___ did she pass, but she also scored the highest mark.",
+      "options": ["Not only", "Only not", "Not just only", "Although not only"],
+      "answer": "Not only",
+      "explanation": "When 'not only' is fronted, inversion is required: 'Not only did she pass…' The auxiliary 'did' inverts with the subject 'she'."
+    },
+    {
+      "id": "cc-master-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct meaning of 'notwithstanding'.",
+      "prompt": "Notwithstanding the budget constraints, the project delivered excellent results.",
+      "options": [
+        "Notwithstanding = however",
+        "Notwithstanding = despite / in spite of",
+        "Notwithstanding = because of",
+        "Notwithstanding = therefore"
+      ],
+      "answer": "Notwithstanding = despite / in spite of",
+      "explanation": "'Notwithstanding' = despite — concession, NOT contrast. It is NOT a synonym for 'however'."
+    },
+    {
+      "id": "cc-master-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct it-cleft for emphasis.",
+      "prompt": "___ the methodology that was flawed, not the data.",
+      "options": ["This is", "It was", "That was", "What was"],
+      "answer": "It was",
+      "explanation": "It-cleft: 'It was X that…' emphasises X. 'It was the methodology that was flawed' — not the data."
+    },
+    {
+      "id": "cc-master-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct substitution using 'do so'.",
+      "prompt": "She submitted the report early, and her colleagues ___ too.",
+      "options": ["did it", "did so", "did that", "made so"],
+      "answer": "did so",
+      "explanation": "'Do so' substitutes for a previously mentioned action. 'Did so' = 'submitted the report early'. 'Did it' refers to a specific object."
+    },
+    {
+      "id": "cc-master-16",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct discourse marker for paraphrasing.",
+      "prompt": "The results were statistically significant. ___, the probability of the findings occurring by chance was less than 5%.",
+      "options": ["Moreover", "In other words", "Nevertheless", "Consequently"],
+      "answer": "In other words",
+      "explanation": "'In other words' = paraphrasing / clarifying the previous statement in simpler terms."
+    },
+    {
+      "id": "cc-master-17",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct concession discourse marker.",
+      "prompt": "___, some limitations exist; however, the overall findings remain significant.",
+      "options": ["Therefore", "Admittedly", "Furthermore", "Nevertheless"],
+      "answer": "Admittedly",
+      "explanation": "'Admittedly' = conceding a point — acknowledging a weakness before reasserting the main argument."
+    },
+    {
+      "id": "cc-master-18",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'not only…but also' inversion error.",
+      "prompt": "Not only the results were unexpected, but they also contradicted previous findings.",
+      "options": [
+        "Should be 'Not only were the results unexpected' — inversion required.",
+        "Should be 'Not only the results are unexpected' — present tense.",
+        "No error.",
+        "Should be 'Not only did results unexpected' — different inversion."
+      ],
+      "answer": "Should be 'Not only were the results unexpected' — inversion required.",
+      "explanation": "Fronted 'not only' requires auxiliary-subject inversion: 'Not only were the results unexpected…'"
+    },
+    {
+      "id": "cc-master-19",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Oleh karena itu, penelitian lebih lanjut diperlukan.' → English:",
+      "prompt": "___, further research is needed.",
+      "options": ["Although", "Therefore", "Moreover", "Despite"],
+      "answer": "Therefore",
+      "explanation": "'Oleh karena itu' = therefore (formal result connector)."
+    },
+    {
+      "id": "cc-master-20",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'insofar as'?",
+      "prompt": "___",
+      "options": [
+        "Insofar as the data is reliable, the conclusions are valid.",
+        "Insofar as, the data is reliable so conclusions are valid.",
+        "Insofar as = therefore, the conclusions are valid.",
+        "The conclusions insofar as are valid because the data is reliable."
+      ],
+      "answer": "Insofar as the data is reliable, the conclusions are valid.",
+      "explanation": "'Insofar as' = to the extent that. NOT a synonym for 'therefore' or 'because'. 'The conclusions are valid insofar as the data is reliable.'"
+    }
+  ]
+}

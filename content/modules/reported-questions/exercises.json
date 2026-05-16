@@ -1,1 +1,224 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "rq-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct indirect question form.",
+      "prompt": "Direct: \"Where do you live?\" → She asked me where ___.",
+      "options": ["do I live", "I live", "I lived", "did I live"],
+      "answer": "I lived",
+      "explanation": "Indirect questions use statement word order (subject + verb). 'Do' is removed and 'live' backshifts to 'lived'."
+    },
+    {
+      "id": "rq-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct indirect question form.",
+      "prompt": "Direct: \"Are you ready?\" → He asked me ___.",
+      "options": ["if I am ready", "if I was ready", "whether was I ready", "if was I ready"],
+      "answer": "if I was ready",
+      "explanation": "Yes/no indirect questions use 'if/whether' + statement word order. 'Am' backshifts to 'was'."
+    },
+    {
+      "id": "rq-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct indirect question form.",
+      "prompt": "Direct: \"What time does the train leave?\" → She asked what time the train ___.",
+      "options": ["does leave", "leaves", "left", "had left"],
+      "answer": "left",
+      "explanation": "In indirect questions, 'does' is removed and the main verb backshifts: 'leaves' → 'left'. No auxiliary inversion."
+    },
+    {
+      "id": "rq-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct indirect question form.",
+      "prompt": "Direct: \"Have you seen the new film?\" → She asked me ___ the new film.",
+      "options": ["if I have seen", "if I had seen", "whether had I seen", "if did I see"],
+      "answer": "if I had seen",
+      "explanation": "Present Perfect 'have seen' → Past Perfect 'had seen'. Statement word order with 'if'."
+    },
+    {
+      "id": "rq-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct indirect question form.",
+      "prompt": "Direct: \"Why did they leave early?\" → I asked why they ___.",
+      "options": ["did leave early", "had left early", "left early", "have left early"],
+      "answer": "had left early",
+      "explanation": "Past Simple 'left' → Past Perfect 'had left' in reported speech. Statement word order, no auxiliary."
+    },
+    {
+      "id": "rq-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct indirect question form.",
+      "prompt": "Direct: \"Will she come to the party?\" → He asked ___ to the party.",
+      "options": ["whether she will come", "whether she would come", "if would she come", "if will she come"],
+      "answer": "whether she would come",
+      "explanation": "'Will' → 'would' in reported speech. 'Whether' + statement word order for yes/no questions."
+    },
+    {
+      "id": "rq-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported command.",
+      "prompt": "Direct: \"Sit down!\" (to the students) → The teacher told the students ___.",
+      "options": ["to sit down", "sit down", "that they sit down", "sitting down"],
+      "answer": "to sit down",
+      "explanation": "Reported commands use 'tell + object + to + base verb'."
+    },
+    {
+      "id": "rq-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with an error.",
+      "prompt": "Which reported question is INCORRECT?",
+      "options": [
+        "She asked where I had been.",
+        "He asked what time the show started.",
+        "I asked if was she hungry.",
+        "They asked whether we could help."
+      ],
+      "answer": "I asked if was she hungry.",
+      "explanation": "Indirect questions use statement word order. The correct form is 'I asked if she was hungry' — no subject-verb inversion."
+    },
+    {
+      "id": "rq-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct reported request.",
+      "prompt": "Direct: \"Please don't make noise.\" → She asked them ___.",
+      "options": ["not to make noise", "to not making noise", "don't make noise", "that they don't make noise"],
+      "answer": "not to make noise",
+      "explanation": "Negative reported requests: 'ask + object + not to + base verb'."
+    },
+    {
+      "id": "rq-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct indirect question.",
+      "prompt": "Direct: \"How long have you been waiting?\" → She asked how long ___.",
+      "options": ["have I been waiting", "had I been waiting", "I had been waiting", "I have been waiting"],
+      "answer": "I had been waiting",
+      "explanation": "Present Perfect Continuous → Past Perfect Continuous in reported speech. Statement word order: 'I had been waiting'."
+    },
+    {
+      "id": "rq-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with an error.",
+      "prompt": "Which of the following is INCORRECT?",
+      "options": [
+        "He asked me to help him.",
+        "She asked me to not leave.",
+        "She asked me not to leave.",
+        "He asked her to wait outside."
+      ],
+      "answer": "She asked me to not leave.",
+      "explanation": "The negative to-infinitive places 'not' before 'to': 'not to leave', not 'to not leave'."
+    },
+    {
+      "id": "rq-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct indirect question.",
+      "prompt": "Direct: \"Can you explain the rules?\" → She asked me ___.",
+      "options": ["if I can explain the rules", "if I could explain the rules", "whether could I explain the rules", "could I explain the rules"],
+      "answer": "if I could explain the rules",
+      "explanation": "'Can' → 'could' in reported speech. 'If' + statement word order for yes/no questions."
+    },
+    {
+      "id": "rq-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that uses 'asked' correctly for a request.",
+      "prompt": "Which of the following uses 'asked' correctly?",
+      "options": [
+        "She asked that I help her.",
+        "She asked me help her.",
+        "She asked me to help her.",
+        "She asked me helping her."
+      ],
+      "answer": "She asked me to help her.",
+      "explanation": "Reported requests use 'ask + object + to + base verb'. 'Asked that' is not used for direct personal requests."
+    },
+    {
+      "id": "rq-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct indirect question.",
+      "prompt": "Direct: \"What did you buy?\" → He asked me ___.",
+      "options": ["what did I buy", "what I had bought", "what had I bought", "what I bought"],
+      "answer": "what I had bought",
+      "explanation": "Past Simple 'bought' → Past Perfect 'had bought' in reported speech. Statement word order: 'what I had bought'."
+    },
+    {
+      "id": "rq-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct indirect question.",
+      "prompt": "Direct: \"Is the museum open today?\" → She asked ___ open that day.",
+      "options": ["if was the museum", "whether the museum was", "if the museum is", "whether was the museum"],
+      "answer": "whether the museum was",
+      "explanation": "'Whether/if' + statement word order. 'Is' backshifts to 'was'. 'Today' → 'that day'."
+    },
+    {
+      "id": "rq-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct reported command.",
+      "prompt": "Direct: \"Don't touch the equipment!\" → The manager told the staff ___.",
+      "options": ["not to touch the equipment", "to not touching the equipment", "don't touch the equipment", "that they not touch the equipment"],
+      "answer": "not to touch the equipment",
+      "explanation": "Negative reported command: 'told + object + not to + base verb'."
+    },
+    {
+      "id": "rq-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct indirect question.",
+      "prompt": "Direct: \"Where is the nearest hospital?\" → I asked where ___.",
+      "options": ["is the nearest hospital", "was the nearest hospital", "the nearest hospital was", "the nearest hospital is"],
+      "answer": "the nearest hospital was",
+      "explanation": "Statement word order in indirect questions: 'where the nearest hospital was'. 'Is' backshifts to 'was'."
+    },
+    {
+      "id": "rq-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct indirect question.",
+      "prompt": "Direct: \"Do you know the password?\" → She asked him ___.",
+      "options": ["if he knows the password", "if he knew the password", "whether knew he the password", "did he know the password"],
+      "answer": "if he knew the password",
+      "explanation": "'Do you know' → 'if he knew'. Statement word order with 'if'; 'know' backshifts to 'knew'."
+    },
+    {
+      "id": "rq-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct indirect question.",
+      "prompt": "Direct: \"How much does it cost?\" → He asked how much ___.",
+      "options": ["does it cost", "it costs", "it cost", "it had cost"],
+      "answer": "it cost",
+      "explanation": "'Does' is removed; 'cost' backshifts to past form, which is also 'cost' (same form). Statement word order: 'how much it cost'."
+    },
+    {
+      "id": "rq-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct pair of reported speech forms for two connected sentences.",
+      "prompt": "Direct: \"Please open the window. Are you cold?\" → She asked me ___ and ___ I was cold.",
+      "options": [
+        "open the window / if",
+        "to open the window / if",
+        "to open the window / that",
+        "opening the window / whether"
+      ],
+      "answer": "to open the window / if",
+      "explanation": "Reported request: 'asked me to open the window'. Yes/no indirect question: 'asked if I was cold'."
+    }
+  ]
+}

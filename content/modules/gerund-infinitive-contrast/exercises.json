@@ -1,0 +1,219 @@
+{
+  "exercises": [
+    {
+      "id": "gic-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "He gave up cigarettes last year. He stopped ___.",
+      "options": ["to smoke", "smoking", "smoke", "smoked"],
+      "answer": "smoking",
+      "explanation": "'Stop + gerund' means to quit doing an action. He stopped smoking = he quit. 'Stopped to smoke' would mean he paused in order to have a cigarette."
+    },
+    {
+      "id": "gic-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "I clearly have a memory of turning off the gas before we left. I remember ___ it off.",
+      "options": ["to turn", "turn", "turning", "turned"],
+      "answer": "turning",
+      "explanation": "'Remember + gerund' refers to recalling a past action. I remember turning it off = I have that memory."
+    },
+    {
+      "id": "gic-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "She wants to experiment with a different method. She'll try ___ green tea instead of coffee.",
+      "options": ["to drink", "drink", "drinking", "drunk"],
+      "answer": "drinking",
+      "explanation": "'Try + gerund' means to experiment with something or test a method. 'Try + to-infinitive' would mean making an effort — not the intended meaning here."
+    },
+    {
+      "id": "gic-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "Relocating for this job entails a lot of adjustment. Taking this position means ___ everything from scratch.",
+      "options": ["to rebuild", "rebuild", "rebuilding", "rebuilt"],
+      "answer": "rebuilding",
+      "explanation": "'Mean + gerund' expresses what something entails or involves. Taking this position means rebuilding = it involves rebuilding."
+    },
+    {
+      "id": "gic-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "She wishes she hadn't said those harsh words to him. She regrets ___ so harshly.",
+      "options": ["to speak", "speak", "speaking", "spoken"],
+      "answer": "speaking",
+      "explanation": "'Regret + gerund' expresses sorrow about a past personal action. She regrets speaking = she is sorry she said it."
+    },
+    {
+      "id": "gic-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "The memory of their first meeting is unforgettable. I'll never forget ___ her at that conference.",
+      "options": ["meet", "to meet", "meeting", "met"],
+      "answer": "meeting",
+      "explanation": "'Forget + gerund' refers to a memory of a past event. I'll never forget meeting her = the memory of that event."
+    },
+    {
+      "id": "gic-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "Both sentences mean the same thing: 'She began ___ when she heard the news.'",
+      "options": ["cry / to cry (both are correct)", "crying only", "to cry only", "cried"],
+      "answer": "cry / to cry (both are correct)",
+      "explanation": "'Begin' can take either a gerund or a to-infinitive with no difference in meaning: began crying / began to cry are both correct."
+    },
+    {
+      "id": "gic-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "He was walking and paused on the side of the road. He stopped ___ the map.",
+      "options": ["checking", "check", "to check", "checked"],
+      "answer": "to check",
+      "explanation": "'Stop + to-infinitive' means to pause in order to do something. He stopped to check = he paused (walking) in order to check the map."
+    },
+    {
+      "id": "gic-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "She had a task to do but didn't do it. She forgot ___ the report to her supervisor.",
+      "options": ["send", "sending", "to send", "sent"],
+      "answer": "to send",
+      "explanation": "'Forget + to-infinitive' refers to failing to do a task. She forgot to send = she should have sent it but didn't."
+    },
+    {
+      "id": "gic-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is INCORRECT?",
+      "options": [
+        "I stopped eating junk food after my check-up.",
+        "She remembered to submit the form before the deadline.",
+        "He stopped to smoke two years ago.",
+        "They tried adding coconut milk to the curry."
+      ],
+      "answer": "He stopped to smoke two years ago.",
+      "explanation": "'Stop + to-infinitive' means he paused in order to smoke, not that he quit. To express quitting: He stopped smoking two years ago."
+    },
+    {
+      "id": "gic-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "This is a formal letter declining a candidate. 'We ___ to inform you that your application has been unsuccessful.'",
+      "options": ["regret informing", "regret inform", "regret to inform", "are regretting to inform"],
+      "answer": "regret to inform",
+      "explanation": "'Regret + to-infinitive' is used in formal announcements to express sorrow about delivering bad news. 'Regret informing' would imply regret about a past action."
+    },
+    {
+      "id": "gic-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "He wanted to fix the software bug but found it very difficult. He tried ___ it for hours.",
+      "options": ["fix", "fixing", "to fix", "fixed"],
+      "answer": "to fix",
+      "explanation": "'Try + to-infinitive' expresses making an effort toward a difficult goal. He tried to fix it = he made an effort but it was hard."
+    },
+    {
+      "id": "gic-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that is CORRECT.",
+      "prompt": "Which sentence uses the gerund/infinitive contrast correctly?",
+      "options": [
+        "Don't forget telling me when you arrive.",
+        "I remember to meet him last summer — it was wonderful.",
+        "She regrets to say those things — she wishes she hadn't.",
+        "I meant to call you yesterday but got distracted."
+      ],
+      "answer": "I meant to call you yesterday but got distracted.",
+      "explanation": "'Mean + to-infinitive' expresses intention: I meant to call = I intended to call. The other sentences misuse the pattern: 'forget telling' should be 'forget to tell' (future task), 'remember to meet' should be 'remember meeting' (past recall), 'regrets to say' should be 'regrets saying' (past personal action)."
+    },
+    {
+      "id": "gic-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the option that correctly completes the sentence based on the intended meaning.",
+      "prompt": "Choosing this research topic entails a lot of fieldwork. It means ___ to remote villages for months.",
+      "options": ["travel", "to travel", "travelling", "travelled"],
+      "answer": "travelling",
+      "explanation": "'Mean + gerund' expresses what something involves or entails. It means travelling = it involves travelling. 'Mean + to-infinitive' would express intention, not consequence."
+    },
+    {
+      "id": "gic-mc-que-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the option that correctly completes the question based on the intended meaning.",
+      "prompt": "Did you complete the task you were supposed to? Did you remember ___ in the attendance sheet?",
+      "options": ["sign", "signed", "signing", "to sign"],
+      "answer": "to sign",
+      "explanation": "'Remember + to-infinitive' refers to carrying out a future duty or task. Did you remember to sign = did you complete this task?"
+    },
+    {
+      "id": "gic-mc-que-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the option that correctly completes the question based on the intended meaning.",
+      "prompt": "The sauce isn't working. Have you tried ___ a pinch of sugar to balance the acidity?",
+      "options": ["add", "to add", "adding", "added"],
+      "answer": "adding",
+      "explanation": "'Try + gerund' suggests experimenting with a method or solution. Have you tried adding = have you experimented with adding sugar?"
+    },
+    {
+      "id": "gic-mc-que-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the option that correctly completes the question based on the intended meaning.",
+      "prompt": "Does she have that memory from childhood? Does she still remember ___ in her grandfather's garden?",
+      "options": ["play", "to play", "playing", "played"],
+      "answer": "playing",
+      "explanation": "'Remember + gerund' refers to a memory of a past event. Remember playing = she recalls the past experience of playing there."
+    },
+    {
+      "id": "gic-mc-que-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the option that correctly completes the question based on the intended meaning.",
+      "prompt": "Is she sorry she sent that message? Does she regret ___ it?",
+      "options": ["send", "to send", "sending", "sent"],
+      "answer": "sending",
+      "explanation": "'Regret + gerund' expresses feeling sorry about a past personal action: regrets sending = she is sorry she sent it."
+    },
+    {
+      "id": "gic-mc-que-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the sentence that is CORRECT.",
+      "prompt": "Which sentence correctly uses 'stop' with the intended meaning of ceasing an activity permanently?",
+      "options": [
+        "She stopped to check social media during study hours.",
+        "He stopped to drink alcohol after his illness.",
+        "They stopped to use plastic bags at the market.",
+        "She stopped checking social media during study hours."
+      ],
+      "answer": "She stopped checking social media during study hours.",
+      "explanation": "'Stop + gerund' means to cease doing something. She stopped checking = she no longer checks. The other options use 'stop + to-infinitive', which means pausing in order to do the action — the opposite of what's intended."
+    },
+    {
+      "id": "gic-mc-que-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the option that correctly completes the question based on the intended meaning.",
+      "prompt": "Did he intend to help? Did he mean ___ when he volunteered?",
+      "options": ["help", "helping", "to help", "helped"],
+      "answer": "to help",
+      "explanation": "'Mean + to-infinitive' expresses intention: did he mean to help = did he intend to help. 'Mean + gerund' would mean 'does it involve helping', which is not the question being asked."
+    }
+  ]
+}

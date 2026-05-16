@@ -6,7 +6,12 @@
       "form": "positive",
       "instruction": "Choose the correct present simple form.",
       "prompt": "She ___ to work by bus every morning.",
-      "options": ["go", "goes", "is going", "has gone"],
+      "options": [
+        "go",
+        "goes",
+        "is going",
+        "has gone"
+      ],
       "answer": "goes",
       "explanation": "Habitual routine → Present Simple. Third person singular (she) → goes."
     },
@@ -16,7 +21,12 @@
       "form": "positive",
       "instruction": "Choose the correct form for a universal fact.",
       "prompt": "The Earth ___ around the Sun.",
-      "options": ["is going", "goes", "went", "has gone"],
+      "options": [
+        "is going",
+        "goes",
+        "went",
+        "has gone"
+      ],
       "answer": "goes",
       "explanation": "Scientific fact / universal truth → Present Simple."
     },
@@ -26,7 +36,12 @@
       "form": "positive",
       "instruction": "Choose the correct present simple form.",
       "prompt": "My father ___ coffee every morning before work.",
-      "options": ["drink", "drinks", "is drinking", "drank"],
+      "options": [
+        "drink",
+        "drinks",
+        "is drinking",
+        "drank"
+      ],
       "answer": "drinks",
       "explanation": "Daily habit → Present Simple. 'My father' = third person singular → drinks."
     },
@@ -36,7 +51,12 @@
       "form": "negative",
       "instruction": "Choose the correct negative present simple.",
       "prompt": "I ___ meat. I've been vegetarian for years.",
-      "options": ["don't eat", "doesn't eat", "am not eating", "haven't eaten"],
+      "options": [
+        "don't eat",
+        "doesn't eat",
+        "am not eating",
+        "haven't eaten"
+      ],
       "answer": "don't eat",
       "explanation": "Permanent habit/state → Present Simple negative. First person → don't."
     },
@@ -46,7 +66,12 @@
       "form": "negative",
       "instruction": "Choose the correct negative form.",
       "prompt": "She ___ English at school. She studies French.",
-      "options": ["don't study", "doesn't study", "isn't studying", "hasn't studied"],
+      "options": [
+        "don't study",
+        "doesn't study",
+        "isn't studying",
+        "hasn't studied"
+      ],
       "answer": "doesn't study",
       "explanation": "Habitual fact → Present Simple negative. Third person singular (she) → doesn't."
     },
@@ -56,7 +81,12 @@
       "form": "question",
       "instruction": "Choose the correct question form.",
       "prompt": "___ your sister ___ in Jakarta?",
-      "options": ["Do / live", "Does / live", "Does / lives", "Is / living"],
+      "options": [
+        "Do / live",
+        "Does / live",
+        "Does / lives",
+        "Is / living"
+      ],
       "answer": "Does / live",
       "explanation": "Present Simple question → Does + subject + V1. Third person singular → does, base verb."
     },
@@ -66,109 +96,149 @@
       "form": "question",
       "instruction": "Choose the correct question form.",
       "prompt": "What time ___ the train ___ from Gambir station?",
-      "options": ["do / depart", "does / departs", "does / depart", "is / departing"],
+      "options": [
+        "do / depart",
+        "does / departs",
+        "does / depart",
+        "is / departing"
+      ],
       "answer": "does / depart",
       "explanation": "Wh-question → Does + subject + V1. 'The train' = third person singular."
     },
     {
       "id": "ps-fb-pos-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the correct present simple form of the verb in parentheses.",
+      "instruction": "Choose the correct answer for: the correct present simple form of the verb in parentheses.",
       "prompt": "My brother ___ (play) football every Saturday with his friends.",
-      "acceptedAnswers": ["plays"],
+      "options": [
+        "play",
+        "did play",
+        "plays",
+        "playing"
+      ],
+      "answer": "plays",
       "explanation": "Regular third-person singular → add -s: plays."
     },
     {
       "id": "ps-fb-pos-2",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the correct present simple form.",
+      "instruction": "Choose the correct answer for: the correct present simple form.",
       "prompt": "Water ___ (freeze) at 0 degrees Celsius.",
-      "acceptedAnswers": ["freezes"],
+      "options": [
+        "freezes",
+        "did freez",
+        "freezing",
+        "freez"
+      ],
+      "answer": "freezes",
       "explanation": "Universal scientific fact → Present Simple. Third person singular → freezes."
     },
     {
       "id": "ps-fb-pos-3",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the correct present simple form.",
+      "instruction": "Choose the correct answer for: the correct present simple form.",
       "prompt": "She ___ (study) at Universitas Indonesia.",
-      "acceptedAnswers": ["studies"],
+      "options": [
+        "studies",
+        "did study",
+        "study",
+        "studying"
+      ],
+      "answer": "studies",
       "hint": "Verbs ending in consonant + y: change y → i and add -es.",
       "explanation": "study → studies (consonant + y rule)."
     },
     {
       "id": "ps-fb-neg-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "negative",
-      "instruction": "Fill in the negative present simple. Both 'do not' and 'don't' are accepted.",
+      "instruction": "Choose the correct answer for: the negative present simple. Both 'do not' and 'don't' are accepted.",
       "prompt": "They ___ (not / speak) Bahasa Indonesia at home.",
-      "acceptedAnswers": ["do not speak", "don't speak"],
+      "options": [
+        "do not speaked",
+        "do not speak",
+        "does not speak",
+        "dos not speak"
+      ],
+      "answer": "do not speak",
       "explanation": "Negative Present Simple: do not / don't + base verb. Subject 'they' → do."
     },
     {
       "id": "ps-fb-q-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "question",
       "instruction": "Form the present simple question.",
       "prompt": "___ (you / like) spicy food?",
-      "acceptedAnswers": ["do you like", "Do you like"],
+      "options": [
+        "dos you like",
+        "do you like",
+        "Does you like",
+        "do you likeed"
+      ],
+      "answer": "do you like",
       "explanation": "Yes/no question → Do + subject + V1."
     },
     {
       "id": "ps-tr-pos-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate using present simple.",
+      "instruction": "Translate into English: \"Saya bangun jam 6 setiap hari.\"",
       "prompt": "Saya bangun jam 6 setiap hari.",
-      "modelAnswer": "I wake up at 6 every day.",
-      "alternativeAnswers": [
-        "I get up at 6 every day.",
-        "I wake up at 6 o'clock every day.",
-        "Every day I wake up at 6."
+      "options": [
+        "I wake up at 6 everyday.",
+        "I wakes up at 6 every day.",
+        "I wake up at 6 every day.",
+        "I wake up in 6 every day."
       ],
-      "keyTokens": ["wake up", "every day"],
+      "answer": "I wake up at 6 every day.",
       "explanation": "'Setiap hari' = every day → habitual routine → Present Simple."
     },
     {
       "id": "ps-tr-pos-2",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate using present simple.",
+      "instruction": "Translate into English: \"Adik saya suka musik jazz.\"",
       "prompt": "Adik saya suka musik jazz.",
-      "modelAnswer": "My younger sibling likes jazz music.",
-      "alternativeAnswers": [
-        "My brother likes jazz music.",
-        "My sister likes jazz music.",
-        "My little brother likes jazz.",
-        "My little sister likes jazz."
+      "options": [
+        "My younger sibling like jazz music.",
+        "My younger sibling likes jazz music.",
+        "My younger sibling likes jazz music, every day.",
+        "My younger sibling likes jazz music. (incorrect)"
       ],
-      "keyTokens": ["likes", "jazz"],
+      "answer": "My younger sibling likes jazz music.",
       "explanation": "Permanent preference → Present Simple. Third person singular → likes."
     },
     {
       "id": "ps-tr-neg-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "negative",
-      "instruction": "Translate as a negative present simple sentence.",
+      "instruction": "Translate into English: \"Dia tidak tinggal di Bandung. Dia tinggal di Surabaya.\"",
       "prompt": "Dia tidak tinggal di Bandung. Dia tinggal di Surabaya.",
-      "modelAnswer": "She doesn't live in Bandung. She lives in Surabaya.",
-      "alternativeAnswers": [
-        "He doesn't live in Bandung. He lives in Surabaya."
+      "options": [
+        "She not live in Bandung. She lives in Surabaya.",
+        "She don't live in Bandung. She lives in Surabaya.",
+        "She doesn't live in Bandung. She lives in Surabaya.",
+        "she doesn't live in Bandung. She live in Surabaya."
       ],
-      "keyTokens": ["doesn't live", "lives"],
+      "answer": "She doesn't live in Bandung. She lives in Surabaya.",
       "explanation": "Permanent state → Present Simple. Third person → doesn't / lives."
     },
     {
       "id": "ps-tr-q-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "question",
-      "instruction": "Translate as a present simple question.",
+      "instruction": "Translate into English: \"Apakah kamu bekerja di Jakarta?\"",
       "prompt": "Apakah kamu bekerja di Jakarta?",
-      "modelAnswer": "Do you work in Jakarta?",
-      "alternativeAnswers": [],
-      "keyTokens": ["do you work"],
+      "options": [
+        "Jakarta? in work you Do",
+        "you Do work in Jakarta?",
+        "Do you work in Jakarta?",
+        "Do you work at Jakarta?"
+      ],
+      "answer": "Do you work in Jakarta?",
       "explanation": "Yes/no question → Do + subject + V1."
     },
     {
@@ -177,7 +247,12 @@
       "form": "positive",
       "instruction": "Choose the correctly spelled third-person form.",
       "prompt": "She ___ to bed late on weekends.",
-      "options": ["go", "gos", "goes", "goies"],
+      "options": [
+        "go",
+        "gos",
+        "goes",
+        "goies"
+      ],
       "answer": "goes",
       "explanation": "go → goes (irregular spelling: add -es)."
     },
@@ -187,30 +262,45 @@
       "form": "positive",
       "instruction": "Choose the correct form. Think about whether this is a state or an action.",
       "prompt": "I ___ what you mean.",
-      "options": ["am understanding", "understand", "am knowing", "know about"],
+      "options": [
+        "am understanding",
+        "understand",
+        "am knowing",
+        "know about"
+      ],
       "answer": "understand",
       "hint": "'Understand' is a stative verb — it describes a mental state, not an action in progress.",
       "explanation": "Stative verb (mental state) → Present Simple, even when talking about right now."
     },
     {
       "id": "ps-fb-spelling-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the correct present simple form. Watch the spelling.",
+      "instruction": "Choose the correct answer for: the correct present simple form. Watch the spelling.",
       "prompt": "He ___ (watch) football matches every weekend.",
-      "acceptedAnswers": ["watches"],
+      "options": [
+        "did watch",
+        "watching",
+        "watches",
+        "watch"
+      ],
+      "answer": "watches",
       "hint": "Verbs ending in -ch, -sh, -ss, -x, -o: add -es.",
       "explanation": "watch → watches (add -es after -ch)."
     },
     {
       "id": "ps-tr-pos-3",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate using present simple.",
+      "instruction": "Translate into English: \"Matahari terbit di timur dan terbenam di barat.\"",
       "prompt": "Matahari terbit di timur dan terbenam di barat.",
-      "modelAnswer": "The sun rises in the east and sets in the west.",
-      "alternativeAnswers": [],
-      "keyTokens": ["rises", "sets", "east", "west"],
+      "options": [
+        "The sun rise in the east and sets in the west.",
+        "The sun rises in an east and sets in a west.",
+        "The sun rises in the east and set in the west.",
+        "The sun rises in the east and sets in the west."
+      ],
+      "answer": "The sun rises in the east and sets in the west.",
       "explanation": "Universal geographical fact → Present Simple."
     }
   ]

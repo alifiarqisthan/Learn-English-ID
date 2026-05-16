@@ -1,1 +1,200 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "rc-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct relative pronoun for a defining clause about a person.",
+      "prompt": "The student ___ scored the highest was awarded a scholarship.",
+      "options": ["who", "which", "whose", "whom"],
+      "answer": "who",
+      "explanation": "Person + subject of the relative clause → 'who'. 'Which' = things. 'Whose' = possessive. 'Whom' = object pronoun."
+    },
+    {
+      "id": "rc-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the non-defining relative clause. (Add correct punctuation.)",
+      "prompt": "Professor Arman ___ is retiring next year ___ wrote the textbook we use.",
+      "options": [
+        "who / — (no comma needed)",
+        ", who / , (commas on both sides)",
+        "which / — (no comma)",
+        ", which / , (commas on both sides)"
+      ],
+      "answer": ", who / , (commas on both sides)",
+      "explanation": "Non-defining relative clauses add extra information about a specific noun and are set off by commas on both sides: 'Professor Arman, who is retiring next year, wrote…'"
+    },
+    {
+      "id": "rc-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct relative pronoun for possession.",
+      "prompt": "The researcher ___ findings were disputed published a rebuttal.",
+      "options": ["who", "which", "whose", "whom"],
+      "answer": "whose",
+      "explanation": "'Whose' = possessive relative pronoun. 'The researcher whose findings were disputed' = the researcher's findings. Works for both people and things."
+    },
+    {
+      "id": "rc-test-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the non-defining relative clause.",
+      "prompt": "The research paper which was peer-reviewed, received high praise.",
+      "options": [
+        "Should be 'that' — 'which' is wrong for non-defining clauses.",
+        "Missing comma before 'which' — non-defining clauses need commas on both sides.",
+        "Should be 'who' — referring to a person.",
+        "No error — the sentence is correct."
+      ],
+      "answer": "Missing comma before 'which' — non-defining clauses need commas on both sides.",
+      "explanation": "A non-defining relative clause must be set off by commas on BOTH sides: 'The research paper, which was peer-reviewed, received high praise.'"
+    },
+    {
+      "id": "rc-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reduced relative clause.",
+      "prompt": "The students ___ in the library are preparing for finals.",
+      "options": ["who are studying", "studying", "Both are correct.", "who studying"],
+      "answer": "Both are correct.",
+      "explanation": "'Who are studying' (full relative clause) and 'studying' (reduced participial phrase) are both correct. The reduced form is more concise."
+    },
+    {
+      "id": "rc-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Reduce the relative clause: 'The report that was submitted yesterday has been reviewed.'",
+      "prompt": "The report ___ yesterday has been reviewed.",
+      "options": ["that submitted", "submitted", "which submitted", "being submitted"],
+      "answer": "submitted",
+      "explanation": "Passive relative clause ('that was submitted') reduces to past participle V3: 'the report submitted yesterday.' Remove 'that was' to reduce."
+    },
+    {
+      "id": "rc-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct object relative pronoun.",
+      "prompt": "The professor ___ I admire most is retiring this year.",
+      "options": ["who", "whom", "which", "whose"],
+      "answer": "whom",
+      "explanation": "The professor is the object of 'admire' (I admire him → whom). Formal: 'whom I admire most.' In informal English, 'who' is also acceptable here."
+    },
+    {
+      "id": "rc-test-8",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence where 'that' cannot be used.",
+      "prompt": "___",
+      "options": [
+        "The book that I read was fascinating.",
+        "The university that she applied to offered her a scholarship.",
+        "My thesis, that took two years, was finally approved.",
+        "The course that focuses on grammar is very popular."
+      ],
+      "answer": "My thesis, that took two years, was finally approved.",
+      "explanation": "'That' cannot introduce a non-defining relative clause. Non-defining clauses use 'who/which', not 'that'. Correct: 'My thesis, which took two years, was finally approved.'"
+    },
+    {
+      "id": "rc-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly uses 'where' as a relative pronoun.",
+      "prompt": "___",
+      "options": [
+        "The library where I study is always full during exam week.",
+        "The library which I study is always full during exam week.",
+        "The library that I study is always full during exam week.",
+        "The library whom I study is always full during exam week."
+      ],
+      "answer": "The library where I study is always full during exam week.",
+      "explanation": "'Where' refers to a place in a relative clause. 'The library where I study' = the library in which I study. 'Which' would need a preposition: 'in which'."
+    },
+    {
+      "id": "rc-test-10",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly reduces an active relative clause?",
+      "prompt": "The woman who is presenting the research is my supervisor. → Reduced:",
+      "options": [
+        "The woman presenting the research is my supervisor.",
+        "The woman presented the research is my supervisor.",
+        "The woman to present the research is my supervisor.",
+        "The woman been presenting the research is my supervisor."
+      ],
+      "answer": "The woman presenting the research is my supervisor.",
+      "explanation": "Active continuous relative clause ('who is presenting') reduces to present participle: 'presenting'. Remove 'who is' to get 'the woman presenting the research'."
+    },
+    {
+      "id": "rc-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Mahasiswa yang lulus ujian akan mendapat sertifikat.' → English (defining relative clause):",
+      "prompt": "Students ___ the exam will receive a certificate.",
+      "options": [
+        "who passed",
+        "which passed",
+        "whom passed",
+        "whose passed"
+      ],
+      "answer": "who passed",
+      "explanation": "Referring to people + subject of relative clause → 'who'. 'Students who passed the exam' = defining relative clause (specifying which students)."
+    },
+    {
+      "id": "rc-test-12",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the reduced relative clause.",
+      "prompt": "The report written by the team last week has been approved.",
+      "options": [
+        "Should be 'writing' — active participle needed.",
+        "Should be 'which written' — relative pronoun needed.",
+        "No error — 'written' correctly reduces the passive relative clause.",
+        "Should be 'that was writing' — continuous form needed."
+      ],
+      "answer": "No error — 'written' correctly reduces the passive relative clause.",
+      "explanation": "'Written by the team last week' correctly reduces 'which was written by the team last week' — passive reduction uses V3 (past participle)."
+    },
+    {
+      "id": "rc-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'when' as a relative pronoun.",
+      "prompt": "I remember the year ___ I first came to Jakarta.",
+      "options": ["when", "which", "that", "Both A and C are correct."],
+      "answer": "Both A and C are correct.",
+      "explanation": "Relative pronoun for time: 'when' (standard) or 'that' (informal) are both acceptable: 'the year when/that I came.' 'Which' would need a preposition: 'in which'."
+    },
+    {
+      "id": "rc-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence adds non-essential extra information?",
+      "prompt": "___",
+      "options": [
+        "The student who submitted first got extra credit.",
+        "The essay that received an A was published in the journal.",
+        "Dr Sari, who has a PhD from Oxford, leads the research team.",
+        "The book which is on the table belongs to my professor."
+      ],
+      "answer": "Dr Sari, who has a PhD from Oxford, leads the research team.",
+      "explanation": "Dr Sari is a specific, named person — the relative clause adds extra information (non-defining). The commas signal that 'who has a PhD from Oxford' is not needed to identify her."
+    },
+    {
+      "id": "rc-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct formal equivalent of an informal defining relative clause.",
+      "prompt": "The colleague who I work with is very supportive. → Formal version:",
+      "prompt": "The colleague ___ I work is very supportive.",
+      "options": [
+        "with whom",
+        "whom with",
+        "that I work with",
+        "Both A and C are correct."
+      ],
+      "answer": "Both A and C are correct.",
+      "explanation": "Formal: 'with whom I work' (preposition + whom). Informal: 'that I work with' or 'who I work with'. Both patterns are grammatically valid."
+    }
+  ]
+}

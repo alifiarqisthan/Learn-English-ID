@@ -1,0 +1,234 @@
+{
+  "exercises": [
+    {
+      "id": "na-master-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for first mention.",
+      "prompt": "I saw ___ dog in the garden. ___ dog was barking at a cat.",
+      "options": ["a / A", "a / The", "the / The", "a / An"],
+      "answer": "a / The",
+      "explanation": "First mention (introduced) → 'a dog'. Second mention (known) → 'The dog'. This is the fundamental a/the distinction."
+    },
+    {
+      "id": "na-master-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for a musical instrument.",
+      "prompt": "She plays ___ violin in a symphony orchestra.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "the",
+      "explanation": "Musical instruments always take 'the': 'plays the violin/piano/guitar'. Fixed rule regardless of whether a specific instrument is mentioned."
+    },
+    {
+      "id": "na-master-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the article error.",
+      "prompt": "___",
+      "options": [
+        "She plays the piano every evening.",
+        "He is an honest man.",
+        "They visited the France last summer.",
+        "I need a pen — any pen will do."
+      ],
+      "answer": "They visited the France last summer.",
+      "explanation": "Country names (singular) take zero article: 'visited France'. 'The' is used with plural/collective country names (the Netherlands, the USA)."
+    },
+    {
+      "id": "na-master-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for an academic subject.",
+      "prompt": "She studies ___ economics at university.",
+      "options": ["a", "the", "an", "—"],
+      "answer": "—",
+      "explanation": "Academic subjects take zero article: 'study economics/medicine/law'. Not 'the economics'."
+    },
+    {
+      "id": "na-master-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for a superlative.",
+      "prompt": "This is ___ most difficult question in the exam.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "the",
+      "explanation": "Superlatives always take 'the' — there is only one 'most difficult'."
+    },
+    {
+      "id": "na-master-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier for a countable noun.",
+      "prompt": "There are ___ students absent today — only two.",
+      "options": ["a little", "a few", "much", "less"],
+      "answer": "a few",
+      "explanation": "'A few' = a small positive number → used with countable nouns. 'A little' = uncountable. 'Much' = uncountable."
+    },
+    {
+      "id": "na-master-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the quantifier error.",
+      "prompt": "___",
+      "options": [
+        "There is a little water left in the bottle.",
+        "Few students submitted on time.",
+        "She has less experience than her colleague.",
+        "There are less participants than expected."
+      ],
+      "answer": "There are less participants than expected.",
+      "explanation": "'Participants' is countable → use 'fewer', not 'less'. 'Less' is for uncountable nouns."
+    },
+    {
+      "id": "na-master-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'both' or 'all'.",
+      "prompt": "___ three proposals were rejected by the committee.",
+      "options": ["Both", "All", "Each of", "Neither"],
+      "answer": "All",
+      "explanation": "'Both' = exactly two. 'All' = three or more. Since there are three proposals → 'All three proposals.'"
+    },
+    {
+      "id": "na-master-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the determiner error.",
+      "prompt": "Every students must submit their assignment by Friday.",
+      "options": [
+        "Should be 'Every student' — 'every' takes a singular noun.",
+        "Should be 'All students' — 'every' is wrong here.",
+        "Should be 'their assignments' — plural needed.",
+        "No error — 'every students' is correct."
+      ],
+      "answer": "Should be 'Every student' — 'every' takes a singular noun.",
+      "explanation": "'Every' is always followed by a singular noun and singular verb: 'Every student must submit.'"
+    },
+    {
+      "id": "na-master-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'a lot of' or 'many' for an uncountable noun.",
+      "prompt": "There is ___ traffic in the city during rush hour.",
+      "options": ["many", "a lot of", "few", "a few"],
+      "answer": "a lot of",
+      "explanation": "'A lot of' works with both countable and uncountable nouns. 'Traffic' is uncountable → 'a lot of traffic'. 'Many' requires countable nouns."
+    },
+    {
+      "id": "na-master-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for a collective noun.",
+      "prompt": "The committee ___ meeting tomorrow to discuss the budget.",
+      "options": ["are", "is", "were", "have been"],
+      "answer": "is",
+      "explanation": "Collective nouns (committee, team, government) take singular verbs in American English and formal British English."
+    },
+    {
+      "id": "na-master-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for 'neither…nor'.",
+      "prompt": "Neither the manager nor the employees ___ aware of the policy change.",
+      "options": ["is", "are", "was", "were"],
+      "answer": "are",
+      "explanation": "Neither…nor: verb agrees with the closer subject ('the employees' = plural) → 'are'. Proximity rule."
+    },
+    {
+      "id": "na-master-13",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the subject-verb agreement error.",
+      "prompt": "___",
+      "options": [
+        "Each of the students has a laptop.",
+        "The data suggests a positive trend.",
+        "Economics are considered a difficult subject.",
+        "Everyone in the team has signed the form."
+      ],
+      "answer": "Economics are considered a difficult subject.",
+      "explanation": "Subjects ending in '-ics' (economics, mathematics, physics) are singular: 'Economics is considered a difficult subject.'"
+    },
+    {
+      "id": "na-master-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for 'the number of' vs 'a number of'.",
+      "prompt": "A number of participants ___ withdrawn from the study.",
+      "options": ["has", "have", "is", "was"],
+      "answer": "have",
+      "explanation": "'A number of + plural noun' = plural verb. 'The number of + plural noun' = singular. 'A number of participants have withdrawn.'"
+    },
+    {
+      "id": "na-master-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for a gerund subject.",
+      "prompt": "Conducting research in tropical environments ___ specific challenges.",
+      "options": ["present", "presents", "present with", "are presenting"],
+      "answer": "presents",
+      "explanation": "Gerund phrases as subjects are always singular → singular verb: 'Conducting research presents challenges.'"
+    },
+    {
+      "id": "na-master-16",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for a unique entity.",
+      "prompt": "Scientists are concerned about ___ ozone layer.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "the",
+      "explanation": "'The ozone layer' = unique — there is only one. Unique things take 'the'."
+    },
+    {
+      "id": "na-master-17",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Sebagian besar mahasiswa setuju.' → English:",
+      "prompt": "___ students agreed.",
+      "options": ["All the", "Most", "Each", "Both of the"],
+      "answer": "Most",
+      "explanation": "'Sebagian besar' = most (the majority). 'Most students' = more than half."
+    },
+    {
+      "id": "na-master-18",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error with 'the number of'.",
+      "prompt": "The number of applications have increased this year.",
+      "options": [
+        "Should be 'has increased' — 'the number of' takes singular verb.",
+        "Should be 'have been increasing' — continuous needed.",
+        "Should be 'a number of' — plural verb is correct.",
+        "No error — 'have increased' is correct."
+      ],
+      "answer": "Should be 'has increased' — 'the number of' takes singular verb.",
+      "explanation": "'The number of' is a singular subject → singular verb. 'The number of applications has increased.'"
+    },
+    {
+      "id": "na-master-19",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose zero article or 'the' — going to an institution for its purpose.",
+      "prompt": "He was sent to ___ prison for five years.",
+      "options": ["a", "the", "an", "—"],
+      "answer": "—",
+      "explanation": "'Prison', 'hospital', 'school', 'church', 'bed' take zero article when referring to the institution's purpose: 'sent to prison' (for punishment). 'The prison' = the building as a place."
+    },
+    {
+      "id": "na-master-20",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'the police'?",
+      "prompt": "___",
+      "options": [
+        "The police has arrested three suspects.",
+        "The police have arrested three suspects.",
+        "The police is investigating the incident.",
+        "The police was called to the scene."
+      ],
+      "answer": "The police have arrested three suspects.",
+      "explanation": "'Police' is always treated as a plural noun in English → plural verb. 'The police have arrested' is correct."
+    }
+  ]
+}

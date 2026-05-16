@@ -1,1 +1,304 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "svaa-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb. 'Both…and' always takes a plural verb.",
+      "prompt": "Both the researcher and her assistants ___ credited in the final publication.",
+      "options": [
+        "was",
+        "is",
+        "has been",
+        "were"
+      ],
+      "answer": "were",
+      "explanation": "'Both…and' always creates a compound (plural) subject → plural verb 'were'."
+    },
+    {
+      "id": "svaa-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Apply the proximity rule. Which subject is closest to the verb?",
+      "prompt": "Either the supervisor or the team members ___ responsible for approving the changes.",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "has been"
+      ],
+      "answer": "are",
+      "explanation": "Proximity rule: 'the team members' (plural) is closest to the verb → 'are'."
+    },
+    {
+      "id": "svaa-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb. Gerund subject.",
+      "prompt": "Analysing large datasets manually ___ a significant amount of time.",
+      "options": [
+        "take",
+        "takes",
+        "are taking",
+        "have taken"
+      ],
+      "answer": "takes",
+      "explanation": "A gerund phrase ('Analysing large datasets manually') as subject → always singular → 'takes'."
+    },
+    {
+      "id": "svaa-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the agreement error.",
+      "prompt": "___",
+      "options": [
+        "Sixty percent of the participants were satisfied with the service.",
+        "Half of the water has evaporated due to the heat.",
+        "A number of issues have been identified in the audit.",
+        "The number of applications have doubled since last year."
+      ],
+      "answer": "The number of applications have doubled since last year.",
+      "explanation": "'The number of' = singular subject ('the number') → 'has doubled'. Contrast with 'A number of issues have been identified.'"
+    },
+    {
+      "id": "svaa-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the agreement error.",
+      "prompt": "___",
+      "options": [
+        "Not only the students but also the professor was surprised.",
+        "Neither the manager nor the staff were informed in advance.",
+        "Both the director and the assistant were present.",
+        "More than one student have failed the qualifying exam."
+      ],
+      "answer": "More than one student have failed the qualifying exam.",
+      "explanation": "'More than one' + singular noun → singular verb. 'More than one student **has** failed' is correct."
+    },
+    {
+      "id": "svaa-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb for an inverted sentence.",
+      "prompt": "Here ___ the documents you requested for the audit.",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "has been"
+      ],
+      "answer": "are",
+      "explanation": "Inverted sentence: real subject = 'the documents' (plural) → 'Here are'. The verb must match the real subject."
+    },
+    {
+      "id": "svaa-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb. Fraction + of + plural noun.",
+      "prompt": "Approximately 40% of the employees ___ expressed interest in the new programme.",
+      "options": [
+        "has",
+        "is",
+        "have",
+        "was"
+      ],
+      "answer": "have",
+      "explanation": "Fraction + 'of the employees' — 'employees' = plural → plural verb 'have'. The noun after 'of' determines the verb."
+    },
+    {
+      "id": "svaa-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for time as a single unit.",
+      "prompt": "Three years ___ a long time to wait for a visa decision.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answer": "is",
+      "explanation": "Time viewed as a single period/unit → singular verb. 'Three years is a long time' — one block of time."
+    },
+    {
+      "id": "svaa-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb. 'Majority of' + uncountable noun.",
+      "prompt": "The majority of the evidence ___ inconclusive at this stage of the investigation.",
+      "options": [
+        "are",
+        "were",
+        "have been",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "'The majority of the evidence' — 'evidence' = uncountable → singular verb 'is'."
+    },
+    {
+      "id": "svaa-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct verb. Neither…nor — proximity rule.",
+      "prompt": "Neither the department head nor the assistants ___ informed about the restructuring.",
+      "options": [
+        "were",
+        "are",
+        "have been",
+        "was"
+      ],
+      "answer": "were",
+      "explanation": "Nearest subject = 'the assistants' (plural) → 'were'. Neither…nor follows the proximity rule."
+    },
+    {
+      "id": "svaa-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'has' or 'have'. A number of...",
+      "prompt": "A number of discrepancies ___ been found in the financial records.",
+      "options": [
+        "have",
+        "are",
+        "has",
+        "had"
+      ],
+      "answer": "have",
+      "explanation": "'A number of' = many → plural → 'have'. Contrast: 'The number of discrepancies has increased.'"
+    },
+    {
+      "id": "svaa-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the correct verb. Inverted sentence.",
+      "prompt": "Among the most significant findings ___ (be) a discovery that overturned existing theories.",
+      "options": [
+        "were",
+        "is",
+        "was",
+        "had been"
+      ],
+      "answer": "was",
+      "explanation": "Inverted structure. Real subject = 'a discovery' (singular) → 'was'. 'Among the most significant findings was a discovery.'"
+    },
+    {
+      "id": "svaa-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'is' or 'are'. Gerund subject.",
+      "prompt": "Interpreting results from multiple studies ___ a skill that requires training.",
+      "options": [
+        "was",
+        "is",
+        "were",
+        "are"
+      ],
+      "answer": "is",
+      "explanation": "Gerund phrase as subject → always singular → 'is'. 'Interpreting results is a skill.'"
+    },
+    {
+      "id": "svaa-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct verb. Not only…but also — proximity rule.",
+      "prompt": "Not only the findings but also the methodology ___ questioned by the reviewers.",
+      "options": [
+        "is",
+        "was",
+        "had been",
+        "were"
+      ],
+      "answer": "was",
+      "explanation": "Nearest subject = 'the methodology' (singular) → 'was/is questioned'. Proximity rule applies to 'not only…but also'."
+    },
+    {
+      "id": "svaa-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Baik direktur maupun anggota dewan hadir dalam rapat tersebut.\"",
+      "prompt": "Baik direktur maupun anggota dewan hadir dalam rapat tersebut.",
+      "options": [
+        "Both the director and the board members were present at the meeting.",
+        "Both the director and the board is membering were present at the meeting.",
+        "Both a director and a board members were present at a meeting.",
+        "Both the director and the board members are present at the meeting."
+      ],
+      "answer": "Both the director and the board members were present at the meeting.",
+      "explanation": "'Baik...maupun' = both…and → always plural. 'Both the director and the board members were'."
+    },
+    {
+      "id": "svaa-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Entah mahasiswa atau profesor yang bertanggung jawab atas kesalahan itu.\"",
+      "prompt": "Entah mahasiswa atau profesor yang bertanggung jawab atas kesalahan itu.",
+      "options": [
+        "Either the students or the professor was responsible for the mistake.",
+        "Either the is studenting or the professor is responsible for the mistake.",
+        "Either the students or the professor is responsible for the mistake.",
+        "Either a students or a professor is responsible for a mistake."
+      ],
+      "answer": "Either the students or the professor is responsible for the mistake.",
+      "explanation": "'Entah...atau' = either…or. Nearest = 'the professor' (singular) → 'is'."
+    },
+    {
+      "id": "svaa-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Sekitar 70% responden menyatakan puas dengan layanan tersebut.\"",
+      "prompt": "Sekitar 70% responden menyatakan puas dengan layanan tersebut.",
+      "options": [
+        "Approximately 70% of the is respondenting were satisfied with the service.",
+        "Approximately 70% of a respondents were satisfied with a service.",
+        "Approximately 70% of the respondents were satisfied with the service.",
+        "Approximately 70% of the respondents are satisfied with the service."
+      ],
+      "answer": "Approximately 70% of the respondents were satisfied with the service.",
+      "explanation": "'70% of the respondents' — respondents = plural → plural verb 'were'."
+    },
+    {
+      "id": "svaa-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Mengumpulkan data dari berbagai sumber membutuhkan waktu berminggu-minggu.\"",
+      "prompt": "Mengumpulkan data dari berbagai sumber membutuhkan waktu berminggu-minggu.",
+      "options": [
+        "This is not correct English.",
+        "Collecting data from various sources takes weeks.",
+        "Collecting data from various sources takes weeks. (incorrect)",
+        "Collecting data from various sources takes weeks, every day."
+      ],
+      "answer": "Collecting data from various sources takes weeks.",
+      "explanation": "Gerund phrase as subject → singular verb 'takes'. 'Collecting data from various sources takes weeks.'"
+    },
+    {
+      "id": "svaa-mc-more-than-one-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for 'more than one'.",
+      "prompt": "More than one researcher ___ reached the same conclusion independently.",
+      "options": [
+        "have",
+        "has",
+        "were",
+        "are"
+      ],
+      "answer": "has",
+      "explanation": "'More than one' + singular noun → singular verb. 'More than one researcher has reached' — despite the logical plural meaning."
+    },
+    {
+      "id": "svaa-mc-half-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'is' or 'are'. The noun after 'of' determines the verb.",
+      "prompt": "Half of the budget ___ already been allocated to research and development.",
+      "options": [
+        "have",
+        "are",
+        "has",
+        "were"
+      ],
+      "answer": "has",
+      "explanation": "'Half of the budget' — 'budget' = uncountable/singular → 'has'. If it were 'half of the funds', the answer would be 'have'."
+    }
+  ]
+}

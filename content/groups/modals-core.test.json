@@ -1,1 +1,169 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "mc-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for present ability.",
+      "prompt": "She ___ speak three languages fluently.",
+      "options": ["could", "can", "should", "might"],
+      "answer": "can",
+      "explanation": "Present ability → 'can'. 'Could' implies past ability or uncertainty. 'Can speak' = she has this ability now."
+    },
+    {
+      "id": "mc-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for a polite request.",
+      "prompt": "___ you review my draft proposal at your earliest convenience?",
+      "options": ["Can", "Could", "Should", "May"],
+      "answer": "Could",
+      "explanation": "'Could you…?' is the standard polite request. 'Can' is less formal; 'May' is for permission; 'Should' is for advice."
+    },
+    {
+      "id": "mc-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for strong obligation from an external rule.",
+      "prompt": "All employees ___ wear a safety helmet on the construction site.",
+      "options": ["should", "have to", "might", "could"],
+      "answer": "have to",
+      "explanation": "'Have to' = external obligation (safety rule). 'Should' = advice. 'Might/could' = possibility. External rules typically use 'have to'."
+    },
+    {
+      "id": "mc-test-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the sentence.",
+      "prompt": "You must not bring a dictionary — it's optional.",
+      "options": [
+        "Should be 'don't have to' — 'must not' means forbidden, not optional.",
+        "Should be 'cannot' — permission is being denied.",
+        "Should be 'shouldn't' — advice is being given.",
+        "No error — 'must not' correctly means optional."
+      ],
+      "answer": "Should be 'don't have to' — 'must not' means forbidden, not optional.",
+      "explanation": "'Must not' = prohibition (forbidden). 'Don't have to' = no obligation (optional). These are completely different meanings."
+    },
+    {
+      "id": "mc-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for logical deduction.",
+      "prompt": "The lights are off and the car is gone. She ___ be home.",
+      "options": ["should", "must", "might", "could"],
+      "answer": "must",
+      "explanation": "Strong past deduction from clear evidence → 'must'. 'Should' = expectation; 'might/could' = uncertain possibility. Clear evidence → 'must be' or 'can't be'."
+    },
+    {
+      "id": "mc-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct past obligation form.",
+      "prompt": "She ___ retake the exam because she failed by two marks.",
+      "options": ["must", "had to", "has to", "would have to"],
+      "answer": "had to",
+      "explanation": "'Must' has no past form. Use 'had to' for past obligation. The exam was already retaken — past tense is needed."
+    },
+    {
+      "id": "mc-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for advice.",
+      "prompt": "You look exhausted. You ___ get some rest.",
+      "options": ["must", "should", "can", "would"],
+      "answer": "should",
+      "explanation": "Giving advice → 'should'. 'Must' is too strong (obligation/prohibition). 'Should' = advisable to do."
+    },
+    {
+      "id": "mc-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for formal permission.",
+      "prompt": "___ I ask you a few questions for my research?",
+      "options": ["Can", "May", "Both are correct.", "Might"],
+      "answer": "Both are correct.",
+      "explanation": "'Can I?' and 'May I?' both ask permission correctly. 'May I?' is more formal/polite. 'Might I?' is archaic and rare."
+    },
+    {
+      "id": "mc-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for a 50% future possibility.",
+      "prompt": "I ___ attend the seminar — it depends on my workload.",
+      "options": ["will", "might", "must", "should"],
+      "answer": "might",
+      "explanation": "'Might' = uncertain/tentative possibility (~30-50%). 'Will' = certain future; 'must' = obligation or strong deduction; 'should' = expectation."
+    },
+    {
+      "id": "mc-test-10",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the modal verb error.",
+      "prompt": "She must to submit her application before midnight.",
+      "options": [
+        "Should be 'must submit' — no 'to' after modal verbs.",
+        "Should be 'must be submitted' — passive needed.",
+        "Should be 'has to' — 'must' is too strong.",
+        "No error — 'must to submit' is correct."
+      ],
+      "answer": "Should be 'must submit' — no 'to' after modal verbs.",
+      "explanation": "Modal verbs are followed by V1 (base form) directly — never 'to'. 'Must submit', not 'must to submit'."
+    },
+    {
+      "id": "mc-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for expectation (not obligation).",
+      "prompt": "The package ___ arrive by Thursday — I paid for express shipping.",
+      "options": ["must", "should", "can", "would"],
+      "answer": "should",
+      "explanation": "'Should' for expectation — the package is expected based on what was arranged. Not 'must' (obligation) or 'can' (ability)."
+    },
+    {
+      "id": "mc-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Tidak harus' most closely matches which English phrase?",
+      "prompt": "___",
+      "options": ["must not", "don't have to", "cannot", "should not"],
+      "answer": "don't have to",
+      "explanation": "'Tidak harus' = not obligatory/optional → 'don't have to'. It does NOT mean forbidden. 'Must not' = 'dilarang'."
+    },
+    {
+      "id": "mc-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for academic hedging (possibility).",
+      "prompt": "This method ___ improve learning outcomes in some contexts.",
+      "options": ["must", "will always", "may", "proves to"],
+      "answer": "may",
+      "explanation": "'May improve' = hedged academic claim (~50% possibility). 'Must' is too strong; 'will always' is absolute; 'proves to' is unhedged."
+    },
+    {
+      "id": "mc-test-14",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the logical impossibility.",
+      "prompt": "That ___ be Maria — she's in London this week.",
+      "options": ["can't", "couldn't", "shouldn't", "wouldn't"],
+      "answer": "can't",
+      "explanation": "'Can't be' = present logical impossibility — it is impossible that it is Maria. 'Couldn't be' = past impossibility or hypothetical."
+    },
+    {
+      "id": "mc-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses the correct 'ought to' form?",
+      "prompt": "___",
+      "options": [
+        "You ought apologise to her.",
+        "You ought to apologise to her.",
+        "You ought apologising to her.",
+        "You oughts to apologise to her."
+      ],
+      "answer": "You ought to apologise to her.",
+      "explanation": "'Ought to + V1' — unlike other modals, 'ought' always takes 'to'. Never 'ought apologise' (no to) or 'oughts to' (modals don't inflect)."
+    }
+  ]
+}

@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "svat-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Identify the true subject and choose the correct verb.",
+      "prompt": "The quality of the results ___ on the research methodology used.",
+      "options": [
+        "depend",
+        "depends",
+        "are dependent",
+        "have depended"
+      ],
+      "answer": "depends",
+      "explanation": "True subject = 'The quality' (singular). 'Of the results' is an intervening phrase — ignore it. 'The quality depends.'"
+    },
+    {
+      "id": "svat-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb. 'Along with' does not create a compound subject.",
+      "prompt": "The CEO, along with the board of directors, ___ approved the new strategy.",
+      "options": [
+        "have",
+        "has",
+        "are",
+        "were"
+      ],
+      "answer": "has",
+      "explanation": "'Along with the board of directors' is an intervening phrase. True subject = 'The CEO' (singular) → 'has'."
+    },
+    {
+      "id": "svat-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for 'news'.",
+      "prompt": "The news from the conference ___ surprisingly positive.",
+      "options": [
+        "were",
+        "are",
+        "was",
+        "have been"
+      ],
+      "answer": "was",
+      "explanation": "'News' is always uncountable and always singular → 'was'. 'The news was' is always correct."
+    },
+    {
+      "id": "svat-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the agreement error.",
+      "prompt": "___",
+      "options": [
+        "The committee has reached a unanimous decision.",
+        "The number of applications have increased this year.",
+        "Mathematics is a compulsory subject in secondary school.",
+        "The police are investigating the incident."
+      ],
+      "answer": "The number of applications have increased this year.",
+      "explanation": "'The number' = singular subject → 'has increased'. 'The number of X' → singular verb. (cf. 'A number of X' → plural verb)"
+    },
+    {
+      "id": "svat-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the agreement error.",
+      "prompt": "___",
+      "options": [
+        "The Philippines is an archipelago of over 7,000 islands.",
+        "Economics is one of the most challenging degree programmes.",
+        "The elderly are often overlooked in public health policy.",
+        "The United States are a federal republic."
+      ],
+      "answer": "The United States are a federal republic.",
+      "explanation": "'The United States' = one country → singular verb 'is'. 'The United States is a federal republic.'"
+    },
+    {
+      "id": "svat-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb. Collective noun — treat as a unit (TOEFL / American English).",
+      "prompt": "The jury ___ delivered its verdict after three days of deliberation.",
+      "options": [
+        "have",
+        "has",
+        "are",
+        "were"
+      ],
+      "answer": "has",
+      "explanation": "Collective noun (TOEFL / American English) → singular verb. 'The jury has delivered' treats the jury as a single unit."
+    },
+    {
+      "id": "svat-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct verb. The subject has a relative clause — find the main subject.",
+      "prompt": "The report that was submitted by all three research teams ___ approved by the committee.",
+      "options": [
+        "were",
+        "have been",
+        "was",
+        "are"
+      ],
+      "answer": "was",
+      "explanation": "True subject = 'The report' (singular). The relative clause 'that was submitted by all three research teams' modifies it but doesn't change the verb."
+    },
+    {
+      "id": "svat-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb. 'A number of' = many.",
+      "prompt": "A number of participants ___ withdrawn from the study.",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "was"
+      ],
+      "answer": "have",
+      "explanation": "'A number of' = many → plural verb. Contrast: 'The number of participants **has** increased' → singular."
+    },
+    {
+      "id": "svat-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb. 'The + adjective group'.",
+      "prompt": "The injured ___ being transported to the nearest hospital.",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "has been"
+      ],
+      "answer": "are",
+      "explanation": "'The injured' = a group of people (the + adjective) → always plural → 'are'."
+    },
+    {
+      "id": "svat-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct verb. Find the true subject first.",
+      "prompt": "A list of requirements ___ (be) attached to the application form.",
+      "options": [
+        "were",
+        "are",
+        "is",
+        "was"
+      ],
+      "answer": "is",
+      "explanation": "True subject = 'A list' (singular). 'Of requirements' = intervening phrase. 'A list is attached.'"
+    },
+    {
+      "id": "svat-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'is' or 'are'. Academic discipline.",
+      "prompt": "Economics ___ the study of how societies allocate scarce resources.",
+      "options": [
+        "were",
+        "was",
+        "is",
+        "are"
+      ],
+      "answer": "is",
+      "explanation": "Academic disciplines (economics, physics, mathematics, politics) → always singular 'is'."
+    },
+    {
+      "id": "svat-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: 'is' or 'are'. Collective noun — TOEFL standard.",
+      "prompt": "The government ___ considering a new set of environmental regulations.",
+      "options": [
+        "were",
+        "is",
+        "was",
+        "are"
+      ],
+      "answer": "is",
+      "explanation": "Collective noun (TOEFL/American English) → singular. 'The government is considering' — treating the government as a unit."
+    },
+    {
+      "id": "svat-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'is' or 'are'. The police.",
+      "prompt": "The police ___ still searching for the missing documents.",
+      "options": [
+        "is",
+        "were",
+        "are",
+        "was"
+      ],
+      "answer": "are",
+      "explanation": "'The police' = always plural → 'are'. Never 'the police is'."
+    },
+    {
+      "id": "svat-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct verb. Intervening phrase: 'as well as'.",
+      "prompt": "The director, as well as the senior managers, ___ invited to the summit.",
+      "options": [
+        "had been",
+        "is",
+        "was",
+        "were"
+      ],
+      "answer": "was",
+      "hint": "'As well as' does not create a compound subject — find the head noun.",
+      "explanation": "True subject = 'The director' (singular). 'As well as the senior managers' = intervening phrase → 'was invited'."
+    },
+    {
+      "id": "svat-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Kualitas hasil penelitian bergantung pada metodologi yang digunakan.\"",
+      "prompt": "Kualitas hasil penelitian bergantung pada metodologi yang digunakan.",
+      "options": [
+        "The quality of the research results depends on the methodology used. (incorrect)",
+        "The quality of a research results depends on a methodology used.",
+        "The quality of the research results depends on the methodology used, every day.",
+        "The quality of the research results depends on the methodology used."
+      ],
+      "answer": "The quality of the research results depends on the methodology used.",
+      "explanation": "True subject = 'The quality' (singular) → 'depends'. Intervening phrase 'of the research results' ignored."
+    },
+    {
+      "id": "svat-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Komite tersebut telah mencapai keputusan bulat.\"",
+      "prompt": "Komite tersebut telah mencapai keputusan bulat.",
+      "options": [
+        "The committee have reached a unanimous decision.",
+        "The committee has reached a unanimous decision.",
+        "The committee has reached an unanimous decision.",
+        "The committee has reached a is unanimouing decision."
+      ],
+      "answer": "The committee has reached a unanimous decision.",
+      "explanation": "'Komite' = the committee (collective noun). TOEFL: singular → 'has reached'."
+    },
+    {
+      "id": "svat-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Berita dari konferensi itu sangat mengejutkan.\"",
+      "prompt": "Berita dari konferensi itu sangat mengejutkan.",
+      "options": [
+        "The news from the conference was very surprising.",
+        "The news from a conference was very surprising.",
+        "The news from the conference is very surprising.",
+        "The is newing from the conference was very surprising."
+      ],
+      "answer": "The news from the conference was very surprising.",
+      "explanation": "'Berita' = news → always singular in English. 'The news was very surprising.'"
+    },
+    {
+      "id": "svat-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Polisi sedang menyelidiki insiden tersebut.\"",
+      "prompt": "Polisi sedang menyelidiki insiden tersebut.",
+      "options": [
+        "The police are investigating an incident.",
+        "The police were investigating the incident.",
+        "The police are investigating the incident.",
+        "The police are investigating incident."
+      ],
+      "answer": "The police are investigating the incident.",
+      "explanation": "'Polisi' = the police (always plural in English) → 'are investigating'."
+    },
+    {
+      "id": "svat-mc-number-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose: 'The number of' vs. 'A number of'.",
+      "prompt": "___ applications received this year ___ significantly higher than last year.",
+      "options": [
+        "The number of / are",
+        "A number of / is",
+        "The number of / is",
+        "A number of / are"
+      ],
+      "answer": "The number of / is",
+      "explanation": "'The number of' = singular subject ('the number') → 'is'. Contrast: 'A number of applications **have** been received' (= many)."
+    },
+    {
+      "id": "svat-mc-pair-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb for a plural-only noun.",
+      "prompt": "My new trousers ___ too long — I need to get them altered.",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "has been"
+      ],
+      "answer": "are",
+      "explanation": "'Trousers' = plural-only noun → always plural verb 'are'. Also: 'My trousers are...' (even though it's one item)."
+    }
+  ]
+}

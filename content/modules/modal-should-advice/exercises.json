@@ -1,0 +1,249 @@
+{
+  "exercises": [
+    {
+      "id": "msa-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for advice.",
+      "prompt": "You look exhausted. You ___ get some rest.",
+      "options": ["must", "should", "can", "would"],
+      "answer": "should",
+      "explanation": "Giving advice → 'should'. 'Must' is too strong (obligation/prohibition). 'Should' = advisable to do."
+    },
+    {
+      "id": "msa-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for expectation.",
+      "prompt": "The results ___ be announced by Friday — that's what the dean said.",
+      "options": ["must", "should", "shall", "ought"],
+      "answer": "should",
+      "explanation": "'Should' for expectation — the results are expected based on what was announced. Not 'must' (obligation) or 'shall' (formal). Note: 'ought' needs 'to' after it."
+    },
+    {
+      "id": "msa-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the more formal equivalent of 'should'.",
+      "prompt": "Every student ___ review the course policies on academic integrity.",
+      "options": ["should", "ought to", "Both are correct.", "must to"],
+      "answer": "Both are correct.",
+      "explanation": "'Should' and 'ought to' have the same meaning. 'Ought to' is slightly more formal. 'Must to' is never correct — 'must' doesn't take 'to'."
+    },
+    {
+      "id": "msa-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Sebaiknya kamu melamar lebih awal.' → English:",
+      "prompt": "You ___ apply earlier.",
+      "options": ["must", "should", "need to", "had to"],
+      "answer": "should",
+      "explanation": "'Sebaiknya' = it would be better / advisable → 'should'. 'Must' is too strong; 'had to' is past tense."
+    },
+    {
+      "id": "msa-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct structure with 'ought to'.",
+      "prompt": "You ___ this exhibition — it's very informative.",
+      "options": ["ought visit", "ought to visit", "ought visiting", "oughts to visit"],
+      "answer": "ought to visit",
+      "explanation": "'Ought to' always takes 'to' before V1. Unlike other modals, 'ought' requires 'to': 'ought to + V1'."
+    },
+    {
+      "id": "msa-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'should' or 'must' based on the context: a doctor's strong medical instruction.",
+      "prompt": "The doctor said I ___ take these tablets three times a day.",
+      "options": ["should", "must", "Both are equally appropriate.", "ought"],
+      "answer": "Both are equally appropriate.",
+      "explanation": "A doctor's instruction can be reported with either 'should' (advice) or 'must' (strong obligation). Both are used in this context. 'Ought' needs 'to'."
+    },
+    {
+      "id": "msa-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative advice form.",
+      "prompt": "You ___ eat so much sugar — it's bad for your health.",
+      "options": ["must not", "shouldn't", "Both are correct.", "haven't to"],
+      "answer": "shouldn't",
+      "explanation": "'Shouldn't' = advice against (not recommended). 'Must not' = prohibition (forbidden). The context is health advice, not a rule. 'Haven't to' doesn't exist."
+    },
+    {
+      "id": "msa-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence where 'shouldn't' is used correctly.",
+      "prompt": "___",
+      "options": [
+        "You shouldn't park here — it's a fire exit.",
+        "Passengers shouldn't smoke anywhere on the aircraft.",
+        "You shouldn't bring personal items if you want to avoid loss.",
+        "All three are correct."
+      ],
+      "answer": "All three are correct.",
+      "explanation": "All three sentences use 'shouldn't' correctly — for advice, a social rule (which can be phrased as advice), and a conditional recommendation. All are valid."
+    },
+    {
+      "id": "msa-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the modal error in the sentence.",
+      "prompt": "She should to see a specialist about her knee.",
+      "options": [
+        "Should be 'should see' — no 'to' after 'should'.",
+        "Should be 'ought see' — 'ought' is correct here.",
+        "Should be 'must see' — 'should' is too weak.",
+        "No error — 'should to see' is correct."
+      ],
+      "answer": "Should be 'should see' — no 'to' after 'should'.",
+      "explanation": "'Should' is a modal verb followed directly by V1. Never 'should to'. Correct: 'She should see a specialist.'"
+    },
+    {
+      "id": "msa-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate: 'Kamu sebaiknya tidak datang terlambat.' → English:",
+      "prompt": "You ___ arrive late.",
+      "options": ["must not", "shouldn't", "don't have to", "can't"],
+      "answer": "shouldn't",
+      "explanation": "'Sebaiknya tidak' = it would be better not to → 'shouldn't'. This is advice, not prohibition. 'Don't have to' = no obligation (wrong meaning)."
+    },
+    {
+      "id": "msa-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the correct negative form of 'ought to'.",
+      "prompt": "They ___ ignore the safety warnings.",
+      "options": ["ought not to", "ought to not", "oughtn't", "ought not"],
+      "answer": "ought not to",
+      "explanation": "The negative of 'ought to' is 'ought not to + V1'. 'Oughtn't' exists but is rare. 'Ought to not' is not standard."
+    },
+    {
+      "id": "msa-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Which sentence uses 'should' to express a negative expectation?",
+      "prompt": "___",
+      "options": [
+        "You should not shout in the library.",
+        "The conference shouldn't run past 5 pm — it's scheduled to finish at 4.",
+        "Students should not submit late work.",
+        "You shouldn't eat in the computer lab."
+      ],
+      "answer": "The conference shouldn't run past 5 pm — it's scheduled to finish at 4.",
+      "explanation": "This uses 'shouldn't' for negative expectation — the conference is not expected to run late based on the schedule. The other three use 'shouldn't' for advice or rules."
+    },
+    {
+      "id": "msa-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct question to ask for advice.",
+      "prompt": "___ I tell her the truth, or keep it a secret?",
+      "options": ["Must", "Should", "Ought", "Will"],
+      "answer": "Should",
+      "explanation": "'Should I…?' is the standard form for asking for advice. 'Must I…?' asks about obligation. 'Ought' needs 'to': 'Ought I to…?' (very formal, rare). 'Will I…?' asks about the future."
+    },
+    {
+      "id": "msa-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct 'should' question for an expectation check.",
+      "prompt": "___ the technician ___ arrived by now? He said he'd be here at 10.",
+      "options": ["Should / have", "Must / have", "Can / have", "Should / has"],
+      "answer": "Should / have",
+      "explanation": "'Should have arrived' = past expectation that something was due. 'Should he have arrived by now?' checks whether the expected event occurred. 'Should' + 'have' (not 'has')."
+    },
+    {
+      "id": "msa-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Apakah sebaiknya saya menghubungi mereka dulu?' → English:",
+      "prompt": "___ I contact them first?",
+      "options": ["Must", "Would", "Should", "Shall"],
+      "answer": "Should",
+      "explanation": "'Sebaiknya saya' = should I / would it be advisable for me to → 'Should I contact them first?' is natural English for seeking advice."
+    },
+    {
+      "id": "msa-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'should' as a question for expectation?",
+      "prompt": "___",
+      "options": [
+        "Should the package have arrived yesterday?",
+        "Should the package arrived yesterday?",
+        "Should have the package arrived yesterday?",
+        "Should the package be arrived yesterday?"
+      ],
+      "answer": "Should the package have arrived yesterday?",
+      "explanation": "Past expectation question: 'Should + subject + have + V3?' = 'Should the package have arrived?' — checking whether the expected past event occurred."
+    },
+    {
+      "id": "msa-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal to distinguish advice from deduction.",
+      "prompt": "She's been studying all day. She ___ be tired. (deduction, not advice)",
+      "options": ["should", "must", "ought to", "Both 'should' and 'must'"],
+      "answer": "must",
+      "explanation": "Evidence-based deduction → 'must'. 'Should' would imply 'I expect her to be tired (based on normal outcomes)'. 'Must' = I conclude from clear evidence."
+    },
+    {
+      "id": "msa-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence uses 'should' for expectation (not advice)?",
+      "prompt": "___",
+      "options": [
+        "You should eat more vegetables.",
+        "She should submit her thesis before June.",
+        "The train should arrive at 14:30.",
+        "Students should review the lecture notes."
+      ],
+      "answer": "The train should arrive at 14:30.",
+      "explanation": "'Should arrive at 14:30' = expected arrival based on the schedule. The other three use 'should' for advice/recommendation."
+    },
+    {
+      "id": "msa-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence where 'must not' is more appropriate than 'shouldn't'.",
+      "prompt": "___",
+      "options": [
+        "You shouldn't stay up too late before an exam.",
+        "You must not enter the server room without authorisation.",
+        "You shouldn't skip breakfast.",
+        "You shouldn't ignore your tutor's feedback."
+      ],
+      "answer": "You must not enter the server room without authorisation.",
+      "explanation": "'Must not' = prohibition (a rule with consequences). Entering a restricted area without authorisation is a formal prohibition, not just advice. The others are health or study advice → 'shouldn't'."
+    },
+    {
+      "id": "msa-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to give advice using 'should' in the third person.",
+      "prompt": "He ___ a doctor — that cough sounds serious.",
+      "options": ["should see", "should sees", "should to see", "ought see"],
+      "answer": "should see",
+      "explanation": "Modal + V1 (base form): 'should see'. No 's' for third person. No 'to' after 'should'. 'Ought see' is wrong — 'ought to see' is needed."
+    },
+    {
+      "id": "msa-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Seharusnya laporan itu sudah tiba kemarin.' → English (unfulfilled past expectation):",
+      "prompt": "The report ___ yesterday.",
+      "options": [
+        "should arrive",
+        "should have arrived",
+        "must arrive",
+        "ought arrive"
+      ],
+      "answer": "should have arrived",
+      "explanation": "Past unfulfilled expectation: 'should have + V3'. The report was expected to arrive but didn't. 'Should arrive' is present/future; 'must arrive' is obligation; 'ought arrive' is missing 'to'."
+    }
+  ]
+}

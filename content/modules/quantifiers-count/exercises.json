@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "qc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier. The noun is uncountable.",
+      "prompt": "She doesn't have ___ time to review the report before the meeting.",
+      "options": [
+        "many",
+        "much",
+        "few",
+        "little"
+      ],
+      "answer": "much",
+      "explanation": "'Time' is uncountable → 'much' (in negative/question). 'Many' is for countable nouns."
+    },
+    {
+      "id": "qc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the quantifier that expresses 'some but not many' — optimistic tone.",
+      "prompt": "___ students managed to complete the assignment on time.",
+      "options": [
+        "Few",
+        "A few",
+        "Little",
+        "A little"
+      ],
+      "answer": "A few",
+      "explanation": "'A few' = some (optimistic). 'Few' = almost none (pessimistic). 'Students' = countable plural."
+    },
+    {
+      "id": "qc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the most natural quantifier for a positive statement.",
+      "prompt": "She has ___ experience in project management.",
+      "options": [
+        "many",
+        "much",
+        "a lot of",
+        "few"
+      ],
+      "answer": "a lot of",
+      "explanation": "'Experience' is uncountable. 'Much experience' sounds overly formal in a positive statement. 'A lot of experience' is more natural."
+    },
+    {
+      "id": "qc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with the wrong quantifier.",
+      "prompt": "___",
+      "options": [
+        "There is very little evidence to support that claim.",
+        "She has made much progress this semester.",
+        "Many students failed because of poor preparation.",
+        "There are few opportunities in this job market."
+      ],
+      "answer": "She has made much progress this semester.",
+      "explanation": "'Much' in positive statements sounds unnatural in modern English. Prefer 'a lot of progress' or 'significant progress'."
+    },
+    {
+      "id": "qc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with a countable/uncountable error.",
+      "prompt": "___",
+      "options": [
+        "She shared some useful advice.",
+        "There were many errors in the report.",
+        "She gave me many advices about my essay.",
+        "There is a lot of information on this topic."
+      ],
+      "answer": "She gave me many advices about my essay.",
+      "explanation": "'Advice' is uncountable — no plural, no 'many'. Use 'a lot of advice' or 'some advice'."
+    },
+    {
+      "id": "qc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose between 'few' and 'a few'. The tone is pessimistic — the result was disappointing.",
+      "prompt": "___ researchers attended the conference — far fewer than expected.",
+      "options": [
+        "Few",
+        "A few",
+        "Little",
+        "A little"
+      ],
+      "answer": "Few",
+      "explanation": "'Few' = almost none, pessimistic. The sentence confirms disappointment ('far fewer than expected')."
+    },
+    {
+      "id": "qc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose 'some' or 'any' for a negative sentence.",
+      "prompt": "I don't have ___ cash on me — I'll need to use my card.",
+      "options": [
+        "some",
+        "any",
+        "few",
+        "little"
+      ],
+      "answer": "any",
+      "explanation": "In negative sentences, use 'any': 'I don't have any cash'. 'Some' is for positive statements and polite requests."
+    },
+    {
+      "id": "qc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose between 'little' and 'a little'. The speaker is offering reassurance.",
+      "prompt": "Don't worry — there is still ___ time before the deadline.",
+      "options": [
+        "few",
+        "a few",
+        "little",
+        "a little"
+      ],
+      "answer": "a little",
+      "explanation": "'A little' = some (optimistic). 'Little' = almost none (pessimistic). The speaker is reassuring, so 'a little' is correct."
+    },
+    {
+      "id": "qc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct quantifier for an uncountable noun in a question.",
+      "prompt": "Do you need ___ help with the assignment?",
+      "options": [
+        "many",
+        "much",
+        "few",
+        "little"
+      ],
+      "answer": "much",
+      "explanation": "'Help' is uncountable → 'much'. But 'some help' is also natural: 'Do you need some help?'"
+    },
+    {
+      "id": "qc-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'many' or 'much'.",
+      "prompt": "There isn't ___ evidence to support the hypothesis.",
+      "options": [
+        "much",
+        "muchs",
+        "did much",
+        "muching"
+      ],
+      "answer": "much",
+      "explanation": "'Evidence' is uncountable → 'much'. In a negative sentence, 'much' is natural."
+    },
+    {
+      "id": "qc-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'few' or 'a few'. The speaker is positive — some people showed up.",
+      "prompt": "Only ___ people came, but the event was still enjoyable.",
+      "options": [
+        "a few",
+        "some",
+        "few",
+        "a little"
+      ],
+      "answer": "a few",
+      "explanation": "'A few' = some (positive). The speaker finds it enjoyable despite low attendance."
+    },
+    {
+      "id": "qc-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: 'some' or 'any'.",
+      "prompt": "She couldn't find ___ information about the topic online.",
+      "options": [
+        "did any",
+        "anys",
+        "anying",
+        "any"
+      ],
+      "answer": "any",
+      "explanation": "Negative sentence → 'any'. 'She couldn't find any information.'"
+    },
+    {
+      "id": "qc-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: the correct quantifier. The noun is uncountable and the speaker has very little.",
+      "prompt": "There is ___ hope left — we may have to cancel the project.",
+      "options": [
+        "did little",
+        "little",
+        "littleing",
+        "littles"
+      ],
+      "answer": "little",
+      "explanation": "'Hope' is uncountable. Pessimistic (almost none) → 'little'. 'A little' would suggest some hope remains."
+    },
+    {
+      "id": "qc-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'much', 'many', or 'a lot of'. This is a positive statement in everyday English.",
+      "prompt": "She received ___ support from her colleagues during the project.",
+      "options": [
+        "a lot of",
+        "as lot of",
+        "much",
+        "a lot ofed"
+      ],
+      "answer": "a lot of",
+      "hint": "Which quantifier is more natural for a positive statement?",
+      "explanation": "'Support' is uncountable. 'A lot of support' is most natural in everyday English. 'Much support' is formal but not wrong."
+    },
+    {
+      "id": "qc-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Banyak mahasiswa yang tidak mengerjakan tugas.\"",
+      "prompt": "Banyak mahasiswa yang tidak mengerjakan tugas.",
+      "options": [
+        "Many students did not complete the assignment, every day.",
+        "Many students did not complete the assignment.",
+        "Many students did not complete an assignment.",
+        "Many students did not complete the assignment. (incorrect)"
+      ],
+      "answer": "Many students did not complete the assignment.",
+      "explanation": "'Banyak mahasiswa' = many students (countable plural) → 'many'."
+    },
+    {
+      "id": "qc-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia punya banyak pengalaman di bidang ini.\"",
+      "prompt": "Dia punya banyak pengalaman di bidang ini.",
+      "options": [
+        "She has an lot of experience in this field.",
+        "She has a lot of experience in this field.",
+        "She has much experiences in this field.",
+        "she have a lot of experience in this field."
+      ],
+      "answer": "She has a lot of experience in this field.",
+      "explanation": "'Pengalaman' = experience (uncountable). Positive statement → 'a lot of'. 'Much experience' is formal but acceptable."
+    },
+    {
+      "id": "qc-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Hanya ada sedikit harapan bahwa proyek itu akan selesai tepat waktu.\"",
+      "prompt": "Hanya ada sedikit harapan bahwa proyek itu akan selesai tepat waktu.",
+      "options": [
+        "There is little hope that the project will be completed in time.",
+        "There is little hope that a project will be completed on time.",
+        "There was little hope that the project will be completed on time.",
+        "There is little hope that the project will be completed on time."
+      ],
+      "answer": "There is little hope that the project will be completed on time.",
+      "explanation": "Pessimistic context (discouraged) → 'little' (almost no hope). 'A little' would imply some hope remains."
+    },
+    {
+      "id": "qc-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Beberapa peserta masih bisa hadir meskipun ada perubahan jadwal.\"",
+      "prompt": "Beberapa peserta masih bisa hadir meskipun ada perubahan jadwal.",
+      "options": [
+        "A few participants could still attend despite the schedule change, every day.",
+        "A few participants could still attend despite the schedule change.",
+        "A few participants could still attend despite the schedule change. (incorrect)",
+        "A few participants could still attend despite a schedule change."
+      ],
+      "answer": "A few participants could still attend despite the schedule change.",
+      "explanation": "'Beberapa' = a few (some, optimistic). 'Few' would suggest almost nobody came."
+    },
+    {
+      "id": "qc-mc-some-any-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'some' or 'any'.",
+      "prompt": "Would you like ___ more coffee?",
+      "options": [
+        "some",
+        "any",
+        "much",
+        "few"
+      ],
+      "answer": "some",
+      "explanation": "Polite offer/request → 'some': 'Would you like some more coffee?' 'Any' is for questions where you expect a negative answer."
+    },
+    {
+      "id": "qc-mc-uncountable-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence with a countable/uncountable error.",
+      "prompt": "___",
+      "options": [
+        "She bought some furniture for her apartment.",
+        "He packed a lot of luggage for the trip.",
+        "They gave us many useful informations.",
+        "The team needed more equipment."
+      ],
+      "answer": "They gave us many useful informations.",
+      "explanation": "'Information' is uncountable — no plural, no 'many'. Use 'a lot of useful information' or 'much useful information'."
+    }
+  ]
+}

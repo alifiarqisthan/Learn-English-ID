@@ -1,1 +1,224 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cad-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adverb to complete the sentence.",
+      "prompt": "She completed the assignment ___ than anyone else in the class.",
+      "options": ["more quick", "more quickly", "quicklier", "quicker than more"],
+      "answer": "more quickly",
+      "explanation": "Quickly is an -ly adverb → comparative: more quickly. 'More quick' uses the adjective form, which is wrong when modifying a verb."
+    },
+    {
+      "id": "cad-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adverb to complete the sentence.",
+      "prompt": "He drives ___ than his brother.",
+      "options": ["more careful", "more carefully", "carefullier", "more carefullier"],
+      "answer": "more carefully",
+      "explanation": "Carefully is an -ly adverb → more carefully. 'More careful' uses the adjective form, which cannot modify a verb."
+    },
+    {
+      "id": "cad-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adverb to complete the sentence.",
+      "prompt": "After the training, the team worked ___ than before.",
+      "options": ["more efficiently", "more efficient", "efficienter", "most efficiently"],
+      "answer": "more efficiently",
+      "explanation": "Efficiently is an -ly adverb → more efficiently. 'More efficient' is an adjective; the superlative is not used for comparing two situations."
+    },
+    {
+      "id": "cad-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adverb to complete the sentence.",
+      "prompt": "She sang ___ in the finals than in the semi-finals.",
+      "options": ["more beautiful", "beautifuller", "more beautifully", "beautifullier"],
+      "answer": "more beautifully",
+      "explanation": "Beautifully is an -ly adverb → more beautifully. 'More beautiful' is an adjective, not an adverb."
+    },
+    {
+      "id": "cad-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adverb to complete the sentence.",
+      "prompt": "He performed ___ in the second interview than in the first.",
+      "options": ["more good", "better", "weller", "more well"],
+      "answer": "better",
+      "explanation": "Well → better (irregular adverb comparative). 'More good' and 'more well' are errors; 'weller' does not exist."
+    },
+    {
+      "id": "cad-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adverb to complete the sentence.",
+      "prompt": "The new machine operates ___ than the old model.",
+      "options": ["more fast", "more faster", "more fastly", "faster"],
+      "answer": "faster",
+      "explanation": "Fast is a short adverb (same form as adjective) → add -er. 'More fast' and 'more faster' are errors; 'fastly' does not exist."
+    },
+    {
+      "id": "cad-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adverb to complete the sentence.",
+      "prompt": "The students understood the material ___ when examples were given.",
+      "options": ["more easy", "easilier", "more easier", "more easily"],
+      "answer": "more easily",
+      "explanation": "Easily is an -ly adverb → more easily. 'More easy' uses the adjective form."
+    },
+    {
+      "id": "cad-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "She reacted more calmly than expected.",
+        "He worked more harder after the warning.",
+        "The team communicated more clearly in the final phase.",
+        "She responded more politely than her colleague."
+      ],
+      "answer": "He worked more harder after the warning.",
+      "explanation": "'More harder' is a double comparative error. Hard is a short adverb → harder (no 'more')."
+    },
+    {
+      "id": "cad-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "She explained the theory more clearly than the textbook.",
+        "He runs faster than anyone on the team.",
+        "The printer worked more slow after the update.",
+        "She spoke more confidently in the second presentation."
+      ],
+      "answer": "The printer worked more slow after the update.",
+      "explanation": "'More slow' uses the adjective form. The adverb form is 'slowly' → more slowly."
+    },
+    {
+      "id": "cad-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "He arrived later than the other guests.",
+        "She types more faster than her colleagues.",
+        "They worked more diligently under the new manager.",
+        "He adjusted more easily to the new environment."
+      ],
+      "answer": "She types more faster than her colleagues.",
+      "explanation": "'More faster' is a double comparative error. Fast is a short adverb → faster (no 'more')."
+    },
+    {
+      "id": "cad-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct superlative adverb to complete the sentence.",
+      "prompt": "Of all the candidates, she spoke ___.",
+      "options": ["the most confidently", "most confidently", "the more confidently", "the most confident"],
+      "answer": "the most confidently",
+      "explanation": "Superlative adverbs need 'the': the most confidently. 'Most confidently' is missing 'the'. 'The most confident' is an adjective, not an adverb."
+    },
+    {
+      "id": "cad-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct superlative adverb to complete the sentence.",
+      "prompt": "In the group, he works ___.",
+      "options": ["the most hardest", "the hardest", "the most hard", "hardest"],
+      "answer": "the hardest",
+      "explanation": "Hard is a short adverb → the hardest. 'The most hardest' is a double superlative. Always include 'the.'"
+    },
+    {
+      "id": "cad-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "She responded to the crisis ___ than anyone had anticipated.",
+      "options": ["more calm", "calmlier", "more calmly", "calmer"],
+      "answer": "more calmly",
+      "explanation": "Calmly is an -ly adverb → more calmly. 'More calm' uses the adjective; 'calmlier' does not exist."
+    },
+    {
+      "id": "cad-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "She writes more fluently than her classmates.",
+        "He finishes tasks more quick than expected.",
+        "The team performed better after additional training.",
+        "Of all the speakers, she presented the most persuasively."
+      ],
+      "answer": "He finishes tasks more quick than expected.",
+      "explanation": "'More quick' uses the adjective form. The adverb is 'quickly' → more quickly."
+    },
+    {
+      "id": "cad-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct comparative adverb form to complete the question.",
+      "prompt": "Who performed ___ in the competition — the first group or the second?",
+      "options": ["better", "more good", "gooder", "the best"],
+      "answer": "better",
+      "explanation": "Well → better (irregular comparative adverb). Comparing two groups → comparative, not superlative."
+    },
+    {
+      "id": "cad-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Does this engine run ___ than the previous model?",
+      "options": ["more efficient", "most efficiently", "more efficiently", "efficienter"],
+      "answer": "more efficiently",
+      "explanation": "The verb 'run' is modified by an adverb → more efficiently. 'More efficient' is an adjective and cannot modify a verb."
+    },
+    {
+      "id": "cad-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct comparative adverb form to complete the question.",
+      "prompt": "Did she finish the test ___ than she expected?",
+      "options": ["more fast", "fastly", "more fastly", "faster"],
+      "answer": "faster",
+      "explanation": "Fast is a short adverb → add -er for comparative. 'Fastly' and 'more fastly' do not exist."
+    },
+    {
+      "id": "cad-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct superlative adverb to complete the question.",
+      "prompt": "Who of all the applicants presented their ideas ___?",
+      "options": ["the most clearly", "most clearly", "the more clearly", "the most clear"],
+      "answer": "the most clearly",
+      "explanation": "Superlative adverbs need 'the': the most clearly. 'Most clearly' is missing 'the'. 'The most clear' is an adjective."
+    },
+    {
+      "id": "cad-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Is he recovering ___ now after the surgery?",
+      "options": ["more good", "more well", "better", "weller"],
+      "answer": "better",
+      "explanation": "Well → better (irregular comparative adverb). 'More well,' 'more good,' and 'weller' are all errors."
+    },
+    {
+      "id": "cad-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Of all the runners, who crossed the finish line ___?",
+      "options": ["the fastest", "the most fast", "the most fastest", "fastest"],
+      "answer": "the fastest",
+      "explanation": "Fast is a short adverb → the fastest (superlative). Always include 'the'. 'The most fast' and 'the most fastest' are errors."
+    }
+  ]
+}

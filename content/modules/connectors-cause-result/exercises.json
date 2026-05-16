@@ -1,1 +1,264 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ccr-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct connector to complete the sentence.",
+      "prompt": "She missed the bus ___ she overslept.",
+      "options": ["because", "because of", "due to", "owing to"],
+      "answer": "because",
+      "explanation": "'Because' is followed by a clause (subject + verb: 'she overslept'). 'Because of', 'due to', and 'owing to' are prepositions — they need a noun phrase, not a clause."
+    },
+    {
+      "id": "ccr-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct connector.",
+      "prompt": "The flight was cancelled ___ the severe storm.",
+      "options": ["due to", "because", "since", "as"],
+      "answer": "due to",
+      "explanation": "'Due to' is a preposition followed by a noun phrase ('the severe storm'). 'Because', 'since', and 'as' are conjunctions that must be followed by a full clause."
+    },
+    {
+      "id": "ccr-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence.",
+      "prompt": "Which sentence uses 'therefore' correctly?",
+      "options": [
+        "The bridge was unsafe, therefore it was closed.",
+        "The bridge was unsafe. Therefore, it was closed.",
+        "The bridge was unsafe therefore, it was closed.",
+        "Therefore the bridge was unsafe it was closed."
+      ],
+      "answer": "The bridge was unsafe. Therefore, it was closed.",
+      "explanation": "'Therefore' is a conjunctive adverb — it needs a new sentence (or semicolon) before it and a comma after it. A comma alone before 'therefore' creates a comma splice."
+    },
+    {
+      "id": "ccr-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the most formal result connector for academic writing.",
+      "prompt": "The sample was too small to generalise. ___, the study was repeated with a larger group.",
+      "options": ["Consequently", "So", "And then", "As"],
+      "answer": "Consequently",
+      "explanation": "'Consequently' is a formal result connector appropriate for academic writing. 'So' is informal, 'and then' indicates sequence not result, and 'as' here would be a cause connector."
+    },
+    {
+      "id": "ccr-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct connector.",
+      "prompt": "___ the data was incomplete, the researchers decided to collect additional samples.",
+      "options": ["Since", "Due to", "Owing to", "Because of"],
+      "answer": "Since",
+      "explanation": "'Since' (causal meaning) is followed by a full clause ('the data was incomplete'). 'Due to', 'owing to', and 'because of' are prepositions that need a noun phrase."
+    },
+    {
+      "id": "ccr-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence.",
+      "prompt": "Which sentence correctly uses 'as a result'?",
+      "options": [
+        "As a result the company restructured its operations.",
+        "As a result, the company restructured its operations.",
+        "The company, as a result restructured its operations.",
+        "The company restructured its operations as a result to the losses."
+      ],
+      "answer": "As a result, the company restructured its operations.",
+      "explanation": "'As a result' at the start of a sentence is always followed by a comma. It begins a new sentence, not a dependent clause."
+    },
+    {
+      "id": "ccr-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct connector.",
+      "prompt": "The government increased taxes; ___, public services improved.",
+      "options": ["consequently", "because", "due to", "since"],
+      "answer": "consequently",
+      "explanation": "A semicolon precedes the result connector here. 'Consequently' correctly signals that improved public services resulted from the tax increase."
+    },
+    {
+      "id": "ccr-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the incorrect sentence.",
+      "prompt": "Which sentence contains an error?",
+      "options": [
+        "She was absent because she was ill.",
+        "She was absent because of her illness.",
+        "She was absent due to she was ill.",
+        "She was absent owing to her illness."
+      ],
+      "answer": "She was absent due to she was ill.",
+      "explanation": "'Due to' is a preposition — it cannot be followed by a clause ('she was ill'). Correct options: 'due to her illness' (noun phrase) or 'because she was ill' (clause)."
+    },
+    {
+      "id": "ccr-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "Which sentence incorrectly uses 'because of'?",
+      "options": [
+        "He was fired because of repeated lateness.",
+        "He was fired because of he arrived late every day.",
+        "He was fired because he arrived late every day.",
+        "He was fired owing to his repeated lateness."
+      ],
+      "answer": "He was fired because of he arrived late every day.",
+      "explanation": "'Because of' is a preposition — it must be followed by a noun or noun phrase, not a subject-verb clause. Use 'because' (conjunction) before a full clause."
+    },
+    {
+      "id": "ccr-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the comma splice.",
+      "prompt": "Which sentence has a punctuation error?",
+      "options": [
+        "The system crashed. As a result, all data was lost.",
+        "The system crashed; consequently, all data was lost.",
+        "The system crashed, therefore all data was lost.",
+        "All data was lost as a result of the system crash."
+      ],
+      "answer": "The system crashed, therefore all data was lost.",
+      "explanation": "'Therefore' is a conjunctive adverb — a comma alone cannot join two independent clauses with it. Use a semicolon ('crashed; therefore') or a new sentence ('crashed. Therefore,')."
+    },
+    {
+      "id": "ccr-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that is too informal for academic writing.",
+      "prompt": "Which sentence should be rewritten for a formal essay?",
+      "options": [
+        "The results were inconclusive; therefore, further research is needed.",
+        "The results were inconclusive, so further research is needed.",
+        "The results were inconclusive. Consequently, further research is needed.",
+        "The results were inconclusive; hence, further research is needed."
+      ],
+      "answer": "The results were inconclusive, so further research is needed.",
+      "explanation": "'So' is informal. In academic writing, use 'therefore', 'consequently', 'hence', or 'as a result' to express result. These carry the appropriate formal register."
+    },
+    {
+      "id": "ccr-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the misuse of 'owing to'.",
+      "prompt": "Which sentence incorrectly uses 'owing to'?",
+      "options": [
+        "Owing to the heavy rainfall, the roads were flooded.",
+        "The event was cancelled owing to bad weather.",
+        "Owing to the fact that it rained, the event was cancelled.",
+        "Owing to it rained, the event was cancelled."
+      ],
+      "answer": "Owing to it rained, the event was cancelled.",
+      "explanation": "'Owing to' is a preposition requiring a noun phrase. 'It rained' is a clause, not a noun phrase. Fix: 'Owing to the rain' or 'Owing to the fact that it rained' (verbose but grammatical)."
+    },
+    {
+      "id": "ccr-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "What is wrong with this sentence: 'As the traffic was heavy, it caused her lateness.'?",
+      "options": [
+        "Nothing — the sentence is correct.",
+        "'As' cannot be used for cause — only for time.",
+        "The sentence is grammatically fine but logically redundant — 'as' already implies cause, so 'it caused' repeats the causal logic.",
+        "'As' should be replaced by 'since' in formal writing."
+      ],
+      "answer": "The sentence is grammatically fine but logically redundant — 'as' already implies cause, so 'it caused' repeats the causal logic.",
+      "explanation": "'As the traffic was heavy' already expresses the cause. The main clause should state the result directly: 'As the traffic was heavy, she was late.' Adding 'it caused' repeats the causal structure unnecessarily."
+    },
+    {
+      "id": "ccr-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence with a missing comma.",
+      "prompt": "Which sentence is incorrectly punctuated?",
+      "options": [
+        "As a result, the project was completed on time.",
+        "The project was completed on time as a result of careful planning.",
+        "As a result the project was completed on time.",
+        "The project, as a result of careful planning, was completed on time."
+      ],
+      "answer": "As a result the project was completed on time.",
+      "explanation": "When 'as a result' begins a sentence as a connector, it must be followed by a comma: 'As a result, the project was completed on time.'"
+    },
+    {
+      "id": "ccr-mc-question-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct connector.",
+      "prompt": "The new law was introduced ___ a rise in workplace accidents.",
+      "options": ["owing to", "because", "since", "consequently"],
+      "answer": "owing to",
+      "explanation": "'Owing to' is a formal preposition followed by a noun phrase ('a rise in workplace accidents'). 'Because' and 'since' need a full clause. 'Consequently' is a result connector, not a cause connector."
+    },
+    {
+      "id": "ccr-mc-question-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the best pair of connectors.",
+      "prompt": "___ the team trained intensively, they performed well; ___, they qualified for the final.",
+      "options": [
+        "Because / consequently",
+        "Due to / however",
+        "Although / furthermore",
+        "Since / nevertheless"
+      ],
+      "answer": "Because / consequently",
+      "explanation": "'Because' introduces the cause (intensive training → good performance). 'Consequently' introduces the result (qualified for the final). This creates a logical cause-and-effect chain."
+    },
+    {
+      "id": "ccr-mc-question-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'thus' in the middle of a sentence?",
+      "prompt": "Choose the grammatically correct option.",
+      "options": [
+        "The sample was small, thus the results may not be generalisable.",
+        "The sample was small; thus the results may not be generalisable.",
+        "The sample was small, thus limiting the generalisability of the results.",
+        "The sample was small thus, limiting the generalisability of the results."
+      ],
+      "answer": "The sample was small, thus limiting the generalisability of the results.",
+      "explanation": "When 'thus' introduces a participial phrase (not a full clause), a comma before it is correct. This structure avoids the comma-splice issue and is the most elegant option."
+    },
+    {
+      "id": "ccr-mc-question-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the connector that best fits a formal academic sentence.",
+      "prompt": "The government failed to invest in infrastructure. ___, economic growth slowed significantly.",
+      "options": ["Hence", "So", "And", "But"],
+      "answer": "Hence",
+      "explanation": "'Hence' is a highly formal result connector appropriate for academic writing. It starts a new sentence with a comma after it. 'So' is informal, 'and' is additive, and 'but' is contrastive."
+    },
+    {
+      "id": "ccr-mc-question-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct option to complete the sentence.",
+      "prompt": "The policy was revised ___ numerous complaints from stakeholders.",
+      "options": ["because of", "because", "therefore", "since"],
+      "answer": "because of",
+      "explanation": "'Because of' is followed by a noun phrase ('numerous complaints'). 'Because' and 'since' need a full clause. 'Therefore' is a result connector, not a cause connector."
+    },
+    {
+      "id": "ccr-mc-question-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the sentence where 'since' is used correctly for cause.",
+      "prompt": "Choose the correct use of causal 'since'.",
+      "options": [
+        "Since the project, it has been very successful.",
+        "Since the budget was cut, the team had to reduce the scope of the work.",
+        "The team succeeded since the project began.",
+        "Since owing to budget cuts, the scope was reduced."
+      ],
+      "answer": "Since the budget was cut, the team had to reduce the scope of the work.",
+      "explanation": "Causal 'since' introduces a full clause explaining the reason. Here, 'the budget was cut' is the cause and 'the team had to reduce scope' is the result — grammatically correct."
+    }
+  ]
+}

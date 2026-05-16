@@ -1,0 +1,234 @@
+{
+  "exercises": [
+    {
+      "id": "vp-master-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form after 'enjoy'.",
+      "prompt": "She enjoys ___ classical music in the evenings.",
+      "options": ["to listen", "listening", "listen", "listened"],
+      "answer": "listening",
+      "explanation": "'Enjoy' always takes a gerund (V-ing). 'Enjoy to listen' is always wrong."
+    },
+    {
+      "id": "vp-master-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form after 'want'.",
+      "prompt": "She wants ___ the conference next month.",
+      "options": ["attending", "to attend", "attend", "attended"],
+      "answer": "to attend",
+      "explanation": "'Want' takes a to-infinitive: want + to + V1. 'Want attending' is incorrect."
+    },
+    {
+      "id": "vp-master-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form after a preposition.",
+      "prompt": "She is good at ___ complex problems.",
+      "options": ["solve", "to solve", "solving", "solved"],
+      "answer": "solving",
+      "explanation": "After prepositions, always use a gerund: 'good at solving'. Never an infinitive after a preposition."
+    },
+    {
+      "id": "vp-master-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'look forward to' error.",
+      "prompt": "I'm looking forward to meet you at the conference.",
+      "options": [
+        "Should be 'meeting' — 'to' here is a preposition, not part of the infinitive.",
+        "Should be 'to meet' — infinitive is correct.",
+        "Should be 'met' — past form needed.",
+        "No error."
+      ],
+      "answer": "Should be 'meeting' — 'to' here is a preposition, not part of the infinitive.",
+      "explanation": "In 'look forward to', 'to' is a preposition → gerund follows: 'looking forward to meeting'."
+    },
+    {
+      "id": "vp-master-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct meaning-changing form of 'stop'.",
+      "prompt": "She stopped ___ (she quit the habit).",
+      "options": ["to smoke", "smoking", "smoke", "smoked"],
+      "answer": "smoking",
+      "explanation": "'Stop + gerund' = quit doing it. 'Stop + to-infinitive' = stop in order to do something else. 'She stopped smoking' = she quit."
+    },
+    {
+      "id": "vp-master-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct meaning of 'remember'.",
+      "prompt": "Please remember ___ submit the form. (future task)",
+      "options": ["submitting", "to submit", "submit", "submitted"],
+      "answer": "to submit",
+      "explanation": "'Remember + to-infinitive' = remember to do a future task. 'Remember + gerund' = recall a past event."
+    },
+    {
+      "id": "vp-master-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense backshift in reported speech.",
+      "prompt": "\"I am tired,\" she said. → She said she ___ tired.",
+      "options": ["is", "was", "has been", "had been"],
+      "answer": "was",
+      "explanation": "Past reporting verb → tense backshift: present simple → past simple. 'She said she was tired.'"
+    },
+    {
+      "id": "vp-master-8",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the reported speech error.",
+      "prompt": "She told that she had finished.",
+      "options": [
+        "Should be 'She told me that' or 'She said that' — 'tell' needs an object.",
+        "Should be 'She told that she has finished' — present perfect stays.",
+        "Should be 'She said to that'.",
+        "No error."
+      ],
+      "answer": "Should be 'She told me that' or 'She said that' — 'tell' needs an object.",
+      "explanation": "'Tell' always needs a direct object. 'Told that' without an object is incorrect."
+    },
+    {
+      "id": "vp-master-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the indirect question error.",
+      "prompt": "He asked me where did I live.",
+      "options": [
+        "Should be 'where I lived' — indirect questions use statement word order.",
+        "Should be 'where do I live' — present tense.",
+        "Should be 'where was I living' — continuous.",
+        "No error."
+      ],
+      "answer": "Should be 'where I lived' — indirect questions use statement word order.",
+      "explanation": "Indirect questions: no auxiliary inversion. 'He asked me where I lived' (not 'where did I live')."
+    },
+    {
+      "id": "vp-master-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported command.",
+      "prompt": "\"Don't make noise,\" she told them. → She told them ___ noise.",
+      "options": ["not making", "not to make", "to not make", "don't make"],
+      "answer": "not to make",
+      "explanation": "Reported negative command: tell + object + not to + V1. 'She told them not to make noise.'"
+    },
+    {
+      "id": "vp-master-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct have-causative.",
+      "prompt": "I'll ___ the technician ___ at the problem.",
+      "options": ["have / looked", "have / look", "get / looked", "make / look"],
+      "answer": "have / look",
+      "explanation": "Named-agent have-causative: have + person + base verb (V1). 'Have the technician look.'"
+    },
+    {
+      "id": "vp-master-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'make' causative.",
+      "prompt": "The teacher made the students ___ the essay.",
+      "options": ["to rewrite", "rewriting", "rewrite", "rewritten"],
+      "answer": "rewrite",
+      "explanation": "Make + object + bare infinitive (V1). No 'to' in active make-causatives."
+    },
+    {
+      "id": "vp-master-13",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'let' error.",
+      "prompt": "She let me to use her laptop.",
+      "options": [
+        "Should be 'let me use' — no 'to' after 'let'.",
+        "Should be 'allowed me use' — 'let' is wrong.",
+        "Should be 'let me using' — continuous needed.",
+        "No error."
+      ],
+      "answer": "Should be 'let me use' — no 'to' after 'let'.",
+      "explanation": "'Let' takes a bare infinitive. 'Let me use' — no 'to'. Compare: 'allowed me to use'."
+    },
+    {
+      "id": "vp-master-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya memperbaiki mobil saya di bengkel.' (someone else did it) → causative English:",
+      "prompt": "I ___ at the garage.",
+      "options": ["repaired my car", "had my car repaired", "got repaired my car", "had repaired my car"],
+      "answer": "had my car repaired",
+      "explanation": "Causative: had + object + V3. 'Had my car repaired' — a mechanic did it."
+    },
+    {
+      "id": "vp-master-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Distinguish make vs let.",
+      "prompt": "___",
+      "options": [
+        "'Make' = permission; 'let' = compulsion.",
+        "'Make' = compulsion/force; 'let' = permission/allow.",
+        "Both express permission.",
+        "Both are interchangeable."
+      ],
+      "answer": "'Make' = compulsion/force; 'let' = permission/allow.",
+      "explanation": "'Make' = force (no choice). 'Let' = allow/permit (give permission). Opposite meanings."
+    },
+    {
+      "id": "vp-master-16",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the passive of 'make' (note: 'to' reappears).",
+      "prompt": "We ___ rewrite the essay. (passive)",
+      "options": ["were made rewrite", "were made to rewrite", "made to rewrite", "were let to rewrite"],
+      "answer": "were made to rewrite",
+      "explanation": "Passive of 'make': be made + to + V1. 'To' reappears in the passive. Active: 'made us rewrite'; Passive: 'were made to rewrite'."
+    },
+    {
+      "id": "vp-master-17",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form: 'try' meaning experiment.",
+      "prompt": "She ___ adding lemon juice to improve the flavour. (experimenting with a method)",
+      "options": ["tried to add", "tried adding", "tried add", "was trying to add"],
+      "answer": "tried adding",
+      "explanation": "'Try + gerund' = experiment with a method (see if it works). 'Try + infinitive' = make an effort to do it."
+    },
+    {
+      "id": "vp-master-18",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'get' causative with a named agent.",
+      "prompt": "She got her assistant ___ the flights.",
+      "options": ["booked", "to book", "booking", "book"],
+      "answer": "to book",
+      "explanation": "'Get + person + to-infinitive'. Unlike 'have' (bare verb), 'get' needs 'to': 'got her assistant to book'."
+    },
+    {
+      "id": "vp-master-19",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct backshift: will → ?",
+      "prompt": "\"I will call you,\" he said. → He said he ___ call me.",
+      "options": ["will", "would", "can", "could"],
+      "answer": "would",
+      "explanation": "Tense backshift: will → would. 'He said he would call me.'"
+    },
+    {
+      "id": "vp-master-20",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses 'forget' with a past memory meaning (not a future task)?",
+      "prompt": "___",
+      "options": [
+        "Don't forget to call your mother.",
+        "I'll never forget seeing the northern lights.",
+        "She forgot to submit the report.",
+        "He forgot to lock the door."
+      ],
+      "answer": "I'll never forget seeing the northern lights.",
+      "explanation": "'Forget + gerund' = recall that you experienced something. 'I'll never forget seeing' = I remember the experience vividly. The others use 'forget + to-infinitive' (future task)."
+    }
+  ]
+}

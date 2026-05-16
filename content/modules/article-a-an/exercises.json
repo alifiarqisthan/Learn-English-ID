@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "aan-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article.",
+      "prompt": "She has been working as ___ engineer for ten years.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "an",
+      "explanation": "'Engineer' starts with the vowel sound /ɛ/ → 'an'. Also, a profession after 'be/work as' uses the indefinite article."
+    },
+    {
+      "id": "aan-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article. Think about the sound.",
+      "prompt": "It takes ___ hour to drive from here to the airport.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "an",
+      "explanation": "'Hour' starts with a silent H — it sounds like 'our' (vowel sound /aʊ/) → 'an'."
+    },
+    {
+      "id": "aan-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article.",
+      "prompt": "My cousin wants to study at ___ university in Australia.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "a",
+      "explanation": "'University' sounds like 'yoo-niversity' — consonant sound /j/ → 'a'."
+    },
+    {
+      "id": "aan-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with a wrong article.",
+      "prompt": "___",
+      "options": [
+        "She gave me a useful tip.",
+        "He is an honest person.",
+        "They found an useful solution.",
+        "She is a nurse at the local clinic."
+      ],
+      "answer": "They found an useful solution.",
+      "explanation": "'Useful' starts with the consonant sound /j/ (yoo-seful) → 'a useful solution', not 'an'."
+    },
+    {
+      "id": "aan-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with an article error.",
+      "prompt": "___",
+      "options": [
+        "Can you give me some advice?",
+        "She gave me an advice about my essay.",
+        "He needs some information.",
+        "I'd like a piece of information."
+      ],
+      "answer": "She gave me an advice about my essay.",
+      "explanation": "'Advice' is uncountable — 'a/an' cannot be used. Use 'some advice' or 'a piece of advice'."
+    },
+    {
+      "id": "aan-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct article for an abbreviation.",
+      "prompt": "She is applying for ___ MBA at a top business school.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "an",
+      "explanation": "MBA is said as letters: 'em-bee-ay'. 'M' sounds like 'em' (vowel sound) → 'an MBA'."
+    },
+    {
+      "id": "aan-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct exclamation.",
+      "prompt": "___ incredible performance by the young pianist!",
+      "options": [
+        "What a",
+        "What an",
+        "What",
+        "How a"
+      ],
+      "answer": "What an",
+      "explanation": "'Incredible' starts with the vowel sound /ɪ/ → 'What an incredible performance!'"
+    },
+    {
+      "id": "aan-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article.",
+      "prompt": "The committee published ___ report on climate change.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "a",
+      "explanation": "First mention of the report (we don't know which one yet) → indefinite article. 'Report' starts with /r/ (consonant) → 'a'."
+    },
+    {
+      "id": "aan-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article.",
+      "prompt": "He works as ___ X-ray technician at the hospital.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "an",
+      "explanation": "'X-ray' is said as 'ex-ray' — 'X' sounds like 'ex' (vowel sound /ɛ/) → 'an X-ray technician'."
+    },
+    {
+      "id": "aan-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'a' or 'an'.",
+      "prompt": "She is ___ architect who specializes in sustainable design.",
+      "options": [
+        "did an",
+        "aning",
+        "an",
+        "ans"
+      ],
+      "answer": "an",
+      "explanation": "'Architect' starts with the vowel sound /ɑ/ → 'an'."
+    },
+    {
+      "id": "aan-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'a' or 'an'.",
+      "prompt": "That was ___ once-in-a-lifetime opportunity.",
+      "options": [
+        "a",
+        "did a",
+        "as",
+        "aing"
+      ],
+      "answer": "a",
+      "explanation": "'Once' sounds like 'wuns' — consonant sound /w/ → 'a once-in-a-lifetime opportunity'."
+    },
+    {
+      "id": "aan-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the correct article or write 'some' if a/an cannot be used.",
+      "prompt": "I need ___ information about the visa requirements.",
+      "options": [
+        "someing",
+        "somes",
+        "some",
+        "did some"
+      ],
+      "answer": "some",
+      "hint": "Is 'information' countable or uncountable?",
+      "explanation": "'Information' is uncountable — 'a/an' is not possible. Use 'some information'."
+    },
+    {
+      "id": "aan-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'a' or 'an'.",
+      "prompt": "He made ___ honest mistake — there was no intention to deceive.",
+      "options": [
+        "an",
+        "did an",
+        "aning",
+        "ans"
+      ],
+      "answer": "an",
+      "explanation": "'Honest' — the H is silent, sounds like 'on-est' (vowel sound /ɒ/) → 'an honest mistake'."
+    },
+    {
+      "id": "aan-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'a', 'an', or 'some' (whichever is correct).",
+      "prompt": "She bought ___ furniture for her new apartment.",
+      "options": [
+        "someing",
+        "some",
+        "did some",
+        "somes"
+      ],
+      "answer": "some",
+      "explanation": "'Furniture' is uncountable — cannot use 'a/an'. Use 'some furniture'."
+    },
+    {
+      "id": "aan-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia seorang dokter di rumah sakit.\"",
+      "prompt": "Dia seorang dokter di rumah sakit.",
+      "options": [
+        "She is a doctor at a hospital.",
+        "she are a doctor at a hospital.",
+        "She is  a doctor at a hospital.",
+        "She was a doctor at a hospital."
+      ],
+      "answer": "She is a doctor at a hospital.",
+      "explanation": "Profession → indefinite article. 'Doctor' starts with /d/ (consonant) → 'a doctor'."
+    },
+    {
+      "id": "aan-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Saya membutuhkan jam untuk menyelesaikan pekerjaan ini.\"",
+      "prompt": "Saya membutuhkan jam untuk menyelesaikan pekerjaan ini.",
+      "options": [
+        "I need an hour to finish this work.",
+        "I need an hour to finish is thiing work.",
+        "I need a hour to finish this work.",
+        "I need hour to finish this work."
+      ],
+      "answer": "I need an hour to finish this work.",
+      "explanation": "'Hour' — silent H, vowel sound → 'an hour'."
+    },
+    {
+      "id": "aan-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Dia memberikan saran yang berguna kepada saya.\"",
+      "prompt": "Dia memberikan saran yang berguna kepada saya.",
+      "options": [
+        "This is not correct English.",
+        "She gave me some useful advice, every day.",
+        "She gave me some useful advice.",
+        "She gave me some useful advice. (incorrect)"
+      ],
+      "answer": "She gave me some useful advice.",
+      "explanation": "'Saran' = advice (uncountable). Never 'an advice'. Use 'some advice' or 'a piece of advice'."
+    },
+    {
+      "id": "aan-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Sungguh hari yang indah!\"",
+      "prompt": "Sungguh hari yang indah!",
+      "options": [
+        "What a beautiful day!",
+        "What beautiful day!",
+        "What an beautiful day!",
+        "day! beautiful a What"
+      ],
+      "answer": "What a beautiful day!",
+      "explanation": "'Day' starts with /d/ (consonant) → 'What a beautiful day!' Article required in 'what a/an + noun' exclamations."
+    },
+    {
+      "id": "aan-mc-sound-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article based on sound.",
+      "prompt": "She is ___ European researcher working on climate policy.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "a",
+      "explanation": "'European' sounds like 'yoo-ropean' — starts with the consonant sound /j/ → 'a European'."
+    },
+    {
+      "id": "aan-mc-uncountable-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct version.",
+      "prompt": "She is looking for ___ work in the finance sector.",
+      "options": [
+        "a",
+        "an",
+        "some",
+        "a piece of"
+      ],
+      "answer": "some",
+      "explanation": "'Work' (meaning employment) is uncountable — cannot use 'a/an'. Use 'some work' or just 'work'."
+    }
+  ]
+}

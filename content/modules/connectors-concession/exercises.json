@@ -1,1 +1,264 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "conc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct connector.",
+      "prompt": "___ the exam was difficult, most students passed.",
+      "options": ["Although", "Despite", "In spite of", "However"],
+      "answer": "Although",
+      "explanation": "'Although' is a subordinating conjunction followed by a full clause ('the exam was difficult'). 'Despite' and 'in spite of' are prepositions needing a noun phrase. 'However' cannot introduce a subordinate clause."
+    },
+    {
+      "id": "conc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct connector.",
+      "prompt": "___ the heavy rain, the match continued.",
+      "options": ["Despite", "Although", "Even though", "Nevertheless"],
+      "answer": "Despite",
+      "explanation": "'Despite' is a preposition followed by a noun phrase ('the heavy rain'). 'Although' and 'even though' need a full clause. 'Nevertheless' connects two sentences, not a prepositional phrase to a main clause."
+    },
+    {
+      "id": "conc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence.",
+      "prompt": "Which sentence correctly uses 'in spite of'?",
+      "options": [
+        "In spite of she was tired, she continued working.",
+        "In spite of her tiredness, she continued working.",
+        "In spite of that she was tired, she continued working.",
+        "In spite, she was tired but continued working."
+      ],
+      "answer": "In spite of her tiredness, she continued working.",
+      "explanation": "'In spite of' is a preposition requiring a noun or gerund. 'Her tiredness' is a noun phrase. All other options add a clause directly after 'in spite of', which is incorrect."
+    },
+    {
+      "id": "conc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the connector that correctly completes this sentence.",
+      "prompt": "The film received mixed reviews. ___, it became a box-office success.",
+      "options": ["Nevertheless", "Although", "In spite of", "Whereas"],
+      "answer": "Nevertheless",
+      "explanation": "'Nevertheless' is a conjunctive adverb used between two sentences to show that the main point holds despite the conceded fact. It needs a new sentence or semicolon before it, and a comma after."
+    },
+    {
+      "id": "conc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence.",
+      "prompt": "Which sentence correctly uses 'even though'?",
+      "options": [
+        "Even though the high cost, we proceeded with the project.",
+        "Even though it was costly, we proceeded with the project.",
+        "Even though of the cost, we proceeded with the project.",
+        "Even though, it was costly we proceeded with the project."
+      ],
+      "answer": "Even though it was costly, we proceeded with the project.",
+      "explanation": "'Even though' is a subordinating conjunction followed by a full clause with subject + verb. 'Even though' cannot be followed by a noun phrase — use 'despite' for that."
+    },
+    {
+      "id": "conc-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best connector to contrast two different groups.",
+      "prompt": "___ urban residents have access to many services, rural inhabitants often lack basic infrastructure.",
+      "options": ["Whereas", "Despite", "Even so", "Nonetheless"],
+      "answer": "Whereas",
+      "explanation": "'Whereas' directly contrasts two different subjects or groups. Here it contrasts urban residents (many services) with rural inhabitants (lack of infrastructure). 'Despite' needs a noun phrase; 'even so' and 'nonetheless' connect sentences."
+    },
+    {
+      "id": "conc-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'even so'.",
+      "prompt": "Which sentence correctly uses 'even so'?",
+      "options": [
+        "Even so the project was challenging, we completed it.",
+        "The project was challenging. Even so, we completed it.",
+        "The project was challenging even so we completed it.",
+        "Even so of the challenges, we completed the project."
+      ],
+      "answer": "The project was challenging. Even so, we completed it.",
+      "explanation": "'Even so' is a sentence connector — it goes between two sentences (or after a semicolon), followed by a comma. It cannot introduce a subordinate clause."
+    },
+    {
+      "id": "conc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with an error.",
+      "prompt": "Which sentence is grammatically incorrect?",
+      "options": [
+        "Despite being tired, she continued working.",
+        "Although she was tired, she continued working.",
+        "Despite she was tired, she continued working.",
+        "She was tired. Even so, she continued working."
+      ],
+      "answer": "Despite she was tired, she continued working.",
+      "explanation": "'Despite' is a preposition — it cannot be followed by a subject-verb clause. Use 'despite being tired' (gerund) or 'although she was tired' (conjunction + clause)."
+    },
+    {
+      "id": "conc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the double-connector error.",
+      "prompt": "Which sentence incorrectly uses two concession connectors?",
+      "options": [
+        "Although the project was expensive, the board approved it.",
+        "The project was expensive. Nevertheless, the board approved it.",
+        "Although the project was expensive, but the board approved it.",
+        "In spite of the cost, the board approved the project."
+      ],
+      "answer": "Although the project was expensive, but the board approved it.",
+      "explanation": "'Although' and 'but' both signal concession/contrast. Using both together creates a double connector error. Use one or the other — not both in the same sentence."
+    },
+    {
+      "id": "conc-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "Which sentence incorrectly uses 'in spite of that'?",
+      "options": [
+        "In spite of the rain, the game continued.",
+        "In spite of the fact that it rained, the game continued.",
+        "In spite of that it rained, the game continued.",
+        "In spite of raining, the game continued."
+      ],
+      "answer": "In spite of that it rained, the game continued.",
+      "explanation": "'In spite of that' is not a standard conjunction and cannot introduce a clause. Use 'although / even though' for a clause, or 'in spite of the fact that' (verbose but grammatical), or 'in spite of + noun phrase'."
+    },
+    {
+      "id": "conc-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence with a comma splice.",
+      "prompt": "Which sentence has an incorrect punctuation error?",
+      "options": [
+        "The plan had flaws. Nonetheless, it was approved.",
+        "The plan had flaws; nonetheless, it was approved.",
+        "The plan had flaws, nonetheless it was approved.",
+        "Nonetheless, the plan had flaws but was approved."
+      ],
+      "answer": "The plan had flaws, nonetheless it was approved.",
+      "explanation": "'Nonetheless' is a conjunctive adverb — a comma alone cannot join two independent clauses with it. A semicolon or a new sentence is required before 'nonetheless'."
+    },
+    {
+      "id": "conc-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the incorrect sentence.",
+      "prompt": "Which sentence misuses 'while' as a contrast connector?",
+      "options": [
+        "While the north is industrialised, the south relies on agriculture.",
+        "While she was cooking dinner, the phone rang.",
+        "While costs have risen, quality has also improved.",
+        "While expensive, while the product is popular."
+      ],
+      "answer": "While expensive, while the product is popular.",
+      "explanation": "Using 'while' twice in the same clause is grammatically incorrect. The sentence structure is broken — 'while expensive' needs a clear subject, and repeating 'while' creates an ungrammatical construction."
+    },
+    {
+      "id": "conc-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the sentence that is least appropriate for formal academic writing.",
+      "prompt": "Which option is least suitable for a formal academic essay?",
+      "options": [
+        "Although the evidence was limited, the conclusions were plausible.",
+        "Even though the evidence was limited, the conclusions were plausible.",
+        "Though the evidence was limited, the conclusions were plausible.",
+        "The evidence was limited. Nevertheless, the conclusions were plausible."
+      ],
+      "answer": "Though the evidence was limited, the conclusions were plausible.",
+      "explanation": "'Though' is acceptable in semi-formal writing but is generally considered less appropriate than 'although' or 'even though' in formal academic contexts such as IELTS or TOEFL essays."
+    },
+    {
+      "id": "conc-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "What is wrong with: 'In spite of that the budget was reduced, the project was completed'?",
+      "options": [
+        "Nothing — the sentence is correct.",
+        "'In spite of that' cannot introduce a clause — use 'although' or 'in spite of the fact that'.",
+        "'In spite of' should be replaced with 'despite of'.",
+        "'In spite of' needs 'however' after the comma."
+      ],
+      "answer": "'In spite of that' cannot introduce a clause — use 'although' or 'in spite of the fact that'.",
+      "explanation": "'In spite of' is a preposition — it needs a noun phrase, not a 'that'-clause. Also note: 'despite of' does not exist in English — never add 'of' to 'despite'."
+    },
+    {
+      "id": "conc-mc-question-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct connector.",
+      "prompt": "___ working two jobs, he managed to complete his degree.",
+      "options": ["Despite", "Although", "Even though", "Whereas"],
+      "answer": "Despite",
+      "explanation": "'Working two jobs' is a gerund (noun-equivalent) phrase. 'Despite' is the correct preposition here. 'Although' and 'even though' need a full subject-verb clause."
+    },
+    {
+      "id": "conc-mc-question-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct pair to complete both blanks.",
+      "prompt": "___ the treatment has risks, researchers believe the benefits outweigh them. ___, clinical trials will proceed.",
+      "options": [
+        "Although / Nevertheless",
+        "Despite / However",
+        "In spite of / Even so",
+        "Whereas / Moreover"
+      ],
+      "answer": "Although / Nevertheless",
+      "explanation": "'Although' introduces the concessive subordinate clause (clause follows). 'Nevertheless' connects two sentences to show the main point holds despite the concession."
+    },
+    {
+      "id": "conc-mc-question-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the best connector.",
+      "prompt": "Developed nations are reducing emissions rapidly. ___, developing nations are increasing their output.",
+      "options": ["In contrast", "Nevertheless", "Although", "Despite"],
+      "answer": "In contrast",
+      "explanation": "'In contrast' introduces an explicit comparison between two opposing facts. 'Nevertheless' implies the second fact is unexpected given the first — but here the contrast is the point, not surprise. 'In contrast' fits best as a standalone sentence connector."
+    },
+    {
+      "id": "conc-mc-question-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct sentence.",
+      "prompt": "Which sentence correctly uses 'in spite of' with a gerund?",
+      "options": [
+        "In spite of studying all night, she failed the test.",
+        "In spite of she studied all night, she failed the test.",
+        "In spite of that she studied all night, she failed the test.",
+        "In spite of study all night, she failed the test."
+      ],
+      "answer": "In spite of studying all night, she failed the test.",
+      "explanation": "'In spite of' is followed by a gerund ('studying'). A gerund (-ing form) acts as a noun here. All other options incorrectly use a clause or a base verb after 'in spite of'."
+    },
+    {
+      "id": "conc-mc-question-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the best connector for formal academic writing.",
+      "prompt": "The methodology was flawed. ___, the study's findings remain influential in the field.",
+      "options": ["Nonetheless", "But", "Even so, but", "Though"],
+      "answer": "Nonetheless",
+      "explanation": "'Nonetheless' is the most formal of the options and most suitable for academic writing. 'But' is informal as a sentence opener. 'Even so, but' doubles connectors. 'Though' at the start of a sentence is semi-formal at best."
+    },
+    {
+      "id": "conc-mc-question-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct connector.",
+      "prompt": "___ the North promotes innovation and technology, the South has traditionally focused on agriculture.",
+      "options": ["Whereas", "Despite", "Even though", "Nonetheless"],
+      "answer": "Whereas",
+      "explanation": "'Whereas' directly contrasts two different subjects (the North vs the South). It is ideal for comparing two groups or regions. 'Despite' and 'even though' are for concession, not neutral contrast between two facts."
+    }
+  ]
+}

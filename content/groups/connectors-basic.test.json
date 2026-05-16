@@ -1,1 +1,174 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cb-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct addition connector (formal).",
+      "prompt": "The study was well-designed. ___, the sample size was large enough to draw conclusions.",
+      "options": ["But", "Furthermore", "Although", "Because"],
+      "answer": "Furthermore",
+      "explanation": "'Furthermore' adds a point that strengthens the previous idea. It starts a new sentence or comes after a semicolon. 'But' = contrast; 'Although/Because' = different relationships."
+    },
+    {
+      "id": "cb-test-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the comma splice with a conjunctive adverb.",
+      "prompt": "The data was promising, however the sample was too small.",
+      "options": [
+        "Should be 'however,' at the start of a new sentence or after a semicolon.",
+        "Should be 'however,' with a comma only — the comma is correct.",
+        "Should be 'but however' — both connectors together.",
+        "No error — a comma before 'however' is correct."
+      ],
+      "answer": "Should be 'however,' at the start of a new sentence or after a semicolon.",
+      "explanation": "'However' is a conjunctive adverb — it needs a semicolon before it or a new sentence. 'The data was promising; however, the sample was too small.' A comma alone creates a comma splice."
+    },
+    {
+      "id": "cb-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct contrast connector.",
+      "prompt": "The experiment failed. ___, the team learned valuable lessons from the process.",
+      "options": ["Therefore", "Nevertheless", "Furthermore", "Because"],
+      "answer": "Nevertheless",
+      "explanation": "'Nevertheless' = in spite of this / despite that — contrast with the previous sentence. 'Therefore' = result; 'Furthermore' = addition."
+    },
+    {
+      "id": "cb-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'because' or 'because of'.",
+      "prompt": "The event was cancelled ___ the heavy rain.",
+      "options": ["because", "because of", "due to it was", "since"],
+      "answer": "because of",
+      "explanation": "'Because of' + noun phrase: 'because of the heavy rain'. 'Because' + clause: 'because it rained heavily'. 'Due to it was' is wrong — 'due to' takes a noun, not a clause."
+    },
+    {
+      "id": "cb-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct result connector (formal).",
+      "prompt": "The budget was cut significantly. ___, the project had to be scaled back.",
+      "options": ["Although", "Consequently", "Moreover", "Unless"],
+      "answer": "Consequently",
+      "explanation": "'Consequently' = as a result (formal). Used between sentences for a cause-result relationship. 'Although' = concession; 'Moreover' = addition."
+    },
+    {
+      "id": "cb-test-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'due to' error.",
+      "prompt": "The delay was due to it rained heavily.",
+      "options": [
+        "Should be 'due to the heavy rain' — 'due to' takes a noun phrase, not a clause.",
+        "Should be 'because it rained' — 'due to' is wrong entirely.",
+        "Should be 'due to heavy raining' — gerund needed.",
+        "No error — 'due to it rained' is correct."
+      ],
+      "answer": "Should be 'due to the heavy rain' — 'due to' takes a noun phrase, not a clause.",
+      "explanation": "'Due to' = preposition → takes a noun phrase. 'Due to the heavy rain' ✓. For a clause, use 'because': 'because it rained heavily'."
+    },
+    {
+      "id": "cb-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct concession connector (subordinating conjunction).",
+      "prompt": "___ the weather was terrible, the outdoor ceremony continued.",
+      "options": ["Because", "Although", "Therefore", "Moreover"],
+      "answer": "Although",
+      "explanation": "'Although' introduces a concession clause — the ceremony continued despite the bad weather. 'Because' = reason; 'Therefore/Moreover' = result/addition."
+    },
+    {
+      "id": "cb-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'despite' or 'although'.",
+      "prompt": "___ his lack of experience, he performed well.",
+      "options": ["Although", "Despite", "Even though", "However"],
+      "answer": "Despite",
+      "explanation": "'Despite' + noun/gerund: 'Despite his lack of experience'. 'Although/Even though' + full clause. 'His lack of experience' = noun phrase → 'despite'."
+    },
+    {
+      "id": "cb-test-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the double conjunction error.",
+      "prompt": "Although the study was limited, but it provided valuable insights.",
+      "options": [
+        "Remove 'but' — 'although' and 'but' cannot both connect the same clauses.",
+        "Remove 'although' — 'but' is correct here.",
+        "Both are correct together for emphasis.",
+        "Replace 'although' with 'even though'."
+      ],
+      "answer": "Remove 'but' — 'although' and 'but' cannot both connect the same clauses.",
+      "explanation": "'Although' (subordinating) and 'but' (coordinating) cannot both join the same two clauses. Use one: 'Although the study was limited, it provided…' OR 'The study was limited, but it provided…'"
+    },
+    {
+      "id": "cb-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Oleh karena itu, penelitian lebih lanjut diperlukan.' → English:",
+      "prompt": "___, further research is needed.",
+      "options": ["Although", "Therefore", "Moreover", "Despite"],
+      "answer": "Therefore",
+      "explanation": "'Oleh karena itu' = therefore (result connector). 'Therefore, further research is needed' — formal cause-result relationship."
+    },
+    {
+      "id": "cb-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct connector showing addition of a stronger point.",
+      "prompt": "The results were unexpected. ___, they contradicted all previous findings.",
+      "options": ["However", "Moreover", "Therefore", "Although"],
+      "answer": "Moreover",
+      "explanation": "'Moreover' adds a point that is even more significant. 'The results were unexpected. Moreover, they contradicted all previous findings' = additionally, and more strikingly."
+    },
+    {
+      "id": "cb-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'in spite of' or 'despite' — both prepositions.",
+      "prompt": "___ the difficulties, the team completed the project on time.",
+      "options": ["Although", "In spite of", "Even though", "Nevertheless"],
+      "answer": "In spite of",
+      "explanation": "'In spite of' + noun phrase = same as 'despite'. 'In spite of the difficulties' ✓. 'Although/Even though' need a full clause. 'Nevertheless' starts a new sentence."
+    },
+    {
+      "id": "cb-test-13",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which correctly shows the formal vs informal cause connector?",
+      "prompt": "___",
+      "options": [
+        "Formal: because. Informal: due to.",
+        "Formal: due to / owing to. Informal: because of.",
+        "Formal: due to (noun phrase). Informal: because (clause).",
+        "Both 'because' and 'due to' are equally formal."
+      ],
+      "answer": "Formal: due to (noun phrase). Informal: because (clause).",
+      "explanation": "'Due to' and 'owing to' + noun phrase are more formal. 'Because' + clause is neutral-to-informal. 'So' = informal result; 'therefore/consequently' = formal result."
+    },
+    {
+      "id": "cb-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct connector for contrast within a sentence.",
+      "prompt": "She works efficiently, ___ some of her colleagues work slowly.",
+      "options": ["whereas", "therefore", "moreover", "so"],
+      "answer": "whereas",
+      "explanation": "'Whereas' contrasts two parallel situations within the same sentence. 'She works efficiently, whereas some colleagues work slowly.' Formal and precise."
+    },
+    {
+      "id": "cb-test-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Meskipun hasilnya mengecewakan, tim tetap melanjutkan penelitian.' → English:",
+      "prompt": "___ the results were disappointing, the team continued the research.",
+      "options": ["Because", "Although", "Therefore", "Moreover"],
+      "answer": "Although",
+      "explanation": "'Meskipun' = although/even though. Concession clause → 'Although the results were disappointing, the team continued.' The team continued despite the disappointment."
+    }
+  ]
+}

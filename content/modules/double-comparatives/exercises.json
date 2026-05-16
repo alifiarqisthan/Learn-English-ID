@@ -1,1 +1,234 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "dc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the the…the structure.",
+      "prompt": "___ you practise, ___ you become.",
+      "options": ["The more / the better", "The more / the more better", "More / better", "The most / the best"],
+      "answer": "The more / the better",
+      "explanation": "The…the structure: both clauses need 'the' + a comparative. 'The more better' is a double comparative error."
+    },
+    {
+      "id": "dc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the the…the structure.",
+      "prompt": "___ the temperature, ___ the reaction rate.",
+      "options": ["The higher / the faster", "Higher / faster", "The highest / the fastest", "The more high / the more fast"],
+      "answer": "The higher / the faster",
+      "explanation": "Both clauses need 'the' + comparative. 'Higher' and 'faster' are the correct comparatives of 'high' and 'fast.'"
+    },
+    {
+      "id": "dc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "The city is becoming ___ as more people move there.",
+      "options": ["more and more crowded", "more and more crowdeder", "crowded and crowded", "most and most crowded"],
+      "answer": "more and more crowded",
+      "explanation": "Crowded has three syllables → more and more + adjective for gradual increase. Never use -er with a long adjective."
+    },
+    {
+      "id": "dc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "The traffic is getting ___ every year.",
+      "options": ["worse and worse", "worser and worser", "more and more worse", "more worse and worse"],
+      "answer": "worse and worse",
+      "explanation": "Bad → worse (irregular comparative). For gradual increase of a negative quality: worse and worse."
+    },
+    {
+      "id": "dc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "The situation became ___ as the negotiations continued.",
+      "options": ["more and more complex", "complexer and complexer", "more complexer and complexer", "complex and complex"],
+      "answer": "more and more complex",
+      "explanation": "Complex has multiple syllables → more and more + adjective. The -er form does not apply to 'complex.'"
+    },
+    {
+      "id": "dc-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct the…the structure to complete the sentence.",
+      "prompt": "___ data researchers collect, ___ their conclusions become.",
+      "options": ["The more / the more reliable", "More / more reliable", "The most / the most reliable", "The more / the reliable"],
+      "answer": "The more / the more reliable",
+      "explanation": "Both clauses need 'the' + comparative. 'More reliable' is correct because 'reliable' has three syllables."
+    },
+    {
+      "id": "dc-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "He is becoming ___ as the deadline approaches.",
+      "options": ["more and more stressed", "stresseder and stresseder", "stressed and stressed", "more stresseder"],
+      "answer": "more and more stressed",
+      "explanation": "Stressed has more than one syllable → more and more + adjective. Adding '-er' to 'stressed' is incorrect."
+    },
+    {
+      "id": "dc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "The more you sleep, the better you feel.",
+        "The higher the price, the fewer customers buy.",
+        "The more you practise, the more you get better.",
+        "The longer you wait, the harder it will be."
+      ],
+      "answer": "The more you practise, the more you get better.",
+      "explanation": "The result clause should use only one comparative: 'the better you get.' 'The more you get better' is a double comparative error."
+    },
+    {
+      "id": "dc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "Fewer and fewer people are reading physical newspapers.",
+        "Less and less water is available in the region.",
+        "Less and less students are attending lectures in person.",
+        "More and more companies are adopting remote work policies."
+      ],
+      "answer": "Less and less students are attending lectures in person.",
+      "explanation": "'Students' is countable → use 'fewer and fewer students,' not 'less and less students.'"
+    },
+    {
+      "id": "dc-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "The more he explains, the less I understand.",
+        "The louder the music, the more difficult it is to concentrate.",
+        "It gets more and more hot every summer.",
+        "The higher the investment, the greater the potential return."
+      ],
+      "answer": "It gets more and more hot every summer.",
+      "explanation": "Hot is a one-syllable adjective → use 'hotter and hotter,' not 'more and more hot.'"
+    },
+    {
+      "id": "dc-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "The more experience you gain, the more valuable you become.",
+        "Richer and richer, the country grew over the decades.",
+        "The economy became more richer and richer.",
+        "The less time we have, the more efficiently we tend to work."
+      ],
+      "answer": "The economy became more richer and richer.",
+      "explanation": "'More richer' is a double comparative. Use either 'richer and richer' or 'more and more wealthy' — never combine both."
+    },
+    {
+      "id": "dc-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "The more careful you are, the fewer mistakes you make.",
+        "More you study, the better your results.",
+        "The harder she trains, the stronger she becomes.",
+        "The less you worry, the happier you feel."
+      ],
+      "answer": "More you study, the better your results.",
+      "explanation": "Both clauses in the…the structure need 'the': 'The more you study, the better your results.'"
+    },
+    {
+      "id": "dc-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "His motivation became ___ as the project dragged on.",
+      "options": ["less and less", "lesser and lesser", "less and lesser", "more and more less"],
+      "answer": "less and less",
+      "explanation": "'Less and less' expresses continuous decrease. 'Lesser and lesser' and 'more and more less' are not correct English."
+    },
+    {
+      "id": "dc-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "The roads became ___ as we drove further from the city.",
+      "options": ["more and more narrow", "narrower and narrower", "narrow and narrow", "more narrower and narrower"],
+      "answer": "narrower and narrower",
+      "explanation": "Narrow is a two-syllable adjective that can take -er: narrower and narrower. 'More narrower' is a double comparative error."
+    },
+    {
+      "id": "dc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct the…the structure to complete the question.",
+      "prompt": "Is it true that ___ a city grows, ___ its problems become?",
+      "options": ["the bigger / the more complex", "bigger / more complex", "the most big / the most complex", "the bigger / the more complexer"],
+      "answer": "the bigger / the more complex",
+      "explanation": "The…the structure: both clauses need 'the' + comparative. 'Bigger' (one syllable + -er) and 'more complex' (three syllables + more) are correct."
+    },
+    {
+      "id": "dc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Is the air quality getting ___ in this region?",
+      "options": ["worse and worse", "worser and worser", "more and more worse", "worst and worst"],
+      "answer": "worse and worse",
+      "explanation": "Bad → worse (irregular). Gradual increase of a negative quality: worse and worse."
+    },
+    {
+      "id": "dc-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Do you think costs are becoming ___ for small businesses?",
+      "options": ["more and more difficult to manage", "difficulter and difficulter", "more difficulter and difficulter", "difficult and difficult"],
+      "answer": "more and more difficult to manage",
+      "explanation": "Difficult has three syllables → more and more + adjective. The -er form does not apply to 'difficult.'"
+    },
+    {
+      "id": "dc-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "The more she reads, the more she learns.",
+        "The harder the question, the more time she needs.",
+        "The more confident he becomes, the better he presents.",
+        "The more you explain, the more confused I get more."
+      ],
+      "answer": "The more you explain, the more confused I get more.",
+      "explanation": "There is a redundant 'more' at the end. Correct: 'the more confused I get.'"
+    },
+    {
+      "id": "dc-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Are ___ people moving to cities each year?",
+      "options": ["more and more", "most and most", "more and most", "much and much"],
+      "answer": "more and more",
+      "explanation": "'More and more people' expresses a continuous increase for a countable noun. 'Most and most' and 'much and much' are not valid structures."
+    },
+    {
+      "id": "dc-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "___ the investment, ___ the risk?",
+      "options": ["The higher / the greater", "Higher / greater", "The highest / the greatest", "The more high / the more great"],
+      "answer": "The higher / the greater",
+      "explanation": "The…the structure: both clauses need 'the' + comparative. High → higher, great → greater."
+    }
+  ]
+}

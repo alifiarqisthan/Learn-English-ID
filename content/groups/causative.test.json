@@ -1,1 +1,184 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cau-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct have-causative.",
+      "prompt": "She ___ every six weeks at the salon.",
+      "options": ["cuts her hair", "has her hair cut", "had her hair cut", "is cutting her hair"],
+      "answer": "has her hair cut",
+      "explanation": "Present causative: have + object + V3. 'Has her hair cut' = she arranges for a hairdresser to cut it regularly."
+    },
+    {
+      "id": "cau-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct named-agent causative.",
+      "prompt": "I'll ___ the technician ___ at the problem.",
+      "options": ["have / looked", "have / look", "get / looked", "make / look"],
+      "answer": "have / look",
+      "explanation": "Named-agent causative: have + person + base verb (V1). 'Have the technician look' — base form, not V3, after a named person."
+    },
+    {
+      "id": "cau-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'make' causative.",
+      "prompt": "The teacher made the students ___ the essay.",
+      "options": ["to rewrite", "rewriting", "rewrite", "rewritten"],
+      "answer": "rewrite",
+      "explanation": "Make + object + bare infinitive (V1): 'made the students rewrite'. No 'to' in active make-causatives."
+    },
+    {
+      "id": "cau-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'let' causative.",
+      "prompt": "My manager let me ___ early on Friday.",
+      "options": ["to leave", "leaving", "leave", "left"],
+      "answer": "leave",
+      "explanation": "Let + object + bare infinitive (V1): 'let me leave'. No 'to' after 'let'. Compare: 'allowed me to leave' (with 'to')."
+    },
+    {
+      "id": "cau-test-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the causative error.",
+      "prompt": "___",
+      "options": [
+        "She had her teeth checked by the dentist.",
+        "I need to have my passport renewed.",
+        "He had the mechanic repaired his car.",
+        "They got their house repainted last summer."
+      ],
+      "answer": "He had the mechanic repaired his car.",
+      "explanation": "Named agent (the mechanic) → base verb, not V3. Correct: 'He had the mechanic repair his car.'"
+    },
+    {
+      "id": "cau-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'get' causative with a named agent.",
+      "prompt": "She got her assistant ___ the flights.",
+      "options": ["booked", "to book", "booking", "book"],
+      "answer": "to book",
+      "explanation": "'Get + person + to-infinitive': 'got her assistant to book'. Unlike 'have' (bare verb after named agent), 'get' takes 'to + V1' after the named person."
+    },
+    {
+      "id": "cau-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the passive of 'make'.",
+      "prompt": "We ___ rewrite the essay. (passive)",
+      "options": ["were made rewrite", "were made to rewrite", "made to rewrite", "were let to rewrite"],
+      "answer": "were made to rewrite",
+      "explanation": "Passive of 'make': be made + to + V1. The 'to' reappears in passive: 'We were made to rewrite.' Active: 'made us rewrite' (no to); Passive: 'were made to rewrite' (with to)."
+    },
+    {
+      "id": "cau-test-8",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'let' error.",
+      "prompt": "She let me to use her laptop.",
+      "options": [
+        "Should be 'let me use' — no 'to' after 'let' in active.",
+        "Should be 'allowed me use' — 'let' is wrong.",
+        "Should be 'let me using' — continuous form needed.",
+        "No error — 'to use' is correct after 'let'."
+      ],
+      "answer": "Should be 'let me use' — no 'to' after 'let' in active.",
+      "explanation": "'Let' takes a bare infinitive: 'let me use'. No 'to'. 'Let me to use' is incorrect. ('Allowed me to use' — different verb, needs 'to'.)"
+    },
+    {
+      "id": "cau-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future causative.",
+      "prompt": "She ___ before the conference next month.",
+      "options": ["will cut her hair", "will have her hair cut", "will have cut her hair", "is going to cut her hair"],
+      "answer": "will have her hair cut",
+      "explanation": "Future causative: will + have + object + V3. 'Will have her hair cut' = she'll arrange for a hairdresser to cut it."
+    },
+    {
+      "id": "cau-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'help' causative.",
+      "prompt": "He helped me ___ the boxes.",
+      "options": ["to move / moving", "move / to move", "Both 'move' and 'to move' are correct.", "moved"],
+      "answer": "Both 'move' and 'to move' are correct.",
+      "explanation": "'Help' can take either bare infinitive or to-infinitive: 'helped me move' and 'helped me to move' are both correct."
+    },
+    {
+      "id": "cau-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Distinguish make vs let.",
+      "prompt": "___",
+      "options": [
+        "'Make' = permission; 'let' = compulsion.",
+        "'Make' = compulsion/force; 'let' = permission/allow.",
+        "Both 'make' and 'let' express permission.",
+        "'Make' and 'let' are interchangeable."
+      ],
+      "answer": "'Make' = compulsion/force; 'let' = permission/allow.",
+      "explanation": "'Make' = force someone to do something (no choice). 'Let' = allow/permit someone to do something (give permission). These are opposite meanings."
+    },
+    {
+      "id": "cau-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya memperbaiki mobil saya di bengkel.' (someone else repaired it) → causative English:",
+      "prompt": "I ___ at the garage.",
+      "options": ["repaired my car", "had my car repaired", "got repaired my car", "had repaired my car"],
+      "answer": "had my car repaired",
+      "explanation": "Causative: had + object + V3. 'Had my car repaired' — a mechanic did it. Word order: had + my car + repaired."
+    },
+    {
+      "id": "cau-test-13",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the word order error in the get-causative.",
+      "prompt": "She got repaired her laptop at a local shop.",
+      "options": [
+        "Should be 'got her laptop repaired' — object must come between 'got' and V3.",
+        "Should be 'got her laptop to repair' — to-infinitive needed.",
+        "Should be 'had repaired her laptop' — 'had' is needed.",
+        "No error."
+      ],
+      "answer": "Should be 'got her laptop repaired' — object must come between 'got' and V3.",
+      "explanation": "Get-causative: get + object + V3. The object must come between 'got' and V3. Correct: 'She got her laptop repaired.'"
+    },
+    {
+      "id": "cau-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive of 'let' (there is no direct passive).",
+      "prompt": "She let me attend the seminar. → Passive equivalent:",
+      "options": [
+        "I was let to attend the seminar.",
+        "I was allowed to attend the seminar.",
+        "I was made to attend the seminar.",
+        "I was let attend the seminar."
+      ],
+      "answer": "I was allowed to attend the seminar.",
+      "explanation": "'Let' has no passive form. Use 'be allowed to' as the passive equivalent. 'Was let to attend' is not standard English."
+    },
+    {
+      "id": "cau-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which causative correctly uses 'have' with a named agent vs object?",
+      "prompt": "___",
+      "options": [
+        "I had my car repaired. / I had a mechanic repaired my car.",
+        "I had my car repaired. / I had a mechanic repair my car.",
+        "I had my car repair. / I had a mechanic repaired my car.",
+        "Both structures use V3."
+      ],
+      "answer": "I had my car repaired. / I had a mechanic repair my car.",
+      "explanation": "Object + V3: 'had my car repaired' (we don't say who). Named agent + base verb: 'had a mechanic repair my car'. V3 vs base verb depends on whether the agent is named."
+    }
+  ]
+}

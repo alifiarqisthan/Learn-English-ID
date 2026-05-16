@@ -1,1 +1,219 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "pm-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal passive.",
+      "prompt": "All applications ___ before the closing date.",
+      "options": ["must submitted", "must be submitted", "must been submitted", "must is submitted"],
+      "answer": "must be submitted",
+      "explanation": "Modal passive: modal + be + V3. After 'must', always use base form 'be', not 'is' or 'been'."
+    },
+    {
+      "id": "pm-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal passive for a possibility.",
+      "prompt": "The delay ___ caused by a problem with the network.",
+      "options": ["might been caused", "might be caused", "might is caused", "might causing"],
+      "answer": "might be caused",
+      "explanation": "Modal passive for possibility: might + be + V3. 'Be' is always the base form after a modal."
+    },
+    {
+      "id": "pm-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal perfect passive for a past deduction.",
+      "prompt": "The file is gone. It ___ accidentally deleted.",
+      "options": ["must be", "must been", "must have been", "should be"],
+      "answer": "must have been",
+      "explanation": "Past deduction → modal perfect passive: must + have + been + V3. 'Must have been deleted'."
+    },
+    {
+      "id": "pm-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct formal academic modal passive.",
+      "prompt": "It ___ that the sample size may limit the generalisability of the findings.",
+      "options": ["should noted", "should be noting", "should be noted", "should been noted"],
+      "answer": "should be noted",
+      "explanation": "'It should be noted that' is a fixed academic phrase. Modal passive: should + be + V3."
+    },
+    {
+      "id": "pm-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative modal passive.",
+      "prompt": "Confidential data ___ outside the organisation.",
+      "options": ["must not be shared", "must be not shared", "must not shared", "not must be shared"],
+      "answer": "must not be shared",
+      "explanation": "Negative modal passive: modal + not + be + V3. 'Not' goes after the modal, before 'be'."
+    },
+    {
+      "id": "pm-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the modal passive error.",
+      "prompt": "___",
+      "options": [
+        "The results should be verified before publication.",
+        "This feature can be disabled in the settings menu.",
+        "All fees must been paid in advance.",
+        "The proposal might be rejected by the committee."
+      ],
+      "answer": "All fees must been paid in advance.",
+      "explanation": "After 'must', use 'be' (not 'been') for present obligation. 'Must been' is never correct."
+    },
+    {
+      "id": "pm-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct modal perfect passive for past regret.",
+      "prompt": "The report ___ yesterday, but no one noticed.",
+      "options": ["should be submitted", "should have been submitted", "should been submitted", "should be submitting"],
+      "answer": "should have been submitted",
+      "explanation": "Past regret/criticism → modal perfect passive: should + have + been + V3."
+    },
+    {
+      "id": "pm-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct modal passive question.",
+      "prompt": "___ all receipts ___ to the finance department?",
+      "options": ["Must / been submitted", "Must / be submitted", "Should / submitted", "Can / be submitting"],
+      "answer": "Must / be submitted",
+      "explanation": "Modal passive question: Modal + subject + be + V3. 'Must all receipts be submitted?'"
+    },
+    {
+      "id": "pm-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Apakah formulir ini boleh diisi dalam bahasa Indonesia?' → English:",
+      "prompt": "___ this form ___ in Bahasa Indonesia?",
+      "options": ["Is / allowed to complete", "Can / be completed", "May / been completed", "Should / completing"],
+      "answer": "Can / be completed",
+      "explanation": "'Boleh' = can (permission). Modal passive question: Can + subject + be + V3."
+    },
+    {
+      "id": "pm-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Laporan ini harus diserahkan sebelum Jumat.' → English:",
+      "prompt": "This report ___ before Friday.",
+      "options": ["must submitted", "must been submitted", "must be submitted", "has to submitted"],
+      "answer": "must be submitted",
+      "explanation": "'Harus diserahkan' = must be submitted. Modal passive: must + be + V3."
+    },
+    {
+      "id": "pm-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the modal that best expresses academic possibility.",
+      "prompt": "This trend ___ attributed to changes in government policy.",
+      "options": ["must be", "can be", "would be", "may be"],
+      "answer": "may be",
+      "explanation": "Academic writing expresses possibility cautiously. 'May be attributed to' = hedged possibility, appropriate for academic context."
+    },
+    {
+      "id": "pm-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct past possibility passive.",
+      "prompt": "The contamination ___ introduced during the packaging process.",
+      "options": ["could have been", "could be", "could been", "could has been"],
+      "answer": "could have been",
+      "explanation": "Past possibility → modal perfect passive: could + have + been + V3."
+    },
+    {
+      "id": "pm-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses a modal passive in academic writing?",
+      "prompt": "___",
+      "options": [
+        "This can seen in Figure 3.",
+        "This can be seen in Figure 3.",
+        "This can been seen in Figure 3.",
+        "This could see in Figure 3."
+      ],
+      "answer": "This can be seen in Figure 3.",
+      "explanation": "Modal passive: can + be + V3. A standard academic phrase for referring to figures."
+    },
+    {
+      "id": "pm-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Data ini sebaiknya diverifikasi sebelum dipublikasikan.' → English:",
+      "prompt": "This data ___ before publication.",
+      "options": ["should verified", "should have been verified", "should be verified", "should be verifying"],
+      "answer": "should be verified",
+      "explanation": "'Sebaiknya diverifikasi' = should be verified. Modal passive for advice: should + be + V3."
+    },
+    {
+      "id": "pm-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the negative modal passive.",
+      "prompt": "Patients must be not told about their diagnosis without consent.",
+      "options": [
+        "Should be 'must not be told' — 'not' comes after the modal.",
+        "Should be 'must been not told' — perfect form needed.",
+        "Should be 'must be told not' — 'not' goes at the end.",
+        "No error — the sentence is correct."
+      ],
+      "answer": "Should be 'must not be told' — 'not' comes after the modal.",
+      "explanation": "Negative modal passive: modal + not + be + V3. 'Must not be told', not 'must be not told'."
+    },
+    {
+      "id": "pm-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct modal perfect passive for a past deduction.",
+      "prompt": "The server crashed last night. The system ___ overloaded.",
+      "options": ["must be", "must have been", "should be", "could be"],
+      "answer": "must have been",
+      "explanation": "Strong past deduction → must + have + been + V3. We're deducing about a past state."
+    },
+    {
+      "id": "pm-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal passive for a formal legal/official context.",
+      "prompt": "All decisions ___ recorded in the minutes of the meeting.",
+      "options": ["shall be", "will be", "Both A and B are correct in this context.", "would be"],
+      "answer": "Both A and B are correct in this context.",
+      "explanation": "'Shall be' is the formal/legal form; 'will be' is the standard future form. Both are grammatically correct for this sentence."
+    },
+    {
+      "id": "pm-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Active to passive: 'The team should have submitted the report.' → Passive:",
+      "prompt": "The report ___.",
+      "options": ["should submitted", "should have been submitted", "should be submitted", "should been submitted"],
+      "answer": "should have been submitted",
+      "explanation": "Active modal perfect → passive modal perfect: should + have + been + V3."
+    },
+    {
+      "id": "pm-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which modal passive correctly expresses 'it is logically impossible that this happened'?",
+      "prompt": "The key ___ misplaced — it was locked in the safe all night.",
+      "options": ["might have been", "could have been", "can't have been", "shouldn't have been"],
+      "answer": "can't have been",
+      "explanation": "'Can't have been' = it is logically impossible (past). Strong past negative deduction."
+    },
+    {
+      "id": "pm-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the most appropriate modal for academic hedging.",
+      "prompt": "Further details ___ found in the appendix at the end of this report.",
+      "options": ["must be", "can be", "may be", "should be"],
+      "answer": "may be",
+      "explanation": "'May be found' is a standard academic hedging phrase — polite and cautious. 'Can be found' is also common. 'Must be found' implies obligation, which is wrong here."
+    }
+  ]
+}

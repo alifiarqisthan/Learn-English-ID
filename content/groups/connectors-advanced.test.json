@@ -1,1 +1,184 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ca-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reference pronoun for a previously stated idea.",
+      "prompt": "Prices rose sharply in Q3. ___ trend worried economists.",
+      "options": ["A", "This", "That kind of", "Such a"],
+      "answer": "This",
+      "explanation": "'This' refers back to the price rise — anaphoric reference. 'This trend' = the trend just described. 'A trend' would introduce a new trend, not refer to the one mentioned."
+    },
+    {
+      "id": "ca-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'the former' or 'the latter' correctly.",
+      "prompt": "Speed and accuracy are both important; ___ is harder to measure.",
+      "options": ["the former", "the latter", "both", "the second"],
+      "answer": "the latter",
+      "explanation": "'The latter' = the second of two items mentioned (accuracy). 'The former' = the first (speed). Only use former/latter when exactly two items are mentioned."
+    },
+    {
+      "id": "ca-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct substitution using 'do so'.",
+      "prompt": "She submitted the report early, and her colleagues ___ too.",
+      "options": ["did it", "did so", "did that", "made so"],
+      "answer": "did so",
+      "explanation": "'Do so' substitutes for a previously mentioned action verb phrase. 'Submitted the report early' → 'did so'. 'Did it' refers to a specific object; 'did so' substitutes for the whole action."
+    },
+    {
+      "id": "ca-test-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'former/latter' error.",
+      "prompt": "Speed, accuracy, and clarity are all important. The former is easiest to measure.",
+      "options": [
+        "Should be 'The first' — 'the former' is only for exactly two items.",
+        "Should be 'The latter' — it refers to the last item.",
+        "No error — 'the former' works for any number of items.",
+        "Should be 'Speed' — repeat the noun directly."
+      ],
+      "answer": "Should be 'The first' — 'the former' is only for exactly two items.",
+      "explanation": "'The former/latter' can only refer to exactly two previously mentioned items. With three items (speed, accuracy, clarity), use 'the first', 'the second', 'the last'."
+    },
+    {
+      "id": "ca-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'not only…but also' with inversion.",
+      "prompt": "___ did she pass, but she also scored the highest mark in the cohort.",
+      "options": ["Not only", "Only not", "Not just only", "Although not only"],
+      "answer": "Not only",
+      "explanation": "When 'not only' is fronted (moved to the start), subject-auxiliary inversion is required: 'Not only did she pass, but she also scored…' The inversion ('did she') is mandatory."
+    },
+    {
+      "id": "ca-test-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'not only…but also' inversion error.",
+      "prompt": "Not only the results were unexpected, but they also contradicted previous findings.",
+      "options": [
+        "Should be 'Not only were the results unexpected' — inversion required after 'not only'.",
+        "Should be 'Not only the results are unexpected' — present tense needed.",
+        "Should be 'Not only did results unexpected' — different inversion.",
+        "No error — no inversion is needed."
+      ],
+      "answer": "Should be 'Not only were the results unexpected' — inversion required after 'not only'.",
+      "explanation": "When 'not only' fronts the clause, invert the auxiliary and subject: 'Not only were the results unexpected, but they also contradicted…'"
+    },
+    {
+      "id": "ca-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct meaning of 'notwithstanding'.",
+      "prompt": "Notwithstanding the budget constraints, the project delivered excellent results.",
+      "options": [
+        "Notwithstanding = however (contradiction)",
+        "Notwithstanding = despite / in spite of (concession)",
+        "Notwithstanding = because of (cause)",
+        "Notwithstanding = therefore (result)"
+      ],
+      "answer": "Notwithstanding = despite / in spite of (concession)",
+      "explanation": "'Notwithstanding' = despite/in spite of — it introduces a concession, not a contradiction. It is NOT a synonym for 'however'. 'Notwithstanding the constraints' = despite the constraints."
+    },
+    {
+      "id": "ca-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct it-cleft for emphasis.",
+      "prompt": "___ the methodology that was flawed, not the data.",
+      "options": ["This is", "It was", "That was", "What was"],
+      "answer": "It was",
+      "explanation": "It-cleft for emphasis: 'It was X that…' 'It was the methodology that was flawed, not the data.' This structure emphasises 'the methodology'."
+    },
+    {
+      "id": "ca-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct wh-cleft sentence.",
+      "prompt": "___ we need is more time for data collection.",
+      "options": ["That", "What", "It is", "Which"],
+      "answer": "What",
+      "explanation": "Wh-cleft (pseudo-cleft): 'What + clause + is/was + focus'. 'What we need is more time' emphasises 'more time' as the answer to 'what'."
+    },
+    {
+      "id": "ca-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct use of 'such' as a reference device.",
+      "prompt": "Many students struggle with academic writing. ___ difficulties often persist into postgraduate study.",
+      "options": ["Such", "This kind of", "These", "Both A and C are correct."],
+      "answer": "Both A and C are correct.",
+      "explanation": "'Such difficulties' and 'These difficulties' both refer back to the struggles mentioned. 'Such' adds a slight categorising tone; 'these' is more direct. Both are valid cohesive references."
+    },
+    {
+      "id": "ca-test-11",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the 'do so' error with a stative verb.",
+      "prompt": "She knows the answer, and her classmates do so too.",
+      "options": [
+        "Should be 'do too' or 'also know' — 'do so' is not used with stative verbs.",
+        "No error — 'do so' works with any verb.",
+        "Should be 'are so too' — continuous form needed.",
+        "Should be 'did so too' — past tense needed."
+      ],
+      "answer": "Should be 'do too' or 'also know' — 'do so' is not used with stative verbs.",
+      "explanation": "'Do so' substitutes for action verbs, not stative verbs like 'know'. Correct: 'She knows the answer, and her classmates do too.' or '…and her classmates also know it.'"
+    },
+    {
+      "id": "ca-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct discourse marker for conceding a point.",
+      "prompt": "___, some limitations exist; however, the overall findings remain significant.",
+      "options": ["Therefore", "Admittedly", "Furthermore", "Nevertheless"],
+      "answer": "Admittedly",
+      "explanation": "'Admittedly' = it must be admitted that (conceding a point before continuing). It signals the writer acknowledges a weakness before reasserting the main point."
+    },
+    {
+      "id": "ca-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'in other words' or 'that is to say' for paraphrasing.",
+      "prompt": "The results were statistically significant. ___, the probability of the findings occurring by chance was less than 5%.",
+      "options": ["Moreover", "In other words", "Nevertheless", "Consequently"],
+      "answer": "In other words",
+      "explanation": "'In other words' = paraphrasing or clarifying the previous statement. It signals that the writer is restating the same idea in a clearer way."
+    },
+    {
+      "id": "ca-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct fronting for academic emphasis.",
+      "prompt": "___ the role of socioeconomic factors in determining educational outcomes.",
+      "options": [
+        "Particularly important is",
+        "Particularly important are",
+        "Important particularly is",
+        "Is particularly important"
+      ],
+      "answer": "Particularly important is",
+      "explanation": "Fronted adjective phrase + inverted verb: 'Particularly important is X.' When a singular noun follows: 'is'. 'Particularly important is the role of…' — inversion required after fronted element."
+    },
+    {
+      "id": "ca-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'insofar as'?",
+      "prompt": "___",
+      "options": [
+        "Insofar as the data is reliable, the conclusions are valid.",
+        "Insofar as, the data is reliable and conclusions are valid.",
+        "Insofar as = therefore, the conclusions are valid.",
+        "The conclusions are valid insofar as because the data is reliable."
+      ],
+      "answer": "Insofar as the data is reliable, the conclusions are valid.",
+      "explanation": "'Insofar as' = to the extent that. 'The conclusions are valid insofar as the data is reliable' = to the degree that the data is reliable, the conclusions hold. It is NOT a synonym for 'therefore' or 'because'."
+    }
+  ]
+}

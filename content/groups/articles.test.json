@@ -1,1 +1,169 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "art-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article.",
+      "prompt": "She is ___ engineer at a technology company.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "an",
+      "explanation": "'Engineer' begins with a vowel sound /ɛ/ → use 'an'. The first mention of a non-specific person → indefinite article."
+    },
+    {
+      "id": "art-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article.",
+      "prompt": "Can you pass me ___ salt, please?",
+      "options": ["a", "an", "the", "—"],
+      "answer": "the",
+      "explanation": "'The salt' = specific, mutually understood object (the one on the table). When both speaker and listener know which item is meant → 'the'."
+    },
+    {
+      "id": "art-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for a general statement about a class of things.",
+      "prompt": "___ whale is the largest mammal on Earth.",
+      "options": ["A", "An", "The", "—"],
+      "answer": "The",
+      "explanation": "'The whale' as a species generalisation. 'The + singular countable noun' for generic reference (representing the whole class). 'A whale' would be a single individual."
+    },
+    {
+      "id": "art-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose zero article or 'the'.",
+      "prompt": "She studies ___ medicine at university.",
+      "options": ["a", "the", "an", "—"],
+      "answer": "—",
+      "explanation": "Academic subjects and fields of study take zero article: 'study medicine/law/economics'. Not 'the medicine' (would refer to a specific medicine)."
+    },
+    {
+      "id": "art-test-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the article error.",
+      "prompt": "___",
+      "options": [
+        "She plays the piano every evening.",
+        "He is an honest man.",
+        "They visited the France last summer.",
+        "I need a pen — any pen will do."
+      ],
+      "answer": "They visited the France last summer.",
+      "explanation": "Country names take zero article: 'visited France'. 'The' is used with specific plural or collective names (the Netherlands, the USA), but not singular country names like France."
+    },
+    {
+      "id": "art-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for the second mention of a noun.",
+      "prompt": "I saw a dog in the garden. ___ dog was barking at a cat.",
+      "options": ["A", "An", "The", "—"],
+      "answer": "The",
+      "explanation": "Second mention of a specific noun → 'the'. First mention: 'a dog' (introduced). Second mention: 'the dog' (now identified, known to both speaker and listener)."
+    },
+    {
+      "id": "art-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for a superlative.",
+      "prompt": "This is ___ most difficult question in the exam.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "the",
+      "explanation": "Superlatives always take 'the' — there is only one 'most difficult' in any given context."
+    },
+    {
+      "id": "art-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dia bermain piano.' (no specific piano mentioned) → English:",
+      "prompt": "She plays ___ piano.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "the",
+      "explanation": "Musical instruments take 'the': 'plays the piano/guitar/violin'. This is a fixed rule in English regardless of whether a specific instrument is mentioned."
+    },
+    {
+      "id": "art-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for meals.",
+      "prompt": "We usually have ___ dinner at 7 pm.",
+      "options": ["a", "the", "an", "—"],
+      "answer": "—",
+      "explanation": "Meals (breakfast, lunch, dinner, supper) take zero article when used generally: 'have dinner'. Use 'a' only with an adjective: 'a wonderful dinner'."
+    },
+    {
+      "id": "art-test-10",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the correct zero article use.",
+      "prompt": "___",
+      "options": [
+        "The justice is important in society.",
+        "She goes to the school by bus.",
+        "He was sent to prison for five years.",
+        "They visited the hospital to see a friend."
+      ],
+      "answer": "He was sent to prison for five years.",
+      "explanation": "'Prison' (and similar: hospital, school, church, bed) takes zero article when referring to the institution's purpose, not the building. 'Sent to prison' = for punishment. 'Visiting the hospital' = as a visitor (the building)."
+    },
+    {
+      "id": "art-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for a unique entity.",
+      "prompt": "Scientists are concerned about ___ ozone layer.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "the",
+      "explanation": "'The ozone layer' = unique entity — there is only one ozone layer. Unique things, celestial bodies, and singular natural phenomena take 'the'."
+    },
+    {
+      "id": "art-test-12",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the article error with a proper noun.",
+      "prompt": "___",
+      "options": [
+        "She works at the United Nations.",
+        "They crossed the Pacific Ocean.",
+        "He studies at a University of Indonesia.",
+        "The Amazon is the world's largest river by discharge."
+      ],
+      "answer": "He studies at a University of Indonesia.",
+      "explanation": "Unique institutions: 'the University of Indonesia' (the specific, only one). 'A university' = non-specific. 'University of Indonesia' is a specific institution → 'the'."
+    },
+    {
+      "id": "art-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for a job/role after a linking verb.",
+      "prompt": "She has been appointed ___ director of the research centre.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "—",
+      "explanation": "In British English, job titles after 'appointed/elected/made as' often take zero article: 'appointed director'. 'A director' is also acceptable. 'The director' implies a specific known position."
+    },
+    {
+      "id": "art-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for a consonant-sound word.",
+      "prompt": "It was ___ historic moment for the country.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "a",
+      "explanation": "'Historic' begins with a consonant sound /h/ (the h is pronounced) → use 'a'. 'An historic' is sometimes heard but 'a historic' is standard in most accents."
+    },
+    {
+      "id": "art-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Saya membeli buku tadi.' (a specific book you bought today) → English:",
+      "prompt": "I bought ___ book earlier.",
+      "options": ["a", "an", "the", "—"],
+      "answer": "a",
+      "explanation": "First mention of a non-specific book → 'a book'. Even though the speaker knows which book, it's the first time it's introduced to the listener. Use 'a' for first mention."
+    }
+  ]
+}

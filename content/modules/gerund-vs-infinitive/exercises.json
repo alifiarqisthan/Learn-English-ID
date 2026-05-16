@@ -1,1 +1,234 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "gvi-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "She stopped ___ when she found out the health risks.",
+      "options": ["smoking", "to smoke", "smoke", "smoked"],
+      "answer": "smoking",
+      "explanation": "Stop + gerund = cease an activity. She no longer smokes. 'Stop to smoke' would mean she paused in order to have a cigarette."
+    },
+    {
+      "id": "gvi-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "I remember ___ her at the airport three years ago.",
+      "options": ["meeting", "to meet", "meet", "met"],
+      "answer": "meeting",
+      "explanation": "Remember + gerund = recall a past action. The meeting happened before the remembering. 'Remember to meet' would mean 'don't forget a future task.'"
+    },
+    {
+      "id": "gvi-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "I'll never forget ___ the northern lights for the first time.",
+      "options": ["seeing", "to see", "see", "having see"],
+      "answer": "seeing",
+      "explanation": "Forget + gerund = fail to recall a past experience / a memory that stays forever. 'Forget to see' would mean you failed to do a planned action."
+    },
+    {
+      "id": "gvi-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "Getting this promotion means ___ harder and longer hours.",
+      "options": ["working", "to work", "work", "worked"],
+      "answer": "working",
+      "explanation": "Mean + gerund = involve/entail. The promotion entails working harder. 'Mean to work' would express intention."
+    },
+    {
+      "id": "gvi-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "We regret ___ you that your application has been unsuccessful.",
+      "options": ["to inform", "informing", "inform", "having informed"],
+      "answer": "to inform",
+      "explanation": "Regret + infinitive = be sorry to announce (formal notification). 'Regret informing' would mean feeling sorry about a past action of informing."
+    },
+    {
+      "id": "gvi-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "After finishing the introduction, the speaker went on ___ the main findings.",
+      "options": ["to present", "presenting", "present", "having presented"],
+      "answer": "to present",
+      "explanation": "Go on + infinitive = move on to a new, different activity. The speaker finished one thing and then moved on to something new."
+    },
+    {
+      "id": "gvi-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "She stopped at the petrol station ___ fuel.",
+      "options": ["to buy", "buying", "buy", "bought"],
+      "answer": "to buy",
+      "explanation": "Stop + infinitive = pause in order to do something else. She stopped (her journey) in order to buy fuel."
+    },
+    {
+      "id": "gvi-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "She stopped to eat meat after watching the documentary.",
+        "He stopped to buy coffee on his way to the office.",
+        "The bus stopped to pick up passengers.",
+        "She stopped to talk to her neighbour."
+      ],
+      "answer": "She stopped to eat meat after watching the documentary.",
+      "explanation": "'Stopped to eat meat' means she paused in order to eat meat. If she gave up eating meat, the correct form is 'stopped eating meat.'"
+    },
+    {
+      "id": "gvi-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "I remember to lock the door before I left.",
+        "Please remember to submit your assignment by Friday.",
+        "She remembered to call her mother on her birthday.",
+        "Did you remember to book the tickets?"
+      ],
+      "answer": "I remember to lock the door before I left.",
+      "explanation": "Recalling a past action uses the gerund: 'I remember locking the door.' 'Remember to lock' means 'don't forget a future task.'"
+    },
+    {
+      "id": "gvi-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "He forgot ___ the email and the deadline was missed.",
+      "options": ["to send", "sending", "send", "sent"],
+      "answer": "to send",
+      "explanation": "Forget + infinitive = fail to do a planned action. He did not send the email. 'Forget sending' would mean he has no memory of sending it."
+    },
+    {
+      "id": "gvi-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "She regrets not studying harder for the exam.",
+        "He regrets quitting his job so quickly.",
+        "We regret informing you that the event has been cancelled.",
+        "They regret accepting the offer without reading the contract."
+      ],
+      "answer": "We regret informing you that the event has been cancelled.",
+      "explanation": "Formal announcements of bad news use 'regret + infinitive': 'We regret to inform you.' 'Regret informing' means feeling sorry about informing someone in the past."
+    },
+    {
+      "id": "gvi-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "I meant to call you yesterday but I forgot.",
+        "Saving energy means using less electricity.",
+        "I meant calling you yesterday but I was too busy.",
+        "Getting a degree means studying for several years."
+      ],
+      "answer": "I meant calling you yesterday but I was too busy.",
+      "explanation": "'Mean' in the sense of 'intend' takes an infinitive: 'I meant to call you.' 'Meant calling' would suggest it was an inevitable consequence, which does not fit this context."
+    },
+    {
+      "id": "gvi-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to complete the sentence.",
+      "prompt": "The professor went on ___ for the entire hour without a break.",
+      "options": ["talking", "to talk", "talk", "talked"],
+      "answer": "talking",
+      "explanation": "Go on + gerund = continue the same activity. The professor continued the same action (talking) without switching to something new."
+    },
+    {
+      "id": "gvi-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "Try restarting the computer — it might fix the problem.",
+        "She tried to lift the heavy box but couldn't.",
+        "He tried opening the window, but it was jammed.",
+        "I tried to explaining the concept, but she didn't understand."
+      ],
+      "answer": "I tried to explaining the concept, but she didn't understand.",
+      "explanation": "'Try + to-infinitive' requires the base verb: 'tried to explain.' 'To explaining' mixes the infinitive marker 'to' with a gerund — grammatically impossible."
+    },
+    {
+      "id": "gvi-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Do you remember ___ this café when we visited the city last summer?",
+      "options": ["visiting", "to visit", "visit", "visited"],
+      "answer": "visiting",
+      "explanation": "Remember + gerund = recall a past event. The visit happened before the remembering. 'Remember to visit' would be a reminder to visit in the future."
+    },
+    {
+      "id": "gvi-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Did she remember ___ the meeting room before everyone arrived?",
+      "options": ["to book", "booking", "book", "booked"],
+      "answer": "to book",
+      "explanation": "Remember + infinitive = not forget to do a planned task. She was supposed to book it — did she remember to do so?"
+    },
+    {
+      "id": "gvi-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Does taking a gap year mean ___ a year behind your peers?",
+      "options": ["falling", "to fall", "fall", "fallen"],
+      "answer": "falling",
+      "explanation": "Mean + gerund = involve/entail. Taking a gap year entails (involves) falling a year behind. This is a consequence, not an intention."
+    },
+    {
+      "id": "gvi-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "Why did she stop ___ when the manager walked in?",
+      "options": ["talking", "to talk", "talk", "talked"],
+      "answer": "talking",
+      "explanation": "Stop + gerund = cease an activity. She stopped the action of talking. 'Stop to talk' would mean she paused what she was doing in order to have a conversation."
+    },
+    {
+      "id": "gvi-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct form to complete the question.",
+      "prompt": "After becoming a doctor, did she go on ___ a specialist?",
+      "options": ["to become", "becoming", "become", "became"],
+      "answer": "to become",
+      "explanation": "Go on + infinitive = move on to a new, different stage or achievement. Becoming a doctor was one stage; becoming a specialist is a new stage that followed."
+    },
+    {
+      "id": "gvi-mc-q-6",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the sentence that contains an error.",
+      "prompt": "Which sentence is incorrect?",
+      "options": [
+        "She regrets leaving her previous job.",
+        "He forgot submitting the form, so the application was lost.",
+        "I remember signing the contract last March.",
+        "She tried adding lemon juice and it tasted much better."
+      ],
+      "answer": "He forgot submitting the form, so the application was lost.",
+      "explanation": "The context shows he failed to do a planned task (submit the form) → forget + infinitive: 'forgot to submit.' 'Forgot submitting' would mean he has no memory of submitting it."
+    }
+  ]
+}

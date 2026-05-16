@@ -1,1 +1,259 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "pr-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Pattern 1 passive reporting structure.",
+      "prompt": "___ the new treatment is more effective than existing options.",
+      "options": ["It is claimed that", "It claimed that", "Is claimed that", "It is claiming that"],
+      "answer": "It is claimed that",
+      "explanation": "Pattern 1: It + is/was + V3 + that. Dummy subject 'It' is required."
+    },
+    {
+      "id": "pr-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct Pattern 2 passive reporting structure.",
+      "prompt": "The ruins ___ over 2,000 years old.",
+      "options": ["are believed to be", "are believed that are", "is believed to be", "are believing to be"],
+      "answer": "are believed to be",
+      "explanation": "Pattern 2: Subject + are/is + V3 + to-infinitive. 'The ruins' = plural → 'are believed to be'."
+    },
+    {
+      "id": "pr-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "The company lost money last year. Choose the correct reporting structure.",
+      "prompt": "The company ___ millions last year.",
+      "options": ["is reported to lose", "is reported to have lost", "was reported to lose", "was reported losing"],
+      "answer": "is reported to have lost",
+      "explanation": "Past event → perfect passive infinitive: is reported + to have + V3. 'To lose' would imply a current or future action."
+    },
+    {
+      "id": "pr-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Convert Pattern 1 to Pattern 2: 'It is said that he is the most qualified candidate.'",
+      "prompt": "He ___ the most qualified candidate.",
+      "options": ["is said that he is", "is said being", "is said to be", "said to be"],
+      "answer": "is said to be",
+      "explanation": "Pattern 2: Subject + is + V3 + to-infinitive. 'He is said to be' = same meaning as 'It is said that he is'."
+    },
+    {
+      "id": "pr-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the passive reporting structure.",
+      "prompt": "___",
+      "options": [
+        "It is believed that climate change is accelerating.",
+        "The treatment is known to be effective.",
+        "He is said that he is the leading expert.",
+        "It was reported that several people were injured."
+      ],
+      "answer": "He is said that he is the leading expert.",
+      "explanation": "Pattern 2 does not use 'that'. Correct: 'He is said to be the leading expert.' Or use Pattern 1: 'It is said that he is...'."
+    },
+    {
+      "id": "pr-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error.",
+      "prompt": "The species believed to have been extinct for centuries.",
+      "options": [
+        "Should be 'is believed' — passive verb missing.",
+        "Should be 'believed to be' — wrong infinitive.",
+        "Should be 'It is believed that' — Pattern 1 required.",
+        "No error — the sentence is correct."
+      ],
+      "answer": "Should be 'is believed' — passive verb missing.",
+      "explanation": "Pattern 2 needs the full passive: 'The species **is** believed to have been extinct for centuries'."
+    },
+    {
+      "id": "pr-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct tense for this past reporting sentence.",
+      "prompt": "___ the earthquake killed over 200 people.",
+      "options": ["It is reported that", "It was reported that", "It has been reported that", "It reported that"],
+      "answer": "It was reported that",
+      "explanation": "Past completed event → past tense reporting verb: 'It was reported that'. 'It is reported' would imply current/ongoing."
+    },
+    {
+      "id": "pr-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Convert to Pattern 2: 'It is estimated that the population will reach 10 billion by 2050.'",
+      "prompt": "The population ___ 10 billion by 2050.",
+      "options": ["is estimated to reach", "is estimated reaching", "estimated to reach", "is estimated that reaches"],
+      "answer": "is estimated to reach",
+      "explanation": "Pattern 2: Subject + is + V3 + to-infinitive. 'Is estimated to reach' — the reaching is in the future, so simple infinitive."
+    },
+    {
+      "id": "pr-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which reporting structure is most appropriate for formal academic writing?",
+      "prompt": "___",
+      "options": [
+        "People believe that exercise reduces stress.",
+        "Everyone knows that exercise reduces stress.",
+        "It is well established that exercise reduces stress.",
+        "Scientists say exercise reduces stress."
+      ],
+      "answer": "It is well established that exercise reduces stress.",
+      "explanation": "'It is well established that' is the most formal and academically appropriate passive reporting structure."
+    },
+    {
+      "id": "pr-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dikatakan bahwa ekonomi akan pulih tahun depan.' → English (Pattern 1):",
+      "prompt": "___",
+      "options": [
+        "It said that the economy will recover next year.",
+        "It is said that the economy will recover next year.",
+        "Said that the economy will recover next year.",
+        "It is saying that the economy will recover next year."
+      ],
+      "answer": "It is said that the economy will recover next year.",
+      "explanation": "Pattern 1: It + is + said + that. Dummy subject 'it' required."
+    },
+    {
+      "id": "pr-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dia dipercaya sebagai ahli terkemuka di bidangnya.' → English (Pattern 2):",
+      "prompt": "He ___ the leading expert in his field.",
+      "options": ["is believed that he is", "believed to be", "is believed to be", "is believed being"],
+      "answer": "is believed to be",
+      "explanation": "Pattern 2: Subject + is + believed + to be. 'To be' is required — not 'that he is'."
+    },
+    {
+      "id": "pr-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose between 'to be' and 'to have been'.",
+      "prompt": "The ancient library ___ destroyed by fire in the 3rd century AD.",
+      "options": [
+        "is thought to be",
+        "is thought to have been",
+        "was thought to be",
+        "was thought being"
+      ],
+      "answer": "is thought to have been",
+      "explanation": "Destruction happened in the past (3rd century) → perfect passive infinitive: to + have + been + V3."
+    },
+    {
+      "id": "pr-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which correctly uses 'it has been shown that'?",
+      "prompt": "___",
+      "options": [
+        "It has been shown that early intervention improves outcomes.",
+        "It was shown that early intervention improves outcomes.",
+        "Both are correct — the choice depends on the publication date.",
+        "Neither is correct — use 'It is shown'."
+      ],
+      "answer": "Both are correct — the choice depends on the publication date.",
+      "explanation": "'Has been shown' = at some point before now (unspecified). 'Was shown' = in a specific past study. Both are correct; choice depends on whether the timeframe is specified."
+    },
+    {
+      "id": "pr-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct structure for reporting a current state.",
+      "prompt": "This method ___ the most reliable for this type of analysis.",
+      "options": ["is considered to be", "is considered to have been", "was considered to be", "is considered being"],
+      "answer": "is considered to be",
+      "explanation": "Current state → simple infinitive 'to be'. 'Is considered to be' = Pattern 2 for a current assessment."
+    },
+    {
+      "id": "pr-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error: 'It was found that the participants improved significantly.'",
+      "prompt": "___",
+      "options": [
+        "Should be 'It is found that' — present tense needed.",
+        "Should be 'They found that' — passive not needed here.",
+        "No error — this is a correct passive reporting sentence.",
+        "Should be 'It was found to' — Pattern 2 required."
+      ],
+      "answer": "No error — this is a correct passive reporting sentence.",
+      "explanation": "'It was found that' is Pattern 1 with past tense — correct for reporting past research findings."
+    },
+    {
+      "id": "pr-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Convert to Pattern 1: 'Smoking is known to cause lung cancer.'",
+      "prompt": "___",
+      "options": [
+        "It is known smoking causes lung cancer.",
+        "It is known that smoking causes lung cancer.",
+        "It knows that smoking causes lung cancer.",
+        "It is knowing that smoking causes lung cancer."
+      ],
+      "answer": "It is known that smoking causes lung cancer.",
+      "explanation": "Pattern 1: It + is + V3 + that + clause. 'Known' is the V3; 'that' introduces the clause."
+    },
+    {
+      "id": "pr-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Perusahaan itu dilaporkan telah kehilangan jutaan dolar.' → English:",
+      "prompt": "The company ___ millions of dollars.",
+      "options": [
+        "is reported to lose",
+        "is reported to have lost",
+        "was reported to lose",
+        "is reported having lost"
+      ],
+      "answer": "is reported to have lost",
+      "explanation": "Past completed action → perfect passive infinitive: is reported + to have + lost."
+    },
+    {
+      "id": "pr-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the most appropriate passive reporting verb for academic hedging.",
+      "prompt": "These findings ___ to be interpreted with caution given the small sample size.",
+      "options": ["are said", "are suggested", "are known", "are established"],
+      "answer": "are suggested",
+      "explanation": "'Are suggested to be interpreted' — 'suggest' implies a cautious recommendation, appropriate for hedging. 'Known' and 'established' imply certainty, which contradicts the caveat."
+    },
+    {
+      "id": "pr-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses passive reporting in academic writing to present a finding?",
+      "prompt": "___",
+      "options": [
+        "The researchers found that participants improved.",
+        "It was found that participants improved significantly.",
+        "Participants were found improving significantly.",
+        "It was found participants improved."
+      ],
+      "answer": "It was found that participants improved significantly.",
+      "explanation": "Pattern 1 with past tense: 'It was found that' — standard academic passive reporting for past research findings. The that-clause is required."
+    },
+    {
+      "id": "pr-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct passive reporting for 'It is argued that more research is needed.'",
+      "prompt": "More research ___ needed. (Pattern 2)",
+      "options": [
+        "is argued to be",
+        "is argued that is",
+        "argued to be",
+        "is arguing to be"
+      ],
+      "answer": "is argued to be",
+      "explanation": "Pattern 2 conversion: 'More research is argued to be needed.' Subject + is + V3 + to-infinitive."
+    }
+  ]
+}

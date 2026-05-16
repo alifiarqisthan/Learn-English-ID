@@ -1,1 +1,179 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "ac-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct adverb clause for time.",
+      "prompt": "___ the lecture ends, we will go to the library.",
+      "options": ["After", "Although", "Because", "So that"],
+      "answer": "After",
+      "explanation": "'After' introduces a time clause — the library visit happens after the lecture. 'Although' = concession; 'Because' = reason; 'So that' = purpose."
+    },
+    {
+      "id": "ac-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct adverb clause for reason.",
+      "prompt": "She left early ___ she had an appointment across town.",
+      "options": ["although", "because", "so that", "unless"],
+      "answer": "because",
+      "explanation": "'Because' introduces a reason/cause clause. 'Although' = contrast; 'so that' = purpose; 'unless' = condition."
+    },
+    {
+      "id": "ac-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct purpose clause.",
+      "prompt": "She took extra classes ___ improve her IELTS score.",
+      "options": ["so that to", "in order to", "because to", "although"],
+      "answer": "in order to",
+      "explanation": "'In order to + V1' expresses purpose. 'So that' needs a full clause: 'so that she could improve.' 'Because' + clause = reason."
+    },
+    {
+      "id": "ac-test-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct contrast clause.",
+      "prompt": "He continued studying ___ he was exhausted.",
+      "options": ["because", "so that", "even though", "unless"],
+      "answer": "even though",
+      "explanation": "'Even though' (stronger than 'although') introduces a contrast clause — he studied despite being exhausted. 'Because' = reason; 'unless' = condition."
+    },
+    {
+      "id": "ac-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct result clause.",
+      "prompt": "The presentation was so long ___ half the audience fell asleep.",
+      "options": ["but", "that", "although", "however"],
+      "answer": "that",
+      "explanation": "'So + adjective + that' = result structure. 'So long that half the audience fell asleep' → result clause expressing consequence."
+    },
+    {
+      "id": "ac-test-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in the time clause.",
+      "prompt": "She will call you when she will arrive at the airport.",
+      "options": [
+        "Should be 'when she arrives' — future time clauses use present tense.",
+        "Should be 'when she arrived' — past tense needed.",
+        "Should be 'when she is arriving' — continuous needed.",
+        "No error — 'will arrive' is correct in time clauses."
+      ],
+      "answer": "Should be 'when she arrives' — future time clauses use present tense.",
+      "explanation": "In future time clauses after 'when, after, before, until, as soon as', use present simple (not 'will'): 'when she arrives.' This is a key rule in English grammar."
+    },
+    {
+      "id": "ac-test-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya akan menunggu sampai dia datang.' → English:",
+      "prompt": "I will wait ___ she arrives.",
+      "options": ["until", "while", "after", "since"],
+      "answer": "until",
+      "explanation": "'Sampai' = until (waiting up to the point of her arrival). 'While' = during the same time; 'after' = following; 'since' = from a point in time."
+    },
+    {
+      "id": "ac-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct conditional clause.",
+      "prompt": "___ you don't submit by Friday, you will lose 10 marks.",
+      "options": ["Although", "Unless", "While", "Because"],
+      "answer": "Unless",
+      "explanation": "'Unless' = if not: 'Unless you submit by Friday' = 'If you don't submit by Friday.' A conditional clause of warning/consequence."
+    },
+    {
+      "id": "ac-test-9",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the contrast clause error.",
+      "prompt": "Although she studied hard, but she failed the exam.",
+      "options": [
+        "Remove 'but' — 'although' and 'but' cannot both connect the same clauses.",
+        "Remove 'although' — 'but' is the correct conjunction here.",
+        "Both are correct — 'although' and 'but' can be used together.",
+        "Replace 'although' with 'even though' — more formal."
+      ],
+      "answer": "Remove 'but' — 'although' and 'but' cannot both connect the same clauses.",
+      "explanation": "'Although' is a subordinating conjunction; 'but' is a coordinating conjunction. Using both to connect the same two clauses is a double conjunction error. Use one or the other."
+    },
+    {
+      "id": "ac-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct cause-result connector for a formal sentence.",
+      "prompt": "Funding was cut; ___, the research programme was suspended.",
+      "options": ["because", "although", "consequently", "unless"],
+      "answer": "consequently",
+      "explanation": "'Consequently' = as a result (conjunctive adverb). Used with semicolons to show cause-and-result. 'Because' introduces a clause (not used with semicolons this way)."
+    },
+    {
+      "id": "ac-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct time clause for simultaneous actions.",
+      "prompt": "___ the professor was speaking, students were taking notes.",
+      "options": ["After", "While", "Until", "As soon as"],
+      "answer": "While",
+      "explanation": "'While' expresses simultaneous actions — both happening at the same time. 'After/Until/As soon as' all indicate sequential timing."
+    },
+    {
+      "id": "ac-test-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Karena waktu sudah habis, ujian dihentikan.' → English:",
+      "prompt": "___",
+      "options": [
+        "Although time was up, the exam was stopped.",
+        "Because time was up, the exam was stopped.",
+        "Unless time was up, the exam was stopped.",
+        "So that time was up, the exam was stopped."
+      ],
+      "answer": "Because time was up, the exam was stopped.",
+      "explanation": "'Karena' = because (reason/cause). The exam was stopped as a result of time running out. 'Although' = contrast; 'unless' = condition."
+    },
+    {
+      "id": "ac-test-13",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the purpose clause error.",
+      "prompt": "She spoke slowly so that the students could understanding her.",
+      "options": [
+        "Should be 'could understand' — base form after modal.",
+        "Should be 'in order to understand' — infinitive needed.",
+        "Should be 'so that the students understanding' — participle needed.",
+        "No error — 'could understanding' is correct."
+      ],
+      "answer": "Should be 'could understand' — base form after modal.",
+      "explanation": "After modal 'could', use the base form V1: 'could understand'. Never 'could understanding' or 'could understood'."
+    },
+    {
+      "id": "ac-test-14",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses the correct future time clause?",
+      "prompt": "___",
+      "options": [
+        "I will call you as soon as I will land.",
+        "I will call you as soon as I land.",
+        "I will call you as soon as I landed.",
+        "I will call you as soon as I am landing."
+      ],
+      "answer": "I will call you as soon as I land.",
+      "explanation": "Future time clauses after 'as soon as, when, before, after, until' use present simple (not 'will'): 'as soon as I land.' This is a fixed English grammar rule."
+    },
+    {
+      "id": "ac-test-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the best connector to show contrast (not a subordinating conjunction).",
+      "prompt": "The study was limited in scope. ___, its findings were widely cited.",
+      "options": ["Because", "Although", "Nevertheless", "Unless"],
+      "answer": "Nevertheless",
+      "explanation": "'Nevertheless' (= in spite of this) is a conjunctive adverb used between sentences to show contrast. 'Although' introduces a subordinate clause within a sentence. 'Nevertheless' works across two sentences."
+    }
+  ]
+}

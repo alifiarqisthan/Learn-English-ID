@@ -1,1 +1,304 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "da-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct determiner. There are exactly two routes.",
+      "prompt": "___ route will take about the same amount of time.",
+      "options": [
+        "Every",
+        "Either",
+        "Any",
+        "Both"
+      ],
+      "answer": "Either",
+      "explanation": "'Either' = one or the other of two (both acceptable). Singular noun + singular verb: 'Either route will...'"
+    },
+    {
+      "id": "da-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct word. The speaker wants one more cup.",
+      "prompt": "Could I have ___ cup of coffee, please?",
+      "options": [
+        "other",
+        "the other",
+        "another",
+        "an other"
+      ],
+      "answer": "another",
+      "explanation": "'Another' = one more (non-specific, singular). 'An other' is never written as two words."
+    },
+    {
+      "id": "da-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'none' or 'no'. The blank comes before a noun.",
+      "prompt": "There is ___ evidence to support the claim.",
+      "options": [
+        "none",
+        "no",
+        "neither",
+        "not"
+      ],
+      "answer": "no",
+      "explanation": "'No' is the determiner used before a noun: 'no evidence'. 'None' is a pronoun: 'None of the evidence supports...'"
+    },
+    {
+      "id": "da-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with an error.",
+      "prompt": "___",
+      "options": [
+        "Neither option was acceptable to the committee.",
+        "None of the three proposals was approved.",
+        "Neither of the three candidates was qualified.",
+        "Any student can apply for the scholarship."
+      ],
+      "answer": "Neither of the three candidates was qualified.",
+      "explanation": "'Neither' = exactly two. For three items, use 'none': 'None of the three candidates was qualified.'"
+    },
+    {
+      "id": "da-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the determiner error.",
+      "prompt": "___",
+      "options": [
+        "Other students may have a different perspective.",
+        "She has two sisters. The other lives in London.",
+        "Others students joined the project later.",
+        "Some people support the idea; others oppose it."
+      ],
+      "answer": "Others students joined the project later.",
+      "explanation": "'Others' is a pronoun — it cannot be followed by a noun. Use 'other students' (adjective before noun)."
+    },
+    {
+      "id": "da-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose 'the other' or 'the others'. Two gloves — one is lost.",
+      "prompt": "I found one of my gloves. ___ must be somewhere in the car.",
+      "options": [
+        "The other",
+        "The others",
+        "Another",
+        "Other"
+      ],
+      "answer": "The other",
+      "explanation": "'The other' = the remaining one (specific, singular). There were exactly two gloves."
+    },
+    {
+      "id": "da-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose 'any' for free-choice meaning.",
+      "prompt": "___ qualified professional can perform this procedure.",
+      "options": [
+        "Every",
+        "Some",
+        "Any",
+        "No"
+      ],
+      "answer": "Any",
+      "explanation": "'Any' in positive sentences = free choice (it doesn't matter which one): 'Any qualified professional' = whichever one you choose."
+    },
+    {
+      "id": "da-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct verb form after 'neither of'.",
+      "prompt": "Neither of the two solutions ___ practical in a real-world context.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": "is",
+      "explanation": "'Neither of' + plural noun → singular verb in formal English. 'Neither of the solutions is practical.'"
+    },
+    {
+      "id": "da-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct word. Some left; the rest stayed.",
+      "prompt": "Half the team left early; ___ stayed until the end.",
+      "options": [
+        "the other",
+        "others",
+        "the others",
+        "another"
+      ],
+      "answer": "the others",
+      "explanation": "'The others' = the remaining specific group (plural). The first half left; the remaining (specific) ones stayed."
+    },
+    {
+      "id": "da-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'no' or 'none'.",
+      "prompt": "___ of the participants had prior experience with the software.",
+      "options": [
+        "did none",
+        "None",
+        "noneing",
+        "nones"
+      ],
+      "answer": "None",
+      "explanation": "Before 'of' → 'none' (pronoun). 'No of' is not grammatical."
+    },
+    {
+      "id": "da-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'another', 'other', 'the other', or 'others'.",
+      "prompt": "Some studies support this hypothesis; ___, however, reach different conclusions.",
+      "options": [
+        "did other",
+        "othering",
+        "other",
+        "others"
+      ],
+      "answer": "others",
+      "explanation": "'Others' = pronoun (some studies / other studies). No noun after it — use 'others', not 'other studies'."
+    },
+    {
+      "id": "da-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: 'either' or 'neither'. The meaning is negative (not one, not the other).",
+      "prompt": "___ explanation was convincing to the review panel.",
+      "options": [
+        "did neither",
+        "Neither",
+        "neithering",
+        "neithers"
+      ],
+      "answer": "Neither",
+      "explanation": "'Neither' = not one and not the other (negative). Singular noun + singular verb."
+    },
+    {
+      "id": "da-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: the correct determiner. The speaker has two job offers and both are acceptable.",
+      "prompt": "I'm happy to accept ___ offer — both sound interesting.",
+      "options": [
+        "eithers",
+        "either",
+        "eithering",
+        "did either"
+      ],
+      "answer": "either",
+      "explanation": "'Either' = one or the other of two (both acceptable). Positive meaning for two choices."
+    },
+    {
+      "id": "da-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'other' or 'another'. The blank is before a plural noun.",
+      "prompt": "We need to consider ___ perspectives before making a decision.",
+      "options": [
+        "other",
+        "others",
+        "othering",
+        "did other"
+      ],
+      "answer": "other",
+      "explanation": "'Other' + plural noun: 'other perspectives'. 'Another' = singular countable only."
+    },
+    {
+      "id": "da-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Kedua opsi tersebut dapat diterima — pilih yang mana saja.\"",
+      "prompt": "Kedua opsi tersebut dapat diterima — pilih yang mana saja.",
+      "options": [
+        "Either option is acceptable — choose whichever you prefer.",
+        "Either options are acceptable — choose whichever you prefer.",
+        "Either option was acceptable — choose whichever you preferred.",
+        "Every option is acceptable — choose whichever you prefer."
+      ],
+      "answer": "Either option is acceptable — choose whichever you prefer.",
+      "explanation": "'Kedua...dapat diterima' (both acceptable, choose one) → 'either'. Singular verb 'is'."
+    },
+    {
+      "id": "da-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Tidak satu pun dari tiga kandidat tersebut memenuhi syarat.\"",
+      "prompt": "Tidak satu pun dari tiga kandidat tersebut memenuhi syarat.",
+      "options": [
+        "None of the three is candidateing was qualified.",
+        "None of the three candidates is qualified.",
+        "None of the three candidates was qualified.",
+        "None of a three candidates was qualified."
+      ],
+      "answer": "None of the three candidates was qualified.",
+      "explanation": "'Tidak satu pun dari' = none of. Three candidates → 'none' (not 'neither'). Formal → singular 'was'."
+    },
+    {
+      "id": "da-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Saya punya dua laporan. Yang satu sudah selesai; yang lainnya masih dalam proses.\"",
+      "prompt": "Saya punya dua laporan. Yang satu sudah selesai; yang lainnya masih dalam proses.",
+      "options": [
+        "I have two reports. One is finished; the other is still in progress.",
+        "I has two reports. One is finished; the other is still in progress.",
+        "I have two reports. One is finished; an other is still in progress.",
+        "I has two reports. One was finished; the other was still in progress."
+      ],
+      "answer": "I have two reports. One is finished; the other is still in progress.",
+      "explanation": "'Yang lainnya' (the remaining one, specific) → 'the other'. Exactly two → singular 'the other'."
+    },
+    {
+      "id": "da-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Beberapa orang setuju, sementara yang lain tidak.\"",
+      "prompt": "Beberapa orang setuju, sementara yang lain tidak.",
+      "options": [
+        "Some people agree, while others do not.",
+        "This is not correct English.",
+        "Some people agree, while others do not. (incorrect)",
+        "Some people agree, while others do not, every day."
+      ],
+      "answer": "Some people agree, while others do not.",
+      "explanation": "'Yang lain' as a pronoun (no noun after) → 'others'. 'Other people' would also work but 'others' is more natural here."
+    },
+    {
+      "id": "da-mc-no-none-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'no' or 'none'.",
+      "prompt": "She searched everywhere but could find ___.",
+      "options": [
+        "no",
+        "none",
+        "neither",
+        "not any"
+      ],
+      "answer": "none",
+      "explanation": "'None' used as a standalone pronoun (no noun follows): 'could find none'. 'No' needs a noun after it."
+    },
+    {
+      "id": "da-mc-another-other-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct word.",
+      "prompt": "This solution works, but there are ___ approaches we should consider.",
+      "options": [
+        "another",
+        "other",
+        "the other",
+        "others"
+      ],
+      "answer": "other",
+      "explanation": "'Other approaches' — before a plural noun, use 'other'. 'Another' is singular only. 'Others' has no noun after it."
+    }
+  ]
+}

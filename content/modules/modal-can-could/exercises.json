@@ -1,0 +1,239 @@
+{
+  "exercises": [
+    {
+      "id": "mcc-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for present ability.",
+      "prompt": "She ___ play the piano — she started lessons at age four.",
+      "options": ["could", "can", "should", "might"],
+      "answer": "can",
+      "explanation": "Present ability → 'can'. 'Could' would imply past ability or uncertainty, which contradicts the context."
+    },
+    {
+      "id": "mcc-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for past ability.",
+      "prompt": "Before the injury, he ___ run a marathon in under three hours.",
+      "options": ["can", "could", "would", "should"],
+      "answer": "could",
+      "explanation": "Past ability → 'could'. The injury is now past, so we use 'could' for the ability he had then."
+    },
+    {
+      "id": "mcc-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the most polite way to ask permission.",
+      "prompt": "___ I take the afternoon off to attend my sister's graduation?",
+      "options": ["Can", "Could", "Should", "Will"],
+      "answer": "Could",
+      "explanation": "'Could I…?' is more polite/formal than 'Can I…?' — use it in workplace or formal contexts."
+    },
+    {
+      "id": "mcc-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for an uncertain possibility.",
+      "prompt": "She's not answering the phone. She ___ be in a meeting.",
+      "options": ["can", "could", "must", "will"],
+      "answer": "could",
+      "explanation": "'Could' expresses uncertain possibility — you're not sure, just guessing. 'Must' would be a strong deduction."
+    },
+    {
+      "id": "mcc-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal to give permission.",
+      "prompt": "You ___ use my laptop — I don't need it until this afternoon.",
+      "options": ["could", "can", "might", "should"],
+      "answer": "can",
+      "explanation": "Giving permission to someone else → 'can'. 'Could' is for asking permission politely, not granting it."
+    },
+    {
+      "id": "mcc-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Bisakah kamu mengirimkan laporannya?' → Polite English request:",
+      "prompt": "___ you send the report, please?",
+      "options": ["Can", "Could", "Should", "Would"],
+      "answer": "Could",
+      "explanation": "'Bisakah kamu…?' is a polite request → 'Could you…?' in English. Both 'Could' and 'Would' work; 'Could' is most common for this pattern."
+    },
+    {
+      "id": "mcc-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative modal.",
+      "prompt": "I ___ find my passport anywhere — I've looked everywhere.",
+      "options": ["can't", "couldn't", "shouldn't", "wouldn't"],
+      "answer": "can't",
+      "explanation": "Present inability → 'can't'. The speaker is searching now, so present tense is needed."
+    },
+    {
+      "id": "mcc-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative modal for a past event.",
+      "prompt": "She ___ attend the meeting last Tuesday because she was ill.",
+      "options": ["can't", "couldn't", "won't", "shouldn't"],
+      "answer": "couldn't",
+      "explanation": "Past inability → 'couldn't'. The meeting was last Tuesday — past tense required."
+    },
+    {
+      "id": "mcc-mc-neg-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with a modal error.",
+      "prompt": "___",
+      "options": [
+        "She can swim very fast.",
+        "I couldn't finish the exam on time.",
+        "He can speaks four languages fluently.",
+        "Could you close the window, please?"
+      ],
+      "answer": "He can speaks four languages fluently.",
+      "explanation": "Modals are followed by the base form (V1), never an inflected verb. Correct: 'He can speak four languages.'"
+    },
+    {
+      "id": "mcc-mc-neg-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form to express logical impossibility.",
+      "prompt": "That ___ be Maria — she's in London this week.",
+      "options": ["can't", "couldn't", "shouldn't", "wouldn't"],
+      "answer": "can't",
+      "explanation": "'Can't' expresses present logical impossibility — it is impossible that it is Maria. 'Couldn't' would refer to past."
+    },
+    {
+      "id": "mcc-mc-neg-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the error in tense.",
+      "prompt": "I can't go to the concert last Friday.",
+      "options": [
+        "Should be 'couldn't' — past tense needed.",
+        "Should be 'won't' — refusal, not inability.",
+        "Should be 'shouldn't' — advice form.",
+        "No error — 'can't' is correct for past events."
+      ],
+      "answer": "Should be 'couldn't' — past tense needed.",
+      "explanation": "'Last Friday' is past tense. Use 'couldn't', not 'can't', for past inability."
+    },
+    {
+      "id": "mcc-mc-neg-6",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative for 'could' as past ability.",
+      "prompt": "When she was a child, she ___ read — her parents taught her at age six.",
+      "options": ["can't", "couldn't", "won't", "wouldn't"],
+      "answer": "couldn't",
+      "explanation": "Childhood past inability → 'couldn't'. 'Can't' is present; 'wouldn't' implies refusal."
+    },
+    {
+      "id": "mcc-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct question form to ask permission politely.",
+      "prompt": "___ I borrow your dictionary for a moment?",
+      "options": ["Can", "Could", "Both are correct.", "Should"],
+      "answer": "Both are correct.",
+      "explanation": "'Can I borrow…?' and 'Could I borrow…?' are both grammatically correct. 'Could' is more polite/formal."
+    },
+    {
+      "id": "mcc-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Identify the error in the question.",
+      "prompt": "Could you tells me the way to the station?",
+      "options": [
+        "Should be 'Can' — 'could' is not used in questions.",
+        "Should be 'tell' — base form required after modal.",
+        "Should be 'telling' — continuous form needed.",
+        "No error — the sentence is correct."
+      ],
+      "answer": "Should be 'tell' — base form required after modal.",
+      "explanation": "Modal + base form: 'Could you tell me…?' not 'tells'. Modals are never followed by an inflected verb."
+    },
+    {
+      "id": "mcc-mc-q-3",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the most natural and polite request for a formal email.",
+      "prompt": "___ you review my draft proposal at your earliest convenience?",
+      "options": ["Can", "Could", "Should", "May"],
+      "answer": "Could",
+      "explanation": "In formal written English, 'Could you…?' is the standard polite request. 'Can' is less formal; 'May' is used for permission, not requests."
+    },
+    {
+      "id": "mcc-mc-q-4",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate: 'Apakah kamu bisa hadir besok?' → English:",
+      "prompt": "___ you come tomorrow?",
+      "options": ["Should", "Could", "Must", "Shall"],
+      "answer": "Could",
+      "explanation": "'Bisa hadir' = ability/possibility to attend. 'Could you come?' is the natural English equivalent — polite and asking about feasibility."
+    },
+    {
+      "id": "mcc-mc-pos-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct modal for a general present possibility.",
+      "prompt": "The traffic ___ be very heavy on this road during rush hour.",
+      "options": ["could", "can", "must", "shall"],
+      "answer": "can",
+      "explanation": "'Can' expresses a general, known possibility. 'Could' implies current uncertainty. 'The traffic can be heavy' = it is generally known to happen."
+    },
+    {
+      "id": "mcc-mc-pos-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence correctly uses 'could' for a single completed past achievement?",
+      "prompt": "___",
+      "options": [
+        "After hours of trying, she could finally open the lock.",
+        "After hours of trying, she was able to finally open the lock.",
+        "Both are equally natural.",
+        "After hours of trying, she can finally open the lock."
+      ],
+      "answer": "After hours of trying, she was able to finally open the lock.",
+      "explanation": "For a single successful past event, 'was able to' is preferred over 'could'. 'Could' implies general ability, not a specific achievement."
+    },
+    {
+      "id": "mcc-mc-neg-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct form of the negative.",
+      "prompt": "You ___ enter this area without a security badge.",
+      "options": ["couldn't", "can't", "won't", "shouldn't"],
+      "answer": "can't",
+      "explanation": "Present rule/prohibition → 'can't'. This is a general policy statement, not a past event."
+    },
+    {
+      "id": "mcc-mc-q-5",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'could' for possibility — not past?",
+      "prompt": "___",
+      "options": [
+        "She could be our top candidate — she has all the skills.",
+        "She could swim at age four.",
+        "He could not attend the event last week.",
+        "Could you passed the salt, please?"
+      ],
+      "answer": "She could be our top candidate — she has all the skills.",
+      "explanation": "'Could be' here expresses present possibility/tentative assessment. The other sentences use 'could' for past ability, past inability, or have a verb form error."
+    },
+    {
+      "id": "mcc-mc-pos-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya tidak bisa tidur tadi malam.' → English:",
+      "prompt": "I ___ sleep last night.",
+      "options": ["can't", "couldn't", "wasn't able", "won't"],
+      "answer": "couldn't",
+      "explanation": "'Tadi malam' = last night (past). 'Couldn't' is the correct past negative modal. 'Can't' is present tense."
+    }
+  ]
+}

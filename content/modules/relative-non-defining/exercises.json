@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "rnd-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly punctuated non-defining relative clause.",
+      "prompt": "___",
+      "options": [
+        "My father who is an engineer built this house.",
+        "My father, who is an engineer, built this house.",
+        "My father, who is an engineer built this house.",
+        "My father who is an engineer, built this house."
+      ],
+      "answer": "My father, who is an engineer, built this house.",
+      "explanation": "Non-defining clauses need commas both before and after. The speaker has one father, so this is extra info."
+    },
+    {
+      "id": "rnd-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct relative pronoun for a non-defining clause.",
+      "prompt": "The Eiffel Tower, ___ was built in 1889, attracts millions of visitors each year.",
+      "options": [
+        "that",
+        "which",
+        "who",
+        "whose"
+      ],
+      "answer": "which",
+      "explanation": "'That' is not used in non-defining clauses. 'Which' is correct for a thing (the Eiffel Tower)."
+    },
+    {
+      "id": "rnd-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence where 'which' correctly refers to the whole previous clause.",
+      "prompt": "___",
+      "options": [
+        "She missed the deadline which was surprising.",
+        "She missed the deadline, which was surprising.",
+        "She missed the deadline that was surprising.",
+        "She missed the deadline, that was surprising."
+      ],
+      "answer": "She missed the deadline, which was surprising.",
+      "explanation": "When 'which' refers to the entire preceding clause, a comma is required and 'that' cannot be used."
+    },
+    {
+      "id": "rnd-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with an error.",
+      "prompt": "___",
+      "options": [
+        "Dr Sari, who leads the department, will retire next year.",
+        "Jakarta, which is the capital city, has a population of over 10 million.",
+        "The CEO, that resigned last week, issued a statement.",
+        "My sister, whose husband is a pilot, lives in Singapore."
+      ],
+      "answer": "The CEO, that resigned last week, issued a statement.",
+      "explanation": "'That' cannot be used in non-defining relative clauses. Use 'who' for a person."
+    },
+    {
+      "id": "rnd-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Which sentence changes meaning when you add commas?",
+      "prompt": "Compare: A) 'The employees who completed training received bonuses.' B) 'The employees, who completed training, received bonuses.'",
+      "options": [
+        "They mean the same thing.",
+        "A means only trained employees got bonuses; B means all employees got bonuses.",
+        "A is grammatically correct; B is wrong.",
+        "B means only trained employees got bonuses; A means all employees got bonuses."
+      ],
+      "answer": "A means only trained employees got bonuses; B means all employees got bonuses.",
+      "explanation": "Defining (no commas) = only employees who completed training. Non-defining (commas) = all employees completed training and all got bonuses."
+    },
+    {
+      "id": "rnd-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence correctly uses 'whose' in a non-defining clause?",
+      "prompt": "___",
+      "options": [
+        "The professor whose research was cited will give a keynote.",
+        "The professor, whose research was cited, will give a keynote.",
+        "The professor, who's research was cited, will give a keynote.",
+        "The professor, which research was cited, will give a keynote."
+      ],
+      "answer": "The professor, whose research was cited, will give a keynote.",
+      "explanation": "'Whose' = possessive. The professor is already identified (likely by context), so commas are used. 'Who's' = who is — wrong."
+    },
+    {
+      "id": "rnd-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the non-defining clause that adds location information.",
+      "prompt": "Yogyakarta, ___ the famous Borobudur temple is located, is a major tourist destination.",
+      "options": [
+        "that",
+        "which",
+        "who",
+        "where"
+      ],
+      "answer": "where",
+      "explanation": "'Where' replaces 'in which' for places. Yogyakarta is already identified — this is extra information."
+    },
+    {
+      "id": "rnd-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that correctly uses a non-defining clause with 'when'.",
+      "prompt": "___",
+      "options": [
+        "2020, when the pandemic started, changed the world.",
+        "2020, that the pandemic started, changed the world.",
+        "In 2020, which the pandemic started, changed the world.",
+        "In 2020, when the pandemic started, many businesses closed."
+      ],
+      "answer": "In 2020, when the pandemic started, many businesses closed.",
+      "explanation": "'When' refers to the time (2020). 'In 2020, when...' is the natural structure for a time-based non-defining clause."
+    },
+    {
+      "id": "rnd-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the defining clause (no commas needed).",
+      "prompt": "___",
+      "options": [
+        "My brother, who is a doctor, works at a hospital.",
+        "The doctor who treated me yesterday was very professional.",
+        "Alexander Fleming, who discovered penicillin, was Scottish.",
+        "The sun, which is a star, provides energy to Earth."
+      ],
+      "answer": "The doctor who treated me yesterday was very professional.",
+      "explanation": "No commas — 'who treated me yesterday' identifies WHICH doctor. This is a defining clause."
+    },
+    {
+      "id": "rnd-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'which' or 'that'. The clause is non-defining.",
+      "prompt": "The Great Wall of China, ___ stretches over 21,000 kilometres, is a UNESCO World Heritage Site.",
+      "options": [
+        "did which",
+        "which",
+        "whichs",
+        "whiching"
+      ],
+      "answer": "which",
+      "explanation": "Non-defining clause → 'that' is not allowed. Use 'which' for a thing."
+    },
+    {
+      "id": "rnd-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the missing punctuation. Write the two missing commas as: ', ,'",
+      "prompt": "My colleague ___ who joined last month ___ has already impressed the team.",
+      "options": [
+        "commas",
+        ", ,",
+        ",s ,",
+        ", who joined last month,"
+      ],
+      "answer": ", ,",
+      "hint": "Non-defining clauses are set off by commas on both sides.",
+      "explanation": "Commas required before and after the non-defining clause: 'My colleague, who joined last month, has already impressed the team.'"
+    },
+    {
+      "id": "rnd-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct relative pronoun. The clause refers to the entire previous statement.",
+      "prompt": "She was promoted to manager, ___ came as a surprise to everyone.",
+      "options": [
+        "whiching",
+        "whichs",
+        "which",
+        "did which"
+      ],
+      "answer": "which",
+      "explanation": "'Which' refers to the entire previous clause (her promotion). A comma is required before it."
+    },
+    {
+      "id": "rnd-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'who' or 'which'.",
+      "prompt": "Professor Tan, ___ has published over 50 papers, will retire next semester.",
+      "options": [
+        "did who",
+        "whoing",
+        "whos",
+        "who"
+      ],
+      "answer": "who",
+      "explanation": "Professor Tan is a person → 'who'. This is a non-defining clause (proper noun = already identified)."
+    },
+    {
+      "id": "rnd-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'whose' or 'who's'.",
+      "prompt": "The artist, ___ latest exhibition opened last week, has received international acclaim.",
+      "options": [
+        "whoseing",
+        "whoses",
+        "whose",
+        "did whose"
+      ],
+      "answer": "whose",
+      "explanation": "'Whose' = possessive (the exhibition belongs to the artist). 'Who's' = who is — incorrect here."
+    },
+    {
+      "id": "rnd-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Ibu saya, yang adalah seorang guru, sudah pensiun.\"",
+      "prompt": "Ibu saya, yang adalah seorang guru, sudah pensiun.",
+      "options": [
+        "My mother, who is a teacher, has retired.",
+        "My mother, who is a teacher, have retired.",
+        "My mother, who is an teacher, has retired.",
+        "My mother, who was a teacher, has retired."
+      ],
+      "answer": "My mother, who is a teacher, has retired.",
+      "explanation": "'Yang' after 'Ibu saya' (my mother) is non-defining — she is unique. Use commas and 'who'."
+    },
+    {
+      "id": "rnd-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia lulus ujian dengan nilai sempurna, yang mengejutkan semua orang.\"",
+      "prompt": "Dia lulus ujian dengan nilai sempurna, yang mengejutkan semua orang.",
+      "options": [
+        "She passed an exam with a perfect score, which surprised everyone.",
+        "She passed the exam with a perfect score, which surprised everyone.",
+        "She passed the exam with an perfect score, which surprised everyone.",
+        "She passed exam with perfect score, which surprised everyone."
+      ],
+      "answer": "She passed the exam with a perfect score, which surprised everyone.",
+      "explanation": "'Yang' here refers to the whole previous clause (the act of passing) — use ', which'."
+    },
+    {
+      "id": "rnd-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Gojek, yang didirikan pada 2010, kini menjadi salah satu unicorn terbesar di Asia Tenggara.\"",
+      "prompt": "Gojek, yang didirikan pada 2010, kini menjadi salah satu unicorn terbesar di Asia Tenggara.",
+      "options": [
+        "Gojek, which was founded in 2010, was now one of the largest unicorns in Southeast Asia.",
+        "Gojek, which was founded in 2010, is now one of the largest unicorns in Southeast Asia.",
+        "Gojek, which was founded in 2010, is now one of a largest unicorns in Southeast Asia.",
+        "Gojek, which is founded in 2010, is now one of the largest unicorns in Southeast Asia."
+      ],
+      "answer": "Gojek, which was founded in 2010, is now one of the largest unicorns in Southeast Asia.",
+      "explanation": "Proper noun (Gojek) → non-defining clause. Use 'which' for a company. Add commas."
+    },
+    {
+      "id": "rnd-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Bandung, di mana saya dibesarkan, adalah kota yang indah.\"",
+      "prompt": "Bandung, di mana saya dibesarkan, adalah kota yang indah.",
+      "options": [
+        "Bandung, where I grew up, is beautiful city.",
+        "Bandung, where I grew up, is a beautiful city.",
+        "Bandung, where I grew up, was a beautiful city.",
+        "Bandung, where I grew up, is an beautiful city."
+      ],
+      "answer": "Bandung, where I grew up, is a beautiful city.",
+      "explanation": "'Di mana' → 'where'. Bandung is a proper noun → non-defining → commas."
+    },
+    {
+      "id": "rnd-mc-meaning-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "What does the non-defining clause version mean?",
+      "prompt": "'The researchers, who had tested three hypotheses, published their findings.' vs. 'The researchers who had tested three hypotheses published their findings.'",
+      "options": [
+        "Both sentences mean the same thing.",
+        "The comma version = all researchers tested three hypotheses; no comma = only those who tested three published.",
+        "The no-comma version = all researchers; comma version = only some researchers.",
+        "Both are grammatically incorrect."
+      ],
+      "answer": "The comma version = all researchers tested three hypotheses; no comma = only those who tested three published.",
+      "explanation": "Commas (non-defining) = extra info about all researchers. No commas (defining) = identifies which subset of researchers published."
+    },
+    {
+      "id": "rnd-mc-pos-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly written sentence with a non-defining clause at the end.",
+      "prompt": "Normal: 'She works at Google. Google offers excellent benefits.'",
+      "options": [
+        "She works at Google that offers excellent benefits.",
+        "She works at Google, that offers excellent benefits.",
+        "She works at Google, which offers excellent benefits.",
+        "She works at Google which offers excellent benefits."
+      ],
+      "answer": "She works at Google, which offers excellent benefits.",
+      "explanation": "Non-defining clause at the end: comma before 'which'. 'That' is not used in non-defining clauses."
+    }
+  ]
+}

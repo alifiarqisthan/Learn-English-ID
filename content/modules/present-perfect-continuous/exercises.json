@@ -6,7 +6,12 @@
       "form": "positive",
       "instruction": "Choose the correct present perfect continuous form.",
       "prompt": "I ___ for the bus for twenty minutes. Where is it?",
-      "options": ["wait", "am waiting", "have waited", "have been waiting"],
+      "options": [
+        "wait",
+        "am waiting",
+        "have waited",
+        "have been waiting"
+      ],
       "answer": "have been waiting",
       "hint": "Duration ('for twenty minutes') + still waiting now → present perfect continuous.",
       "explanation": "Duration up to now with ongoing action → have been + Ving."
@@ -17,7 +22,12 @@
       "form": "positive",
       "instruction": "Choose the correct form for he/she/it.",
       "prompt": "She ___ English for over ten years, and she's nearly fluent.",
-      "options": ["studies", "is studying", "has studied", "has been studying"],
+      "options": [
+        "studies",
+        "is studying",
+        "has studied",
+        "has been studying"
+      ],
       "answer": "has been studying",
       "hint": "Ongoing process over a long period, still continuing → has been + Ving.",
       "explanation": "'For over ten years' + still studying → has been studying."
@@ -28,7 +38,12 @@
       "form": "positive",
       "instruction": "Which form best emphasizes the ongoing effort?",
       "prompt": "He looks exhausted. He ___ all day without a break.",
-      "options": ["worked", "has worked", "has been working", "is working"],
+      "options": [
+        "worked",
+        "has worked",
+        "has been working",
+        "is working"
+      ],
       "answer": "has been working",
       "hint": "'All day' + visual evidence of exhaustion now → present perfect continuous.",
       "explanation": "Visible result of ongoing activity → present perfect continuous."
@@ -39,7 +54,12 @@
       "form": "negative",
       "instruction": "Choose the correct negative form.",
       "prompt": "I ___ well lately — I keep waking up in the middle of the night.",
-      "options": ["don't sleep", "am not sleeping", "haven't been sleeping", "hasn't been sleeping"],
+      "options": [
+        "don't sleep",
+        "am not sleeping",
+        "haven't been sleeping",
+        "hasn't been sleeping"
+      ],
       "answer": "haven't been sleeping",
       "hint": "'Lately' + ongoing bad habit → present perfect continuous negative.",
       "explanation": "Ongoing pattern up to now → haven't been + Ving."
@@ -50,7 +70,12 @@
       "form": "negative",
       "instruction": "Choose the correct form.",
       "prompt": "He ___ to his diet since the holidays — he's been eating everything!",
-      "options": ["doesn't stick", "hasn't been sticking", "haven't been sticking", "wasn't sticking"],
+      "options": [
+        "doesn't stick",
+        "hasn't been sticking",
+        "haven't been sticking",
+        "wasn't sticking"
+      ],
       "answer": "hasn't been sticking",
       "hint": "'Since the holidays' + 'he' → hasn't been + Ving.",
       "explanation": "'He' takes 'hasn't'. 'Since' triggers present perfect continuous."
@@ -61,7 +86,12 @@
       "form": "question",
       "instruction": "Choose the correct question form.",
       "prompt": "How long ___ you ___ on this project?",
-      "options": ["did / work", "have / worked", "have / been working", "has / been working"],
+      "options": [
+        "did / work",
+        "have / worked",
+        "have / been working",
+        "has / been working"
+      ],
       "answer": "have / been working",
       "hint": "'How long' + you → have been + Ving.",
       "explanation": "'How long have you been...?' is the classic present perfect continuous question."
@@ -72,7 +102,12 @@
       "form": "question",
       "instruction": "Choose the correctly formed question.",
       "prompt": "Why ___ she ___ all morning? Is she upset?",
-      "options": ["is / crying", "has / cried", "has / been crying", "have / been crying"],
+      "options": [
+        "is / crying",
+        "has / cried",
+        "has / been crying",
+        "have / been crying"
+      ],
       "answer": "has / been crying",
       "hint": "'All morning' + 'she' → has been + Ving.",
       "explanation": "Duration ('all morning') + evidence visible now + she → has been + Ving."
@@ -83,7 +118,12 @@
       "form": "positive",
       "instruction": "Stative or action verb? Choose the right form.",
       "prompt": "He ___ her since they were at school together twenty years ago.",
-      "options": ["has been knowing", "has known", "is knowing", "knows"],
+      "options": [
+        "has been knowing",
+        "has known",
+        "is knowing",
+        "knows"
+      ],
       "answer": "has known",
       "hint": "'Know' is stative → present perfect SIMPLE, even though there's duration.",
       "explanation": "Stative verb 'know' cannot use continuous form. Use present perfect simple."
@@ -94,85 +134,120 @@
       "form": "positive",
       "instruction": "Which form shows the action is complete vs still in progress?",
       "prompt": "I ___ the report — you can read it now.",
-      "options": ["have been writing", "have written", "wrote", "am writing"],
+      "options": [
+        "have been writing",
+        "have written",
+        "wrote",
+        "am writing"
+      ],
       "answer": "have written",
       "hint": "'You can read it now' = it's finished. Focus on completion → present perfect simple.",
       "explanation": "Completed result → present perfect simple. Continuous would imply it's still being written."
     },
     {
       "id": "ppc-fb-pos-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in the present perfect continuous form.",
+      "instruction": "Choose the correct answer for: the present perfect continuous form.",
       "prompt": "The children ___ (play) outside since this morning.",
-      "acceptedAnswers": ["have been playing"],
+      "options": [
+        "haves been playing",
+        "have been playinged",
+        "have been playing",
+        "playing been have"
+      ],
+      "answer": "have been playing",
       "explanation": "'Since this morning' + ongoing → have been + Ving."
     },
     {
       "id": "ppc-fb-pos-2",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Fill in with the correct form. Watch have vs has.",
+      "instruction": "Choose the correct answer for: with the correct form. Watch have vs has.",
       "prompt": "It ___ (rain) for three days straight.",
-      "acceptedAnswers": ["has been raining"],
+      "options": [
+        "has been raining",
+        "has been raininged",
+        "hass been raining",
+        "raining been has"
+      ],
+      "answer": "has been raining",
       "explanation": "Subject 'it' → has. Three days duration → has been + Ving."
     },
     {
       "id": "ppc-fb-neg-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "negative",
-      "instruction": "Fill in the negative present perfect continuous.",
+      "instruction": "Choose the correct answer for: the negative present perfect continuous.",
       "prompt": "They ___ (not / communicate) well since the argument.",
-      "acceptedAnswers": ["have not been communicating", "haven't been communicating"],
+      "options": [
+        "haves not been communicating",
+        "are not communicating",
+        "haven't been communicating",
+        "have not been communicatinged"
+      ],
+      "answer": "have not been communicating",
       "explanation": "'Since' + negative ongoing → haven't been + Ving."
     },
     {
       "id": "ppc-fb-q-1",
-      "kind": "fill_blank",
+      "kind": "multiple_choice",
       "form": "question",
       "instruction": "Build the 'How long' question.",
       "prompt": "How long ___ (she / learn) to drive?",
-      "acceptedAnswers": ["has she been learning"],
+      "options": [
+        "learning been she has",
+        "hass she been learning",
+        "has she been learninged",
+        "has she been learning"
+      ],
+      "answer": "has she been learning",
       "hint": "How long + has + subject + been + Ving.",
       "explanation": "Duration question: How long + has she been + Ving."
     },
     {
       "id": "ppc-tr-pos-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "positive",
-      "instruction": "Translate using present perfect continuous. Focus on the duration.",
+      "instruction": "Translate into English: \"Saya sudah belajar bahasa Inggris selama tiga jam dan belum selesai.\"",
       "prompt": "Saya sudah belajar bahasa Inggris selama tiga jam dan belum selesai.",
-      "modelAnswer": "I have been studying English for three hours and I'm not done yet.",
-      "alternativeAnswers": [
-        "I have been studying English for three hours and haven't finished yet.",
-        "I've been studying English for three hours and I'm not done yet."
+      "options": [
+        "I has been studying English for three hours and I'm not done yet.",
+        "I have been studying English for three hours and I'm not done yet.",
+        "I have been studying English for three is houring and I'm not done yet.",
+        "I had been studying English for three hours and I'm not done yet."
       ],
-      "keyTokens": ["have been studying", "for three hours"],
+      "answer": "I have been studying English for three hours and I'm not done yet.",
       "explanation": "Duration + ongoing → present perfect continuous."
     },
     {
       "id": "ppc-tr-neg-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "negative",
-      "instruction": "Translate as a negative present perfect continuous.",
+      "instruction": "Translate into English: \"Akhir-akhir ini saya tidak tidur dengan baik.\"",
       "prompt": "Akhir-akhir ini saya tidak tidur dengan baik.",
-      "modelAnswer": "I haven't been sleeping well lately.",
-      "alternativeAnswers": [
-        "I have not been sleeping well lately.",
-        "Lately I haven't been sleeping well."
+      "options": [
+        "I haven't been sleeping well lately, every day.",
+        "I haven't been sleeping well lately. (incorrect)",
+        "I haven't been sleeping well lately.",
+        "This is not correct English."
       ],
-      "keyTokens": ["haven't been sleeping", "lately"],
+      "answer": "I haven't been sleeping well lately.",
       "explanation": "Ongoing bad pattern up to now → present perfect continuous negative."
     },
     {
       "id": "ppc-tr-q-1",
-      "kind": "translation_id_to_en",
+      "kind": "multiple_choice",
       "form": "question",
-      "instruction": "Translate as a 'How long' question.",
+      "instruction": "Translate into English: \"Sudah berapa lama kamu menunggu di sini?\"",
       "prompt": "Sudah berapa lama kamu menunggu di sini?",
-      "modelAnswer": "How long have you been waiting here?",
-      "alternativeAnswers": ["How long have you been waiting?"],
-      "keyTokens": ["how long have you been waiting"],
+      "options": [
+        "How long have you been waiting here?",
+        "How long did you wait here?",
+        "How long has you been waiting here?",
+        "How long are you waiting here?"
+      ],
+      "answer": "How long have you been waiting here?",
       "explanation": "'Berapa lama' = how long. Ongoing wait → How long have you been + Ving."
     }
   ]

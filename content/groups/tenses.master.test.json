@@ -1,0 +1,219 @@
+{
+  "exercises": [
+    {
+      "id": "tenses-master-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Universal fact.",
+      "prompt": "Water ___ at 100°C at sea level.",
+      "options": ["is boiling", "boils", "has boiled", "has been boiling"],
+      "answer": "boils",
+      "explanation": "Universal scientific fact → present simple. Not an action in progress or a recent result."
+    },
+    {
+      "id": "tenses-master-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Action happening right now.",
+      "prompt": "Look out the window! It ___ heavily.",
+      "options": ["rains", "is raining", "has rained", "has been raining"],
+      "answer": "is raining",
+      "explanation": "'Look!' signals right now → present continuous. Observable action at this moment."
+    },
+    {
+      "id": "tenses-master-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Result still relevant now.",
+      "prompt": "I can't find my keys. I think I ___ them.",
+      "options": ["lose", "lost", "have lost", "am losing"],
+      "answer": "have lost",
+      "explanation": "Result still relevant now (can't find them) + no specific time → present perfect."
+    },
+    {
+      "id": "tenses-master-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Duration of ongoing activity.",
+      "prompt": "She ___ on that essay for three hours — she must be exhausted.",
+      "options": ["works", "is working", "has worked", "has been working"],
+      "answer": "has been working",
+      "explanation": "'For three hours' + emphasis on process/duration → present perfect continuous."
+    },
+    {
+      "id": "tenses-master-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Two sequential past actions.",
+      "prompt": "She ___ breakfast and then went to the office.",
+      "options": ["was eating", "had eaten", "ate", "had been eating"],
+      "answer": "ate",
+      "explanation": "Sequential completed past actions in a narrative → simple past. 'And then' already shows order."
+    },
+    {
+      "id": "tenses-master-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Interrupted background action.",
+      "prompt": "She ___ a bath when the doorbell rang.",
+      "options": ["had", "was having", "had had", "had been having"],
+      "answer": "was having",
+      "explanation": "Ongoing background action interrupted by a shorter event → past continuous."
+    },
+    {
+      "id": "tenses-master-7",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Action completed before another past action.",
+      "prompt": "By the time I arrived, the meeting ___.",
+      "options": ["already started", "has already started", "had already started", "was already starting"],
+      "answer": "had already started",
+      "explanation": "'By the time I arrived' + earlier past event → past perfect. The meeting started before I arrived."
+    },
+    {
+      "id": "tenses-master-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Evidence of prolonged past activity.",
+      "prompt": "His hands were covered in paint. He ___ all morning.",
+      "options": ["painted", "was painting", "had painted", "had been painting"],
+      "answer": "had been painting",
+      "explanation": "Visible evidence of a prolonged activity that ended before a past reference point → past perfect continuous."
+    },
+    {
+      "id": "tenses-master-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Scheduled future event.",
+      "prompt": "Our flight ___ at 6 am tomorrow.",
+      "options": ["is departing", "departs", "will depart", "Both A and B are correct."],
+      "answer": "Both A and B are correct.",
+      "explanation": "Scheduled/timetabled future events can use present simple ('departs') or present continuous ('is departing'). Both are correct."
+    },
+    {
+      "id": "tenses-master-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Action that will be in progress at a future time.",
+      "prompt": "This time next week, I ___ on a beach in Bali.",
+      "options": ["will lie", "will be lying", "will have lain", "am going to lie"],
+      "answer": "will be lying",
+      "explanation": "'This time next week' = a specific future moment → future continuous for action in progress at that time."
+    },
+    {
+      "id": "tenses-master-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Completed action before a future deadline.",
+      "prompt": "By the time you read this, I ___ already ___.",
+      "options": ["will / leave", "will have / left", "am going to / leave", "will be / leaving"],
+      "answer": "will have / left",
+      "explanation": "'By the time' + future reference point → future perfect: will + have + V3. Action completed before a future moment."
+    },
+    {
+      "id": "tenses-master-12",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the tense error.",
+      "prompt": "___",
+      "options": [
+        "She has lived in Jakarta since 2015.",
+        "I saw her yesterday at the market.",
+        "They have visited Paris last summer.",
+        "He has been working here for ten years."
+      ],
+      "answer": "They have visited Paris last summer.",
+      "explanation": "'Last summer' is a specific past time → simple past is required. Present perfect cannot be used with specific past time references like 'yesterday', 'last year', 'in 2019'."
+    },
+    {
+      "id": "tenses-master-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Saya sudah menunggu selama satu jam dan masih di sini.' → English:",
+      "prompt": "I ___ for an hour and I'm still here.",
+      "options": ["waited", "have waited", "have been waiting", "am waiting"],
+      "answer": "have been waiting",
+      "explanation": "Duration up to now + still in progress → present perfect continuous. 'Have been waiting' emphasises the ongoing nature of the wait."
+    },
+    {
+      "id": "tenses-master-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose: present perfect simple vs continuous. Focus on completion.",
+      "prompt": "I ___ the project. You can review it now.",
+      "options": ["am finishing", "have been finishing", "have finished", "finish"],
+      "answer": "have finished",
+      "explanation": "'You can review it now' signals completion → present perfect simple. Continuous would imply still in progress."
+    },
+    {
+      "id": "tenses-master-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense. Future action ongoing at a specific future moment.",
+      "prompt": "Don't call me at 8 pm — I ___ my son to sleep by then.",
+      "options": ["will put", "will be putting", "will have put", "am going to put"],
+      "answer": "will be putting",
+      "explanation": "'By 8 pm' = at that specific future time, the action will be in progress → future continuous."
+    },
+    {
+      "id": "tenses-master-16",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative past perfect.",
+      "prompt": "I ___ that film before, so I didn't know how it ended.",
+      "options": ["didn't see", "haven't seen", "hadn't seen", "wasn't seeing"],
+      "answer": "hadn't seen",
+      "explanation": "Not having seen the film occurred before not knowing the ending — earlier past → past perfect negative: hadn't + V3."
+    },
+    {
+      "id": "tenses-master-17",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense for a temporary situation.",
+      "prompt": "She usually lives in Bandung, but she ___ with her aunt in Jakarta this month.",
+      "options": ["stays", "is staying", "has stayed", "has been staying"],
+      "answer": "is staying",
+      "explanation": "Temporary situation contrasting with a permanent one → present continuous. 'This month' signals it's not permanent."
+    },
+    {
+      "id": "tenses-master-18",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct future perfect continuous.",
+      "prompt": "By next year, she ___ at this company for a decade.",
+      "options": [
+        "will work",
+        "will have worked",
+        "will have been working",
+        "will be working"
+      ],
+      "answer": "will have been working",
+      "explanation": "Duration up to a future point → future perfect continuous: will + have + been + V-ing. Emphasises the span of ongoing work."
+    },
+    {
+      "id": "tenses-master-19",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct tense. Past habit with nostalgic tone.",
+      "prompt": "When I was young, my grandfather ___ tell me stories every night.",
+      "options": ["will", "would", "used to", "Both B and C are correct."],
+      "answer": "Both B and C are correct.",
+      "explanation": "Past habits: 'would tell' (nostalgic/repeated action) and 'used to tell' are both correct for past repeated actions with action verbs."
+    },
+    {
+      "id": "tenses-master-20",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the tense that correctly shows which action happened first.",
+      "prompt": "The students ___ the exam before the professor ___ the results.",
+      "options": [
+        "finished / announced",
+        "had finished / announced",
+        "finished / had announced",
+        "were finishing / announced"
+      ],
+      "answer": "had finished / announced",
+      "explanation": "The finishing happened before the announcing → past perfect for the earlier action ('had finished') + past simple for the later action ('announced')."
+    }
+  ]
+}

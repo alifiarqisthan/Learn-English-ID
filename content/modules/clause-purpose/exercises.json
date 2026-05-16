@@ -1,1 +1,305 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "cp-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct purpose structure. The subjects are the same.",
+      "prompt": "She saved money ___ travel abroad after graduation.",
+      "options": [
+        "so that to",
+        "in order to",
+        "for",
+        "so that she"
+      ],
+      "answer": "in order to",
+      "explanation": "Same subject (she saved / she travels) → use 'in order to' or plain 'to'. 'In order to travel' is correct."
+    },
+    {
+      "id": "cp-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct purpose clause. The event is in the past.",
+      "prompt": "He wrote the instructions clearly so that everyone ___.",
+      "options": [
+        "can follow them",
+        "could follow them",
+        "would follow them",
+        "Both B and C are correct."
+      ],
+      "answer": "Both B and C are correct.",
+      "explanation": "Past context → could (ability) or would (intention). Both are correct for past purpose clauses."
+    },
+    {
+      "id": "cp-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that clearly expresses purpose (not result).",
+      "prompt": "___",
+      "options": [
+        "It rained, so we stayed inside.",
+        "We stayed inside so it wouldn't flood.",
+        "We stayed inside so that we could watch the film.",
+        "We stayed inside, so the event was cancelled."
+      ],
+      "answer": "We stayed inside so that we could watch the film.",
+      "explanation": "'So that we could watch the film' is purpose — the aim of staying inside. The others use 'so' as a result coordinator."
+    },
+    {
+      "id": "cp-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct negative purpose structure.",
+      "prompt": "She spoke in a low voice ___ disturb the sleeping child.",
+      "options": [
+        "in order to not",
+        "so that she not",
+        "in order not to",
+        "so not to"
+      ],
+      "answer": "in order not to",
+      "explanation": "Negative purpose with same subject: 'in order not to' + base verb. 'Not' goes before 'to'."
+    },
+    {
+      "id": "cp-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the error in purpose structure.",
+      "prompt": "___",
+      "options": [
+        "She explained it slowly so that students could understand.",
+        "He left early in order to catch the bus.",
+        "She studied hard so that she pass the exam.",
+        "They installed CCTV so that theft could be prevented."
+      ],
+      "answer": "She studied hard so that she pass the exam.",
+      "explanation": "'So that' requires a modal in the clause: 'so that she could pass'. Without a modal, the clause is incomplete."
+    },
+    {
+      "id": "cp-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "The subjects are different. Choose the correct structure.",
+      "prompt": "She explained it simply ___ students could understand.",
+      "options": [
+        "in order to",
+        "to",
+        "so that",
+        "for"
+      ],
+      "answer": "so that",
+      "explanation": "Different subjects (she explained / students understand) → 'so that' + clause. 'In order to' requires the same subject."
+    },
+    {
+      "id": "cp-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct 'for' vs. 'to' usage.",
+      "prompt": "She went to the pharmacy ___ some medicine.",
+      "options": [
+        "to get",
+        "for get",
+        "for getting",
+        "in order get"
+      ],
+      "answer": "to get",
+      "explanation": "Purpose before a verb: use 'to' + base verb. 'For' is used before a noun, not a verb."
+    },
+    {
+      "id": "cp-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct formal purpose clause (academic writing).",
+      "prompt": "The guidelines were revised ___ all participants could follow the same procedure.",
+      "options": [
+        "so",
+        "in order to",
+        "in order that",
+        "for"
+      ],
+      "answer": "in order that",
+      "explanation": "'In order that' + clause is the formal academic version of 'so that'. Different subjects are fine."
+    },
+    {
+      "id": "cp-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct sentence using 'so as not to'.",
+      "prompt": "___",
+      "options": [
+        "She moved quietly so as not to wake the baby.",
+        "She moved quietly so as not waking the baby.",
+        "She moved quietly so as to not wake the baby.",
+        "She moved quietly so not to wake the baby."
+      ],
+      "answer": "She moved quietly so as not to wake the baby.",
+      "explanation": "'So as not to' + base verb. The 'not' always comes before 'to' in this structure."
+    },
+    {
+      "id": "cp-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: the correct modal. The sentence is in the present/future context.",
+      "prompt": "She exercises every morning so that she ___ stay healthy.",
+      "options": [
+        "cans",
+        "will",
+        "caning",
+        "can"
+      ],
+      "answer": "can",
+      "explanation": "Present/future purpose clause → can (ability) or will (intention). Both are correct."
+    },
+    {
+      "id": "cp-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'so that' or 'in order to'. Subjects are the same.",
+      "prompt": "He enrolled in extra classes ___ improve his English score.",
+      "options": [
+        "in order to",
+        "to",
+        "tos",
+        "toing"
+      ],
+      "answer": "to",
+      "hint": "He enrolled and he improves — same subject.",
+      "explanation": "Same subject → 'to' or 'in order to' + base verb. No modal needed."
+    },
+    {
+      "id": "cp-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: the correct negative purpose expression.",
+      "prompt": "The laboratory was sealed ___ contamination could be prevented.",
+      "options": [
+        "sos that",
+        "so that",
+        "in order that",
+        "so thated"
+      ],
+      "answer": "so that",
+      "explanation": "Passive clause with different subject → 'so that' or 'in order that' + modal clause."
+    },
+    {
+      "id": "cp-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Convert using 'in order not to'. Fill in the missing phrase.",
+      "prompt": "'He double-checked ___ avoid any errors.' (Use 'in order not to')",
+      "options": [
+        "in order not to",
+        "to not order in",
+        "ins order not to",
+        "in order not toed"
+      ],
+      "answer": "in order not to",
+      "explanation": "'In order not to' + base verb: 'in order not to avoid' → actually: 'in order not to make any errors'. Here fill in 'in order not to'."
+    },
+    {
+      "id": "cp-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'for' or 'to' before the word 'improve'.",
+      "prompt": "She studied hard ___ improve her TOEFL score.",
+      "options": [
+        "to",
+        "did to",
+        "tos",
+        "toing"
+      ],
+      "answer": "to",
+      "explanation": "Purpose before a verb → 'to' + infinitive. 'For improve' is incorrect — 'for' precedes a noun."
+    },
+    {
+      "id": "cp-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia belajar keras agar bisa lulus ujian.\"",
+      "prompt": "Dia belajar keras agar bisa lulus ujian.",
+      "options": [
+        "She studies hard so that she can pass the exam.",
+        "She studies hard so that she can pass the exam. (incorrect)",
+        "She study hard so that she can pass the exam.",
+        "She studies hard so that she can pass an exam."
+      ],
+      "answer": "She studies hard so that she can pass the exam.",
+      "explanation": "'Agar bisa' = so that [she] can. Present context → 'can' in the purpose clause."
+    },
+    {
+      "id": "cp-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Dia pergi lebih awal agar tidak terlambat.\"",
+      "prompt": "Dia pergi lebih awal agar tidak terlambat.",
+      "options": [
+        "She left early in order not to be late.",
+        "She left early in order not to be late, every day.",
+        "She left early in order not to be late. (incorrect)",
+        "This is not correct English."
+      ],
+      "answer": "She left early in order not to be late.",
+      "explanation": "'Agar tidak terlambat' = in order not to be late / so as not to be late. Negative purpose, same subject."
+    },
+    {
+      "id": "cp-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Instruksinya disederhanakan agar mahasiswa bisa mengikutinya.\"",
+      "prompt": "Instruksinya disederhanakan agar mahasiswa bisa mengikutinya.",
+      "options": [
+        "The instructions were simplified so that students could follow them.",
+        "The instructions are simplified so that students could follow them.",
+        "The is instructioning were simplified so that is studenting could follow them.",
+        "them. follow could students that so simplified were instructions The"
+      ],
+      "answer": "The instructions were simplified so that students could follow them.",
+      "explanation": "Different subjects (instructions simplified / students follow) → 'so that' + clause with modal."
+    },
+    {
+      "id": "cp-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Dia berbicara pelan-pelan supaya semua orang bisa mendengarnya.\"",
+      "prompt": "Dia berbicara pelan-pelan supaya semua orang bisa mendengarnya.",
+      "options": [
+        "This is not correct English.",
+        "She spoke slowly so that everyone could hear her, every day.",
+        "She spoke slowly so that everyone could hear her.",
+        "She spoke slowly so that everyone could hear her. (incorrect)"
+      ],
+      "answer": "She spoke slowly so that everyone could hear her.",
+      "explanation": "Past context → could (not can). 'Supaya bisa' = so that [subject] could."
+    },
+    {
+      "id": "cp-mc-so-vs-sothat-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence that uses 'so' for RESULT and 'so that' for PURPOSE correctly.",
+      "prompt": "___",
+      "options": [
+        "She was tired so that she went to bed early.",
+        "She went to bed early so that she could rest.",
+        "She went to bed early so she was rested.",
+        "She was tired, so that she slept."
+      ],
+      "answer": "She went to bed early so that she could rest.",
+      "explanation": "'So that she could rest' = purpose — the aim of going to bed early. 'So' without 'that' typically signals result ('She was tired, so she slept')."
+    },
+    {
+      "id": "cp-mc-inorderto-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Which sentence correctly uses 'in order for' (different subjects)?",
+      "prompt": "___",
+      "options": [
+        "She explained it in order for students to understand.",
+        "She explained it in order for students understand.",
+        "She explained it in order to students understand.",
+        "She explained it in order for understanding by students."
+      ],
+      "answer": "She explained it in order for students to understand.",
+      "explanation": "Different subjects with 'in order for': in order for + person + to + verb. 'In order for students to understand' is correct."
+    }
+  ]
+}

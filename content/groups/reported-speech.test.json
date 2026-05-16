@@ -1,1 +1,174 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "rsp-test-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct tense backshift.",
+      "prompt": "\"I am tired,\" she said. → She said she ___ tired.",
+      "options": ["is", "was", "has been", "had been"],
+      "answer": "was",
+      "explanation": "Past reporting verb ('said') → tense backshift: present simple → past simple. 'She said she was tired.'"
+    },
+    {
+      "id": "rsp-test-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct backshift for 'will'.",
+      "prompt": "\"I will call you,\" he said. → He said he ___ call me.",
+      "options": ["will", "would", "can", "could"],
+      "answer": "would",
+      "explanation": "Tense backshift: will → would. 'He said he would call me.'"
+    },
+    {
+      "id": "rsp-test-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct backshift for 'can'.",
+      "prompt": "\"I can help you,\" she said. → She said she ___ help me.",
+      "options": ["can", "will", "could", "might"],
+      "answer": "could",
+      "explanation": "Tense backshift: can → could. 'She said she could help me.'"
+    },
+    {
+      "id": "rsp-test-4",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the reported speech error.",
+      "prompt": "She told that she had already finished the project.",
+      "options": [
+        "Should be 'She told me that' or 'She said that' — 'tell' needs an object.",
+        "Should be 'She told that she has finished' — present perfect stays.",
+        "Should be 'She said to that' — different preposition.",
+        "No error — 'told that' is correct."
+      ],
+      "answer": "Should be 'She told me that' or 'She said that' — 'tell' needs an object.",
+      "explanation": "'Tell' always needs a direct object (tell someone). 'Told that' without an object is incorrect. 'Said that' (no object) or 'told me that' are both correct."
+    },
+    {
+      "id": "rsp-test-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct time expression shift.",
+      "prompt": "\"I will submit it today,\" she said. → She said she would submit it ___.",
+      "options": ["today", "that day", "this day", "now"],
+      "answer": "that day",
+      "explanation": "Time expression shift: 'today' → 'that day' in reported speech. 'Today' refers to the speaker's present moment, which changes when reported."
+    },
+    {
+      "id": "rsp-test-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported yes/no question.",
+      "prompt": "\"Have you finished?\" she asked. → She asked ___ I had finished.",
+      "options": ["that", "if", "whether", "Both B and C are correct."],
+      "answer": "Both B and C are correct.",
+      "explanation": "Reported yes/no questions use 'if' or 'whether'. Both 'she asked if I had finished' and 'she asked whether I had finished' are correct."
+    },
+    {
+      "id": "rsp-test-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the indirect question word order error.",
+      "prompt": "He asked me where did I live.",
+      "options": [
+        "Should be 'where I lived' — indirect questions use statement word order.",
+        "Should be 'where do I live' — present tense needed.",
+        "Should be 'where was I living' — continuous needed.",
+        "No error."
+      ],
+      "answer": "Should be 'where I lived' — indirect questions use statement word order.",
+      "explanation": "Indirect questions: no auxiliary inversion. 'He asked me where I lived' (not 'where did I live')."
+    },
+    {
+      "id": "rsp-test-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported command.",
+      "prompt": "\"Submit your work by Friday,\" the professor said. → The professor told students ___ their work by Friday.",
+      "options": ["submitting", "to submit", "that submit", "submit"],
+      "answer": "to submit",
+      "explanation": "Reported commands: tell + object + to-infinitive. 'Told students to submit.' Not 'submitting' or 'that submit'."
+    },
+    {
+      "id": "rsp-test-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct backshift: must → ?",
+      "prompt": "\"You must register before Friday,\" she said. → She said we ___ register before Friday.",
+      "options": ["must", "had to", "should", "would"],
+      "answer": "had to",
+      "explanation": "'Must' for obligation backshifts to 'had to' in reported speech. 'She said we had to register before Friday.'"
+    },
+    {
+      "id": "rsp-test-10",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose when NOT to backshift.",
+      "prompt": "She says she ___ tired. (reporting verb is present)",
+      "options": ["was", "is", "has been", "had been"],
+      "answer": "is",
+      "explanation": "When the reporting verb is present ('says'), no backshift is needed: 'She says she is tired.' Backshift is only required after past reporting verbs."
+    },
+    {
+      "id": "rsp-test-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct reported wh-question.",
+      "prompt": "\"Where is the library?\" he asked. → He asked ___ the library was.",
+      "options": ["where", "that where", "if where", "where was"],
+      "answer": "where",
+      "explanation": "Reported wh-questions: wh-word + statement word order. 'He asked where the library was' (not 'where was the library')."
+    },
+    {
+      "id": "rsp-test-12",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the tense error in reported speech.",
+      "prompt": "She said she is going to attend the conference.",
+      "options": [
+        "Should be 'was going to attend' — backshift required after past 'said'.",
+        "Should be 'will attend' — future form needed.",
+        "Should be 'would attend' — modal backshift.",
+        "No error — present tense is always correct in reported speech."
+      ],
+      "answer": "Should be 'was going to attend' — backshift required after past 'said'.",
+      "explanation": "Past reporting verb ('said') requires backshift: 'is going to' → 'was going to'. 'She said she was going to attend.'"
+    },
+    {
+      "id": "rsp-test-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dia bilang dia akan datang besok.' → English (reported speech):",
+      "prompt": "He said he ___ come ___ day.",
+      "options": ["will / the next", "would / the next", "will / tomorrow", "would / tomorrow"],
+      "answer": "would / the next",
+      "explanation": "Backshift: 'will' → 'would'. Time expression: 'tomorrow' → 'the next day'. 'He said he would come the next day.'"
+    },
+    {
+      "id": "rsp-test-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct negative reported command.",
+      "prompt": "\"Don't make noise,\" she told them. → She told them ___ noise.",
+      "options": ["not making", "not to make", "to not make", "don't make"],
+      "answer": "not to make",
+      "explanation": "Reported negative commands: tell + object + not to + V1. 'She told them not to make noise.' 'Not to' comes before the base verb."
+    },
+    {
+      "id": "rsp-test-15",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence shows a correct permanent truth where no backshift is needed?",
+      "prompt": "___",
+      "options": [
+        "She said that the Earth is round.",
+        "She said that the Earth was round.",
+        "Both are correct — 'is' and 'was' are both acceptable.",
+        "Neither is correct — 'has been' is needed."
+      ],
+      "answer": "Both are correct — 'is' and 'was' are both acceptable.",
+      "explanation": "For permanent truths, backshift is optional. 'The Earth is round' (current truth → 'is' stays) and 'was round' (standard backshift) are both acceptable in formal English."
+    }
+  ]
+}

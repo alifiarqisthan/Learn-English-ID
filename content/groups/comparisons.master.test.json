@@ -1,0 +1,234 @@
+{
+  "exercises": [
+    {
+      "id": "comp-master-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adjective.",
+      "prompt": "This laptop is ___ than my old one.",
+      "options": ["more fast", "faster", "more faster", "fastest"],
+      "answer": "faster",
+      "explanation": "One-syllable adjective 'fast' → comparative: -er ('faster'). Never 'more fast' or 'more faster'."
+    },
+    {
+      "id": "comp-master-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative for a multi-syllable adjective.",
+      "prompt": "Her presentation was ___ than expected.",
+      "options": ["more informative", "informativeer", "informative than", "most informative"],
+      "answer": "more informative",
+      "explanation": "Multi-syllable adjectives use 'more': 'more informative'. Never add -er to long adjectives."
+    },
+    {
+      "id": "comp-master-3",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the double comparative error.",
+      "prompt": "He is more smarter than his classmates.",
+      "options": [
+        "Should be 'smarter' — 'more' + '-er' is a double comparative error.",
+        "Should be 'most smart' — superlative needed.",
+        "Should be 'more smart' — base form after 'more'.",
+        "No error."
+      ],
+      "answer": "Should be 'smarter' — 'more' + '-er' is a double comparative error.",
+      "explanation": "'Smarter' is already comparative — don't add 'more'. 'More smarter' = double comparative error."
+    },
+    {
+      "id": "comp-master-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct superlative.",
+      "prompt": "This is ___ film I have ever seen.",
+      "options": ["a best", "the best", "the most good", "better"],
+      "answer": "the best",
+      "explanation": "Irregular: good → best. Superlatives always take 'the'. 'The most good' is wrong."
+    },
+    {
+      "id": "comp-master-5",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the superlative error.",
+      "prompt": "Jakarta is the most large city in Indonesia.",
+      "options": [
+        "Should be 'the largest' — one-syllable adjective uses -est.",
+        "Should be 'the more large' — comparative needed.",
+        "Should be 'most largest' — both forms together.",
+        "No error."
+      ],
+      "answer": "Should be 'the largest' — one-syllable adjective uses -est.",
+      "explanation": "'Large' (ends in -e) → superlative: 'the largest'. 'The most large' is wrong."
+    },
+    {
+      "id": "comp-master-6",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct as…as equality structure.",
+      "prompt": "She is ___ her brother.",
+      "options": ["as tall than", "as tall as", "more tall as", "tall as"],
+      "answer": "as tall as",
+      "explanation": "As…as for equality: as + adjective + as. Both 'as' are needed. Never 'as tall than'."
+    },
+    {
+      "id": "comp-master-7",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the as…as error.",
+      "prompt": "She runs as fast than her brother.",
+      "options": [
+        "Should be 'as fast as' — both 'as' are needed.",
+        "Should be 'faster than' — comparative needed.",
+        "Should be 'as faster as' — comparative form inside.",
+        "No error."
+      ],
+      "answer": "Should be 'as fast as' — both 'as' are needed.",
+      "explanation": "as…as structure: always 'as + adjective + as'. Never 'as…than'."
+    },
+    {
+      "id": "comp-master-8",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct multiplier.",
+      "prompt": "She earns ___ I do.",
+      "options": ["twice more than", "twice as much as", "two times more as", "double as much as"],
+      "answer": "twice as much as",
+      "explanation": "Multiplier + as…as: 'twice as much as'. 'Twice more than' is redundant/non-standard."
+    },
+    {
+      "id": "comp-master-9",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct double comparative.",
+      "prompt": "The more you practise, ___ you get.",
+      "options": ["better", "more better", "the better", "the more better"],
+      "answer": "the better",
+      "explanation": "Double comparative: The + comparative, the + comparative. 'The more you practise, the better you get.' Both parts need 'the'."
+    },
+    {
+      "id": "comp-master-10",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the double comparative error in the result clause.",
+      "prompt": "The more you study, the more you get smarter.",
+      "options": [
+        "Should be 'the smarter you get' — 'smarter' is already comparative.",
+        "Should be 'the more smarter you get' — both needed.",
+        "Should be 'the most smart you get' — superlative needed.",
+        "No error."
+      ],
+      "answer": "Should be 'the smarter you get' — 'smarter' is already comparative.",
+      "explanation": "'Smarter' is comparative — don't add 'more'. Correct: 'The more you study, the smarter you get.'"
+    },
+    {
+      "id": "comp-master-11",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'fewer and fewer' or 'less and less'.",
+      "prompt": "People are spending ___ time outdoors.",
+      "options": ["fewer and fewer", "less and less", "lesser and lesser", "little and little"],
+      "answer": "less and less",
+      "explanation": "'Less and less' for uncountable nouns ('time'). 'Fewer and fewer' for countable nouns."
+    },
+    {
+      "id": "comp-master-12",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct comparative adverb.",
+      "prompt": "She works ___ than anyone else in the team.",
+      "options": ["more hard", "harder", "hardest", "most hard"],
+      "answer": "harder",
+      "explanation": "One-syllable adverb 'hard' → comparative: 'harder'. 'More hard' is also possible but 'harder' is standard."
+    },
+    {
+      "id": "comp-master-13",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Semakin keras kamu bekerja, semakin besar hasilnya.' → English:",
+      "prompt": "___ you work, ___ the results.",
+      "options": ["The harder / the greater", "More hard / more great", "The more hard / the more great", "Harder / greater"],
+      "answer": "The harder / the greater",
+      "explanation": "'Semakin…semakin' = the + comparative, the + comparative. Both parts need 'the'."
+    },
+    {
+      "id": "comp-master-14",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct 'one of the + superlative' structure.",
+      "prompt": "She is one of ___ researchers in the field.",
+      "options": ["the most talented", "the most talented researcher", "most talented", "the more talented"],
+      "answer": "the most talented",
+      "explanation": "'One of the + superlative + plural noun'. 'One of the most talented researchers' — the noun must be plural."
+    },
+    {
+      "id": "comp-master-15",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Ini tidak semewah yang saya kira.' → English:",
+      "prompt": "This is ___ I thought.",
+      "options": ["not as luxurious than", "not as luxurious as", "less luxurious as", "not more luxurious than"],
+      "answer": "not as luxurious as",
+      "explanation": "'Tidak se...seperti' = not as…as. 'This is not as luxurious as I thought' = less luxurious than expected."
+    },
+    {
+      "id": "comp-master-16",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct irregular comparative adverb.",
+      "prompt": "She performed ___ than last time.",
+      "options": ["more good", "better", "gooder", "best"],
+      "answer": "better",
+      "explanation": "Irregular: well → better (comparative). 'More good' and 'gooder' don't exist."
+    },
+    {
+      "id": "comp-master-17",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose 'as many as' for countable nouns.",
+      "prompt": "She reads ___ books a month as her sister.",
+      "options": ["as much", "as many", "twice as much", "as more"],
+      "answer": "as many",
+      "explanation": "'As many as' for countable nouns ('books'). 'As much as' for uncountable nouns."
+    },
+    {
+      "id": "comp-master-18",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which correctly uses a double comparative in academic writing?",
+      "prompt": "___",
+      "options": [
+        "The higher the temperature, the more fast the reaction.",
+        "The higher the temperature, the faster the reaction.",
+        "The more higher the temperature, the faster the reaction.",
+        "Higher the temperature, faster the reaction."
+      ],
+      "answer": "The higher the temperature, the faster the reaction.",
+      "explanation": "Double comparative: the + comparative, the + comparative. No 'more' before single-syllable comparatives. Both parts need 'the'."
+    },
+    {
+      "id": "comp-master-19",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate: 'Dia lebih tinggi dari kakaknya.' → English:",
+      "prompt": "She is ___ her sister.",
+      "options": ["more tall than", "taller than", "tallest of", "more taller than"],
+      "answer": "taller than",
+      "explanation": "'Lebih tinggi dari' = taller than. Use 'than' after comparatives."
+    },
+    {
+      "id": "comp-master-20",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Which sentence uses the superlative correctly in academic writing?",
+      "prompt": "___",
+      "options": [
+        "This is the more effective method in the study.",
+        "This is the most effective method examined in the study.",
+        "This is most effective method in the study.",
+        "This is the effectivest method in the study."
+      ],
+      "answer": "This is the most effective method examined in the study.",
+      "explanation": "Multi-syllable adjective → 'the most effective'. Always needs 'the'. 'Effectivest' is not a word."
+    }
+  ]
+}

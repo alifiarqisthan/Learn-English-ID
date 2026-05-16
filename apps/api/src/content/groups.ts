@@ -119,3 +119,19 @@ export async function loadGroupTestExercises(
 ): Promise<ModuleGroupTest | null> {
   return loadGroupTest(groupDir, slug);
 }
+
+export async function loadMasterGroupTest(
+  groupDir: string,
+  masterSlug: string,
+): Promise<ModuleGroupTest | null> {
+  const testPath = path.join(groupDir, `${masterSlug}.master.test.json`);
+  try {
+    const raw = await fs.readFile(testPath, "utf-8");
+    const parsed = groupTestSchema.parse(JSON.parse(raw));
+    if (parsed.exercises.length === 0) return null;
+    return { slug: masterSlug, title: "", exercises: parsed.exercises };
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === "ENOENT") return null;
+    throw err;
+  }
+}

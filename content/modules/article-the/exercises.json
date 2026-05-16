@@ -1,1 +1,304 @@
-{ "exercises": [] }
+{
+  "exercises": [
+    {
+      "id": "the-mc-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article for second mention.",
+      "prompt": "She found a wallet on the street. ___ wallet contained a lot of cash.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": "The",
+      "explanation": "Second mention — the wallet was introduced with 'a'. When referring back, use 'the'."
+    },
+    {
+      "id": "the-mc-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article. This is a geographical name.",
+      "prompt": "___ Amazon is the largest river by water volume in the world.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": "The",
+      "explanation": "Rivers always take 'the': the Amazon, the Nile, the Thames."
+    },
+    {
+      "id": "the-mc-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article before a superlative.",
+      "prompt": "It was ___ most challenging project she had ever managed.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "the",
+      "explanation": "Superlatives always use 'the': the most challenging, the best, the worst."
+    },
+    {
+      "id": "the-mc-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the sentence with a wrong article use.",
+      "prompt": "___",
+      "options": [
+        "She has always wanted to visit the Philippines.",
+        "He climbed the Mount Everest last year.",
+        "The government announced new tax measures.",
+        "The Pacific Ocean covers more than a third of Earth's surface."
+      ],
+      "answer": "He climbed the Mount Everest last year.",
+      "explanation": "Individual mountains do NOT take 'the'. Correct: 'He climbed Mount Everest'."
+    },
+    {
+      "id": "the-mc-neg-2",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Identify the incorrect article use.",
+      "prompt": "___",
+      "options": [
+        "She lives in the United Arab Emirates.",
+        "He is studying in the France.",
+        "They visited the Netherlands last summer.",
+        "The United States has 50 states."
+      ],
+      "answer": "He is studying in the France.",
+      "explanation": "Most single country names take no article. 'France' → no 'the'. Exception: 'the Netherlands', 'the United States' (plural/official name)."
+    },
+    {
+      "id": "the-mc-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct article. The noun is unique.",
+      "prompt": "___ sun provides energy to all living things on Earth.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": "The",
+      "explanation": "Unique nouns (only one exists) use 'the': the sun, the moon, the earth."
+    },
+    {
+      "id": "the-mc-q-2",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct article for an institution used for its function.",
+      "prompt": "After the accident, she was taken to ___ hospital.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "no article",
+      "explanation": "'Hospital' used for its function (as a patient) → no article. 'She was taken to hospital' (British English) or 'to the hospital' (American English). Both are acceptable — the key point is functional use vs. location."
+    },
+    {
+      "id": "the-mc-pos-4",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the sentence with the correct use of 'the'.",
+      "prompt": "___",
+      "options": [
+        "The knowledge is power.",
+        "She has the knowledge needed to lead the team.",
+        "I love the music in general.",
+        "The happiness is the goal of life."
+      ],
+      "answer": "She has the knowledge needed to lead the team.",
+      "explanation": "Specific knowledge (the knowledge needed for this specific job) → 'the'. General concepts like 'knowledge is power' or 'I love music' use zero article."
+    },
+    {
+      "id": "the-mc-pos-5",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article.",
+      "prompt": "She was ___ first woman to win this award.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "the",
+      "explanation": "Ordinals (first, second, last) always use 'the': 'the first woman to win'."
+    },
+    {
+      "id": "the-fb-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'the' or write 'no article' (∅).",
+      "prompt": "He has always admired ___ Himalayas.",
+      "options": [
+        "did the",
+        "thes",
+        "theing",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Mountain ranges use 'the': the Himalayas, the Alps, the Andes."
+    },
+    {
+      "id": "the-fb-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'the' or write 'no article' (∅).",
+      "prompt": "She moved to ___ Jakarta after graduating.",
+      "options": [
+        "an",
+        "∅",
+        "no article",
+        "a"
+      ],
+      "answer": "no article",
+      "explanation": "Cities do not take 'the': Jakarta, London, Tokyo."
+    },
+    {
+      "id": "the-fb-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Choose the correct answer for: 'the' or write 'no article'. The noun is unique.",
+      "prompt": "___ moon orbits the Earth approximately every 27 days.",
+      "options": [
+        "The",
+        "did the",
+        "theing",
+        "thes"
+      ],
+      "answer": "The",
+      "explanation": "The moon is a unique noun (only one) → 'the'."
+    },
+    {
+      "id": "the-fb-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Choose the correct answer for: 'the' or 'no article'. Shared context: you are in an office.",
+      "prompt": "Could you please open ___ window? It's very hot in here.",
+      "options": [
+        "the",
+        "theing",
+        "thes",
+        "did the"
+      ],
+      "answer": "the",
+      "explanation": "Shared context — both speakers know which window in this room → 'the'."
+    },
+    {
+      "id": "the-fb-pos-3",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct answer for: 'the' or 'no article'. Geographical: plural country name.",
+      "prompt": "She applied for a visa to ___ United States.",
+      "options": [
+        "theing",
+        "the",
+        "thes",
+        "did the"
+      ],
+      "answer": "the",
+      "explanation": "'United States' is a plural/official name → 'the'. Exceptions to the no-article rule for countries."
+    },
+    {
+      "id": "the-tr-pos-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Saya membeli sebuah laptop baru. Laptop itu sangat mahal.\"",
+      "prompt": "Saya membeli sebuah laptop baru. Laptop itu sangat mahal.",
+      "options": [
+        "I bought a new laptop. The laptop was very expensive.",
+        "I bought an new laptop. The laptop was very expensive.",
+        "I bought a new laptop. The laptop is very expensive.",
+        "I bought new laptop. The laptop was very expensive."
+      ],
+      "answer": "I bought a new laptop. The laptop was very expensive.",
+      "explanation": "First mention → 'a new laptop'. Second mention → 'the laptop' (or 'it')."
+    },
+    {
+      "id": "the-tr-pos-2",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Translate into English: \"Sungai Amazon adalah sungai terbesar di dunia berdasarkan volume air.\"",
+      "prompt": "Sungai Amazon adalah sungai terbesar di dunia berdasarkan volume air.",
+      "options": [
+        "The Amazon is the largest river in the world by water volume.",
+        "The Amazon is largest river in world by water volume.",
+        "The Amazon is a largest river in a world by water volume.",
+        "The Amazon was the largest river in the world by water volume."
+      ],
+      "answer": "The Amazon is the largest river in the world by water volume.",
+      "explanation": "River → 'the Amazon'. Superlative → 'the largest'."
+    },
+    {
+      "id": "the-tr-neg-1",
+      "kind": "multiple_choice",
+      "form": "negative",
+      "instruction": "Translate into English: \"Dia lahir di Indonesia tetapi sekarang tinggal di Belanda.\"",
+      "prompt": "Dia lahir di Indonesia tetapi sekarang tinggal di Belanda.",
+      "options": [
+        "She was born in Indonesia but now lives in a Netherlands.",
+        "She was born in Indonesia but now lives in the Netherlands.",
+        "she were born in Indonesia but now live in the Netherlands.",
+        "She was born in Indonesia but now live in the Netherlands."
+      ],
+      "answer": "She was born in Indonesia but now lives in the Netherlands.",
+      "explanation": "'Indonesia' → no article (single country). 'Belanda' = the Netherlands → 'the' (plural name)."
+    },
+    {
+      "id": "the-tr-q-1",
+      "kind": "multiple_choice",
+      "form": "question",
+      "instruction": "Translate into English: \"Dia adalah mahasiswa terbaik di angkatannya.\"",
+      "prompt": "Dia adalah mahasiswa terbaik di angkatannya.",
+      "options": [
+        "she are the best student in her year.",
+        "She was the best student in her year.",
+        "She is  a best student in her year.",
+        "She is the best student in her year."
+      ],
+      "answer": "She is the best student in her year.",
+      "explanation": "Superlative 'terbaik' = 'the best'. Always use 'the' before superlatives."
+    },
+    {
+      "id": "the-mc-geo-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correctly written sentence for geographical names.",
+      "prompt": "___",
+      "options": [
+        "The Lake Toba is the largest volcanic lake in the world.",
+        "Lake Toba is the largest volcanic lake in the world.",
+        "The Lake Toba is largest volcanic lake in world.",
+        "Lake the Toba is the largest volcanic lake in the world."
+      ],
+      "answer": "Lake Toba is the largest volcanic lake in the world.",
+      "explanation": "Lakes do NOT take 'the' (Lake Toba, Lake Victoria). Superlative 'largest' → 'the largest'."
+    },
+    {
+      "id": "the-mc-shared-1",
+      "kind": "multiple_choice",
+      "form": "positive",
+      "instruction": "Choose the correct article. You are both in the same building.",
+      "prompt": "Let's take ___ lift — the stairs are too slow.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answer": "the",
+      "explanation": "Shared context — both speakers know which lift is in this building → 'the lift'."
+    }
+  ]
+}
