@@ -21,8 +21,10 @@ export type MockQuestion = {
   explanation: string;
 };
 
-export type MockTestPackage = {
+// iBT package shape
+export type IbtPackage = {
   id: string;
+  format?: undefined | null;
   title: string;
   reading: {
     timeLimit: number;
@@ -50,6 +52,52 @@ export type MockTestPackage = {
     }[];
   };
 };
+
+// ITP question item shapes
+export type ItpShortItem = {
+  id: string; script: string; question: string;
+  options: string[]; answer: string; explanation: string;
+};
+export type ItpLongItem = {
+  id: string; script: string;
+  questions: { id: string; question: string; options: string[]; answer: string; explanation: string }[];
+};
+export type ItpStructureItem = {
+  id: string; prompt: string; options: string[]; answer: string; explanation: string;
+};
+export type ItpErrorItem = {
+  id: string; prompt: string; options: string[]; answer: string; explanation: string;
+};
+
+// ITP package shape
+export type ItpPackage = {
+  id: string;
+  format: "itp";
+  title: string;
+  listening: {
+    timeLimit: number;
+    totalQuestions: number;
+    parts: (
+      | { id: string; type: "short_conversation"; name: string; instruction: string; items: ItpShortItem[] }
+      | { id: string; type: "long_conversation" | "mini_lecture"; name: string; instruction: string; items: ItpLongItem[] }
+    )[];
+  };
+  structure: {
+    timeLimit: number;
+    totalQuestions: number;
+    parts: (
+      | { id: string; type: "sentence_completion"; name: string; instruction: string; items: ItpStructureItem[] }
+      | { id: string; type: "error_identification"; name: string; instruction: string; items: ItpErrorItem[] }
+    )[];
+  };
+  reading: {
+    timeLimit: number;
+    totalQuestions: number;
+    passages: { id: string; title: string; text: string; questions: MockQuestion[] }[];
+  };
+};
+
+export type MockTestPackage = IbtPackage | ItpPackage;
 
 export function getStoredUser(): AuthUser | null {
   try {
@@ -116,7 +164,7 @@ export const api = {
     jsonFetch<ModuleGroupTest>(`/groups/${masterSlug}/master-test`),
 
   // Mock tests
-  listMockTests: () => jsonFetch<{ id: string; title: string }[]>("/mock-tests"),
+  listMockTests: () => jsonFetch<{ id: string; title: string; format?: string }[]>("/mock-tests"),
   getMockTest: (id: string) => jsonFetch<MockTestPackage>(`/mock-tests/${id}`),
 
   // User progress

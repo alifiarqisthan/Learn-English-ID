@@ -5,7 +5,7 @@ import { config } from "../config.js";
 
 export const mockTestsRouter = Router();
 
-const mockTestDir = path.resolve(config.contentDir, "../../mock-tests");
+const mockTestDir = config.mockTestDir;
 
 // Cache
 const cache = new Map<string, unknown>();
@@ -28,7 +28,7 @@ mockTestsRouter.get("/", async (_req, res, next) => {
         .map(async (f) => {
           const id = f.replace(".json", "");
           const data = await loadPackage(id) as Record<string, unknown>;
-          return { id: data.id, title: data.title };
+          return { id: data.id, title: data.title, format: data.format ?? null };
         })
     );
     res.json(packages.sort((a, b) => String(a.id).localeCompare(String(b.id))));

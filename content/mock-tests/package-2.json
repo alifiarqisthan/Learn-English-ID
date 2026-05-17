@@ -265,11 +265,169 @@
     "tracks": [
       {
         "id": "l2t1",
+        "type": "lecture",
+        "script": "Professor: Today we're going to discuss plate tectonics — the theory that explains the large-scale movement of Earth's lithosphere and accounts for some of the planet's most dramatic geological features. This theory, which became the dominant paradigm in geology only in the 1960s and 1970s, unified a wide range of previously puzzling observations into a single coherent framework.\n\nLet's start with the lithosphere. The outermost layer of Earth is divided into about fifteen major tectonic plates — rigid slabs of rock comprising both the crust and the uppermost mantle. These plates float, in a sense, on the asthenosphere — a partially molten layer of the mantle that is sufficiently ductile to flow over geological time scales. The plates move because of convection currents in the mantle: hot material rises from deep in Earth's interior, spreads laterally beneath the plates, and drags them along. The speeds involved are slow by human standards — typically one to fifteen centimeters per year, roughly the rate at which your fingernails grow — but over millions of years these movements produce enormous changes.\n\nThere are three types of plate boundaries, and each produces a distinctive set of geological features. At divergent boundaries, plates move apart. In the ocean, this produces mid-ocean ridges — underwater mountain ranges where new oceanic crust is formed as magma rises to fill the gap. The Mid-Atlantic Ridge is the most famous example: it runs roughly down the center of the Atlantic Ocean and is responsible for the gradual widening of the Atlantic basin at a rate of about 2.5 centimeters per year. Iceland sits directly on the Mid-Atlantic Ridge and is one of the few places in the world where you can stand on exposed mid-ocean ridge material and watch new land being created by volcanic activity.\n\nAt convergent boundaries, plates move toward each other. What happens depends on what types of crust are involved. When two continental plates collide, neither subducts — they crumple and push upward, forming mountain ranges. The Himalayas were formed this way, as the Indian plate collided with the Eurasian plate beginning roughly 50 million years ago — and they're still rising today. When an oceanic plate converges with a continental plate, the denser oceanic plate subducts beneath the lighter continental one, sinking into the mantle. This process creates deep ocean trenches — like the Mariana Trench in the Pacific — and volcanic arcs on the overriding plate as the subducting material melts and rises as magma. The volcanic mountain ranges of the Pacific coast of the Americas were formed this way.\n\nStudent: Professor, what happens when two oceanic plates meet?\n\nProfessor: Good question. When two oceanic plates converge, the older, denser plate subducts beneath the younger one, again creating a trench and a volcanic island arc — the Japanese islands and the Aleutian chain in Alaska are examples of this. At transform boundaries — the third type — plates slide horizontally past each other without creating or destroying crust. The San Andreas Fault in California is the best-known example. Because the plates grind against each other rather than sliding smoothly, transform boundaries are associated with frequent and sometimes severe earthquakes.\n\nThe evidence that convinced the scientific community of plate tectonics by the 1970s came from multiple independent lines of inquiry. Seafloor spreading was documented through the discovery of symmetric magnetic anomaly patterns on either side of mid-ocean ridges — created as magma solidified and recorded the direction of Earth's magnetic field at the time of formation. Deep-sea drilling confirmed that ocean floor sediments are youngest near the ridges and oldest near the continental margins. GPS measurements now directly confirm plate motion in real time. And paleontologists had long noted that the same fossil species appear on continents now separated by thousands of kilometers of ocean — a puzzle that plate tectonics elegantly resolved.\n\nThe theory has enormous practical implications. Earthquake and volcanic hazard assessment depends on understanding where plate boundaries are located and how rapidly plates move. The distribution of metallic ore deposits — copper, gold, nickel — is closely tied to ancient and modern subduction zones. And geothermal energy, which harnesses heat from Earth's interior, is most accessible in tectonically active regions. Plate tectonics is not merely an abstract scientific theory; it shapes how we understand the dynamic planet on which we live.",
+        "questions": [
+          {
+            "id": "l2t1q1",
+            "question": "What is the main purpose of the lecture?",
+            "options": [
+              "A. To trace the career of scientists who developed plate tectonics theory.",
+              "B. To explain the mechanisms, types of plate boundaries, and significance of plate tectonics.",
+              "C. To describe the geological history of specific mountain ranges.",
+              "D. To compare the geology of the Atlantic and Pacific Oceans."
+            ],
+            "answer": "B",
+            "explanation": "The lecture explains what plates are, how they move, describes all three types of boundaries with examples, discusses the evidence for the theory, and concludes with practical implications."
+          },
+          {
+            "id": "l2t1q2",
+            "question": "According to the professor, why do tectonic plates move?",
+            "options": [
+              "A. They are pushed by the weight of ocean water pressing on the seafloor.",
+              "B. They are dragged along by convection currents in the mantle.",
+              "C. They slide freely on a completely liquid layer below the crust.",
+              "D. They are pulled by the gravitational attraction of the moon."
+            ],
+            "answer": "B",
+            "explanation": "The professor explains that convection currents in the mantle cause hot material to rise, spread, and 'drag them along' — driving plate movement."
+          },
+          {
+            "id": "l2t1q3",
+            "question": "What does the professor say about the Himalayas?",
+            "options": [
+              "A. They were formed when an oceanic plate subducted beneath a continental plate.",
+              "B. They are the result of a divergent boundary creating a mid-ocean ridge.",
+              "C. They were formed when the Indian and Eurasian continental plates collided, and are still rising.",
+              "D. They contain the deepest ocean trench on Earth."
+            ],
+            "answer": "C",
+            "explanation": "The professor states the Himalayas were formed as the Indian plate collided with the Eurasian plate about 50 million years ago and 'they're still rising today' — a result of two continental plates converging."
+          },
+          {
+            "id": "l2t1q4",
+            "question": "According to the professor, what characterizes transform boundaries?",
+            "options": [
+              "A. New crust is created as magma fills the gap between separating plates.",
+              "B. One plate sinks beneath the other, forming deep ocean trenches.",
+              "C. Plates slide horizontally past each other, and they are associated with frequent earthquakes.",
+              "D. Two continental plates collide and form mountain ranges."
+            ],
+            "answer": "C",
+            "explanation": "The professor says at transform boundaries, 'plates slide horizontally past each other without creating or destroying crust' and they are 'associated with frequent and sometimes severe earthquakes.'"
+          },
+          {
+            "id": "l2t1q5",
+            "question": "What evidence from paleontology supported the theory of plate tectonics?",
+            "options": [
+              "A. Fossils of marine organisms were found on continents far from the ocean.",
+              "B. The same fossil species were found on continents now separated by thousands of kilometers.",
+              "C. Dinosaur fossils were larger in tropical regions, suggesting ancient climate patterns.",
+              "D. Fossilized plants demonstrated that all continents were once covered by ocean."
+            ],
+            "answer": "B",
+            "explanation": "The professor mentions that 'paleontologists had long noted that the same fossil species appear on continents now separated by thousands of kilometers of ocean' — a puzzle resolved by plate tectonics."
+          },
+          {
+            "id": "l2t1q6",
+            "question": "What does the professor imply about the practical value of plate tectonics theory?",
+            "options": [
+              "A. It is primarily of historical interest and has few real-world applications.",
+              "B. It is useful for understanding earthquakes and volcanoes but not for resource exploration.",
+              "C. It informs earthquake and volcanic hazard assessment, mineral resource distribution, and geothermal energy potential.",
+              "D. Its main application is helping GPS systems measure distances between cities."
+            ],
+            "answer": "C",
+            "explanation": "The professor explicitly mentions earthquake/volcanic hazard assessment, ore deposit distribution tied to subduction zones, and geothermal energy as practical implications of the theory."
+          }
+        ]
+      },
+      {
+        "id": "l2t2",
+        "type": "lecture",
+        "script": "Professor: Today I want to talk about an event that fundamentally transformed the world's economies, ecologies, and populations — the Columbian Exchange. The term was coined by historian Alfred Crosby in the 1970s to describe the massive transfer of plants, animals, diseases, and people between the Americas and the Old World — Europe, Africa, and Asia — that began after Christopher Columbus's voyages in 1492. It is one of the most consequential ecological events in recorded human history.\n\nBefore 1492, the Eastern and Western Hemispheres had been biologically isolated from each other for roughly 10,000 years — ever since rising sea levels submerged the Bering Land Bridge. During that time, the two hemisystems had evolved completely different agricultural systems, disease environments, and animal domesticates. The Columbian Exchange broke this isolation permanently.\n\nThe transfer of crops from the Americas to the Old World had transformative effects on global nutrition and population growth. American domesticates — including maize, potatoes, sweet potatoes, tomatoes, peppers, cacao, and manioc — eventually became dietary staples across Europe, Africa, and Asia. The potato is perhaps the most dramatic example. Introduced to Ireland in the sixteenth century, it became the primary food source for a large portion of the Irish population by the eighteenth century — enabling significant population growth that had not been possible on grain-based diets alone. When a fungal blight destroyed the potato crop in the 1840s, the resulting famine killed approximately one million people and drove another million to emigrate. Maize transformed agriculture across Africa, providing a high-yield staple that could grow in conditions unsuitable for traditional African grains, fueling demographic expansion across the continent.\n\nStudent: Professor, were there significant transfers from the Old World to the Americas as well?\n\nProfessor: Absolutely — and in some ways these were even more consequential. Old World crops like wheat, rice, sugarcane, and citrus were introduced to the Americas and fundamentally restructured American agriculture and economies. But the most devastating transfer was not crops or animals — it was disease. Indigenous American populations had no prior exposure to Old World diseases such as smallpox, measles, typhus, and influenza. Without immunological resistance built up through centuries of exposure, these populations suffered catastrophic mortality. Estimates vary widely, but many historians and epidemiologists believe that 50 to 90 percent of the indigenous population of the Americas died within a century of contact — perhaps 50 to 80 million people. This demographic catastrophe — sometimes called the Great Dying — reshaped the landscape of the Americas so profoundly that European colonizers mistook the depopulated forests and grasslands for pristine, uninhabited wilderness.\n\nThe Columbian Exchange also fundamentally restructured global labor systems. The collapse of indigenous populations created a demand for labor on American plantations that European colonizers met through the transatlantic slave trade — forcibly transplanting approximately 12.5 million Africans to the Americas between the sixteenth and nineteenth centuries. The sugar, tobacco, and cotton economies that developed in the Americas were thus built on a synthesis of American land, African labor, and European capital — a global system whose consequences, including the racial hierarchies it produced, continue to shape the contemporary world.\n\nEnvironmentally, the Columbian Exchange accelerated ecological change on a global scale. Old World animals — horses, cattle, pigs, sheep, goats, and rats — were introduced to American ecosystems that had no evolutionary history with them. Feral horse populations transformed the Great Plains; feral pigs spread throughout the American South; rats traveled on every European ship and established themselves in every port. In the other direction, American species like the gray squirrel have become invasive in Europe. The long-term environmental legacies of the Columbian Exchange — altered ecosystems, introduced species, changed land use patterns — are still playing out today.",
+        "questions": [
+          {
+            "id": "l2t2q1",
+            "question": "What is the Columbian Exchange, according to the professor?",
+            "options": [
+              "A. A trade agreement between Spain and Portugal following Columbus's voyages.",
+              "B. The massive transfer of plants, animals, diseases, and people between the Americas and the Old World after 1492.",
+              "C. A monetary system developed to facilitate commerce between European colonies.",
+              "D. A series of diplomatic exchanges between indigenous American leaders and European monarchs."
+            ],
+            "answer": "B",
+            "explanation": "The professor defines the Columbian Exchange as 'the massive transfer of plants, animals, diseases, and people between the Americas and the Old World — Europe, Africa, and Asia — that began after Columbus's voyages in 1492.'"
+          },
+          {
+            "id": "l2t2q2",
+            "question": "According to the professor, what made the Irish Famine of the 1840s so devastating?",
+            "options": [
+              "A. Ireland had no access to maritime trade routes to import replacement food.",
+              "B. The potato had become the primary food source for a large portion of the Irish population, leaving them vulnerable when the crop failed.",
+              "C. A war prevented aid from reaching Ireland during the famine years.",
+              "D. Irish farmers refused to adopt alternative crops offered by the British government."
+            ],
+            "answer": "B",
+            "explanation": "The professor explains that the potato had 'become the primary food source for a large portion of the Irish population' — so when a fungal blight destroyed it, the dependency produced catastrophic famine."
+          },
+          {
+            "id": "l2t2q3",
+            "question": "According to the professor, what does the term 'Great Dying' refer to?",
+            "options": [
+              "A. The extinction of large mammals in the Americas following European settlement.",
+              "B. The catastrophic mortality of indigenous American populations due to Old World diseases.",
+              "C. The death of European colonizers from tropical diseases encountered in the Americas.",
+              "D. The elimination of traditional African crops by American plant imports."
+            ],
+            "answer": "B",
+            "explanation": "The professor refers to the 'Great Dying' as the demographic catastrophe in which 50-90% of indigenous Americans died from Old World diseases like smallpox and measles within a century of contact."
+          },
+          {
+            "id": "l2t2q4",
+            "question": "How does the professor connect the Great Dying to the transatlantic slave trade?",
+            "options": [
+              "A. European colonizers enslaved surviving indigenous populations to replace those who had died.",
+              "B. The collapse of indigenous populations created a labor shortage on American plantations that was met by forcibly importing African labor.",
+              "C. African diseases that accompanied enslaved people caused additional indigenous mortality.",
+              "D. The slave trade was a direct response to the failure of Old World crops in American soil."
+            ],
+            "answer": "B",
+            "explanation": "The professor states that 'the collapse of indigenous populations created a demand for labor on American plantations that European colonizers met through the transatlantic slave trade' — directly linking the two events."
+          },
+          {
+            "id": "l2t2q5",
+            "question": "What does the professor say about Old World animals introduced to the Americas?",
+            "options": [
+              "A. They quickly went extinct because they could not adapt to American ecosystems.",
+              "B. They were domesticated by indigenous peoples and integrated into traditional agriculture.",
+              "C. They spread throughout the Americas and altered ecosystems that had no evolutionary history with them.",
+              "D. They were introduced only to regions already depopulated by disease, to avoid disrupting indigenous communities."
+            ],
+            "answer": "C",
+            "explanation": "The professor says horses, cattle, pigs, sheep, goats, and rats were introduced to 'American ecosystems that had no evolutionary history with them' and spread widely — feral horses transformed the Great Plains, feral pigs spread through the South."
+          },
+          {
+            "id": "l2t2q6",
+            "question": "What does the professor imply about the legacy of the Columbian Exchange today?",
+            "options": [
+              "A. Its effects were largely reversed within two centuries as ecosystems and populations recovered.",
+              "B. Its consequences — ecological, demographic, and social — continue to shape the contemporary world.",
+              "C. The Exchange benefited all parties involved roughly equally in the long run.",
+              "D. Modern historians no longer consider the Columbian Exchange to be a significant historical event."
+            ],
+            "answer": "B",
+            "explanation": "The professor states that racial hierarchies produced by the Exchange 'continue to shape the contemporary world' and that environmental legacies 'are still playing out today' — indicating the Exchange's lasting consequences."
+          }
+        ]
+      },
+      {
+        "id": "l2t3",
         "type": "conversation",
         "script": "Student: Hi, I'm looking for the housing office — am I in the right place?\nStaff: Yes, you are. How can I help you today?\nStudent: I have a problem with my room assignment for next semester. I applied for a single room in Harrison Hall, but when I checked my assignment online this morning, I've been placed in a double in Wilson Dormitory. I'm not sure what happened.\nStaff: Let me pull up your application. What's your student ID?\nStudent: It's 4-7-2-9-8-6.\nStaff: Okay, I see your application here. You did request a single in Harrison Hall, and you submitted it on April 3rd. The issue is that Harrison Hall has 94 single rooms and we received over 300 requests for singles this year — so it's extremely competitive. When demand exceeds supply, we allocate single rooms based on a combination of seniority and the date the application was received. As a sophomore, you're in the third-priority tier.\nStudent: I see. So there's no way I can get a single?\nStaff: Not in Harrison Hall, no — that's fully assigned. But we do have a waitlist, and students do move around before the semester starts. Also, there are single rooms available in two other dormitories — Maple House and the Lakeside Apartments. They're not as centrally located, but the rooms are actually larger and both buildings were renovated last year.\nStudent: How far are they from the main academic buildings?\nStaff: Maple House is about a twelve-minute walk. Lakeside is a bit farther — fifteen to eighteen minutes — but it's on the shuttle route, so you can take the bus on days when the weather is bad.\nStudent: What's the difference in cost?\nStaff: Both are slightly more expensive than Harrison Hall singles — about 200 dollars more per semester. However, if you apply for the residential scholarship program, sophomores can qualify for a partial subsidy. I can give you the application form before you leave.\nStudent: That would be really helpful, yes. Can I go on both the Harrison waitlist and transfer my application to Lakeside at the same time?\nStaff: You can go on the Harrison waitlist, but if you transfer your application to Lakeside, you'd be removing yourself from the priority pool for Harrison. I'd recommend deciding which is more important to you — location or guaranteed access to a single.\nStudent: Okay, I think I'll take the Lakeside application then, and get the scholarship form too. Is there anything else I need to do?\nStaff: Just bring your student ID card when you come back with the completed forms, and we'll update your assignment. Try to come back by Friday — assignments need to be finalized by the end of next week.\nStudent: Perfect, thank you so much for explaining everything.\nStaff: Of course — good luck with the housing.",
         "questions": [
           {
-            "id": "l2t1q1",
+            "id": "l2t3q1",
             "question": "Why is the student visiting the housing office?",
             "options": [
               "A. To complain about noisy neighbors in her current dormitory.",
@@ -281,7 +439,7 @@
             "explanation": "The student explains she applied for a single room in Harrison Hall but was assigned a double in Wilson Dormitory — a discrepancy from her request."
           },
           {
-            "id": "l2t1q2",
+            "id": "l2t3q2",
             "question": "According to the staff member, why did the student not receive a single room in Harrison Hall?",
             "options": [
               "A. Her application was submitted after the deadline.",
@@ -293,7 +451,7 @@
             "explanation": "The staff member explains that Harrison Hall received over 300 requests for 94 single rooms, and that allocation is based on seniority and application date — as a sophomore, the student was in the third-priority tier."
           },
           {
-            "id": "l2t1q3",
+            "id": "l2t3q3",
             "question": "What does the staff member say about the Lakeside Apartments?",
             "options": [
               "A. They are the closest dormitory to the main academic buildings.",
@@ -305,7 +463,7 @@
             "explanation": "The staff member says Lakeside 'is on the shuttle route' and both Lakeside and Maple House 'were renovated last year.'"
           },
           {
-            "id": "l2t1q4",
+            "id": "l2t3q4",
             "question": "What does the staff member advise the student about going on the Harrison Hall waitlist?",
             "options": [
               "A. She can be on the Harrison waitlist while simultaneously transferring to Lakeside.",
@@ -317,7 +475,7 @@
             "explanation": "The staff member tells the student that 'if you transfer your application to Lakeside, you'd be removing yourself from the priority pool for Harrison' — she must choose one."
           },
           {
-            "id": "l2t1q5",
+            "id": "l2t3q5",
             "question": "What does the student decide to do at the end of the conversation?",
             "options": [
               "A. Stay in her current Wilson Dormitory assignment and save money.",
@@ -331,81 +489,148 @@
         ]
       },
       {
-        "id": "l2t2",
+        "id": "l2t4",
         "type": "lecture",
-        "script": "Professor: Today we're going to discuss plate tectonics — the theory that explains the large-scale movement of Earth's lithosphere and accounts for some of the planet's most dramatic geological features. This theory, which became the dominant paradigm in geology only in the 1960s and 1970s, unified a wide range of previously puzzling observations into a single coherent framework.\n\nLet's start with the lithosphere. The outermost layer of Earth is divided into about fifteen major tectonic plates — rigid slabs of rock comprising both the crust and the uppermost mantle. These plates float, in a sense, on the asthenosphere — a partially molten layer of the mantle that is sufficiently ductile to flow over geological time scales. The plates move because of convection currents in the mantle: hot material rises from deep in Earth's interior, spreads laterally beneath the plates, and drags them along. The speeds involved are slow by human standards — typically one to fifteen centimeters per year, roughly the rate at which your fingernails grow — but over millions of years these movements produce enormous changes.\n\nThere are three types of plate boundaries, and each produces a distinctive set of geological features. At divergent boundaries, plates move apart. In the ocean, this produces mid-ocean ridges — underwater mountain ranges where new oceanic crust is formed as magma rises to fill the gap. The Mid-Atlantic Ridge is the most famous example: it runs roughly down the center of the Atlantic Ocean and is responsible for the gradual widening of the Atlantic basin at a rate of about 2.5 centimeters per year. Iceland sits directly on the Mid-Atlantic Ridge and is one of the few places in the world where you can stand on exposed mid-ocean ridge material and watch new land being created by volcanic activity.\n\nAt convergent boundaries, plates move toward each other. What happens depends on what types of crust are involved. When two continental plates collide, neither subducts — they crumple and push upward, forming mountain ranges. The Himalayas were formed this way, as the Indian plate collided with the Eurasian plate beginning roughly 50 million years ago — and they're still rising today. When an oceanic plate converges with a continental plate, the denser oceanic plate subducts beneath the lighter continental one, sinking into the mantle. This process creates deep ocean trenches — like the Mariana Trench in the Pacific — and volcanic arcs on the overriding plate as the subducting material melts and rises as magma. The volcanic mountain ranges of the Pacific coast of the Americas were formed this way.\n\nStudent: Professor, what happens when two oceanic plates meet?\n\nProfessor: Good question. When two oceanic plates converge, the older, denser plate subducts beneath the younger one, again creating a trench and a volcanic island arc — the Japanese islands and the Aleutian chain in Alaska are examples of this. At transform boundaries — the third type — plates slide horizontally past each other without creating or destroying crust. The San Andreas Fault in California is the best-known example. Because the plates grind against each other rather than sliding smoothly, transform boundaries are associated with frequent and sometimes severe earthquakes.\n\nThe evidence that convinced the scientific community of plate tectonics by the 1970s came from multiple independent lines of inquiry. Seafloor spreading was documented through the discovery of symmetric magnetic anomaly patterns on either side of mid-ocean ridges — created as magma solidified and recorded the direction of Earth's magnetic field at the time of formation. Deep-sea drilling confirmed that ocean floor sediments are youngest near the ridges and oldest near the continental margins. GPS measurements now directly confirm plate motion in real time. And paleontologists had long noted that the same fossil species appear on continents now separated by thousands of kilometers of ocean — a puzzle that plate tectonics elegantly resolved.\n\nThe theory has enormous practical implications. Earthquake and volcanic hazard assessment depends on understanding where plate boundaries are located and how rapidly plates move. The distribution of metallic ore deposits — copper, gold, nickel — is closely tied to ancient and modern subduction zones. And geothermal energy, which harnesses heat from Earth's interior, is most accessible in tectonically active regions. Plate tectonics is not merely an abstract scientific theory; it shapes how we understand the dynamic planet on which we live.",
+        "script": "Professor: Good afternoon. Today I want to discuss a phenomenon that affects virtually every major city in the world but is often overlooked in discussions of climate change — the urban heat island effect. An urban heat island is simply a metropolitan area that is significantly warmer than the rural areas surrounding it, primarily as a result of human activity and the physical characteristics of urban environments. The temperature difference between a city center and surrounding rural land can be as much as 10 to 12 degrees Celsius on calm, clear nights — a difference that has substantial consequences for energy consumption, human health, and local weather patterns.\n\nThe urban heat island effect arises from several interconnected factors. The most fundamental is the replacement of natural land cover — forests, grasslands, and water bodies — with impervious surfaces like asphalt, concrete, and rooftop materials. Natural vegetation cools the environment through evapotranspiration — the process by which plants release moisture through their leaves, which absorbs heat as it evaporates, much like sweating cools the human body. Impervious urban surfaces do not evaporate water; instead, they absorb solar radiation during the day and re-emit it as heat during the night, slowing the temperature drop that rural areas experience after sunset.\n\nThe geometry of cities also plays a role. Tall buildings in dense urban cores create what researchers call the urban canyon effect: solar radiation bounces between building facades, being absorbed multiple times rather than reflected back into the atmosphere. The reduced sky view factor — the proportion of sky visible from street level — also limits radiative cooling, because heat that buildings and pavement emit as infrared radiation cannot escape as easily when surrounded by tall structures on all sides.\n\nAnthropogenic heat — heat generated directly by human activities — is a third contributing factor. Air conditioners, motor vehicles, industrial processes, and even human metabolism all release heat into the urban environment. In dense urban areas, this anthropogenic heat can add several watts per square meter to the local heat budget — enough to measurably elevate temperatures, particularly in winter when vegetation is dormant and natural cooling processes are weakest.\n\nStudent: Professor, what are the health consequences of urban heat islands?\n\nProfessor: Significant ones. Elevated urban temperatures increase the frequency and severity of heat stress events, particularly for vulnerable populations — the elderly, young children, outdoor workers, and people without air conditioning. The 2003 European heat wave, which killed an estimated 70,000 people across the continent, was dramatically more lethal in urban areas than in surrounding countryside. Cities also experience elevated ground-level ozone concentrations during heat events, since ozone formation is accelerated by heat and sunlight — compounding respiratory health risks. And the air conditioning that people use to cope with urban heat creates a feedback loop: it releases heat outdoors while cooling interiors, adding to the anthropogenic heat load.\n\nMitigation strategies for urban heat islands fall into two broad categories: reducing heat absorption and increasing heat dissipation. Green infrastructure — planting trees, creating green roofs and living walls, restoring urban waterways — reintroduces evapotranspiration into the urban environment and provides shade. Studies in cities like Singapore, Melbourne, and Los Angeles have demonstrated that strategic tree canopy expansion can reduce local temperatures by two to four degrees. Cool roofs and pavements — surfaces made with high-albedo, highly reflective materials — reduce solar absorption at the building and street level. Urban planning that preserves wind corridors between buildings can improve ventilation and facilitate heat removal. These are not exotic or expensive solutions; they are achievable through relatively modest changes to building codes, urban planning standards, and municipal landscaping policy.",
         "questions": [
           {
-            "id": "l2t2q1",
-            "question": "What is the main purpose of the lecture?",
+            "id": "l2t4q1",
+            "question": "What is the urban heat island effect, as defined by the professor?",
             "options": [
-              "A. To trace the career of scientists who developed plate tectonics theory.",
-              "B. To explain the mechanisms, types of plate boundaries, and significance of plate tectonics.",
-              "C. To describe the geological history of specific mountain ranges.",
-              "D. To compare the geology of the Atlantic and Pacific Oceans."
+              "A. A phenomenon in which coastal cities experience more rainfall than inland areas.",
+              "B. A condition in which a metropolitan area is significantly warmer than surrounding rural areas due to human activity and urban physical characteristics.",
+              "C. The tendency for high-rise buildings to trap cold air at street level during winter.",
+              "D. The process by which air pollution forms a thermal barrier over cities, blocking sunlight."
             ],
             "answer": "B",
-            "explanation": "The lecture explains what plates are, how they move, describes all three types of boundaries with examples, discusses the evidence for the theory, and concludes with practical implications."
+            "explanation": "The professor defines the urban heat island as 'a metropolitan area that is significantly warmer than the rural areas surrounding it, primarily as a result of human activity and the physical characteristics of urban environments.'"
           },
           {
-            "id": "l2t2q2",
-            "question": "According to the professor, why do tectonic plates move?",
+            "id": "l2t4q2",
+            "question": "According to the professor, why do impervious surfaces like asphalt and concrete increase urban temperatures?",
             "options": [
-              "A. They are pushed by the weight of ocean water pressing on the seafloor.",
-              "B. They are dragged along by convection currents in the mantle.",
-              "C. They slide freely on a completely liquid layer below the crust.",
-              "D. They are pulled by the gravitational attraction of the moon."
+              "A. They reflect more sunlight than vegetation, preventing the ground from cooling.",
+              "B. They do not evaporate water, so they absorb solar radiation and release it as heat rather than cooling through evaporation.",
+              "C. They trap cold air at night, causing daytime temperatures to spike dramatically.",
+              "D. They generate electricity through solar panels, which produces heat as a byproduct."
             ],
             "answer": "B",
-            "explanation": "The professor explains that convection currents in the mantle cause hot material to rise, spread, and 'drag them along' — driving plate movement."
+            "explanation": "The professor explains that unlike vegetation, 'impervious urban surfaces do not evaporate water; instead, they absorb solar radiation during the day and re-emit it as heat during the night.'"
           },
           {
-            "id": "l2t2q3",
-            "question": "What does the professor say about the Himalayas?",
+            "id": "l2t4q3",
+            "question": "What is the urban canyon effect, according to the professor?",
             "options": [
-              "A. They were formed when an oceanic plate subducted beneath a continental plate.",
-              "B. They are the result of a divergent boundary creating a mid-ocean ridge.",
-              "C. They were formed when the Indian and Eurasian continental plates collided, and are still rising.",
-              "D. They contain the deepest ocean trench on Earth."
-            ],
-            "answer": "C",
-            "explanation": "The professor states the Himalayas were formed as the Indian plate collided with the Eurasian plate about 50 million years ago and 'they're still rising today' — a result of two continental plates converging."
-          },
-          {
-            "id": "l2t2q4",
-            "question": "According to the professor, what characterizes transform boundaries?",
-            "options": [
-              "A. New crust is created as magma fills the gap between separating plates.",
-              "B. One plate sinks beneath the other, forming deep ocean trenches.",
-              "C. Plates slide horizontally past each other, and they are associated with frequent earthquakes.",
-              "D. Two continental plates collide and form mountain ranges."
-            ],
-            "answer": "C",
-            "explanation": "The professor says at transform boundaries, 'plates slide horizontally past each other without creating or destroying crust' and they are 'associated with frequent and sometimes severe earthquakes.'"
-          },
-          {
-            "id": "l2t2q5",
-            "question": "What evidence from paleontology supported the theory of plate tectonics?",
-            "options": [
-              "A. Fossils of marine organisms were found on continents far from the ocean.",
-              "B. The same fossil species were found on continents now separated by thousands of kilometers.",
-              "C. Dinosaur fossils were larger in tropical regions, suggesting ancient climate patterns.",
-              "D. Fossilized plants demonstrated that all continents were once covered by ocean."
+              "A. The funneling of wind through narrow streets, which cools urban cores.",
+              "B. The tendency for solar radiation to bounce between building facades and be absorbed multiple times.",
+              "C. The accumulation of water runoff in low-lying urban areas after heavy rain.",
+              "D. The concentration of air pollution in street-level areas surrounded by tall buildings."
             ],
             "answer": "B",
-            "explanation": "The professor mentions that 'paleontologists had long noted that the same fossil species appear on continents now separated by thousands of kilometers of ocean' — a puzzle resolved by plate tectonics."
+            "explanation": "The professor defines the urban canyon effect as the phenomenon in which 'solar radiation bounces between building facades, being absorbed multiple times rather than reflected back into the atmosphere.'"
           },
           {
-            "id": "l2t2q6",
-            "question": "What does the professor imply about the practical value of plate tectonics theory?",
+            "id": "l2t4q4",
+            "question": "What health consequence of urban heat islands does the professor mention?",
             "options": [
-              "A. It is primarily of historical interest and has few real-world applications.",
-              "B. It is useful for understanding earthquakes and volcanoes but not for resource exploration.",
-              "C. It informs earthquake and volcanic hazard assessment, mineral resource distribution, and geothermal energy potential.",
-              "D. Its main application is helping GPS systems measure distances between cities."
+              "A. Increased rates of cardiovascular disease due to reduced physical activity in hot weather.",
+              "B. More frequent and severe heat stress events, particularly for vulnerable populations, and elevated ozone concentrations.",
+              "C. Higher incidence of respiratory infections caused by the growth of mold in humid urban buildings.",
+              "D. Elevated rates of vitamin D deficiency due to reduced sun exposure from building shadows."
+            ],
+            "answer": "B",
+            "explanation": "The professor mentions increased heat stress — citing the 2003 European heat wave that killed 70,000 — and elevated ground-level ozone concentrations that 'compound respiratory health risks.'"
+          },
+          {
+            "id": "l2t4q5",
+            "question": "How does the professor describe the relationship between air conditioning and urban heat?",
+            "options": [
+              "A. Air conditioning reduces the urban heat island effect by removing heat from outdoor air.",
+              "B. Air conditioning creates a feedback loop by releasing heat outdoors while cooling interiors, adding to the heat load.",
+              "C. Air conditioning has no measurable effect on outdoor urban temperatures.",
+              "D. Air conditioning reduces ozone formation by lowering the temperature of outdoor air near buildings."
+            ],
+            "answer": "B",
+            "explanation": "The professor says air conditioning 'creates a feedback loop: it releases heat outdoors while cooling interiors, adding to the anthropogenic heat load' — worsening the very problem people use it to cope with."
+          },
+          {
+            "id": "l2t4q6",
+            "question": "What mitigation strategies does the professor describe for reducing urban heat islands?",
+            "options": [
+              "A. Reducing city population density by relocating residents to rural areas.",
+              "B. Banning private vehicle use and replacing all rooftops with solar panels.",
+              "C. Expanding green infrastructure, using high-albedo materials for roofs and pavement, and preserving wind corridors.",
+              "D. Constructing underground transit systems to move heat away from street level."
             ],
             "answer": "C",
-            "explanation": "The professor explicitly mentions earthquake/volcanic hazard assessment, ore deposit distribution tied to subduction zones, and geothermal energy as practical implications of the theory."
+            "explanation": "The professor describes 'green infrastructure' (trees, green roofs), 'cool roofs and pavements' made of reflective materials, and 'urban planning that preserves wind corridors' as the main mitigation strategies."
+          }
+        ]
+      },
+      {
+        "id": "l2t5",
+        "type": "conversation",
+        "script": "Student: Hi, Professor Okafor? I'm sorry to bother you during office hours — I know you're busy.\nProfessor: Not at all, that's what office hours are for. Come in. What can I do for you?\nStudent: I wanted to ask about the research paper deadline. It's next Friday, and I've been working really hard on it, but I ran into some problems with my sources this week and I'm not sure I can finish on time. I was wondering if there's any possibility of a short extension.\nProfessor: Tell me what happened. What problems did you run into?\nStudent: I was relying on three journal articles that I'd found through the library database, but when I went to actually read them in full this week, two of them were behind a paywall that the university doesn't have access to. I tried to order them through interlibrary loan but was told it takes five to seven business days.\nProfessor: Ah, I see — that's a legitimate issue. I'll be honest with you: I don't grant extensions as a general policy, because the deadlines are set for a reason and fairness to other students matters. But access problems with library resources aren't really within your control, so I'm willing to hear you out. How much additional time are you asking for?\nStudent: I was hoping for just three or four extra days. I already have a strong draft — the introduction, literature review, and one of my three main arguments are complete. I just need the two articles to fully develop the second argument and write the conclusion.\nProfessor: Three to four days seems reasonable given the circumstances. Here's what I want you to do: send me an email today — not tomorrow, today — documenting the interlibrary loan request and the library's response. That way I have a record. I'll formally grant you until Tuesday at noon.\nStudent: That's incredibly helpful. Thank you so much.\nProfessor: Before you go — have you talked to the library's research services desk? Sometimes they can track down articles through different channels faster than standard interlibrary loan, or find alternative versions of the same content — preprints, open-access repositories, that kind of thing.\nStudent: I hadn't thought of that. I just assumed once the interlibrary loan was submitted it was the only option.\nProfessor: It's worth a call this afternoon. If they can get you the articles faster, even better — you might not even need the full extension. Either way, send me that email today and we're set.\nStudent: I'll go to the library right now and then send the email. Thank you again, Professor.\nProfessor: Good luck. And next time — check your source access a little earlier in the process. It's a lesson a lot of students learn the hard way.",
+        "questions": [
+          {
+            "id": "l2t5q1",
+            "question": "Why is the student asking for an extension?",
+            "options": [
+              "A. He has been ill and missed several weeks of class.",
+              "B. He changed his research topic late in the semester and needs more time.",
+              "C. Two journal articles he planned to use are behind a paywall the university cannot access.",
+              "D. He lost his research notes and must restart the literature review."
+            ],
+            "answer": "C",
+            "explanation": "The student explains that two of the journal articles he needed 'were behind a paywall that the university doesn't have access to' and that the interlibrary loan takes five to seven business days."
+          },
+          {
+            "id": "l2t5q2",
+            "question": "What is the professor's general policy on extensions?",
+            "options": [
+              "A. He grants extensions freely to any student who requests one at least a week in advance.",
+              "B. He does not grant extensions as a general policy but is willing to make exceptions for problems outside students' control.",
+              "C. He requires students to drop the course if they cannot meet a deadline.",
+              "D. He allows all students one automatic extension per semester."
+            ],
+            "answer": "B",
+            "explanation": "The professor says 'I don't grant extensions as a general policy... But access problems with library resources aren't really within your control, so I'm willing to hear you out.'"
+          },
+          {
+            "id": "l2t5q3",
+            "question": "What does the professor require the student to do before the extension is formally granted?",
+            "options": [
+              "A. Submit the completed sections of the paper he has already written.",
+              "B. Visit the library and return with the two articles in hand.",
+              "C. Send an email today documenting the interlibrary loan request and the library's response.",
+              "D. Get a written note from his academic advisor confirming the access problem."
+            ],
+            "answer": "C",
+            "explanation": "The professor says 'send me an email today — not tomorrow, today — documenting the interlibrary loan request and the library's response' so there is a formal record."
+          },
+          {
+            "id": "l2t5q4",
+            "question": "What additional suggestion does the professor offer?",
+            "options": [
+              "A. The student should drop one of his three arguments to finish on time without the articles.",
+              "B. The student should contact the library's research services desk, which may find the articles faster through alternative channels.",
+              "C. The student should email the journal editors directly to request free access.",
+              "D. The student should use a different database that does not require institutional access."
+            ],
+            "answer": "B",
+            "explanation": "The professor suggests calling the library's research services desk, which 'sometimes can track down articles through different channels faster than standard interlibrary loan' such as preprints or open-access repositories."
+          },
+          {
+            "id": "l2t5q5",
+            "question": "What lesson does the professor suggest the student take away from this experience?",
+            "options": [
+              "A. Students should always choose freely available sources rather than journal articles.",
+              "B. Students should check source access earlier in the research process.",
+              "C. Students should submit extension requests at the start of the semester as a precaution.",
+              "D. Students should always have twice as many sources as they plan to use."
+            ],
+            "answer": "B",
+            "explanation": "The professor concludes: 'next time — check your source access a little earlier in the process. It's a lesson a lot of students learn the hard way.'"
           }
         ]
       }

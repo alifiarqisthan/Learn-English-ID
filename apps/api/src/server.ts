@@ -30,7 +30,8 @@ app.use("/groups", (_req, res, next) => { res.setHeader("Cache-Control", CONTENT
 // Progress and attempts are user-specific and must never be cached.
 app.use("/attempts", attemptsRouter);
 app.use("/progress", progressRouter);
-app.use("/mock-tests", (_req, res, next) => { res.setHeader("Cache-Control", CONTENT_CACHE); next(); }, mockTestsRouter);
+// Mock tests change during development — disable cache for now
+app.use("/mock-tests", (_req, res, next) => { res.setHeader("Cache-Control", "no-store, must-revalidate"); next(); }, mockTestsRouter);
 
 const errorHandler: ErrorRequestHandler = (err, _req, res, _next) => {
   if (err instanceof ZodError) {

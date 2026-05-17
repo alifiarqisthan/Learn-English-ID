@@ -265,78 +265,11 @@
     "tracks": [
       {
         "id": "l1t1",
-        "type": "conversation",
-        "script": "Student: Hi, Professor Williams. Do you have a few minutes? I wanted to talk to you about my schedule for next semester.\nAdvisor: Of course, come in. What's on your mind?\nStudent: Well, I'm trying to decide between taking Research Methods in the spring or waiting until my senior year. I know it's required for graduation, but I'm worried it might be too demanding alongside my other courses.\nAdvisor: That's a reasonable concern. What are you planning to take alongside it if you enroll in the spring?\nStudent: I was thinking Introduction to Statistics, Modern British Literature, and a writing seminar. That would be four courses total.\nAdvisor: Hmm. Research Methods is a rigorous course — there's a lot of reading, weekly assignments, and a substantial final project. But I'll be honest with you: most students who take it in their junior year actually do better than those who wait. You still have your methodology courses fresh in your mind.\nStudent: Really? I hadn't thought of it that way. I was also worried because I heard the professor is quite strict about deadlines.\nAdvisor: Professor Chen is demanding, yes, but fair. She posts all the deadlines on the first day, so there are no surprises. The key is not to fall behind on the weekly reading responses — those are easy marks if you keep up, but they're impossible to catch up on if you don't.\nStudent: That's helpful. What about the final project? I heard it's a full research proposal.\nAdvisor: It is. You'll select a topic in week three and work on it throughout the semester. The earlier you start thinking about a topic you genuinely care about, the better. Students who pick something just to get through the course often struggle in the second half.\nStudent: I'm interested in media representation and public health, so I think I could find something there.\nAdvisor: That's a strong area with a lot of literature. I'd definitely encourage you to enroll. One more thing — if you find you're struggling mid-semester, the university writing center offers specific support for research writing. Don't wait until the last minute to use it.\nStudent: That's good to know. So your recommendation is to take it in the spring?\nAdvisor: Yes, I think you're ready for it. And taking it now means you'll have the skills you need for your senior thesis — which will be here sooner than you think.\nStudent: Alright, I'll go ahead and register. Thank you so much for your advice.\nAdvisor: Good luck. Come by if you have any questions once the semester starts.",
-        "questions": [
-          {
-            "id": "l1t1q1",
-            "question": "Why does the student visit the advisor?",
-            "options": [
-              "A. To request a change of major.",
-              "B. To get advice about which courses to take next semester.",
-              "C. To complain about a grade in a current course.",
-              "D. To ask for an extension on a research project."
-            ],
-            "answer": "B",
-            "explanation": "The student says he wants to discuss his schedule for next semester and whether to take Research Methods in the spring."
-          },
-          {
-            "id": "l1t1q2",
-            "question": "What does the advisor say about students who take Research Methods in their junior year?",
-            "options": [
-              "A. They tend to find the course less interesting than seniors do.",
-              "B. They usually perform better than those who wait until their senior year.",
-              "C. They are more likely to drop the course due to workload.",
-              "D. They have fewer required courses to balance alongside it."
-            ],
-            "answer": "B",
-            "explanation": "The advisor states that 'most students who take it in their junior year actually do better than those who wait' because their methodology courses are still fresh."
-          },
-          {
-            "id": "l1t1q3",
-            "question": "What does the advisor warn the student about regarding the weekly reading responses?",
-            "options": [
-              "A. They count for the majority of the final grade.",
-              "B. They must be submitted in a specific academic format.",
-              "C. Falling behind on them is very difficult to recover from.",
-              "D. They require library research beyond the assigned readings."
-            ],
-            "answer": "C",
-            "explanation": "The advisor says the reading responses are 'impossible to catch up on if you don't' keep up — warning the student not to fall behind."
-          },
-          {
-            "id": "l1t1q4",
-            "question": "What advice does the advisor give about the final research project?",
-            "options": [
-              "A. Students should choose a broad topic to have more flexibility.",
-              "B. Students should select a topic they genuinely care about as early as possible.",
-              "C. Students should collaborate with classmates on the proposal.",
-              "D. Students should focus on the topic covered most in the course readings."
-            ],
-            "answer": "B",
-            "explanation": "The advisor advises the student to pick a topic he genuinely cares about early: 'The earlier you start thinking about a topic you genuinely care about, the better.'"
-          },
-          {
-            "id": "l1t1q5",
-            "question": "What is the advisor's final recommendation, and what reason does she give?",
-            "options": [
-              "A. Wait until senior year; the workload will be more manageable then.",
-              "B. Enroll in spring; the skills will be needed for the senior thesis.",
-              "C. Take only three courses; Research Methods requires full attention.",
-              "D. Audit the course first; then enroll for credit the following year."
-            ],
-            "answer": "B",
-            "explanation": "The advisor recommends enrolling in the spring, explaining that the research skills gained will be essential for the student's senior thesis."
-          }
-        ]
-      },
-      {
-        "id": "l1t2",
         "type": "lecture",
         "script": "Professor: Good morning, everyone. Today we're going to talk about behaviorism — one of the most influential schools of thought in twentieth-century psychology. Behaviorism fundamentally changed how psychologists study the mind by insisting that psychology should only concern itself with observable, measurable behavior, not with internal mental states like thoughts, feelings, or consciousness. The founding figures of this movement argued that because we cannot directly observe what is happening inside someone's mind, any claims about mental states are unscientific speculation.\n\nThe roots of behaviorism lie in the work of Ivan Pavlov, a Russian physiologist who was actually studying digestion in dogs when he made a famous accidental discovery. Pavlov noticed that his laboratory dogs began salivating not just when food was presented, but whenever the lab assistant who regularly fed them walked into the room. The dogs had associated the assistant's presence with food delivery. Pavlov systematically studied this phenomenon by pairing a neutral stimulus — the sound of a bell — with the presentation of food. After repeated pairings, the dogs salivated at the sound of the bell alone, even when no food was offered. Pavlov called this process classical conditioning, and it demonstrated that behavioral responses could be learned through association.\n\nBuilding on Pavlov's work, the American psychologist John B. Watson is often credited with formally establishing behaviorism as a psychological school. In his 1913 manifesto, Watson argued that psychology should abandon the study of consciousness entirely and focus exclusively on stimulus-response relationships that could be objectively measured and replicated. Watson famously — and controversially — claimed that given a dozen healthy infants, he could train any of them to become any type of specialist he chose, regardless of their natural talents or tendencies. This was an extreme statement of environmental determinism — the idea that behavior is shaped entirely by external conditions, not by innate characteristics.\n\nStudent: Professor, did Watson actually conduct experiments to test this?\n\nProfessor: Yes — and this is where things get ethically troubling. Watson and his colleague Rosalie Rayner conducted the so-called Little Albert experiment in 1920. They conditioned a nine-month-old infant to fear a white rat by pairing the rat's appearance with a loud, frightening noise. Over time, the child became afraid of the rat even without the noise, and the fear generalized to other white, furry objects. This experiment demonstrated that emotional responses like fear could be conditioned in humans — but it would be considered profoundly unethical by today's standards.\n\nThe most systematic and influential development of behaviorism came from B.F. Skinner, who introduced the concept of operant conditioning in the 1930s and continued refining his theory for decades. Unlike Pavlov's classical conditioning, which involves reflexive responses to stimuli, operant conditioning focuses on how voluntary behaviors are shaped by their consequences. Skinner demonstrated using his famous \"Skinner box\" — an apparatus in which a rat or pigeon could press a lever to receive food — that behavior followed by a positive outcome, or reinforcement, is more likely to be repeated, while behavior followed by a negative outcome, or punishment, is less likely to recur.\n\nSkinner extended these principles far beyond the laboratory. He argued that all human behavior — language acquisition, social interaction, even complex intellectual activity — could be explained in terms of reinforcement schedules. His book Verbal Behavior, published in 1957, attempted to explain language entirely through operant conditioning principles. This claim was famously challenged by the linguist Noam Chomsky, who argued that children acquire language far too quickly and systematically to be explained by reinforcement alone, and that humans must possess an innate language acquisition device.\n\nThe Chomsky-Skinner debate is often cited as a turning point in the history of psychology and linguistics. By the 1960s, the cognitive revolution was underway, and psychologists increasingly returned to studying internal mental processes — attention, memory, reasoning — using new methodologies that could make such processes tractable to scientific investigation. Behaviorism did not disappear; its practical applications in behavior modification, educational psychology, and clinical therapy — particularly applied behavior analysis for autism spectrum disorders — remain significant today. But as a comprehensive theory of mind, pure behaviorism gave way to more nuanced cognitive and cognitive-behavioral approaches.",
         "questions": [
           {
-            "id": "l1t2q1",
+            "id": "l1t1q1",
             "question": "What is the main topic of the lecture?",
             "options": [
               "A. The ethical guidelines governing psychological research.",
@@ -348,7 +281,7 @@
             "explanation": "The lecture traces behaviorism from Pavlov through Watson to Skinner, discusses its key experiments and claims, and concludes with its legacy and eventual decline as a dominant framework."
           },
           {
-            "id": "l1t2q2",
+            "id": "l1t1q2",
             "question": "How did Pavlov discover classical conditioning?",
             "options": [
               "A. He deliberately designed an experiment to test learned salivation in dogs.",
@@ -360,7 +293,7 @@
             "explanation": "The professor says Pavlov was studying digestion and 'made a famous accidental discovery' when he noticed dogs salivating in response to the lab assistant, not just food."
           },
           {
-            "id": "l1t2q3",
+            "id": "l1t1q3",
             "question": "According to the professor, what was problematic about the Little Albert experiment?",
             "options": [
               "A. Its results could not be replicated in subsequent studies.",
@@ -372,7 +305,7 @@
             "explanation": "The professor says the Little Albert experiment 'would be considered profoundly unethical by today's standards' — a nine-month-old infant was deliberately conditioned to fear objects."
           },
           {
-            "id": "l1t2q4",
+            "id": "l1t1q4",
             "question": "How does operant conditioning differ from classical conditioning, according to the lecture?",
             "options": [
               "A. Operant conditioning focuses on reflexive responses, while classical conditioning shapes voluntary behavior.",
@@ -384,7 +317,7 @@
             "explanation": "The professor explicitly contrasts them: classical conditioning 'involves reflexive responses to stimuli,' while operant conditioning 'focuses on how voluntary behaviors are shaped by their consequences.'"
           },
           {
-            "id": "l1t2q5",
+            "id": "l1t1q5",
             "question": "What was Chomsky's main criticism of Skinner's account of language acquisition?",
             "options": [
               "A. Skinner's reinforcement schedules could not explain why animals learn language faster than humans.",
@@ -396,7 +329,7 @@
             "explanation": "Chomsky argued that 'children acquire language far too quickly and systematically to be explained by reinforcement alone,' suggesting an innate language acquisition device instead."
           },
           {
-            "id": "l1t2q6",
+            "id": "l1t1q6",
             "question": "What does the professor imply about the current status of behaviorism?",
             "options": [
               "A. Behaviorism is now the dominant framework in all areas of contemporary psychology.",
@@ -406,6 +339,298 @@
             ],
             "answer": "C",
             "explanation": "The professor says behaviorism's practical applications 'remain significant today,' but 'as a comprehensive theory of mind, pure behaviorism gave way to more nuanced cognitive and cognitive-behavioral approaches.'"
+          }
+        ]
+      },
+      {
+        "id": "l1t2",
+        "type": "lecture",
+        "script": "Professor: Let's shift our focus today to coral reef ecosystems — specifically the architecture of a coral reef and how its physical structure supports one of the densest concentrations of biodiversity on Earth. Most people think of a reef as a static rocky formation, but it is actually an extraordinarily complex, three-dimensional living structure built by billions of tiny organisms over centuries.\n\nAt the foundation of a reef is the coral skeleton — calcium carbonate secreted by coral polyps. As generations of polyps live, die, and accumulate, they build up massive reef structures that can grow to hundreds of meters in depth. But the real story is what happens on and within that structure. A healthy coral reef has distinct zones, each with characteristic communities of organisms adapted to local conditions of light, wave energy, and water flow.\n\nThe reef flat is the shallowest zone — the broad, relatively horizontal platform that extends from the shoreline or lagoon toward the reef crest. This zone receives intense sunlight and can be exposed to air at low tide, so it supports organisms with high tolerance for temperature fluctuation and desiccation. The reef crest is the highest point of the reef, often just below the surface, where wave energy is greatest. It is dominated by robust, encrusting corals and coralline algae that can withstand physical battering. Just below the crest, on the seaward slope, is where coral diversity peaks. Here, the conditions are more stable — consistent wave-driven oxygenation, moderate light, and steady water movement bring nutrients. This is where you find the most spectacular assemblages of hard and soft corals, sponges, fish, and invertebrates.\n\nStudent: Professor, why does coral diversity peak on the seaward slope rather than in the shallowest parts?\n\nProfessor: Great question. The shallow reef flat has more variable conditions — temperature swings, periods of exposure, and often lower water quality from land runoff. The seaward slope has more consistent temperature and chemistry, and the constant circulation of oceanic water delivers both nutrients and planktonic food particles. It's a more stable, resource-rich environment. Additionally, the three-dimensional complexity of the slope — with overhangs, caves, and crevices created by coral growth — provides more ecological niches for different species.\n\nThis structural complexity is itself a key driver of biodiversity. A structurally complex reef offers refuges from predators, nesting sites, ambush positions for hunters, and microhabitats with slightly different light, temperature, and flow conditions. Researchers have demonstrated that structural complexity — measured by parameters like rugosity, the degree of surface roughness — is one of the best predictors of fish species diversity on a reef. When bleaching events kill corals and the three-dimensional structure collapses and erodes, fish diversity plummets even before the corals themselves have entirely died, simply because the habitat structure is gone.\n\nThe relationship between coral structural complexity and fish diversity also has major implications for reef fisheries. Reefs with high structural complexity support more fish biomass and a greater diversity of commercially important species. As reefs degrade — through bleaching, ocean acidification, physical damage, or chronic overfishing — their structural complexity decreases, and with it their capacity to support productive fisheries. This creates a compounding problem: overfishing degrades the reef by removing herbivores that control algae, algae overgrowth smothers and kills corals, coral death reduces structural complexity, and reduced complexity further undermines the fish populations that remain.\n\nConservation interventions that restore structural complexity — such as artificial reef deployment, coral gardening programs that transplant nursery-grown coral fragments, and the protection of structurally complex areas from physical damage — are increasingly recognized as essential complements to broader climate action. A reef with the structural architecture intact has much greater capacity to recover biologically when stressors are reduced. Understanding the architecture of coral reefs, therefore, is not merely an academic exercise — it is a prerequisite for effective conservation.",
+        "questions": [
+          {
+            "id": "l1t2q1",
+            "question": "What is the main purpose of the lecture?",
+            "options": [
+              "A. To explain the threats posed by climate change to coral reefs globally.",
+              "B. To describe the physical zones of a coral reef and how structure drives biodiversity.",
+              "C. To compare coral reef ecosystems in the Pacific and Atlantic Oceans.",
+              "D. To argue that artificial reefs are more effective than natural reef conservation."
+            ],
+            "answer": "B",
+            "explanation": "The lecture systematically covers reef zones (flat, crest, seaward slope), explains how three-dimensional structural complexity drives biodiversity, and connects this to fisheries and conservation."
+          },
+          {
+            "id": "l1t2q2",
+            "question": "According to the professor, where does coral diversity peak on a reef, and why?",
+            "options": [
+              "A. On the reef flat, because sunlight is most intense there.",
+              "B. On the seaward slope, because conditions are more stable and resource-rich.",
+              "C. In the lagoon, because wave energy is lowest there.",
+              "D. At the reef crest, because wave energy brings the most nutrients."
+            ],
+            "answer": "B",
+            "explanation": "The professor states that diversity peaks on the seaward slope, where conditions are 'more stable' with 'consistent temperature and chemistry' and constant nutrient delivery from oceanic circulation."
+          },
+          {
+            "id": "l1t2q3",
+            "question": "What does the professor say about rugosity?",
+            "options": [
+              "A. It is a measure of coral bleaching severity.",
+              "B. It refers to the degree of surface roughness and is a predictor of fish species diversity.",
+              "C. It describes the rate at which coral polyps secrete calcium carbonate.",
+              "D. It measures the concentration of nutrients in reef water."
+            ],
+            "answer": "B",
+            "explanation": "The professor defines rugosity as 'the degree of surface roughness' and says it is 'one of the best predictors of fish species diversity on a reef.'"
+          },
+          {
+            "id": "l1t2q4",
+            "question": "According to the professor, what happens to fish diversity when corals die and reef structure collapses?",
+            "options": [
+              "A. Fish diversity temporarily increases as new species colonize the bare substrate.",
+              "B. Fish diversity declines even before corals have entirely died, because the habitat structure is lost.",
+              "C. Fish diversity remains stable as long as algae provide alternative shelter.",
+              "D. Fish diversity is unaffected by structural changes if water quality remains high."
+            ],
+            "answer": "B",
+            "explanation": "The professor states that 'fish diversity plummets even before the corals themselves have entirely died, simply because the habitat structure is gone' when structural complexity collapses after bleaching."
+          },
+          {
+            "id": "l1t2q5",
+            "question": "How does the professor describe the relationship between overfishing and reef structural complexity?",
+            "options": [
+              "A. Overfishing directly damages coral skeletons, reducing reef height.",
+              "B. Overfishing removes herbivores, leading to algae overgrowth, coral death, and reduced structural complexity.",
+              "C. Overfishing increases structural complexity by opening space for new coral growth.",
+              "D. Overfishing has no measurable effect on reef structure if water temperature remains stable."
+            ],
+            "answer": "B",
+            "explanation": "The professor describes a chain: overfishing removes herbivores, algae smothers corals, coral death reduces structural complexity, and complexity loss further undermines fish populations."
+          },
+          {
+            "id": "l1t2q6",
+            "question": "What does the professor imply about the importance of understanding reef architecture for conservation?",
+            "options": [
+              "A. It is mainly of academic interest and has limited practical conservation value.",
+              "B. It is a prerequisite for effective conservation because structural integrity enables biological recovery.",
+              "C. It is only relevant for designing artificial reefs, not for protecting natural ones.",
+              "D. It shows that all reef conservation efforts should focus exclusively on reducing ocean temperatures."
+            ],
+            "answer": "B",
+            "explanation": "The professor concludes that 'understanding the architecture of coral reefs is not merely an academic exercise — it is a prerequisite for effective conservation,' since structural integrity allows reefs to recover when stressors are reduced."
+          }
+        ]
+      },
+      {
+        "id": "l1t3",
+        "type": "conversation",
+        "script": "Student: Hi, I'm looking for the registrar's office — is this the right place?\nStaff: Yes, it is. How can I help you today?\nStudent: I need to ask about withdrawing from one of my courses. It's past the regular withdrawal deadline, and I'm not sure if it's still possible.\nStaff: Late withdrawals are handled here, yes. Can I get your student ID so I can pull up your record?\nStudent: Of course. It's 3-8-5-1-4-2.\nStaff: Okay, I have your file here. Which course are you looking to withdraw from?\nStudent: It's Organic Chemistry II — course number CHEM 302. I'm registered for it this semester.\nStaff: Let me check the dates. The standard withdrawal deadline passed about three weeks ago, so a late withdrawal would require a petition with supporting documentation. Can I ask what the reason is? That affects which form you'll need and whether it's likely to be approved.\nStudent: Honestly, I've been dealing with a medical issue. I had a pretty significant injury to my shoulder about a month ago, and I've been in physical therapy twice a week. The missed classes and the pain have made it really hard to keep up, and I'm worried about failing the course at this point.\nStaff: I'm sorry to hear that. A documented medical reason is actually one of the strongest grounds for a late withdrawal petition. You'll need to complete a Late Withdrawal Petition form — I can print one for you now — and attach documentation from your healthcare provider explaining the nature of the injury and the timeline.\nStudent: Does the documentation need to come from my doctor specifically, or can it come from my physical therapist?\nStaff: Either is acceptable, as long as the document is on official letterhead and includes the provider's contact information. The key thing is that it needs to establish that the medical condition overlaps with the academic period in question.\nStudent: And what happens to my transcript if the petition is approved? Will it show a 'W' for the course?\nStaff: Yes. A late withdrawal that's approved appears as a 'W' on your transcript — it doesn't affect your GPA, but it is visible to graduate schools or employers who request transcripts. That said, a single 'W' with a documented medical reason is generally not viewed negatively — it's understood that medical circumstances arise.\nStudent: What if I were to just stay in the course and take the grade? Is there any alternative that wouldn't show on my transcript at all?\nStaff: There's no option that would erase it completely if you're past the standard deadline. Another possibility is a grade of Incomplete — an 'I' — if your professor agrees. That would allow you to finish the remaining work next semester. But that depends entirely on the instructor's willingness and the department's policy for that course.\nStudent: I hadn't thought of that. Could I contact the professor directly about an Incomplete?\nStaff: You can, yes. I'd actually recommend reaching out to Professor Kwan's office first and explaining the situation — if she's open to an Incomplete, that might be a better outcome for you than a 'W.' If she declines, you can always come back and file the petition.\nStudent: That's a really helpful suggestion. Should I take the petition form with me just in case?\nStaff: Absolutely — take it with you today. If the Incomplete doesn't work out, you can bring the completed petition and your documentation back to us by the end of next week. That's our internal deadline for this semester's late petitions.\nStudent: Perfect. Thank you so much for walking me through all of this.\nStaff: Of course. I hope you feel better soon, and good luck with however you decide to proceed.",
+        "questions": [
+          {
+            "id": "l1t3q1",
+            "question": "Why is the student visiting the registrar's office?",
+            "options": [
+              "A. To change his major and drop all science courses.",
+              "B. To ask about withdrawing from a course after the standard deadline has passed.",
+              "C. To dispute a grade he received in a chemistry course.",
+              "D. To request a copy of his official transcript."
+            ],
+            "answer": "B",
+            "explanation": "The student explains he wants to withdraw from Organic Chemistry II but that the regular withdrawal deadline has already passed — making it a late withdrawal inquiry."
+          },
+          {
+            "id": "l1t3q2",
+            "question": "What reason does the student give for wanting to withdraw?",
+            "options": [
+              "A. He is struggling financially and cannot afford the course materials.",
+              "B. He has a scheduling conflict with another required course.",
+              "C. A shoulder injury requiring physical therapy has caused him to miss classes and fall behind.",
+              "D. He disagrees with the professor's grading policy and feels the course is unfair."
+            ],
+            "answer": "C",
+            "explanation": "The student explains that a shoulder injury about a month ago has required physical therapy twice weekly, causing missed classes and difficulty keeping up with the coursework."
+          },
+          {
+            "id": "l1t3q3",
+            "question": "What documentation does the staff member say is required for the late withdrawal petition?",
+            "options": [
+              "A. A letter from the student's academic advisor confirming the enrollment history.",
+              "B. A report card showing grades in all current courses.",
+              "C. Official documentation from a healthcare provider on letterhead, establishing the timeline of the medical condition.",
+              "D. A signed statement from two professors confirming the student's attendance."
+            ],
+            "answer": "C",
+            "explanation": "The staff member says the student needs documentation 'from your healthcare provider... on official letterhead' that 'establishes that the medical condition overlaps with the academic period in question.'"
+          },
+          {
+            "id": "l1t3q4",
+            "question": "How does the staff member describe the effect of a 'W' on a transcript?",
+            "options": [
+              "A. It permanently lowers the student's GPA by the equivalent of a failing grade.",
+              "B. It appears on the transcript but does not affect GPA and is generally understood in medical cases.",
+              "C. It is removed automatically after one academic year if the student maintains good standing.",
+              "D. It prevents the student from registering for any upper-division courses in the future."
+            ],
+            "answer": "B",
+            "explanation": "The staff member explains that a 'W' 'doesn't affect your GPA' and that 'a single W with a documented medical reason is generally not viewed negatively.'"
+          },
+          {
+            "id": "l1t3q5",
+            "question": "What alternative to a late withdrawal does the staff member suggest?",
+            "options": [
+              "A. Retaking the course next semester under a grade forgiveness policy.",
+              "B. Requesting a grade of Incomplete from the professor, allowing the student to finish work next semester.",
+              "C. Enrolling in an online version of the course that has a later completion deadline.",
+              "D. Transferring the credit to a different institution that offers the same course."
+            ],
+            "answer": "B",
+            "explanation": "The staff member suggests the student contact Professor Kwan about a grade of Incomplete ('I'), which would allow the student to complete remaining work the following semester without a 'W' on the transcript."
+          }
+        ]
+      },
+      {
+        "id": "l1t4",
+        "type": "lecture",
+        "script": "Professor: Today we're going to talk about human memory — not memory as a perfect recording device, which it most certainly is not, but memory as an active, reconstructive process that is far more flexible, creative, and error-prone than most people assume. Understanding how memory actually works has significant implications for everything from eyewitness testimony in legal proceedings to how we design educational experiences.\n\nLet's start with the basic architecture. Psychologists typically distinguish three major memory systems: sensory memory, working memory, and long-term memory. Sensory memory holds raw perceptual information for a very brief period — a fraction of a second for visual information, a few seconds for auditory input. Most of this information is never processed further. What we attend to gets passed into working memory — the cognitive workspace where active thinking happens. Working memory has a very limited capacity: the classic estimate, proposed by George Miller in 1956, is seven items, plus or minus two. More recent research suggests the capacity may be closer to four distinct chunks of information. Long-term memory, by contrast, has essentially unlimited capacity and can retain information for decades. The challenge is not storage but retrieval — getting information back out when you need it.\n\nLong-term memory itself is not a single unified system. Psychologists distinguish between declarative memory — memory for facts and events — and non-declarative or procedural memory — memory for skills and habits. Declarative memory is further divided into semantic memory, which stores general world knowledge (the capital of France is Paris; dogs are mammals), and episodic memory, which stores personally experienced events tied to specific times and places (what you had for breakfast this morning; your first day of school). These systems have different neural substrates: the hippocampus is critically important for episodic and semantic memory formation, while procedural memory relies more heavily on the basal ganglia and cerebellum.\n\nStudent: Professor, is that why people with amnesia can still ride a bicycle even if they can't remember learning how?\n\nProfessor: Exactly. Patients with hippocampal damage — like the famous patient known as H.M., who could not form new declarative memories following surgery — could still learn and retain new motor skills and habits through intact procedural memory systems. H.M. could get better at mirror-drawing tasks over repeated sessions without ever consciously remembering having practiced before. It's one of the most compelling demonstrations that we have of these systems being genuinely separate.\n\nNow, the most psychologically important — and most counterintuitive — aspect of memory is that long-term memories are not stored as fixed recordings. Every time you retrieve a memory, you are not simply playing back a tape; you are reconstructing the event from fragments of encoded information, filling in gaps with your current knowledge, expectations, and schemas. This reconstructive process means that memories are subject to systematic distortions. The psychologist Elizabeth Loftus demonstrated this elegantly in a series of experiments beginning in the 1970s. In one classic study, participants watched a film of a car accident. Afterward, some were asked how fast the cars were going when they 'smashed' into each other; others were asked about when they 'contacted' each other. The 'smashed' group not only estimated higher speeds but were also more likely to report seeing broken glass — even though there was no broken glass in the film. The single word in the question had altered their memory of what they witnessed.\n\nThis has profound legal implications. Eyewitness testimony is widely believed to be highly reliable, but research consistently shows that it is vulnerable to suggestion, misinformation, and the confidence heuristic — the tendency for jurors and even judges to treat a witness's confident demeanor as evidence of accuracy, even though confidence and accuracy are only weakly correlated. Innocent people have been convicted based on sincere but mistaken eyewitness identifications. Understanding the reconstructive nature of memory is not merely academic — it matters enormously for the justice system and for how we design interview procedures that minimize contamination of witness accounts.",
+        "questions": [
+          {
+            "id": "l1t4q1",
+            "question": "What is the professor's main point about human memory at the start of the lecture?",
+            "options": [
+              "A. Memory is a highly reliable recording system that stores events accurately.",
+              "B. Memory is an active, reconstructive process that is flexible and prone to errors.",
+              "C. Memory capacity increases steadily throughout a person's lifetime.",
+              "D. Sensory memory is the most important of the three memory systems."
+            ],
+            "answer": "B",
+            "explanation": "The professor opens by stating that memory is 'not a perfect recording device' but 'an active, reconstructive process that is far more flexible, creative, and error-prone than most people assume.'"
+          },
+          {
+            "id": "l1t4q2",
+            "question": "According to the professor, what is George Miller's classic estimate for working memory capacity?",
+            "options": [
+              "A. Approximately four chunks of information.",
+              "B. Seven items, plus or minus two.",
+              "C. Twelve separate pieces of information.",
+              "D. As many items as can be held for up to thirty seconds."
+            ],
+            "answer": "B",
+            "explanation": "The professor states that 'the classic estimate, proposed by George Miller in 1956, is seven items, plus or minus two,' while noting more recent research suggests it may be closer to four."
+          },
+          {
+            "id": "l1t4q3",
+            "question": "What is the difference between semantic and episodic memory, according to the lecture?",
+            "options": [
+              "A. Semantic memory stores motor skills; episodic memory stores language.",
+              "B. Semantic memory stores general knowledge; episodic memory stores personally experienced events tied to time and place.",
+              "C. Semantic memory relies on the hippocampus; episodic memory relies on the cerebellum.",
+              "D. Semantic memory is unlimited in capacity; episodic memory can hold only seven items."
+            ],
+            "answer": "B",
+            "explanation": "The professor defines semantic memory as 'general world knowledge' and episodic memory as 'personally experienced events tied to specific times and places.'"
+          },
+          {
+            "id": "l1t4q4",
+            "question": "What does the case of patient H.M. demonstrate about memory systems?",
+            "options": [
+              "A. Hippocampal damage eliminates all forms of learning and memory.",
+              "B. Declarative and procedural memory systems are genuinely separate, with different neural bases.",
+              "C. Motor skills and factual memory are stored in the same brain region.",
+              "D. Amnesia patients have stronger procedural memory than healthy individuals."
+            ],
+            "answer": "B",
+            "explanation": "H.M. could not form new declarative memories but could still learn new motor skills — demonstrating that declarative and procedural memory are separate systems with different neural substrates."
+          },
+          {
+            "id": "l1t4q5",
+            "question": "What did Loftus's car accident experiment demonstrate about memory?",
+            "options": [
+              "A. People remember traumatic events more accurately than everyday events.",
+              "B. Memories can be systematically distorted by the wording of questions asked after an event.",
+              "C. Visual memory is more reliable than auditory memory for the same event.",
+              "D. People are more likely to remember events that are emotionally neutral."
+            ],
+            "answer": "B",
+            "explanation": "Loftus's experiment showed that participants who heard the word 'smashed' (versus 'contacted') estimated higher speeds and falsely reported seeing broken glass — demonstrating that post-event questioning can alter memories."
+          },
+          {
+            "id": "l1t4q6",
+            "question": "What concern does the professor raise about eyewitness testimony in legal contexts?",
+            "options": [
+              "A. Eyewitnesses rarely agree to testify in court proceedings.",
+              "B. Eyewitness testimony is considered unreliable by all judges and is no longer permitted.",
+              "C. Witnesses' confident demeanor is often taken as evidence of accuracy, even though confidence and accuracy are only weakly correlated.",
+              "D. Eyewitness accounts are only unreliable when the witness is under the age of eighteen."
+            ],
+            "answer": "C",
+            "explanation": "The professor warns that jurors and judges tend to treat a 'witness's confident demeanor as evidence of accuracy, even though confidence and accuracy are only weakly correlated' — a significant problem given that innocent people have been convicted."
+          }
+        ]
+      },
+      {
+        "id": "l1t5",
+        "type": "conversation",
+        "script": "Student: Hi, Professor Williams. Do you have a few minutes? I wanted to talk to you about my schedule for next semester.\nAdvisor: Of course, come in. What's on your mind?\nStudent: Well, I'm trying to decide between taking Research Methods in the spring or waiting until my senior year. I know it's required for graduation, but I'm worried it might be too demanding alongside my other courses.\nAdvisor: That's a reasonable concern. What are you planning to take alongside it if you enroll in the spring?\nStudent: I was thinking Introduction to Statistics, Modern British Literature, and a writing seminar. That would be four courses total.\nAdvisor: Hmm. Research Methods is a rigorous course — there's a lot of reading, weekly assignments, and a substantial final project. But I'll be honest with you: most students who take it in their junior year actually do better than those who wait. You still have your methodology courses fresh in your mind.\nStudent: Really? I hadn't thought of it that way. I was also worried because I heard the professor is quite strict about deadlines.\nAdvisor: Professor Chen is demanding, yes, but fair. She posts all the deadlines on the first day, so there are no surprises. The key is not to fall behind on the weekly reading responses — those are easy marks if you keep up, but they're impossible to catch up on if you don't.\nStudent: That's helpful. What about the final project? I heard it's a full research proposal.\nAdvisor: It is. You'll select a topic in week three and work on it throughout the semester. The earlier you start thinking about a topic you genuinely care about, the better. Students who pick something just to get through the course often struggle in the second half.\nStudent: I'm interested in media representation and public health, so I think I could find something there.\nAdvisor: That's a strong area with a lot of literature. I'd definitely encourage you to enroll. One more thing — if you find you're struggling mid-semester, the university writing center offers specific support for research writing. Don't wait until the last minute to use it.\nStudent: That's good to know. So your recommendation is to take it in the spring?\nAdvisor: Yes, I think you're ready for it. And taking it now means you'll have the skills you need for your senior thesis — which will be here sooner than you think.\nStudent: Alright, I'll go ahead and register. Thank you so much for your advice.\nAdvisor: Good luck. Come by if you have any questions once the semester starts.",
+        "questions": [
+          {
+            "id": "l1t5q1",
+            "question": "Why does the student visit the advisor?",
+            "options": [
+              "A. To request a change of major.",
+              "B. To get advice about which courses to take next semester.",
+              "C. To complain about a grade in a current course.",
+              "D. To ask for an extension on a research project."
+            ],
+            "answer": "B",
+            "explanation": "The student says he wants to discuss his schedule for next semester and whether to take Research Methods in the spring."
+          },
+          {
+            "id": "l1t5q2",
+            "question": "What does the advisor say about students who take Research Methods in their junior year?",
+            "options": [
+              "A. They tend to find the course less interesting than seniors do.",
+              "B. They usually perform better than those who wait until their senior year.",
+              "C. They are more likely to drop the course due to workload.",
+              "D. They have fewer required courses to balance alongside it."
+            ],
+            "answer": "B",
+            "explanation": "The advisor states that 'most students who take it in their junior year actually do better than those who wait' because their methodology courses are still fresh."
+          },
+          {
+            "id": "l1t5q3",
+            "question": "What does the advisor warn the student about regarding the weekly reading responses?",
+            "options": [
+              "A. They count for the majority of the final grade.",
+              "B. They must be submitted in a specific academic format.",
+              "C. Falling behind on them is very difficult to recover from.",
+              "D. They require library research beyond the assigned readings."
+            ],
+            "answer": "C",
+            "explanation": "The advisor says the reading responses are 'impossible to catch up on if you don't' keep up — warning the student not to fall behind."
+          },
+          {
+            "id": "l1t5q4",
+            "question": "What advice does the advisor give about the final research project?",
+            "options": [
+              "A. Students should choose a broad topic to have more flexibility.",
+              "B. Students should select a topic they genuinely care about as early as possible.",
+              "C. Students should collaborate with classmates on the proposal.",
+              "D. Students should focus on the topic covered most in the course readings."
+            ],
+            "answer": "B",
+            "explanation": "The advisor advises the student to pick a topic he genuinely cares about early: 'The earlier you start thinking about a topic you genuinely care about, the better.'"
+          },
+          {
+            "id": "l1t5q5",
+            "question": "What is the advisor's final recommendation, and what reason does she give?",
+            "options": [
+              "A. Wait until senior year; the workload will be more manageable then.",
+              "B. Enroll in spring; the skills will be needed for the senior thesis.",
+              "C. Take only three courses; Research Methods requires full attention.",
+              "D. Audit the course first; then enroll for credit the following year."
+            ],
+            "answer": "B",
+            "explanation": "The advisor recommends enrolling in the spring, explaining that the research skills gained will be essential for the student's senior thesis."
           }
         ]
       }

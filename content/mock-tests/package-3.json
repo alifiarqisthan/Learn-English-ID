@@ -265,11 +265,169 @@
     "tracks": [
       {
         "id": "l3t1",
+        "type": "lecture",
+        "script": "Professor: Today I want to discuss cognitive dissonance — a concept introduced by social psychologist Leon Festinger in 1957 that has become one of the most widely cited and experimentally tested theories in all of psychology. The core idea is elegantly simple: people have a powerful need for their beliefs, attitudes, and behaviors to be internally consistent. When inconsistency arises — when two cognitions that a person holds are psychologically contradictory — the person experiences an uncomfortable state of mental tension that Festinger called cognitive dissonance. And crucially, people are motivated to reduce this discomfort.\n\nBefore I explain the mechanisms for reducing dissonance, let me give you a classic example. Imagine a person who smokes and also knows that smoking causes cancer. These two pieces of information — \"I smoke\" and \"smoking causes cancer\" — are logically contradictory. The smoker cannot simultaneously believe both without experiencing dissonance. How does the person resolve this? There are several options. They might quit smoking — changing the behavior to match the belief. They might minimize the risk: \"I only smoke a few cigarettes a day, so the risk is really quite small.\" They might add consonant cognitions: \"Smoking relaxes me, and stress is also a major health risk.\" Or they might challenge the evidence: \"The research on smoking and cancer is funded by pharmaceutical companies that want to sell patches.\" Notice that only the first option — quitting — actually resolves the underlying inconsistency. The others are psychological strategies for managing the discomfort without changing the behavior.\n\nFestinger and his colleague James Carlsmith conducted one of the most ingenious demonstrations of cognitive dissonance in 1959 in what became known as the induced compliance paradigm. Participants were asked to perform a genuinely tedious and boring task — turning pegs on a pegboard for an extended period. Afterward, some were paid twenty dollars to tell the next participant that the task had been interesting and enjoyable. Others were paid only one dollar to say the same thing. Then all participants were asked to rate how much they had actually enjoyed the task. Now, you might expect the people paid more to rate it more positively — after all, they received a greater reward. But that's not what happened. The one-dollar group rated the task as significantly more enjoyable than the twenty-dollar group.\n\nStudent: That seems counterintuitive. Why would people paid less enjoy it more?\n\nProfessor: Exactly — it is counterintuitive. The explanation lies in dissonance reduction. The people paid twenty dollars had sufficient external justification for saying something they didn't believe: \"I lied, but I got twenty dollars for it.\" They could maintain their original attitude — the task was boring — without dissonance because their behavior was explained by the money. But the one-dollar participants had insufficient external justification for their lie. To reduce the dissonance between \"I told someone the task was interesting\" and \"the task was actually boring,\" they unconsciously adjusted their attitude: \"Maybe it wasn't that bad after all.\" They changed their belief to match their behavior — which is the opposite of what common sense predicts.\n\nCognitive dissonance has been demonstrated across an enormous variety of experimental contexts and has important implications far beyond the psychology laboratory. In health communication, for example, efforts to change behavior by simply providing information often fail because people can reduce the dissonance triggered by threatening health information without changing their behavior — through the rationalization strategies I described. Effective health campaigns have learned that creating the right type and magnitude of dissonance — and then making behavioral change the easiest available route to resolution — is more effective than information provision alone.\n\nIn organizational contexts, cognitive dissonance explains why people become more committed to a decision after they have made it, even when new information suggests the decision was suboptimal. This post-decisional rationalization — the tendency to bolster the chosen option and derogate the rejected alternative — is why organizations often resist correcting strategic mistakes. Acknowledging the mistake would mean confronting the dissonance between \"I made the right decision\" and \"the evidence says I was wrong.\" Understanding this mechanism is the first step toward designing organizations that can learn from their errors more effectively.",
+        "questions": [
+          {
+            "id": "l3t1q1",
+            "question": "What is the main topic of the lecture?",
+            "options": [
+              "A. The psychological effects of financial rewards on workplace performance.",
+              "B. The theory of cognitive dissonance: its definition, mechanisms, and applications.",
+              "C. How health communication campaigns change personal behavior.",
+              "D. The role of rationalization in group decision-making processes."
+            ],
+            "answer": "B",
+            "explanation": "The lecture introduces and defines cognitive dissonance (paragraph 1), describes reduction mechanisms with examples (paragraphs 2-4), and then discusses applications in health and organizational contexts (paragraphs 5-6)."
+          },
+          {
+            "id": "l3t1q2",
+            "question": "According to the professor, what does cognitive dissonance cause people to do?",
+            "options": [
+              "A. Seek more information before making any decisions.",
+              "B. Experience mental discomfort and become motivated to reduce it.",
+              "C. Consult others to determine which of their conflicting beliefs is correct.",
+              "D. Avoid situations that require them to make explicit choices."
+            ],
+            "answer": "B",
+            "explanation": "The professor defines cognitive dissonance as 'an uncomfortable state of mental tension' and says 'people are motivated to reduce this discomfort.'"
+          },
+          {
+            "id": "l3t1q3",
+            "question": "In the smoking example, which strategy does the professor identify as the only one that actually resolves the underlying inconsistency?",
+            "options": [
+              "A. Minimizing the health risk by noting that only small amounts are smoked.",
+              "B. Adding cognitions that justify the behavior, such as the stress-reduction benefit.",
+              "C. Quitting smoking, which aligns the behavior with the belief.",
+              "D. Challenging the scientific evidence linking smoking and cancer."
+            ],
+            "answer": "C",
+            "explanation": "The professor states: 'Notice that only the first option — quitting — actually resolves the underlying inconsistency. The others are psychological strategies for managing the discomfort without changing the behavior.'"
+          },
+          {
+            "id": "l3t1q4",
+            "question": "What was the key finding of the Festinger and Carlsmith experiment?",
+            "options": [
+              "A. People paid more for a task rate it as more enjoyable because higher pay implies higher value.",
+              "B. People paid less for lying about a boring task rated it as more enjoyable than those paid more.",
+              "C. People who were paid nothing rated the task as the most enjoyable of all groups.",
+              "D. Participants who lied about the task refused to answer questions about their enjoyment of it."
+            ],
+            "answer": "B",
+            "explanation": "The professor states that 'the one-dollar group rated the task as significantly more enjoyable than the twenty-dollar group' — the counterintuitive finding explained by dissonance reduction."
+          },
+          {
+            "id": "l3t1q5",
+            "question": "According to the lecture, why did the one-dollar participants change their attitude about the task?",
+            "options": [
+              "A. They received positive feedback from the next participant, which changed their perception.",
+              "B. One dollar was actually a substantial sum in 1959, which made them feel adequately compensated.",
+              "C. They lacked sufficient external justification for their lie and so adjusted their attitude to reduce dissonance.",
+              "D. The experimenter told them after the task that it had been designed to be interesting."
+            ],
+            "answer": "C",
+            "explanation": "The professor explains that the one-dollar group had 'insufficient external justification for their lie' and resolved the dissonance by adjusting their attitude — believing the task was actually not that bad."
+          },
+          {
+            "id": "l3t1q6",
+            "question": "What does the professor say about why organizations often fail to correct strategic mistakes?",
+            "options": [
+              "A. Organizations lack the data necessary to identify when a decision has been wrong.",
+              "B. Correcting a mistake requires confronting the dissonance between believing one made the right decision and evidence to the contrary.",
+              "C. Organizational leaders are usually aware of mistakes but hide them from employees.",
+              "D. Post-decisional rationalization only occurs in individuals, not in organizational groups."
+            ],
+            "answer": "B",
+            "explanation": "The professor says organizations resist correcting mistakes because 'acknowledging the mistake would mean confronting the dissonance between \"I made the right decision\" and \"the evidence says I was wrong.\"'"
+          }
+        ]
+      },
+      {
+        "id": "l3t2",
+        "type": "lecture",
+        "script": "Professor: Good morning. Today I want to explore one of the most fascinating questions in linguistics and cognitive science: how did human language evolve? Language is perhaps the single most distinctive feature of our species — no other animal has anything remotely comparable in its combinatorial complexity and expressive power. Yet language leaves almost no direct fossil record; unlike bones or tools, words and sentences do not preserve. So how do we study the origins of something so fundamental and so invisible?\n\nThe challenge is significant. Researchers must infer the evolution of language from indirect evidence: comparative studies of primate communication, the archaeological record of behavioral complexity, genetics, and the study of language acquisition in children. Each line of evidence is partial, but together they begin to paint a picture.\n\nOne influential approach draws on the continuity between human language and animal communication. All animals communicate, but in ways quite different from human language. Most animal calls are fixed, finite, and context-dependent — a vervet monkey's alarm call for an eagle is distinct from its alarm call for a snake, but the monkey cannot combine these calls into novel messages or talk about eagles that aren't present. Human language, by contrast, is generative: using a finite inventory of sounds and words, speakers can produce and understand an infinite number of novel sentences. This property — what linguist Noam Chomsky called infinite use of finite means — is the signature of human language and appears to be unique to our species.\n\nStudent: Professor, when do researchers think language emerged in human evolution?\n\nProfessor: That's one of the most debated questions in the field. The anatomical prerequisites for speech — a descended larynx, fine motor control of the tongue and lips — were likely in place in Homo sapiens by at least 100,000 years ago, and possibly earlier in our ancestors. But anatomy alone doesn't tell us when language began; a descended larynx enables speech sounds but doesn't prove language was present. A more indirect approach looks at the archaeological record for evidence of symbolic thought — art, personal ornamentation, complex tools requiring social transmission of knowledge. The explosion of such evidence around 40,000 to 70,000 years ago in Europe and possibly earlier in Africa has led some researchers to propose that a genetic or neurological change around this time enabled modern language capacity. Others argue that language developed more gradually over hundreds of thousands of years.\n\nGenetics has added an important piece to the puzzle. The FOXP2 gene, sometimes called the language gene, is a transcription factor involved in the development and control of the fine oral motor movements necessary for articulate speech. Mutations in FOXP2 in humans cause severe speech and language impairments. Researchers discovered that the human version of FOXP2 differs from the chimpanzee version in two critical amino acids, and that this human-specific form appears to have been strongly selected for within the past 200,000 years. Interestingly, analysis of Neanderthal DNA has revealed that Neanderthals also carried the human form of FOXP2 — suggesting they may have had some capacity for spoken communication.\n\nThe social evolution of language is equally important. Many researchers argue that language did not evolve primarily for individual thought but for social coordination — sharing information about food locations, coordinating group activities, managing complex social relationships, and transmitting accumulated knowledge across generations. The capacity to teach skills and share knowledge verbally is what allows each human generation to build on the achievements of the last, rather than starting from scratch. This cumulative cultural transmission — sometimes called the ratchet effect — may be the key adaptive advantage that language provided to Homo sapiens and ultimately explains why our species came to dominate the planet.",
+        "questions": [
+          {
+            "id": "l3t2q1",
+            "question": "What is the central challenge in studying the evolution of language, according to the professor?",
+            "options": [
+              "A. Modern languages are too complex to trace back to their origins.",
+              "B. Language leaves almost no direct fossil record, requiring researchers to use indirect evidence.",
+              "C. Primate communication is too different from human language to provide useful comparisons.",
+              "D. Genetic studies of language are too expensive for most research institutions."
+            ],
+            "answer": "B",
+            "explanation": "The professor states that 'language leaves almost no direct fossil record; unlike bones or tools, words and sentences do not preserve' — making indirect evidence necessary."
+          },
+          {
+            "id": "l3t2q2",
+            "question": "According to the professor, what is the key property that distinguishes human language from animal communication?",
+            "options": [
+              "A. Humans use more distinct sounds than any other species.",
+              "B. Human language is generative — using finite means to produce infinite novel sentences.",
+              "C. Human language is transmitted culturally rather than instinctively.",
+              "D. Humans are the only species that uses communication to warn about predators."
+            ],
+            "answer": "B",
+            "explanation": "The professor describes human language as 'generative' and cites Chomsky's phrase 'infinite use of finite means' as its defining property — contrasting it with animals' fixed, finite, context-dependent calls."
+          },
+          {
+            "id": "l3t2q3",
+            "question": "What does the professor say about the anatomical prerequisites for speech?",
+            "options": [
+              "A. They evolved in Homo sapiens only about 10,000 years ago, long after language developed.",
+              "B. They were likely in place by at least 100,000 years ago, but anatomy alone does not prove language was present.",
+              "C. They are identical in humans and chimpanzees, suggesting language evolved very recently.",
+              "D. They can be directly observed in the fossil record, providing a reliable timeline for language evolution."
+            ],
+            "answer": "B",
+            "explanation": "The professor says the anatomical prerequisites 'were likely in place in Homo sapiens by at least 100,000 years ago' but warns that 'anatomy alone doesn't tell us when language began.'"
+          },
+          {
+            "id": "l3t2q4",
+            "question": "What role does FOXP2 play in language, according to the lecture?",
+            "options": [
+              "A. It controls the brain's capacity for abstract symbolic thought.",
+              "B. It is involved in developing the fine oral motor control needed for articulate speech.",
+              "C. It determines the size of the vocabulary a person can learn.",
+              "D. It regulates the social behaviors associated with language use in communities."
+            ],
+            "answer": "B",
+            "explanation": "The professor says FOXP2 is 'a transcription factor involved in the development and control of the fine oral motor movements necessary for articulate speech' and that mutations cause 'severe speech and language impairments.'"
+          },
+          {
+            "id": "l3t2q5",
+            "question": "What is significant about Neanderthals carrying the human form of FOXP2?",
+            "options": [
+              "A. It proves that Neanderthals had a language as complex as modern human language.",
+              "B. It suggests Neanderthals may have had some capacity for spoken communication.",
+              "C. It demonstrates that FOXP2 evolved in Neanderthals before it appeared in Homo sapiens.",
+              "D. It shows that Neanderthals and modern humans had identical vocal tract anatomy."
+            ],
+            "answer": "B",
+            "explanation": "The professor says the Neanderthal FOXP2 finding 'suggest[s] they may have had some capacity for spoken communication' — a cautious inference, not a certainty."
+          },
+          {
+            "id": "l3t2q6",
+            "question": "What does the professor say is the key adaptive advantage language provided to Homo sapiens?",
+            "options": [
+              "A. Language allowed individuals to think more abstractly and solve problems alone.",
+              "B. Language enabled cumulative cultural transmission — each generation building on the knowledge of the last.",
+              "C. Language gave humans the ability to communicate danger signals more efficiently than other primates.",
+              "D. Language allowed humans to develop more complex territorial boundaries than other species."
+            ],
+            "answer": "B",
+            "explanation": "The professor describes 'cumulative cultural transmission' — the ratchet effect — as 'the key adaptive advantage that language provided' because it allows each generation to build on the last rather than starting over."
+          }
+        ]
+      },
+      {
+        "id": "l3t3",
         "type": "conversation",
         "script": "Student: Professor Nakamura? Do you have a moment? I wanted to talk about my research paper proposal.\nProfessor: Of course. Come in and have a seat. What's your topic?\nStudent: I want to write about the environmental impact of fast fashion — specifically how the textile industry contributes to water pollution in developing countries. But I'm having trouble narrowing the scope. I keep finding more angles I want to include.\nProfessor: That's a very common challenge in research writing. What angles are you considering?\nStudent: Well, I want to cover the chemical runoff from dyeing processes, water consumption in cotton production, microplastic pollution from synthetic fabrics, and then compare regulatory frameworks in different countries. But when I try to write an outline, it feels like five papers in one.\nProfessor: It is — and that's the problem. For a fifteen-page undergraduate paper, you need to commit to one clearly defined question. What's the single thing you find most compelling about this topic?\nStudent: I think it's the chemical runoff — specifically how rivers in Bangladesh and Vietnam near textile factories are contaminated, even though the products are sold in European markets. There's something really striking about that disconnect.\nProfessor: That's a strong focus. You could frame that as a global commodity chain problem — production costs are externalized onto communities in developing countries while consumers in wealthy markets don't see that cost. That's analytically tractable and it already points to specific cases you can document.\nStudent: That's helpful. Should I try to compare multiple countries or go deeper on one?\nProfessor: For a paper of this length, depth beats breadth. I'd recommend choosing one country — Bangladesh is probably the best-documented case — and using secondary sources like peer-reviewed environmental science articles and NGO reports to build a detailed account. If you want to gesture toward a comparative point, you can do that briefly in your conclusion.\nStudent: What about the regulatory angle? I was thinking about comparing Bangladeshi environmental regulations to EU standards.\nProfessor: That's legitimate, but be careful. Comparing legal frameworks in different jurisdictions can get complex quickly, and you risk spending half your paper on background explanation. If you want to include it, limit it to one or two paragraphs explaining the regulatory gap rather than making it a central argument.\nStudent: Okay. So my thesis would be something like: the fast fashion industry externalizes its environmental costs onto communities in Bangladesh through contaminated waterways, due to weak domestic regulation and limited accountability in global supply chains?\nProfessor: That's very close. You might want to sharpen it — \"limited accountability\" is vague. What specifically makes it unaccountable? Is it lack of supply chain transparency, absence of international enforcement mechanisms, or consumer ignorance? Pinning that down will make your argument more precise.\nStudent: I think it's the supply chain transparency issue — most brands genuinely don't track where their fabric is dyed.\nProfessor: Then say that in your thesis. It's a cleaner, more specific argument. Come back with a revised thesis and a source list of five to seven articles by next Friday and we'll go from there.\nStudent: Thank you so much. This really helped me see a path forward.\nProfessor: Good luck. It's a timely and important topic.",
         "questions": [
           {
-            "id": "l3t1q1",
+            "id": "l3t3q1",
             "question": "What problem does the student describe about her research paper?",
             "options": [
               "A. She cannot find enough academic sources on her topic.",
@@ -281,7 +439,7 @@
             "explanation": "The student says she keeps 'finding more angles I want to include' and that her outline 'feels like five papers in one' — the problem is scope being too wide."
           },
           {
-            "id": "l3t1q2",
+            "id": "l3t3q2",
             "question": "What does the professor suggest is the most important thing the student needs to do?",
             "options": [
               "A. Find more sources from different academic disciplines.",
@@ -293,7 +451,7 @@
             "explanation": "The professor says 'you need to commit to one clearly defined question' — this is the central advice of the conversation."
           },
           {
-            "id": "l3t1q3",
+            "id": "l3t3q3",
             "question": "What does the professor recommend regarding the student's choice of country focus?",
             "options": [
               "A. Compare three or more countries to demonstrate a global pattern.",
@@ -305,7 +463,7 @@
             "explanation": "The professor recommends 'choosing one country — Bangladesh is probably the best-documented case — and using secondary sources to build a detailed account,' advising depth over breadth."
           },
           {
-            "id": "l3t1q4",
+            "id": "l3t3q4",
             "question": "What concern does the professor raise about including a regulatory comparison?",
             "options": [
               "A. Regulatory information is not considered appropriate for undergraduate papers.",
@@ -317,7 +475,7 @@
             "explanation": "The professor warns that comparing legal frameworks 'can get complex quickly, and you risk spending half your paper on background explanation' — cautioning against letting it become a central argument."
           },
           {
-            "id": "l3t1q5",
+            "id": "l3t3q5",
             "question": "What does the professor ask the student to do before their next meeting?",
             "options": [
               "A. Write a complete first draft of the paper.",
@@ -331,81 +489,148 @@
         ]
       },
       {
-        "id": "l3t2",
+        "id": "l3t4",
         "type": "lecture",
-        "script": "Professor: Today I want to discuss cognitive dissonance — a concept introduced by social psychologist Leon Festinger in 1957 that has become one of the most widely cited and experimentally tested theories in all of psychology. The core idea is elegantly simple: people have a powerful need for their beliefs, attitudes, and behaviors to be internally consistent. When inconsistency arises — when two cognitions that a person holds are psychologically contradictory — the person experiences an uncomfortable state of mental tension that Festinger called cognitive dissonance. And crucially, people are motivated to reduce this discomfort.\n\nBefore I explain the mechanisms for reducing dissonance, let me give you a classic example. Imagine a person who smokes and also knows that smoking causes cancer. These two pieces of information — \"I smoke\" and \"smoking causes cancer\" — are logically contradictory. The smoker cannot simultaneously believe both without experiencing dissonance. How does the person resolve this? There are several options. They might quit smoking — changing the behavior to match the belief. They might minimize the risk: \"I only smoke a few cigarettes a day, so the risk is really quite small.\" They might add consonant cognitions: \"Smoking relaxes me, and stress is also a major health risk.\" Or they might challenge the evidence: \"The research on smoking and cancer is funded by pharmaceutical companies that want to sell patches.\" Notice that only the first option — quitting — actually resolves the underlying inconsistency. The others are psychological strategies for managing the discomfort without changing the behavior.\n\nFestinger and his colleague James Carlsmith conducted one of the most ingenious demonstrations of cognitive dissonance in 1959 in what became known as the induced compliance paradigm. Participants were asked to perform a genuinely tedious and boring task — turning pegs on a pegboard for an extended period. Afterward, some were paid twenty dollars to tell the next participant that the task had been interesting and enjoyable. Others were paid only one dollar to say the same thing. Then all participants were asked to rate how much they had actually enjoyed the task. Now, you might expect the people paid more to rate it more positively — after all, they received a greater reward. But that's not what happened. The one-dollar group rated the task as significantly more enjoyable than the twenty-dollar group.\n\nStudent: That seems counterintuitive. Why would people paid less enjoy it more?\n\nProfessor: Exactly — it is counterintuitive. The explanation lies in dissonance reduction. The people paid twenty dollars had sufficient external justification for saying something they didn't believe: \"I lied, but I got twenty dollars for it.\" They could maintain their original attitude — the task was boring — without dissonance because their behavior was explained by the money. But the one-dollar participants had insufficient external justification for their lie. To reduce the dissonance between \"I told someone the task was interesting\" and \"the task was actually boring,\" they unconsciously adjusted their attitude: \"Maybe it wasn't that bad after all.\" They changed their belief to match their behavior — which is the opposite of what common sense predicts.\n\nCognitive dissonance has been demonstrated across an enormous variety of experimental contexts and has important implications far beyond the psychology laboratory. In health communication, for example, efforts to change behavior by simply providing information often fail because people can reduce the dissonance triggered by threatening health information without changing their behavior — through the rationalization strategies I described. Effective health campaigns have learned that creating the right type and magnitude of dissonance — and then making behavioral change the easiest available route to resolution — is more effective than information provision alone.\n\nIn organizational contexts, cognitive dissonance explains why people become more committed to a decision after they have made it, even when new information suggests the decision was suboptimal. This post-decisional rationalization — the tendency to bolster the chosen option and derogate the rejected alternative — is why organizations often resist correcting strategic mistakes. Acknowledging the mistake would mean confronting the dissonance between \"I made the right decision\" and \"the evidence says I was wrong.\" Understanding this mechanism is the first step toward designing organizations that can learn from their errors more effectively.",
+        "script": "Professor: Good afternoon. Today I want to talk about economics and the environment — specifically the economics of climate change, which is one of the most complex and contested areas in all of applied economics. The core challenge is that climate change is a classic example of what economists call a market failure — a situation in which market prices fail to reflect the true costs of production and consumption, leading to outcomes that are inefficient from a social standpoint.\n\nThe key concept here is the negative externality. An externality occurs when the production or consumption of a good creates costs or benefits that fall on parties who are not part of the transaction. Burning fossil fuels produces carbon dioxide, which contributes to global warming — a cost borne not by the producer of the fuel or the consumer who burned it, but by the entire global community, including future generations. Because this cost is external to the market transaction, fossil fuels are effectively underpriced. Producers and consumers do not pay for the climate damage their carbon emissions cause, so they emit more than they would if they faced the full social cost of their actions.\n\nThe most straightforward economic solution to this market failure is a carbon price — a mechanism that makes emitters pay for the climate damage their emissions cause, internalizing the externality. There are two main approaches. A carbon tax sets a price per ton of carbon dioxide emitted and allows emissions to adjust to that price. A cap-and-trade system sets a maximum total level of emissions — the cap — and distributes or auctions emission permits that firms can trade among themselves. Both approaches are designed to make carbon-intensive activities more expensive, shifting investment and consumption toward lower-carbon alternatives.\n\nStudent: Professor, which approach do economists prefer — a carbon tax or cap-and-trade?\n\nProfessor: Most economists actually favor a carbon tax for its simplicity and predictability — businesses can plan long-term investments if they know the carbon price. Cap-and-trade systems can be politically attractive because the cap creates a guaranteed emissions ceiling, but the price of permits can be volatile, which creates uncertainty for businesses. In practice, many jurisdictions have implemented hybrid systems or shifted between approaches for political reasons. The European Union's Emissions Trading System is the largest cap-and-trade program in the world; several jurisdictions, including Sweden and British Columbia in Canada, have implemented direct carbon taxes.\n\nA major controversy in the economics of climate change concerns the discount rate — the rate at which we convert future costs and benefits into present value. Because climate change damages will accumulate over decades and centuries, the discount rate used in economic models dramatically affects how much we should invest today in mitigation. A high discount rate — say, five percent — implies that damages occurring fifty years from now are worth very little today, making aggressive immediate action look economically unjustifiable. A low discount rate — closer to one or two percent — gives much more weight to future damages and justifies substantial present investment. The famous Stern Review on the Economics of Climate Change, published in 2006, used a low discount rate and concluded that failing to act on climate change could cost the equivalent of 5 to 20 percent of global GDP annually, while the cost of mitigation was manageable. Critics argued that Stern's discount rate was too low and ethically arbitrary. This debate is not merely technical — it reflects deep disagreements about our obligations to future generations and how much current generations should sacrifice for people not yet born.\n\nThe distributional consequences of climate policy also matter enormously. Carbon pricing tends to be regressive in its direct effects — lower-income households spend a higher proportion of their income on energy and transportation, so they bear a disproportionate share of the cost. Many economists argue that the solution is to return carbon tax revenues to households as dividends — what is sometimes called a carbon fee and dividend approach — which can make the overall policy progressive if the dividend is distributed equally per person. Getting the economics of climate change right is not just an intellectual exercise; the policies we design in the next decade will shape global prosperity and wellbeing for generations.",
         "questions": [
           {
-            "id": "l3t2q1",
-            "question": "What is the main topic of the lecture?",
+            "id": "l3t4q1",
+            "question": "According to the professor, why is climate change a market failure?",
             "options": [
-              "A. The psychological effects of financial rewards on workplace performance.",
-              "B. The theory of cognitive dissonance: its definition, mechanisms, and applications.",
-              "C. How health communication campaigns change personal behavior.",
-              "D. The role of rationalization in group decision-making processes."
+              "A. Fossil fuel companies refuse to participate in carbon markets.",
+              "B. Market prices for fossil fuels do not reflect the climate damage caused by carbon emissions, leading to excessive emissions.",
+              "C. Governments have failed to invest sufficiently in renewable energy technology.",
+              "D. International trade agreements prevent countries from setting their own carbon prices."
             ],
             "answer": "B",
-            "explanation": "The lecture introduces and defines cognitive dissonance (paragraph 1), describes reduction mechanisms with examples (paragraphs 2-4), and then discusses applications in health and organizational contexts (paragraphs 5-6)."
+            "explanation": "The professor explains that because the climate cost of emissions 'is external to the market transaction, fossil fuels are effectively underpriced' — a classic market failure where prices don't reflect true social costs."
           },
           {
-            "id": "l3t2q2",
-            "question": "According to the professor, what does cognitive dissonance cause people to do?",
+            "id": "l3t4q2",
+            "question": "How does the professor define a negative externality?",
             "options": [
-              "A. Seek more information before making any decisions.",
-              "B. Experience mental discomfort and become motivated to reduce it.",
-              "C. Consult others to determine which of their conflicting beliefs is correct.",
-              "D. Avoid situations that require them to make explicit choices."
+              "A. A cost that a company pays to the government as a penalty for pollution.",
+              "B. A cost or benefit created by production or consumption that falls on parties not part of the transaction.",
+              "C. The economic loss experienced by a firm when its competitors adopt cleaner technologies.",
+              "D. The reduction in market demand caused by higher prices for carbon-intensive goods."
             ],
             "answer": "B",
-            "explanation": "The professor defines cognitive dissonance as 'an uncomfortable state of mental tension' and says 'people are motivated to reduce this discomfort.'"
+            "explanation": "The professor defines an externality as occurring 'when the production or consumption of a good creates costs or benefits that fall on parties who are not part of the transaction.'"
           },
           {
-            "id": "l3t2q3",
-            "question": "In the smoking example, which strategy does the professor identify as the only one that actually resolves the underlying inconsistency?",
+            "id": "l3t4q3",
+            "question": "What does the professor say most economists prefer between a carbon tax and cap-and-trade, and why?",
             "options": [
-              "A. Minimizing the health risk by noting that only small amounts are smoked.",
-              "B. Adding cognitions that justify the behavior, such as the stress-reduction benefit.",
-              "C. Quitting smoking, which aligns the behavior with the belief.",
-              "D. Challenging the scientific evidence linking smoking and cancer."
+              "A. Cap-and-trade, because it guarantees a specific price per ton of emissions.",
+              "B. Carbon tax, because of its simplicity and the price predictability it provides for business planning.",
+              "C. Neither, because economists believe carbon markets always lead to political corruption.",
+              "D. Cap-and-trade, because it has been shown to reduce emissions faster than a carbon tax."
+            ],
+            "answer": "B",
+            "explanation": "The professor states 'most economists actually favor a carbon tax for its simplicity and predictability — businesses can plan long-term investments if they know the carbon price.'"
+          },
+          {
+            "id": "l3t4q4",
+            "question": "Why is the discount rate controversial in climate economics?",
+            "options": [
+              "A. It determines how much of a carbon tax revenue is returned to consumers.",
+              "B. It dramatically affects how much present-day mitigation investment is economically justified, and reflects ethical disagreements about obligations to future generations.",
+              "C. It sets the maximum level of emissions allowed under a cap-and-trade system.",
+              "D. It determines the share of climate costs borne by developed versus developing countries."
+            ],
+            "answer": "B",
+            "explanation": "The professor explains that the discount rate 'dramatically affects how much we should invest today in mitigation' and that the debate 'reflects deep disagreements about our obligations to future generations.'"
+          },
+          {
+            "id": "l3t4q5",
+            "question": "What concern does the professor raise about carbon pricing and lower-income households?",
+            "options": [
+              "A. Lower-income households are exempt from carbon taxes, reducing the policy's effectiveness.",
+              "B. Carbon pricing tends to be regressive because lower-income households spend a higher share of income on energy.",
+              "C. Lower-income households are more likely to invest in renewable energy than wealthier households.",
+              "D. Carbon pricing causes lower-income households to relocate to areas with lower energy costs."
+            ],
+            "answer": "B",
+            "explanation": "The professor states that 'carbon pricing tends to be regressive' because 'lower-income households spend a higher proportion of their income on energy and transportation, so they bear a disproportionate share of the cost.'"
+          },
+          {
+            "id": "l3t4q6",
+            "question": "What solution does the professor describe for addressing the regressive effects of carbon pricing?",
+            "options": [
+              "A. Exempting essential goods from the carbon tax entirely.",
+              "B. Returning carbon tax revenues to all households as equal per-person dividends.",
+              "C. Using carbon revenues to subsidize renewable energy for corporations.",
+              "D. Applying a lower carbon tax rate to goods purchased by low-income consumers."
+            ],
+            "answer": "B",
+            "explanation": "The professor describes the 'carbon fee and dividend approach' in which revenues are 'returned to households as dividends' distributed 'equally per person' — which can make the overall policy progressive."
+          }
+        ]
+      },
+      {
+        "id": "l3t5",
+        "type": "conversation",
+        "script": "Student: Hi, excuse me — is this the financial aid office?\nStaff: Yes, it is. Come on in. How can I help you today?\nStudent: I received a letter last week saying that my financial aid award for next semester has been reduced by about 1,500 dollars. I'm not sure why — my situation hasn't changed. I was hoping someone could help me understand what happened.\nStaff: Of course. Let me look into your account. Can I get your student ID number?\nStudent: Sure, it's 6-2-3-9-0-4.\nStaff: Okay, pulling up your file now. Ah, I see what the issue is. Your award includes a need-based grant that's recalculated each year based on your family's financial information. It looks like your family's reported income for this year is higher than it was last year — up by about 18,000 dollars. When income increases above certain thresholds, the Expected Family Contribution goes up, and the grant amount is adjusted downward to reflect that.\nStudent: Oh — that would be because my mother picked up some extra shifts at work last year. It wasn't a permanent raise or anything; she just worked more during a difficult period.\nStaff: I understand. That kind of situation — a temporary income increase that doesn't reflect your ongoing financial circumstances — is actually something you can appeal. It's called a professional judgment appeal, and it allows us to review your situation on a case-by-case basis rather than relying solely on the tax data.\nStudent: How do I start an appeal?\nStaff: You would need to fill out a Special Circumstances Form, which is available on the financial aid website or I can print one for you right now. Along with the form, you'll need to submit a letter explaining the circumstances — essentially what you just told me, that the additional income was temporary — and any supporting documentation. In your mother's case, a letter from her employer or pay stubs from this year showing her hours have returned to normal would be very helpful.\nStudent: Can we get those from her employer? I'm not sure how straightforward that would be.\nStaff: It doesn't have to be anything formal — even a brief letter on company letterhead saying that her hours were temporarily increased in the previous year and have since returned to their standard level would work. Alternatively, if her W-2 for this current tax year is already available and shows lower income, that's also strong evidence.\nStudent: Okay, that's helpful. How long does the appeal process take?\nStaff: Once we receive a complete appeal package — the form, the letter, and the supporting documentation — our office typically reviews it within ten to fifteen business days. We aim to resolve appeals before the semester billing deadline so that students aren't left scrambling.\nStudent: And what happens if the appeal is approved? Would my grant go back to the original amount?\nStaff: Not necessarily back to the exact same amount, but the aid office will recalculate your award based on the adjusted income figure. In cases like yours — a clearly temporary increase — appeals are often successful. No guarantees, of course, but it's definitely worth pursuing.\nStudent: That's really reassuring. I'll pick up the form today and start gathering the documentation.\nStaff: Good plan. And if you have any questions while you're filling it out, feel free to come back or call us. Make sure everything is complete before you submit — incomplete packages get delayed.\nStudent: I'll make sure of that. Thank you so much.\nStaff: Good luck. We'll do our best to get it sorted out for you.",
+        "questions": [
+          {
+            "id": "l3t5q1",
+            "question": "Why has the student's financial aid award been reduced?",
+            "options": [
+              "A. The student failed to reapply for financial aid before the annual deadline.",
+              "B. The student's reported family income increased, raising the Expected Family Contribution and reducing the grant.",
+              "C. The student's enrollment status changed from full-time to part-time.",
+              "D. The financial aid office made an administrative error in the award calculation."
+            ],
+            "answer": "B",
+            "explanation": "The staff member explains that the family's reported income increased by about 18,000 dollars, which raised the Expected Family Contribution above the threshold, causing the need-based grant to be 'adjusted downward.'"
+          },
+          {
+            "id": "l3t5q2",
+            "question": "Why did the family's income appear higher on this year's records?",
+            "options": [
+              "A. The student's father received a permanent promotion at his workplace.",
+              "B. The family received an inheritance that was counted as income.",
+              "C. The student's mother worked extra shifts temporarily during a difficult period.",
+              "D. The family sold property, which was recorded as taxable income."
             ],
             "answer": "C",
-            "explanation": "The professor states: 'Notice that only the first option — quitting — actually resolves the underlying inconsistency. The others are psychological strategies for managing the discomfort without changing the behavior.'"
+            "explanation": "The student explains that 'my mother picked up some extra shifts at work last year. It wasn't a permanent raise or anything; she just worked more during a difficult period.'"
           },
           {
-            "id": "l3t2q4",
-            "question": "What was the key finding of the Festinger and Carlsmith experiment?",
+            "id": "l3t5q3",
+            "question": "What is a professional judgment appeal, according to the staff member?",
             "options": [
-              "A. People paid more for a task rate it as more enjoyable because higher pay implies higher value.",
-              "B. People paid less for lying about a boring task rated it as more enjoyable than those paid more.",
-              "C. People who were paid nothing rated the task as the most enjoyable of all groups.",
-              "D. Participants who lied about the task refused to answer questions about their enjoyment of it."
+              "A. A formal complaint filed against the financial aid office with the university administration.",
+              "B. A case-by-case review that allows the office to consider circumstances beyond what tax data alone reflects.",
+              "C. A request to transfer financial aid credits from one semester to another.",
+              "D. A process by which students can appeal a grade that affected their financial aid eligibility."
             ],
             "answer": "B",
-            "explanation": "The professor states that 'the one-dollar group rated the task as significantly more enjoyable than the twenty-dollar group' — the counterintuitive finding explained by dissonance reduction."
+            "explanation": "The staff member describes a professional judgment appeal as a process that 'allows us to review your situation on a case-by-case basis rather than relying solely on the tax data' for circumstances like temporary income increases."
           },
           {
-            "id": "l3t2q5",
-            "question": "According to the lecture, why did the one-dollar participants change their attitude about the task?",
+            "id": "l3t5q4",
+            "question": "What documentation does the staff member say would be most helpful for the appeal?",
             "options": [
-              "A. They received positive feedback from the next participant, which changed their perception.",
-              "B. One dollar was actually a substantial sum in 1959, which made them feel adequately compensated.",
-              "C. They lacked sufficient external justification for their lie and so adjusted their attitude to reduce dissonance.",
-              "D. The experimenter told them after the task that it had been designed to be interesting."
+              "A. A letter from the student's academic advisor confirming satisfactory academic progress.",
+              "B. Proof from the mother's employer or current pay stubs showing that extra hours were temporary and have since returned to normal.",
+              "C. A bank statement showing the family's current savings balance.",
+              "D. A copy of the financial aid award letter from the previous academic year."
+            ],
+            "answer": "B",
+            "explanation": "The staff member says 'a letter from her employer or pay stubs from this year showing her hours have returned to normal would be very helpful' — or alternatively, the current tax year's W-2 showing lower income."
+          },
+          {
+            "id": "l3t5q5",
+            "question": "What does the staff member say about the likelihood that the appeal will be approved?",
+            "options": [
+              "A. Appeals for temporary income increases are always approved automatically.",
+              "B. The staff member cannot predict the outcome and strongly discourages the appeal.",
+              "C. Appeals in cases of clearly temporary income increases are often successful, though no guarantees are given.",
+              "D. The appeal is unlikely to succeed unless the student can prove financial hardship through additional documentation."
             ],
             "answer": "C",
-            "explanation": "The professor explains that the one-dollar group had 'insufficient external justification for their lie' and resolved the dissonance by adjusting their attitude — believing the task was actually not that bad."
-          },
-          {
-            "id": "l3t2q6",
-            "question": "What does the professor say about why organizations often fail to correct strategic mistakes?",
-            "options": [
-              "A. Organizations lack the data necessary to identify when a decision has been wrong.",
-              "B. Correcting a mistake requires confronting the dissonance between believing one made the right decision and evidence to the contrary.",
-              "C. Organizational leaders are usually aware of mistakes but hide them from employees.",
-              "D. Post-decisional rationalization only occurs in individuals, not in organizational groups."
-            ],
-            "answer": "B",
-            "explanation": "The professor says organizations resist correcting mistakes because 'acknowledging the mistake would mean confronting the dissonance between \"I made the right decision\" and \"the evidence says I was wrong.\"'"
+            "explanation": "The staff member says 'in cases like yours — a clearly temporary increase — appeals are often successful. No guarantees, of course, but it's definitely worth pursuing.'"
           }
         ]
       }

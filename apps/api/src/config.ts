@@ -20,4 +20,9 @@ export const config = {
     "..",
     process.env.GROUP_DIR ?? "../../content/groups",
   ),
+  mockTestDir: path.resolve(
+    __dirname,
+    "..",
+    process.env.MOCK_TEST_DIR ?? "../../content/mock-tests",
+  ),
 };
