@@ -1,0 +1,481 @@
+{
+  "id": "package-2",
+  "title": "TOEFL iBT Practice Test 2",
+  "reading": {
+    "timeLimit": 2100,
+    "passages": [
+      {
+        "id": "r2p1",
+        "title": "Early Human Migration Out of Africa",
+        "text": "The question of when, how, and why anatomically modern humans dispersed from their African homeland to populate the rest of the globe is one of the most intensively studied problems in paleoanthropology and evolutionary genetics. The dominant scientific consensus, supported by converging lines of evidence from fossil records, genetic analyses, and archaeological finds, holds that Homo sapiens originated in Africa roughly 300,000 years ago and began dispersing to other continents between 60,000 and 70,000 years ago, though there is growing evidence of earlier, smaller-scale movements that did not result in lasting populations outside Africa.\n\nThe genetic evidence for this \"Out of Africa\" model is particularly compelling. Studies of mitochondrial DNA — which is inherited exclusively through the maternal line and mutates at a relatively consistent rate — have traced all living human populations to a common African ancestor, often referred to as Mitochondrial Eve, who lived approximately 150,000 to 200,000 years ago. Similarly, analyses of the Y chromosome, which passes from father to son, point to an African origin for all modern human male lineages. The relative lack of genetic diversity outside Africa compared to within the continent suggests a founder effect: the populations that left Africa represented a small subset of the total African genetic diversity, and all subsequent non-African genetic variation derives from that founding group.\n\nArchaeological evidence from the Arabian Peninsula and South Asia has helped map the likely routes of the initial dispersal. The most widely supported hypothesis proposes that the first successful migrants crossed the Bab-el-Mandeb strait at the southern end of the Red Sea, which during periods of low sea levels — associated with the glacial cycles of the Pleistocene epoch — may have been narrow enough to cross with simple watercraft or even on foot across exposed land bridges. From the Arabian Peninsula, populations spread eastward along coastal routes, reaching South Asia and eventually Southeast Asia and Australia relatively rapidly. Genetic dating suggests that modern humans arrived in Australia at least 50,000 years ago — a finding that underscores the remarkable seafaring capability of these early populations.\n\nThe colonization of Europe appears to have occurred somewhat later, around 40,000 to 45,000 years ago, and was more complex than the initial eastward dispersal because it involved an encounter with Neanderthals — a distinct hominin species that had inhabited Europe and western Asia for hundreds of thousands of years. Modern genetic analyses have revealed that non-African humans carry between one and four percent Neanderthal DNA, evidence of interbreeding between the two species. This hybridization was not trivial: some Neanderthal genetic variants that modern humans inherited have been associated with immune function, skin and hair characteristics, and potentially cognitive traits. Neanderthals eventually disappeared around 40,000 years ago; whether their extinction was caused by competition with modern humans, climate change, disease, or some combination of factors remains an active area of debate.\n\nThe Americas were the last major landmass to be colonized by modern humans, with the earliest well-documented sites dating to approximately 15,000 years ago, though some disputed sites suggest earlier arrivals. The traditional model proposed a single migration from Northeast Asia across the Bering Land Bridge — a broad, ice-free landmass known as Beringia that connected Siberia to Alaska during periods of low sea levels — followed by a southward movement through an ice-free corridor between the Laurentide and Cordilleran ice sheets. However, more recent genetic and archaeological evidence suggests that the picture is more complex: there may have been multiple migration waves, and a coastal route along the Pacific margin of the Americas may have allowed some populations to move south more rapidly than a land-based route through the ice corridor would have permitted.\n\nUnderstanding early human migration patterns has implications beyond academic curiosity. The genetic legacy of ancient migrations influences the distribution of disease susceptibilities, immune responses, and genetic disorders in contemporary populations. Medical researchers increasingly use population genetic data to understand why certain diseases are more prevalent in some ethnic groups than others, and to develop more targeted pharmacological treatments. Paleoanthropology also informs broader questions about what made Homo sapiens uniquely successful — the behavioral flexibility, symbolic thought, and social complexity that enabled small groups of African hunter-gatherers to expand into every terrestrial environment on Earth within a remarkably short span of evolutionary time.",
+        "questions": [
+          {
+            "id": "r2p1q1",
+            "question": "According to paragraph 1, what does the current scientific consensus hold about the origin and dispersal of Homo sapiens?",
+            "options": [
+              "A. Humans originated simultaneously in Africa, Asia, and Europe approximately 60,000 years ago.",
+              "B. Humans originated in Africa around 300,000 years ago and dispersed to other continents between 60,000 and 70,000 years ago.",
+              "C. Humans originated in the Arabian Peninsula and migrated to Africa before dispersing globally.",
+              "D. Humans originated in Africa 150,000 years ago and dispersed to all continents at the same time."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 1 states that Homo sapiens 'originated in Africa roughly 300,000 years ago and began dispersing to other continents between 60,000 and 70,000 years ago.'"
+          },
+          {
+            "id": "r2p1q2",
+            "question": "The word \"founder effect\" in paragraph 2 refers to:",
+            "options": [
+              "A. the tendency of isolated populations to develop unique cultural practices.",
+              "B. the limited genetic diversity in populations descended from a small founding group.",
+              "C. the archaeological evidence of the first human settlements outside Africa.",
+              "D. the process by which mitochondrial DNA mutations accumulate over generations."
+            ],
+            "answer": "B",
+            "explanation": "The passage explains the founder effect as the result of a small subset of Africans leaving, meaning 'all subsequent non-African genetic variation derives from that founding group' — producing reduced genetic diversity outside Africa."
+          },
+          {
+            "id": "r2p1q3",
+            "question": "According to paragraph 3, what does the evidence of modern humans in Australia at least 50,000 years ago suggest?",
+            "options": [
+              "A. Australia was connected to Southeast Asia by a land bridge until 50,000 years ago.",
+              "B. Early human populations possessed notable seafaring abilities.",
+              "C. The first humans to reach Australia came directly from Africa by sea.",
+              "D. The glacial cycles of the Pleistocene epoch made the migration to Australia easier."
+            ],
+            "answer": "B",
+            "explanation": "The passage states that early arrival in Australia 'underscores the remarkable seafaring capability of these early populations,' since Australia required crossing open water even at low sea levels."
+          },
+          {
+            "id": "r2p1q4",
+            "question": "The author's discussion of Neanderthal DNA in paragraph 4 is intended to show that:",
+            "options": [
+              "A. modern humans and Neanderthals were genetically identical species.",
+              "B. interbreeding between modern humans and Neanderthals occurred and left a lasting genetic legacy.",
+              "C. Neanderthals survived for thousands of years after modern humans arrived in Europe.",
+              "D. Neanderthal DNA was harmful to the immune systems of modern human populations."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 4 presents genetic evidence of 1-4% Neanderthal DNA in non-African humans as proof of 'interbreeding between the two species,' with lasting effects on immune function and other traits."
+          },
+          {
+            "id": "r2p1q5",
+            "question": "According to paragraph 4, what remains debated about Neanderthals?",
+            "options": [
+              "A. Whether Neanderthals ever lived in Europe before modern humans arrived.",
+              "B. Whether modern humans interbred with Neanderthals at all.",
+              "C. The exact cause or causes of Neanderthal extinction.",
+              "D. Whether Neanderthals possessed language and symbolic thought."
+            ],
+            "answer": "C",
+            "explanation": "Paragraph 4 states that 'whether their extinction was caused by competition with modern humans, climate change, disease, or some combination of factors remains an active area of debate.'"
+          },
+          {
+            "id": "r2p1q6",
+            "question": "The word \"disputed\" in paragraph 5 most nearly means:",
+            "options": [
+              "A. well-established",
+              "B. recently discovered",
+              "C. contested or not universally accepted",
+              "D. recently excavated by archaeologists"
+            ],
+            "answer": "C",
+            "explanation": "In context, 'disputed sites' are archaeological sites whose age or interpretation is contested — not accepted by all researchers. This contrasts with the 'earliest well-documented sites' mentioned just before."
+          },
+          {
+            "id": "r2p1q7",
+            "question": "According to paragraph 5, what has recent evidence suggested about the colonization of the Americas?",
+            "options": [
+              "A. There was a single migration from Northeast Asia through an inland ice corridor.",
+              "B. Humans arrived in the Americas from South America rather than North America.",
+              "C. Multiple migration waves and a Pacific coastal route may have played a role.",
+              "D. The Americas were colonized from Europe via the North Atlantic."
+            ],
+            "answer": "C",
+            "explanation": "Paragraph 5 states that 'more recent genetic and archaeological evidence suggests... there may have been multiple migration waves, and a coastal route along the Pacific margin' may have been important."
+          },
+          {
+            "id": "r2p1q8",
+            "question": "It can be inferred from paragraph 6 that knowledge of ancient migration patterns is valuable to medical researchers because:",
+            "options": [
+              "A. it helps them recreate the original African diet that early humans consumed.",
+              "B. it explains why ancient humans were physically stronger than modern humans.",
+              "C. it helps explain variation in disease susceptibility and can inform targeted treatments.",
+              "D. it allows researchers to prevent future human migrations that spread disease."
+            ],
+            "answer": "C",
+            "explanation": "Paragraph 6 states that 'the genetic legacy of ancient migrations influences the distribution of disease susceptibilities' and that researchers use population genetic data 'to develop more targeted pharmacological treatments.'"
+          },
+          {
+            "id": "r2p1q9",
+            "question": "Look at the four squares [■] that indicate where the following sentence could be added to the passage. \"This timeline implies that modern humans reached Australia before they had colonized much of Europe or western Asia.\" Where would the sentence best fit?\n\nArchaeological evidence from the Arabian Peninsula and South Asia has helped map the likely routes of the initial dispersal. [■A] The most widely supported hypothesis proposes that the first successful migrants crossed the Bab-el-Mandeb strait at the southern end of the Red Sea. [■B] From the Arabian Peninsula, populations spread eastward along coastal routes, reaching South Asia and eventually Southeast Asia and Australia relatively rapidly. [■C] Genetic dating suggests that modern humans arrived in Australia at least 50,000 years ago — a finding that underscores the remarkable seafaring capability of these early populations. [■D]",
+            "options": [
+              "A. Position A",
+              "B. Position B",
+              "C. Position C",
+              "D. Position D"
+            ],
+            "answer": "D",
+            "explanation": "The inserted sentence draws a comparative conclusion from the 50,000-year Australian arrival date, noting it precedes colonization of Europe — it logically follows the statement about Australia's early settlement date."
+          },
+          {
+            "id": "r2p1q10",
+            "question": "Which of the following best states the main idea of the passage?",
+            "options": [
+              "A. Genetic studies have proven that all humans alive today are descended from a single woman who lived in Africa.",
+              "B. The colonization of the Americas remains the most poorly understood aspect of early human migration.",
+              "C. Converging evidence from genetics, archaeology, and fossils reveals a complex pattern of human dispersal from Africa with significant implications for science and medicine.",
+              "D. Neanderthal interbreeding with modern humans was the primary factor shaping the genetic diversity of non-African populations."
+            ],
+            "answer": "C",
+            "explanation": "The passage synthesizes genetic, fossil, and archaeological evidence to trace human migration across multiple continents and discusses implications for medicine and our understanding of human success — making C the best summary."
+          }
+        ]
+      },
+      {
+        "id": "r2p2",
+        "title": "The Italian Renaissance and the Transformation of Visual Art",
+        "text": "The Italian Renaissance, which flourished primarily between the fourteenth and sixteenth centuries, represents one of the most transformative periods in the history of Western art. Originating in the prosperous city-states of northern and central Italy — particularly Florence, Venice, and Rome — the Renaissance was characterized by a renewed engagement with the art, literature, and philosophy of classical antiquity, combined with a new emphasis on the observation of the natural world and the capacities of individual human beings. These intellectual currents produced revolutionary changes in painting, sculpture, and architecture that would define European artistic practice for centuries.\n\nAt the heart of the Renaissance artistic revolution was the development and refinement of linear perspective — a geometric system for representing three-dimensional space on a two-dimensional surface in a way that mimics how the human eye perceives depth. The architect Filippo Brunelleschi is credited with demonstrating the mathematical principles of linear perspective around 1415 through a famous experiment involving a painted panel and a mirror. The theorist Leon Battista Alberti subsequently codified these principles in his treatise Della Pittura (On Painting, 1435), making them accessible to a wider audience of artists. The adoption of perspective transformed painting from a largely symbolic art form, in which figures were sized according to their spiritual importance, into a representational one that could convincingly simulate real visual experience.\n\nThe study of human anatomy became another defining characteristic of Renaissance art. Medieval artists had typically represented the human body in stylized, schematic ways derived from established artistic conventions rather than direct observation. Renaissance artists sought a fundamentally different approach: they dissected cadavers, studied classical statues, and made careful drawings of living models in order to understand the precise structure and mechanics of the human body. Leonardo da Vinci, whose thousands of anatomical drawings remain among the most detailed records of the human body produced before the era of modern medicine, exemplified this empirical approach. Michelangelo's sculptures, particularly his David and the figures of the Sistine Chapel ceiling, demonstrated an unprecedented command of muscular anatomy that made his figures appear simultaneously idealized and physically convincing.\n\nThe patronage system was central to the production of Renaissance art. Unlike modern artists, who typically create work speculatively for an open market, Renaissance artists worked almost exclusively on commission, producing specific works for wealthy patrons — the Church, ruling families such as the Medici of Florence, civic institutions, and wealthy merchants. The relationship between patron and artist was complex: patrons determined the subject matter, materials (sometimes specifying expensive pigments like lapis lazuli), size, and often the iconographic program of commissioned works. In return, successful artists could acquire considerable social prestige, as art became a vehicle for patrons to display their wealth, piety, and cultural sophistication. The career of Raphael, who rose from provincial origins to become the favored artist of the papal court, illustrates the heights of social mobility available to supremely gifted artists.\n\nThe role of women in the Renaissance art world deserves attention, as it reveals the significant constraints that gender imposed on artistic participation. While a small number of women achieved recognition as painters — including Sofonisba Anguissola, who gained an international reputation at the Spanish court, and later Artemisia Gentileschi — women were generally excluded from the formal training that male artists received through apprenticeships in masters' workshops. Access to life drawing classes using nude models, considered essential for figure painting, was entirely denied to women. As a result, women artists typically worked in genres considered less prestigious, such as portraiture and still life. The achievements of those who overcame these barriers are particularly remarkable given the institutional obstacles they faced.\n\nThe Renaissance had a profound and lasting influence on subsequent Western art. The innovations of perspective, naturalistic representation, and anatomical accuracy became foundational elements of European academic painting, taught in art academies for centuries after the Renaissance itself had ended. The Renaissance also established the concept of the artist as a creative individual — a genius whose personal vision and technical mastery elevated art above mere craft. This idea, articulated in Giorgio Vasari's Lives of the Most Excellent Painters, Sculptors, and Architects (1550), became the template for how Western culture would understand artistic achievement for generations. Even subsequent movements that reacted against Renaissance ideals, such as Mannerism and the Baroque, defined themselves in relation to the Renaissance tradition they were departing from.",
+        "questions": [
+          {
+            "id": "r2p2q1",
+            "question": "According to paragraph 1, what were the key characteristics of the Renaissance that contributed to its artistic revolution?",
+            "options": [
+              "A. A rejection of classical antiquity and a focus on purely religious themes.",
+              "B. A renewed interest in classical thought combined with emphasis on nature and individual human capacity.",
+              "C. An exclusive focus on architecture rather than painting or sculpture.",
+              "D. A movement away from individual artistic expression toward collective guild production."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 1 describes the Renaissance as characterized by 'a renewed engagement with the art, literature, and philosophy of classical antiquity, combined with a new emphasis on the observation of the natural world and the capacities of individual human beings.'"
+          },
+          {
+            "id": "r2p2q2",
+            "question": "The word \"codified\" in paragraph 2 is closest in meaning to:",
+            "options": [
+              "A. criticized",
+              "B. systematically organized and formally set down",
+              "C. secretly preserved",
+              "D. experimentally tested"
+            ],
+            "answer": "B",
+            "explanation": "To codify means to arrange or set down in a systematic, accessible form. Alberti 'codified' the principles of perspective in a treatise — meaning he organized and formally documented them."
+          },
+          {
+            "id": "r2p2q3",
+            "question": "According to paragraph 2, how did the adoption of linear perspective change painting?",
+            "options": [
+              "A. It replaced religious subjects with secular and mythological themes.",
+              "B. It transformed painting from a symbolic art into one that could realistically represent visual experience.",
+              "C. It allowed artists to paint more quickly by eliminating the need for preparatory drawings.",
+              "D. It restricted painting to mathematically precise geometric compositions."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 2 states that perspective 'transformed painting from a largely symbolic art form... into a representational one that could convincingly simulate real visual experience.'"
+          },
+          {
+            "id": "r2p2q4",
+            "question": "The author mentions Leonardo da Vinci's anatomical drawings in paragraph 3 in order to:",
+            "options": [
+              "A. argue that Leonardo was a more important artist than Michelangelo.",
+              "B. illustrate the Renaissance commitment to empirical study of the human body.",
+              "C. explain how Renaissance artists learned from ancient Greek medical texts.",
+              "D. show that anatomical knowledge was limited in the Renaissance period."
+            ],
+            "answer": "B",
+            "explanation": "Leonardo's thousands of anatomical drawings are cited as an example of the 'empirical approach' — direct observation and study — that characterized Renaissance artists' treatment of the human body."
+          },
+          {
+            "id": "r2p2q5",
+            "question": "According to paragraph 4, which of the following accurately describes the Renaissance patronage system?",
+            "options": [
+              "A. Artists created work independently and then sold it to patrons at market prices.",
+              "B. Patrons commissioned specific works and often controlled subject matter and materials.",
+              "C. The Church was the only legitimate patron of Renaissance art.",
+              "D. Artists were paid solely in prestige and social status rather than monetary compensation."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 4 states that patrons 'determined the subject matter, materials... size, and often the iconographic program of commissioned works' — indicating patrons exercised significant control over artistic production."
+          },
+          {
+            "id": "r2p2q6",
+            "question": "It can be inferred from paragraph 5 that women artists in the Renaissance:",
+            "options": [
+              "A. were given equal access to artistic training but chose not to pursue figure painting.",
+              "B. were excluded from key aspects of artistic training, limiting the genres they could practice.",
+              "C. were primarily employed by the Church rather than by private patrons.",
+              "D. had greater artistic freedom than male artists because they were not bound by patronage contracts."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 5 describes how women were excluded from life drawing classes — considered essential for figure painting — meaning their training was incomplete and they were confined to genres like portraiture and still life."
+          },
+          {
+            "id": "r2p2q7",
+            "question": "The word \"speculatively\" in paragraph 4 is closest in meaning to:",
+            "options": [
+              "A. without a guaranteed buyer or patron in advance.",
+              "B. with careful financial planning.",
+              "C. for a fixed and agreed-upon price.",
+              "D. in response to government demand."
+            ],
+            "answer": "A",
+            "explanation": "Modern artists who create work 'speculatively' do so without a specific buyer in advance, hoping to sell it on the open market — in contrast to Renaissance artists who always had a patron and a contract."
+          },
+          {
+            "id": "r2p2q8",
+            "question": "According to paragraph 6, what was the significance of Giorgio Vasari's Lives of the Most Excellent Painters, Sculptors, and Architects?",
+            "options": [
+              "A. It was the first comprehensive manual of painting techniques used in Renaissance workshops.",
+              "B. It established the template for understanding artistic achievement as individual genius.",
+              "C. It argued that the Baroque style was superior to Renaissance art.",
+              "D. It provided a legal framework governing the relationship between artists and patrons."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 6 says Vasari's book 'became the template for how Western culture would understand artistic achievement for generations' by articulating the idea of the artist as a genius with personal creative vision."
+          },
+          {
+            "id": "r2p2q9",
+            "question": "Look at the four squares [■] that indicate where the following sentence could be added to the passage. \"This empirical commitment distinguished Renaissance artists sharply from their medieval predecessors.\" Where would the sentence best fit?\n\nMedieval artists had typically represented the human body in stylized, schematic ways derived from established artistic conventions rather than direct observation. [■A] Renaissance artists sought a fundamentally different approach: they dissected cadavers, studied classical statues, and made careful drawings of living models in order to understand the precise structure and mechanics of the human body. [■B] Leonardo da Vinci, whose thousands of anatomical drawings remain among the most detailed records of the human body produced before the era of modern medicine, exemplified this empirical approach. [■C] Michelangelo's sculptures demonstrated an unprecedented command of muscular anatomy. [■D]",
+            "options": [
+              "A. Position A",
+              "B. Position B",
+              "C. Position C",
+              "D. Position D"
+            ],
+            "answer": "B",
+            "explanation": "The inserted sentence draws a comparison between Renaissance and medieval artists — it logically follows the description of the Renaissance artists' empirical methods (dissection, live model drawing) and contrasts them with the medieval approach described just before."
+          },
+          {
+            "id": "r2p2q10",
+            "question": "Which of the following best summarizes the main idea of the passage?",
+            "options": [
+              "A. The Italian Renaissance was exclusively a Florentine phenomenon that was later exported to the rest of Europe.",
+              "B. The Renaissance transformed Western art through innovations in perspective, anatomy, and the concept of artistic genius, with lasting influence on subsequent periods.",
+              "C. The most important Renaissance contribution was the invention of oil painting, which made naturalistic representation possible.",
+              "D. Renaissance art was primarily significant for its religious content rather than its technical innovations."
+            ],
+            "answer": "B",
+            "explanation": "The passage covers perspective (paragraph 2), anatomy (paragraph 3), patronage and social context (paragraphs 4-5), and legacy (paragraph 6) — all supporting the broad claim that the Renaissance transformed Western art with enduring influence."
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "timeLimit": 2160,
+    "tracks": [
+      {
+        "id": "l2t1",
+        "type": "conversation",
+        "script": "Student: Hi, I'm looking for the housing office — am I in the right place?\nStaff: Yes, you are. How can I help you today?\nStudent: I have a problem with my room assignment for next semester. I applied for a single room in Harrison Hall, but when I checked my assignment online this morning, I've been placed in a double in Wilson Dormitory. I'm not sure what happened.\nStaff: Let me pull up your application. What's your student ID?\nStudent: It's 4-7-2-9-8-6.\nStaff: Okay, I see your application here. You did request a single in Harrison Hall, and you submitted it on April 3rd. The issue is that Harrison Hall has 94 single rooms and we received over 300 requests for singles this year — so it's extremely competitive. When demand exceeds supply, we allocate single rooms based on a combination of seniority and the date the application was received. As a sophomore, you're in the third-priority tier.\nStudent: I see. So there's no way I can get a single?\nStaff: Not in Harrison Hall, no — that's fully assigned. But we do have a waitlist, and students do move around before the semester starts. Also, there are single rooms available in two other dormitories — Maple House and the Lakeside Apartments. They're not as centrally located, but the rooms are actually larger and both buildings were renovated last year.\nStudent: How far are they from the main academic buildings?\nStaff: Maple House is about a twelve-minute walk. Lakeside is a bit farther — fifteen to eighteen minutes — but it's on the shuttle route, so you can take the bus on days when the weather is bad.\nStudent: What's the difference in cost?\nStaff: Both are slightly more expensive than Harrison Hall singles — about 200 dollars more per semester. However, if you apply for the residential scholarship program, sophomores can qualify for a partial subsidy. I can give you the application form before you leave.\nStudent: That would be really helpful, yes. Can I go on both the Harrison waitlist and transfer my application to Lakeside at the same time?\nStaff: You can go on the Harrison waitlist, but if you transfer your application to Lakeside, you'd be removing yourself from the priority pool for Harrison. I'd recommend deciding which is more important to you — location or guaranteed access to a single.\nStudent: Okay, I think I'll take the Lakeside application then, and get the scholarship form too. Is there anything else I need to do?\nStaff: Just bring your student ID card when you come back with the completed forms, and we'll update your assignment. Try to come back by Friday — assignments need to be finalized by the end of next week.\nStudent: Perfect, thank you so much for explaining everything.\nStaff: Of course — good luck with the housing.",
+        "questions": [
+          {
+            "id": "l2t1q1",
+            "question": "Why is the student visiting the housing office?",
+            "options": [
+              "A. To complain about noisy neighbors in her current dormitory.",
+              "B. To ask about a room assignment that differs from what she requested.",
+              "C. To apply for on-campus housing for the first time.",
+              "D. To request a transfer to a different floor within Harrison Hall."
+            ],
+            "answer": "B",
+            "explanation": "The student explains she applied for a single room in Harrison Hall but was assigned a double in Wilson Dormitory — a discrepancy from her request."
+          },
+          {
+            "id": "l2t1q2",
+            "question": "According to the staff member, why did the student not receive a single room in Harrison Hall?",
+            "options": [
+              "A. Her application was submitted after the deadline.",
+              "B. Harrison Hall does not offer single rooms to sophomores.",
+              "C. Demand for singles in Harrison Hall far exceeded the available rooms, and she had lower priority as a sophomore.",
+              "D. A clerical error caused her application to be misrouted to Wilson Dormitory."
+            ],
+            "answer": "C",
+            "explanation": "The staff member explains that Harrison Hall received over 300 requests for 94 single rooms, and that allocation is based on seniority and application date — as a sophomore, the student was in the third-priority tier."
+          },
+          {
+            "id": "l2t1q3",
+            "question": "What does the staff member say about the Lakeside Apartments?",
+            "options": [
+              "A. They are the closest dormitory to the main academic buildings.",
+              "B. They are on a shuttle bus route and were recently renovated.",
+              "C. They are cheaper than Harrison Hall singles.",
+              "D. They do not have single rooms available."
+            ],
+            "answer": "B",
+            "explanation": "The staff member says Lakeside 'is on the shuttle route' and both Lakeside and Maple House 'were renovated last year.'"
+          },
+          {
+            "id": "l2t1q4",
+            "question": "What does the staff member advise the student about going on the Harrison Hall waitlist?",
+            "options": [
+              "A. She can be on the Harrison waitlist while simultaneously transferring to Lakeside.",
+              "B. Transferring to Lakeside would remove her from the Harrison waitlist priority pool.",
+              "C. The waitlist is already closed and she should not apply.",
+              "D. She must pay a fee to be placed on the Harrison waitlist."
+            ],
+            "answer": "B",
+            "explanation": "The staff member tells the student that 'if you transfer your application to Lakeside, you'd be removing yourself from the priority pool for Harrison' — she must choose one."
+          },
+          {
+            "id": "l2t1q5",
+            "question": "What does the student decide to do at the end of the conversation?",
+            "options": [
+              "A. Stay in her current Wilson Dormitory assignment and save money.",
+              "B. Go on the Harrison Hall waitlist only and wait to see if a room opens.",
+              "C. Apply for Lakeside Apartments and get the residential scholarship form.",
+              "D. Request a different double room in a newer dormitory."
+            ],
+            "answer": "C",
+            "explanation": "The student says 'I think I'll take the Lakeside application then, and get the scholarship form too' — deciding on Lakeside over the Harrison waitlist."
+          }
+        ]
+      },
+      {
+        "id": "l2t2",
+        "type": "lecture",
+        "script": "Professor: Today we're going to discuss plate tectonics — the theory that explains the large-scale movement of Earth's lithosphere and accounts for some of the planet's most dramatic geological features. This theory, which became the dominant paradigm in geology only in the 1960s and 1970s, unified a wide range of previously puzzling observations into a single coherent framework.\n\nLet's start with the lithosphere. The outermost layer of Earth is divided into about fifteen major tectonic plates — rigid slabs of rock comprising both the crust and the uppermost mantle. These plates float, in a sense, on the asthenosphere — a partially molten layer of the mantle that is sufficiently ductile to flow over geological time scales. The plates move because of convection currents in the mantle: hot material rises from deep in Earth's interior, spreads laterally beneath the plates, and drags them along. The speeds involved are slow by human standards — typically one to fifteen centimeters per year, roughly the rate at which your fingernails grow — but over millions of years these movements produce enormous changes.\n\nThere are three types of plate boundaries, and each produces a distinctive set of geological features. At divergent boundaries, plates move apart. In the ocean, this produces mid-ocean ridges — underwater mountain ranges where new oceanic crust is formed as magma rises to fill the gap. The Mid-Atlantic Ridge is the most famous example: it runs roughly down the center of the Atlantic Ocean and is responsible for the gradual widening of the Atlantic basin at a rate of about 2.5 centimeters per year. Iceland sits directly on the Mid-Atlantic Ridge and is one of the few places in the world where you can stand on exposed mid-ocean ridge material and watch new land being created by volcanic activity.\n\nAt convergent boundaries, plates move toward each other. What happens depends on what types of crust are involved. When two continental plates collide, neither subducts — they crumple and push upward, forming mountain ranges. The Himalayas were formed this way, as the Indian plate collided with the Eurasian plate beginning roughly 50 million years ago — and they're still rising today. When an oceanic plate converges with a continental plate, the denser oceanic plate subducts beneath the lighter continental one, sinking into the mantle. This process creates deep ocean trenches — like the Mariana Trench in the Pacific — and volcanic arcs on the overriding plate as the subducting material melts and rises as magma. The volcanic mountain ranges of the Pacific coast of the Americas were formed this way.\n\nStudent: Professor, what happens when two oceanic plates meet?\n\nProfessor: Good question. When two oceanic plates converge, the older, denser plate subducts beneath the younger one, again creating a trench and a volcanic island arc — the Japanese islands and the Aleutian chain in Alaska are examples of this. At transform boundaries — the third type — plates slide horizontally past each other without creating or destroying crust. The San Andreas Fault in California is the best-known example. Because the plates grind against each other rather than sliding smoothly, transform boundaries are associated with frequent and sometimes severe earthquakes.\n\nThe evidence that convinced the scientific community of plate tectonics by the 1970s came from multiple independent lines of inquiry. Seafloor spreading was documented through the discovery of symmetric magnetic anomaly patterns on either side of mid-ocean ridges — created as magma solidified and recorded the direction of Earth's magnetic field at the time of formation. Deep-sea drilling confirmed that ocean floor sediments are youngest near the ridges and oldest near the continental margins. GPS measurements now directly confirm plate motion in real time. And paleontologists had long noted that the same fossil species appear on continents now separated by thousands of kilometers of ocean — a puzzle that plate tectonics elegantly resolved.\n\nThe theory has enormous practical implications. Earthquake and volcanic hazard assessment depends on understanding where plate boundaries are located and how rapidly plates move. The distribution of metallic ore deposits — copper, gold, nickel — is closely tied to ancient and modern subduction zones. And geothermal energy, which harnesses heat from Earth's interior, is most accessible in tectonically active regions. Plate tectonics is not merely an abstract scientific theory; it shapes how we understand the dynamic planet on which we live.",
+        "questions": [
+          {
+            "id": "l2t2q1",
+            "question": "What is the main purpose of the lecture?",
+            "options": [
+              "A. To trace the career of scientists who developed plate tectonics theory.",
+              "B. To explain the mechanisms, types of plate boundaries, and significance of plate tectonics.",
+              "C. To describe the geological history of specific mountain ranges.",
+              "D. To compare the geology of the Atlantic and Pacific Oceans."
+            ],
+            "answer": "B",
+            "explanation": "The lecture explains what plates are, how they move, describes all three types of boundaries with examples, discusses the evidence for the theory, and concludes with practical implications."
+          },
+          {
+            "id": "l2t2q2",
+            "question": "According to the professor, why do tectonic plates move?",
+            "options": [
+              "A. They are pushed by the weight of ocean water pressing on the seafloor.",
+              "B. They are dragged along by convection currents in the mantle.",
+              "C. They slide freely on a completely liquid layer below the crust.",
+              "D. They are pulled by the gravitational attraction of the moon."
+            ],
+            "answer": "B",
+            "explanation": "The professor explains that convection currents in the mantle cause hot material to rise, spread, and 'drag them along' — driving plate movement."
+          },
+          {
+            "id": "l2t2q3",
+            "question": "What does the professor say about the Himalayas?",
+            "options": [
+              "A. They were formed when an oceanic plate subducted beneath a continental plate.",
+              "B. They are the result of a divergent boundary creating a mid-ocean ridge.",
+              "C. They were formed when the Indian and Eurasian continental plates collided, and are still rising.",
+              "D. They contain the deepest ocean trench on Earth."
+            ],
+            "answer": "C",
+            "explanation": "The professor states the Himalayas were formed as the Indian plate collided with the Eurasian plate about 50 million years ago and 'they're still rising today' — a result of two continental plates converging."
+          },
+          {
+            "id": "l2t2q4",
+            "question": "According to the professor, what characterizes transform boundaries?",
+            "options": [
+              "A. New crust is created as magma fills the gap between separating plates.",
+              "B. One plate sinks beneath the other, forming deep ocean trenches.",
+              "C. Plates slide horizontally past each other, and they are associated with frequent earthquakes.",
+              "D. Two continental plates collide and form mountain ranges."
+            ],
+            "answer": "C",
+            "explanation": "The professor says at transform boundaries, 'plates slide horizontally past each other without creating or destroying crust' and they are 'associated with frequent and sometimes severe earthquakes.'"
+          },
+          {
+            "id": "l2t2q5",
+            "question": "What evidence from paleontology supported the theory of plate tectonics?",
+            "options": [
+              "A. Fossils of marine organisms were found on continents far from the ocean.",
+              "B. The same fossil species were found on continents now separated by thousands of kilometers.",
+              "C. Dinosaur fossils were larger in tropical regions, suggesting ancient climate patterns.",
+              "D. Fossilized plants demonstrated that all continents were once covered by ocean."
+            ],
+            "answer": "B",
+            "explanation": "The professor mentions that 'paleontologists had long noted that the same fossil species appear on continents now separated by thousands of kilometers of ocean' — a puzzle resolved by plate tectonics."
+          },
+          {
+            "id": "l2t2q6",
+            "question": "What does the professor imply about the practical value of plate tectonics theory?",
+            "options": [
+              "A. It is primarily of historical interest and has few real-world applications.",
+              "B. It is useful for understanding earthquakes and volcanoes but not for resource exploration.",
+              "C. It informs earthquake and volcanic hazard assessment, mineral resource distribution, and geothermal energy potential.",
+              "D. Its main application is helping GPS systems measure distances between cities."
+            ],
+            "answer": "C",
+            "explanation": "The professor explicitly mentions earthquake/volcanic hazard assessment, ore deposit distribution tied to subduction zones, and geothermal energy as practical implications of the theory."
+          }
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "timeLimit": 1020,
+    "tasks": [
+      {
+        "id": "s2t1",
+        "type": "independent",
+        "number": 1,
+        "prompt": "Do you agree or disagree with the following statement? Social media does more harm than good for society. Use specific reasons and examples to support your answer.",
+        "prepTime": 15,
+        "responseTime": 45
+      },
+      {
+        "id": "s2t2",
+        "type": "integrated-read-listen",
+        "number": 2,
+        "readingText": "NOTICE TO ALL STUDENTS — UNIVERSITY LIBRARY SERVICES\n\nThe university library will transition to a fully digital checkout system beginning next month. Physical library cards will no longer be required; students may borrow materials using their student ID or the university mobile app. Self-checkout kiosks will replace staffed circulation desks during evenings and weekends. Library staff will remain available during daytime hours for research assistance and reference services. This change is intended to reduce wait times and extend access to library services beyond traditional staffed hours.",
+        "listeningScript": "Woman: Have you heard about the library's new digital checkout system?\nMan: Yes, honestly, I have mixed feelings about it.\nWoman: What do you mean?\nMan: Well, the convenience aspect sounds good — using my phone instead of carrying a library card is fine. But I'm concerned about what it means for students who actually need help. The whole point of having circulation staff in the evenings is that that's when a lot of us are there. If the kiosks replace staff during those hours, the students who most need guidance — first-years who don't know how to navigate the catalog, or international students who may not be confident asking for help during the day — lose out.\nWoman: That's a good point. Do you think the research assistance during the day is enough?\nMan: Not really. Daytime hours are when most people are in class. The busiest times at the library are late afternoon and evening. Moving the human support to exactly the wrong hours seems like it prioritizes efficiency over student needs.",
+        "prompt": "The man expresses his opinion about the library's transition to a digital checkout system. State his opinion and explain the reasons he gives.",
+        "prepTime": 30,
+        "responseTime": 60
+      },
+      {
+        "id": "s2t3",
+        "type": "integrated-read-listen",
+        "number": 3,
+        "readingText": "FOUNDER EFFECT\n\nThe founder effect is a specific form of genetic drift that occurs when a new population is established by a small number of individuals from a larger source population. Because the founders carry only a subset of the genetic variation present in the original population, the new population has reduced genetic diversity from the outset. Alleles — alternative forms of a gene — that were rare in the original population may be absent in the founding group, while alleles that were uncommon may become disproportionately frequent simply by chance. Over subsequent generations, this initial reduction in diversity can have significant consequences for the population's evolutionary trajectory.",
+        "listeningScript": "Professor: Let me give you a vivid real-world example of the founder effect — the Amish population of Pennsylvania. The Amish community in the United States descends largely from a small group of Swiss and German immigrants who arrived in Pennsylvania in the eighteenth century. There were perhaps 200 original founders. Today the Amish population has grown to several hundred thousand, but because they tend to marry within their community, they are all descended from those few hundred founders. Now, among the original founders, there were individuals who carried a rare genetic variant causing a condition called Ellis-van Creveld syndrome — a form of dwarfism accompanied by extra fingers and toes. In the broader European population, this variant was extremely rare. But because it happened to be present in the founding group and was amplified through generations of within-community marriage, today the Amish have one of the highest rates of Ellis-van Creveld syndrome in the world — far higher than any surrounding population. This is the founder effect in action: the unusual genetic profile of the founders was preserved and amplified, not because the variant conferred any advantage, but simply because of chance.",
+        "prompt": "Using the example from the lecture, explain what the founder effect is and how it influenced the genetic characteristics of the Amish population.",
+        "prepTime": 30,
+        "responseTime": 60
+      },
+      {
+        "id": "s2t4",
+        "type": "integrated-listen",
+        "number": 4,
+        "listeningScript": "Professor: I want to talk about the concept of ecological succession — the process by which the species composition of an ecosystem changes over time following a disturbance or on newly available land. There are two main types: primary succession and secondary succession. Primary succession occurs in areas where there is no pre-existing soil or biological community — for example, on bare rock left exposed by a retreating glacier, or on newly formed volcanic islands. The process begins with pioneer species — organisms like lichens and mosses that can survive in harsh conditions and gradually break down rock into soil particles. As soil develops, it can support increasingly complex plant communities — first small annual plants, then shrubs, then trees. Each successive community modifies the environment in ways that make it suitable for the next, and less suitable for itself. This process can take hundreds to thousands of years to reach a stable climax community. Secondary succession is faster because soil is already present. It occurs after a disturbance — a forest fire, agricultural abandonment, or a flood — that disrupts but does not completely destroy the existing ecosystem. Because seeds, roots, and soil nutrients remain, colonizing species establish quickly. A classic example is an abandoned agricultural field in the eastern United States: within a year, it fills with weeds and annual grasses; within a decade, shrubs and small trees appear; within fifty years, a young forest may be established. Secondary succession demonstrates that ecosystems have a remarkable capacity for recovery if disturbance is not too severe or too frequent.",
+        "prompt": "Using points and examples from the lecture, explain the difference between primary and secondary succession and what factors influence how quickly each process occurs.",
+        "prepTime": 20,
+        "responseTime": 60
+      }
+    ]
+  },
+  "writing": {
+    "timeLimit": 3000,
+    "tasks": [
+      {
+        "id": "w2t1",
+        "type": "integrated",
+        "readingText": "The widespread adoption of renewable energy sources — particularly solar and wind power — is essential for addressing climate change and represents an economically sound transition for modern economies. Several arguments support this position. First, the costs of renewable energy have fallen dramatically and are now competitive with or cheaper than fossil fuels in most markets. The levelized cost of electricity from solar photovoltaic installations has declined by more than 90 percent over the past decade, making it the cheapest source of new electricity generation in history according to multiple analyses. Second, renewable energy creates significant employment opportunities. The renewable energy sector employs more people per unit of energy produced than fossil fuel industries, and jobs in installation, manufacturing, and maintenance are growing rapidly in many countries. Third, countries that develop strong domestic renewable energy capacity reduce their dependence on imported fossil fuels, improving energy security and reducing exposure to volatile global commodity prices.",
+        "listeningScript": "Professor: The reading presents a compelling optimistic case for renewable energy, but I think it glosses over some important complexities that deserve serious consideration. On the cost argument — yes, the cost of generating electricity from solar and wind has fallen dramatically at the point of generation. But that's not the full picture. Renewable energy is intermittent: the sun doesn't always shine, and the wind doesn't always blow. To integrate large amounts of renewable electricity into the grid reliably, you need either large-scale energy storage — which remains expensive and limited — or backup generation capacity, typically natural gas plants, that sit idle much of the time but must be maintained and staffed. When you include the full system costs of integrating renewables into the grid, the economic advantage narrows considerably. On the employment argument: yes, renewables create jobs — but the locations and skill profiles of those jobs often don't match the communities and workers displaced by declining fossil fuel industries. Coal miners in Wyoming or Pennsylvania cannot simply become solar panel installers in California. The transition creates economic winners and losers, and managing that displacement requires significant public investment that the reading does not account for. On energy security: while it's true that solar and wind reduce dependence on imported fuels, the supply chains for renewable technology — particularly the rare earth minerals used in turbines and batteries — are themselves geographically concentrated, primarily in China. Diversifying away from oil and gas dependence may simply shift dependence to a new set of critical materials with their own geopolitical vulnerabilities.",
+        "prompt": "Summarize the points made in the lecture, being sure to explain how they cast doubt on the specific points made in the reading passage.",
+        "timeLimit": 1200,
+        "wordCountMin": 150,
+        "wordCountMax": 225
+      },
+      {
+        "id": "w2t2",
+        "type": "academic-discussion",
+        "professorPrompt": "This week we have been examining environmental policy. Here is a question for our class discussion board: Some people argue that individuals have a moral responsibility to change their personal behavior — diet, transportation, consumption — to reduce their environmental impact. Others argue that systemic change through government regulation and corporate accountability is far more important than individual action. Which perspective do you find more persuasive, and why? Please share your view and respond to your classmates.",
+        "student1Response": "I believe systemic change must be the priority. Individual choices matter, but they are constrained by the systems in which people live. If public transportation is inadequate, people drive not by preference but necessity. If plant-based foods are significantly more expensive, low-income families cannot choose them. Corporations produce the vast majority of emissions, and until they face regulatory pressure and financial incentives to change, voluntary consumer behavior will never be sufficient at the scale required. — Maya",
+        "student2Response": "I agree that systemic change is essential, but I think dismissing individual responsibility is too convenient. Cultural change has historically preceded and enabled regulatory change — the social stigma around drunk driving, for example, shifted public opinion before legislation became politically possible. If individuals normalize sustainable choices, they create the political will for systemic reform. The two are not opposites; individual action is part of how systemic change happens. — Alex",
+        "prompt": "Respond to the professor's question. In your response, express and support your personal opinion and make a contribution to the discussion in addition to what Maya and Alex have said.",
+        "timeLimit": 600,
+        "wordCountMin": 100
+      }
+    ]
+  }
+}

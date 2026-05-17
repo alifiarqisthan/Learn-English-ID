@@ -1,0 +1,481 @@
+{
+  "id": "package-3",
+  "title": "TOEFL iBT Practice Test 3",
+  "reading": {
+    "timeLimit": 2100,
+    "passages": [
+      {
+        "id": "r3p1",
+        "title": "Ocean Currents and Global Climate Regulation",
+        "text": "Ocean currents are continuous, directed movements of seawater driven by a combination of forces including wind, differences in water density, Earth's rotation, and the configuration of ocean basins and coastlines. These currents form an interconnected global system — sometimes called the ocean conveyor belt — that plays a fundamental role in distributing heat around the planet, regulating regional climates, transporting nutrients, and influencing the cycling of carbon dioxide between the atmosphere and the deep sea. Understanding ocean circulation is therefore essential not only for marine science but for climate science more broadly.\n\nCurrents are typically classified as either surface currents or deep-water currents. Surface currents are driven primarily by wind and typically extend to depths of around 200 meters. They are strongly influenced by the Coriolis effect — the apparent deflection of moving objects caused by Earth's rotation — which causes surface currents to flow in large circular patterns called gyres. In the Northern Hemisphere, gyres rotate clockwise; in the Southern Hemisphere, they rotate counterclockwise. The Gulf Stream, one of the most studied ocean currents in the world, is part of the North Atlantic gyre and carries warm water from the Gulf of Mexico northward along the eastern coast of North America and across to northwestern Europe. This current is responsible for keeping the climate of countries like Norway, Iceland, and the United Kingdom significantly warmer than their latitudes would otherwise suggest.\n\nDeep-water currents are driven by density differences arising from variations in temperature and salinity — a process called thermohaline circulation. Seawater becomes denser when it is colder or when it contains more dissolved salt. In the North Atlantic, the warm water transported by the Gulf Stream releases heat into the atmosphere as it moves northward, cooling and becoming denser. In some regions, particularly the Labrador Sea and the waters around Greenland, surface water becomes sufficiently dense to sink to the ocean floor and flow southward as North Atlantic Deep Water — a cold, dense mass that travels deep in the ocean all the way to the Southern Ocean. This sinking and subsequent deep-water flow is the driving force behind the global thermohaline circulation, which connects all the world's ocean basins in a single slow-moving system. The complete cycle takes roughly 1,000 years.\n\nThe biological significance of ocean currents extends beyond temperature regulation. Upwelling — the process by which deep, cold, nutrient-rich water is drawn to the surface by wind-driven currents — creates some of the world's most productive marine ecosystems. When cold bottom water rich in nitrates, phosphates, and other nutrients rises to the sunlit surface zone, it fuels explosive growth of phytoplankton — microscopic photosynthetic organisms that form the base of the marine food web. The highly productive upwelling zones off the coasts of Peru, Chile, California, and West Africa support enormous fish populations and, in turn, large colonies of seabirds and marine mammals. These fisheries are economically critical for the countries adjacent to them.\n\nOcean currents also play a key role in regulating atmospheric carbon dioxide concentrations. The ocean absorbs roughly a quarter of the carbon dioxide emitted by human activities each year. Cold water absorbs more CO2 than warm water, so the cooling and sinking of surface water in the North Atlantic and around Antarctica drives carbon-rich water into the deep ocean — effectively sequestering carbon that would otherwise remain in the atmosphere. However, this carbon sink is not unlimited. As ocean temperatures rise due to climate change, the capacity of seawater to dissolve CO2 decreases, potentially weakening one of Earth's most important natural buffers against climate change.\n\nScientists have expressed concern that climate change may disrupt thermohaline circulation, with potentially serious consequences for regional climates. The melting of Greenland's ice sheet and Arctic sea ice introduces large amounts of fresh water into the North Atlantic, diluting its saltiness and reducing the density of surface water. If this process goes far enough, it could weaken or even halt the sinking of dense water that drives thermohaline circulation. Paleoclimatic evidence from ice cores and ocean sediments suggests that past disruptions to thermohaline circulation contributed to rapid and dramatic climate shifts in Europe — in some cases, temperature drops of several degrees Celsius within decades. While most scientists consider a complete shutdown of thermohaline circulation unlikely this century under current emissions trajectories, a significant weakening could still noticeably cool parts of northwestern Europe and disrupt precipitation patterns across the Atlantic basin.\n\nThe study of ocean currents has advanced considerably with the advent of autonomous underwater instruments called Argo floats — a global array of approximately 4,000 robotic profilers that drift through the ocean, periodically diving to depths of 2,000 meters and transmitting data on temperature, salinity, and pressure via satellite. Together with satellite altimetry measurements of sea surface height and direct current measurements from moored instruments, these technologies have given oceanographers an unprecedented real-time view of ocean circulation — enabling better predictions of climate variability and the impacts of ongoing warming on this critical planetary system.",
+        "questions": [
+          {
+            "id": "r3p1q1",
+            "question": "According to paragraph 1, why is understanding ocean circulation important beyond marine science?",
+            "options": [
+              "A. Ocean currents are the primary drivers of wind patterns on land.",
+              "B. Ocean currents distribute heat, regulate climate, and influence the carbon cycle, making them central to climate science.",
+              "C. Ocean currents determine the frequency and intensity of hurricanes in all regions.",
+              "D. Ocean currents supply the majority of fresh water used by coastal human populations."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 1 states that ocean currents play 'a fundamental role in distributing heat around the planet, regulating regional climates, transporting nutrients, and influencing the cycling of carbon dioxide' — all essential to climate science."
+          },
+          {
+            "id": "r3p1q2",
+            "question": "The word \"gyres\" in paragraph 2 refers to:",
+            "options": [
+              "A. the zones where ocean currents sink to the deep sea.",
+              "B. large circular patterns of ocean surface currents.",
+              "C. the temperature differences between surface and deep water.",
+              "D. regions of the ocean where wind has minimal effect."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines gyres directly: 'large circular patterns' in which surface currents flow, rotating clockwise in the Northern Hemisphere and counterclockwise in the Southern."
+          },
+          {
+            "id": "r3p1q3",
+            "question": "According to paragraph 3, what causes water to sink in the North Atlantic and initiate deep-water circulation?",
+            "options": [
+              "A. Wind-driven upwelling pushes cold water to the surface, displacing warm water downward.",
+              "B. Water cools and becomes denser as the Gulf Stream moves northward, eventually sinking to the ocean floor.",
+              "C. High concentrations of dissolved nutrients make North Atlantic water too heavy to remain at the surface.",
+              "D. Tidal forces cause periodic sinking of surface water near the coastlines of Greenland."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 3 explains that Gulf Stream water 'releases heat into the atmosphere as it moves northward, cooling and becoming denser' until it sinks to the ocean floor, driving thermohaline circulation."
+          },
+          {
+            "id": "r3p1q4",
+            "question": "The author discusses upwelling in paragraph 4 in order to:",
+            "options": [
+              "A. explain how surface winds cause the formation of deep-water currents.",
+              "B. illustrate the ecological importance of ocean currents in sustaining marine ecosystems.",
+              "C. contrast productive upwelling zones with regions of low biological activity.",
+              "D. demonstrate that phytoplankton are more important than fish to ocean food webs."
+            ],
+            "answer": "B",
+            "explanation": "Upwelling is described as creating 'some of the world's most productive marine ecosystems' — it is discussed to illustrate the ecological significance of ocean currents beyond temperature regulation."
+          },
+          {
+            "id": "r3p1q5",
+            "question": "According to paragraph 5, how does ocean temperature affect CO2 absorption?",
+            "options": [
+              "A. Warmer water absorbs more CO2 because heat accelerates chemical reactions.",
+              "B. Cold water absorbs more CO2, and rising ocean temperatures may reduce this carbon-absorbing capacity.",
+              "C. Ocean temperature has no effect on CO2 absorption; salinity is the determining factor.",
+              "D. Colder water releases CO2 into the atmosphere faster than warm water."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 5 states that 'cold water absorbs more CO2 than warm water' and that as temperatures rise, 'the capacity of seawater to dissolve CO2 decreases' — potentially weakening the ocean's role as a carbon sink."
+          },
+          {
+            "id": "r3p1q6",
+            "question": "According to paragraph 6, what physical process threatens to weaken thermohaline circulation?",
+            "options": [
+              "A. Increased evaporation in tropical oceans raising salinity levels globally.",
+              "B. The melting of Greenland's ice sheet introducing fresh water and reducing North Atlantic water density.",
+              "C. Rising CO2 concentrations making surface water too acidic to sink.",
+              "D. Stronger surface winds disrupting the Coriolis effect in the North Atlantic."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 6 explains that melting ice introduces fresh water into the North Atlantic, 'diluting its saltiness and reducing the density of surface water,' potentially halting the sinking that drives circulation."
+          },
+          {
+            "id": "r3p1q7",
+            "question": "The word \"sequestering\" in paragraph 5 most closely means:",
+            "options": [
+              "A. releasing into the atmosphere",
+              "B. storing or isolating away from the atmosphere",
+              "C. measuring and recording accurately",
+              "D. filtering through biological processes"
+            ],
+            "answer": "B",
+            "explanation": "Sequestering carbon means storing or locking it away from the atmosphere. The passage describes cold, sinking water driving 'carbon-rich water into the deep ocean — effectively sequestering carbon' that would otherwise stay in the atmosphere."
+          },
+          {
+            "id": "r3p1q8",
+            "question": "It can be inferred from paragraph 6 that scientists are concerned about thermohaline circulation disruption primarily because:",
+            "options": [
+              "A. it would eliminate all marine life in the North Atlantic within a few decades.",
+              "B. past disruptions to thermohaline circulation caused rapid, dramatic climate changes in Europe.",
+              "C. it would immediately cause global temperatures to rise by several degrees.",
+              "D. the technology to monitor thermohaline circulation is still insufficiently developed."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 6 cites paleoclimatic evidence that 'past disruptions to thermohaline circulation contributed to rapid and dramatic climate shifts in Europe — in some cases, temperature drops of several degrees Celsius within decades' as the basis for concern."
+          },
+          {
+            "id": "r3p1q9",
+            "question": "Look at the four squares [■] that indicate where the following sentence could be added to the passage. \"The sheer scale of this biological response makes upwelling zones among the most economically valuable ocean regions on Earth.\" Where would the sentence best fit?\n\nUpwelling — the process by which deep, cold, nutrient-rich water is drawn to the surface — creates some of the world's most productive marine ecosystems. [■A] When cold bottom water rich in nitrates, phosphates, and other nutrients rises to the sunlit surface zone, it fuels explosive growth of phytoplankton. [■B] The highly productive upwelling zones off the coasts of Peru, Chile, California, and West Africa support enormous fish populations and, in turn, large colonies of seabirds and marine mammals. [■C] These fisheries are economically critical for the countries adjacent to them. [■D]",
+            "options": [
+              "A. Position A",
+              "B. Position B",
+              "C. Position C",
+              "D. Position D"
+            ],
+            "answer": "C",
+            "explanation": "The inserted sentence summarizes the ecological scale described in the previous sentence (large fish populations, seabirds, marine mammals) and connects it to the economic value discussed next — making Position C the logical placement."
+          },
+          {
+            "id": "r3p1q10",
+            "question": "Which of the following best summarizes the main idea of the passage?",
+            "options": [
+              "A. The Gulf Stream is the most important ocean current for European climate and must be protected from disruption.",
+              "B. Ocean currents form a global system that regulates climate, supports ecosystems, and cycles carbon, and climate change threatens to disrupt this system.",
+              "C. New technologies like Argo floats have transformed our understanding of ocean circulation.",
+              "D. Upwelling zones are the most biologically significant features of the world's oceans."
+            ],
+            "answer": "B",
+            "explanation": "The passage covers the mechanisms of ocean circulation, its roles in heat distribution, biological productivity, and carbon cycling, and then discusses threats from climate change — all unified by the theme in option B."
+          }
+        ]
+      },
+      {
+        "id": "r3p2",
+        "title": "Roman Architecture: Engineering, Innovation, and Legacy",
+        "text": "Roman architecture represents one of antiquity's most remarkable achievements in applied engineering and urban planning. Drawing on traditions inherited from the Greeks and Etruscans, Roman architects and engineers developed a distinctive architectural vocabulary — including the arch, the vault, the dome, and concrete construction — that allowed them to create structures of unprecedented scale and complexity. The buildings and infrastructure of the Roman world served not only practical functions but also expressed the power, ambition, and organizational capacity of one of history's most extensive empires.\n\nThe Romans' most transformative technical contribution to architecture was the development and systematic use of opus caementicium — Roman concrete. Unlike the cut-stone construction favored by the Greeks, Roman concrete consisted of a mixture of volcanic ash (particularly pozzolana from the region around Pozzuoli near Naples), lime, water, and aggregate materials such as rubble, brick fragments, or stones. When this mixture hardened, it created a material of remarkable strength and durability that could be poured into almost any shape. Volcanic ash was the critical ingredient: it reacted chemically with seawater and lime to form extremely stable crystalline structures, explaining why many Roman concrete structures submerged in the Mediterranean have survived two millennia without significant deterioration. Modern engineers studying ancient Roman harbor installations have found that some of this concrete has actually grown stronger over time as the chemical reactions continued.\n\nThe arch and the vault were the architectural forms that most fully exploited the potential of Roman concrete and engineering. The arch — a curved structural form in which wedge-shaped stones (voussoirs) transfer loads laterally to supporting piers — had been known in the ancient world before Rome, but the Romans employed it systematically and on a massive scale. The barrel vault — essentially an extended arch forming a tunnel-like ceiling — allowed the construction of large enclosed spaces without the need for the wooden roof beams required by post-and-lintel construction, which were limited in span and vulnerable to fire. The Romans further developed the groin vault — formed by the intersection of two barrel vaults at right angles — which distributed weight more efficiently and allowed the construction of large open halls with multiple light sources.\n\nThe crowning achievement of Roman concrete vaulting was the dome, exemplified by the Pantheon in Rome, completed around 125 CE during the reign of Emperor Hadrian. The Pantheon's dome, spanning 43.3 meters in diameter, remained the largest dome in the world for over 1,300 years until the construction of Florence Cathedral's dome by Brunelleschi in the fifteenth century. The structural ingenuity of the Pantheon's dome lies in its sophisticated management of compressive forces: the concrete is thickest at the base, where stresses are greatest, and thins progressively toward the oculus — the circular opening at the top, 9 meters in diameter, that serves as the building's only light source. The dome also used different aggregate materials at different heights — heavier volcanic stone near the base, progressively lighter pumice near the top — to reduce the weight of the upper sections.\n\nBeyond monumental architecture, Roman engineering produced infrastructure that transformed the capacity of cities to function at scale. Roman aqueducts delivered fresh water to cities across the empire through a system of gravity-fed channels, tunnels, and elevated arcades. At its height, the city of Rome was served by eleven aqueducts delivering an estimated one million cubic meters of water per day — sufficient for more than a million inhabitants. This water supply supported not only private households but also the hundreds of public baths, or thermae, that were central features of Roman urban life. The thermae were not simply washing facilities but social centers that provided exercise areas, libraries, gardens, and spaces for socializing, reflecting the Roman conviction that public amenities contributed to social cohesion.\n\nRoman road construction similarly reflected the empire's logistical priorities. The Roman road network eventually extended to approximately 400,000 kilometers, connecting the most distant provinces of the empire. Roads were built using multiple layers of materials — large flat stones over packed rubble over a sand base — and were slightly curved in cross-section to facilitate drainage. Their durability was such that many Roman roads formed the basis for roads used in Europe well into the medieval period and some remain visible today. The roads served military, commercial, and administrative functions, enabling the rapid movement of legions, the transportation of goods, and the efficient transmission of communications that sustained imperial governance.\n\nThe architectural legacy of Rome has been profound and enduring. The Renaissance architects who transformed European building in the fifteenth and sixteenth centuries studied Roman ruins systematically, adopting the dome, the arch, the column orders, and the concept of the monumental civic building. Palladio, whose Four Books of Architecture (1570) became the most influential architectural treatise of the modern era, derived his principles almost entirely from Roman examples. The United States Capitol building and countless other government structures around the world reflect a deliberate choice to evoke Roman civic values through Roman architectural forms. In this sense, Roman architecture continues to shape the built environment of the modern world.",
+        "questions": [
+          {
+            "id": "r3p2q1",
+            "question": "According to paragraph 1, Roman architecture was distinctive because it:",
+            "options": [
+              "A. completely rejected Greek and Etruscan architectural traditions.",
+              "B. was used exclusively for religious buildings and temples.",
+              "C. combined inherited traditions with new engineering techniques to create unprecedentedly large and complex structures.",
+              "D. was designed primarily to be aesthetically pleasing rather than structurally sound."
+            ],
+            "answer": "C",
+            "explanation": "Paragraph 1 states that Roman architects 'developed a distinctive architectural vocabulary... that allowed them to create structures of unprecedented scale and complexity,' while 'drawing on traditions inherited from the Greeks and Etruscans.'"
+          },
+          {
+            "id": "r3p2q2",
+            "question": "According to paragraph 2, what made Roman concrete particularly durable?",
+            "options": [
+              "A. The use of iron reinforcement bars inside the concrete mixture.",
+              "B. A chemical reaction between volcanic ash, lime, and water that formed stable crystalline structures.",
+              "C. The extreme heat used during the mixing process, which hardened the material instantly.",
+              "D. The addition of crushed marble, which filled microscopic gaps in the material."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 2 explains that volcanic ash 'reacted chemically with seawater and lime to form extremely stable crystalline structures' — making the concrete long-lasting."
+          },
+          {
+            "id": "r3p2q3",
+            "question": "The word \"voussoirs\" in paragraph 3 refers to:",
+            "options": [
+              "A. the vertical supporting piers of an arch.",
+              "B. wedge-shaped stones that make up a Roman arch.",
+              "C. the concrete mixture used to fill barrel vaults.",
+              "D. decorative elements applied to the surface of vaulted ceilings."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines voussoirs directly as 'wedge-shaped stones' that 'transfer loads laterally to supporting piers' in an arch."
+          },
+          {
+            "id": "r3p2q4",
+            "question": "According to paragraph 3, what advantage did the barrel vault offer over post-and-lintel construction?",
+            "options": [
+              "A. It required less skilled labor and fewer specialized materials.",
+              "B. It allowed the construction of larger enclosed spaces without wooden roof beams limited in span and vulnerable to fire.",
+              "C. It was lighter than stone columns and therefore easier to transport across the empire.",
+              "D. It could be built entirely without concrete, using only cut stone blocks."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 3 states that the barrel vault 'allowed the construction of large enclosed spaces without the need for the wooden roof beams required by post-and-lintel construction, which were limited in span and vulnerable to fire.'"
+          },
+          {
+            "id": "r3p2q5",
+            "question": "According to paragraph 4, how did the builders of the Pantheon's dome manage the structural stresses involved?",
+            "options": [
+              "A. They used metal chains embedded in the base of the dome to prevent it from spreading outward.",
+              "B. They varied the thickness and aggregate materials throughout the dome to manage weight and compressive forces.",
+              "C. They built the dome in sections that could be replaced if cracks appeared over time.",
+              "D. They left the oculus unfinished until the dome had settled and stabilized."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 4 describes two specific techniques: varying thickness (thickest at the base, thinner toward the top) and using progressively lighter aggregate materials (heavy volcanic stone at base, pumice near the top) to reduce weight."
+          },
+          {
+            "id": "r3p2q6",
+            "question": "The author's discussion of the Roman thermae in paragraph 5 supports which of the following inferences?",
+            "options": [
+              "A. Romans considered access to public bathing a purely hygienic, not social, necessity.",
+              "B. The Romans saw public amenities as serving broader social functions beyond their primary practical purpose.",
+              "C. The thermae were only available to wealthy citizens who could afford the admission fees.",
+              "D. Roman emperors built thermae primarily to demonstrate military power."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 5 describes thermae as 'social centers' providing exercise, libraries, and socializing spaces, reflecting 'the Roman conviction that public amenities contributed to social cohesion' — going well beyond mere bathing."
+          },
+          {
+            "id": "r3p2q7",
+            "question": "According to paragraph 6, what design feature helped Roman roads remain functional over long periods?",
+            "options": [
+              "A. They were built using a single layer of precisely fitted marble slabs.",
+              "B. They were elevated above the surrounding terrain to allow water to drain away naturally.",
+              "C. They were constructed with multiple layers of materials and a curved cross-section to facilitate drainage.",
+              "D. They were maintained by permanent crews of engineers stationed at regular intervals."
+            ],
+            "answer": "C",
+            "explanation": "Paragraph 6 states that Roman roads used 'multiple layers of materials' and were 'slightly curved in cross-section to facilitate drainage' — both features contributing to their durability."
+          },
+          {
+            "id": "r3p2q8",
+            "question": "It can be inferred from paragraph 7 that Renaissance architects valued Roman architecture because:",
+            "options": [
+              "A. Roman buildings used materials unavailable to Renaissance builders.",
+              "B. Roman architectural forms conveyed civic ideals that Renaissance and later architects wanted to express.",
+              "C. Roman construction techniques were more economical than those available in fifteenth-century Europe.",
+              "D. Roman concrete recipes were rediscovered during the Renaissance and widely adopted."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 7 states that architects made 'a deliberate choice to evoke Roman civic values through Roman architectural forms' — implying the forms carried symbolic associations with civic ideals, not merely technical advantages."
+          },
+          {
+            "id": "r3p2q9",
+            "question": "Look at the four squares [■] that indicate where the following sentence could be added to the passage. \"This record-holding span reflected not only technical mastery but also the Roman imperial ambition to build structures that would outlast any individual reign.\" Where would the sentence best fit?\n\nThe crowning achievement of Roman concrete vaulting was the dome, exemplified by the Pantheon in Rome, completed around 125 CE. [■A] The Pantheon's dome, spanning 43.3 meters in diameter, remained the largest dome in the world for over 1,300 years until the construction of Florence Cathedral's dome by Brunelleschi in the fifteenth century. [■B] The structural ingenuity of the Pantheon's dome lies in its sophisticated management of compressive forces: the concrete is thickest at the base, where stresses are greatest, and thins progressively toward the oculus. [■C] The dome also used different aggregate materials at different heights to reduce the weight of the upper sections. [■D]",
+            "options": [
+              "A. Position A",
+              "B. Position B",
+              "C. Position C",
+              "D. Position D"
+            ],
+            "answer": "B",
+            "explanation": "The inserted sentence comments on the significance of holding the world record for 1,300 years — it logically follows the statement about this record and before the shift to discussing structural details."
+          },
+          {
+            "id": "r3p2q10",
+            "question": "Which of the following best describes the organizational structure of the passage?",
+            "options": [
+              "A. It presents a problem with Roman architecture, then proposes modern solutions to restore ancient buildings.",
+              "B. It describes specific Roman building types chronologically from earliest to latest.",
+              "C. It explains Roman architectural innovations and infrastructure, then discusses their lasting legacy.",
+              "D. It compares Roman and Greek architecture, arguing that Roman architecture was superior in every respect."
+            ],
+            "answer": "C",
+            "explanation": "The passage moves from concrete and structural innovations (paragraphs 2-4), to infrastructure like aqueducts and roads (paragraphs 5-6), and concludes with the influence on Renaissance and modern architecture (paragraph 7) — following the pattern described in option C."
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "timeLimit": 2160,
+    "tracks": [
+      {
+        "id": "l3t1",
+        "type": "conversation",
+        "script": "Student: Professor Nakamura? Do you have a moment? I wanted to talk about my research paper proposal.\nProfessor: Of course. Come in and have a seat. What's your topic?\nStudent: I want to write about the environmental impact of fast fashion — specifically how the textile industry contributes to water pollution in developing countries. But I'm having trouble narrowing the scope. I keep finding more angles I want to include.\nProfessor: That's a very common challenge in research writing. What angles are you considering?\nStudent: Well, I want to cover the chemical runoff from dyeing processes, water consumption in cotton production, microplastic pollution from synthetic fabrics, and then compare regulatory frameworks in different countries. But when I try to write an outline, it feels like five papers in one.\nProfessor: It is — and that's the problem. For a fifteen-page undergraduate paper, you need to commit to one clearly defined question. What's the single thing you find most compelling about this topic?\nStudent: I think it's the chemical runoff — specifically how rivers in Bangladesh and Vietnam near textile factories are contaminated, even though the products are sold in European markets. There's something really striking about that disconnect.\nProfessor: That's a strong focus. You could frame that as a global commodity chain problem — production costs are externalized onto communities in developing countries while consumers in wealthy markets don't see that cost. That's analytically tractable and it already points to specific cases you can document.\nStudent: That's helpful. Should I try to compare multiple countries or go deeper on one?\nProfessor: For a paper of this length, depth beats breadth. I'd recommend choosing one country — Bangladesh is probably the best-documented case — and using secondary sources like peer-reviewed environmental science articles and NGO reports to build a detailed account. If you want to gesture toward a comparative point, you can do that briefly in your conclusion.\nStudent: What about the regulatory angle? I was thinking about comparing Bangladeshi environmental regulations to EU standards.\nProfessor: That's legitimate, but be careful. Comparing legal frameworks in different jurisdictions can get complex quickly, and you risk spending half your paper on background explanation. If you want to include it, limit it to one or two paragraphs explaining the regulatory gap rather than making it a central argument.\nStudent: Okay. So my thesis would be something like: the fast fashion industry externalizes its environmental costs onto communities in Bangladesh through contaminated waterways, due to weak domestic regulation and limited accountability in global supply chains?\nProfessor: That's very close. You might want to sharpen it — \"limited accountability\" is vague. What specifically makes it unaccountable? Is it lack of supply chain transparency, absence of international enforcement mechanisms, or consumer ignorance? Pinning that down will make your argument more precise.\nStudent: I think it's the supply chain transparency issue — most brands genuinely don't track where their fabric is dyed.\nProfessor: Then say that in your thesis. It's a cleaner, more specific argument. Come back with a revised thesis and a source list of five to seven articles by next Friday and we'll go from there.\nStudent: Thank you so much. This really helped me see a path forward.\nProfessor: Good luck. It's a timely and important topic.",
+        "questions": [
+          {
+            "id": "l3t1q1",
+            "question": "What problem does the student describe about her research paper?",
+            "options": [
+              "A. She cannot find enough academic sources on her topic.",
+              "B. Her topic is too narrow and she needs to expand its scope.",
+              "C. Her topic is too broad and she is trying to cover too many angles.",
+              "D. She disagrees with her professor about the importance of her chosen topic."
+            ],
+            "answer": "C",
+            "explanation": "The student says she keeps 'finding more angles I want to include' and that her outline 'feels like five papers in one' — the problem is scope being too wide."
+          },
+          {
+            "id": "l3t1q2",
+            "question": "What does the professor suggest is the most important thing the student needs to do?",
+            "options": [
+              "A. Find more sources from different academic disciplines.",
+              "B. Commit to a single, clearly defined research question.",
+              "C. Expand the paper's length to accommodate all the angles she wants to cover.",
+              "D. Focus exclusively on comparing regulatory frameworks across countries."
+            ],
+            "answer": "B",
+            "explanation": "The professor says 'you need to commit to one clearly defined question' — this is the central advice of the conversation."
+          },
+          {
+            "id": "l3t1q3",
+            "question": "What does the professor recommend regarding the student's choice of country focus?",
+            "options": [
+              "A. Compare three or more countries to demonstrate a global pattern.",
+              "B. Focus on one country in depth, with Bangladesh as the best-documented case.",
+              "C. Focus exclusively on European regulatory standards rather than specific countries.",
+              "D. Use China as the primary case study because it produces the most textiles."
+            ],
+            "answer": "B",
+            "explanation": "The professor recommends 'choosing one country — Bangladesh is probably the best-documented case — and using secondary sources to build a detailed account,' advising depth over breadth."
+          },
+          {
+            "id": "l3t1q4",
+            "question": "What concern does the professor raise about including a regulatory comparison?",
+            "options": [
+              "A. Regulatory information is not considered appropriate for undergraduate papers.",
+              "B. It is impossible to find reliable data on Bangladeshi environmental regulations.",
+              "C. Comparing legal frameworks across jurisdictions could dominate the paper with background explanation.",
+              "D. The student has already written about regulations in a previous assignment."
+            ],
+            "answer": "C",
+            "explanation": "The professor warns that comparing legal frameworks 'can get complex quickly, and you risk spending half your paper on background explanation' — cautioning against letting it become a central argument."
+          },
+          {
+            "id": "l3t1q5",
+            "question": "What does the professor ask the student to do before their next meeting?",
+            "options": [
+              "A. Write a complete first draft of the paper.",
+              "B. Interview workers at textile factories in Bangladesh.",
+              "C. Bring a revised thesis and a list of five to seven sources.",
+              "D. Read three books on global supply chain management."
+            ],
+            "answer": "C",
+            "explanation": "The professor says 'come back with a revised thesis and a source list of five to seven articles by next Friday.'"
+          }
+        ]
+      },
+      {
+        "id": "l3t2",
+        "type": "lecture",
+        "script": "Professor: Today I want to discuss cognitive dissonance — a concept introduced by social psychologist Leon Festinger in 1957 that has become one of the most widely cited and experimentally tested theories in all of psychology. The core idea is elegantly simple: people have a powerful need for their beliefs, attitudes, and behaviors to be internally consistent. When inconsistency arises — when two cognitions that a person holds are psychologically contradictory — the person experiences an uncomfortable state of mental tension that Festinger called cognitive dissonance. And crucially, people are motivated to reduce this discomfort.\n\nBefore I explain the mechanisms for reducing dissonance, let me give you a classic example. Imagine a person who smokes and also knows that smoking causes cancer. These two pieces of information — \"I smoke\" and \"smoking causes cancer\" — are logically contradictory. The smoker cannot simultaneously believe both without experiencing dissonance. How does the person resolve this? There are several options. They might quit smoking — changing the behavior to match the belief. They might minimize the risk: \"I only smoke a few cigarettes a day, so the risk is really quite small.\" They might add consonant cognitions: \"Smoking relaxes me, and stress is also a major health risk.\" Or they might challenge the evidence: \"The research on smoking and cancer is funded by pharmaceutical companies that want to sell patches.\" Notice that only the first option — quitting — actually resolves the underlying inconsistency. The others are psychological strategies for managing the discomfort without changing the behavior.\n\nFestinger and his colleague James Carlsmith conducted one of the most ingenious demonstrations of cognitive dissonance in 1959 in what became known as the induced compliance paradigm. Participants were asked to perform a genuinely tedious and boring task — turning pegs on a pegboard for an extended period. Afterward, some were paid twenty dollars to tell the next participant that the task had been interesting and enjoyable. Others were paid only one dollar to say the same thing. Then all participants were asked to rate how much they had actually enjoyed the task. Now, you might expect the people paid more to rate it more positively — after all, they received a greater reward. But that's not what happened. The one-dollar group rated the task as significantly more enjoyable than the twenty-dollar group.\n\nStudent: That seems counterintuitive. Why would people paid less enjoy it more?\n\nProfessor: Exactly — it is counterintuitive. The explanation lies in dissonance reduction. The people paid twenty dollars had sufficient external justification for saying something they didn't believe: \"I lied, but I got twenty dollars for it.\" They could maintain their original attitude — the task was boring — without dissonance because their behavior was explained by the money. But the one-dollar participants had insufficient external justification for their lie. To reduce the dissonance between \"I told someone the task was interesting\" and \"the task was actually boring,\" they unconsciously adjusted their attitude: \"Maybe it wasn't that bad after all.\" They changed their belief to match their behavior — which is the opposite of what common sense predicts.\n\nCognitive dissonance has been demonstrated across an enormous variety of experimental contexts and has important implications far beyond the psychology laboratory. In health communication, for example, efforts to change behavior by simply providing information often fail because people can reduce the dissonance triggered by threatening health information without changing their behavior — through the rationalization strategies I described. Effective health campaigns have learned that creating the right type and magnitude of dissonance — and then making behavioral change the easiest available route to resolution — is more effective than information provision alone.\n\nIn organizational contexts, cognitive dissonance explains why people become more committed to a decision after they have made it, even when new information suggests the decision was suboptimal. This post-decisional rationalization — the tendency to bolster the chosen option and derogate the rejected alternative — is why organizations often resist correcting strategic mistakes. Acknowledging the mistake would mean confronting the dissonance between \"I made the right decision\" and \"the evidence says I was wrong.\" Understanding this mechanism is the first step toward designing organizations that can learn from their errors more effectively.",
+        "questions": [
+          {
+            "id": "l3t2q1",
+            "question": "What is the main topic of the lecture?",
+            "options": [
+              "A. The psychological effects of financial rewards on workplace performance.",
+              "B. The theory of cognitive dissonance: its definition, mechanisms, and applications.",
+              "C. How health communication campaigns change personal behavior.",
+              "D. The role of rationalization in group decision-making processes."
+            ],
+            "answer": "B",
+            "explanation": "The lecture introduces and defines cognitive dissonance (paragraph 1), describes reduction mechanisms with examples (paragraphs 2-4), and then discusses applications in health and organizational contexts (paragraphs 5-6)."
+          },
+          {
+            "id": "l3t2q2",
+            "question": "According to the professor, what does cognitive dissonance cause people to do?",
+            "options": [
+              "A. Seek more information before making any decisions.",
+              "B. Experience mental discomfort and become motivated to reduce it.",
+              "C. Consult others to determine which of their conflicting beliefs is correct.",
+              "D. Avoid situations that require them to make explicit choices."
+            ],
+            "answer": "B",
+            "explanation": "The professor defines cognitive dissonance as 'an uncomfortable state of mental tension' and says 'people are motivated to reduce this discomfort.'"
+          },
+          {
+            "id": "l3t2q3",
+            "question": "In the smoking example, which strategy does the professor identify as the only one that actually resolves the underlying inconsistency?",
+            "options": [
+              "A. Minimizing the health risk by noting that only small amounts are smoked.",
+              "B. Adding cognitions that justify the behavior, such as the stress-reduction benefit.",
+              "C. Quitting smoking, which aligns the behavior with the belief.",
+              "D. Challenging the scientific evidence linking smoking and cancer."
+            ],
+            "answer": "C",
+            "explanation": "The professor states: 'Notice that only the first option — quitting — actually resolves the underlying inconsistency. The others are psychological strategies for managing the discomfort without changing the behavior.'"
+          },
+          {
+            "id": "l3t2q4",
+            "question": "What was the key finding of the Festinger and Carlsmith experiment?",
+            "options": [
+              "A. People paid more for a task rate it as more enjoyable because higher pay implies higher value.",
+              "B. People paid less for lying about a boring task rated it as more enjoyable than those paid more.",
+              "C. People who were paid nothing rated the task as the most enjoyable of all groups.",
+              "D. Participants who lied about the task refused to answer questions about their enjoyment of it."
+            ],
+            "answer": "B",
+            "explanation": "The professor states that 'the one-dollar group rated the task as significantly more enjoyable than the twenty-dollar group' — the counterintuitive finding explained by dissonance reduction."
+          },
+          {
+            "id": "l3t2q5",
+            "question": "According to the lecture, why did the one-dollar participants change their attitude about the task?",
+            "options": [
+              "A. They received positive feedback from the next participant, which changed their perception.",
+              "B. One dollar was actually a substantial sum in 1959, which made them feel adequately compensated.",
+              "C. They lacked sufficient external justification for their lie and so adjusted their attitude to reduce dissonance.",
+              "D. The experimenter told them after the task that it had been designed to be interesting."
+            ],
+            "answer": "C",
+            "explanation": "The professor explains that the one-dollar group had 'insufficient external justification for their lie' and resolved the dissonance by adjusting their attitude — believing the task was actually not that bad."
+          },
+          {
+            "id": "l3t2q6",
+            "question": "What does the professor say about why organizations often fail to correct strategic mistakes?",
+            "options": [
+              "A. Organizations lack the data necessary to identify when a decision has been wrong.",
+              "B. Correcting a mistake requires confronting the dissonance between believing one made the right decision and evidence to the contrary.",
+              "C. Organizational leaders are usually aware of mistakes but hide them from employees.",
+              "D. Post-decisional rationalization only occurs in individuals, not in organizational groups."
+            ],
+            "answer": "B",
+            "explanation": "The professor says organizations resist correcting mistakes because 'acknowledging the mistake would mean confronting the dissonance between \"I made the right decision\" and \"the evidence says I was wrong.\"'"
+          }
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "timeLimit": 1020,
+    "tasks": [
+      {
+        "id": "s3t1",
+        "type": "independent",
+        "number": 1,
+        "prompt": "Do you agree or disagree with the following statement? Living and working in large cities offers more advantages than disadvantages. Use specific reasons and examples to support your answer.",
+        "prepTime": 15,
+        "responseTime": 45
+      },
+      {
+        "id": "s3t2",
+        "type": "integrated-read-listen",
+        "number": 2,
+        "readingText": "MEMO TO ALL FACULTY AND STUDENTS\n\nThe university is introducing a new academic integrity policy that requires all written assignments to be submitted through an AI detection platform before receiving a final grade. Assignments flagged as containing AI-generated content above a ten percent threshold will be returned to students for revision. Instructors will receive a detailed report for each submission. The policy will take effect at the beginning of the fall semester and applies to all courses requiring written work of five hundred words or more.",
+        "listeningScript": "Woman: Did you read the new academic integrity memo?\nMan: I did. I have to say, I think it's well-intentioned but raises some real problems.\nWoman: Like what?\nMan: For one thing, AI detection tools are notoriously inaccurate. There have been multiple documented cases at other universities where students who wrote entirely original work were flagged as using AI — particularly students who write in a formal or academic style, and especially non-native English speakers whose writing patterns sometimes resemble what the tools flag. Penalizing students based on an unreliable algorithm seems like a serious fairness issue.\nWoman: That's a valid concern. Do you think the ten percent threshold helps?\nMan: Not really. The threshold is somewhat arbitrary, and it doesn't change the fundamental problem that the tool might misidentify legitimate work. Beyond that, the policy seems reactive rather than educational. Instead of teaching students what constitutes genuine academic work and why it matters, it treats all students as suspects. I'd rather see the university invest in workshops on research integrity and assignment designs that make AI misuse less attractive in the first place.",
+        "prompt": "The man expresses his opinion about the university's new AI detection policy. State his opinion and the reasons he gives.",
+        "prepTime": 30,
+        "responseTime": 60
+      },
+      {
+        "id": "s3t3",
+        "type": "integrated-read-listen",
+        "number": 3,
+        "readingText": "COGNITIVE DISSONANCE\n\nCognitive dissonance refers to the psychological discomfort experienced when a person holds two or more contradictory beliefs, or when their behavior conflicts with their stated values. According to psychologist Leon Festinger's theory, this discomfort motivates people to restore internal consistency. They may do so by changing one of the conflicting cognitions, reducing the importance of the conflict, or adding new cognitions that reconcile the contradiction. Because changing behavior is often more difficult than changing a belief, people frequently resolve dissonance through rationalization — adjusting how they think about a situation rather than what they actually do.",
+        "listeningScript": "Professor: Let me give you an example of cognitive dissonance that most people can relate to from their own experience — the phenomenon of post-purchase rationalization. You've probably experienced this yourself. You spend three months researching a laptop — reading reviews, comparing specifications, making spreadsheets. You finally buy one. The next morning, you wake up and read a review saying a competing model has significantly better battery life and is now on sale for less. What do you feel? Most people feel a twinge of anxiety — that's dissonance. You've spent a significant amount of money and you're now getting information that suggests you may have made the wrong choice. How do most people resolve this? They don't return the laptop. Instead, they unconsciously start emphasizing the advantages of the laptop they chose — \"but the display quality is better, and I've always preferred this brand\" — and minimizing the relevance of the competing model's advantages: \"battery life doesn't really matter that much for how I work anyway.\" You've changed your beliefs to match your behavior — the purchase. Marketers are very aware of this phenomenon, which is why post-purchase communications from companies emphasize reassurance: they're helping you reduce dissonance and feel confident in your decision.",
+        "prompt": "Using the example from the lecture, explain what cognitive dissonance is and how the process of post-purchase rationalization illustrates it.",
+        "prepTime": 30,
+        "responseTime": 60
+      },
+      {
+        "id": "s3t4",
+        "type": "integrated-listen",
+        "number": 4,
+        "listeningScript": "Professor: I want to talk today about two contrasting urban planning philosophies that have shaped cities very differently: the modernist planning tradition associated with Le Corbusier and his contemporaries, and the more organic, community-centered approach advocated by Jane Jacobs. These two visions came into direct conflict in mid-twentieth-century America and Europe, and their legacy shapes the cities we live in today. Le Corbusier, the Swiss-French architect, believed that the chaotic, dense, mixed-use neighborhoods of the industrial city were fundamentally unhealthy and inefficient. His solution was radical: demolish the old city and replace it with rational superblocks — large, widely spaced residential towers set in green open space, separated from commercial and industrial areas by zoning, and connected by highways. This vision, called the Radiant City, influenced the design of public housing projects across the United States and Europe in the 1950s and 1960s. The results were often catastrophic. The towers isolated residents from street life and community activity, the open spaces between buildings were alienating rather than inviting, and the separation of uses meant residents had to travel to shops, jobs, and services rather than having them nearby. Jane Jacobs, a journalist and activist with no formal planning training, offered a devastating critique of this approach in her 1961 book The Death and Life of Great American Cities. Jacobs argued that urban vitality depends on density, mixed uses, short blocks, and buildings of varying ages. Diverse, mixed-use streets generate what she called 'eyes on the street' — informal surveillance by residents, shopkeepers, and passersby that makes neighborhoods safe and vibrant. She argued, persuasively, that the seemingly messy, organic neighborhoods that planners like Le Corbusier wanted to demolish were in fact precisely the environments that made cities livable. The tension between these two visions — top-down rational planning versus bottom-up community-driven design — continues to shape debates about gentrification, housing, and urban development today.",
+        "prompt": "Using points and examples from the lecture, explain the key differences between Le Corbusier's and Jane Jacobs's approaches to urban planning and why Jacobs's critique was significant.",
+        "prepTime": 20,
+        "responseTime": 60
+      }
+    ]
+  },
+  "writing": {
+    "timeLimit": 3000,
+    "tasks": [
+      {
+        "id": "w3t1",
+        "type": "integrated",
+        "readingText": "The widespread adoption of remote work arrangements has produced a range of measurable benefits that have changed the nature of employment for millions of workers globally. First, remote work significantly improves work-life balance for employees. The elimination of daily commutes — which average nearly an hour per day in major urban areas — returns valuable time to workers that can be devoted to family responsibilities, exercise, leisure, or additional rest. Surveys consistently show that remote workers report higher job satisfaction and lower stress levels than their office-based counterparts, contributing to better mental and physical health outcomes. Second, remote work enables workers to live in lower-cost areas without sacrificing access to high-quality employment. Rather than being compelled to live in expensive urban centers to access the best job opportunities, remote workers can choose communities based on quality of life considerations — access to nature, proximity to family, preferred climate — while retaining the salaries associated with urban labor markets. Third, remote work reduces the environmental impact of the workforce. When millions of workers eliminate their daily vehicle commutes, the reduction in transportation-related carbon emissions can be substantial. Studies have estimated that widespread remote work has the potential to reduce individual carbon footprints meaningfully, contributing to national and global emission reduction targets.",
+        "listeningScript": "Professor: The reading makes a reasonable case, but I think each of the three arguments presented deserves a more critical look. On work-life balance: while the elimination of commute time is a genuine benefit, research on remote workers suggests that the boundary between work and personal life frequently becomes blurred when work is performed at home. Without the physical and temporal separation that commuting provides, many remote workers report working longer hours, checking email outside of formal work hours, and feeling an implicit pressure to be continuously available to managers and colleagues. Studies have documented higher rates of burnout among remote workers in some industries — particularly those requiring constant digital connectivity — which complicates the picture considerably. On geographic freedom: yes, remote workers can theoretically live anywhere, but in practice this benefit is unevenly distributed. It primarily benefits workers in high-paying knowledge economy jobs — software engineers, consultants, analysts — who have the salary and savings to relocate. Lower-wage workers, even when remote, are often tied to specific geographic labor markets through family obligations, housing costs, or contractual requirements. The result is that remote work may actually exacerbate economic inequality rather than democratize opportunity. On environmental benefits: the picture is more complicated than the reading suggests. Remote workers often compensate for reduced commuting by increasing other forms of travel — more frequent leisure trips, flying for vacations they previously could not afford, relocating to car-dependent suburban or rural areas where driving replaces public transit. Some life-cycle analyses of remote work's carbon impact find that these behavioral substitutions partially or fully offset the commuting emissions saved.",
+        "prompt": "Summarize the points made in the lecture, being sure to explain how they cast doubt on the specific points made in the reading passage.",
+        "timeLimit": 1200,
+        "wordCountMin": 150,
+        "wordCountMax": 225
+      },
+      {
+        "id": "w3t2",
+        "type": "academic-discussion",
+        "professorPrompt": "This week we have been examining urbanization and its consequences. Here is a question for our discussion board: Rapid urbanization in developing countries is often described as both an opportunity and a challenge. Some scholars argue that cities are engines of economic growth and innovation that lift people out of poverty. Others point to the inequality, environmental degradation, and social dislocation that urban growth often produces. In your view, what is the most important thing governments should do to ensure that urbanization produces more benefits than costs? Please share your perspective and engage with your classmates.",
+        "student1Response": "I think the single most important investment is in affordable public transportation. Cities only function as engines of economic mobility when poor residents can actually reach jobs, healthcare, and education. In many rapidly urbanizing cities, the poor are pushed to peripheral areas where public transit is nonexistent, trapping them in spatial poverty even when economic opportunities exist somewhere in the city. Good public transport is the infrastructure that connects everything else. — Maya",
+        "student2Response": "I agree transport matters, but I think the foundational issue is land use and housing policy. In cities like Mumbai, Lagos, or Jakarta, land speculation and weak tenant protections force low-income migrants into informal settlements lacking secure tenure, sanitation, and legal status. When people lack secure housing, they can't invest in their communities, access credit, or plan for the future. Formalizing informal settlements and building affordable housing creates the stable foundation that everything else depends on. — Alex",
+        "prompt": "Respond to the professor's question. In your response, express and support your personal opinion and make a contribution to the discussion in addition to what Maya and Alex have said.",
+        "timeLimit": 600,
+        "wordCountMin": 100
+      }
+    ]
+  }
+}

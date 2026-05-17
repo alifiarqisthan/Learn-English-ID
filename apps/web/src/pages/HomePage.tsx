@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ArrowRight, BookOpen, CheckCircle2, Lock, Star } from "lucide-react";
+import { ArrowRight, BookOpen, CheckCircle2 } from "lucide-react";
 import type { MasterGroupSlug, ModuleGroupSummary, ModuleSummary } from "@app/shared";
 import { PASS_THRESHOLD } from "@app/shared";
 import { api } from "../api";
@@ -77,10 +77,6 @@ export default function HomePage() {
   const totalModules = modules?.filter((m) => !m.placeholder).length ?? 0;
   const passedModules = modules?.filter((m) => !m.placeholder && isPassed(progress[m.slug])).length ?? 0;
   const overallPct = totalModules > 0 ? Math.round((passedModules / totalModules) * 100) : 0;
-
-  // Master test: unlock when tenses master group is complete
-  const tensesComplete = masterStats("tenses").complete;
-  const masterPassed = isPassed(progress["group-test:master"]);
 
   return (
     <div className="space-y-12">
@@ -163,44 +159,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Final master test */}
-      <section className="space-y-3">
-        <div className="flex items-center gap-2">
-          <Star className="h-5 w-5 text-accent" />
-          <h2 className="font-serif text-xl font-semibold">Final Challenge</h2>
-        </div>
-        <Card className={cn(!tensesComplete && "opacity-60")}>
-          <CardContent className="flex flex-col gap-4 pt-6 sm:flex-row sm:items-center sm:justify-between">
-            <div className="space-y-1">
-              <div className="flex items-center gap-2">
-                <p className="font-serif font-semibold">Master Test — All 12 Tenses</p>
-                {!tensesComplete && <Lock className="h-4 w-4 text-muted-foreground" />}
-                {masterPassed && <Badge variant="accent" className="rounded text-xs">Passed</Badge>}
-              </div>
-              <p className="text-sm text-muted-foreground max-w-md">
-                20 cross-group contrast questions across all 12 tenses.
-                {!tensesComplete && " Complete the 12 Tenses module first."}
-              </p>
-            </div>
-            <div className="flex flex-col gap-2 shrink-0 sm:items-end">
-              {tensesComplete ? (
-                <Button asChild size="sm">
-                  <Link to="/master-test">
-                    {masterPassed ? "Retake" : "Start"} <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </Button>
-              ) : (
-                <Button disabled variant="outline" size="sm">
-                  <Lock className="h-4 w-4 mr-1.5" /> Locked
-                </Button>
-              )}
-              <Button asChild variant="link" className="px-0 text-xs h-auto">
-                <Link to="/references/all-tenses-summary">12-tense cheat sheet →</Link>
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      </section>
     </div>
   );
 }

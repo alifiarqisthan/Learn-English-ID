@@ -7,21 +7,38 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model User {
+  id          String           @id @default(cuid())
+  name        String           @unique
+  pin         String
+  createdAt   DateTime         @default(now())
+  progress    ModuleProgress[]
+  attempts    Attempt[]
+}
+
 model Attempt {
   id          String   @id @default(cuid())
+  userId      String
   moduleSlug  String
   exerciseId  String
   userAnswer  String
   isCorrect   Boolean
   createdAt   DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id])
 
-  @@index([moduleSlug])
+  @@index([userId, moduleSlug])
 }
 
 model ModuleProgress {
-  slug        String   @id
+  id          String    @id @default(cuid())
+  userId      String
+  slug        String
   completedAt DateTime?
   lastScore   Int?
-  attempts    Int      @default(0)
-  updatedAt   DateTime @updatedAt
+  attempts    Int       @default(0)
+  updatedAt   DateTime  @updatedAt
+  user        User      @relation(fields: [userId], references: [id])
+
+  @@unique([userId, slug])
+  @@index([userId])
 }

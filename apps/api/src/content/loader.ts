@@ -15,6 +15,12 @@ const exercisesFileSchema = z.object({
   exercises: z.array(exerciseSchema),
 });
 
+// ── In-memory cache ──────────────────────────────────────────────────────────
+// Content only changes on deploy (process restart), so we cache indefinitely.
+let allModulesCache: ModuleDetail[] | null = null;
+// Per-slug cache for full module detail (body + exercises)
+const moduleCache = new Map<string, ModuleDetail>();
+
 function assertAllSections(slug: string, body: string) {
   const missing = REQUIRED_SECTIONS.filter(
     (s) => !new RegExp(`^##\\s+${s}\\s*$`, "m").test(body),
@@ -30,6 +36,9 @@ async function loadOne(
   contentDir: string,
   slug: string,
 ): Promise<ModuleDetail> {
+  const cached = moduleCache.get(slug);
+  if (cached) return cached;
+
   const moduleDir = path.join(contentDir, slug);
   const mdxPath = path.join(moduleDir, "index.mdx");
   const exercisesPath = path.join(moduleDir, "exercises.json");
@@ -45,21 +54,27 @@ async function loadOne(
 
   const { exercises } = exercisesFileSchema.parse(JSON.parse(exercisesRaw));
 
-  return {
+  const module: ModuleDetail = {
     ...fm,
     body: parsed.content,
     exercises,
     exerciseCount: exercises.length,
   };
+
+  moduleCache.set(slug, module);
+  return module;
 }
 
 export async function loadAllModules(
   contentDir: string,
 ): Promise<ModuleDetail[]> {
+  if (allModulesCache) return allModulesCache;
+
   const entries = await fs.readdir(contentDir, { withFileTypes: true });
   const slugs = entries.filter((e) => e.isDirectory()).map((e) => e.name);
   const modules = await Promise.all(slugs.map((s) => loadOne(contentDir, s)));
-  return modules.sort((a, b) => a.order - b.order);
+  allModulesCache = modules.sort((a, b) => a.order - b.order);
+  return allModulesCache;
 }
 
 export async function loadModule(

@@ -16,6 +16,12 @@ const groupTestSchema = z.object({
   exercises: z.array(exerciseSchema),
 });
 
+// ── In-memory caches ─────────────────────────────────────────────────────────
+let allGroupsCache: ModuleGroupSummary[] | null = null;
+const groupDetailCache = new Map<string, ModuleGroupDetail>();
+const groupTestCache = new Map<string, ModuleGroupTest | null>();
+const masterTestCache = new Map<string, ModuleGroupTest | null>();
+
 /**
  * Pull the "Quick Summary" section from a module's MDX body.
  * Returns null if the section isn't found or is empty.
@@ -44,22 +50,29 @@ async function loadGroupTest(
   groupDir: string,
   slug: string,
 ): Promise<ModuleGroupTest | null> {
+  if (groupTestCache.has(slug)) return groupTestCache.get(slug)!;
+
   const testPath = path.join(groupDir, `${slug}.test.json`);
+  let result: ModuleGroupTest | null = null;
   try {
     const raw = await fs.readFile(testPath, "utf-8");
     const parsed = groupTestSchema.parse(JSON.parse(raw));
-    if (parsed.exercises.length === 0) return null;
-    return { slug: slug as ModuleGroupTest["slug"], title: "", exercises: parsed.exercises };
+    if (parsed.exercises.length > 0) {
+      result = { slug: slug as ModuleGroupTest["slug"], title: "", exercises: parsed.exercises };
+    }
   } catch (err) {
-    if ((err as NodeJS.ErrnoException).code === "ENOENT") return null;
-    throw err;
+    if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
   }
+  groupTestCache.set(slug, result);
+  return result;
 }
 
 export async function loadAllGroups(
   groupDir: string,
   contentDir: string,
 ): Promise<ModuleGroupSummary[]> {
+  if (allGroupsCache) return allGroupsCache;
+
   const entries = await fs.readdir(groupDir, { withFileTypes: true });
   const slugs = entries
     .filter((e) => e.isFile() && e.name.endsWith(".mdx"))
@@ -80,7 +93,8 @@ export async function loadAllGroups(
     }),
   );
 
-  return groups.sort((a, b) => a.order - b.order);
+  allGroupsCache = groups.sort((a, b) => a.order - b.order);
+  return allGroupsCache;
 }
 
 export async function loadGroup(
@@ -88,6 +102,8 @@ export async function loadGroup(
   contentDir: string,
   slug: string,
 ): Promise<ModuleGroupDetail> {
+  if (groupDetailCache.has(slug)) return groupDetailCache.get(slug)!;
+
   const { frontmatter, body } = await readGroupBody(groupDir, slug);
   const allModules = await loadAllModules(contentDir);
   const members: ModuleDetail[] = allModules.filter(
@@ -102,7 +118,7 @@ export async function loadGroup(
 
   const test = await loadGroupTest(groupDir, slug);
 
-  return {
+  const detail: ModuleGroupDetail = {
     ...frontmatter,
     moduleCount: members.length,
     hasTest: test != null,
@@ -111,6 +127,9 @@ export async function loadGroup(
     modules: members.map(toSummary),
     testExerciseCount: test?.exercises.length ?? 0,
   };
+
+  groupDetailCache.set(slug, detail);
+  return detail;
 }
 
 export async function loadGroupTestExercises(
@@ -124,14 +143,19 @@ export async function loadMasterGroupTest(
   groupDir: string,
   masterSlug: string,
 ): Promise<ModuleGroupTest | null> {
+  if (masterTestCache.has(masterSlug)) return masterTestCache.get(masterSlug)!;
+
   const testPath = path.join(groupDir, `${masterSlug}.master.test.json`);
+  let result: ModuleGroupTest | null = null;
   try {
     const raw = await fs.readFile(testPath, "utf-8");
     const parsed = groupTestSchema.parse(JSON.parse(raw));
-    if (parsed.exercises.length === 0) return null;
-    return { slug: masterSlug, title: "", exercises: parsed.exercises };
+    if (parsed.exercises.length > 0) {
+      result = { slug: masterSlug, title: "", exercises: parsed.exercises };
+    }
   } catch (err) {
-    if ((err as NodeJS.ErrnoException).code === "ENOENT") return null;
-    throw err;
+    if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
   }
+  masterTestCache.set(masterSlug, result);
+  return result;
 }

@@ -1,0 +1,481 @@
+{
+  "id": "package-1",
+  "title": "TOEFL iBT Practice Test 1",
+  "reading": {
+    "timeLimit": 2100,
+    "passages": [
+      {
+        "id": "r1p1",
+        "title": "Coral Reef Ecosystems",
+        "text": "Coral reefs are among the most biologically diverse and productive ecosystems on Earth, often referred to as the \"rainforests of the sea.\" Covering less than one percent of the ocean floor, they support approximately 25 percent of all marine species, including fish, invertebrates, and plants. This extraordinary concentration of biodiversity makes coral reefs critically important not only for marine life but also for human populations that depend on them for food, income, and coastal protection.\n\nCorals themselves are colonial animals composed of tiny organisms called polyps. Each polyp secretes a calcium carbonate skeleton that accumulates over centuries to form the physical structure of the reef. Despite their animal nature, corals depend on a symbiotic relationship with photosynthetic algae known as zooxanthellae, which live within the coral tissue. These algae provide the coral with up to 90 percent of its energy through photosynthesis, while the coral offers the algae shelter and access to nutrients. This mutualistic arrangement is the foundation of reef productivity.\n\nThe health of coral reefs is highly sensitive to environmental conditions. Temperature is particularly critical: when ocean temperatures rise by just one or two degrees Celsius above the seasonal maximum, corals undergo a process called bleaching, in which they expel their zooxanthellae. Without the algae, corals lose their primary energy source and characteristic color, turning ghostly white. If high temperatures persist for weeks, widespread coral death can occur. Mass bleaching events have become increasingly frequent and severe as global ocean temperatures rise due to climate change.\n\nBeyond temperature stress, coral reefs face multiple additional threats. Ocean acidification, caused by the absorption of excess atmospheric carbon dioxide, reduces the concentration of carbonate ions in seawater, making it harder for corals to build and maintain their calcium carbonate skeletons. Some projections suggest that by the end of this century, ocean chemistry could shift to levels corrosive to coral skeletons if carbon emissions continue at current rates.\n\nOverfishing and destructive fishing practices also degrade reef systems. When key herbivorous fish such as parrotfish and surgeonfish are removed, algae can overgrow corals and suffocate them. Blast fishing and the use of cyanide, still practiced in parts of Southeast Asia and the Pacific, cause immediate physical destruction and long-term chemical damage. Coastal development contributes sediment and nutrient runoff that smothers corals and promotes algal blooms.\n\nDespite these pressures, some reefs have shown remarkable resilience. Researchers have identified so-called \"super corals\" — genetically distinct individuals or populations that tolerate higher temperatures without bleaching. Selective breeding programs and assisted gene flow initiatives are exploring whether heat-tolerant traits can be introduced into vulnerable reef populations. Marine protected areas, where fishing and other extractive activities are restricted, have demonstrated positive outcomes for reef recovery, provided enforcement is adequate.\n\nThe economic value of coral reefs further underscores the urgency of conservation. Reef-associated fisheries provide food and livelihoods for hundreds of millions of people globally, particularly in tropical island nations. Reef-based tourism generates billions of dollars annually, with destinations like the Great Barrier Reef, the Caribbean, and the Coral Triangle attracting divers and snorkelers from around the world. Coastal protection services provided by reefs — buffering shorelines from wave energy and storm surge — have been estimated at billions of dollars in avoided infrastructure costs each year.\n\nConservation strategies increasingly recognize that addressing reef decline requires both local action and global commitment. Locally, reducing land-based pollution, establishing no-take marine reserves, and managing fisheries sustainably can relieve pressures that compound climate stress. Globally, only a significant reduction in greenhouse gas emissions can prevent the ocean warming and acidification that threaten to overwhelm reef resilience. Scientists warn that without aggressive climate action, the world's tropical coral reefs could be functionally extinct by mid-century.",
+        "questions": [
+          {
+            "id": "r1p1q1",
+            "question": "According to paragraph 1, why are coral reefs considered critically important?",
+            "options": [
+              "A. They cover more than half of the ocean floor and regulate sea temperatures.",
+              "B. They support a disproportionately large share of marine species and benefit human communities.",
+              "C. They are the primary source of oxygen for all marine life in tropical oceans.",
+              "D. They protect all coastlines worldwide from erosion and flooding."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 1 states that coral reefs support approximately 25% of all marine species despite covering less than 1% of the ocean floor, and are important for food, income, and coastal protection for human populations."
+          },
+          {
+            "id": "r1p1q2",
+            "question": "The word \"mutualistic\" in paragraph 2 is closest in meaning to:",
+            "options": [
+              "A. competitive",
+              "B. parasitic",
+              "C. mutually beneficial",
+              "D. chemically dependent"
+            ],
+            "answer": "C",
+            "explanation": "A mutualistic relationship is one in which both parties benefit. The passage describes how zooxanthellae provide energy to the coral while the coral provides shelter and nutrients to the algae — both benefit."
+          },
+          {
+            "id": "r1p1q3",
+            "question": "According to paragraph 3, what happens when coral expels its zooxanthellae?",
+            "options": [
+              "A. The coral reproduces more rapidly to compensate for energy loss.",
+              "B. The coral loses its energy source and turns white.",
+              "C. The coral absorbs more carbon dioxide from the surrounding water.",
+              "D. The coral produces excess calcium carbonate to protect itself."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 3 states that without zooxanthellae, corals lose their primary energy source and characteristic color, turning ghostly white."
+          },
+          {
+            "id": "r1p1q4",
+            "question": "The author mentions parrotfish and surgeonfish in paragraph 5 in order to:",
+            "options": [
+              "A. provide examples of economically valuable reef fish species.",
+              "B. illustrate the negative effects of invasive species on reefs.",
+              "C. explain how the removal of certain fish can harm reef health.",
+              "D. contrast sustainable fishing with destructive fishing techniques."
+            ],
+            "answer": "C",
+            "explanation": "The passage uses parrotfish and surgeonfish as examples of herbivorous fish that control algae. When they are overfished, algae overwhelm corals — illustrating how removing key fish species degrades reefs."
+          },
+          {
+            "id": "r1p1q5",
+            "question": "According to paragraph 4, what is one consequence of ocean acidification for corals?",
+            "options": [
+              "A. It accelerates the growth of zooxanthellae within coral tissue.",
+              "B. It reduces the availability of carbonate ions needed for skeleton building.",
+              "C. It increases water temperatures beyond the corals' thermal tolerance.",
+              "D. It causes corals to absorb excess nitrogen from agricultural runoff."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 4 states that ocean acidification reduces carbonate ion concentration, making it harder for corals to build and maintain their calcium carbonate skeletons."
+          },
+          {
+            "id": "r1p1q6",
+            "question": "It can be inferred from paragraph 6 that \"super corals\":",
+            "options": [
+              "A. are common throughout the world's tropical reefs.",
+              "B. have completely eliminated the problem of coral bleaching.",
+              "C. may offer a genetic basis for developing more resilient reef populations.",
+              "D. were created through artificial genetic modification by marine scientists."
+            ],
+            "answer": "C",
+            "explanation": "The passage says researchers are exploring whether heat-tolerant traits from super corals can be introduced into vulnerable populations, implying these corals carry genetic traits useful for conservation."
+          },
+          {
+            "id": "r1p1q7",
+            "question": "The word \"extractive\" in paragraph 6 most likely refers to activities that:",
+            "options": [
+              "A. introduce new species into marine environments.",
+              "B. remove resources such as fish or minerals from an area.",
+              "C. generate pollution through industrial processes.",
+              "D. monitor and record ecological data over time."
+            ],
+            "answer": "B",
+            "explanation": "In context, extractive activities in marine protected areas refers to fishing and other activities that take or remove resources from the reef environment."
+          },
+          {
+            "id": "r1p1q8",
+            "question": "Look at the four squares [■] that indicate where the following sentence could be added to the passage. \"This dual dependency means that any disruption to either partner can trigger the collapse of the entire relationship.\" Where would the sentence best fit?\n\n[■A] Corals themselves are colonial animals composed of tiny organisms called polyps. [■B] Each polyp secretes a calcium carbonate skeleton that accumulates over centuries to form the physical structure of the reef. [■C] Despite their animal nature, corals depend on a symbiotic relationship with photosynthetic algae known as zooxanthellae, which live within the coral tissue. These algae provide the coral with up to 90 percent of its energy through photosynthesis, while the coral offers the algae shelter and access to nutrients. [■D] This mutualistic arrangement is the foundation of reef productivity.",
+            "options": [
+              "A. Position A",
+              "B. Position B",
+              "C. Position C",
+              "D. Position D"
+            ],
+            "answer": "D",
+            "explanation": "The sentence summarizes the fragility of the coral-zooxanthellae relationship and logically follows the description of how both partners depend on each other, serving as a concluding thought for that section."
+          },
+          {
+            "id": "r1p1q9",
+            "question": "According to paragraph 7, which of the following is mentioned as an economic benefit of coral reefs?",
+            "options": [
+              "A. Reefs supply raw materials for pharmaceutical industries.",
+              "B. Reef fisheries and tourism generate significant income for tropical communities.",
+              "C. Reefs are the primary source of freshwater for tropical island nations.",
+              "D. Reef minerals are used in the construction of coastal infrastructure."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 7 mentions that reef-associated fisheries provide food and livelihoods, and reef-based tourism generates billions of dollars annually."
+          },
+          {
+            "id": "r1p1q10",
+            "question": "Which of the following best expresses the main idea of the passage?",
+            "options": [
+              "A. Marine protected areas are the only effective strategy for saving coral reefs from extinction.",
+              "B. Coral reefs are extraordinarily valuable ecosystems facing severe threats that require both local and global responses.",
+              "C. Ocean acidification is a more serious threat to coral reefs than rising ocean temperatures.",
+              "D. Super corals and selective breeding programs will soon eliminate the risk of mass bleaching events."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes the ecological and economic value of reefs, multiple threats they face (temperature, acidification, fishing, pollution), and calls for both local and global conservation action."
+          }
+        ]
+      },
+      {
+        "id": "r1p2",
+        "title": "The Industrial Revolution and Urban Transformation",
+        "text": "The Industrial Revolution, which began in Britain during the latter half of the eighteenth century and spread to continental Europe and North America throughout the nineteenth century, fundamentally altered the organization of human societies. It was not simply a technological transition — the replacement of hand tools with machines powered by steam and water — but a comprehensive restructuring of economic life, social relations, and the physical landscape. Perhaps the most dramatic and enduring consequence of industrialization was the rapid growth of cities, a process that transformed agrarian societies into predominantly urban ones within the span of a few generations.\n\nBefore industrialization, most people in Western Europe lived in rural areas, engaged in agriculture or cottage industries that produced goods at home. Towns existed as market centers and administrative hubs, but they were modest in size compared to what would follow. The development of factories, which concentrated production under one roof and required large workforces, created a powerful pull toward industrial centers. Manchester, Birmingham, and Leeds in Britain grew at astonishing rates during the first half of the nineteenth century. Manchester's population, for example, increased from roughly 25,000 in 1772 to over 300,000 by 1850.\n\nThis rapid urbanization created profound social changes. A new class of industrial workers — the urban proletariat — emerged, defined by their dependence on wage labor rather than land ownership or craft skill. Workers lived in densely packed neighborhoods adjacent to the factories where they worked, enduring long hours, low wages, and hazardous conditions. Housing was built quickly and cheaply to accommodate the influx of migrants, resulting in overcrowded tenements lacking adequate sanitation, ventilation, and clean water. Diseases such as cholera and typhoid spread easily through these environments, and mortality rates in industrial cities were often higher than in rural areas.\n\nThe industrial city was also a site of striking economic inequality. Factory owners and merchants accumulated unprecedented wealth, constructing grand residences in suburban districts deliberately separated from the noise, smoke, and poverty of working-class neighborhoods. This spatial segregation of rich and poor — a pattern that persists in modified form in contemporary cities — reflected and reinforced class divisions. The middle class, composed of managers, professionals, and small business owners, occupied an intermediate position, living in respectable but modest neighborhoods.\n\nIndustrialization also reshaped the physical environment in ways that extended far beyond city limits. The demand for coal to power steam engines transformed entire regions, as mining communities sprang up around coal seams in Wales, northern England, and the Appalachian mountains of North America. Railways, built to transport goods and raw materials efficiently, stitched together previously isolated towns and regions, accelerating the movement of people and commodities. The visual character of the landscape changed dramatically: factory chimneys replaced church steeples as the defining vertical element of the industrial town, and rivers previously used for fishing were converted into channels for industrial waste.\n\nNot all responses to industrialization were passive. Workers organized collectively to improve their conditions, forming trade unions and mutual aid societies, and participating in political movements that demanded electoral reform and labor protections. In Britain, Chartism mobilized hundreds of thousands of working-class men and women in the 1830s and 1840s, demanding democratic representation. The labor movement that emerged from industrialization would ultimately reshape Western political systems, contributing to the expansion of voting rights, the regulation of working hours, and the creation of social welfare programs.\n\nUrban reformers and public health advocates also played a significant role in mitigating the worst consequences of rapid urbanization. Following catastrophic cholera outbreaks, British cities invested in sewage systems, clean water supplies, and municipal parks. Edwin Chadwick's 1842 report on the sanitary conditions of the laboring population catalyzed legislative action, eventually leading to the Public Health Act of 1848 — one of the first pieces of government legislation explicitly aimed at improving the health of urban populations. These reforms laid the groundwork for the modern welfare state and established the principle that governments have a responsibility for the health and well-being of their citizens.\n\nThe legacy of the Industrial Revolution is complex and contested. It unleashed productive forces that dramatically increased material living standards over the long run, enabling longer lives, greater literacy, and expanded consumer choice for large portions of the population. Yet it also generated enormous suffering, environmental degradation, and social dislocation during the transition itself. Historians continue to debate the balance of costs and benefits, and the period remains a touchstone for discussions of economic development, social justice, and the relationship between technological change and human welfare.",
+        "questions": [
+          {
+            "id": "r1p2q1",
+            "question": "According to paragraph 1, the Industrial Revolution was significant because it:",
+            "options": [
+              "A. replaced all forms of agricultural production with factory-based manufacturing.",
+              "B. was limited in its effects to Britain and continental Europe.",
+              "C. transformed not only technology but also economic life, social relations, and the physical landscape.",
+              "D. primarily benefited rural populations by increasing agricultural productivity."
+            ],
+            "answer": "C",
+            "explanation": "Paragraph 1 explicitly describes the Industrial Revolution as 'a comprehensive restructuring of economic life, social relations, and the physical landscape,' not merely a technological shift."
+          },
+          {
+            "id": "r1p2q2",
+            "question": "The word \"proletariat\" in paragraph 3 refers to:",
+            "options": [
+              "A. factory owners who managed industrial production.",
+              "B. workers who depended on wage labor rather than land or craft skill.",
+              "C. merchants who traded goods between industrial cities.",
+              "D. reformers who campaigned for better working conditions."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines the urban proletariat as a 'new class of industrial workers... defined by their dependence on wage labor rather than land ownership or craft skill.'"
+          },
+          {
+            "id": "r1p2q3",
+            "question": "Which of the following can be inferred from paragraph 4 about the spatial layout of industrial cities?",
+            "options": [
+              "A. Factory owners preferred to live near their factories to supervise workers.",
+              "B. Working-class and wealthy neighborhoods were physically separated, reflecting class divisions.",
+              "C. The middle class occupied the wealthiest districts of industrial cities.",
+              "D. Residential segregation was unique to the nineteenth century and does not exist today."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 4 describes how factory owners lived in suburban districts 'deliberately separated from... working-class neighborhoods,' reflecting and reinforcing class divisions — a pattern the author notes 'persists in modified form in contemporary cities.'"
+          },
+          {
+            "id": "r1p2q4",
+            "question": "According to paragraph 5, what role did railways play in industrialization?",
+            "options": [
+              "A. They allowed workers to move away from polluted industrial cities.",
+              "B. They accelerated the movement of people and commodities by connecting previously isolated areas.",
+              "C. They replaced rivers as the primary source of power for factories.",
+              "D. They were used exclusively to transport coal from mining regions."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 5 states that railways 'stitched together previously isolated towns and regions, accelerating the movement of people and commodities.'"
+          },
+          {
+            "id": "r1p2q5",
+            "question": "The author mentions Chartism in paragraph 6 in order to:",
+            "options": [
+              "A. illustrate that workers responded actively to industrialization through political organization.",
+              "B. argue that political reform was more important than economic reform.",
+              "C. show that working-class movements were ultimately unsuccessful.",
+              "D. provide an example of government policies that improved factory conditions."
+            ],
+            "answer": "A",
+            "explanation": "Chartism is cited as an example of organized working-class political action — evidence that workers were not passive victims of industrialization but actively sought change."
+          },
+          {
+            "id": "r1p2q6",
+            "question": "The word \"catalyzed\" in paragraph 7 is closest in meaning to:",
+            "options": [
+              "A. prevented",
+              "B. described",
+              "C. triggered or accelerated",
+              "D. contradicted"
+            ],
+            "answer": "C",
+            "explanation": "To catalyze means to cause or accelerate a process. Chadwick's report 'catalyzed legislative action' — meaning it sparked or accelerated government response."
+          },
+          {
+            "id": "r1p2q7",
+            "question": "According to paragraph 7, what was the significance of the Public Health Act of 1848?",
+            "options": [
+              "A. It established the first national trade union in Britain.",
+              "B. It was among the first laws explicitly aimed at improving urban residents' health.",
+              "C. It required all factories to install ventilation and sanitation systems.",
+              "D. It gave working-class men the right to vote in national elections."
+            ],
+            "answer": "B",
+            "explanation": "Paragraph 7 calls the Public Health Act of 1848 'one of the first pieces of government legislation explicitly aimed at improving the health of urban populations.'"
+          },
+          {
+            "id": "r1p2q8",
+            "question": "It can be inferred from the passage that before industrialization, most people in Western Europe:",
+            "options": [
+              "A. lived in large cities with well-developed factory systems.",
+              "B. depended on wage labor in centralized workplaces.",
+              "C. were engaged in agriculture or small-scale cottage production in rural areas.",
+              "D. had access to clean water and sanitation systems in their communities."
+            ],
+            "answer": "C",
+            "explanation": "Paragraph 2 states that before industrialization, 'most people in Western Europe lived in rural areas, engaged in agriculture or cottage industries that produced goods at home.'"
+          },
+          {
+            "id": "r1p2q9",
+            "question": "Look at the four squares [■] that indicate where the following sentence could be added to the passage. \"The contrast between these gleaming suburbs and the squalid rookeries of the poor was immediately apparent to any visitor.\" Where would the sentence best fit?\n\n[■A] The industrial city was also a site of striking economic inequality. Factory owners and merchants accumulated unprecedented wealth, constructing grand residences in suburban districts deliberately separated from the noise, smoke, and poverty of working-class neighborhoods. [■B] This spatial segregation of rich and poor — a pattern that persists in modified form in contemporary cities — reflected and reinforced class divisions. [■C] The middle class, composed of managers, professionals, and small business owners, occupied an intermediate position, living in respectable but modest neighborhoods. [■D]",
+            "options": [
+              "A. Position A",
+              "B. Position B",
+              "C. Position C",
+              "D. Position D"
+            ],
+            "answer": "B",
+            "explanation": "The inserted sentence describes the visual contrast between wealthy suburbs and poor areas — it logically follows the description of suburban mansions and precedes the statement about spatial segregation reinforcing class divisions."
+          },
+          {
+            "id": "r1p2q10",
+            "question": "Which of the following best describes the author's overall assessment of the Industrial Revolution in paragraph 8?",
+            "options": [
+              "A. The Industrial Revolution was overwhelmingly positive and its benefits clearly outweighed its costs.",
+              "B. The Industrial Revolution was a catastrophic event whose negative effects continue to dominate modern society.",
+              "C. The Industrial Revolution had both significant long-term benefits and serious short-term costs, and its legacy remains debated.",
+              "D. The Industrial Revolution's primary significance was its political impact on electoral reform."
+            ],
+            "answer": "C",
+            "explanation": "Paragraph 8 presents a balanced view: the Revolution 'unleashed productive forces' and improved living standards 'over the long run,' but 'generated enormous suffering' during the transition. The author notes historians continue to debate its legacy."
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "timeLimit": 2160,
+    "tracks": [
+      {
+        "id": "l1t1",
+        "type": "conversation",
+        "script": "Student: Hi, Professor Williams. Do you have a few minutes? I wanted to talk to you about my schedule for next semester.\nAdvisor: Of course, come in. What's on your mind?\nStudent: Well, I'm trying to decide between taking Research Methods in the spring or waiting until my senior year. I know it's required for graduation, but I'm worried it might be too demanding alongside my other courses.\nAdvisor: That's a reasonable concern. What are you planning to take alongside it if you enroll in the spring?\nStudent: I was thinking Introduction to Statistics, Modern British Literature, and a writing seminar. That would be four courses total.\nAdvisor: Hmm. Research Methods is a rigorous course — there's a lot of reading, weekly assignments, and a substantial final project. But I'll be honest with you: most students who take it in their junior year actually do better than those who wait. You still have your methodology courses fresh in your mind.\nStudent: Really? I hadn't thought of it that way. I was also worried because I heard the professor is quite strict about deadlines.\nAdvisor: Professor Chen is demanding, yes, but fair. She posts all the deadlines on the first day, so there are no surprises. The key is not to fall behind on the weekly reading responses — those are easy marks if you keep up, but they're impossible to catch up on if you don't.\nStudent: That's helpful. What about the final project? I heard it's a full research proposal.\nAdvisor: It is. You'll select a topic in week three and work on it throughout the semester. The earlier you start thinking about a topic you genuinely care about, the better. Students who pick something just to get through the course often struggle in the second half.\nStudent: I'm interested in media representation and public health, so I think I could find something there.\nAdvisor: That's a strong area with a lot of literature. I'd definitely encourage you to enroll. One more thing — if you find you're struggling mid-semester, the university writing center offers specific support for research writing. Don't wait until the last minute to use it.\nStudent: That's good to know. So your recommendation is to take it in the spring?\nAdvisor: Yes, I think you're ready for it. And taking it now means you'll have the skills you need for your senior thesis — which will be here sooner than you think.\nStudent: Alright, I'll go ahead and register. Thank you so much for your advice.\nAdvisor: Good luck. Come by if you have any questions once the semester starts.",
+        "questions": [
+          {
+            "id": "l1t1q1",
+            "question": "Why does the student visit the advisor?",
+            "options": [
+              "A. To request a change of major.",
+              "B. To get advice about which courses to take next semester.",
+              "C. To complain about a grade in a current course.",
+              "D. To ask for an extension on a research project."
+            ],
+            "answer": "B",
+            "explanation": "The student says he wants to discuss his schedule for next semester and whether to take Research Methods in the spring."
+          },
+          {
+            "id": "l1t1q2",
+            "question": "What does the advisor say about students who take Research Methods in their junior year?",
+            "options": [
+              "A. They tend to find the course less interesting than seniors do.",
+              "B. They usually perform better than those who wait until their senior year.",
+              "C. They are more likely to drop the course due to workload.",
+              "D. They have fewer required courses to balance alongside it."
+            ],
+            "answer": "B",
+            "explanation": "The advisor states that 'most students who take it in their junior year actually do better than those who wait' because their methodology courses are still fresh."
+          },
+          {
+            "id": "l1t1q3",
+            "question": "What does the advisor warn the student about regarding the weekly reading responses?",
+            "options": [
+              "A. They count for the majority of the final grade.",
+              "B. They must be submitted in a specific academic format.",
+              "C. Falling behind on them is very difficult to recover from.",
+              "D. They require library research beyond the assigned readings."
+            ],
+            "answer": "C",
+            "explanation": "The advisor says the reading responses are 'impossible to catch up on if you don't' keep up — warning the student not to fall behind."
+          },
+          {
+            "id": "l1t1q4",
+            "question": "What advice does the advisor give about the final research project?",
+            "options": [
+              "A. Students should choose a broad topic to have more flexibility.",
+              "B. Students should select a topic they genuinely care about as early as possible.",
+              "C. Students should collaborate with classmates on the proposal.",
+              "D. Students should focus on the topic covered most in the course readings."
+            ],
+            "answer": "B",
+            "explanation": "The advisor advises the student to pick a topic he genuinely cares about early: 'The earlier you start thinking about a topic you genuinely care about, the better.'"
+          },
+          {
+            "id": "l1t1q5",
+            "question": "What is the advisor's final recommendation, and what reason does she give?",
+            "options": [
+              "A. Wait until senior year; the workload will be more manageable then.",
+              "B. Enroll in spring; the skills will be needed for the senior thesis.",
+              "C. Take only three courses; Research Methods requires full attention.",
+              "D. Audit the course first; then enroll for credit the following year."
+            ],
+            "answer": "B",
+            "explanation": "The advisor recommends enrolling in the spring, explaining that the research skills gained will be essential for the student's senior thesis."
+          }
+        ]
+      },
+      {
+        "id": "l1t2",
+        "type": "lecture",
+        "script": "Professor: Good morning, everyone. Today we're going to talk about behaviorism — one of the most influential schools of thought in twentieth-century psychology. Behaviorism fundamentally changed how psychologists study the mind by insisting that psychology should only concern itself with observable, measurable behavior, not with internal mental states like thoughts, feelings, or consciousness. The founding figures of this movement argued that because we cannot directly observe what is happening inside someone's mind, any claims about mental states are unscientific speculation.\n\nThe roots of behaviorism lie in the work of Ivan Pavlov, a Russian physiologist who was actually studying digestion in dogs when he made a famous accidental discovery. Pavlov noticed that his laboratory dogs began salivating not just when food was presented, but whenever the lab assistant who regularly fed them walked into the room. The dogs had associated the assistant's presence with food delivery. Pavlov systematically studied this phenomenon by pairing a neutral stimulus — the sound of a bell — with the presentation of food. After repeated pairings, the dogs salivated at the sound of the bell alone, even when no food was offered. Pavlov called this process classical conditioning, and it demonstrated that behavioral responses could be learned through association.\n\nBuilding on Pavlov's work, the American psychologist John B. Watson is often credited with formally establishing behaviorism as a psychological school. In his 1913 manifesto, Watson argued that psychology should abandon the study of consciousness entirely and focus exclusively on stimulus-response relationships that could be objectively measured and replicated. Watson famously — and controversially — claimed that given a dozen healthy infants, he could train any of them to become any type of specialist he chose, regardless of their natural talents or tendencies. This was an extreme statement of environmental determinism — the idea that behavior is shaped entirely by external conditions, not by innate characteristics.\n\nStudent: Professor, did Watson actually conduct experiments to test this?\n\nProfessor: Yes — and this is where things get ethically troubling. Watson and his colleague Rosalie Rayner conducted the so-called Little Albert experiment in 1920. They conditioned a nine-month-old infant to fear a white rat by pairing the rat's appearance with a loud, frightening noise. Over time, the child became afraid of the rat even without the noise, and the fear generalized to other white, furry objects. This experiment demonstrated that emotional responses like fear could be conditioned in humans — but it would be considered profoundly unethical by today's standards.\n\nThe most systematic and influential development of behaviorism came from B.F. Skinner, who introduced the concept of operant conditioning in the 1930s and continued refining his theory for decades. Unlike Pavlov's classical conditioning, which involves reflexive responses to stimuli, operant conditioning focuses on how voluntary behaviors are shaped by their consequences. Skinner demonstrated using his famous \"Skinner box\" — an apparatus in which a rat or pigeon could press a lever to receive food — that behavior followed by a positive outcome, or reinforcement, is more likely to be repeated, while behavior followed by a negative outcome, or punishment, is less likely to recur.\n\nSkinner extended these principles far beyond the laboratory. He argued that all human behavior — language acquisition, social interaction, even complex intellectual activity — could be explained in terms of reinforcement schedules. His book Verbal Behavior, published in 1957, attempted to explain language entirely through operant conditioning principles. This claim was famously challenged by the linguist Noam Chomsky, who argued that children acquire language far too quickly and systematically to be explained by reinforcement alone, and that humans must possess an innate language acquisition device.\n\nThe Chomsky-Skinner debate is often cited as a turning point in the history of psychology and linguistics. By the 1960s, the cognitive revolution was underway, and psychologists increasingly returned to studying internal mental processes — attention, memory, reasoning — using new methodologies that could make such processes tractable to scientific investigation. Behaviorism did not disappear; its practical applications in behavior modification, educational psychology, and clinical therapy — particularly applied behavior analysis for autism spectrum disorders — remain significant today. But as a comprehensive theory of mind, pure behaviorism gave way to more nuanced cognitive and cognitive-behavioral approaches.",
+        "questions": [
+          {
+            "id": "l1t2q1",
+            "question": "What is the main topic of the lecture?",
+            "options": [
+              "A. The ethical guidelines governing psychological research.",
+              "B. The history, key figures, and legacy of behaviorism in psychology.",
+              "C. The relationship between neurological processes and animal behavior.",
+              "D. Noam Chomsky's theory of innate language acquisition."
+            ],
+            "answer": "B",
+            "explanation": "The lecture traces behaviorism from Pavlov through Watson to Skinner, discusses its key experiments and claims, and concludes with its legacy and eventual decline as a dominant framework."
+          },
+          {
+            "id": "l1t2q2",
+            "question": "How did Pavlov discover classical conditioning?",
+            "options": [
+              "A. He deliberately designed an experiment to test learned salivation in dogs.",
+              "B. He noticed accidentally that his dogs salivated in response to stimuli associated with feeding.",
+              "C. He built on Watson's earlier experiments with infant responses to sound.",
+              "D. He observed classical conditioning in pigeons in his laboratory."
+            ],
+            "answer": "B",
+            "explanation": "The professor says Pavlov was studying digestion and 'made a famous accidental discovery' when he noticed dogs salivating in response to the lab assistant, not just food."
+          },
+          {
+            "id": "l1t2q3",
+            "question": "According to the professor, what was problematic about the Little Albert experiment?",
+            "options": [
+              "A. Its results could not be replicated in subsequent studies.",
+              "B. It used animals rather than human subjects to study emotional responses.",
+              "C. It would be considered deeply unethical by contemporary research standards.",
+              "D. Watson's interpretation of the data was rejected by the scientific community."
+            ],
+            "answer": "C",
+            "explanation": "The professor says the Little Albert experiment 'would be considered profoundly unethical by today's standards' — a nine-month-old infant was deliberately conditioned to fear objects."
+          },
+          {
+            "id": "l1t2q4",
+            "question": "How does operant conditioning differ from classical conditioning, according to the lecture?",
+            "options": [
+              "A. Operant conditioning focuses on reflexive responses, while classical conditioning shapes voluntary behavior.",
+              "B. Operant conditioning involves pairing neutral stimuli with reflexes, while classical conditioning uses reinforcement.",
+              "C. Operant conditioning shapes voluntary behaviors through consequences, while classical conditioning involves reflexive responses to stimuli.",
+              "D. Operant conditioning was developed by Pavlov, while classical conditioning was developed by Skinner."
+            ],
+            "answer": "C",
+            "explanation": "The professor explicitly contrasts them: classical conditioning 'involves reflexive responses to stimuli,' while operant conditioning 'focuses on how voluntary behaviors are shaped by their consequences.'"
+          },
+          {
+            "id": "l1t2q5",
+            "question": "What was Chomsky's main criticism of Skinner's account of language acquisition?",
+            "options": [
+              "A. Skinner's reinforcement schedules could not explain why animals learn language faster than humans.",
+              "B. Children acquire language too quickly and systematically to be explained by reinforcement alone.",
+              "C. Skinner failed to conduct any controlled experiments to support his theory of verbal behavior.",
+              "D. Reinforcement principles apply only to non-verbal behavior, not to complex cognitive tasks."
+            ],
+            "answer": "B",
+            "explanation": "Chomsky argued that 'children acquire language far too quickly and systematically to be explained by reinforcement alone,' suggesting an innate language acquisition device instead."
+          },
+          {
+            "id": "l1t2q6",
+            "question": "What does the professor imply about the current status of behaviorism?",
+            "options": [
+              "A. Behaviorism is now the dominant framework in all areas of contemporary psychology.",
+              "B. Behaviorism was completely discredited and has no practical applications today.",
+              "C. Behaviorism's practical applications remain valuable, though it is no longer the dominant theory of mind.",
+              "D. Modern cognitive science has confirmed all of Skinner's original claims about human behavior."
+            ],
+            "answer": "C",
+            "explanation": "The professor says behaviorism's practical applications 'remain significant today,' but 'as a comprehensive theory of mind, pure behaviorism gave way to more nuanced cognitive and cognitive-behavioral approaches.'"
+          }
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "timeLimit": 1020,
+    "tasks": [
+      {
+        "id": "s1t1",
+        "type": "independent",
+        "number": 1,
+        "prompt": "Do you agree or disagree with the following statement? Technology has made it harder for people to focus and think deeply. Use specific reasons and examples to support your answer.",
+        "prepTime": 15,
+        "responseTime": 45
+      },
+      {
+        "id": "s1t2",
+        "type": "integrated-read-listen",
+        "number": 2,
+        "readingText": "ANNOUNCEMENT FROM THE OFFICE OF ACADEMIC AFFAIRS\n\nEffective next semester, the university will require all students to complete a digital literacy course before the end of their sophomore year. The course will cover information evaluation, online research skills, and responsible use of AI tools in academic work. Students who have already completed an equivalent course at another institution may apply for an exemption. This requirement reflects the university's commitment to preparing graduates for an information-rich professional environment.",
+        "listeningScript": "Woman: Did you see the announcement about the new digital literacy requirement?\nMan: Yeah, I read it this morning. Honestly, I think it's a great idea.\nWoman: Really? I thought it might just be another box to check.\nMan: No, I actually think it addresses a real gap. I've seen so many students — including myself — struggle to evaluate whether online sources are reliable. We grew up with the internet, but that doesn't mean we know how to use it critically.\nWoman: That's a fair point. What about the AI tools part? Do you think that's necessary?\nMan: Absolutely. AI is already everywhere in professional settings. If the university doesn't teach students how to use it responsibly and when not to rely on it, they're going to be underprepared. I'd rather learn that in a structured environment than figure it out the hard way on the job.\nWoman: I hadn't thought about it that way. I guess my concern was the time commitment.\nMan: It's one course — it's not going to derail anyone's schedule. And the exemption process seems reasonable for people who've genuinely covered this elsewhere.",
+        "prompt": "The man expresses his opinion about the university's new digital literacy requirement. State his opinion and the reasons he gives for holding it.",
+        "prepTime": 30,
+        "responseTime": 60
+      },
+      {
+        "id": "s1t3",
+        "type": "integrated-read-listen",
+        "number": 3,
+        "readingText": "OPERANT CONDITIONING\n\nOperant conditioning is a learning process in which behavior is shaped by its consequences. Behaviors followed by positive outcomes — called reinforcements — become more frequent, while behaviors followed by negative outcomes — called punishments — become less frequent. This principle, developed by psychologist B.F. Skinner, applies to both animal and human behavior. Reinforcement can be positive (adding something desirable) or negative (removing something unpleasant). The schedules on which reinforcement is delivered — continuously or intermittently — also affect how quickly and persistently behaviors are learned.",
+        "listeningScript": "Professor: Let me give you a concrete example of operant conditioning that most of you can relate to. Think about how social media platforms are designed. When you post something — a photo, a comment, a status update — you don't always get a response immediately. Sometimes you get ten likes in the first minute; sometimes nothing happens for an hour and then suddenly you get a rush of notifications. This unpredictability is not accidental. It mirrors what Skinner called a variable-ratio reinforcement schedule — reinforcement comes after an unpredictable number of responses. And here's the key insight: variable-ratio schedules produce the most persistent behavior. They're the same principle behind slot machines. The unpredictability of the reward is precisely what makes the behavior — checking your phone, refreshing your feed — so difficult to stop. The platform isn't conditioning you in a laboratory, but the behavioral mechanism is exactly the same as in Skinner's box.",
+        "prompt": "Using the example from the lecture, explain what operant conditioning is and how variable-ratio reinforcement schedules work, as described in the reading.",
+        "prepTime": 30,
+        "responseTime": 60
+      },
+      {
+        "id": "s1t4",
+        "type": "integrated-listen",
+        "number": 4,
+        "listeningScript": "Professor: Today I want to talk about two fundamental approaches to innovation in organizations: incremental innovation and disruptive innovation. These terms are used a lot, but they're often confused, so let me clarify. Incremental innovation refers to making continuous, small improvements to existing products, services, or processes. Think of how smartphones have evolved year over year — better camera resolution, longer battery life, slightly faster processors. Each improvement is relatively modest on its own, but collectively they add up. Companies that focus on incremental innovation tend to be good at what they already do and get steadily better at it. The risk is that they can become so focused on improving the existing product that they miss entirely new approaches. Disruptive innovation, a term coined by Clayton Christensen, describes a different phenomenon. A disruptive innovation starts by serving a niche market that existing players ignore — often because it's smaller or less profitable. The new product or service is initially simpler and cheaper than established alternatives, so it doesn't seem threatening. But over time it improves and moves upmarket, eventually displacing the incumbents. The classic example is digital photography versus film. Digital cameras were initially inferior to film cameras in image quality — professional photographers ignored them. But they were cheap, convenient, and improved rapidly. Within a decade, digital photography had largely displaced film. Kodak, which had dominated the film industry, famously failed to adapt and went bankrupt. The lesson organizations take from this is that managing both incremental and disruptive innovation simultaneously is extremely difficult — it requires what researchers call ambidexterity — and most companies are much better at one than the other.",
+        "prompt": "Using points and examples from the lecture, explain the difference between incremental and disruptive innovation and why managing both is challenging for organizations.",
+        "prepTime": 20,
+        "responseTime": 60
+      }
+    ]
+  },
+  "writing": {
+    "timeLimit": 3000,
+    "tasks": [
+      {
+        "id": "w1t1",
+        "type": "integrated",
+        "readingText": "Remote work arrangements — in which employees perform their jobs from home or other locations outside a traditional office — have expanded dramatically in recent years. Proponents argue that remote work offers significant advantages that benefit both employers and employees. First, remote work substantially increases employee productivity. Freed from lengthy commutes and the interruptions common in open-plan offices, workers can focus more effectively on complex tasks during the hours that suit them best. Multiple surveys have shown that remote workers report higher levels of concentration and complete more work per hour than their office-based counterparts. Second, remote work expands the talent pool available to organizations. When geography is no longer a constraint, companies can recruit the best candidates globally rather than being limited to those who live within commuting distance. This is particularly advantageous for specialized roles that require rare skills. Third, remote work reduces operational costs for organizations. Companies that allow remote work can reduce or eliminate expensive office space, saving significant amounts on rent, utilities, and facilities management. These savings can be redirected toward employee compensation, research, or other strategic priorities.",
+        "listeningScript": "Professor: The reading makes a compelling case for remote work, but I think each of those arguments has important limitations that deserve attention. Take the productivity claim. While some workers do report higher productivity at home, this result is not universal — it's highly dependent on the individual's home environment, personality type, and the nature of their work. Employees with young children, inadequate workspace, or roles requiring high levels of collaboration often perform worse remotely than in an office. A number of large companies that initially embraced remote work have now recalled their employees, citing declines in collaborative output and innovation — precisely the outcomes you can't easily measure in short-term productivity surveys. On the talent pool argument — yes, remote work can help you recruit from a wider geographic area, but it comes with significant coordination challenges. Managing teams across different time zones creates difficulties scheduling meetings, leads to slower decision-making, and can create a two-tier system where remote workers feel less visible to management and miss out on promotion opportunities. Research on distributed teams shows that communication breakdowns and trust deficits increase with distance. Finally, the cost savings argument is less straightforward than it appears. While companies may save on office space, they incur new costs: providing employees with home office equipment, cybersecurity infrastructure for distributed networks, and the management overhead required to supervise remote teams effectively. Some analyses suggest these costs partially or fully offset the savings from reduced office space.",
+        "prompt": "Summarize the points made in the lecture, being sure to explain how they cast doubt on the specific points made in the reading passage.",
+        "timeLimit": 1200,
+        "wordCountMin": 150,
+        "wordCountMax": 225
+      },
+      {
+        "id": "w1t2",
+        "type": "academic-discussion",
+        "professorPrompt": "This week we've been discussing the role of technology in education. Here is a question for our class discussion board: Many schools are now integrating artificial intelligence tools — such as AI writing assistants and tutoring systems — into their curricula. Do you think this will ultimately benefit or harm students' learning? What is the most important consideration educators should keep in mind? Please share your perspective and engage with your classmates' ideas.",
+        "student1Response": "I think AI tools in education are genuinely exciting. When I used an AI tutoring system for calculus last year, it gave me immediate, personalized feedback that my teacher — dealing with thirty students — simply couldn't provide. Students who might fall behind in a traditional classroom can get support exactly when they need it. The key consideration, in my opinion, is ensuring AI supplements rather than replaces human instruction — the mentorship and motivational aspects of teaching are irreplaceable. — Maya",
+        "student2Response": "I'm more cautious. My concern is that AI writing assistants, in particular, may short-circuit the very struggles that build genuine competence. When students can generate a polished essay with minimal effort, they lose the opportunity to develop their own voice and critical thinking skills. I agree with Maya that human instruction matters, but I think the most important consideration is whether students are actually doing the cognitive work — not just checking the output. — Alex",
+        "prompt": "Respond to the professor's question. In your response, express and support your personal opinion and make a contribution to the discussion in addition to what Maya and Alex have said.",
+        "timeLimit": 600,
+        "wordCountMin": 100
+      }
+    ]
+  }
+}
