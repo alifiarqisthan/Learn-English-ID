@@ -5,7 +5,7 @@ import {
   Clock, Headphones, Mic, Pause, Flag,
   Play, RotateCcw, Volume2, VolumeX, PenLine,
 } from "lucide-react";
-import { api, type MockTestPackage, type IbtPackage, type ItpPackage, type MockQuestion, type ItpShortItem, type ItpLongItem, type ItpStructureItem, type ItpErrorItem } from "../api";
+import { api, type MockTestPackage, type IbtPackage, type ItpPackage, type IeltsPackage, type MockQuestion, type ItpShortItem, type ItpLongItem, type ItpStructureItem, type ItpErrorItem } from "../api";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -187,16 +187,15 @@ const EXAM_SECTIONS: ExamSection[] = [
   {
     key: "ielts",
     label: "IELTS",
-    badge: "IELTS",
-    description: "IELTS Academic practice — Listening, Reading, Writing, and Speaking. Coming soon.",
+    badge: "IELTS Academic",
+    description: "Full IELTS Academic practice — Listening, Reading, Writing, and Speaking simulation. Audio plays once only.",
     sections: [
-      { icon: Headphones, label: "Listening", detail: "4 sections · 40 questions · 30 min · scored 0–9" },
-      { icon: BookOpen, label: "Reading", detail: "3 passages · 40 questions · 60 min · scored 0–9" },
-      { icon: PenLine, label: "Writing", detail: "2 tasks · 60 min · scored 0–9" },
-      { icon: Mic, label: "Speaking", detail: "3 parts · 11–14 min · scored 0–9" },
+      { icon: Headphones, label: "Listening", detail: "4 parts · 40 questions · 40 min · band 0–9" },
+      { icon: BookOpen, label: "Reading", detail: "3 passages · 40 questions · 60 min · band 0–9" },
+      { icon: PenLine, label: "Writing", detail: "2 tasks (report + essay) · 60 min · band 0–9" },
+      { icon: Mic, label: "Speaking", detail: "3 parts · cue card simulation · band 0–9" },
     ],
-    scoringNote: "Band score 0–9 per section. Overall = average of 4 sections.",
-    comingSoon: true,
+    scoringNote: "Listening & Reading are auto-scored (band 0–9). Writing & Speaking are self-evaluated simulations. Overall band = average of 4 sections.",
   },
 ];
 
@@ -275,41 +274,34 @@ function PackageLobby({ onStart }: { onStart: (pkg: MockTestPackage) => void }) 
         </div>
 
         {/* Package selection */}
-        {activeExam.comingSoon ? (
-          <div className="rounded-lg border border-dashed border-border p-8 text-center text-muted-foreground">
-            <p className="text-sm font-medium">IELTS practice packages coming soon.</p>
-            <p className="text-xs mt-1">Check back after TOEFL packages are complete.</p>
-          </div>
-        ) : (
-          <div className="space-y-3">
-            <h2 className="font-serif text-xl font-semibold">Choose a Practice Package</h2>
-            {!packages ? (
-              <p className="text-muted-foreground">Loading packages…</p>
-            ) : filteredPackages.length === 0 ? (
-              <p className="text-muted-foreground">No packages available yet.</p>
-            ) : (
-              <div className="grid gap-3 sm:grid-cols-3">
-                {filteredPackages.map((pkg, i) => (
-                  <button
-                    key={pkg.id}
-                    onClick={() => load(pkg.id)}
-                    disabled={loading}
-                    className="text-left rounded-lg border bg-card p-5 hover:shadow-md hover:border-accent/50 transition-all group"
-                  >
-                    <div className="flex items-start justify-between gap-2">
-                      <p className="font-serif font-semibold text-lg">Package {i + 1}</p>
-                      <Badge variant="outline" className="text-[10px]">{activeExam.badge}</Badge>
-                    </div>
-                    <p className="text-sm text-muted-foreground mt-1">{pkg.title}</p>
-                    <p className="text-xs text-accent mt-3 group-hover:underline">
-                      {loading ? "Loading…" : "Start test →"}
-                    </p>
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
+        <div className="space-y-3">
+          <h2 className="font-serif text-xl font-semibold">Choose a Practice Package</h2>
+          {!packages ? (
+            <p className="text-muted-foreground">Loading packages…</p>
+          ) : filteredPackages.length === 0 ? (
+            <p className="text-muted-foreground">No packages available yet.</p>
+          ) : (
+            <div className="grid gap-3 sm:grid-cols-3">
+              {filteredPackages.map((pkg, i) => (
+                <button
+                  key={pkg.id}
+                  onClick={() => load(pkg.id)}
+                  disabled={loading}
+                  className="text-left rounded-lg border bg-card p-5 hover:shadow-md hover:border-accent/50 transition-all group"
+                >
+                  <div className="flex items-start justify-between gap-2">
+                    <p className="font-serif font-semibold text-lg">Package {i + 1}</p>
+                    <Badge variant="outline" className="text-[10px]">{activeExam.badge}</Badge>
+                  </div>
+                  <p className="text-sm text-muted-foreground mt-1">{pkg.title}</p>
+                  <p className="text-xs text-accent mt-3 group-hover:underline">
+                    {loading ? "Loading…" : "Start test →"}
+                  </p>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
 
         {/* Scoring info */}
         <Card className="bg-secondary/40 border-dashed">
@@ -2253,6 +2245,827 @@ function ItpTestRunner({ pkg, onHome }: { pkg: ItpPackage; onHome: () => void })
   );
 }
 
+// ── IELTS Listening section ───────────────────────────────────────────────────
+function IeltsListeningSection({
+  pkg, answers, onAnswer, onComplete, timerRemaining,
+}: {
+  pkg: IeltsPackage; answers: Record<string, string>;
+  onAnswer: (id: string, a: string) => void; onComplete: () => void;
+  timerRemaining: number;
+}) {
+  const [partIdx, setPartIdx] = useState(0);
+  const [muted, setMuted] = useState(false);
+  const [activeAudioId, setActiveAudioId] = useState<string | null>(null);
+  const [playedIds, setPlayedIds] = useState<Set<string>>(new Set());
+  const [showConfirm, setShowConfirm] = useState(false);
+
+  useEffect(() => () => { window.speechSynthesis.cancel(); }, []);
+  useEffect(() => { setActiveAudioId(null); }, [partIdx]);
+
+  const part = pkg.listening.parts[partIdx];
+  const totalQs = pkg.listening.parts.reduce((s, p) => s + p.items.length, 0);
+  const answeredCount = Object.keys(answers).filter((k) =>
+    pkg.listening.parts.some((p) => p.items.some((it) => it.id === k))
+  ).length;
+  const isLastPart = partIdx === pkg.listening.parts.length - 1;
+
+  const partLabel: Record<string, string> = {
+    everyday_conversation: "Everyday Conversation",
+    monologue: "Monologue",
+    academic_discussion: "Academic Discussion",
+    academic_lecture: "Academic Lecture",
+  };
+
+  return (
+    <div className="space-y-5">
+      <ConfirmDialog
+        open={showConfirm}
+        title="Finish Listening section?"
+        description="Once you move to Reading, you cannot return to Listening."
+        warning={answeredCount < totalQs ? `${totalQs - answeredCount} question${totalQs - answeredCount > 1 ? "s" : ""} left unanswered.` : undefined}
+        confirmLabel="Finish Listening"
+        cancelLabel="Go back"
+        onConfirm={() => { setShowConfirm(false); onComplete(); }}
+        onCancel={() => setShowConfirm(false)}
+      />
+
+      {/* Header */}
+      <div className="flex items-center justify-between gap-4 flex-wrap">
+        <div className="flex items-center gap-3">
+          <Badge variant="outline">Listening</Badge>
+          <span className="text-sm text-muted-foreground">{answeredCount}/{totalQs} answered</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Clock className="h-4 w-4 text-muted-foreground" />
+          <span className={cn("font-mono text-sm font-medium", timerRemaining < 300 && "text-destructive")}>
+            {formatTime(timerRemaining)}
+          </span>
+          <Button variant="ghost" size="icon" onClick={() => setMuted((m) => !m)} title={muted ? "Unmute" : "Mute"}>
+            {muted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
+          </Button>
+        </div>
+      </div>
+
+      {/* Part tabs */}
+      <div className="flex gap-2 flex-wrap">
+        {pkg.listening.parts.map((p, i) => (
+          <button key={p.id}
+            disabled={i > partIdx && !playedIds.has(p.id)}
+            onClick={() => i <= partIdx || playedIds.has(p.id) ? setPartIdx(i) : undefined}
+            className={cn(
+              "px-3 py-1.5 rounded-md text-xs border transition-colors",
+              partIdx === i ? "border-accent bg-accent/10 text-accent font-medium" : "border-border text-muted-foreground",
+              i > partIdx && !playedIds.has(p.id) && "border-dashed opacity-40 cursor-not-allowed",
+            )}>
+            Part {i + 1}
+          </button>
+        ))}
+      </div>
+
+      {/* Part instruction */}
+      <div className="rounded-md bg-secondary px-4 py-3 space-y-1">
+        <p className="text-xs font-medium text-muted-foreground uppercase tracking-wide">
+          Part {partIdx + 1} — {partLabel[part.type] ?? part.type}
+        </p>
+        <p className="text-sm">{part.instruction}</p>
+      </div>
+
+      {/* One-way warning */}
+      <div className="rounded-md bg-amber-50 border border-amber-300 px-4 py-2.5 text-xs text-amber-700 flex items-center gap-2">
+        <span className="font-medium">⚠</span>
+        <span>Audio plays <strong>once only</strong>. You cannot go back to a previous part once you move on.</span>
+      </div>
+
+      {/* Audio + Questions side by side */}
+      <div className="grid gap-5 lg:grid-cols-2">
+        {/* Left: audio player */}
+        <div className="rounded-lg border bg-card p-5 space-y-4">
+          <div className="flex items-center gap-3">
+            <div className={cn("rounded-full p-3 border-2 transition-all shrink-0",
+              activeAudioId === part.id ? "border-accent bg-accent/10 animate-pulse" : "border-border")}>
+              <Headphones className={cn("h-6 w-6", activeAudioId === part.id ? "text-accent" : "text-muted-foreground")} />
+            </div>
+            <div>
+              <p className="font-medium text-sm">Part {partIdx + 1} — {partLabel[part.type]}</p>
+              <p className="text-xs text-muted-foreground">{part.items.length} questions · listen then answer</p>
+            </div>
+          </div>
+          <InlineAudioPlayer
+            key={part.id}
+            script={part.script}
+            itemId={part.id}
+            muted={muted}
+            alreadyPlayed={playedIds.has(part.id)}
+            onPlayStart={(id) => setActiveAudioId(id)}
+            onDone={() => { setPlayedIds((p) => new Set([...p, part.id])); setActiveAudioId(null); }}
+          />
+          <p className="text-xs text-muted-foreground">Audio plays once only. Answer all questions before moving to the next part.</p>
+        </div>
+
+        {/* Right: questions */}
+        <div className="space-y-5 max-h-[65vh] overflow-y-auto pr-1">
+          {part.items.map((it, i) => (
+            <McqQuestion
+              key={it.id}
+              q={{ id: it.id, question: it.question, options: it.options, answer: it.answer, explanation: it.explanation }}
+              index={i}
+              answer={answers[it.id] ?? null}
+              onAnswer={(a) => onAnswer(it.id, a)}
+              showExplanation={false}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div className="flex justify-end">
+        <Button onClick={isLastPart ? () => setShowConfirm(true) : () => setPartIdx(partIdx + 1)}>
+          {isLastPart ? "Finish Listening" : `Next — Part ${partIdx + 2}`}
+          <ArrowRight className="h-4 w-4" />
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+// ── IELTS Reading section ─────────────────────────────────────────────────────
+function IeltsReadingSection({
+  pkg, answers, onAnswer, onComplete, timerRemaining,
+}: {
+  pkg: IeltsPackage; answers: Record<string, string>;
+  onAnswer: (id: string, a: string) => void; onComplete: () => void;
+  timerRemaining: number;
+}) {
+  const [passageIdx, setPassageIdx] = useState(0);
+  const [flagged, setFlagged] = useState<Set<string>>(new Set());
+  const [focusedId, setFocusedId] = useState<string>(pkg.reading.passages[0].questions[0].id);
+  const [showConfirm, setShowConfirm] = useState(false);
+  const questionRefs = useRef<Record<string, HTMLDivElement | null>>({});
+
+  const passage = pkg.reading.passages[passageIdx];
+  const total = pkg.reading.passages.reduce((s, p) => s + p.questions.length, 0);
+  const answeredCount = Object.keys(answers).filter((k) =>
+    pkg.reading.passages.some((p) => p.questions.some((q) => q.id === k))
+  ).length;
+  const unansweredCount = total - answeredCount;
+
+  useEffect(() => {
+    setFocusedId(passage.questions[0]?.id ?? "");
+  }, [passageIdx]);
+
+  function toggleFlag(id: string) {
+    setFlagged((prev) => { const next = new Set(prev); prev.has(id) ? next.delete(id) : next.add(id); return next; });
+  }
+
+  function jumpToQuestion(id: string) {
+    setFocusedId(id);
+    questionRefs.current[id]?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  const passageIds = passage.questions.map((q) => q.id);
+
+  return (
+    <div className="space-y-5">
+      <ConfirmDialog
+        open={showConfirm}
+        title="Finish Reading section?"
+        description="You are about to move on to Writing. You cannot return to Reading."
+        warning={unansweredCount > 0 ? `${unansweredCount} question${unansweredCount > 1 ? "s" : ""} left unanswered.` : undefined}
+        confirmLabel="Finish Reading"
+        cancelLabel="Go back"
+        onConfirm={() => { setShowConfirm(false); onComplete(); }}
+        onCancel={() => setShowConfirm(false)}
+      />
+
+      <div className="flex items-center justify-between gap-4 flex-wrap">
+        <div className="flex items-center gap-3">
+          <Badge variant="outline">Reading</Badge>
+          <span className="text-sm text-muted-foreground">{answeredCount}/{total} answered</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Clock className="h-4 w-4 text-muted-foreground" />
+          <span className={cn("font-mono text-sm font-medium", timerRemaining < 300 && "text-destructive")}>
+            {formatTime(timerRemaining)}
+          </span>
+        </div>
+      </div>
+
+      <div className="flex gap-2 flex-wrap">
+        {pkg.reading.passages.map((p, i) => (
+          <button key={p.id} onClick={() => setPassageIdx(i)}
+            className={cn("px-3 py-1.5 rounded-md text-sm border transition-colors",
+              passageIdx === i ? "border-accent bg-accent/10 text-accent font-medium" : "border-border text-muted-foreground hover:border-accent/40"
+            )}>
+            Passage {i + 1}
+          </button>
+        ))}
+      </div>
+
+      <div className="rounded-lg border bg-card p-4 space-y-3">
+        <p className="text-xs font-medium text-muted-foreground">{passage.title}</p>
+        <QuestionPalette ids={passageIds} answers={answers} flagged={flagged} current={focusedId} onJump={jumpToQuestion} />
+        <PaletteLegend />
+      </div>
+
+      <div className="grid gap-6 lg:grid-cols-2">
+        <div className="rounded-lg border bg-card p-5 max-h-[65vh] overflow-y-auto">
+          <h2 className="font-serif text-xl font-semibold mb-4">{passage.title}</h2>
+          <p className="text-sm leading-relaxed whitespace-pre-line">{passage.text}</p>
+        </div>
+        <div className="space-y-4 max-h-[65vh] overflow-y-auto pr-1">
+          {passage.questions.map((q, i) => {
+            const isFlagged = flagged.has(q.id);
+            return (
+              <div key={q.id}
+                ref={(el) => { questionRefs.current[q.id] = el; }}
+                onClick={() => setFocusedId(q.id)}
+                className={cn("rounded-lg border p-3 transition-colors",
+                  focusedId === q.id ? "border-accent/40 bg-accent/5" : "border-transparent"
+                )}
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-xs font-medium text-muted-foreground">
+                    Q{i + 1}{isFlagged && <span className="ml-1.5 text-amber-600">· Not sure</span>}
+                  </span>
+                  <button
+                    onClick={(e) => { e.stopPropagation(); toggleFlag(q.id); }}
+                    className={cn(
+                      "flex items-center gap-1 text-[10px] px-1.5 py-0.5 rounded border transition-colors",
+                      isFlagged ? "bg-amber-100 border-amber-400 text-amber-700"
+                        : "border-border text-muted-foreground hover:border-amber-400 hover:text-amber-600",
+                    )}
+                  >
+                    <Flag className="h-2.5 w-2.5" />
+                    {isFlagged ? "Unflag" : "Not sure"}
+                  </button>
+                </div>
+                <McqQuestion q={q} index={i}
+                  answer={answers[q.id] ?? null}
+                  onAnswer={(a) => { onAnswer(q.id, a); setFocusedId(q.id); }}
+                  showExplanation={false} />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="flex justify-between">
+        <Button variant="outline" onClick={() => setPassageIdx(Math.max(0, passageIdx - 1))} disabled={passageIdx === 0}>
+          <ArrowLeft className="h-4 w-4" /> Previous
+        </Button>
+        {passageIdx < pkg.reading.passages.length - 1 ? (
+          <Button onClick={() => setPassageIdx(passageIdx + 1)}>
+            Next Passage <ArrowRight className="h-4 w-4" />
+          </Button>
+        ) : (
+          <Button onClick={() => setShowConfirm(true)}>
+            Finish Reading <ArrowRight className="h-4 w-4" />
+          </Button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ── IELTS Writing section ─────────────────────────────────────────────────────
+function IeltsWritingSection({
+  pkg, onComplete, timerRemaining,
+}: {
+  pkg: IeltsPackage; onComplete: () => void; timerRemaining: number;
+}) {
+  const [taskIdx, setTaskIdx] = useState(0);
+  const [responses, setResponses] = useState<Record<number, string>>({});
+  const [showConfirm, setShowConfirm] = useState(false);
+
+  const task = pkg.writing.tasks[taskIdx];
+  const text = responses[taskIdx] ?? "";
+  const wordCount = text.trim() ? text.trim().split(/\s+/).length : 0;
+  const isLast = taskIdx === pkg.writing.tasks.length - 1;
+
+  return (
+    <div className="space-y-5">
+      <ConfirmDialog
+        open={showConfirm}
+        title="Finish Writing section?"
+        description="You are about to move on to Speaking. You cannot return to Writing."
+        confirmLabel="Finish Writing"
+        cancelLabel="Go back"
+        onConfirm={() => { setShowConfirm(false); onComplete(); }}
+        onCancel={() => setShowConfirm(false)}
+      />
+
+      <div className="flex items-center justify-between gap-4 flex-wrap">
+        <div className="flex items-center gap-3">
+          <Badge variant="outline">Writing</Badge>
+          <span className="text-sm text-muted-foreground">Task {taskIdx + 1} of {pkg.writing.tasks.length}</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Clock className="h-4 w-4 text-muted-foreground" />
+          <span className={cn("font-mono text-sm font-medium", timerRemaining < 300 && "text-destructive")}>
+            {formatTime(timerRemaining)}
+          </span>
+        </div>
+      </div>
+
+      {/* Task tabs */}
+      <div className="flex gap-2">
+        {pkg.writing.tasks.map((t, i) => (
+          <button key={t.id} onClick={() => setTaskIdx(i)}
+            className={cn("px-3 py-1.5 rounded-md text-sm border transition-colors",
+              taskIdx === i ? "border-accent bg-accent/10 text-accent font-medium" : "border-border text-muted-foreground hover:border-accent/40"
+            )}>
+            Task {i + 1} — {t.type === "report" ? "Report" : "Essay"}
+          </button>
+        ))}
+      </div>
+
+      {task.type === "report" ? (
+        <div className="grid gap-4 lg:grid-cols-2">
+          <div className="space-y-3">
+            <div className="rounded-md border bg-card p-4">
+              <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground mb-2">Task 1 — Report</p>
+              <p className="text-sm leading-relaxed">{task.prompt}</p>
+              {task.visualDescription && (
+                <div className="mt-3 rounded-md bg-secondary/60 px-3 py-2">
+                  <p className="text-xs font-medium text-muted-foreground mb-1">Visual data:</p>
+                  <p className="text-xs text-muted-foreground italic">{task.visualDescription}</p>
+                </div>
+              )}
+            </div>
+            <div className="rounded-md bg-accent/5 border border-accent/20 p-3">
+              <p className="text-xs font-medium text-accent mb-1">Instructions</p>
+              <p className="text-xs text-muted-foreground">{task.instruction}</p>
+              <p className="text-xs text-muted-foreground mt-1">Minimum {task.wordCountMin} words · Recommended ≤ {task.wordCountMax} words</p>
+            </div>
+          </div>
+          <div className="space-y-2">
+            <div className="flex justify-between text-xs text-muted-foreground">
+              <span>Your response</span>
+              <span className={cn(wordCount < task.wordCountMin ? "text-amber-600" : "text-accent")}>{wordCount} words</span>
+            </div>
+            <textarea
+              value={text}
+              onChange={(e) => setResponses((r) => ({ ...r, [taskIdx]: e.target.value }))}
+              placeholder="Write your report here…"
+              className="w-full h-72 rounded-md border border-input bg-background px-3 py-2 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-accent/50"
+            />
+          </div>
+        </div>
+      ) : (
+        <div className="space-y-4">
+          <div className="rounded-md border bg-card p-4">
+            <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground mb-2">Task 2 — Essay</p>
+            <p className="text-sm leading-relaxed">{task.prompt}</p>
+          </div>
+          <div className="rounded-md bg-accent/5 border border-accent/20 p-3">
+            <p className="text-xs font-medium text-accent mb-1">Instructions</p>
+            <p className="text-xs text-muted-foreground">{task.instruction}</p>
+            <p className="text-xs text-muted-foreground mt-1">Minimum {task.wordCountMin} words · Recommended ≤ {task.wordCountMax} words</p>
+          </div>
+          <div className="space-y-1.5">
+            <div className="flex justify-between text-xs text-muted-foreground">
+              <span>Your response</span>
+              <span className={cn(wordCount < task.wordCountMin ? "text-amber-600" : "text-accent")}>{wordCount} words</span>
+            </div>
+            <textarea
+              value={text}
+              onChange={(e) => setResponses((r) => ({ ...r, [taskIdx]: e.target.value }))}
+              placeholder="Write your essay here…"
+              className="w-full h-72 rounded-md border border-input bg-background px-3 py-2 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-accent/50"
+            />
+          </div>
+        </div>
+      )}
+
+      <div className="flex justify-end">
+        {!isLast ? (
+          <Button onClick={() => setTaskIdx(taskIdx + 1)}>
+            Next Task <ArrowRight className="h-4 w-4" />
+          </Button>
+        ) : (
+          <Button onClick={() => setShowConfirm(true)}>
+            Finish Writing <ArrowRight className="h-4 w-4" />
+          </Button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ── IELTS Speaking section ────────────────────────────────────────────────────
+function IeltsSpeakingSection({ pkg, onComplete, timerRemaining }: {
+  pkg: IeltsPackage; onComplete: () => void; timerRemaining: number;
+}) {
+  const [partIdx, setPartIdx] = useState(0);
+  const [phase, setPhase] = useState<"intro" | "prep" | "speaking" | "done">("intro");
+  const [notes, setNotes] = useState("");
+  const [showConfirm, setShowConfirm] = useState(false);
+
+  const part = pkg.speaking.parts[partIdx];
+  const isLast = partIdx === pkg.speaking.parts.length - 1;
+
+  const prepTime = part.type === "cue_card" ? part.prepTime : 0;
+  const speakTime = part.type === "cue_card" ? part.speakTime : 0;
+
+  const handleExpire = useCallback(() => {
+    if (phase === "prep") setPhase("speaking");
+    else if (phase === "speaking") setPhase("done");
+  }, [phase]);
+  const timer = useTimer(
+    phase === "prep" ? prepTime : phase === "speaking" ? speakTime : 0,
+    handleExpire,
+  );
+
+  function nextPart() {
+    if (!isLast) { setPartIdx(partIdx + 1); setPhase("intro"); setNotes(""); }
+    else setShowConfirm(true);
+  }
+
+  return (
+    <div className="space-y-6">
+      <ConfirmDialog
+        open={showConfirm}
+        title="Finish Speaking section?"
+        description="This completes the test. Your results will be shown."
+        confirmLabel="Finish & See Results"
+        cancelLabel="Go back"
+        onConfirm={() => { setShowConfirm(false); onComplete(); }}
+        onCancel={() => setShowConfirm(false)}
+      />
+
+      <div className="flex items-center justify-between gap-4 flex-wrap">
+        <div className="flex items-center gap-3">
+          <Badge variant="outline">Speaking</Badge>
+          <span className="text-sm text-muted-foreground">Part {partIdx + 1} of {pkg.speaking.parts.length}</span>
+        </div>
+        <div className="flex items-center gap-2">
+          {(phase === "prep" || phase === "speaking") && (
+            <div className="flex items-center gap-1.5">
+              <span className="text-xs text-muted-foreground">{phase === "prep" ? "Prep" : "Speak"}</span>
+              <span className={cn("font-mono text-sm font-medium", timer.remaining < 10 && "text-destructive animate-pulse")}>
+                {formatTime(timer.remaining)}
+              </span>
+            </div>
+          )}
+          <Clock className="h-4 w-4 text-muted-foreground" />
+          <span className={cn("font-mono text-sm font-medium", timerRemaining < 300 && "text-destructive")}>
+            {formatTime(timerRemaining)}
+          </span>
+        </div>
+      </div>
+
+      <Card>
+        <CardHeader>
+          <CardTitle className="font-serif text-lg">{part.name}</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-5">
+          {part.type === "introduction" && (
+            <div className="space-y-4">
+              <p className="text-sm text-muted-foreground">{part.instruction}</p>
+              <div className="rounded-md bg-secondary p-4 space-y-2">
+                {part.questions.map((q, i) => (
+                  <p key={i} className="text-sm">
+                    <span className="text-muted-foreground mr-2">{i + 1}.</span>{q}
+                  </p>
+                ))}
+              </div>
+              <p className="text-xs text-muted-foreground">
+                In the real IELTS test, an examiner will ask these questions. Practice speaking your answers aloud.
+              </p>
+              <Button onClick={nextPart} className="w-full">
+                {isLast ? "Finish Speaking" : "Next Part"} <ArrowRight className="h-4 w-4" />
+              </Button>
+            </div>
+          )}
+
+          {part.type === "cue_card" && (
+            <div className="space-y-4">
+              {phase === "intro" && (
+                <>
+                  <p className="text-sm text-muted-foreground">{part.instruction}</p>
+                  <div className="rounded-md border bg-card p-4 space-y-3">
+                    <p className="font-medium text-sm">{part.cueCard.topic}</p>
+                    <ul className="space-y-1">
+                      {part.cueCard.points.map((pt, i) => (
+                        <li key={i} className="text-sm text-muted-foreground flex gap-2">
+                          <span className="text-accent">•</span>{pt}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <Button onClick={() => { setPhase("prep"); timer.reset(); timer.start(); }}>
+                    Start Preparation (1 min) <ArrowRight className="h-4 w-4" />
+                  </Button>
+                </>
+              )}
+              {phase === "prep" && (
+                <div className="space-y-4">
+                  <div className="rounded-md bg-accent/5 border border-accent/20 p-4">
+                    <p className="text-sm font-medium text-accent mb-2">Preparation — {formatTime(timer.remaining)}</p>
+                    <p className="text-sm font-medium">{part.cueCard.topic}</p>
+                    <ul className="mt-2 space-y-1">
+                      {part.cueCard.points.map((pt, i) => (
+                        <li key={i} className="text-xs text-muted-foreground">• {pt}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <textarea
+                    placeholder="Notes (optional)…"
+                    value={notes}
+                    onChange={(e) => setNotes(e.target.value)}
+                    className="w-full h-24 rounded-md border border-input bg-background px-3 py-2 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-accent/50"
+                  />
+                  <Button variant="outline" onClick={() => { setPhase("speaking"); timer.reset(); timer.start(); }}>
+                    Start Speaking Now
+                  </Button>
+                </div>
+              )}
+              {phase === "speaking" && (
+                <div className="space-y-4">
+                  <div className="rounded-md bg-accent/10 border border-accent/30 p-4 flex items-center gap-3">
+                    <div className="rounded-full p-2 bg-accent/20 animate-pulse">
+                      <Mic className="h-5 w-5 text-accent" />
+                    </div>
+                    <div>
+                      <p className="text-sm font-medium text-accent">Speaking — {formatTime(timer.remaining)}</p>
+                      <p className="text-xs text-muted-foreground">Speak clearly for 1–2 minutes.</p>
+                    </div>
+                  </div>
+                  <p className="text-sm">{part.cueCard.topic}</p>
+                  {notes && <p className="text-xs text-muted-foreground bg-secondary rounded p-2 whitespace-pre-wrap">{notes}</p>}
+                </div>
+              )}
+              {phase === "done" && (
+                <div className="space-y-4">
+                  <div className="rounded-md bg-secondary p-4 text-center space-y-1">
+                    <p className="text-sm font-medium">Long turn complete ✓</p>
+                    <p className="text-xs text-muted-foreground">Follow-up: {part.cueCard.followUp}</p>
+                  </div>
+                  <Button onClick={nextPart} className="w-full">
+                    {isLast ? "Finish Speaking" : "Next Part"} <ArrowRight className="h-4 w-4" />
+                  </Button>
+                </div>
+              )}
+            </div>
+          )}
+
+          {part.type === "discussion" && (
+            <div className="space-y-4">
+              <p className="text-sm text-muted-foreground">{part.instruction}</p>
+              <div className="space-y-3">
+                {part.questions.map((q, i) => (
+                  <div key={i} className="rounded-md bg-secondary p-3">
+                    <p className="text-sm"><span className="text-muted-foreground mr-2">{i + 1}.</span>{q}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="text-xs text-muted-foreground">
+                In the real test, the examiner asks these questions and follows up based on your answers. Practice giving extended, reasoned responses.
+              </p>
+              <Button onClick={nextPart} className="w-full">
+                {isLast ? "Finish Speaking" : "Next Part"} <ArrowRight className="h-4 w-4" />
+              </Button>
+            </div>
+          )}
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
+
+// ── IELTS Results screen ──────────────────────────────────────────────────────
+function IeltsResultsScreen({ pkg, answers, onRetry, onHome }: {
+  pkg: IeltsPackage; answers: Record<string, string>;
+  onRetry: () => void; onHome: () => void;
+}) {
+  const listeningQs = pkg.listening.parts.flatMap((p) => p.items);
+  const readingQs = pkg.reading.passages.flatMap((p) => p.questions);
+
+  const listeningCorrect = listeningQs.filter((q) => answers[q.id] === q.answer).length;
+  const readingCorrect = readingQs.filter((q) => answers[q.id] === q.answer).length;
+
+  // IELTS band conversion (approximate)
+  function toBand(correct: number, total: number): number {
+    const pct = correct / total;
+    if (pct >= 0.97) return 9.0;
+    if (pct >= 0.93) return 8.5;
+    if (pct >= 0.88) return 8.0;
+    if (pct >= 0.83) return 7.5;
+    if (pct >= 0.75) return 7.0;
+    if (pct >= 0.68) return 6.5;
+    if (pct >= 0.60) return 6.0;
+    if (pct >= 0.50) return 5.5;
+    if (pct >= 0.40) return 5.0;
+    if (pct >= 0.30) return 4.5;
+    return 4.0;
+  }
+
+  const listeningBand = toBand(listeningCorrect, listeningQs.length);
+  const readingBand = toBand(readingCorrect, readingQs.length);
+  // Writing & Speaking simulated as average of L+R
+  const mcqAvg = (listeningBand + readingBand) / 2;
+  const writingBand = Math.round(mcqAvg * 2) / 2; // round to nearest 0.5
+  const speakingBand = Math.round(mcqAvg * 2) / 2;
+  const overall = Math.round(((listeningBand + readingBand + writingBand + speakingBand) / 4) * 2) / 2;
+
+  function bandColor(b: number) {
+    if (b >= 7.5) return "text-accent";
+    if (b >= 6.0) return "text-amber-600";
+    return "text-destructive";
+  }
+
+  function bandLabel(b: number) {
+    if (b >= 8.0) return "Expert";
+    if (b >= 7.0) return "Good";
+    if (b >= 6.0) return "Competent";
+    if (b >= 5.0) return "Modest";
+    return "Limited";
+  }
+
+  return (
+    <div className="space-y-8">
+      <div className="space-y-2">
+        <Badge variant="accent" className="rounded">Test Complete</Badge>
+        <h1 className="font-serif text-3xl font-semibold">{pkg.title}</h1>
+        <p className="text-sm text-muted-foreground">Your simulated IELTS Academic band scores</p>
+      </div>
+
+      {/* Overall band */}
+      <Card className="border-accent/40">
+        <CardContent className="pt-6 pb-6">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+            <div>
+              <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground mb-1">Overall Band Score</p>
+              <div className="flex items-baseline gap-2">
+                <p className={cn("font-serif text-5xl font-bold", bandColor(overall))}>{overall.toFixed(1)}</p>
+                <p className="text-xl text-muted-foreground">/ 9.0</p>
+              </div>
+              <p className={cn("text-sm font-medium mt-1", bandColor(overall))}>{bandLabel(overall)}</p>
+            </div>
+            <div className="text-xs text-muted-foreground sm:text-right max-w-xs">
+              <p className="font-medium mb-1">IELTS Band scoring:</p>
+              <p>Overall = average of 4 sections, rounded to nearest 0.5. Range: 1–9.</p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Per-section */}
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        {[
+          { label: "Listening", band: listeningBand, correct: listeningCorrect, total: listeningQs.length, simulated: false },
+          { label: "Reading", band: readingBand, correct: readingCorrect, total: readingQs.length, simulated: false },
+          { label: "Writing", band: writingBand, simulated: true },
+          { label: "Speaking", band: speakingBand, simulated: true },
+        ].map(({ label, band, correct, total, simulated }) => (
+          <Card key={label}>
+            <CardContent className="pt-5 space-y-2">
+              <div className="flex items-center justify-between gap-2">
+                <p className="text-sm font-medium text-muted-foreground">{label}</p>
+                {simulated && <Badge variant="outline" className="text-[9px]">Estimated</Badge>}
+              </div>
+              <p className={cn("font-serif text-3xl font-bold", bandColor(band))}>
+                {band.toFixed(1)}<span className="text-base text-muted-foreground"> / 9</span>
+              </p>
+              <Progress value={(band / 9) * 100} className="h-1.5" />
+              <p className="text-xs text-muted-foreground">
+                {simulated ? "Estimated from L+R performance" : `${correct}/${total} correct`}
+              </p>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+
+      {/* Answer review */}
+      <div className="space-y-6">
+        <h2 className="font-serif text-xl font-semibold">Answer Review — Listening & Reading</h2>
+        {pkg.listening.parts.map((p, pi) => (
+          <div key={p.id} className="space-y-4">
+            <p className="font-medium text-sm">Listening Part {pi + 1}</p>
+            {p.items.map((q, i) => (
+              <McqQuestion key={q.id}
+                q={{ id: q.id, question: q.question, options: q.options, answer: q.answer, explanation: q.explanation }}
+                index={i} answer={answers[q.id] ?? null} onAnswer={() => {}} showExplanation />
+            ))}
+          </div>
+        ))}
+        {pkg.reading.passages.map((p) => (
+          <div key={p.id} className="space-y-4">
+            <p className="font-medium text-sm">{p.title}</p>
+            {p.questions.map((q, i) => (
+              <McqQuestion key={q.id} q={q} index={i} answer={answers[q.id] ?? null} onAnswer={() => {}} showExplanation />
+            ))}
+          </div>
+        ))}
+      </div>
+
+      <div className="flex gap-3 pt-4 border-t">
+        <Button variant="outline" onClick={onRetry} className="gap-2">
+          <RotateCcw className="h-4 w-4" /> Retry
+        </Button>
+        <Button onClick={onHome} className="gap-2">
+          <ChevronLeft className="h-4 w-4" /> Choose another package
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+// ── IELTS Test Runner ─────────────────────────────────────────────────────────
+type IeltsSection = "listening" | "reading" | "writing" | "speaking";
+const IELTS_SECTION_ORDER: IeltsSection[] = ["listening", "reading", "writing", "speaking"];
+const IELTS_SECTIONS: { key: IeltsSection; label: string; icon: typeof BookOpen }[] = [
+  { key: "listening", label: "Listening", icon: Headphones },
+  { key: "reading", label: "Reading", icon: BookOpen },
+  { key: "writing", label: "Writing", icon: PenLine },
+  { key: "speaking", label: "Speaking", icon: Mic },
+];
+
+function IeltsTestRunner({ pkg, onHome }: { pkg: IeltsPackage; onHome: () => void }) {
+  const [section, setSection] = useState<IeltsSection>("listening");
+  const [phase, setPhase] = useState<"section" | "done">("section");
+  const [answers, setAnswers] = useState<Record<string, string>>({});
+  const [completedSections, setCompletedSections] = useState<Set<IeltsSection>>(new Set());
+
+  // Single full-test timer: L(40min) + R(60min) + W(60min) + speaking buffer(15min)
+  const totalTime = pkg.listening.timeLimit + pkg.reading.timeLimit + pkg.writing.timeLimit + 900;
+  const handleExpire = useCallback(() => setPhase("done"), []);
+  const timer = useTimer(totalTime, handleExpire);
+  useEffect(() => { timer.start(); }, []);
+
+  function handleAnswer(id: string, a: string) {
+    setAnswers((prev) => ({ ...prev, [id]: a }));
+  }
+
+  function completeSection(s: IeltsSection) {
+    window.speechSynthesis.cancel();
+    setCompletedSections((prev) => new Set([...prev, s]));
+    const idx = IELTS_SECTION_ORDER.indexOf(s);
+    if (idx < IELTS_SECTION_ORDER.length - 1) setSection(IELTS_SECTION_ORDER[idx + 1]);
+    else setPhase("done");
+  }
+
+  const sectionIdx = IELTS_SECTION_ORDER.indexOf(section);
+
+  if (phase === "done") {
+    return (
+      <IeltsResultsScreen
+        pkg={pkg} answers={answers}
+        onRetry={() => { setSection("listening"); setPhase("section"); setAnswers({}); setCompletedSections(new Set()); timer.reset(); timer.start(); }}
+        onHome={onHome}
+      />
+    );
+  }
+
+  return (
+    <div className="space-y-6">
+      {/* Top nav */}
+      <div className="flex items-center gap-2 flex-wrap">
+        <Button variant="ghost" size="sm" onClick={() => { window.speechSynthesis.cancel(); onHome(); }} className="-ml-2">
+          <ChevronLeft className="h-4 w-4" /> Packages
+        </Button>
+        <p className="text-sm text-muted-foreground font-medium hidden sm:block">{pkg.title}</p>
+
+        <div className="flex gap-1 ml-auto">
+          {IELTS_SECTIONS.map(({ key, label, icon: Icon }) => (
+            <button key={key}
+              onClick={() => completedSections.has(key) || key === section ? (window.speechSynthesis.cancel(), setSection(key)) : undefined}
+              title={label}
+              className={cn(
+                "flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium border transition-colors",
+                key === section && "border-accent bg-accent/10 text-accent",
+                completedSections.has(key) && key !== section && "border-border text-muted-foreground line-through",
+                !completedSections.has(key) && key !== section && sectionIdx < IELTS_SECTION_ORDER.indexOf(key) && "border-dashed border-border text-muted-foreground/50 cursor-not-allowed",
+              )}>
+              <Icon className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">{label}</span>
+            </button>
+          ))}
+        </div>
+
+        <Button variant="outline" size="sm"
+          className="border-destructive text-destructive hover:bg-destructive hover:text-destructive-foreground gap-1.5 shrink-0"
+          onClick={() => { window.speechSynthesis.cancel(); setPhase("done"); }}>
+          <Flag className="h-3.5 w-3.5" />
+          <span className="hidden sm:inline">End Test</span>
+        </Button>
+      </div>
+
+      {section === "listening" && (
+        <IeltsListeningSection pkg={pkg} answers={answers} onAnswer={handleAnswer} onComplete={() => completeSection("listening")} timerRemaining={timer.remaining} />
+      )}
+      {section === "reading" && (
+        <IeltsReadingSection pkg={pkg} answers={answers} onAnswer={handleAnswer} onComplete={() => completeSection("reading")} timerRemaining={timer.remaining} />
+      )}
+      {section === "writing" && (
+        <IeltsWritingSection pkg={pkg} onComplete={() => completeSection("writing")} timerRemaining={timer.remaining} />
+      )}
+      {section === "speaking" && (
+        <IeltsSpeakingSection pkg={pkg} onComplete={() => completeSection("speaking")} timerRemaining={timer.remaining} />
+      )}
+    </div>
+  );
+}
+
 // ── Main page ─────────────────────────────────────────────────────────────────
 export default function MockTestPage() {
   const location = useLocation();
@@ -2338,6 +3151,11 @@ export default function MockTestPage() {
   // ITP packages have their own self-contained runner
   if (pkg.format === "itp") {
     return <ItpTestRunner pkg={pkg as ItpPackage} onHome={goHome} />;
+  }
+
+  // IELTS packages have their own self-contained runner
+  if (pkg.format === "ielts") {
+    return <IeltsTestRunner pkg={pkg as IeltsPackage} onHome={goHome} />;
   }
 
   if (phase === "done") {

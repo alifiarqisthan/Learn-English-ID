@@ -1,0 +1,1113 @@
+{
+  "id": "ielts-package-1",
+  "format": "ielts",
+  "title": "IELTS Academic Practice Test 1",
+  "listening": {
+    "timeLimit": 2400,
+    "totalQuestions": 40,
+    "parts": [
+      {
+        "id": "ielts1-l-part1",
+        "type": "everyday_conversation",
+        "name": "Part 1 — Everyday Conversation",
+        "instruction": "Listen to a conversation between two people. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Agent: Good afternoon, Sunridge Property Agency, this is Helen speaking. How can I help you?\n\nCaller: Oh hello, yes. I'm calling to ask about any available rooms or flats to let in the Sunridge area. My name's Daniel Marsh.\n\nAgent: Of course, Mr Marsh. Are you looking for a room in a shared house or a self-contained flat?\n\nCaller: Ideally a self-contained flat, but I'm open to a room if the location is good. I'll be starting a postgraduate programme at Sunridge University in September, so I need somewhere within reasonable commuting distance — maybe twenty minutes or so.\n\nAgent: Right, let me check what we have. We currently have two self-contained flats available near the university. The first one is on Maple Avenue — it's a one-bedroom flat on the third floor, no lift, furnished, available from the first of September. The monthly rent is eight hundred and fifty pounds, not including bills.\n\nCaller: And roughly how far is that from the university?\n\nAgent: About twelve minutes on foot, so well within your range. The second flat is on Brentwood Road. It's a studio — so open-plan living and sleeping area — but it does have its own kitchen and bathroom. That one is seven hundred pounds a month, bills partially included — water and council tax are covered.\n\nCaller: Oh, that sounds more affordable. What about internet — is that included?\n\nAgent: I'm afraid not. Internet is separate for both properties.\n\nCaller: I see. And is the Brentwood Road flat furnished too?\n\nAgent: It comes with a bed, desk, and wardrobe, but no sofa or dining furniture. So partially furnished, I'd say.\n\nCaller: Right. Now, I do have a cat — is that going to be a problem?\n\nAgent: Hmm, let me check the landlord notes. The Maple Avenue property does allow small pets with a refundable deposit. Brentwood Road, unfortunately, says no pets, strictly.\n\nCaller: Oh, that rules out Brentwood Road then. So it would be Maple Avenue. Can I arrange a viewing?\n\nAgent: Certainly. The earliest slot I have is this Thursday at two thirty in the afternoon — would that suit you?\n\nCaller: Thursday... yes, that works. Could I get a confirmation email?\n\nAgent: Of course. And I'll need your email address.\n\nCaller: It's daniel.marsh — that's M-A-R-S-H — at post-mail dot com.\n\nAgent: Got that. And a contact phone number?\n\nCaller: Zero seven seven, double four, three nine one, eight two six.\n\nAgent: Perfect. You'll receive a confirmation within the hour. Is there anything else I can help with?\n\nCaller: Actually yes — is there parking at Maple Avenue? I have a bicycle rather than a car, but I'd like to know.\n\nAgent: There's no car parking, but there is a secure bicycle storage area in the basement, which tenants can use free of charge.\n\nCaller: Excellent. That's actually ideal. Thanks very much, Helen.\n\nAgent: Thank you, Mr Marsh. We'll see you on Thursday.",
+        "items": [
+          {
+            "id": "ielts1-l1-1",
+            "question": "What is the main reason Daniel Marsh is calling the agency?",
+            "options": [
+              "A. To cancel a previous booking.",
+              "B. To inquire about available rental properties.",
+              "C. To report a problem with his current accommodation.",
+              "D. To extend an existing tenancy agreement."
+            ],
+            "answer": "B",
+            "explanation": "Daniel says 'I'm calling to ask about any available rooms or flats to let in the Sunridge area.'"
+          },
+          {
+            "id": "ielts1-l1-2",
+            "question": "Why does Daniel need accommodation near Sunridge University?",
+            "options": [
+              "A. He works at the university as a lecturer.",
+              "B. He will begin a postgraduate programme there in September.",
+              "C. He has a part-time job on the university campus.",
+              "D. He is attending a short summer course."
+            ],
+            "answer": "B",
+            "explanation": "Daniel states he will be 'starting a postgraduate programme at Sunridge University in September.'"
+          },
+          {
+            "id": "ielts1-l1-3",
+            "question": "What is the monthly rent for the flat on Maple Avenue?",
+            "options": [
+              "A. £700",
+              "B. £750",
+              "C. £800",
+              "D. £850"
+            ],
+            "answer": "D",
+            "explanation": "The agent says the Maple Avenue flat costs 'eight hundred and fifty pounds' per month."
+          },
+          {
+            "id": "ielts1-l1-4",
+            "question": "Which utilities are included in the rent for the Brentwood Road studio?",
+            "options": [
+              "A. Electricity and gas only.",
+              "B. Internet and water.",
+              "C. Water and council tax.",
+              "D. All bills are included."
+            ],
+            "answer": "C",
+            "explanation": "The agent specifies that 'water and council tax are covered' in the Brentwood Road flat's rent."
+          },
+          {
+            "id": "ielts1-l1-5",
+            "question": "Which piece of furniture is NOT mentioned as being provided in the Brentwood Road studio?",
+            "options": [
+              "A. A bed.",
+              "B. A wardrobe.",
+              "C. A desk.",
+              "D. A sofa."
+            ],
+            "answer": "D",
+            "explanation": "The agent says the flat 'comes with a bed, desk, and wardrobe, but no sofa or dining furniture,' confirming a sofa is absent."
+          },
+          {
+            "id": "ielts1-l1-6",
+            "question": "Why does Daniel decide against the Brentwood Road studio?",
+            "options": [
+              "A. It is too far from the university.",
+              "B. The rent is too expensive.",
+              "C. Pets are not permitted there.",
+              "D. It does not have a separate bathroom."
+            ],
+            "answer": "C",
+            "explanation": "The agent confirms the Brentwood Road property has a 'no pets' policy, and Daniel has a cat, so it is ruled out."
+          },
+          {
+            "id": "ielts1-l1-7",
+            "question": "When is the earliest viewing appointment available?",
+            "options": [
+              "A. Wednesday at 2:30 p.m.",
+              "B. Thursday at 2:30 p.m.",
+              "C. Friday at 2:30 p.m.",
+              "D. Thursday at 3:30 p.m."
+            ],
+            "answer": "B",
+            "explanation": "The agent says 'The earliest slot I have is this Thursday at two thirty in the afternoon.'"
+          },
+          {
+            "id": "ielts1-l1-8",
+            "question": "What is Daniel's email domain?",
+            "options": [
+              "A. post-mail.co.uk",
+              "B. postmail.com",
+              "C. post-mail.com",
+              "D. post.mail.com"
+            ],
+            "answer": "C",
+            "explanation": "Daniel spells out his email as 'daniel.marsh at post-mail dot com,' indicating the domain is post-mail.com."
+          },
+          {
+            "id": "ielts1-l1-9",
+            "question": "What does Daniel use for his personal transport?",
+            "options": [
+              "A. A car.",
+              "B. A motorbike.",
+              "C. Public transport only.",
+              "D. A bicycle."
+            ],
+            "answer": "D",
+            "explanation": "Daniel says 'I have a bicycle rather than a car' when asking about parking options."
+          },
+          {
+            "id": "ielts1-l1-10",
+            "question": "What facility for Daniel's transport is available at Maple Avenue?",
+            "options": [
+              "A. A private car parking space.",
+              "B. A secure bicycle storage area at no extra cost.",
+              "C. A paid bicycle storage room.",
+              "D. A shared garage for residents."
+            ],
+            "answer": "B",
+            "explanation": "The agent says there is 'a secure bicycle storage area in the basement, which tenants can use free of charge.'"
+          }
+        ]
+      },
+      {
+        "id": "ielts1-l-part2",
+        "type": "monologue",
+        "name": "Part 2 — Monologue",
+        "instruction": "Listen to a talk about local community facilities. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Good morning, everyone. My name is Patricia Wells, and I'm the coordinator for the Millbrook Community Centre. I'm here today to give you an overview of the new facilities and programmes we're launching this autumn, and to answer any questions you might have afterwards.\n\nSo, first — the building itself. As many of you know, the centre underwent a major refurbishment over the summer. We now have a fully upgraded sports hall, which can seat up to three hundred spectators for events. We've also added a dedicated dance studio with sprung flooring and mirrored walls — that's on the first floor. The library space on the ground floor has been converted into a digital learning hub, equipped with forty new computer terminals and high-speed broadband. The café has been relocated from the east wing to the ground floor main entrance, making it much more accessible.\n\nNow, onto the new programmes. We're launching three key initiatives this autumn. The first is a series of employability workshops aimed at adults who are returning to the workforce after a career break. These sessions will cover CV writing, interview techniques, and digital skills. They run every Tuesday evening from six to eight, starting the fourteenth of September, and they are completely free of charge.\n\nThe second initiative is a youth coding club for children aged ten to fifteen. This will take place on Saturday mornings from nine to eleven. We have twelve places available and registration opens on the first of September on our website. There is a small fee of five pounds per session to cover materials.\n\nThird, we're introducing a community gardening project. We have secured a plot of land behind the centre, and residents are invited to apply for an individual allotment. Priority will be given to residents who have lived in the Millbrook area for more than two years. An introductory session explaining how the project works will take place on Saturday the eighteenth of September at ten in the morning — please note that booking is essential for this session.\n\nFinally, I want to mention our new membership scheme. An annual adult membership is now thirty pounds — down from forty-five last year. This gives you free entry to all regular fitness classes and a ten per cent discount in the café. Under-eighteens can join for fifteen pounds annually.\n\nIf you have any questions about specific programmes or want to register your interest today, my colleagues are here with leaflets and sign-up forms. Our website is millbrook-cc dot org dot uk. Thank you.",
+        "items": [
+          {
+            "id": "ielts1-l2-1",
+            "question": "What is the maximum spectator capacity of the upgraded sports hall?",
+            "options": [
+              "A. 200",
+              "B. 250",
+              "C. 300",
+              "D. 350"
+            ],
+            "answer": "C",
+            "explanation": "Patricia states the sports hall 'can seat up to three hundred spectators for events.'"
+          },
+          {
+            "id": "ielts1-l2-2",
+            "question": "Where is the new dance studio located?",
+            "options": [
+              "A. In the east wing on the ground floor.",
+              "B. In the basement below the sports hall.",
+              "C. On the first floor.",
+              "D. Adjacent to the new café."
+            ],
+            "answer": "C",
+            "explanation": "Patricia says the dance studio is 'on the first floor,' with sprung flooring and mirrored walls."
+          },
+          {
+            "id": "ielts1-l2-3",
+            "question": "What has replaced the library space in the community centre?",
+            "options": [
+              "A. An expanded sports equipment store.",
+              "B. A digital learning hub.",
+              "C. A children's reading room.",
+              "D. A conference meeting room."
+            ],
+            "answer": "B",
+            "explanation": "Patricia says 'The library space on the ground floor has been converted into a digital learning hub.'"
+          },
+          {
+            "id": "ielts1-l2-4",
+            "question": "Who are the employability workshops primarily designed for?",
+            "options": [
+              "A. School leavers applying for their first job.",
+              "B. University students seeking internships.",
+              "C. Adults returning to work after a career break.",
+              "D. Employees looking to change careers."
+            ],
+            "answer": "C",
+            "explanation": "Patricia describes the workshops as 'aimed at adults who are returning to the workforce after a career break.'"
+          },
+          {
+            "id": "ielts1-l2-5",
+            "question": "What is the cost of attending an employability workshop?",
+            "options": [
+              "A. £5 per session.",
+              "B. £10 per session.",
+              "C. £15 for the full series.",
+              "D. Free of charge."
+            ],
+            "answer": "D",
+            "explanation": "Patricia states the employability workshops 'are completely free of charge.'"
+          },
+          {
+            "id": "ielts1-l2-6",
+            "question": "How many places are available in the youth coding club?",
+            "options": [
+              "A. 8",
+              "B. 10",
+              "C. 12",
+              "D. 15"
+            ],
+            "answer": "C",
+            "explanation": "Patricia says 'We have twelve places available' for the coding club."
+          },
+          {
+            "id": "ielts1-l2-7",
+            "question": "Who will be given priority for individual allotments in the gardening project?",
+            "options": [
+              "A. Residents who have never gardened before.",
+              "B. Residents under the age of thirty.",
+              "C. Residents who have lived in Millbrook for over two years.",
+              "D. Residents who are current centre members."
+            ],
+            "answer": "C",
+            "explanation": "Patricia says 'Priority will be given to residents who have lived in the Millbrook area for more than two years.'"
+          },
+          {
+            "id": "ielts1-l2-8",
+            "question": "What must participants do to attend the introductory gardening session?",
+            "options": [
+              "A. Pay a deposit in advance.",
+              "B. Register on the website.",
+              "C. Book a place in advance.",
+              "D. Bring their own tools."
+            ],
+            "answer": "C",
+            "explanation": "Patricia emphasises 'booking is essential for this session' regarding the introductory gardening event."
+          },
+          {
+            "id": "ielts1-l2-9",
+            "question": "Compared to last year, the new annual adult membership fee has:",
+            "options": [
+              "A. Increased by fifteen pounds.",
+              "B. Remained the same.",
+              "C. Decreased by fifteen pounds.",
+              "D. Decreased by ten pounds."
+            ],
+            "answer": "C",
+            "explanation": "The membership is now '£30 — down from forty-five last year,' a reduction of fifteen pounds."
+          },
+          {
+            "id": "ielts1-l2-10",
+            "question": "What benefit does adult membership include at the café?",
+            "options": [
+              "A. One free meal per week.",
+              "B. A 10% discount on purchases.",
+              "C. A 15% discount on all drinks.",
+              "D. Free coffee during fitness classes."
+            ],
+            "answer": "B",
+            "explanation": "Patricia states membership gives 'a ten per cent discount in the café.'"
+          }
+        ]
+      },
+      {
+        "id": "ielts1-l-part3",
+        "type": "academic_discussion",
+        "name": "Part 3 — Academic Discussion",
+        "instruction": "Listen to a discussion between two students and their tutor about a research project. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Tutor: So, you're both presenting your research proposal next week on the relationship between urban green spaces and mental health outcomes. How's the literature review coming along?\n\nSophia: We've covered quite a lot, actually. We found a strong body of evidence suggesting that regular access to parks and natural environments is linked to reduced cortisol levels and lower rates of anxiety disorders.\n\nTutor: Good. And did you manage to find studies that specifically address urban populations rather than general populations?\n\nSophia: Most of the studies we found do focus on urban settings, but a significant number were conducted in Northern Europe — particularly Scandinavia — which might limit how widely we can generalise the findings to cities in Southeast Asia or sub-Saharan Africa.\n\nTutor: That's an important limitation to flag. What about your research methodology? Have you settled on a design?\n\nJames: We were initially going to do a survey-based study, but after looking at the literature more carefully, we think a mixed-methods approach would be stronger — combining a quantitative survey with qualitative interviews. The survey would measure baseline stress and anxiety using validated scales, and the interviews would help us understand why people do or don't use green spaces.\n\nTutor: That's a more nuanced design. What's your target population?\n\nJames: We're looking at residents in our city who live within five hundred metres of a designated green space. We'd sample two groups — frequent users, defined as visiting at least three times a week, and non-users who live equally close but rarely or never visit.\n\nTutor: And how will you recruit participants?\n\nSophia: We've been debating that. James thinks we should approach people directly in the parks, but I'm worried that sampling only from parks would create a selection bias — we'd mostly capture existing users. I think we should distribute the initial survey through community boards and local libraries so we can also reach non-users.\n\nTutor: Sophia raises a valid methodological concern. If you sample exclusively in parks, your comparison group — the non-users — becomes almost impossible to find. I'd recommend Sophia's approach.\n\nJames: Fair point. I hadn't considered that fully.\n\nTutor: What ethical considerations have you thought about?\n\nSophia: Anonymity and informed consent are the main ones. We'll need to ensure participants know they can withdraw at any time, especially given that we're asking about mental health — a sensitive topic. We've drafted an information sheet, but we haven't yet submitted our ethics application.\n\nTutor: That needs to go in this week if you want results in time for the submission deadline. Also, think about how you'll handle it if a participant discloses significant mental distress during an interview — you'll need a referral pathway or a list of support resources.\n\nJames: We hadn't thought about that — good point. We'll include that in the ethics form.\n\nTutor: One more thing — what are you hoping to contribute that goes beyond existing research?\n\nSophia: We think our study is distinctive because we're looking not just at whether people use green spaces, but at perceived safety and accessibility as mediating variables. A lot of the existing research doesn't account for the fact that some residents — particularly women and older adults — may live near parks but feel unsafe using them.\n\nTutor: Excellent. That's a genuinely original angle. Make sure you foreground that in the introduction of your proposal.",
+        "items": [
+          {
+            "id": "ielts1-l3-1",
+            "question": "What is the main focus of Sophia and James's research project?",
+            "options": [
+              "A. The economic benefits of expanding urban parks.",
+              "B. The link between green space access and mental health in cities.",
+              "C. The environmental impact of urban development on biodiversity.",
+              "D. Community attitudes towards park maintenance funding."
+            ],
+            "answer": "B",
+            "explanation": "The tutor introduces the project as examining 'the relationship between urban green spaces and mental health outcomes.'"
+          },
+          {
+            "id": "ielts1-l3-2",
+            "question": "What limitation does Sophia identify in the existing literature?",
+            "options": [
+              "A. Most studies focus on rural rather than urban populations.",
+              "B. The studies do not use validated measurement scales.",
+              "C. Most studies were conducted in Northern Europe, limiting global generalisability.",
+              "D. The studies were conducted over too short a time period."
+            ],
+            "answer": "C",
+            "explanation": "Sophia notes that 'a significant number were conducted in Northern Europe — particularly Scandinavia,' which limits generalisation to other regions."
+          },
+          {
+            "id": "ielts1-l3-3",
+            "question": "Why did the students change from a survey-only to a mixed-methods design?",
+            "options": [
+              "A. Their tutor required them to include qualitative data.",
+              "B. A survey-only approach exceeded the project budget.",
+              "C. After reviewing the literature, they felt a combined approach would be more robust.",
+              "D. They could not get ethics approval for a survey-only study."
+            ],
+            "answer": "C",
+            "explanation": "James says 'after looking at the literature more carefully, we think a mixed-methods approach would be stronger.'"
+          },
+          {
+            "id": "ielts1-l3-4",
+            "question": "How do the students define 'frequent users' of green spaces in their study?",
+            "options": [
+              "A. People who visit a park at least once a week.",
+              "B. People who live within two hundred metres of a park.",
+              "C. People who visit a green space at least three times a week.",
+              "D. People who have a park membership or season pass."
+            ],
+            "answer": "C",
+            "explanation": "James specifies 'frequent users, defined as visiting at least three times a week.'"
+          },
+          {
+            "id": "ielts1-l3-5",
+            "question": "Why does Sophia oppose sampling participants only from within parks?",
+            "options": [
+              "A. It would make the study too expensive to conduct.",
+              "B. It would create a selection bias, making non-users hard to find.",
+              "C. Parks are too noisy to conduct interviews effectively.",
+              "D. Park authorities do not allow researchers to approach visitors."
+            ],
+            "answer": "B",
+            "explanation": "Sophia argues that 'sampling only from parks would create a selection bias — we'd mostly capture existing users,' making non-users 'almost impossible to find.'"
+          },
+          {
+            "id": "ielts1-l3-6",
+            "question": "What does the tutor say about Sophia's proposed recruitment method?",
+            "options": [
+              "A. It will be too slow to gather enough participants.",
+              "B. It is impractical in a university setting.",
+              "C. It is methodologically sound and should be adopted.",
+              "D. It has not been used in published research before."
+            ],
+            "answer": "C",
+            "explanation": "The tutor validates Sophia's concern and says 'I'd recommend Sophia's approach,' confirming it is the better method."
+          },
+          {
+            "id": "ielts1-l3-7",
+            "question": "What does the tutor say the students must do urgently regarding ethics?",
+            "options": [
+              "A. Rewrite the consent form in simpler language.",
+              "B. Submit their ethics application this week.",
+              "C. Get written permission from all parks in the study area.",
+              "D. Obtain approval from the university's research board before recruiting."
+            ],
+            "answer": "B",
+            "explanation": "The tutor says 'That needs to go in this week if you want results in time for the submission deadline,' referring to the ethics application."
+          },
+          {
+            "id": "ielts1-l3-8",
+            "question": "What additional safeguard does the tutor recommend including in the ethics form?",
+            "options": [
+              "A. A signed confidentiality agreement for each participant.",
+              "B. Video recordings of all interviews for verification.",
+              "C. A referral pathway or list of support resources for distressed participants.",
+              "D. A debriefing questionnaire after each interview."
+            ],
+            "answer": "C",
+            "explanation": "The tutor advises them to plan 'a referral pathway or a list of support resources' in case a participant discloses significant mental distress."
+          },
+          {
+            "id": "ielts1-l3-9",
+            "question": "What does Sophia identify as the original contribution of their study?",
+            "options": [
+              "A. They will use a larger sample size than previous studies.",
+              "B. They examine perceived safety and accessibility as mediating variables.",
+              "C. They will conduct the first study of this kind in their region.",
+              "D. They will track participants over a five-year period."
+            ],
+            "answer": "B",
+            "explanation": "Sophia says their study looks at 'perceived safety and accessibility as mediating variables,' which goes beyond existing research."
+          },
+          {
+            "id": "ielts1-l3-10",
+            "question": "Which groups does Sophia suggest may live near parks but feel unsafe using them?",
+            "options": [
+              "A. Children and teenagers.",
+              "B. Low-income residents and students.",
+              "C. Women and older adults.",
+              "D. Shift workers and night-time residents."
+            ],
+            "answer": "C",
+            "explanation": "Sophia specifically mentions 'women and older adults' as groups who may feel unsafe using parks despite living nearby."
+          }
+        ]
+      },
+      {
+        "id": "ielts1-l-part4",
+        "type": "academic_lecture",
+        "name": "Part 4 — Academic Lecture",
+        "instruction": "Listen to a lecture on coral reef ecosystems. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Good morning. Today I want to talk about coral reef ecosystems — specifically, why they are so ecologically significant, what is threatening their survival, and what the scientific community is doing to respond.\n\nCoral reefs cover less than one percent of the ocean floor, yet they support approximately twenty-five percent of all known marine species. This extraordinary biodiversity makes them the ocean's equivalent of tropical rainforests. The structural complexity of a reef — built over centuries from calcium carbonate skeletons secreted by coral polyps — provides habitat, feeding grounds, and nursery areas for thousands of species, including many that are commercially important to fisheries.\n\nThe primary building blocks of a reef are the coral polyps themselves, but what is less widely understood is the symbiotic relationship between polyps and microscopic algae called zooxanthellae. These algae live within the tissue of the coral, photosynthesising and supplying up to ninety percent of the coral's energy requirements. In return, the coral provides the algae with shelter and the carbon dioxide they need for photosynthesis. This relationship is exquisitely sensitive to temperature. When sea surface temperatures rise even one to two degrees Celsius above the seasonal maximum for a sustained period, the coral expels its zooxanthellae. Without the algae, the coral loses both its colour and its primary energy source — a phenomenon called coral bleaching. If temperatures return to normal quickly, the coral can recover, but prolonged bleaching events lead to coral death.\n\nThe bleaching events we are now witnessing are unprecedented in scale and frequency. The Great Barrier Reef in Australia experienced mass bleaching events in 2016, 2017, 2020, and 2022 — all driven by elevated sea surface temperatures linked to climate change. Studies estimate that between 2016 and 2017 alone, approximately fifty percent of the shallow-water corals in the northern Great Barrier Reef died.\n\nBeyond thermal stress, reefs face multiple additional pressures. Ocean acidification — caused by the absorption of atmospheric CO2 — reduces the availability of carbonate ions, making it harder for corals to build and maintain their calcium carbonate skeletons. Simultaneously, local stressors including agricultural runoff, coastal construction, and overfishing compound the problem. Runoff introduces excess nutrients that fuel algal blooms, which can smother reefs and block sunlight.\n\nIn response to these threats, scientists have been exploring a range of interventions. One approach is assisted evolution — selectively breeding coral strains that show greater thermal tolerance and transplanting them onto degraded reefs. Early trials in Australia and the Caribbean have been promising, though scaling this approach remains a significant challenge. Another intervention is coral gardening, in which coral fragments are grown in underwater nurseries and then transplanted to reef sites. This technique has been used successfully in Florida and several Pacific island nations.\n\nCrucially, however, researchers emphasise that localised restoration efforts cannot succeed in isolation. Without addressing the global drivers — primarily greenhouse gas emissions — bleaching events will continue to intensify, and restored reefs will face the same threats as natural ones. The scientific consensus is stark: limiting global warming to 1.5 degrees Celsius, the target of the Paris Agreement, is a necessary condition for preserving the world's reef systems. At current trajectories, reefs covering seventy to ninety percent of their present extent could be lost by 2050.",
+        "items": [
+          {
+            "id": "ielts1-l4-1",
+            "question": "What proportion of known marine species do coral reefs support?",
+            "options": [
+              "A. Less than 10%",
+              "B. Approximately 15%",
+              "C. Approximately 25%",
+              "D. Over 40%"
+            ],
+            "answer": "C",
+            "explanation": "The lecturer states that coral reefs 'support approximately twenty-five percent of all known marine species.'"
+          },
+          {
+            "id": "ielts1-l4-2",
+            "question": "What is the role of zooxanthellae in a coral reef ecosystem?",
+            "options": [
+              "A. They filter pollutants from the surrounding water.",
+              "B. They are microscopic algae that provide corals with up to 90% of their energy.",
+              "C. They are small fish that clean parasites from coral polyps.",
+              "D. They form the calcium carbonate skeleton of the reef structure."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer explains that zooxanthellae are algae living in coral tissue that supply 'up to ninety percent of the coral's energy requirements.'"
+          },
+          {
+            "id": "ielts1-l4-3",
+            "question": "What causes coral bleaching?",
+            "options": [
+              "A. Increased salinity due to freshwater influx from rivers.",
+              "B. Rapid drops in sea surface temperature during winter.",
+              "C. Sustained rises in sea temperature causing corals to expel their zooxanthellae.",
+              "D. Chemical pollution from industrial discharge near coastlines."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer explains that a sustained temperature rise of 'even one to two degrees Celsius' causes coral to expel zooxanthellae, resulting in bleaching."
+          },
+          {
+            "id": "ielts1-l4-4",
+            "question": "In which years did the Great Barrier Reef experience mass bleaching events, according to the lecture?",
+            "options": [
+              "A. 2014, 2016, 2018, and 2020.",
+              "B. 2016, 2017, 2020, and 2022.",
+              "C. 2015, 2018, 2021, and 2023.",
+              "D. 2010, 2014, 2018, and 2022."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer specifically cites mass bleaching events in 'Australia' in '2016, 2017, 2020, and 2022.'"
+          },
+          {
+            "id": "ielts1-l4-5",
+            "question": "What happened to approximately half of the northern Great Barrier Reef's shallow-water corals between 2016 and 2017?",
+            "options": [
+              "A. They were relocated to cooler southern waters.",
+              "B. They underwent temporary bleaching but fully recovered.",
+              "C. They died as a result of prolonged bleaching.",
+              "D. They were destroyed by a category five cyclone."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer states 'approximately fifty percent of the shallow-water corals in the northern Great Barrier Reef died' during 2016–2017."
+          },
+          {
+            "id": "ielts1-l4-6",
+            "question": "How does ocean acidification threaten corals?",
+            "options": [
+              "A. It increases water temperature beyond corals' tolerance limits.",
+              "B. It reduces carbonate ions, making skeleton formation more difficult.",
+              "C. It kills the fish that corals depend on for nutrient cycling.",
+              "D. It prevents sunlight from penetrating to reef depths."
+            ],
+            "answer": "B",
+            "explanation": "Ocean acidification 'reduces the availability of carbonate ions, making it harder for corals to build and maintain their calcium carbonate skeletons.'"
+          },
+          {
+            "id": "ielts1-l4-7",
+            "question": "How do algal blooms harm coral reefs?",
+            "options": [
+              "A. They release toxins that dissolve coral calcium carbonate.",
+              "B. They attract predatory fish that eat coral polyps.",
+              "C. They smother reefs and block sunlight reaching the coral.",
+              "D. They raise water temperature in localised reef areas."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer says algal blooms 'can smother reefs and block sunlight,' fuelled by agricultural runoff nutrients."
+          },
+          {
+            "id": "ielts1-l4-8",
+            "question": "What does the technique of 'assisted evolution' involve?",
+            "options": [
+              "A. Introducing genetically modified fish to control reef predators.",
+              "B. Breeding thermally tolerant coral strains and transplanting them onto damaged reefs.",
+              "C. Using underwater robots to remove algae from bleached corals.",
+              "D. Seeding reefs with zooxanthellae harvested from healthy corals."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer describes assisted evolution as 'selectively breeding coral strains that show greater thermal tolerance and transplanting them onto degraded reefs.'"
+          },
+          {
+            "id": "ielts1-l4-9",
+            "question": "What is the main limitation of localised reef restoration efforts?",
+            "options": [
+              "A. They are too costly for developing nations to afford.",
+              "B. They require technologies that do not yet exist at scale.",
+              "C. They cannot succeed without also addressing global greenhouse gas emissions.",
+              "D. They have not yet been trialled in open-ocean conditions."
+            ],
+            "answer": "C",
+            "explanation": "Researchers 'emphasise that localised restoration efforts cannot succeed in isolation' without 'addressing the global drivers — primarily greenhouse gas emissions.'"
+          },
+          {
+            "id": "ielts1-l4-10",
+            "question": "What does the scientific consensus suggest could happen to reefs by 2050 at current warming trajectories?",
+            "options": [
+              "A. Reefs will fully recover if restoration programmes are scaled up.",
+              "B. Between 30% and 50% of reefs could be lost.",
+              "C. Between 70% and 90% of reefs could be lost.",
+              "D. All coral reef systems will have completely disappeared."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer states 'reefs covering seventy to ninety percent of their present extent could be lost by 2050' at current trajectories."
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "timeLimit": 3600,
+    "totalQuestions": 40,
+    "passages": [
+      {
+        "id": "ielts1-r-passage1",
+        "title": "The Remarkable Navigation of Arctic Terns",
+        "text": "Of all the migratory journeys undertaken in the animal kingdom, few rival the annual odyssey of the Arctic tern (Sterna paradisaea). This small seabird — weighing little more than a hundred grams — completes a round trip of approximately seventy thousand kilometres each year, travelling from its Arctic breeding grounds to the Antarctic and back. What makes this feat all the more remarkable is not merely the distance covered, but the precision with which individual birds navigate across two hemispheres, often returning to the exact beach or rocky outcrop where they were hatched.\n\nFor decades, the mechanics of long-distance avian navigation puzzled researchers. Early hypotheses centred on the use of stellar cues — birds using the position of stars to orient themselves during nocturnal migration. While some species do rely on stellar navigation, subsequent research revealed that the toolbox available to migratory birds is considerably more sophisticated. Studies using miniaturised tracking devices have demonstrated that Arctic terns exploit prevailing wind patterns with striking efficiency, following a sinuous route that takes advantage of favourable tailwinds rather than flying in a straight line. By doing so, they expend significantly less energy than a direct-route trajectory would require.\n\nGeomagnetic sensitivity represents another critical navigational tool. Birds possess magnetite crystals in their beaks and, in some species, cryptochrome proteins in their eyes that are thought to interact with Earth's magnetic field. This allows them to detect not only the direction but also the intensity and inclination of the field, providing what researchers describe as a 'magnetic map' that gives birds positional information independent of visual landmarks. However, the precise neural mechanisms by which this magnetic information is processed and translated into navigational behaviour remain incompletely understood.\n\nPerhaps the most intriguing recent finding concerns the role of olfaction in navigation. A landmark study published in 2013 demonstrated that shearwaters — a related seabird — whose olfactory nerves were temporarily anaesthetised lost the ability to navigate accurately during the homing phase of their migration. Control birds with intact olfactory function returned to their nesting sites with high accuracy, while the anaesthetised individuals showed erratic, disoriented behaviour. This suggested that an olfactory map — a spatial representation of the environment based on smell gradients — may play a more important role in long-range navigation than previously thought.\n\nThe implications of this research extend beyond academic curiosity. Arctic tern populations are showing signs of stress in several breeding colonies, partly linked to declining prey availability driven by warming seas. As sea surface temperatures rise, the distribution of their primary food source — small fish and crustaceans — shifts, sometimes moving outside the energetically optimal foraging zones near the terns' route. Since terns appear to navigate partly by exploiting consistent oceanographic features, disruptions to these features may compromise not only food availability but the reliability of the navigational cues themselves.\n\nConservation biologists argue that protecting not just the breeding and wintering grounds of Arctic terns, but also the migratory corridors they traverse, is essential for the species' long-term viability. Existing marine protected areas cover only a fraction of the terns' route, and international coordination — given that the birds pass through the territorial waters and exclusive economic zones of dozens of nations — presents a formidable governance challenge. Recent proposals at the International Maritime Organization have called for restrictions on shipping lanes in key migratory corridors, though these have yet to achieve binding status.\n\nThe Arctic tern thus occupies a peculiar position in conservation science: a species whose biology is simultaneously a source of wonder and a barometer of planetary health. Its extraordinary journey, spanning from pole to pole, means that it experiences more hours of daylight than any other animal on Earth — a fact that has prompted some researchers to describe it as, in effect, the world's greatest sun-chaser.",
+        "questions": [
+          {
+            "id": "ielts1-r1-1",
+            "question": "What is described as particularly remarkable about the Arctic tern's migration, beyond the distance covered?",
+            "options": [
+              "A. The speed at which the birds complete the journey.",
+              "B. The fact that young birds migrate without adult guidance.",
+              "C. The precision with which birds return to their exact hatching location.",
+              "D. The birds' ability to survive without feeding for weeks."
+            ],
+            "answer": "C",
+            "explanation": "The passage states the remarkable aspect is 'the precision with which individual birds navigate... often returning to the exact beach or rocky outcrop where they were hatched.'"
+          },
+          {
+            "id": "ielts1-r1-2",
+            "question": "According to the passage, how do Arctic terns reduce energy expenditure during migration?",
+            "options": [
+              "A. By flying at lower altitudes to reduce wind resistance.",
+              "B. By following a sinuous route that exploits prevailing tailwinds.",
+              "C. By travelling mainly at night when temperatures are cooler.",
+              "D. By resting on ocean surfaces for extended periods."
+            ],
+            "answer": "B",
+            "explanation": "Tracking studies show terns 'follow a sinuous route that takes advantage of favourable tailwinds rather than flying in a straight line,' thereby expending less energy."
+          },
+          {
+            "id": "ielts1-r1-3",
+            "question": "The word 'inclination' in paragraph 3 most closely means:",
+            "options": [
+              "A. Preference or tendency.",
+              "B. The angle of a magnetic field relative to the horizontal.",
+              "C. The overall strength of a physical force.",
+              "D. A gradual slope or gradient in terrain."
+            ],
+            "answer": "B",
+            "explanation": "In the context of geomagnetic sensitivity, 'inclination' refers to the angle at which Earth's magnetic field lines intersect the horizontal — a technical term in geomagnetism."
+          },
+          {
+            "id": "ielts1-r1-4",
+            "question": "What did the 2013 study on shearwaters primarily demonstrate?",
+            "options": [
+              "A. That stellar cues are the primary navigational tool in seabirds.",
+              "B. That olfactory ability plays a significant role in long-range navigation.",
+              "C. That magnetic sensitivity is unreliable in overcast conditions.",
+              "D. That seabirds navigate exclusively using visual coastal landmarks."
+            ],
+            "answer": "B",
+            "explanation": "The study showed that anaesthetised olfactory nerves caused disoriented navigation, supporting the role of 'an olfactory map' in long-range homing."
+          },
+          {
+            "id": "ielts1-r1-5",
+            "question": "The passage suggests that rising sea surface temperatures threaten Arctic terns in which TWO ways? Choose the answer that includes BOTH correct effects.",
+            "options": [
+              "A. They reduce breeding success and shorten lifespan directly.",
+              "B. They shift prey distribution and may disrupt navigational cues.",
+              "C. They cause magnetic field anomalies and increase storm frequency.",
+              "D. They bleach the terns' plumage and reduce their aerodynamic efficiency."
+            ],
+            "answer": "B",
+            "explanation": "The passage states warming shifts 'the distribution of their primary food source' and may compromise 'the reliability of the navigational cues themselves,' both linked to rising temperatures."
+          },
+          {
+            "id": "ielts1-r1-6",
+            "question": "What does the author imply is a significant challenge for Arctic tern conservation?",
+            "options": [
+              "A. The lack of scientific research on the species' biology.",
+              "B. The difficulty of international coordination across many nations' waters.",
+              "C. The unwillingness of shipping companies to change their routes.",
+              "D. The absence of any existing marine protected areas in the region."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes 'international coordination — given that the birds pass through... dozens of nations — presents a formidable governance challenge.'"
+          },
+          {
+            "id": "ielts1-r1-7",
+            "question": "The phrase 'a barometer of planetary health' in the final paragraph refers to the idea that the Arctic tern:",
+            "options": [
+              "A. Has the most accurate internal compass of any animal.",
+              "B. Provides data that meteorologists use to forecast global weather.",
+              "C. Acts as an indicator species reflecting the condition of the planet's ecosystems.",
+              "D. Has lived on Earth longer than any other currently living bird species."
+            ],
+            "answer": "C",
+            "explanation": "The metaphor 'barometer of planetary health' positions the tern as an indicator whose condition reflects broader ecological health, consistent with its exposure to global environmental changes."
+          },
+          {
+            "id": "ielts1-r1-8",
+            "question": "According to the passage, what is the current status of proposals to restrict shipping lanes in migratory corridors?",
+            "options": [
+              "A. They have been fully ratified and are now legally binding.",
+              "B. They have been rejected by the International Maritime Organization.",
+              "C. They have been proposed but have not yet achieved binding status.",
+              "D. They are under review by a scientific panel before being submitted."
+            ],
+            "answer": "C",
+            "explanation": "The passage states such proposals 'have yet to achieve binding status,' indicating they exist but are not yet enforceable."
+          },
+          {
+            "id": "ielts1-r1-9",
+            "question": "The passage states that magnetite crystals in birds' beaks are associated with:",
+            "options": [
+              "A. Processing olfactory signals from the environment.",
+              "B. Geomagnetic sensitivity used in navigation.",
+              "C. Filtering seawater during feeding.",
+              "D. Detecting ultraviolet light during daylight flight."
+            ],
+            "answer": "B",
+            "explanation": "The passage places magnetite crystals in the context of 'geomagnetic sensitivity,' describing how they may interact with Earth's magnetic field."
+          },
+          {
+            "id": "ielts1-r1-10",
+            "question": "Which sentence best describes the overall argument of the passage?",
+            "options": [
+              "A. Arctic tern migration is primarily explained by stellar navigation and should be studied further.",
+              "B. The Arctic tern's extraordinary migration relies on multiple navigational mechanisms and is increasingly threatened by climate change.",
+              "C. Conservation of Arctic terns depends entirely on protecting their Antarctic wintering grounds.",
+              "D. Recent research has conclusively explained all aspects of long-distance bird navigation."
+            ],
+            "answer": "B",
+            "explanation": "The passage covers multiple navigational mechanisms (stellar, geomagnetic, olfactory, wind) and discusses climate-related threats, supporting this as the central argument."
+          },
+          {
+            "id": "ielts1-r1-11",
+            "question": "The passage implies that the neural mechanisms behind magnetic navigation in birds are:",
+            "options": [
+              "A. Fully mapped through recent neuroscience research.",
+              "B. Identical to those used in olfactory navigation.",
+              "C. Not yet fully understood by scientists.",
+              "D. Only present in Arctic terns, not other migratory species."
+            ],
+            "answer": "C",
+            "explanation": "The passage states 'the precise neural mechanisms... remain incompletely understood,' indicating current scientific gaps."
+          },
+          {
+            "id": "ielts1-r1-12",
+            "question": "Which of the following is NOT mentioned in the passage as a navigational tool used by migratory birds?",
+            "options": [
+              "A. Stellar cues.",
+              "B. Geomagnetic sensitivity.",
+              "C. Olfactory maps.",
+              "D. Echolocation."
+            ],
+            "answer": "D",
+            "explanation": "The passage discusses stellar cues, geomagnetic sensitivity, and olfactory maps, but echolocation is never mentioned."
+          },
+          {
+            "id": "ielts1-r1-13",
+            "question": "Why does the author describe the Arctic tern as 'the world's greatest sun-chaser'?",
+            "options": [
+              "A. It migrates to regions where sunlight is most intense throughout the year.",
+              "B. Its migration between poles means it experiences more daylight than any other animal.",
+              "C. It can only navigate accurately in full sunlight conditions.",
+              "D. It follows the sun's position to determine its migratory direction."
+            ],
+            "answer": "B",
+            "explanation": "The passage explains the tern 'experiences more hours of daylight than any other animal on Earth' due to its pole-to-pole migration, which is why researchers use the 'sun-chaser' description."
+          }
+        ]
+      },
+      {
+        "id": "ielts1-r-passage2",
+        "title": "The Silk Road: Trade, Culture, and the Spread of Ideas",
+        "text": "The Silk Road — a network of overland and maritime trade routes stretching from China to the Mediterranean — represents one of history's most consequential channels of exchange. While the name conjures images of camel caravans laden with bolts of precious silk, the reality of this trade network was considerably more complex and its significance far exceeded the movement of luxury goods. For more than a millennium, from roughly the second century BCE to the fifteenth century CE, the Silk Road facilitated the circulation not merely of commodities, but of technologies, religions, artistic traditions, and pathogens that reshaped civilisations across Eurasia.\n\nThe term 'Silk Road' itself is a nineteenth-century invention, coined by the German geographer Ferdinand von Richthofen in 1877. Contrary to what the name implies, there was no single unified road. The routes were plural, shifting, and contested — branching across Central Asian steppes, mountain passes, and oasis cities, with maritime extensions reaching India, Southeast Asia, and East Africa. Individual merchants rarely traversed the entire length; goods were typically passed from trader to trader across successive regions, accumulating in the great entrepôts of Samarkand, Kashgar, and Constantinople.\n\nThe most visible legacy of the Silk Road is perhaps the transmission of Buddhism eastward from India into Central Asia, China, Korea, and Japan between roughly the first and seventh centuries CE. Buddhist monasteries established along trade routes functioned not only as religious institutions but as waypoints offering accommodation, healthcare, and financial services to travelling merchants. The visual arts of the Buddhist tradition spread accordingly: the iconic representations of the Buddha — elongated earlobes, the ushnisha crown, the gesture of teaching — evolved as the tradition encountered Hellenistic artistic conventions following Alexander the Great's campaigns in Bactria, producing what scholars call Greco-Buddhist art.\n\nChina's technological innovations also diffused westward along the routes. Papermaking — developed in China around the first century CE — reached the Islamic world by the eighth century, transforming the capacity for record-keeping and intellectual exchange. The subsequent proliferation of paper manuscripts across the Arab world and into medieval Europe created the conditions for the preservation and transmission of classical Greek, Persian, and Indian scholarship. Gunpowder and the magnetic compass similarly travelled westward, though the timeline and mechanisms of these transfers remain subjects of scholarly debate.\n\nHowever, the Silk Road's role in transmitting disease must also be acknowledged. The Plague of Justinian in the sixth century CE and the Black Death in the fourteenth century — both caused by the bacterium Yersinia pestis — spread along trade routes, carried by rodents and fleas accompanying merchant caravans and ships. The Black Death, which arrived in Europe via the Crimean port of Caffa in 1347, killed between thirty and sixty percent of Europe's population within a decade, a demographic catastrophe that accelerated the decline of feudalism and contributed to profound social and economic restructuring.\n\nThe decline of the Silk Road's overland routes in the fifteenth and sixteenth centuries is conventionally attributed to the rise of maritime trade. Portuguese and Spanish navigators established sea routes to Asia that were faster, cheaper, and capable of carrying far larger volumes of cargo than camel caravans. The fall of Constantinople to the Ottoman Turks in 1453 is sometimes cited as accelerating this shift, though historians increasingly argue that the transition to maritime trade was already underway before 1453 and was driven primarily by economic rather than political factors.\n\nIn recent years, the Silk Road has experienced a conceptual revival through China's Belt and Road Initiative (BRI), launched in 2013. Framed explicitly as a 'New Silk Road,' the BRI involves infrastructure investment — roads, railways, ports, and pipelines — across more than one hundred and forty countries in Asia, Africa, Europe, and Latin America. Proponents argue it will stimulate economic development in participating nations; critics contend it risks creating debt dependency and extending Chinese geopolitical influence. The debate reflects the ambivalence that has always surrounded the Silk Road: a network that simultaneously connected and destabilised, enriched and imperilled the civilisations it linked.",
+        "questions": [
+          {
+            "id": "ielts1-r2-1",
+            "question": "The opening paragraph suggests that the Silk Road's historical significance lies primarily in:",
+            "options": [
+              "A. The volume of silk traded between China and Rome.",
+              "B. The exchange of commodities, technologies, ideas, and diseases across Eurasia.",
+              "C. The political alliances formed between Chinese and Roman rulers.",
+              "D. The development of camel breeding as a Central Asian industry."
+            ],
+            "answer": "B",
+            "explanation": "The passage argues the Silk Road facilitated the movement of 'commodities, technologies, religions, artistic traditions, and pathogens,' not merely goods."
+          },
+          {
+            "id": "ielts1-r2-2",
+            "question": "Who coined the term 'Silk Road' and when?",
+            "options": [
+              "A. A Chinese imperial historian in the Tang Dynasty, 7th century CE.",
+              "B. Ferdinand von Richthofen, a German geographer, in 1877.",
+              "C. Marco Polo, during his travels in the 13th century.",
+              "D. A British colonial administrator during the 19th-century Great Game."
+            ],
+            "answer": "B",
+            "explanation": "The passage explicitly states 'coined by the German geographer Ferdinand von Richthofen in 1877.'"
+          },
+          {
+            "id": "ielts1-r2-3",
+            "question": "The passage implies that individual merchants on the Silk Road typically:",
+            "options": [
+              "A. Travelled the entire route from China to the Mediterranean.",
+              "B. Specialised in transporting silk above all other commodities.",
+              "C. Passed goods through successive traders rather than completing the full journey.",
+              "D. Were primarily monks travelling between Buddhist monasteries."
+            ],
+            "answer": "C",
+            "explanation": "The passage states 'goods were typically passed from trader to trader across successive regions,' meaning few individuals completed the full journey."
+          },
+          {
+            "id": "ielts1-r2-4",
+            "question": "What does the passage say about Buddhist monasteries along the Silk Road?",
+            "options": [
+              "A. They were built exclusively to shelter Chinese merchants.",
+              "B. They served both religious and practical functions including accommodation and financial services.",
+              "C. They replaced earlier Zoroastrian temples that had lined the routes.",
+              "D. They were established only after the seventh century CE."
+            ],
+            "answer": "B",
+            "explanation": "The passage says monasteries 'functioned not only as religious institutions but as waypoints offering accommodation, healthcare, and financial services.'"
+          },
+          {
+            "id": "ielts1-r2-5",
+            "question": "The term 'Greco-Buddhist art' in paragraph 3 refers to:",
+            "options": [
+              "A. Greek paintings depicting scenes from the life of the Buddha.",
+              "B. Buddhist artistic traditions that incorporated Hellenistic artistic conventions.",
+              "C. Roman sculptures of Buddhist monks discovered in Athens.",
+              "D. An art form that originated in Japan under Greek missionary influence."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes how Buddhist visual traditions 'evolved as the tradition encountered Hellenistic artistic conventions,' producing 'Greco-Buddhist art.'"
+          },
+          {
+            "id": "ielts1-r2-6",
+            "question": "According to the passage, papermaking reached the Islamic world by approximately:",
+            "options": [
+              "A. The first century CE.",
+              "B. The fifth century CE.",
+              "C. The eighth century CE.",
+              "D. The twelfth century CE."
+            ],
+            "answer": "C",
+            "explanation": "The passage states papermaking 'reached the Islamic world by the eighth century,' having been developed in China around the first century CE."
+          },
+          {
+            "id": "ielts1-r2-7",
+            "question": "The word 'entrepôts' in paragraph 2 most likely means:",
+            "options": [
+              "A. Military fortifications guarding mountain passes.",
+              "B. Royal courts where trade agreements were negotiated.",
+              "C. Trading centres where goods are stored and redistributed.",
+              "D. Religious pilgrimage sites along the main route."
+            ],
+            "answer": "C",
+            "explanation": "The context describes Samarkand, Kashgar, and Constantinople as places where goods 'accumulated,' fitting the definition of entrepôts — commercial hubs for storing and redistributing goods."
+          },
+          {
+            "id": "ielts1-r2-8",
+            "question": "The passage states that the Black Death arrived in Europe via:",
+            "options": [
+              "A. The port of Venice in 1300.",
+              "B. Overland routes through the Rhine Valley.",
+              "C. The Crimean port of Caffa in 1347.",
+              "D. Mediterranean shipping from Alexandria in Egypt."
+            ],
+            "answer": "C",
+            "explanation": "The passage explicitly states 'The Black Death... arrived in Europe via the Crimean port of Caffa in 1347.'"
+          },
+          {
+            "id": "ielts1-r2-9",
+            "question": "Which of the following does the passage identify as a social consequence of the Black Death?",
+            "options": [
+              "A. The reunification of the Roman Empire under a single ruler.",
+              "B. A demographic catastrophe that contributed to the decline of feudalism.",
+              "C. The collapse of all overland trade across Central Asia.",
+              "D. The establishment of the first quarantine systems in China."
+            ],
+            "answer": "B",
+            "explanation": "The passage says the Black Death was 'a demographic catastrophe that accelerated the decline of feudalism and contributed to profound social and economic restructuring.'"
+          },
+          {
+            "id": "ielts1-r2-10",
+            "question": "According to the passage, historians increasingly argue that the shift to maritime trade was:",
+            "options": [
+              "A. Primarily caused by the Ottoman conquest of Constantinople in 1453.",
+              "B. Driven mainly by economic factors and already underway before 1453.",
+              "C. Initiated by the Chinese government as a deliberate strategic policy.",
+              "D. A response to the devastation caused by the Black Death on overland routes."
+            ],
+            "answer": "B",
+            "explanation": "The passage says historians argue 'the transition to maritime trade was already underway before 1453 and was driven primarily by economic rather than political factors.'"
+          },
+          {
+            "id": "ielts1-r2-11",
+            "question": "The passage implies that critics of China's Belt and Road Initiative are concerned mainly about:",
+            "options": [
+              "A. The environmental impact of new road and railway construction.",
+              "B. The risk of debt dependency and expansion of Chinese geopolitical influence.",
+              "C. The exclusion of African nations from the initiative's benefits.",
+              "D. The use of forced labour in BRI construction projects."
+            ],
+            "answer": "B",
+            "explanation": "Critics are said to 'contend it risks creating debt dependency and extending Chinese geopolitical influence.'"
+          },
+          {
+            "id": "ielts1-r2-12",
+            "question": "Which of the following best describes the author's attitude towards the Silk Road's legacy?",
+            "options": [
+              "A. Entirely positive — the routes brought only progress and cultural enrichment.",
+              "B. Largely negative — the routes caused more destruction than benefit.",
+              "C. Balanced — acknowledging both beneficial exchanges and harmful consequences.",
+              "D. Cautious — calling for more historical research before conclusions are drawn."
+            ],
+            "answer": "C",
+            "explanation": "The final sentence describes the Silk Road as 'simultaneously connected and destabilised, enriched and imperilled,' reflecting a balanced assessment."
+          },
+          {
+            "id": "ielts1-r2-13",
+            "question": "The passage indicates that scholarly debate about gunpowder and the compass concerns:",
+            "options": [
+              "A. Whether these technologies were truly invented in China.",
+              "B. The precise timeline and mechanisms of their westward transfer.",
+              "C. Whether they played any role in the decline of the Silk Road.",
+              "D. The dates on which they were first used in European warfare."
+            ],
+            "answer": "B",
+            "explanation": "The passage notes that 'the timeline and mechanisms of these transfers remain subjects of scholarly debate' regarding gunpowder and the magnetic compass."
+          }
+        ]
+      },
+      {
+        "id": "ielts1-r-passage3",
+        "title": "Artificial Intelligence in Healthcare: Promise, Peril, and the Question of Trust",
+        "text": "Artificial intelligence is transforming healthcare with a speed that few industries have experienced. From radiology departments in major teaching hospitals to remote diagnostic clinics in low-income countries, machine learning algorithms are being deployed to detect disease, predict patient outcomes, and streamline administrative processes. Advocates argue that AI will democratise access to expert-level diagnosis globally; sceptics warn that the technology's limitations — and the institutional contexts in which it is embedded — may generate new forms of inequity rather than resolving existing ones.\n\nThe case for AI in diagnostics rests on a solid empirical foundation. In image recognition tasks — classifying X-rays, identifying tumours in histological slides, screening retinal photographs for diabetic retinopathy — deep learning models have matched or exceeded the accuracy of specialist clinicians in controlled research settings. A landmark 2019 study published in Nature demonstrated that a deep learning algorithm trained on a dataset of over one hundred thousand chest X-rays detected pneumonia with greater accuracy than radiologists working alone, though the performance gap narrowed considerably when radiologists worked in teams.\n\nYet the path from research setting to routine clinical practice is strewn with challenges that technical benchmarks alone do not capture. One persistent issue is dataset bias. Most of the training data underpinning diagnostic AI has been derived from patients treated at large, well-resourced hospitals in North America and Europe. Populations underrepresented in these datasets — including patients of sub-Saharan African descent, elderly patients with multiple comorbidities, and individuals from low-income settings — may be systematically misdiagnosed when the algorithm encounters presentations that deviate from its training distribution. A widely cited 2019 study found that a commercial algorithm used to predict healthcare needs assigned lower risk scores to Black patients than to equally sick White patients, attributing the disparity to the use of healthcare cost as a proxy for health need — a variable that reflects historical inequities in healthcare access rather than clinical condition.\n\nInterpretability represents a second major challenge. Most high-performance AI systems in healthcare operate as 'black boxes': they generate outputs — classifications, risk scores, treatment recommendations — without providing clinicians with comprehensible explanations of the reasoning process. This opacity creates a dilemma. Clinicians are trained to justify their decisions with reference to clinical evidence and professional judgement; an AI recommendation lacking a transparent rationale is difficult to scrutinise, challenge, or explain to a patient. Regulatory frameworks in several jurisdictions, including the European Union's AI Act, are beginning to require that AI systems used in high-stakes decisions — medical diagnosis among them — meet minimum standards of explainability.\n\nA third issue concerns the redistribution of clinical labour and the erosion of human expertise. Proponents of AI in radiology, for instance, frequently argue that the technology will free radiologists from the drudgery of reviewing routine, normal scans, allowing them to focus on complex cases requiring nuanced clinical judgement. Critics counter that this framing may be self-defeating: if AI handles the majority of cases, radiologists may lose the continuous exposure to the full spectrum of pathology that is necessary to maintain the expert intuition required for complex cases. The de-skilling concern is not unique to medicine; it echoes debates in aviation about the effects of autopilot systems on pilots' manual flying competence.\n\nTrust — both public trust in AI systems and clinicians' trust in algorithmic recommendations — has emerged as a central preoccupation for researchers and policymakers. Studies consistently show that patient acceptance of AI-assisted diagnosis varies significantly by cultural context, age, and prior experience with healthcare institutions. Patients who have experienced discrimination or inadequate care within conventional healthcare systems are often more sceptical of AI applications, reasoning that algorithmic systems may encode and perpetuate the same biases as human practitioners.\n\nThe governance of healthcare AI is still in its formative stages. No single international regulatory standard currently exists, and national frameworks vary enormously — from the FDA's evolving guidance in the United States to China's distinct approval pathway for AI medical devices. Researchers advocating for a global minimum standard argue that without harmonisation, developers will gravitate towards the least regulated markets, undermining safety and equity considerations globally. How the international community resolves these governance challenges will, in large part, determine whether AI fulfils its promise as a genuinely democratising force in healthcare or deepens the divides it purports to bridge.",
+        "questions": [
+          {
+            "id": "ielts1-r3-1",
+            "question": "What is the central tension described in the opening paragraph?",
+            "options": [
+              "A. Whether AI systems are more accurate than human doctors in controlled experiments.",
+              "B. Whether AI will democratise healthcare access or create new forms of inequity.",
+              "C. Whether governments should fund AI research or leave it to private companies.",
+              "D. Whether patients prefer AI diagnosis to consultation with human clinicians."
+            ],
+            "answer": "B",
+            "explanation": "The passage contrasts advocates who say AI will 'democratise access' with sceptics who warn it may 'generate new forms of inequity.'"
+          },
+          {
+            "id": "ielts1-r3-2",
+            "question": "What did the 2019 study in Nature find regarding AI and pneumonia detection?",
+            "options": [
+              "A. AI was less accurate than radiologists working in teams.",
+              "B. AI matched radiologists working alone but was less accurate than teams of radiologists.",
+              "C. AI exceeded the accuracy of all radiologists under all conditions.",
+              "D. AI performed well only on datasets from non-Western countries."
+            ],
+            "answer": "B",
+            "explanation": "The study showed AI 'detected pneumonia with greater accuracy than radiologists working alone,' but 'the performance gap narrowed considerably when radiologists worked in teams.'"
+          },
+          {
+            "id": "ielts1-r3-3",
+            "question": "The word 'comorbidities' in paragraph 3 most likely refers to:",
+            "options": [
+              "A. Complications arising from surgical procedures.",
+              "B. Multiple medical conditions occurring simultaneously in one patient.",
+              "C. Rare genetic disorders affecting a small population.",
+              "D. Diseases that are transmitted between patients in hospitals."
+            ],
+            "answer": "B",
+            "explanation": "In medical usage, 'comorbidities' refers to multiple concurrent medical conditions in a single patient, consistent with the passage's discussion of patients underrepresented in datasets."
+          },
+          {
+            "id": "ielts1-r3-4",
+            "question": "Why did the commercial algorithm described in paragraph 3 assign lower risk scores to Black patients?",
+            "options": [
+              "A. It was programmed with racially discriminatory criteria by developers.",
+              "B. It used healthcare cost as a proxy for health need, reflecting historical access inequities.",
+              "C. Black patients were not included in the original training dataset at all.",
+              "D. The algorithm was calibrated for disease profiles common in European populations."
+            ],
+            "answer": "B",
+            "explanation": "The passage says the disparity resulted from 'the use of healthcare cost as a proxy for health need — a variable that reflects historical inequities in healthcare access.'"
+          },
+          {
+            "id": "ielts1-r3-5",
+            "question": "What does the term 'black boxes' refer to in the context of paragraph 4?",
+            "options": [
+              "A. Secure data storage systems that protect patient privacy.",
+              "B. AI systems that generate outputs without providing understandable reasoning.",
+              "C. Experimental AI models that have not yet received regulatory approval.",
+              "D. Flight recorder devices used to study healthcare decision-making."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines 'black boxes' as AI systems that 'generate outputs without providing clinicians with comprehensible explanations of the reasoning process.'"
+          },
+          {
+            "id": "ielts1-r3-6",
+            "question": "What does the EU's AI Act require of AI systems used in high-stakes decisions?",
+            "options": [
+              "A. That they are reviewed by an independent ethics committee before deployment.",
+              "B. That they meet minimum standards of explainability.",
+              "C. That they are retrained on European patient data every two years.",
+              "D. That they receive dual approval from both medical and technology regulators."
+            ],
+            "answer": "B",
+            "explanation": "The passage states the EU AI Act requires AI systems in high-stakes decisions 'meet minimum standards of explainability.'"
+          },
+          {
+            "id": "ielts1-r3-7",
+            "question": "What concern do critics raise about AI handling most routine radiology cases?",
+            "options": [
+              "A. Radiologists will spend more time on administrative tasks rather than clinical ones.",
+              "B. AI errors in routine cases will go undetected without human oversight.",
+              "C. Radiologists may lose the continuous exposure to pathology needed for expert intuition.",
+              "D. The cost of AI systems will make radiology unaffordable for smaller hospitals."
+            ],
+            "answer": "C",
+            "explanation": "Critics warn that 'radiologists may lose the continuous exposure to the full spectrum of pathology that is necessary to maintain the expert intuition required for complex cases.'"
+          },
+          {
+            "id": "ielts1-r3-8",
+            "question": "The comparison to autopilot systems in aviation in paragraph 5 is used to illustrate:",
+            "options": [
+              "A. The safety advantages of automated systems over human operators.",
+              "B. The idea that de-skilling due to automation is a concern beyond medicine.",
+              "C. The regulatory similarities between aviation and healthcare AI.",
+              "D. Why AI in medicine should be restricted to non-critical decisions."
+            ],
+            "answer": "B",
+            "explanation": "The aviation comparison is introduced with 'The de-skilling concern is not unique to medicine,' showing the issue is broader than just healthcare."
+          },
+          {
+            "id": "ielts1-r3-9",
+            "question": "According to the passage, which group of patients tends to be most sceptical of AI-assisted diagnosis?",
+            "options": [
+              "A. Older patients with limited digital literacy.",
+              "B. Patients from countries with low rates of smartphone ownership.",
+              "C. Patients who have experienced discrimination or inadequate care in conventional healthcare.",
+              "D. Patients treated in research hospitals who are aware of clinical trial risks."
+            ],
+            "answer": "C",
+            "explanation": "The passage states patients 'who have experienced discrimination or inadequate care within conventional healthcare systems are often more sceptical of AI applications.'"
+          },
+          {
+            "id": "ielts1-r3-10",
+            "question": "What concern do researchers raise about the absence of a global regulatory standard for healthcare AI?",
+            "options": [
+              "A. Patients in different countries will receive significantly different treatment outcomes.",
+              "B. Developers will target the least regulated markets, undermining safety and equity.",
+              "C. International healthcare organisations will be unable to share patient data legally.",
+              "D. AI systems developed in one country cannot be certified for use in another."
+            ],
+            "answer": "B",
+            "explanation": "Researchers warn that 'without harmonisation, developers will gravitate towards the least regulated markets, undermining safety and equity considerations globally.'"
+          },
+          {
+            "id": "ielts1-r3-11",
+            "question": "The passage suggests that dataset bias in healthcare AI particularly affects:",
+            "options": [
+              "A. Patients in North America who are overrepresented in training data.",
+              "B. Populations underrepresented in datasets, such as those from low-income settings.",
+              "C. Young, healthy patients whose presentations are too straightforward for AI to learn from.",
+              "D. Clinicians who must manually correct AI errors on a daily basis."
+            ],
+            "answer": "B",
+            "explanation": "The passage identifies populations 'underrepresented in these datasets — including patients of sub-Saharan African descent, elderly patients with multiple comorbidities' — as being at risk of systematic misdiagnosis."
+          },
+          {
+            "id": "ielts1-r3-12",
+            "question": "Which of the following best describes the author's overall stance on AI in healthcare?",
+            "options": [
+              "A. Strongly optimistic — AI will rapidly solve global health inequities.",
+              "B. Strongly pessimistic — AI is too flawed to be safely used in clinical settings.",
+              "C. Critically analytical — AI has genuine potential but faces serious challenges requiring governance solutions.",
+              "D. Neutral and descriptive — the author presents facts without taking any position."
+            ],
+            "answer": "C",
+            "explanation": "The passage acknowledges strong empirical evidence for AI's diagnostic ability while carefully detailing multiple challenges, concluding with governance questions — a critically analytical stance."
+          },
+          {
+            "id": "ielts1-r3-13",
+            "question": "The final paragraph implies that whether AI fulfils its democratising potential in healthcare depends primarily on:",
+            "options": [
+              "A. The speed at which AI algorithms can be trained on new patient data.",
+              "B. How the international community resolves governance and regulatory challenges.",
+              "C. Whether major technology companies commit to open-source AI development.",
+              "D. The willingness of clinicians to adopt AI recommendations in daily practice."
+            ],
+            "answer": "B",
+            "explanation": "The passage concludes 'How the international community resolves these governance challenges will... determine whether AI fulfils its promise,' making governance the decisive factor."
+          },
+          {
+            "id": "ielts1-r3-14",
+            "question": "Which of the following statements about interpreting AI recommendations is supported by the passage?",
+            "options": [
+              "A. Clinicians find AI recommendations easy to explain because they are based on large datasets.",
+              "B. Patients generally welcome AI recommendations because they trust technology more than doctors.",
+              "C. The lack of transparent reasoning in many AI systems makes it difficult for clinicians to scrutinise or justify them.",
+              "D. AI recommendations are always accompanied by detailed statistical probabilities that clinicians can review."
+            ],
+            "answer": "C",
+            "explanation": "The passage states AI recommendations lacking 'a transparent rationale' are 'difficult to scrutinise, challenge, or explain to a patient,' creating a dilemma for clinicians."
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "timeLimit": 3600,
+    "tasks": [
+      {
+        "id": "ielts1-w-task1",
+        "type": "report",
+        "timeLimit": 1200,
+        "prompt": "The graph below shows electricity consumption in three countries — Germany, Japan, and Brazil — from 1990 to 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+        "visualDescription": "A line graph with the x-axis showing years (1990, 1995, 2000, 2005, 2010, 2015, 2020) and the y-axis showing electricity consumption in terawatt-hours (TWh). Germany: starts at approximately 540 TWh in 1990, rises to a peak of around 610 TWh in 2000, then gradually declines to approximately 510 TWh by 2020. Japan: starts at approximately 820 TWh in 1990, rises steadily to a peak of around 1,050 TWh in 2005, then declines to approximately 900 TWh by 2020. Brazil: starts at approximately 260 TWh in 1990, shows consistent growth throughout the period, reaching approximately 580 TWh in 2020, nearly matching Germany's figure by the end.",
+        "wordCountMin": 150,
+        "wordCountMax": 200,
+        "instruction": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words."
+      },
+      {
+        "id": "ielts1-w-task2",
+        "type": "essay",
+        "timeLimit": 2400,
+        "prompt": "Some people believe that universities should focus primarily on providing students with the academic knowledge and theoretical skills required for employment. Others argue that universities should also encourage students to develop independent thinking and a broader understanding of the world. Discuss both views and give your own opinion.",
+        "essayType": "discussion",
+        "wordCountMin": 250,
+        "wordCountMax": 320,
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+      }
+    ]
+  },
+  "speaking": {
+    "parts": [
+      {
+        "id": "ielts1-sp-part1",
+        "type": "introduction",
+        "name": "Part 1 — Introduction & Interview",
+        "duration": 300,
+        "instruction": "The examiner will ask you questions about yourself and familiar topics. Answer naturally and extend your responses where possible.",
+        "questions": [
+          "Do you work or are you a student?",
+          "What do you enjoy most about your studies or work?",
+          "Describe the area where you grew up.",
+          "How do you usually spend your weekends?",
+          "Do you prefer spending time indoors or outdoors? Why?",
+          "How important is technology in your daily life?",
+          "Do you enjoy cooking? Why or why not?",
+          "What kind of music do you like, and why?"
+        ]
+      },
+      {
+        "id": "ielts1-sp-part2",
+        "type": "cue_card",
+        "name": "Part 2 — Individual Long Turn",
+        "prepTime": 60,
+        "speakTime": 120,
+        "instruction": "Read the cue card carefully. You have 1 minute to prepare your answer. Then speak for 1 to 2 minutes. The examiner will tell you when to stop.",
+        "cueCard": {
+          "topic": "Describe a teacher who had a positive influence on you.",
+          "points": [
+            "Who the teacher was and what subject they taught",
+            "What made this teacher different from others",
+            "How this teacher helped or inspired you",
+            "How this teacher's influence has affected your life since"
+          ],
+          "followUp": "Do you think teachers today face more challenges than teachers did in the past?"
+        }
+      },
+      {
+        "id": "ielts1-sp-part3",
+        "type": "discussion",
+        "name": "Part 3 — Two-Way Discussion",
+        "duration": 420,
+        "instruction": "The examiner will ask you further questions connected to the topic in Part 2. Develop your answers fully, supporting your views with reasons and examples.",
+        "questions": [
+          "What qualities do you think are most important in a good teacher?",
+          "How has the role of teachers changed with the widespread use of technology in education?",
+          "Some people argue that online learning will eventually replace traditional classroom teaching. To what extent do you agree?",
+          "Do you think parents or teachers have a greater influence on a child's development? Why?",
+          "How can governments best support improvements in the quality of education in their countries?",
+          "Is it important for teachers to understand the cultural backgrounds of their students? Why or why not?"
+        ]
+      }
+    ]
+  }
+}

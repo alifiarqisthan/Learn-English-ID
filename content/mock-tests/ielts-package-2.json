@@ -1,0 +1,1109 @@
+{
+  "id": "ielts-package-2",
+  "format": "ielts",
+  "title": "IELTS Academic Practice Test 2",
+  "listening": {
+    "timeLimit": 2400,
+    "totalQuestions": 40,
+    "parts": [
+      {
+        "id": "ielts2-l-part1",
+        "type": "everyday_conversation",
+        "name": "Part 1 — Everyday Conversation",
+        "instruction": "Listen to a conversation between two people. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Receptionist: Good morning, Westbridge Adult Learning Centre, how can I help you?\n\nCaller: Oh, hello. I'm calling about the language courses you offer. I saw an advertisement online and I'd like to get some more information.\n\nReceptionist: Of course! Are you interested in a specific language, or are you still deciding?\n\nCaller: I'm interested in learning Spanish. My name's Karen Elliot, by the way.\n\nReceptionist: Great, Ms Elliot. We currently offer Spanish at three levels — beginner, intermediate, and advanced. May I ask whether you've studied Spanish before?\n\nCaller: Yes, I did a short beginner course about five years ago, but I've forgotten most of it. I wouldn't say I'm a complete beginner, but I'm definitely not intermediate either.\n\nReceptionist: In that case, I'd suggest our elementary level — that's between beginner and intermediate. It covers core vocabulary revision and introduces more complex sentence structures.\n\nCaller: That sounds perfect, actually. When does it start?\n\nReceptionist: The next elementary Spanish course begins on the eighth of October. Classes run on Monday and Wednesday evenings from seven to nine, over ten weeks. So it finishes in mid-December.\n\nCaller: Monday and Wednesday evenings — that works well for me. How much does it cost?\n\nReceptionist: The full course fee is two hundred and forty pounds. If you register before the thirtieth of September, you get an early bird discount of twenty percent.\n\nCaller: Oh, that's good to know — I'll try to register before then. Is there a textbook I need to buy separately?\n\nReceptionist: Yes, you'll need the course textbook — it's called Español Esencial, published by Langway Press. It costs approximately eighteen pounds and is available at most bookshops or online.\n\nCaller: Right. And where are the classes held? The advertisement wasn't very clear about the location.\n\nReceptionist: All classes are held at our main building on Cardigan Street — that's C-A-R-D-I-G-A-N Street — in the Westbridge town centre. We're about five minutes' walk from the bus station.\n\nCaller: Is there parking nearby?\n\nReceptionist: There's a public car park on Palmer Road, roughly two minutes on foot from us. Evening parking there is free after six p.m.\n\nCaller: Brilliant. And how do I register? Can I do it over the phone?\n\nReceptionist: You can register online through our website, or in person at the front desk. We don't take registrations by phone, I'm afraid, as payment needs to be processed at the same time.\n\nCaller: I see. Is there a waiting list? I just want to make sure I get a place.\n\nReceptionist: There are currently four places remaining in that class, so I'd recommend registering soon. The maximum class size is sixteen students.\n\nCaller: Right, I'll register online today then. What's the website address?\n\nReceptionist: It's www dot westbridge-alc dot co dot uk — all one word for the main part, then hyphen alc.\n\nCaller: Got it. Thank you so much.\n\nReceptionist: My pleasure. We hope to see you in October, Ms Elliot.",
+        "items": [
+          {
+            "id": "ielts2-l1-1",
+            "question": "Why is Karen Elliot calling the Westbridge Adult Learning Centre?",
+            "options": [
+              "A. To cancel her enrolment in a current course.",
+              "B. To enquire about language courses offered by the centre.",
+              "C. To complain about an online advertisement she saw.",
+              "D. To check the result of an application she submitted."
+            ],
+            "answer": "B",
+            "explanation": "Karen says she is calling 'about the language courses you offer' after seeing an advertisement online."
+          },
+          {
+            "id": "ielts2-l1-2",
+            "question": "Why does the receptionist recommend the elementary level for Karen?",
+            "options": [
+              "A. It is the only level with places remaining.",
+              "B. Karen has never studied Spanish before.",
+              "C. Karen has some prior Spanish experience but is not yet intermediate level.",
+              "D. Karen specifically requested that level herself."
+            ],
+            "answer": "C",
+            "explanation": "Karen explains she did a beginner course five years ago but has forgotten much of it, so the receptionist suggests the level between beginner and intermediate."
+          },
+          {
+            "id": "ielts2-l1-3",
+            "question": "On which days does the elementary Spanish course run?",
+            "options": [
+              "A. Tuesday and Thursday evenings.",
+              "B. Monday and Friday evenings.",
+              "C. Monday and Wednesday evenings.",
+              "D. Wednesday and Friday afternoons."
+            ],
+            "answer": "C",
+            "explanation": "The receptionist states the course runs 'on Monday and Wednesday evenings from seven to nine.'"
+          },
+          {
+            "id": "ielts2-l1-4",
+            "question": "What discount is available if Karen registers before 30 September?",
+            "options": [
+              "A. Ten percent off the course fee.",
+              "B. A free textbook with registration.",
+              "C. Twenty percent off the course fee.",
+              "D. Fifteen pounds off the total price."
+            ],
+            "answer": "C",
+            "explanation": "The receptionist says registering before the 30th of September gives 'an early bird discount of twenty percent.'"
+          },
+          {
+            "id": "ielts2-l1-5",
+            "question": "What is the name of the required course textbook?",
+            "options": [
+              "A. Español Avanzado.",
+              "B. Español Esencial.",
+              "C. Learn Spanish Today.",
+              "D. Langway Spanish Elementary."
+            ],
+            "answer": "B",
+            "explanation": "The receptionist specifies the textbook is 'called Español Esencial, published by Langway Press.'"
+          },
+          {
+            "id": "ielts2-l1-6",
+            "question": "Where is the Westbridge Adult Learning Centre located?",
+            "options": [
+              "A. On Palmer Road, near the bus station.",
+              "B. On Cardigan Street in the town centre.",
+              "C. Adjacent to the Westbridge public library.",
+              "D. On the outskirts of town, near the motorway."
+            ],
+            "answer": "B",
+            "explanation": "The receptionist says 'All classes are held at our main building on Cardigan Street in the Westbridge town centre.'"
+          },
+          {
+            "id": "ielts2-l1-7",
+            "question": "What is the arrangement for evening parking near the centre?",
+            "options": [
+              "A. There is no parking available in the area.",
+              "B. Parking is available on Cardigan Street for a small fee.",
+              "C. Free parking is available on Palmer Road after 6 p.m.",
+              "D. A permit is required for the council car park."
+            ],
+            "answer": "C",
+            "explanation": "The receptionist says 'Evening parking there is free after six p.m.' referring to the Palmer Road car park."
+          },
+          {
+            "id": "ielts2-l1-8",
+            "question": "Why can Karen not register for the course by phone?",
+            "options": [
+              "A. The phone line is reserved for existing students only.",
+              "B. The course is already full and no new registrations are accepted.",
+              "C. Payment must be processed at the same time as registration.",
+              "D. The registration system requires a face-to-face interview."
+            ],
+            "answer": "C",
+            "explanation": "The receptionist explains they do not take phone registrations 'as payment needs to be processed at the same time.'"
+          },
+          {
+            "id": "ielts2-l1-9",
+            "question": "How many places are currently left in the elementary Spanish class?",
+            "options": [
+              "A. Two.",
+              "B. Four.",
+              "C. Six.",
+              "D. Eight."
+            ],
+            "answer": "B",
+            "explanation": "The receptionist states 'There are currently four places remaining in that class.'"
+          },
+          {
+            "id": "ielts2-l1-10",
+            "question": "What is the maximum class size for the Spanish course?",
+            "options": [
+              "A. Ten students.",
+              "B. Twelve students.",
+              "C. Fourteen students.",
+              "D. Sixteen students."
+            ],
+            "answer": "D",
+            "explanation": "The receptionist confirms 'The maximum class size is sixteen students.'"
+          }
+        ]
+      },
+      {
+        "id": "ielts2-l-part2",
+        "type": "monologue",
+        "name": "Part 2 — Monologue",
+        "instruction": "Listen to an audio guide at a local historical site. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Welcome to Hartwell Mill, one of the finest surviving examples of an eighteenth-century watermill in the region. I'm your audio guide, and over the next twenty minutes or so I'll be taking you through the history of this remarkable site, explaining how the mill worked, and pointing out the features you'll want to look out for as you explore.\n\nHartwell Mill was built in 1763 by a local merchant named Josiah Hartwell. At the time, it was one of the largest mills in the county, employing up to forty workers at its peak. The mill was primarily used for grinding grain into flour, though for a brief period in the 1820s it was converted to process wool — you can still see evidence of this in the eastern annexe, where the original carding frames remain.\n\nThe mill's most distinctive feature is its overshot waterwheel, measuring seven metres in diameter. Unlike undershot wheels, which are driven by the flow of water beneath them, overshot wheels are driven by water delivered from above, channelled via an aqueduct. This makes them considerably more efficient — an overshot wheel can generate up to ninety percent more mechanical energy from the same volume of water compared to an undershot design.\n\nAs you enter the main grinding floor, you'll notice the millstones on your right. These particular stones were imported from France — specifically from the La Ferté-sous-Jouarre quarries near Paris — as French burr stones were considered superior for grinding wheat into fine white flour. A typical pair of millstones could grind roughly one tonne of grain per hour when operating at full capacity.\n\nThe mill operated continuously from 1763 until 1891, when a fire destroyed the northern wing and much of the machinery. Rather than rebuild, the Hartwell family leased the remaining structure to a local farmer, who used it for grain storage for several decades. The building was acquired by Hartwell District Council in 1962 and underwent extensive restoration between 1978 and 1984. The waterwheel and main grinding mechanism you see today are fully functional — we actually grind flour here on the first Saturday of every month, which you're welcome to attend.\n\nIf you look through the window on your left as you walk towards the upper floor, you'll see the millpond — originally created by damming the River Wey. The pond covers approximately one and a half hectares and is now home to several protected bird species, including kingfishers and grey herons.\n\nBefore you leave, I'd encourage you to visit the mill shop, located in the old granary building adjacent to the car park. We sell locally produced flour, preserves, and handmade gifts. Proceeds from shop sales support the ongoing maintenance of the site. The shop closes at five o'clock, so please allow time to browse. Thank you for visiting Hartwell Mill, and enjoy your tour.",
+        "items": [
+          {
+            "id": "ielts2-l2-1",
+            "question": "Who built Hartwell Mill and in what year?",
+            "options": [
+              "A. A local farmer named Hartwell, in 1783.",
+              "B. Josiah Hartwell, a local merchant, in 1763.",
+              "C. The Hartwell District Council, in 1762.",
+              "D. A French millwright, in 1763."
+            ],
+            "answer": "B",
+            "explanation": "The guide states 'Hartwell Mill was built in 1763 by a local merchant named Josiah Hartwell.'"
+          },
+          {
+            "id": "ielts2-l2-2",
+            "question": "What was the mill briefly converted to process in the 1820s?",
+            "options": [
+              "A. Timber.",
+              "B. Cotton.",
+              "C. Wool.",
+              "D. Paper."
+            ],
+            "answer": "C",
+            "explanation": "The guide mentions 'for a brief period in the 1820s it was converted to process wool.'"
+          },
+          {
+            "id": "ielts2-l2-3",
+            "question": "What is the main advantage of an overshot waterwheel over an undershot wheel?",
+            "options": [
+              "A. It requires less maintenance due to fewer moving parts.",
+              "B. It can operate in shallow rivers where undershot wheels cannot.",
+              "C. It generates up to ninety percent more energy from the same volume of water.",
+              "D. It is cheaper to construct using locally available materials."
+            ],
+            "answer": "C",
+            "explanation": "The guide explains an overshot wheel 'can generate up to ninety percent more mechanical energy from the same volume of water compared to an undershot design.'"
+          },
+          {
+            "id": "ielts2-l2-4",
+            "question": "Where were the millstones at Hartwell Mill imported from?",
+            "options": [
+              "A. Germany, from the Rhine Valley quarries.",
+              "B. Scotland, from Aberdeen granite quarries.",
+              "C. France, from quarries near Paris.",
+              "D. Belgium, from the Ardennes region."
+            ],
+            "answer": "C",
+            "explanation": "The guide says the stones came 'from the La Ferté-sous-Jouarre quarries near Paris' in France."
+          },
+          {
+            "id": "ielts2-l2-5",
+            "question": "What event caused the mill to stop operating in 1891?",
+            "options": [
+              "A. A severe flood destroyed the waterwheel.",
+              "B. The Hartwell family sold the mill to a competitor.",
+              "C. A fire destroyed the northern wing and most of the machinery.",
+              "D. A change in law made watermill operations illegal."
+            ],
+            "answer": "C",
+            "explanation": "The guide states 'in 1891, when a fire destroyed the northern wing and much of the machinery' the mill ceased operation."
+          },
+          {
+            "id": "ielts2-l2-6",
+            "question": "What was the mill building used for in the decades after the fire?",
+            "options": [
+              "A. As a residential property for the Hartwell family.",
+              "B. As a grain storage facility by a local farmer.",
+              "C. As a museum by the local historical society.",
+              "D. As a community centre for the village."
+            ],
+            "answer": "B",
+            "explanation": "The guide says the structure was 'leased to a local farmer, who used it for grain storage for several decades.'"
+          },
+          {
+            "id": "ielts2-l2-7",
+            "question": "When did the restoration of Hartwell Mill take place?",
+            "options": [
+              "A. Between 1962 and 1970.",
+              "B. Between 1970 and 1978.",
+              "C. Between 1978 and 1984.",
+              "D. Between 1984 and 1991."
+            ],
+            "answer": "C",
+            "explanation": "The guide states the mill 'underwent extensive restoration between 1978 and 1984.'"
+          },
+          {
+            "id": "ielts2-l2-8",
+            "question": "On which day of the month does the mill currently grind flour?",
+            "options": [
+              "A. Every Saturday throughout the summer.",
+              "B. The first Saturday of every month.",
+              "C. The last Sunday of every month.",
+              "D. Every weekday morning at nine o'clock."
+            ],
+            "answer": "B",
+            "explanation": "The guide says 'we actually grind flour here on the first Saturday of every month.'"
+          },
+          {
+            "id": "ielts2-l2-9",
+            "question": "What are two bird species mentioned as living in the millpond?",
+            "options": [
+              "A. Swans and mallard ducks.",
+              "B. Ospreys and cormorants.",
+              "C. Kingfishers and grey herons.",
+              "D. Coots and moorhens."
+            ],
+            "answer": "C",
+            "explanation": "The guide names 'kingfishers and grey herons' as protected species living in the millpond."
+          },
+          {
+            "id": "ielts2-l2-10",
+            "question": "What is the purpose of income from the mill shop?",
+            "options": [
+              "A. To fund educational programmes in local schools.",
+              "B. To support the ongoing maintenance of the site.",
+              "C. To provide wages for the mill's volunteer guides.",
+              "D. To finance the purchase of additional heritage buildings."
+            ],
+            "answer": "B",
+            "explanation": "The guide states 'Proceeds from shop sales support the ongoing maintenance of the site.'"
+          }
+        ]
+      },
+      {
+        "id": "ielts2-l-part3",
+        "type": "academic_discussion",
+        "name": "Part 3 — Academic Discussion",
+        "instruction": "Listen to a discussion between two students and their tutor about a research project. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Tutor: So today I'd like to go through your psychology research proposal. You're designing an experiment on decision-making under time pressure — can you walk me through the methodology?\n\nLena: Sure. Our central research question is whether people make systematically different choices when given limited time compared to when they have unlimited time. We're drawing on dual-process theory — the idea that fast, intuitive thinking and slow, deliberate reasoning lead to different outcomes.\n\nTutor: Good. And what specific decision task are you using?\n\nOliver: We've designed a set of twenty moral dilemma scenarios — each involving a choice between two outcomes where one is statistically better but emotionally uncomfortable. We're adapting the format from existing trolley-problem paradigms, but our scenarios are more everyday — things like resource allocation in a workplace setting rather than extreme philosophical thought experiments.\n\nTutor: Why did you move away from the trolley problem specifically?\n\nOliver: Two reasons. First, it's been studied so extensively that participants may already know the 'expected' response, which could introduce demand characteristics. Second, we felt workplace scenarios would produce more ecologically valid results — they reflect real decisions our participants might actually face.\n\nTutor: That's a well-reasoned choice. How are you operationalising the time pressure variable?\n\nLena: Participants in the time-pressure condition will have eight seconds to respond to each scenario. The control group has no time limit. We're measuring both the decision made and response latency — so even for the unlimited group, we record how long they actually take.\n\nTutor: Eight seconds is quite constrained. How did you settle on that figure?\n\nLena: We ran a short pilot with ten volunteers — not recruited from our actual sample — to see whether eight seconds was achievable. Most participants were able to respond within that window, though three found it very stressful, which is something we're flagging in the ethics section.\n\nTutor: Good — that's important to address. What's your sample design?\n\nOliver: We're recruiting sixty undergraduate psychology students — thirty per condition. We know there's a limitation here: psychology students may be more aware of cognitive bias research, which could affect how they reason through our scenarios.\n\nTutor: Exactly — that's called participant sophistication. Would a more diverse sample have been feasible?\n\nOliver: Ideally yes, but we're constrained by time and resources. We've acknowledged the limitation explicitly and suggested future studies should use a stratified community sample.\n\nTutor: That's the right approach. What are your dependent variables — what exactly are you measuring?\n\nLena: Three things: the direction of the choice — whether they take the utilitarian or the emotionally aversive option; response latency in milliseconds; and a brief post-decision confidence rating on a five-point scale. We think confidence might be an interesting mediating variable.\n\nTutor: That confidence measure is genuinely interesting — do you have a hypothesis about what you expect to find?\n\nLena: We predict that participants under time pressure will show lower confidence and more utilitarian choices — selecting the numerically better option rather than spending time on moral reasoning.\n\nTutor: And what would falsify that hypothesis?\n\nOliver: If the time-pressure group showed no significant difference in choice direction or confidence compared to the control group, we'd need to reconsider whether eight seconds constitutes genuine cognitive load, or whether our scenarios don't have sufficient emotional weight to trigger dual-process effects.\n\nTutor: Excellent. This is a well-structured proposal. My main suggestion is to add a manipulation check — ask participants in the time-pressure condition to rate how pressured they felt. That way you have empirical confirmation that the experimental condition actually worked as intended.",
+        "items": [
+          {
+            "id": "ielts2-l3-1",
+            "question": "What is the central research question of Lena and Oliver's experiment?",
+            "options": [
+              "A. Whether moral dilemmas can be solved using mathematical probability.",
+              "B. Whether people make different choices under time pressure versus unlimited time.",
+              "C. Whether psychology students reason differently from non-students.",
+              "D. Whether workplace stress affects long-term decision-making ability."
+            ],
+            "answer": "B",
+            "explanation": "Lena states the question is 'whether people make systematically different choices when given limited time compared to when they have unlimited time.'"
+          },
+          {
+            "id": "ielts2-l3-2",
+            "question": "Why did the students choose workplace scenarios over trolley-problem scenarios?",
+            "options": [
+              "A. Trolley problems are considered unethical by psychology ethics boards.",
+              "B. Workplace scenarios are easier for participants to understand.",
+              "C. Trolley problems are overused and may produce demand characteristics; workplace scenarios are more ecologically valid.",
+              "D. Their tutor specifically requested a change in the scenario type."
+            ],
+            "answer": "C",
+            "explanation": "Oliver explains trolley problems risk 'demand characteristics' because participants may know expected responses, and workplace scenarios offer 'more ecologically valid results.'"
+          },
+          {
+            "id": "ielts2-l3-3",
+            "question": "How long do participants in the time-pressure condition have to respond to each scenario?",
+            "options": [
+              "A. Five seconds.",
+              "B. Eight seconds.",
+              "C. Ten seconds.",
+              "D. Fifteen seconds."
+            ],
+            "answer": "B",
+            "explanation": "Lena states 'Participants in the time-pressure condition will have eight seconds to respond to each scenario.'"
+          },
+          {
+            "id": "ielts2-l3-4",
+            "question": "What was the purpose of the pilot study the students conducted?",
+            "options": [
+              "A. To test whether their scenarios produced consistent moral choices.",
+              "B. To check whether eight seconds was a feasible response window.",
+              "C. To practise their research presentation skills before the actual study.",
+              "D. To determine which dilemma format was most emotionally engaging."
+            ],
+            "answer": "B",
+            "explanation": "Lena says they ran a pilot 'to see whether eight seconds was achievable' for responding to scenarios."
+          },
+          {
+            "id": "ielts2-l3-5",
+            "question": "What limitation do the students acknowledge about their sample?",
+            "options": [
+              "A. The sample size of sixty participants is too small for statistical significance.",
+              "B. Psychology students may be aware of cognitive bias research, affecting their reasoning.",
+              "C. The sample is too geographically diverse to draw clear conclusions.",
+              "D. All participants come from the same year group, limiting diversity of age."
+            ],
+            "answer": "B",
+            "explanation": "Oliver notes psychology students 'may be more aware of cognitive bias research, which could affect how they reason through our scenarios,' a problem the tutor calls 'participant sophistication.'"
+          },
+          {
+            "id": "ielts2-l3-6",
+            "question": "What solution do the students propose for the sample limitation in future research?",
+            "options": [
+              "A. Recruiting participants from multiple universities across the country.",
+              "B. Using a stratified community sample.",
+              "C. Increasing the total sample size to two hundred participants.",
+              "D. Excluding psychology students from future studies entirely."
+            ],
+            "answer": "B",
+            "explanation": "Oliver says they have 'suggested future studies should use a stratified community sample' to address the limitation."
+          },
+          {
+            "id": "ielts2-l3-7",
+            "question": "What three dependent variables are the students measuring?",
+            "options": [
+              "A. Choice direction, emotional arousal level, and demographic background.",
+              "B. Choice direction, response latency, and a post-decision confidence rating.",
+              "C. Response latency, stress levels, and moral reasoning style.",
+              "D. Confidence, prior knowledge of ethics, and response latency."
+            ],
+            "answer": "B",
+            "explanation": "Lena lists 'the direction of the choice,' 'response latency in milliseconds,' and 'a brief post-decision confidence rating on a five-point scale.'"
+          },
+          {
+            "id": "ielts2-l3-8",
+            "question": "What do Lena and Oliver predict about the time-pressure group?",
+            "options": [
+              "A. They will show higher confidence and fewer errors.",
+              "B. They will take longer to decide than the control group.",
+              "C. They will show lower confidence and more utilitarian choices.",
+              "D. They will make more emotionally driven, non-utilitarian decisions."
+            ],
+            "answer": "C",
+            "explanation": "Lena states they 'predict that participants under time pressure will show lower confidence and more utilitarian choices.'"
+          },
+          {
+            "id": "ielts2-l3-9",
+            "question": "What would falsify the students' hypothesis?",
+            "options": [
+              "A. If the time-pressure group took longer to respond than expected.",
+              "B. If there were no significant differences in choice direction or confidence between groups.",
+              "C. If participants reported the scenarios were too abstract to relate to.",
+              "D. If more than half of participants chose the emotionally aversive option."
+            ],
+            "answer": "B",
+            "explanation": "Oliver explains the hypothesis would be falsified 'if the time-pressure group showed no significant difference in choice direction or confidence compared to the control group.'"
+          },
+          {
+            "id": "ielts2-l3-10",
+            "question": "What does the tutor recommend adding to the experiment design?",
+            "options": [
+              "A. A debrief questionnaire examining participants' emotional wellbeing.",
+              "B. A longer time window to reduce participant stress levels.",
+              "C. A manipulation check asking time-pressure participants to rate how pressured they felt.",
+              "D. A follow-up session one week later to test decision consistency."
+            ],
+            "answer": "C",
+            "explanation": "The tutor advises adding 'a manipulation check — ask participants in the time-pressure condition to rate how pressured they felt' to confirm the condition worked as intended."
+          }
+        ]
+      },
+      {
+        "id": "ielts2-l-part4",
+        "type": "academic_lecture",
+        "name": "Part 4 — Academic Lecture",
+        "instruction": "Listen to an academic lecture on sleep science. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Good morning. Today I'd like to take you through the history and science of sleep research — a field that has undergone remarkable transformation in the past century, from a subject of almost total scientific neglect to one of the most productive areas of neuroscience and medicine.\n\nFor most of recorded history, sleep was treated as a passive state — a simple cessation of wakefulness, analogous to a candle being snuffed out. This view persisted until the mid-twentieth century, when researchers began using electroencephalography, or EEG, to measure electrical activity in the brain during sleep. What they discovered was revolutionary: sleep is not passive at all. The sleeping brain is extraordinarily active, cycling through distinct stages that serve different biological functions.\n\nThe most significant early discovery was rapid eye movement sleep — REM sleep — first described by Eugene Aserinsky and Nathaniel Kleitman at the University of Chicago in 1953. During REM sleep, the brain exhibits patterns of electrical activity closely resembling those of the waking state, yet the body is effectively paralysed — the large voluntary muscles are temporarily inhibited. This stage is closely associated with vivid dreaming, though dreams can occur in other sleep stages too. Adults typically spend about twenty to twenty-five percent of their total sleep time in REM, and this proportion is considerably higher in infants — some estimates suggest newborns spend up to fifty percent of their sleep in REM, which researchers believe reflects the stage's critical role in neural development.\n\nEEG research also revealed the existence of non-REM sleep, divided into three stages. The deepest of these — stage three, often called slow-wave sleep — is characterised by large, slow electrical oscillations and is the phase during which the body undergoes the most intensive physical repair. Growth hormone secretion peaks during slow-wave sleep, tissue repair is accelerated, and the immune system consolidates its responses. Slow-wave sleep is also now understood to play a crucial role in memory consolidation — particularly the transfer of procedural and declarative memories from the hippocampus to the cortex for long-term storage.\n\nThe regulation of sleep timing is governed by two interacting systems. The first is the circadian rhythm — an approximately twenty-four-hour internal clock regulated by a small cluster of neurons in the hypothalamus called the suprachiasmatic nucleus. This internal clock is entrained primarily by light exposure, which suppresses the production of melatonin, a hormone released by the pineal gland that promotes sleepiness. The second system is the homeostatic sleep drive — the progressive build-up of sleep pressure during waking hours, mediated in part by the accumulating concentration of the chemical adenosine in the brain. These two systems work together to produce the characteristic pattern of consolidated nighttime sleep and daytime alertness.\n\nThe consequences of sleep deprivation are severe and wide-ranging. Even a single night of poor sleep impairs prefrontal cortex function — the area responsible for decision-making, impulse control, and complex reasoning — producing deficits comparable to those caused by significant alcohol intoxication. Chronic sleep restriction, even if each night's loss appears modest, accumulates into substantial cognitive debt. A study by Van Dongen and colleagues found that restricting sleep to six hours per night for two weeks produced performance deficits equivalent to forty-eight hours of total sleep deprivation, yet participants consistently underestimated their own impairment.\n\nFrom a public health perspective, the implications are profound. Shift work — which disrupts circadian alignment — is associated with elevated risks of cardiovascular disease, metabolic syndrome, and certain cancers. Adolescents, whose circadian rhythms naturally shift later during puberty, face a structural mismatch with conventional school start times, leading researchers and policymakers to advocate for later school start policies as a meaningful public health intervention. The science is clear: sleep is not a luxury or a sign of laziness. It is a biological imperative, and the cost of ignoring it is paid in health, cognition, and longevity.",
+        "items": [
+          {
+            "id": "ielts2-l4-1",
+            "question": "What was the traditional view of sleep before mid-twentieth-century research?",
+            "options": [
+              "A. Sleep was considered essential only for children and the elderly.",
+              "B. Sleep was viewed as an active state of brain repair.",
+              "C. Sleep was seen as a passive cessation of wakefulness.",
+              "D. Sleep was believed to have no biological function."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer says sleep was historically treated as 'a passive state — a simple cessation of wakefulness, analogous to a candle being snuffed out.'"
+          },
+          {
+            "id": "ielts2-l4-2",
+            "question": "Who first described REM sleep, and in what year?",
+            "options": [
+              "A. Nathaniel Kleitman alone, in 1945.",
+              "B. Eugene Aserinsky and Nathaniel Kleitman, in 1953.",
+              "C. Van Dongen and colleagues, in 1953.",
+              "D. A team at Harvard Medical School, in 1960."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer attributes REM sleep's first description to 'Eugene Aserinsky and Nathaniel Kleitman at the University of Chicago in 1953.'"
+          },
+          {
+            "id": "ielts2-l4-3",
+            "question": "What happens to the body during REM sleep?",
+            "options": [
+              "A. Heart rate slows to its lowest point of the night.",
+              "B. The body temperature rises significantly.",
+              "C. Large voluntary muscles are temporarily paralysed.",
+              "D. Growth hormone is secreted at its peak level."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer states that during REM sleep 'the body is effectively paralysed — the large voluntary muscles are temporarily inhibited.'"
+          },
+          {
+            "id": "ielts2-l4-4",
+            "question": "Approximately what proportion of their sleep do newborns spend in REM?",
+            "options": [
+              "A. Twenty to twenty-five percent.",
+              "B. Thirty percent.",
+              "C. Up to fifty percent.",
+              "D. Over seventy percent."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer states 'some estimates suggest newborns spend up to fifty percent of their sleep in REM.'"
+          },
+          {
+            "id": "ielts2-l4-5",
+            "question": "Which biological process is most strongly associated with slow-wave sleep?",
+            "options": [
+              "A. The consolidation of emotional memories in the amygdala.",
+              "B. Physical repair of the body, including peak growth hormone secretion.",
+              "C. The processing of visual information from the day.",
+              "D. The regulation of appetite hormones leptin and ghrelin."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer says slow-wave sleep is 'the phase during which the body undergoes the most intensive physical repair' and 'Growth hormone secretion peaks during slow-wave sleep.'"
+          },
+          {
+            "id": "ielts2-l4-6",
+            "question": "What is the primary external cue that entrains the circadian rhythm?",
+            "options": [
+              "A. Meal timing and food intake.",
+              "B. Social interaction and noise levels.",
+              "C. Light exposure, which suppresses melatonin production.",
+              "D. Physical exercise and body temperature changes."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer says the internal clock 'is entrained primarily by light exposure, which suppresses the production of melatonin.'"
+          },
+          {
+            "id": "ielts2-l4-7",
+            "question": "What chemical mediates the homeostatic sleep drive?",
+            "options": [
+              "A. Melatonin.",
+              "B. Cortisol.",
+              "C. Serotonin.",
+              "D. Adenosine."
+            ],
+            "answer": "D",
+            "explanation": "The lecturer identifies adenosine as the chemical whose 'accumulating concentration in the brain' mediates the homeostatic sleep drive."
+          },
+          {
+            "id": "ielts2-l4-8",
+            "question": "What does the lecturer compare the effects of one night of poor sleep to?",
+            "options": [
+              "A. The cognitive effects of a mild fever.",
+              "B. The impairment caused by significant alcohol intoxication.",
+              "C. The disorientation experienced after transatlantic travel.",
+              "D. The cognitive decline seen in early-stage dementia."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer states that poor sleep 'producing deficits comparable to those caused by significant alcohol intoxication.'"
+          },
+          {
+            "id": "ielts2-l4-9",
+            "question": "According to the Van Dongen study, what happened when participants were restricted to six hours of sleep per night for two weeks?",
+            "options": [
+              "A. They showed no significant decline in performance due to adaptation.",
+              "B. They developed equivalent deficits to forty-eight hours of total sleep deprivation.",
+              "C. Their performance improved slightly as they adjusted to the new schedule.",
+              "D. They accurately recognised their own level of impairment."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer states the Van Dongen study found six hours per night for two weeks 'produced performance deficits equivalent to forty-eight hours of total sleep deprivation.'"
+          },
+          {
+            "id": "ielts2-l4-10",
+            "question": "Why do researchers advocate for later school start times for adolescents?",
+            "options": [
+              "A. Adolescents need more total sleep hours than adults.",
+              "B. Later starts allow teachers more time to prepare lessons.",
+              "C. Adolescent circadian rhythms naturally shift later, causing a mismatch with early starts.",
+              "D. Early morning light exposure is harmful to developing eyes."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer explains adolescents' 'circadian rhythms naturally shift later during puberty,' creating 'a structural mismatch with conventional school start times.'"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "timeLimit": 3600,
+    "totalQuestions": 40,
+    "passages": [
+      {
+        "id": "ielts2-r-passage1",
+        "title": "The Psychology of Decision-Making: Biases, Heuristics, and the Architecture of Choice",
+        "text": "Every day, human beings make thousands of decisions — from trivial choices about what to eat to consequential judgements about financial investments, medical treatments, and political preferences. For much of the twentieth century, economists modelled human decision-making on the assumption of rationality: that individuals gather available information, weigh options systematically, and select the choice that maximises their utility. This model, while mathematically elegant, bore increasingly little resemblance to how real people actually make decisions.\n\nThe systematic dismantling of the rational actor model began in earnest with the work of psychologists Daniel Kahneman and Amos Tversky in the 1970s and 1980s. Their research demonstrated that human judgement is riddled with predictable, systematic errors — patterns of reasoning that deviate from rational norms in consistent and exploitable ways. Kahneman later synthesised these findings in his influential framework of System 1 and System 2 thinking. System 1 is fast, automatic, and intuitive — it operates below conscious awareness, drawing on pattern recognition and emotional associations to generate rapid responses. System 2 is slow, deliberate, and effortful — it engages when problems require careful logical reasoning. The two systems do not operate in isolation; System 2 can override System 1, but it is cognitively costly to do so, and humans frequently default to System 1 processes even in situations that would benefit from careful analysis.\n\nHeuristics — mental shortcuts that simplify complex problems — are central to System 1 thinking. While heuristics are adaptive in many contexts, enabling fast decisions with limited information, they generate predictable biases when applied inappropriately. The availability heuristic leads people to judge the likelihood of an event by how easily examples come to mind — causing the risk of dramatic but rare events (plane crashes, terrorist attacks) to be systematically overestimated relative to mundane but statistically frequent risks (car accidents, cardiovascular disease). The representativeness heuristic leads people to classify objects or events based on how closely they resemble a prototype, often ignoring statistical base rates. If told that a quiet, bookish individual enjoys puzzles and was once a museum volunteer, most people intuit that she is a librarian rather than a sales representative — despite the fact that sales representatives dramatically outnumber librarians in most populations.\n\nPerhaps the most extensively studied bias is anchoring: the tendency for an initial piece of information — the anchor — to disproportionately influence subsequent judgements, even when that anchor is arbitrary or irrelevant. In a now-classic experiment, participants were asked to spin a wheel that was secretly rigged to stop at either ten or sixty-five before estimating the percentage of African nations in the United Nations. Those who saw the wheel stop at sixty-five gave estimates averaging forty-five percent; those who saw ten gave estimates averaging twenty-five percent. The anchor, despite being obviously random, dragged the estimates in its direction.\n\nLoss aversion — the finding that losses loom approximately twice as large as equivalent gains in human psychology — has profound implications for economic behaviour, healthcare decision-making, and public policy. Kahneman and Tversky's Prospect Theory, for which Kahneman received the Nobel Prize in Economics in 2002, formalised this asymmetry, showing that people are not simply risk-averse in all domains but specifically loss-averse: they will accept a gamble with a negative expected value to avoid a certain loss, even while refusing the same gamble when it is framed as a potential gain.\n\nThe recognition that human decision-making is systematically biased but also systematically predictable has given rise to the field of behavioural economics and, more recently, to 'nudge theory' — the idea that the way choices are presented, or the architecture of choice, can reliably shift decisions without restricting options or changing incentives. Pioneered by Thaler and Sunstein in their 2008 book Nudge, this approach exploits the very predictability of human biases to steer behaviour towards socially beneficial outcomes. Making organ donation the default option, rather than requiring individuals to opt in, dramatically increases donation rates. Placing fruit at eye level in cafeterias increases fruit consumption. These interventions are low-cost and preserve freedom of choice — a combination that has made nudging attractive to policymakers worldwide.\n\nCritics of nudge theory argue, however, that this appeal obscures significant ethical concerns. By operating below the threshold of conscious awareness, nudges bypass the deliberative reasoning that liberal democratic theory regards as the foundation of autonomous choice. The same techniques that can encourage healthy eating or organ donation can equally be deployed to serve corporate or political interests that may not align with the welfare of the individuals being nudged. The power asymmetry between the choice architect and the individual is substantial, and the benevolence of the architect cannot be assumed.",
+        "questions": [
+          {
+            "id": "ielts2-r1-1",
+            "question": "What was the dominant economic model of human decision-making for much of the twentieth century?",
+            "options": [
+              "A. That humans rely primarily on emotional responses when making decisions.",
+              "B. That individuals are rational actors who systematically maximise utility.",
+              "C. That social pressure and conformity drive most economic choices.",
+              "D. That human decisions are too unpredictable to model mathematically."
+            ],
+            "answer": "B",
+            "explanation": "The passage states economists assumed 'individuals gather available information, weigh options systematically, and select the choice that maximises their utility' — the rational actor model."
+          },
+          {
+            "id": "ielts2-r1-2",
+            "question": "According to the passage, what is the main characteristic of System 1 thinking?",
+            "options": [
+              "A. It is slow, deliberate, and requires significant cognitive effort.",
+              "B. It is used exclusively for mathematical and logical problems.",
+              "C. It is fast, automatic, and relies on pattern recognition and emotion.",
+              "D. It always produces more accurate decisions than System 2."
+            ],
+            "answer": "C",
+            "explanation": "The passage defines System 1 as 'fast, automatic, and intuitive — it operates below conscious awareness, drawing on pattern recognition and emotional associations.'"
+          },
+          {
+            "id": "ielts2-r1-3",
+            "question": "The word 'mundane' in paragraph 3 most closely means:",
+            "options": [
+              "A. Exceptionally dangerous and frightening.",
+              "B. Ordinary and unexciting.",
+              "C. Statistically impossible to predict.",
+              "D. Relating to a specific historical period."
+            ],
+            "answer": "B",
+            "explanation": "The passage contrasts dramatic events with 'mundane but statistically frequent risks,' where 'mundane' clearly means ordinary or everyday in context."
+          },
+          {
+            "id": "ielts2-r1-4",
+            "question": "The librarian versus sales representative example in paragraph 3 illustrates:",
+            "options": [
+              "A. How people underestimate the intelligence of librarians.",
+              "B. The representativeness heuristic and its tendency to ignore statistical base rates.",
+              "C. How occupational stereotypes are formed in early childhood.",
+              "D. The availability heuristic and its reliance on memorable examples."
+            ],
+            "answer": "B",
+            "explanation": "The passage explicitly introduces this example to explain the representativeness heuristic, noting people classify based on prototype resemblance 'often ignoring statistical base rates.'"
+          },
+          {
+            "id": "ielts2-r1-5",
+            "question": "In the anchoring experiment described in paragraph 4, what did participants do before estimating the percentage of African UN members?",
+            "options": [
+              "A. They were shown statistical data about African nations.",
+              "B. They spun a wheel that was rigged to stop at either ten or sixty-five.",
+              "C. They were asked to recall recent news stories about the United Nations.",
+              "D. They consulted a reference chart showing actual UN membership figures."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes participants spinning 'a wheel that was secretly rigged to stop at either ten or sixty-five' before making their estimates."
+          },
+          {
+            "id": "ielts2-r1-6",
+            "question": "According to Prospect Theory, how large do losses appear relative to equivalent gains?",
+            "options": [
+              "A. Approximately equal in psychological weight.",
+              "B. Roughly half as significant.",
+              "C. Approximately twice as significant.",
+              "D. Three to four times as significant."
+            ],
+            "answer": "C",
+            "explanation": "The passage states 'losses loom approximately twice as large as equivalent gains in human psychology.'"
+          },
+          {
+            "id": "ielts2-r1-7",
+            "question": "In which year did Kahneman receive the Nobel Prize in Economics?",
+            "options": [
+              "A. 1998.",
+              "B. 2000.",
+              "C. 2002.",
+              "D. 2008."
+            ],
+            "answer": "C",
+            "explanation": "The passage states Kahneman 'received the Nobel Prize in Economics in 2002' for Prospect Theory."
+          },
+          {
+            "id": "ielts2-r1-8",
+            "question": "The passage states that making organ donation the default option increases donation rates. This is an example of:",
+            "options": [
+              "A. Loss aversion exploited through marketing campaigns.",
+              "B. System 2 reasoning applied to public health policy.",
+              "C. Nudge theory using choice architecture to shift behaviour.",
+              "D. Representativeness heuristic applied to medical decision-making."
+            ],
+            "answer": "C",
+            "explanation": "The passage introduces this as an example of nudge theory, which uses 'the architecture of choice' to shift decisions without restricting options."
+          },
+          {
+            "id": "ielts2-r1-9",
+            "question": "What is the primary ethical concern critics raise about nudge theory?",
+            "options": [
+              "A. It is too expensive for governments to implement at scale.",
+              "B. It operates below conscious awareness, potentially bypassing autonomous decision-making.",
+              "C. It has been shown to have no measurable effect on real-world behaviour.",
+              "D. It discriminates against individuals with lower levels of education."
+            ],
+            "answer": "B",
+            "explanation": "Critics argue nudges 'bypass the deliberative reasoning that liberal democratic theory regards as the foundation of autonomous choice' by operating below conscious awareness."
+          },
+          {
+            "id": "ielts2-r1-10",
+            "question": "The passage implies that heuristics are:",
+            "options": [
+              "A. Always harmful and should be eliminated from human reasoning.",
+              "B. Useful in many contexts but generate predictable biases when misapplied.",
+              "C. Only relevant when individuals are under significant time pressure.",
+              "D. Exclusive to System 2 thinking processes."
+            ],
+            "answer": "B",
+            "explanation": "The passage states 'heuristics are adaptive in many contexts... but they generate predictable biases when applied inappropriately.'"
+          },
+          {
+            "id": "ielts2-r1-11",
+            "question": "Which of the following best describes the author's attitude towards nudge theory?",
+            "options": [
+              "A. Wholly enthusiastic — nudge theory is presented as an unqualified improvement in policymaking.",
+              "B. Wholly dismissive — the author believes nudge theory is ineffective in practice.",
+              "C. Balanced — the passage presents both its practical appeal and its ethical limitations.",
+              "D. Uncertain — the author is unsure whether nudge theory constitutes genuine innovation."
+            ],
+            "answer": "C",
+            "explanation": "The passage describes nudging's appeal to policymakers (paragraph 6) then devotes the final paragraph to critics' ethical concerns, presenting both perspectives."
+          },
+          {
+            "id": "ielts2-r1-12",
+            "question": "The passage implies that the rational actor model was eventually challenged because:",
+            "options": [
+              "A. It was too mathematically complex for most economists to apply correctly.",
+              "B. Real human decision-making consistently deviated from its predictions.",
+              "C. It was shown to apply only to Western cultural contexts.",
+              "D. Advances in neuroscience proved that the brain has no capacity for rational thought."
+            ],
+            "answer": "B",
+            "explanation": "The passage says the model 'bore increasingly little resemblance to how real people actually make decisions,' and was then 'dismantled' by empirical research showing systematic errors."
+          },
+          {
+            "id": "ielts2-r1-13",
+            "question": "Which of the following statements about loss aversion is supported by the passage?",
+            "options": [
+              "A. Loss aversion means people always avoid taking risks in financial decisions.",
+              "B. People are specifically loss-averse and will accept negative expected-value gambles to avoid certain losses.",
+              "C. Loss aversion is only observed in participants with high levels of financial anxiety.",
+              "D. Loss aversion decreases with age as individuals accumulate more decision-making experience."
+            ],
+            "answer": "B",
+            "explanation": "The passage states people are 'specifically loss-averse: they will accept a gamble with a negative expected value to avoid a certain loss,' distinguishing this from general risk-aversion."
+          }
+        ]
+      },
+      {
+        "id": "ielts2-r-passage2",
+        "title": "Filth, Reform, and the Birth of Public Health: The Industrial Revolution and the Urban Crisis",
+        "text": "The Industrial Revolution, which transformed Britain from an agrarian to an industrial economy between roughly 1760 and 1840, produced one of the most dramatic demographic shifts in human history. Millions of people left rural villages for the rapidly expanding mill towns and cities of northern England, the Midlands, and London. Manchester's population grew from around 25,000 in 1772 to over 300,000 by 1850; Birmingham and Glasgow underwent comparable transformations. This mass urbanisation, largely unplanned and unregulated, created conditions of almost unimaginable squalor — overcrowded tenements without sanitation, streets used simultaneously as thoroughfares, markets, and open sewers, and water supplies contaminated by human and animal waste.\n\nThe consequences for public health were catastrophic. Life expectancy in industrial cities fell dramatically. In Liverpool in the 1840s, the average age of death for labourers and their families was fifteen years — a figure that reflected not just adult mortality but the devastating toll of infant and child deaths. Tuberculosis was endemic; typhoid, typhus, and dysentery were seasonal visitors. But the most feared disease of the era was cholera, which struck in four major epidemic waves — 1831, 1848, 1854, and 1867 — killing tens of thousands with alarming speed and indiscriminate brutality.\n\nCholera's mechanism was not understood until 1854, when a general practitioner named John Snow conducted what is now considered one of the founding studies of modern epidemiology. During a severe outbreak centred on Soho in central London, Snow meticulously mapped the locations of cholera deaths and their proximity to local water pumps. He identified a single pump on Broad Street as the epicentre of the outbreak and, in a now-legendary act of public health intervention, persuaded the local parish authorities to remove the handle from the pump. New cases declined sharply. Snow went further, examining water supply records to demonstrate that households receiving water from a particular private company — which drew its supply from a heavily contaminated section of the Thames — suffered dramatically higher death rates than those supplied by a competitor drawing from cleaner upstream sources.\n\nSnow's work was not immediately accepted by the medical establishment. The dominant theory of disease causation at the time was miasma theory — the belief that illness was spread by 'bad air' or noxious vapours emanating from rotting organic matter. Miasma theory was not entirely without practical benefit: the belief that foul-smelling environments were dangerous did motivate sanitary reform even before the germ theory of disease was established. But it directed attention to the wrong causal mechanism, and it led to some interventions — such as the flushing of sewage directly into the Thames — that actually worsened the contamination of drinking water supplies.\n\nThe political catalyst for systematic public health reform came with the publication of Edwin Chadwick's Report on the Sanitary Condition of the Labouring Population in 1842. Chadwick, a utilitarian social reformer, documented with forensic detail the links between poverty, overcrowding, and disease, arguing that the economic costs of preventable illness — in lost productivity and poor relief expenditure — far outweighed the investment required to provide clean water and sanitation. His report was instrumental in securing the passage of the Public Health Act of 1848, which created local Boards of Health with powers to construct sewers, improve water supplies, and regulate housing conditions.\n\nImplementation was slow and patchy. Local authorities resisted central government interference, and the Act was permissive rather than compulsory in many of its provisions. Progress accelerated dramatically after 1858 when a catastrophic environmental event forced the issue: during an exceptionally hot summer, the Thames — by then essentially an open sewer flowing through the heart of London — produced what became known as the Great Stink, a stench so overwhelming that it disrupted parliamentary proceedings and compelled the government to act with unprecedented urgency. Engineer Joseph Bazalgette was commissioned to design a new sewerage system for London, ultimately constructing over 1,300 miles of interconnected sewers that redirected sewage away from the river and the water supply. It remains one of the greatest feats of Victorian civil engineering.\n\nThe public health revolution of the nineteenth century established foundational principles that remain central to modern practice: the importance of epidemiological data in identifying disease sources, the role of environmental infrastructure in preventing disease, and the necessity of governmental responsibility for population health. The story of cholera, John Snow, and the battle for sanitation is not merely historical curiosity — it is the origin story of public health as a discipline.",
+        "questions": [
+          {
+            "id": "ielts2-r2-1",
+            "question": "What does the passage identify as the main cause of the catastrophic urban conditions during the Industrial Revolution?",
+            "options": [
+              "A. Deliberate government policies that discouraged rural-to-urban migration.",
+              "B. Rapid, unplanned, and unregulated mass urbanisation.",
+              "C. The introduction of factory machinery that produced toxic pollutants.",
+              "D. The failure of the church to provide social services to the urban poor."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes the mass urbanisation as 'largely unplanned and unregulated,' creating conditions of 'almost unimaginable squalor.'"
+          },
+          {
+            "id": "ielts2-r2-2",
+            "question": "What does the passage say the average age of death for labourers' families in Liverpool in the 1840s was?",
+            "options": [
+              "A. Twenty-five years.",
+              "B. Twenty years.",
+              "C. Eighteen years.",
+              "D. Fifteen years."
+            ],
+            "answer": "D",
+            "explanation": "The passage states 'the average age of death for labourers and their families was fifteen years' in Liverpool in the 1840s."
+          },
+          {
+            "id": "ielts2-r2-3",
+            "question": "How did John Snow identify the source of the 1854 Soho cholera outbreak?",
+            "options": [
+              "A. By testing water samples from different pumps using chemical analysis.",
+              "B. By interviewing surviving patients about their daily routines.",
+              "C. By mapping the locations of deaths and their proximity to water pumps.",
+              "D. By examining hospital records to identify the first cholera victim."
+            ],
+            "answer": "C",
+            "explanation": "The passage says Snow 'meticulously mapped the locations of cholera deaths and their proximity to local water pumps.'"
+          },
+          {
+            "id": "ielts2-r2-4",
+            "question": "What action did John Snow take once he identified the Broad Street pump as the source?",
+            "options": [
+              "A. He published his findings in a medical journal and waited for authorities to act.",
+              "B. He closed the pump himself without seeking official permission.",
+              "C. He persuaded parish authorities to remove the handle from the pump.",
+              "D. He recommended chlorinating the water supply throughout Soho."
+            ],
+            "answer": "C",
+            "explanation": "The passage states Snow 'persuaded the local parish authorities to remove the handle from the pump,' after which 'new cases declined sharply.'"
+          },
+          {
+            "id": "ielts2-r2-5",
+            "question": "What was miasma theory, as described in the passage?",
+            "options": [
+              "A. The belief that disease was caused by contaminated water supplies.",
+              "B. The belief that illness was spread by bad air or noxious vapours from rotting matter.",
+              "C. The theory that poverty caused disease through malnutrition rather than infection.",
+              "D. The belief that cholera was transmitted directly between people."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines miasma theory as 'the belief that illness was spread by bad air or noxious vapours emanating from rotting organic matter.'"
+          },
+          {
+            "id": "ielts2-r2-6",
+            "question": "The passage implies that one unintended harmful consequence of miasma theory was:",
+            "options": [
+              "A. That it discouraged investment in hospital construction.",
+              "B. That it led to the flushing of sewage into the Thames, worsening water contamination.",
+              "C. That it prevented doctors from studying cholera patients directly.",
+              "D. That it delayed the discovery of the germ theory of disease by fifty years."
+            ],
+            "answer": "B",
+            "explanation": "The passage states miasma theory 'led to some interventions — such as the flushing of sewage directly into the Thames — that actually worsened the contamination of drinking water supplies.'"
+          },
+          {
+            "id": "ielts2-r2-7",
+            "question": "The word 'forensic' in paragraph 5, when describing Chadwick's report, most closely means:",
+            "options": [
+              "A. Relating to criminal investigation.",
+              "B. Extremely detailed and systematic.",
+              "C. Based on medical rather than economic evidence.",
+              "D. Deliberately controversial and provocative."
+            ],
+            "answer": "B",
+            "explanation": "In context, Chadwick 'documented with forensic detail the links between poverty and disease' — 'forensic' here means meticulous and rigorous in its systematic approach."
+          },
+          {
+            "id": "ielts2-r2-8",
+            "question": "What argument did Chadwick use to justify investment in sanitation reform?",
+            "options": [
+              "A. That sanitation was a moral obligation under Christian principles.",
+              "B. That clean water would attract skilled workers from rural areas.",
+              "C. That the economic costs of preventable illness outweighed the cost of sanitation investment.",
+              "D. That disease was being used by workers as an excuse to avoid labour."
+            ],
+            "answer": "C",
+            "explanation": "Chadwick argued 'the economic costs of preventable illness — in lost productivity and poor relief expenditure — far outweighed the investment required to provide clean water and sanitation.'"
+          },
+          {
+            "id": "ielts2-r2-9",
+            "question": "What event accelerated the pace of sanitation reform after 1858?",
+            "options": [
+              "A. A fourth wave of cholera that killed over fifty thousand Londoners.",
+              "B. The Great Stink — the overwhelming stench from the Thames that disrupted Parliament.",
+              "C. A royal commission that found London's water supply to be dangerously contaminated.",
+              "D. Riots by working-class residents demanding clean water infrastructure."
+            ],
+            "answer": "B",
+            "explanation": "The passage identifies 'the Great Stink' — a summer of extreme Thames odour that 'disrupted parliamentary proceedings' — as the catalyst that forced urgent government action."
+          },
+          {
+            "id": "ielts2-r2-10",
+            "question": "What was Joseph Bazalgette's contribution to London's public health infrastructure?",
+            "options": [
+              "A. He designed a system of water filtration plants along the Thames.",
+              "B. He constructed over 1,300 miles of sewers redirecting sewage away from the river.",
+              "C. He developed the first effective vaccine against cholera.",
+              "D. He created the first public housing regulations controlling overcrowding."
+            ],
+            "answer": "B",
+            "explanation": "The passage states Bazalgette was commissioned to design London's sewerage system, 'ultimately constructing over 1,300 miles of interconnected sewers.'"
+          },
+          {
+            "id": "ielts2-r2-11",
+            "question": "The passage implies that John Snow's work was significant primarily because it:",
+            "options": [
+              "A. Proved definitively that cholera was caused by a bacterium.",
+              "B. Established that disease could be spread through bad air.",
+              "C. Demonstrated the epidemiological method of identifying disease sources through data mapping.",
+              "D. Resulted in the immediate passage of the Public Health Act."
+            ],
+            "answer": "C",
+            "explanation": "The passage calls Snow's study 'one of the founding studies of modern epidemiology,' highlighting his data-mapping methodology as foundational, rather than his biological discovery (the bacterium was identified later)."
+          },
+          {
+            "id": "ielts2-r2-12",
+            "question": "According to the passage, why was the Public Health Act of 1848 initially limited in its impact?",
+            "options": [
+              "A. It lacked any funding mechanism for local authorities to build sewers.",
+              "B. Local authorities resisted central interference, and many provisions were permissive rather than compulsory.",
+              "C. The Act was immediately challenged in court by private water companies.",
+              "D. It was repealed within two years due to opposition from industrialists."
+            ],
+            "answer": "B",
+            "explanation": "The passage states 'Local authorities resisted central government interference, and the Act was permissive rather than compulsory in many of its provisions,' explaining why implementation was 'slow and patchy.'"
+          },
+          {
+            "id": "ielts2-r2-13",
+            "question": "Which of the following best describes the author's main argument in the final paragraph?",
+            "options": [
+              "A. Victorian engineering achievements were more important than medical discoveries.",
+              "B. The nineteenth-century public health revolution established principles still central to modern public health.",
+              "C. John Snow is unfairly credited with discoveries made by other physicians of his era.",
+              "D. Public health improvements in the nineteenth century were driven entirely by economic motives."
+            ],
+            "answer": "B",
+            "explanation": "The final paragraph argues that the sanitation revolution 'established foundational principles that remain central to modern practice,' positioning it as the 'origin story of public health as a discipline.'"
+          }
+        ]
+      },
+      {
+        "id": "ielts2-r-passage3",
+        "title": "The Circular Economy: Rethinking Growth, Waste, and Industrial Design",
+        "text": "The dominant model of industrial production for the past two centuries has operated on a linear logic: extract raw materials, manufacture products, use them, and discard them. This 'take-make-dispose' model has generated extraordinary material prosperity but at a rapidly mounting ecological cost. Global material consumption has more than tripled since 1970; each year, humanity extracts approximately ninety billion tonnes of materials from the earth, of which an estimated ninety-one percent becomes waste within six months. Against this backdrop, the circular economy has emerged as a compelling alternative framework — one that seeks to redesign the relationship between economic activity and natural systems.\n\nThe circular economy is most closely associated with the Ellen MacArthur Foundation, established in 2010 by the British sailor and environmental advocate Dame Ellen MacArthur. The Foundation has become the leading international organisation promoting circular economy principles, working with major corporations, governments, and academic institutions worldwide. Its foundational definition holds that a circular economy is 'restorative and regenerative by design, and aims to keep products, components, and materials at their highest utility and value at all times.' This distinguishes it sharply from conventional recycling, which typically downgrades materials and remains embedded within the linear model.\n\nThe intellectual origins of circular economy thinking are more diffuse than any single organisation. The concept of 'cradle-to-cradle' design, articulated by architect William McDonough and chemist Michael Braungart in their 2002 book of the same name, proposed that all industrial materials should be designed either as 'biological nutrients' — substances that safely re-enter natural cycles — or 'technical nutrients' — materials that circulate indefinitely within industrial systems without degradation. This framework challenged the conventional assumption that waste is an inevitable by-product of production, arguing instead that waste is simply a design failure.\n\nIn practice, circular economy business models take several distinct forms. The 'product as a service' model — sometimes called 'performance economy' — involves manufacturers retaining ownership of their products and leasing performance or outcomes rather than selling physical goods. Rolls-Royce's 'Power by the Hour' programme, in which airlines pay for thrust rather than purchasing jet engines, is a frequently cited example: because Rolls-Royce retains ownership of the engines, it has a direct financial incentive to maximise engine longevity and efficiency, aligning economic incentives with resource conservation. Similarly, interface, the carpet tile company, pioneered a lease model in which used tiles are collected, regenerated, and relaid, keeping materials in circulation indefinitely.\n\nA second model involves industrial symbiosis — the deliberate co-location of industries so that the waste outputs of one become the inputs of another. The Kalundborg industrial park in Denmark is the most celebrated global example: a cluster of companies including a power station, an oil refinery, a pharmaceutical manufacturer, and a wallboard producer exchange steam, fly ash, gypsum, and other by-products, reducing both raw material inputs and waste disposal costs for all participants.\n\nDespite its conceptual appeal, the transition to a circular economy faces substantial structural barriers. Many circular business models require significant upfront investment in design, logistics, and collection infrastructure that can only be recouped over long product lifecycles — a financial challenge for companies under pressure to deliver short-term returns. Consumer behaviour also presents obstacles: markets built around product ownership are difficult to disrupt, and consumers in many cultural contexts are resistant to leasing or sharing models. Regulatory frameworks, designed around the linear model, may actively penalise circular approaches — classifying recovered materials as waste subject to disposal regulations, for instance, rather than as valuable inputs.\n\nThe scale of the circular economy opportunity, however, is substantial. A 2013 report by the Ellen MacArthur Foundation and McKinsey estimated that transitioning to a circular model in just five consumer goods sectors could generate net material savings of up to 630 billion US dollars annually in Europe alone. Proponents argue that circular approaches decouple economic growth from resource consumption — potentially resolving one of the central contradictions of contemporary capitalism. Critics, however, question whether incremental efficiency improvements within the existing economic system can address the scale of environmental challenge, arguing that more fundamental transformations in production and consumption patterns are ultimately required.",
+        "questions": [
+          {
+            "id": "ielts2-r3-1",
+            "question": "What does the passage describe as the 'take-make-dispose' model?",
+            "options": [
+              "A. A circular economy strategy based on product leasing.",
+              "B. The linear model of industrial production that extracts, manufactures, uses, and discards.",
+              "C. A government recycling programme introduced in Europe in the 1990s.",
+              "D. The cradle-to-cradle design philosophy developed by McDonough and Braungart."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes the 'take-make-dispose' model as the linear logic of 'extract raw materials, manufacture products, use them, and discard them.'"
+          },
+          {
+            "id": "ielts2-r3-2",
+            "question": "What proportion of materials extracted globally becomes waste within six months, according to the passage?",
+            "options": [
+              "A. Around fifty percent.",
+              "B. Approximately seventy-five percent.",
+              "C. An estimated ninety-one percent.",
+              "D. Over ninety-five percent."
+            ],
+            "answer": "C",
+            "explanation": "The passage states 'an estimated ninety-one percent becomes waste within six months' of the ninety billion tonnes extracted annually."
+          },
+          {
+            "id": "ielts2-r3-3",
+            "question": "How does the passage distinguish the circular economy from conventional recycling?",
+            "options": [
+              "A. The circular economy eliminates recycling entirely in favour of reuse.",
+              "B. The circular economy keeps materials at their highest value, while recycling typically downgrades them.",
+              "C. Conventional recycling is more cost-effective than circular economy approaches.",
+              "D. The circular economy applies only to biological materials, while recycling handles technical ones."
+            ],
+            "answer": "B",
+            "explanation": "The passage states the circular economy 'aims to keep products, components, and materials at their highest utility and value,' distinguishing it from recycling which 'typically downgrades materials.'"
+          },
+          {
+            "id": "ielts2-r3-4",
+            "question": "According to the cradle-to-cradle framework, what are 'technical nutrients'?",
+            "options": [
+              "A. Organic materials that safely re-enter natural biological cycles.",
+              "B. Industrial materials that circulate indefinitely without degradation.",
+              "C. Chemical additives that extend the lifespan of manufactured products.",
+              "D. Nutrients derived from industrial processes used in agricultural fertilisers."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines 'technical nutrients' as 'materials that circulate indefinitely within industrial systems without degradation.'"
+          },
+          {
+            "id": "ielts2-r3-5",
+            "question": "What argument do McDonough and Braungart make about waste?",
+            "options": [
+              "A. Waste is an unavoidable cost of industrial progress that must be managed carefully.",
+              "B. Waste can be eliminated through sufficiently advanced recycling technologies.",
+              "C. Waste is not inevitable but is simply a failure of product design.",
+              "D. Waste should be converted to energy through incineration rather than landfilled."
+            ],
+            "answer": "C",
+            "explanation": "The passage states their framework argues 'waste is simply a design failure,' challenging 'the conventional assumption that waste is an inevitable by-product of production.'"
+          },
+          {
+            "id": "ielts2-r3-6",
+            "question": "Why does the Rolls-Royce 'Power by the Hour' model align economic incentives with resource conservation?",
+            "options": [
+              "A. Rolls-Royce sells engines at a higher price if they last longer.",
+              "B. Because Rolls-Royce retains engine ownership, it profits from maximising engine longevity.",
+              "C. Airlines pay less per hour when engines are more fuel-efficient.",
+              "D. The model requires airlines to return used engines for government-mandated recycling."
+            ],
+            "answer": "B",
+            "explanation": "The passage explains that because 'Rolls-Royce retains ownership of the engines, it has a direct financial incentive to maximise engine longevity and efficiency.'"
+          },
+          {
+            "id": "ielts2-r3-7",
+            "question": "The word 'symbiosis' in paragraph 5 most closely means:",
+            "options": [
+              "A. Competition between industries for shared resources.",
+              "B. A mutually beneficial relationship where outputs of one become inputs of another.",
+              "C. The geographical clustering of similar industries to reduce transport costs.",
+              "D. A legal agreement between companies to share intellectual property."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines industrial symbiosis as the exchange of waste outputs as inputs between companies, a mutually beneficial arrangement, consistent with the biological meaning of symbiosis."
+          },
+          {
+            "id": "ielts2-r3-8",
+            "question": "Which company is described as pioneering a lease model for carpet tiles?",
+            "options": [
+              "A. Rolls-Royce.",
+              "B. The Ellen MacArthur Foundation.",
+              "C. Kalundborg industrial park.",
+              "D. Interface."
+            ],
+            "answer": "D",
+            "explanation": "The passage states 'Interface, the carpet tile company, pioneered a lease model in which used tiles are collected, regenerated, and relaid.'"
+          },
+          {
+            "id": "ielts2-r3-9",
+            "question": "What financial barrier to circular business models does the passage identify?",
+            "options": [
+              "A. Circular products cost more to manufacture than conventional alternatives.",
+              "B. High upfront investment that can only be recouped over long product lifecycles.",
+              "C. Tax policies that heavily penalise product leasing arrangements.",
+              "D. International trade rules that restrict the movement of recovered materials."
+            ],
+            "answer": "B",
+            "explanation": "The passage identifies 'significant upfront investment in design, logistics, and collection infrastructure that can only be recouped over long product lifecycles' as a key financial barrier."
+          },
+          {
+            "id": "ielts2-r3-10",
+            "question": "How do existing regulatory frameworks sometimes hinder circular economy approaches, according to the passage?",
+            "options": [
+              "A. By requiring lengthy environmental impact assessments before new circular products can be launched.",
+              "B. By classifying recovered materials as waste subject to disposal regulations rather than as valuable inputs.",
+              "C. By setting minimum recycled-content standards that circular products cannot meet.",
+              "D. By prohibiting companies from leasing products that were designed for single ownership."
+            ],
+            "answer": "B",
+            "explanation": "The passage notes regulations may penalise circular approaches by 'classifying recovered materials as waste subject to disposal regulations, rather than as valuable inputs.'"
+          },
+          {
+            "id": "ielts2-r3-11",
+            "question": "What did the 2013 Ellen MacArthur Foundation and McKinsey report estimate?",
+            "options": [
+              "A. That circular economy transition would create ten million new jobs in Europe.",
+              "B. That net material savings of up to $630 billion annually were possible in Europe across five sectors.",
+              "C. That ninety-one percent of European waste could be eliminated within twenty years.",
+              "D. That the circular economy could reduce global carbon emissions by forty percent."
+            ],
+            "answer": "B",
+            "explanation": "The passage states the report estimated 'net material savings of up to 630 billion US dollars annually in Europe alone' from transitioning five consumer goods sectors."
+          },
+          {
+            "id": "ielts2-r3-12",
+            "question": "What concern do critics of the circular economy raise in the final paragraph?",
+            "options": [
+              "A. That circular economy principles are too complex for most businesses to implement.",
+              "B. That incremental efficiency improvements may be insufficient to address the scale of environmental challenges.",
+              "C. That circular economy approaches will increase unemployment in traditional manufacturing sectors.",
+              "D. That the Ellen MacArthur Foundation has too much influence over government policy."
+            ],
+            "answer": "B",
+            "explanation": "Critics question whether 'incremental efficiency improvements within the existing economic system can address the scale of environmental challenge,' suggesting more fundamental transformations may be needed."
+          },
+          {
+            "id": "ielts2-r3-13",
+            "question": "What is the Ellen MacArthur Foundation, as described in the passage?",
+            "options": [
+              "A. A British government agency responsible for environmental regulation.",
+              "B. An international organisation established in 2010 to promote circular economy principles.",
+              "C. A research institute at Oxford University studying sustainable manufacturing.",
+              "D. A charity that funds restoration projects for marine ecosystems."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes it as 'the leading international organisation promoting circular economy principles,' established in 2010 by Dame Ellen MacArthur."
+          },
+          {
+            "id": "ielts2-r3-14",
+            "question": "Which of the following best summarises the overall argument of the passage?",
+            "options": [
+              "A. The circular economy is a proven solution that governments should implement immediately without delay.",
+              "B. The circular economy offers a promising alternative to the linear model but faces significant structural and behavioural barriers.",
+              "C. Conventional recycling is sufficient to address global material waste and the circular economy is unnecessary.",
+              "D. The circular economy is primarily relevant to European economies and has limited applicability globally."
+            ],
+            "answer": "B",
+            "explanation": "The passage presents the circular economy's appeal and examples (paragraphs 1–5), then identifies barriers (paragraph 6), and concludes with both its potential and critics' doubts (paragraph 7) — a balanced appraisal."
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "timeLimit": 3600,
+    "tasks": [
+      {
+        "id": "ielts2-w-task1",
+        "type": "report",
+        "timeLimit": 1200,
+        "prompt": "The bar chart below shows the percentage of households with internet access in five countries in 2010 and 2022.",
+        "visualDescription": "A grouped bar chart with five country clusters on the x-axis (South Korea, Germany, Brazil, India, Nigeria) and the percentage of households with internet access on the y-axis (0–100%). Each country has two bars — one for 2010 (dark blue) and one for 2022 (light blue). South Korea: 77% in 2010, rising to 97% in 2022. Germany: 72% in 2010, rising to 93% in 2022. Brazil: 27% in 2010, rising to 74% in 2022. India: 7% in 2010, rising to 52% in 2022. Nigeria: 4% in 2010, rising to 33% in 2022. All five countries show increases, but the magnitude and the absolute levels vary considerably, with South Korea and Germany far ahead of Brazil, India, and Nigeria in both years.",
+        "wordCountMin": 150,
+        "wordCountMax": 200,
+        "instruction": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words."
+      },
+      {
+        "id": "ielts2-w-task2",
+        "type": "essay",
+        "timeLimit": 2400,
+        "prompt": "In many cities, traffic congestion has become a serious problem. What are the causes of this problem, and what measures can be taken to reduce traffic congestion?",
+        "essayType": "problem_solution",
+        "wordCountMin": 250,
+        "wordCountMax": 320,
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+      }
+    ]
+  },
+  "speaking": {
+    "parts": [
+      {
+        "id": "ielts2-sp-part1",
+        "type": "introduction",
+        "name": "Part 1 — Introduction & Interview",
+        "duration": 300,
+        "instruction": "The examiner will ask you questions about yourself and familiar topics. Answer naturally and extend your responses where possible.",
+        "questions": [
+          "How often do you use a smartphone in a typical day?",
+          "What do you mainly use the internet for — work, study, or entertainment?",
+          "Do you use social media? Which platforms do you prefer and why?",
+          "Do you think you spend too much time on your phone? Why or why not?",
+          "Has technology changed the way you keep in touch with friends and family?"
+        ]
+      },
+      {
+        "id": "ielts2-sp-part2",
+        "type": "cue_card",
+        "name": "Part 2 — Individual Long Turn",
+        "prepTime": 60,
+        "speakTime": 120,
+        "instruction": "Read the cue card carefully. You have 1 minute to prepare your answer. Then speak for 1 to 2 minutes. The examiner will tell you when to stop.",
+        "cueCard": {
+          "topic": "Describe a piece of technology you use every day.",
+          "points": [
+            "What the technology is",
+            "How long you have been using it",
+            "What you use it for",
+            "Why it is important to you"
+          ],
+          "followUp": "Do you think people have become too dependent on technology?"
+        }
+      },
+      {
+        "id": "ielts2-sp-part3",
+        "type": "discussion",
+        "name": "Part 3 — Two-Way Discussion",
+        "duration": 420,
+        "instruction": "The examiner will ask you further questions connected to the topic in Part 2. Develop your answers fully, supporting your views with reasons and examples.",
+        "questions": [
+          "Do you think the rapid spread of technology has created a digital divide between different groups in society? In what ways?",
+          "Some experts argue that children spend too much time on screens. What effects might this have on their development?",
+          "Automation and artificial intelligence are replacing many jobs. Is this a cause for concern, or do you see it as an opportunity?",
+          "There is growing evidence linking heavy social media use to anxiety and depression, particularly in young people. What do you think can be done about this?",
+          "Should governments have the right to regulate what technology companies can and cannot do? Why or why not?"
+        ]
+      }
+    ]
+  }
+}

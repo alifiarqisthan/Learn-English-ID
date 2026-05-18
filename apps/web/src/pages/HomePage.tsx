@@ -1,9 +1,13 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ArrowRight, BookOpen, CheckCircle2 } from "lucide-react";
+import {
+  ArrowRight, BookOpen, CheckCircle2, ClipboardList,
+  FileText, Flame, GraduationCap, LayoutGrid, TrendingUp,
+} from "lucide-react";
 import type { MasterGroupSlug, ModuleGroupSummary, ModuleSummary } from "@app/shared";
 import { PASS_THRESHOLD } from "@app/shared";
 import { api } from "../api";
+import { useAuth } from "../contexts/AuthContext";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -24,18 +28,50 @@ const MASTER_GROUPS: {
   description: string;
   level: string;
 }[] = [
-  { slug: "tenses",           title: "12 Tenses",                    icon: "⏱", description: "All 12 English tenses from Present Simple to Future Perfect Continuous. The absolute foundation of English grammar.", level: "A1 → C1" },
-  { slug: "sentence-structure", title: "Sentence Structure & Clauses", icon: "🔗", description: "Relative, noun, and adverb clauses — how to build complex, academic-quality sentences.", level: "A2 → C1" },
-  { slug: "nouns-articles",   title: "Nouns, Articles & Determiners", icon: "🔤", description: "A/an/the/zero article, quantifiers, and subject-verb agreement — the most common Indonesian learner traps.", level: "A1 → B2" },
-  { slug: "passive-voice",    title: "Passive Voice",                 icon: "🔄", description: "Form the passive in every tense, with modals, and in academic reporting structures.", level: "B1 → C1" },
-  { slug: "modals-hedging",   title: "Modals & Hedging",              icon: "💬", description: "Can, must, should, modal perfects, and the hedging language essential for IELTS Academic band 7+.", level: "A2 → C1" },
-  { slug: "conditionals",     title: "Conditionals",                  icon: "↔️", description: "All four conditional types plus mixed conditionals and conditional alternatives (unless, provided that).", level: "B1 → C1" },
-  { slug: "verb-patterns",    title: "Verb Patterns",                 icon: "⚡", description: "Gerunds vs infinitives, reported speech, and causative verbs — the verb complementation patterns tested on TOEFL.", level: "B1 → C1" },
-  { slug: "comparisons",      title: "Comparisons",                   icon: "📊", description: "Comparatives, superlatives, as…as structures, and double comparatives — essential for IELTS Task 1.", level: "A2 → B2" },
-  { slug: "connectors-cohesion", title: "Connectors & Cohesion",      icon: "📝", description: "Linking words, discourse markers, and advanced cohesive devices for IELTS Writing Coherence & Cohesion.", level: "B1 → C1" },
+  { slug: "tenses",              title: "12 Tenses",                     icon: "⏱",  description: "All 12 English tenses from Present Simple to Future Perfect Continuous.", level: "A1 → C1" },
+  { slug: "sentence-structure",  title: "Sentence Structure & Clauses",  icon: "🔗",  description: "Relative, noun, and adverb clauses — build complex, academic-quality sentences.", level: "A2 → C1" },
+  { slug: "nouns-articles",      title: "Nouns, Articles & Determiners", icon: "🔤",  description: "A/an/the/zero article, quantifiers, and subject-verb agreement.", level: "A1 → B2" },
+  { slug: "passive-voice",       title: "Passive Voice",                 icon: "🔄",  description: "Form the passive in every tense, with modals, and in academic reporting.", level: "B1 → C1" },
+  { slug: "modals-hedging",      title: "Modals & Hedging",              icon: "💬",  description: "Can, must, should, modal perfects, and hedging language for IELTS band 7+.", level: "A2 → C1" },
+  { slug: "conditionals",        title: "Conditionals",                  icon: "↔️", description: "All four conditional types plus mixed conditionals and alternatives.", level: "B1 → C1" },
+  { slug: "verb-patterns",       title: "Verb Patterns",                 icon: "⚡",  description: "Gerunds vs infinitives, reported speech, and causative verbs.", level: "B1 → C1" },
+  { slug: "comparisons",         title: "Comparisons",                   icon: "📊",  description: "Comparatives, superlatives, as…as structures, and double comparatives.", level: "A2 → B2" },
+  { slug: "connectors-cohesion", title: "Connectors & Cohesion",         icon: "📝",  description: "Linking words and cohesive devices for IELTS Writing Coherence & Cohesion.", level: "B1 → C1" },
+];
+
+const QUICK_NAV = [
+  {
+    to: "/groups",
+    icon: LayoutGrid,
+    label: "Modules",
+    description: "Browse all 9 grammar groups",
+    accent: false,
+  },
+  {
+    to: "/references",
+    icon: FileText,
+    label: "References",
+    description: "Quick grammar cheat sheets",
+    accent: false,
+  },
+  {
+    to: "/mock-test",
+    icon: ClipboardList,
+    label: "Mock Test",
+    description: "TOEFL iBT & ITP full practice",
+    accent: true,
+  },
+  {
+    to: "/progress",
+    icon: TrendingUp,
+    label: "My Progress",
+    description: "Track scores & completed lessons",
+    accent: false,
+  },
 ];
 
 export default function HomePage() {
+  const { user } = useAuth();
   const [modules, setModules] = useState<ModuleSummary[] | null>(null);
   const [groups, setGroups] = useState<ModuleGroupSummary[] | null>(null);
   const [progress, setProgress] = useState<ProgressMap>({});
@@ -74,38 +110,122 @@ export default function HomePage() {
     return { subgroups: subgroups.length, total: active.length, passed, complete };
   }
 
-  const totalModules = modules?.filter((m) => !m.placeholder).length ?? 0;
-  const passedModules = modules?.filter((m) => !m.placeholder && isPassed(progress[m.slug])).length ?? 0;
+  const activeModules = modules?.filter((m) => !m.placeholder) ?? [];
+  const totalModules = activeModules.length;
+  const passedModules = activeModules.filter((m) => isPassed(progress[m.slug])).length;
   const overallPct = totalModules > 0 ? Math.round((passedModules / totalModules) * 100) : 0;
+  const inProgressModules = activeModules.filter(
+    (m) => progress[m.slug] && !isPassed(progress[m.slug])
+  );
+  const nextModule = inProgressModules[0] ?? activeModules.find((m) => !progress[m.slug]);
+
+  const greeting = (() => {
+    const h = new Date().getHours();
+    if (h < 12) return "Good morning";
+    if (h < 17) return "Good afternoon";
+    return "Good evening";
+  })();
 
   return (
-    <div className="space-y-12">
-      {/* Hero */}
-      <section className="space-y-4">
-        <Badge variant="accent" className="rounded">For Indonesian learners</Badge>
-        <h1 className="font-serif text-4xl font-semibold tracking-tight">
-          Master English Grammar, the academic way.
-        </h1>
-        <p className="max-w-2xl text-muted-foreground">
-          A structured TOEFL/IELTS grammar course for Indonesian learners.
-          9 modules · 22 subgroups · 73 lessons — jump to any module, any time.
-        </p>
+    <div className="space-y-10">
+
+      {/* ── Hero ── */}
+      <section className="space-y-3">
+        <div className="flex items-start justify-between gap-4 flex-wrap">
+          <div className="space-y-1">
+            <p className="text-muted-foreground text-sm">
+              {greeting}{user ? `, ${user.name}` : ""}
+            </p>
+            <h1 className="font-serif text-3xl font-semibold tracking-tight">
+              Master English Grammar,<br className="hidden sm:block" /> the academic way.
+            </h1>
+          </div>
+          <Badge variant="accent" className="rounded shrink-0 mt-1">TOEFL · IELTS prep</Badge>
+        </div>
+
+        {/* Overall progress bar */}
         {totalModules > 0 && (
-          <div className="max-w-sm space-y-1.5">
+          <div className="max-w-md space-y-1.5 pt-1">
             <div className="flex justify-between text-xs text-muted-foreground">
-              <span>Overall progress</span>
-              <span>{passedModules} / {totalModules} lessons passed</span>
+              <span className="flex items-center gap-1.5">
+                <Flame className="h-3.5 w-3.5 text-accent" />
+                Overall progress
+              </span>
+              <span>{passedModules} / {totalModules} lessons passed · {overallPct}%</span>
             </div>
             <Progress value={overallPct} className="h-2" />
           </div>
         )}
       </section>
 
-      {/* Master group grid — all freely accessible, no inter-module locking */}
+      {/* ── Quick nav ── */}
+      <section>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {QUICK_NAV.map(({ to, icon: Icon, label, description, accent }) => (
+            <Link
+              key={to}
+              to={to}
+              className={cn(
+                "group flex flex-col gap-2 rounded-xl border p-4 transition-all hover:shadow-md",
+                accent
+                  ? "border-accent/40 bg-accent/5 hover:bg-accent/10"
+                  : "border-border bg-card hover:border-accent/30",
+              )}
+            >
+              <div className={cn(
+                "flex h-9 w-9 items-center justify-center rounded-lg",
+                accent ? "bg-accent/15 text-accent" : "bg-secondary text-muted-foreground group-hover:text-accent",
+              )}>
+                <Icon className="h-4.5 w-4.5 h-[18px] w-[18px]" />
+              </div>
+              <div>
+                <p className={cn("text-sm font-semibold", accent && "text-accent")}>{label}</p>
+                <p className="text-[11px] text-muted-foreground leading-snug mt-0.5">{description}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* ── Continue / Start learning ── */}
+      {nextModule && (
+        <section className="space-y-3">
+          <h2 className="font-serif text-xl font-semibold">
+            {inProgressModules.length > 0 ? "Continue Learning" : "Start Here"}
+          </h2>
+          <Link
+            to={`/modules/${nextModule.slug}`}
+            className="group flex items-center justify-between gap-4 rounded-xl border border-border bg-card p-5 hover:border-accent/40 hover:shadow-md transition-all"
+          >
+            <div className="flex items-center gap-4 min-w-0">
+              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-accent/10 text-accent">
+                <GraduationCap className="h-5 w-5" />
+              </div>
+              <div className="min-w-0">
+                <p className="text-xs text-muted-foreground mb-0.5">
+                  {inProgressModules.length > 0 ? "Pick up where you left off" : "Recommended next lesson"}
+                </p>
+                <p className="font-semibold text-sm truncate">{nextModule.title}</p>
+                <p className="text-xs text-muted-foreground truncate">{nextModule.summary}</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2 shrink-0">
+              {progress[nextModule.slug] && !isPassed(progress[nextModule.slug]) && (
+                <Badge variant="outline" className="text-[10px] hidden sm:flex">
+                  Last: {progress[nextModule.slug].lastScore ?? 0}%
+                </Badge>
+              )}
+              <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-accent transition-colors" />
+            </div>
+          </Link>
+        </section>
+      )}
+
+      {/* ── Course modules grid ── */}
       <section className="space-y-4">
         <div className="flex items-baseline justify-between">
           <h2 className="font-serif text-2xl font-semibold">Course Modules</h2>
-          <p className="text-xs text-muted-foreground">All modules are open — start anywhere.</p>
+          <p className="text-xs text-muted-foreground hidden sm:block">All modules are open — start anywhere.</p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {MASTER_GROUPS.map((mg) => {
@@ -146,7 +266,12 @@ export default function HomePage() {
                       <Progress value={pct} className="h-1.5" />
                     </div>
                   )}
-                  <Button asChild size="sm" variant={started && !stats.complete ? "default" : "outline"} className="w-full mt-1">
+                  <Button
+                    asChild
+                    size="sm"
+                    variant={started && !stats.complete ? "default" : "outline"}
+                    className="w-full mt-1"
+                  >
                     <Link to={`/groups?master=${mg.slug}`}>
                       {stats.complete ? "Review" : started ? "Continue" : "Start"}
                       <ArrowRight className="h-3.5 w-3.5" />
@@ -157,6 +282,21 @@ export default function HomePage() {
             );
           })}
         </div>
+      </section>
+
+      {/* ── Footer tip ── */}
+      <section className="rounded-xl border border-dashed border-border bg-secondary/30 px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="space-y-0.5">
+          <p className="text-sm font-medium">Ready to test yourself?</p>
+          <p className="text-xs text-muted-foreground">
+            Try a full-length TOEFL iBT or ITP practice test — timed, scored, with answer review.
+          </p>
+        </div>
+        <Button asChild size="sm" className="shrink-0">
+          <Link to="/mock-test">
+            Go to Mock Test <ArrowRight className="h-3.5 w-3.5" />
+          </Link>
+        </Button>
       </section>
 
     </div>

@@ -1,0 +1,1109 @@
+{
+  "id": "ielts-package-3",
+  "format": "ielts",
+  "title": "IELTS Academic Practice Test 3",
+  "listening": {
+    "timeLimit": 2400,
+    "totalQuestions": 40,
+    "parts": [
+      {
+        "id": "ielts3-l-part1",
+        "type": "everyday_conversation",
+        "name": "Part 1 — Everyday Conversation",
+        "instruction": "Listen to a conversation between two people. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Coordinator: Good afternoon, Greenfield Community Volunteering Centre, this is Marcus speaking. How can I help you?\n\nCaller: Oh, hello. I'm calling because I'd like to find out about volunteer opportunities. I came across your organisation online. My name's Priya Nair.\n\nCoordinator: Hi, Priya. Great to hear from you. We have a range of programmes running at the moment. Are you interested in anything specific, or would you like a general overview?\n\nCaller: I'm particularly interested in anything involving animals or gardening — those are the two areas I feel most passionate about.\n\nCoordinator: Perfect. We actually have both. Our animal shelter partnership programme runs every Saturday morning from eight to twelve at the Greenfield Animal Rescue Centre on Holbrook Lane. Volunteers help with feeding, socialising the animals, and basic grooming. We currently have spaces for three more volunteers in that programme.\n\nCaller: Oh, that sounds wonderful. Is there any experience required?\n\nCoordinator: No formal experience is needed, but we do ask that you attend a two-hour induction session before your first shift. The next induction is on the fourteenth of this month — a Thursday evening, from six to eight o'clock.\n\nCaller: I can make that. What about the gardening side of things?\n\nCoordinator: That's our community garden project — it's on Wednesdays and Fridays, from nine in the morning until one in the afternoon. We have a half-hectare plot just behind the library on Stanton Road. Volunteers help with planting, weeding, and harvesting. Any produce grown is donated to the local food bank.\n\nCaller: I love that idea. Could I do both — the animal shelter on Saturdays and the garden on Wednesdays?\n\nCoordinator: Absolutely — many of our volunteers do more than one programme. You'd just need to make sure you've completed the general induction first, which covers health and safety for all our sites.\n\nCaller: Is there a minimum commitment for either programme?\n\nCoordinator: We ask for at least two months from new volunteers, so we can provide proper training and continuity. After that, it's entirely flexible — some people stay with us for years.\n\nCaller: That seems very reasonable. Is there any cost involved?\n\nCoordinator: No, it's completely free to volunteer. We do ask that volunteers provide their own transport to sites, though. The animal shelter isn't on a direct bus route, I'm afraid.\n\nCaller: That's fine — I have a car. Now, will I need any particular clothing or equipment?\n\nCoordinator: For the animal shelter, we provide aprons and gloves. For the garden, we recommend sturdy closed-toe shoes and we have tools on site, but you're welcome to bring your own if you prefer. Sun protection in summer is advisable too.\n\nCaller: Great. How do I actually register?\n\nCoordinator: I can take your details now and send you a registration form by email. Could I take your email address?\n\nCaller: It's p.nair — that's N-A-I-R — at brightmail dot net.\n\nCoordinator: Got that. And a contact number?\n\nCaller: Zero seven eight, five three, two four one, nine six zero.\n\nCoordinator: Brilliant. You'll receive the form within twenty-four hours. Once we receive it back, we'll confirm your place at the induction and both programmes.\n\nCaller: Wonderful. Thank you so much, Marcus.\n\nCoordinator: Thank you, Priya. We look forward to welcoming you to the team.",
+        "items": [
+          {
+            "id": "ielts3-l1-1",
+            "question": "Why is Priya Nair calling the Greenfield Community Volunteering Centre?",
+            "options": [
+              "A. To enquire about paid employment opportunities.",
+              "B. To find out about volunteer opportunities.",
+              "C. To report a problem with a previous registration.",
+              "D. To donate money to the organisation."
+            ],
+            "answer": "B",
+            "explanation": "Priya says 'I'd like to find out about volunteer opportunities' at the start of the call."
+          },
+          {
+            "id": "ielts3-l1-2",
+            "question": "Which two areas is Priya most interested in volunteering?",
+            "options": [
+              "A. Teaching and mentoring.",
+              "B. Animals and gardening.",
+              "C. Administration and fundraising.",
+              "D. Cooking and event management."
+            ],
+            "answer": "B",
+            "explanation": "Priya says 'I'm particularly interested in anything involving animals or gardening — those are the two areas I feel most passionate about.'"
+          },
+          {
+            "id": "ielts3-l1-3",
+            "question": "When does the animal shelter volunteer programme run?",
+            "options": [
+              "A. Every Sunday from nine to one.",
+              "B. Every Saturday morning from eight to twelve.",
+              "C. Every Friday afternoon from one to five.",
+              "D. Every Wednesday morning from eight to twelve."
+            ],
+            "answer": "B",
+            "explanation": "The coordinator states the animal shelter programme 'runs every Saturday morning from eight to twelve.'"
+          },
+          {
+            "id": "ielts3-l1-4",
+            "question": "What must Priya do before her first volunteering shift?",
+            "options": [
+              "A. Complete a written test on animal care.",
+              "B. Attend a two-hour induction session.",
+              "C. Undergo a formal interview with the centre manager.",
+              "D. Submit a reference from a previous employer."
+            ],
+            "answer": "B",
+            "explanation": "The coordinator says 'we do ask that you attend a two-hour induction session before your first shift.'"
+          },
+          {
+            "id": "ielts3-l1-5",
+            "question": "Where is the community garden project located?",
+            "options": [
+              "A. On Holbrook Lane, adjacent to the animal rescue centre.",
+              "B. Behind the library on Stanton Road.",
+              "C. On the Greenfield town recreation ground.",
+              "D. Next to the Greenfield Community Volunteering Centre itself."
+            ],
+            "answer": "B",
+            "explanation": "The coordinator says the garden is 'just behind the library on Stanton Road.'"
+          },
+          {
+            "id": "ielts3-l1-6",
+            "question": "What happens to the produce grown in the community garden?",
+            "options": [
+              "A. It is sold at a weekly market to fund the centre.",
+              "B. It is given to volunteers to take home.",
+              "C. It is donated to the local food bank.",
+              "D. It is used in a community café on site."
+            ],
+            "answer": "C",
+            "explanation": "The coordinator states 'Any produce grown is donated to the local food bank.'"
+          },
+          {
+            "id": "ielts3-l1-7",
+            "question": "What is the minimum commitment the centre asks of new volunteers?",
+            "options": [
+              "A. One month.",
+              "B. Three months.",
+              "C. Six months.",
+              "D. Two months."
+            ],
+            "answer": "D",
+            "explanation": "The coordinator says 'We ask for at least two months from new volunteers, so we can provide proper training and continuity.'"
+          },
+          {
+            "id": "ielts3-l1-8",
+            "question": "What does the centre NOT provide for animal shelter volunteers?",
+            "options": [
+              "A. Aprons.",
+              "B. Gloves.",
+              "C. Transport to the site.",
+              "D. On-site induction training."
+            ],
+            "answer": "C",
+            "explanation": "The coordinator says volunteers must 'provide their own transport to sites' and that the animal shelter 'isn't on a direct bus route.'"
+          },
+          {
+            "id": "ielts3-l1-9",
+            "question": "What is Priya's email domain?",
+            "options": [
+              "A. brightmail.co.uk",
+              "B. bright-mail.net",
+              "C. brightmail.net",
+              "D. bright.mail.net"
+            ],
+            "answer": "C",
+            "explanation": "Priya spells her email as 'p.nair at brightmail dot net,' making the domain brightmail.net."
+          },
+          {
+            "id": "ielts3-l1-10",
+            "question": "How will Priya receive her registration form?",
+            "options": [
+              "A. She will collect it in person from the centre.",
+              "B. It will be posted to her home address.",
+              "C. She will download it from the centre's website.",
+              "D. It will be sent to her by email within twenty-four hours."
+            ],
+            "answer": "D",
+            "explanation": "The coordinator says 'You'll receive the form within twenty-four hours' after taking her email address, confirming email delivery."
+          }
+        ]
+      },
+      {
+        "id": "ielts3-l-part2",
+        "type": "monologue",
+        "name": "Part 2 — Monologue",
+        "instruction": "Listen to a radio programme about a city's new cycling infrastructure. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Good morning, and welcome back to Urban Futures — the programme where we explore the cities of tomorrow. I'm your host, Diana Carr, and today we're looking at Northvale City Council's ambitious new cycling infrastructure project, which is set to transform how residents move around the city.\n\nThe project, officially named Northvale Cycle Connect, was approved by the council in March of last year following an eighteen-month consultation period with residents, transport planners, and local businesses. It's one of the largest urban cycling investment programmes in the country, with a budget of forty-two million pounds spread over three years.\n\nSo what exactly is being built? The centrepiece of the project is a network of twenty-two kilometres of fully protected cycle lanes — that's lanes physically separated from motor traffic by kerbing or raised barriers, not just painted lines on the road. This is significant because research consistently shows that painted lanes alone do not substantially increase cycling rates among people who don't already cycle. Physical separation makes cycling feel safe for a much wider range of people, including children and older adults.\n\nThe network is being built in three phases. Phase one, which covers the city centre and the two main commuter corridors into the business district, is already underway and is due for completion by the end of September. Phase two will extend the network into the eastern suburbs, which currently have the lowest cycling rates in the city — partly because the area is hilly and partly because there has historically been very little infrastructure there. Phase three will connect the network to the central railway station and the city's three largest secondary schools, prioritising routes for young people.\n\nAlongside the physical infrastructure, the project includes a substantial programme of complementary measures. These include the installation of three hundred new secure cycle storage lockers at key locations across the city — at train stations, shopping centres, and major employers. A subsidised cycle purchase scheme is also being introduced, through which residents on low incomes can buy a new bicycle at a thirty percent discount through a partnership with two local retailers.\n\nBusinesses along the proposed routes had mixed initial reactions. Concerns were raised, as they frequently are, about the impact of removing on-street parking to make way for cycle lanes. However, a study of similar schemes in other cities — most notably Bristol and Edinburgh — found that cycle-friendly streets typically see a net increase in retail footfall, as cyclists make more frequent short shopping trips than drivers.\n\nThe council is targeting a fifty percent increase in the number of regular cyclists in Northvale by 2028, which would bring the city in line with the national cycling strategy targets. Residents can follow the project's progress and access real-time construction updates on the dedicated website at northvale-cycleconnect dot gov dot uk. That's all one word before the dot gov. Thank you for listening — and next week on Urban Futures, we'll be looking at green rooftop initiatives in Sheffield.",
+        "items": [
+          {
+            "id": "ielts3-l2-1",
+            "question": "How long was the consultation period before the Northvale Cycle Connect project was approved?",
+            "options": [
+              "A. Six months.",
+              "B. One year.",
+              "C. Eighteen months.",
+              "D. Two years."
+            ],
+            "answer": "C",
+            "explanation": "Diana states the project was approved 'following an eighteen-month consultation period with residents, transport planners, and local businesses.'"
+          },
+          {
+            "id": "ielts3-l2-2",
+            "question": "What is the total budget for the Northvale Cycle Connect project?",
+            "options": [
+              "A. Twenty-two million pounds.",
+              "B. Thirty million pounds.",
+              "C. Forty-two million pounds.",
+              "D. Fifty million pounds."
+            ],
+            "answer": "C",
+            "explanation": "Diana says the project has 'a budget of forty-two million pounds spread over three years.'"
+          },
+          {
+            "id": "ielts3-l2-3",
+            "question": "What distinguishes the new cycle lanes from ordinary painted road markings?",
+            "options": [
+              "A. They are wider than standard cycle lanes in other cities.",
+              "B. They are physically separated from motor traffic by kerbing or barriers.",
+              "C. They are open to e-scooters as well as bicycles.",
+              "D. They are illuminated at night for improved safety."
+            ],
+            "answer": "B",
+            "explanation": "Diana explains the lanes are 'physically separated from motor traffic by kerbing or raised barriers, not just painted lines on the road.'"
+          },
+          {
+            "id": "ielts3-l2-4",
+            "question": "Why does the eastern suburb have the lowest cycling rates in the city?",
+            "options": [
+              "A. It has the highest proportion of elderly residents.",
+              "B. It is hilly and has historically had very little cycling infrastructure.",
+              "C. It has no direct connection to the city centre by road.",
+              "D. Cycling is culturally less accepted in that part of the city."
+            ],
+            "answer": "B",
+            "explanation": "Diana says the eastern suburbs have low cycling rates 'partly because the area is hilly and partly because there has historically been very little infrastructure there.'"
+          },
+          {
+            "id": "ielts3-l2-5",
+            "question": "What will Phase three of the project prioritise?",
+            "options": [
+              "A. Connecting the network to industrial areas and warehouses.",
+              "B. Extending lanes to the western residential suburbs.",
+              "C. Routes to the central railway station and the three largest secondary schools.",
+              "D. Building a dedicated cycling bridge over the river."
+            ],
+            "answer": "C",
+            "explanation": "Diana says Phase three will connect 'the network to the central railway station and the city's three largest secondary schools, prioritising routes for young people.'"
+          },
+          {
+            "id": "ielts3-l2-6",
+            "question": "How many secure cycle storage lockers will be installed as part of the project?",
+            "options": [
+              "A. One hundred.",
+              "B. Two hundred.",
+              "C. Two hundred and fifty.",
+              "D. Three hundred."
+            ],
+            "answer": "D",
+            "explanation": "Diana specifies 'the installation of three hundred new secure cycle storage lockers at key locations across the city.'"
+          },
+          {
+            "id": "ielts3-l2-7",
+            "question": "Who is eligible for the subsidised cycle purchase scheme?",
+            "options": [
+              "A. All Northvale residents who do not currently own a bicycle.",
+              "B. Residents on low incomes.",
+              "C. Students at the city's secondary schools.",
+              "D. Employees of businesses along the cycle routes."
+            ],
+            "answer": "B",
+            "explanation": "Diana says the scheme allows 'residents on low incomes' to buy a new bicycle at a thirty percent discount."
+          },
+          {
+            "id": "ielts3-l2-8",
+            "question": "What evidence does Diana cite to address business concerns about lost parking?",
+            "options": [
+              "A. Data showing that most customers at city centre shops arrive by car.",
+              "B. A council promise to compensate businesses for lost trade.",
+              "C. Research from schemes in Bristol and Edinburgh showing cycle-friendly streets increase retail footfall.",
+              "D. A survey of Northvale shoppers showing most already cycle to the city centre."
+            ],
+            "answer": "C",
+            "explanation": "Diana references 'a study of similar schemes in other cities — most notably Bristol and Edinburgh — found that cycle-friendly streets typically see a net increase in retail footfall.'"
+          },
+          {
+            "id": "ielts3-l2-9",
+            "question": "What is the council's cycling target by 2028?",
+            "options": [
+              "A. A doubling of the number of regular cyclists.",
+              "B. A fifty percent increase in the number of regular cyclists.",
+              "C. A twenty-five percent increase in cycling trips across the city.",
+              "D. Achieving the highest cycling rate of any city in the country."
+            ],
+            "answer": "B",
+            "explanation": "Diana states 'The council is targeting a fifty percent increase in the number of regular cyclists in Northvale by 2028.'"
+          },
+          {
+            "id": "ielts3-l2-10",
+            "question": "What topic will the next episode of Urban Futures cover?",
+            "options": [
+              "A. Electric bus networks in Manchester.",
+              "B. Green rooftop initiatives in Sheffield.",
+              "C. Pedestrianisation schemes in Edinburgh.",
+              "D. River transport projects in Bristol."
+            ],
+            "answer": "B",
+            "explanation": "Diana closes by saying 'next week on Urban Futures, we'll be looking at green rooftop initiatives in Sheffield.'"
+          }
+        ]
+      },
+      {
+        "id": "ielts3-l-part3",
+        "type": "academic_discussion",
+        "name": "Part 3 — Academic Discussion",
+        "instruction": "Listen to a discussion between two students and their supervisor about a fieldwork report. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Supervisor: So today I want to go through the draft of your fieldwork report on municipal waste management practices. You've been looking at two local authorities — Redham and Westport — comparing their approaches. Where would you like to start?\n\nAisha: I think the main finding is quite striking — despite having similar population sizes, Redham diverts sixty-three percent of its household waste from landfill while Westport only manages thirty-eight percent. The gap was larger than we expected.\n\nSupervisor: That's a significant difference. What do you attribute it to?\n\nTom: Well, we initially assumed the main variable would be collection frequency — we thought authorities that collect more often would have higher diversion rates. But that wasn't the pattern we found.\n\nSupervisor: Interesting. What was the stronger predictor?\n\nAisha: It was the structure of the collection system itself. Redham uses a co-mingled recycling system with a single bin for all recyclables, whereas Westport still requires residents to sort waste into five separate streams. Redham's participation rate is much higher.\n\nSupervisor: Did you look at the quality of the recyclate as well as the quantity?\n\nTom: We tried to. Redham's co-mingled system produces more contaminated material — some of which gets rejected at the sorting facility. But even accounting for rejection rates, Redham's net diversion is still substantially better than Westport's.\n\nSupervisor: That's a nuanced finding. How did you handle the data from the sorting facilities?\n\nAisha: We contacted both councils for their annual waste returns, which are submitted to the Environment Agency. Redham gave us full access quite quickly, but Westport was much slower to respond — it took nearly three weeks. That delayed our analysis.\n\nSupervisor: That's worth flagging in your methodology section as a limitation. What about resident attitudes — did you gather any primary data on that?\n\nTom: We did a short online survey — forty-three responses from Redham and thirty-one from Westport. The sample is small, so we're treating it as indicative rather than statistically representative.\n\nSupervisor: What did the survey reveal?\n\nAisha: In Redham, over seventy percent of respondents said they found the recycling system easy to use. In Westport, that figure was only thirty-one percent. Several Westport respondents mentioned confusion about which stream to use for specific items — things like plastic-coated cardboard or small electrical items.\n\nSupervisor: That's qualitatively very useful, even with a small sample. What's your recommendation?\n\nTom: We're recommending that Westport trial a co-mingled system in one postcode district before committing to a full rollout — partly to assess whether the quality trade-off is acceptable locally, and partly because changing a collection system is expensive and disruptive.\n\nSupervisor: That's a prudent recommendation. One thing I'd push you on — your report currently treats the two authorities as if they're directly comparable, but aren't there significant differences in housing stock? Redham has a higher proportion of houses with gardens and dedicated bin storage, while Westport has a larger proportion of flats.\n\nAisha: You're right — we mention it briefly but we haven't analysed it as a potential confounding variable. We'll add a section on that.\n\nSupervisor: Good. That's probably the most important methodological gap. Flat-dwelling residents face genuine practical barriers to recycling regardless of system design, so isolating the system variable properly is crucial. Overall, this is solid work — just address that confound clearly.",
+        "items": [
+          {
+            "id": "ielts3-l3-1",
+            "question": "What is the main focus of Aisha and Tom's fieldwork report?",
+            "options": [
+              "A. Comparing energy consumption in two local authorities.",
+              "B. Comparing waste management practices and diversion rates in two councils.",
+              "C. Investigating public attitudes towards recycling in urban areas.",
+              "D. Evaluating the environmental impact of landfill sites near residential areas."
+            ],
+            "answer": "B",
+            "explanation": "The supervisor introduces the report as being about 'municipal waste management practices' comparing Redham and Westport."
+          },
+          {
+            "id": "ielts3-l3-2",
+            "question": "What percentage of household waste does Redham divert from landfill?",
+            "options": [
+              "A. Thirty-eight percent.",
+              "B. Forty-five percent.",
+              "C. Fifty-five percent.",
+              "D. Sixty-three percent."
+            ],
+            "answer": "D",
+            "explanation": "Aisha states that 'Redham diverts sixty-three percent of its household waste from landfill.'"
+          },
+          {
+            "id": "ielts3-l3-3",
+            "question": "What did the students initially assume would be the main predictor of high diversion rates?",
+            "options": [
+              "A. The size of residents' recycling bins.",
+              "B. The frequency of waste collection.",
+              "C. The level of financial penalties for incorrect sorting.",
+              "D. The proximity of sorting facilities to residential areas."
+            ],
+            "answer": "B",
+            "explanation": "Tom says 'we initially assumed the main variable would be collection frequency — we thought authorities that collect more often would have higher diversion rates.'"
+          },
+          {
+            "id": "ielts3-l3-4",
+            "question": "What was the actual stronger predictor of diversion rates in the students' findings?",
+            "options": [
+              "A. The council's annual waste budget per household.",
+              "B. The proportion of detached houses versus flats in the area.",
+              "C. The structure of the collection system — co-mingled versus multi-stream sorting.",
+              "D. The availability of household composting incentives."
+            ],
+            "answer": "C",
+            "explanation": "Aisha explains the stronger predictor was 'the structure of the collection system itself — Redham uses a co-mingled recycling system... whereas Westport still requires residents to sort waste into five separate streams.'"
+          },
+          {
+            "id": "ielts3-l3-5",
+            "question": "What limitation did the students encounter when gathering data from Westport?",
+            "options": [
+              "A. Westport refused to share any data with external researchers.",
+              "B. The data from Westport contained significant errors and had to be discarded.",
+              "C. Westport took nearly three weeks to respond, delaying the analysis.",
+              "D. Westport's waste returns were not submitted to the Environment Agency."
+            ],
+            "answer": "C",
+            "explanation": "Aisha says 'Westport was much slower to respond — it took nearly three weeks. That delayed our analysis.'"
+          },
+          {
+            "id": "ielts3-l3-6",
+            "question": "How many survey responses did the students receive in total from both councils?",
+            "options": [
+              "A. Sixty-one.",
+              "B. Seventy-four.",
+              "C. Forty-three.",
+              "D. Thirty-one."
+            ],
+            "answer": "B",
+            "explanation": "Tom says they received 'forty-three responses from Redham and thirty-one from Westport,' totalling seventy-four."
+          },
+          {
+            "id": "ielts3-l3-7",
+            "question": "What percentage of Redham survey respondents found their recycling system easy to use?",
+            "options": [
+              "A. Thirty-one percent.",
+              "B. Fifty percent.",
+              "C. Over seventy percent.",
+              "D. Eighty-five percent."
+            ],
+            "answer": "C",
+            "explanation": "Aisha states 'In Redham, over seventy percent of respondents said they found the recycling system easy to use.'"
+          },
+          {
+            "id": "ielts3-l3-8",
+            "question": "What practical recommendation do the students make for Westport?",
+            "options": [
+              "A. That Westport immediately replaces its entire collection system with co-mingled bins.",
+              "B. That Westport trials a co-mingled system in one postcode district before a full rollout.",
+              "C. That Westport introduces financial penalties for incorrect waste sorting.",
+              "D. That Westport increases its collection frequency to match Redham's."
+            ],
+            "answer": "B",
+            "explanation": "Tom says they recommend 'that Westport trial a co-mingled system in one postcode district before committing to a full rollout.'"
+          },
+          {
+            "id": "ielts3-l3-9",
+            "question": "What confounding variable does the supervisor identify that the students have not adequately addressed?",
+            "options": [
+              "A. Differences in council tax rates between the two authorities.",
+              "B. Differences in the age demographics of residents in each area.",
+              "C. Differences in housing stock — Redham has more houses, Westport more flats.",
+              "D. Differences in the distance residents travel to access recycling centres."
+            ],
+            "answer": "C",
+            "explanation": "The supervisor points out that 'Redham has a higher proportion of houses with gardens and dedicated bin storage, while Westport has a larger proportion of flats' — a confounding variable the students have not properly analysed."
+          },
+          {
+            "id": "ielts3-l3-10",
+            "question": "Why does the supervisor say it is crucial to isolate the collection system variable properly?",
+            "options": [
+              "A. Because comparing different system types is not scientifically valid without controls.",
+              "B. Because flat-dwelling residents face practical recycling barriers regardless of system design.",
+              "C. Because the Environment Agency requires controlled comparisons in research reports.",
+              "D. Because Westport's data is too unreliable to use without additional controls."
+            ],
+            "answer": "B",
+            "explanation": "The supervisor explains 'Flat-dwelling residents face genuine practical barriers to recycling regardless of system design, so isolating the system variable properly is crucial.'"
+          }
+        ]
+      },
+      {
+        "id": "ielts3-l-part4",
+        "type": "academic_lecture",
+        "name": "Part 4 — Academic Lecture",
+        "instruction": "Listen to an academic lecture on the Green Revolution in agriculture. Answer the questions by choosing the correct letter, A, B, C or D.",
+        "script": "Good afternoon, everyone. Today's lecture focuses on what is arguably one of the most consequential technological interventions in modern agricultural history — the Green Revolution. This was a period of dramatic transformation in global food production, spanning roughly the 1940s through the 1970s, during which the development and dissemination of high-yielding crop varieties, synthetic fertilisers, and irrigation technology averted what many demographers of the time predicted would be catastrophic famines in the developing world.\n\nThe intellectual origins of the Green Revolution are most closely associated with the work of Norman Borlaug, an American agronomist who spent decades working in Mexico under the patronage of the Rockefeller Foundation. Borlaug's primary achievement was the development of semi-dwarf, disease-resistant wheat varieties that produced unprecedented yields under optimal conditions. Traditional tall wheat varieties tended to collapse under the weight of heavy grain heads when fertilised heavily — a problem agronomists call lodging. Borlaug's semi-dwarf varieties had shorter, stronger stems that could support large grain heads without collapsing, enabling the application of much higher levels of nitrogen fertiliser and consequently much higher yields. For this work, Borlaug received the Nobel Peace Prize in 1970.\n\nThe technologies developed in Mexico were subsequently transferred to South Asia, where they had their most dramatic demographic impact. India and Pakistan, both facing severe food crises in the mid-1960s, introduced Borlaug's wheat varieties on a large scale. Between 1965 and 1970, wheat production in India doubled. The Philippines similarly adopted the new rice varieties developed at the International Rice Research Institute — known as IRRI — founded in 1960 in Los Baños with funding from the Ford and Rockefeller foundations. IRRI's high-yielding rice varieties, particularly IR8 — often nicknamed 'Miracle Rice' — could produce three to four times the yield of traditional varieties under optimal conditions.\n\nBy almost any measure of its primary objective — preventing famine — the Green Revolution was extraordinarily successful. Estimates suggest it saved over a billion people from starvation during the second half of the twentieth century. But success at scale brought consequences that its architects had not fully anticipated. The new crop varieties were highly input-dependent: they required substantial quantities of chemical fertiliser, pesticide, and controlled irrigation to realise their full yield potential. Farmers who could not afford these inputs — often the poorest smallholders — were unable to benefit from the new varieties and fell further behind their wealthier neighbours, worsening rural inequality in several countries.\n\nThe ecological consequences were also substantial. The intensive application of nitrogen fertilisers led to the widespread eutrophication of waterways, as excess nitrates leached into rivers and groundwater. Monoculture agriculture — the cultivation of single crop varieties over vast areas — dramatically reduced agricultural biodiversity. Many traditional crop varieties, adapted over centuries to local conditions and possessing valuable genetic traits such as drought tolerance or pest resistance, were abandoned and in some cases lost entirely. Scientists now recognise that this genetic erosion represents a long-term threat to agricultural resilience.\n\nPerhaps the most enduring and politically charged critique of the Green Revolution concerns what it was not: a solution to hunger's root causes. Critics, including the Nobel laureate economist Amartya Sen, have argued that famine is rarely caused by absolute food shortages but by failures of distribution, purchasing power, and political will. Increasing food production does not, by itself, ensure that the poor can access food. In some analyses, the Green Revolution's emphasis on production rather than distribution entrenched the economic structures that perpetuate food insecurity.\n\nA second Green Revolution is now widely discussed — this time focused on genetic modification, precision agriculture, and climate-resilient crop varieties. Whether this new wave of agricultural innovation can avoid repeating the Green Revolution's missteps, while addressing the food security challenges of a planet of nearly ten billion people, remains one of the defining questions of twenty-first-century food policy.",
+        "items": [
+          {
+            "id": "ielts3-l4-1",
+            "question": "What was the primary objective of the Green Revolution, as described in the lecture?",
+            "options": [
+              "A. To reduce the environmental impact of industrial farming.",
+              "B. To prevent catastrophic famines in the developing world through increased food production.",
+              "C. To generate commercial profit for agricultural corporations in the United States.",
+              "D. To develop disease-resistant livestock for export to developing nations."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer says the Green Revolution 'averted what many demographers of the time predicted would be catastrophic famines in the developing world.'"
+          },
+          {
+            "id": "ielts3-l4-2",
+            "question": "What problem did Norman Borlaug's semi-dwarf wheat varieties solve?",
+            "options": [
+              "A. Traditional varieties were too slow to grow in tropical climates.",
+              "B. Traditional tall varieties collapsed under their own weight when heavily fertilised.",
+              "C. Traditional varieties were not nutritious enough to sustain growing populations.",
+              "D. Traditional varieties were susceptible to a newly emerged wheat fungus."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer explains that 'traditional tall wheat varieties tended to collapse under the weight of heavy grain heads when fertilised heavily,' a problem called lodging. Borlaug's semi-dwarf varieties solved this."
+          },
+          {
+            "id": "ielts3-l4-3",
+            "question": "In which year did Norman Borlaug receive the Nobel Peace Prize?",
+            "options": [
+              "A. 1960.",
+              "B. 1965.",
+              "C. 1970.",
+              "D. 1975."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer states 'For this work, Borlaug received the Nobel Peace Prize in 1970.'"
+          },
+          {
+            "id": "ielts3-l4-4",
+            "question": "What happened to wheat production in India between 1965 and 1970?",
+            "options": [
+              "A. It increased by approximately fifty percent.",
+              "B. It doubled.",
+              "C. It tripled.",
+              "D. It remained largely unchanged."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer states 'Between 1965 and 1970, wheat production in India doubled' following adoption of Borlaug's wheat varieties."
+          },
+          {
+            "id": "ielts3-l4-5",
+            "question": "What nickname was given to IRRI's high-yielding rice variety IR8?",
+            "options": [
+              "A. 'Super Rice.'",
+              "B. 'Asian Wonder.'",
+              "C. 'Golden Rice.'",
+              "D. 'Miracle Rice.'"
+            ],
+            "answer": "D",
+            "explanation": "The lecturer says IR8 'was often nicknamed Miracle Rice' and could produce three to four times the yield of traditional varieties."
+          },
+          {
+            "id": "ielts3-l4-6",
+            "question": "Why were the poorest smallholder farmers unable to benefit fully from the new crop varieties?",
+            "options": [
+              "A. The new varieties required specialist knowledge that was not shared with smallholders.",
+              "B. The varieties were patented, and smallholders were prohibited from using them legally.",
+              "C. The varieties were highly input-dependent and required chemical fertiliser and irrigation that smallholders could not afford.",
+              "D. Smallholders' plots were too small for the mechanised equipment needed to grow the new varieties."
+            ],
+            "answer": "C",
+            "explanation": "The lecturer explains the new varieties 'required substantial quantities of chemical fertiliser, pesticide, and controlled irrigation' that the poorest smallholders could not afford."
+          },
+          {
+            "id": "ielts3-l4-7",
+            "question": "What ecological consequence of the Green Revolution does the lecturer describe?",
+            "options": [
+              "A. Widespread deforestation to create new agricultural land.",
+              "B. Eutrophication of waterways caused by excess nitrogen fertilisers leaching into rivers.",
+              "C. Desertification of previously fertile land due to over-irrigation.",
+              "D. A dramatic increase in greenhouse gas emissions from livestock farming."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer states 'The intensive application of nitrogen fertilisers led to the widespread eutrophication of waterways, as excess nitrates leached into rivers and groundwater.'"
+          },
+          {
+            "id": "ielts3-l4-8",
+            "question": "What long-term threat does the lecturer associate with the loss of traditional crop varieties?",
+            "options": [
+              "A. The collapse of export markets for developing countries.",
+              "B. A risk to agricultural resilience due to genetic erosion.",
+              "C. The dependence of farmers on imported seeds for future harvests.",
+              "D. The inability of future scientists to develop new pesticides."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer says 'Scientists now recognise that this genetic erosion represents a long-term threat to agricultural resilience.'"
+          },
+          {
+            "id": "ielts3-l4-9",
+            "question": "What argument does the economist Amartya Sen make about famine, as cited in the lecture?",
+            "options": [
+              "A. Famine is primarily caused by climate change and drought rather than food production failures.",
+              "B. Famine is rarely caused by absolute food shortages but by failures of distribution, purchasing power, and political will.",
+              "C. Famine can always be prevented by sufficiently high levels of food aid from wealthy nations.",
+              "D. Famine affects wealthy and poor countries equally when global food prices are high."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer attributes to Sen the argument that 'famine is rarely caused by absolute food shortages but by failures of distribution, purchasing power, and political will.'"
+          },
+          {
+            "id": "ielts3-l4-10",
+            "question": "What does the lecturer describe as the defining question for a 'second Green Revolution'?",
+            "options": [
+              "A. Whether developing nations will accept genetically modified crops.",
+              "B. Whether new agricultural innovation can avoid past mistakes while feeding a planet of nearly ten billion people.",
+              "C. Whether the intellectual property rights to new crop varieties should belong to governments or corporations.",
+              "D. Whether organic farming can produce sufficient yields to replace industrial agriculture."
+            ],
+            "answer": "B",
+            "explanation": "The lecturer states 'Whether this new wave of agricultural innovation can avoid repeating the Green Revolution's missteps, while addressing the food security challenges of a planet of nearly ten billion people, remains one of the defining questions of twenty-first-century food policy.'"
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "timeLimit": 3600,
+    "totalQuestions": 40,
+    "passages": [
+      {
+        "id": "ielts3-r-passage1",
+        "title": "The Science of Memory: How We Remember and Why We Forget",
+        "text": "Memory is so fundamental to human experience that it is easy to overlook how extraordinary its mechanisms are. Every autobiographical recollection, every learned skill, every recognition of a familiar face depends on a cascade of molecular events within the brain — events that are still only partially understood despite decades of intensive neuroscientific inquiry. The study of memory has moved from the clinic, where amnesic patients revealed the critical roles of specific brain structures, to the molecular biology laboratory, where researchers now investigate the very synaptic changes that underpin learning and recall.\n\nThe modern understanding of memory formation owes much to the case of Henry Molaison, known in the scientific literature by his initials H.M., who in 1953 underwent bilateral surgical removal of his hippocampus and adjacent medial temporal lobe structures in an attempt to control severe epilepsy. The surgery was successful in reducing his seizures but produced a profound and unexpected consequence: H.M. lost the ability to form new long-term memories. He could recall events from before his surgery with reasonable accuracy, and his short-term memory — his ability to hold information in mind for seconds to minutes — remained intact. But anything that happened after the surgery was forgotten almost immediately. H.M. could not learn the names of people he met daily, could not remember conversations held moments before, and had no awareness that decades were passing. His tragic condition demonstrated, with clinical precision, that the hippocampus is essential for the consolidation of new declarative memories — memories of facts and events.\n\nMemory consolidation — the process by which new, fragile memories are stabilised into durable long-term storage — occurs in two phases. The first is synaptic consolidation, which happens within hours of learning and involves the strengthening of synaptic connections through a molecular process called long-term potentiation, or LTP. When neurons fire together repeatedly, the synaptic connections between them are strengthened through a cascade of biochemical changes, including the insertion of additional AMPA receptors into the post-synaptic membrane and structural remodelling of the synapse itself. The guiding principle of LTP — often summarised as 'neurons that fire together, wire together' — was proposed by the Canadian psychologist Donald Hebb in 1949, decades before the molecular mechanisms were elucidated.\n\nThe second phase is systems consolidation, a much slower process believed to occur over weeks, months, or even years, during which memories are gradually transferred from the hippocampus to the neocortex for permanent storage. Sleep is now understood to play a central role in this process. During slow-wave sleep, the hippocampus replays patterns of neural activity that occurred during waking experience — a process called memory reactivation — effectively rehearsing the new memory for the neocortex. Disrupting slow-wave sleep impairs this transfer, producing measurable deficits in long-term retention. Research by Matthew Walker and colleagues has demonstrated that even a ninety-minute nap taken after learning significantly enhances retention compared to staying awake over the same period.\n\nDespite its seemingly miraculous capacity, human memory is far from a faithful recording system. Recall is not retrieval of a fixed trace; it is reconstruction. Each time a memory is recalled, it becomes temporarily vulnerable to modification before being re-consolidated. This reconsolidation window has significant implications. Intrusive traumatic memories, for instance, can potentially be weakened by administering pharmacological agents that disrupt reconsolidation at the moment the memory is reactivated. Clinical trials using propranolol — a beta-blocker that impairs the adrenergic response — have shown modest but promising results in reducing the emotional intensity of post-traumatic stress disorder symptoms.\n\nThe reconstructive nature of memory also explains its well-documented unreliability as evidence. The pioneering work of psychologist Elizabeth Loftus has demonstrated that human memory is highly susceptible to post-event suggestion. In a classic series of experiments, participants who witnessed a filmed car accident were asked leading questions — 'How fast were the cars going when they smashed into each other?' versus 'when they contacted each other?' — with the more violent framing producing significantly higher speed estimates and, in subsequent tests, false memories of broken glass that was never present in the original footage. Studies of eyewitness testimony in criminal cases have consistently found error rates that the legal system has been slow to acknowledge. More than seventy percent of convictions later overturned by DNA evidence in the United States involved mistaken eyewitness identification.\n\nUnderstanding the mechanisms and limitations of human memory has profound implications across multiple domains — from education policy, where findings on spaced repetition and sleep confirm what effective teachers have long intuitively known, to courtroom procedure, healthcare for dementia patients, and the ethical questions raised by emerging technologies that may one day allow memories to be selectively suppressed or artificially implanted.",
+        "questions": [
+          {
+            "id": "ielts3-r1-1",
+            "question": "What was the unexpected consequence of H.M.'s surgery, as described in the passage?",
+            "options": [
+              "A. He lost all memories from before the operation.",
+              "B. He lost the ability to form new long-term memories, though his short-term memory remained intact.",
+              "C. His personality changed dramatically, making him aggressive.",
+              "D. His short-term memory was destroyed, but long-term memories were unaffected."
+            ],
+            "answer": "B",
+            "explanation": "The passage states H.M. 'lost the ability to form new long-term memories' but that 'his short-term memory — his ability to hold information in mind for seconds to minutes — remained intact.'"
+          },
+          {
+            "id": "ielts3-r1-2",
+            "question": "What does H.M.'s case demonstrate about the hippocampus?",
+            "options": [
+              "A. It is responsible for all forms of human memory, including short-term and procedural memory.",
+              "B. It is essential for the consolidation of new declarative memories.",
+              "C. It stores memories for only a few hours before transferring them to the cortex.",
+              "D. It is the only brain structure involved in the retrieval of past memories."
+            ],
+            "answer": "B",
+            "explanation": "The passage concludes H.M.'s case 'demonstrated, with clinical precision, that the hippocampus is essential for the consolidation of new declarative memories — memories of facts and events.'"
+          },
+          {
+            "id": "ielts3-r1-3",
+            "question": "The principle 'neurons that fire together, wire together' is attributed in the passage to:",
+            "options": [
+              "A. Elizabeth Loftus.",
+              "B. Matthew Walker.",
+              "C. Donald Hebb.",
+              "D. Henry Molaison."
+            ],
+            "answer": "C",
+            "explanation": "The passage attributes this principle to 'the Canadian psychologist Donald Hebb in 1949.'"
+          },
+          {
+            "id": "ielts3-r1-4",
+            "question": "According to the passage, what role does sleep play in memory consolidation?",
+            "options": [
+              "A. Sleep triggers the initial formation of synaptic connections through LTP.",
+              "B. During slow-wave sleep, the hippocampus replays neural activity to help transfer memories to the neocortex.",
+              "C. Sleep prevents the reconsolidation of traumatic memories.",
+              "D. Sleep increases the number of AMPA receptors available for new learning."
+            ],
+            "answer": "B",
+            "explanation": "The passage explains that during slow-wave sleep, 'the hippocampus replays patterns of neural activity that occurred during waking experience — a process called memory reactivation — effectively rehearsing the new memory for the neocortex.'"
+          },
+          {
+            "id": "ielts3-r1-5",
+            "question": "The word 'elucidated' in paragraph 3 most closely means:",
+            "options": [
+              "A. Challenged and disproved.",
+              "B. Widely published and disseminated.",
+              "C. Made clear and explained in detail.",
+              "D. Reduced in scientific importance."
+            ],
+            "answer": "C",
+            "explanation": "In context, Hebb proposed his principle 'decades before the molecular mechanisms were elucidated' — meaning before they were explained or made clear through subsequent research."
+          },
+          {
+            "id": "ielts3-r1-6",
+            "question": "What is the 'reconsolidation window' described in paragraph 5?",
+            "options": [
+              "A. The period each night during which new memories are transferred to the neocortex.",
+              "B. A time when a recalled memory becomes temporarily vulnerable to modification.",
+              "C. The interval between initial learning and the formation of long-term memories.",
+              "D. A therapeutic technique used to recover lost memories in amnesic patients."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines this as the point when 'each time a memory is recalled, it becomes temporarily vulnerable to modification before being re-consolidated.'"
+          },
+          {
+            "id": "ielts3-r1-7",
+            "question": "What did Elizabeth Loftus's car accident experiments demonstrate?",
+            "options": [
+              "A. That eyewitnesses consistently overestimate the speed of vehicles.",
+              "B. That human memory is highly susceptible to post-event suggestion.",
+              "C. That leading questions in police interviews should be legally prohibited.",
+              "D. That visual memories are more reliable than verbal ones."
+            ],
+            "answer": "B",
+            "explanation": "The passage states Loftus 'demonstrated that human memory is highly susceptible to post-event suggestion,' with leading questions altering speed estimates and creating false memories."
+          },
+          {
+            "id": "ielts3-r1-8",
+            "question": "What statistic does the passage cite regarding eyewitness identification errors?",
+            "options": [
+              "A. Around thirty percent of all criminal cases in the USA involve eyewitness testimony.",
+              "B. More than seventy percent of convictions overturned by DNA evidence involved mistaken eyewitness identification.",
+              "C. Eyewitness identification is accurate in over ninety percent of cases studied.",
+              "D. Half of all wrongful convictions in the UK were caused by false eyewitness testimony."
+            ],
+            "answer": "B",
+            "explanation": "The passage states 'More than seventy percent of convictions later overturned by DNA evidence in the United States involved mistaken eyewitness identification.'"
+          },
+          {
+            "id": "ielts3-r1-9",
+            "question": "According to the passage, what does research by Matthew Walker demonstrate?",
+            "options": [
+              "A. That sleeping immediately after learning is harmful because it prevents initial consolidation.",
+              "B. That a ninety-minute nap after learning significantly enhances long-term retention.",
+              "C. That slow-wave sleep is more important than REM sleep for memory consolidation.",
+              "D. That the effects of sleep deprivation on memory are irreversible."
+            ],
+            "answer": "B",
+            "explanation": "The passage states Walker's research demonstrated 'that even a ninety-minute nap taken after learning significantly enhances retention compared to staying awake over the same period.'"
+          },
+          {
+            "id": "ielts3-r1-10",
+            "question": "What does the passage describe as the main implication of memory's 'reconstructive' nature?",
+            "options": [
+              "A. That creative thinking is directly linked to memory flexibility.",
+              "B. That memories can be altered each time they are recalled, making them potentially unreliable.",
+              "C. That emotional memories are always more accurate than factual ones.",
+              "D. That older memories are more reliable than recently formed ones."
+            ],
+            "answer": "B",
+            "explanation": "The passage argues that because 'recall is not retrieval of a fixed trace; it is reconstruction,' memory is unreliable — demonstrated by susceptibility to suggestion and false memories."
+          },
+          {
+            "id": "ielts3-r1-11",
+            "question": "Which of the following best describes long-term potentiation (LTP) as presented in the passage?",
+            "options": [
+              "A. A sleep-dependent process that transfers memories from short-term to long-term storage.",
+              "B. A molecular process that strengthens synaptic connections when neurons fire together repeatedly.",
+              "C. A pharmaceutical technique used to reduce the intensity of traumatic memories.",
+              "D. The structural process by which the hippocampus is damaged during epileptic seizures."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes LTP as involving 'the strengthening of synaptic connections through a molecular process' occurring 'when neurons fire together repeatedly.'"
+          },
+          {
+            "id": "ielts3-r1-12",
+            "question": "The passage implies that the use of propranolol in treating PTSD works by:",
+            "options": [
+              "A. Preventing traumatic events from being encoded in the hippocampus in the first place.",
+              "B. Disrupting the reconsolidation of a traumatic memory when it is reactivated.",
+              "C. Permanently deleting traumatic memories from the neocortex.",
+              "D. Enhancing slow-wave sleep to accelerate the processing of traumatic experiences."
+            ],
+            "answer": "B",
+            "explanation": "The passage states propranolol is used to 'disrupt reconsolidation at the moment the memory is reactivated,' targeting the reconsolidation window."
+          },
+          {
+            "id": "ielts3-r1-13",
+            "question": "Which of the following best summarises the overall argument of the passage?",
+            "options": [
+              "A. Memory is a reliable and largely fixed system whose mechanisms are now fully understood.",
+              "B. Memory is a complex, reconstructive process with well-documented strengths and limitations that have wide practical implications.",
+              "C. The primary scientific focus in memory research should be on developing pharmaceutical interventions for memory disorders.",
+              "D. Eyewitness testimony should be completely excluded from legal proceedings due to its inherent unreliability."
+            ],
+            "answer": "B",
+            "explanation": "The passage covers memory formation, consolidation, sleep, reconstruction, and unreliability, concluding with broad practical implications — presenting memory as complex with both capabilities and documented limitations."
+          }
+        ]
+      },
+      {
+        "id": "ielts3-r-passage2",
+        "title": "From League of Nations to United Nations: The Evolution of International Organisation",
+        "text": "The idea that sovereign states might submit their disputes to an impartial international body, rather than resolving them through war, has ancient philosophical roots. But it was only in the aftermath of the First World War — a conflict that killed over seventeen million people and shattered the European international order — that this idea was given institutional form. The League of Nations, founded in 1920 as part of the Paris Peace Settlement, represented humanity's first systematic attempt to create a permanent intergovernmental organisation capable of maintaining international peace.\n\nThe League's structure was innovative for its time. It included a Council of great powers, an Assembly representing all member states, and a Permanent Court of International Justice to adjudicate disputes peacefully. The Covenant of the League obligated members to submit disputes to arbitration and imposed collective sanctions on states that resorted to war in violation of these obligations. At its peak, the League had fifty-eight members and oversaw a range of non-security functions — managing the labour standards of the International Labour Organisation, administering mandated territories in Africa and the Pacific, and coordinating international responses to epidemics and the refugee crisis following the First World War.\n\nYet the League contained structural weaknesses that ultimately proved fatal. Most critically, the United States — whose president Woodrow Wilson had been the League's most prominent advocate — never joined. The US Senate refused to ratify the Covenant, fearing that membership would entangle the country in European conflicts and compromise its sovereign foreign policy. Without the world's largest economy and emerging military power, the League lacked both the resources and the political authority to enforce its decisions.\n\nThe League's failure to respond effectively to the aggressions of the 1930s — Japan's invasion of Manchuria in 1931, Italy's attack on Abyssinia in 1935, Germany's rearmament and expansion under Hitler — exposed its fundamental impotence. Collective security, the doctrine that an attack on one member was an attack on all, was compelling in theory but collapsed in practice when key members refused to enforce sanctions or deploy military force against aggressors. The League did not formally dissolve until 1946, but it had ceased to function as a meaningful institution long before the Second World War ended.\n\nThe United Nations, founded in 1945, was designed with the explicit intention of avoiding the League's failures. Its architects — notably the United States, the United Kingdom, the Soviet Union, and China — drew several lessons from the interwar period. First, they ensured that the major powers were inside the new organisation rather than outside it, granting the five permanent members of the Security Council — the USA, USSR, UK, France, and China — the right to veto any substantive resolution. This gave the great powers a stake in the system and prevented the collective security mechanism from being invoked against them. Second, the UN was given a broader mandate than the League, encompassing human rights, economic development, decolonisation, and humanitarian assistance alongside its peacekeeping functions.\n\nThe veto power, however, proved to be a double-edged sword. During the Cold War, the Security Council was frequently paralysed by the competing vetoes of the United States and the Soviet Union, preventing effective action in conflicts where one superpower or its ally was involved — Korea in 1950 being a notable exception enabled only by the temporary Soviet boycott of the Council. The concept of peacekeeping — deploying multinational forces to maintain ceasefires rather than enforce peace — emerged partly as a pragmatic workaround for the Council's Cold War dysfunction, pioneered by the UN Emergency Force deployed to the Sinai in 1956 following the Suez Crisis.\n\nSince the end of the Cold War, the UN has expanded the scale and ambition of its peacekeeping operations dramatically. By the early twenty-first century, the UN was simultaneously managing over a dozen missions across Africa, the Middle East, and Asia, with over a hundred thousand uniformed personnel deployed. Yet fundamental questions about the UN's effectiveness remain unresolved. The organisation's reliance on voluntary contributions from member states for both its budget and its peacekeeping forces creates persistent gaps between mandate and capability. Structural conflicts between the principle of state sovereignty — enshrined in the UN Charter — and the emerging norm of the international community's 'responsibility to protect' civilians from atrocities committed by their own governments have produced inconsistent and sometimes devastating failures of response, most catastrophically in Rwanda in 1994 and Srebrenica in 1995.\n\nWhether the UN can be reformed sufficiently to meet the challenges of a multipolar world — in which the US-led international order is increasingly contested by rising powers and the threats of climate change, pandemic, and nuclear proliferation defy purely national solutions — is perhaps the most significant institutional question of the twenty-first century.",
+        "questions": [
+          {
+            "id": "ielts3-r2-1",
+            "question": "What was the League of Nations, as described in the passage?",
+            "options": [
+              "A. A military alliance formed by European powers after the First World War.",
+              "B. Humanity's first systematic attempt to create a permanent intergovernmental organisation for maintaining peace.",
+              "C. An organisation formed specifically to manage the peace settlement after the Second World War.",
+              "D. A trade organisation that later evolved into a security body."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes the League as 'humanity's first systematic attempt to create a permanent intergovernmental organisation capable of maintaining international peace.'"
+          },
+          {
+            "id": "ielts3-r2-2",
+            "question": "Why did the United States never join the League of Nations?",
+            "options": [
+              "A. The US government believed the League was dominated by Britain and France.",
+              "B. The US Senate refused to ratify the Covenant, fearing entanglement in European conflicts.",
+              "C. President Wilson actively campaigned against US membership.",
+              "D. The US was not invited to join the League's founding conference."
+            ],
+            "answer": "B",
+            "explanation": "The passage states 'The US Senate refused to ratify the Covenant, fearing that membership would entangle the country in European conflicts and compromise its sovereign foreign policy.'"
+          },
+          {
+            "id": "ielts3-r2-3",
+            "question": "The word 'impotence' in paragraph 4 most closely means:",
+            "options": [
+              "A. Internal disagreement.",
+              "B. Financial insolvency.",
+              "C. Powerlessness.",
+              "D. Diplomatic neutrality."
+            ],
+            "answer": "C",
+            "explanation": "The passage describes the League's 'fundamental impotence' after failing to respond to 1930s aggressions — 'impotence' meaning lack of power or effectiveness in context."
+          },
+          {
+            "id": "ielts3-r2-4",
+            "question": "Which of the following events is NOT mentioned in the passage as an act of aggression that the League failed to address?",
+            "options": [
+              "A. Japan's invasion of Manchuria in 1931.",
+              "B. Italy's attack on Abyssinia in 1935.",
+              "C. Germany's invasion of Poland in 1939.",
+              "D. Germany's rearmament and expansion under Hitler."
+            ],
+            "answer": "C",
+            "explanation": "The passage lists Japan's invasion of Manchuria, Italy's attack on Abyssinia, and Germany's rearmament and expansion — but does not specifically mention the 1939 invasion of Poland."
+          },
+          {
+            "id": "ielts3-r2-5",
+            "question": "What lesson did the UN's founders draw from the League's failure regarding major powers?",
+            "options": [
+              "A. Major powers should be excluded from the organisation to prevent them from dominating it.",
+              "B. Major powers should be inside the organisation rather than outside it, with veto rights as an incentive.",
+              "C. All members should have equal voting rights to prevent power imbalances.",
+              "D. Military force should never be used by international organisations to enforce peace."
+            ],
+            "answer": "B",
+            "explanation": "The passage states the founders 'ensured that the major powers were inside the new organisation rather than outside it, granting the five permanent members of the Security Council the right to veto any substantive resolution.'"
+          },
+          {
+            "id": "ielts3-r2-6",
+            "question": "According to the passage, the concept of UN peacekeeping emerged partly because:",
+            "options": [
+              "A. The founders believed peacekeeping was more cost-effective than enforcement.",
+              "B. The Security Council was paralysed during the Cold War, requiring a pragmatic workaround.",
+              "C. Peacekeeping was explicitly mandated in the original UN Charter.",
+              "D. The Soviet Union insisted on peacekeeping as a condition of joining the UN."
+            ],
+            "answer": "B",
+            "explanation": "The passage says peacekeeping 'emerged partly as a pragmatic workaround for the Council's Cold War dysfunction.'"
+          },
+          {
+            "id": "ielts3-r2-7",
+            "question": "Why was the Security Council able to act in the Korean conflict in 1950?",
+            "options": [
+              "A. The Soviet Union voted in favour of military intervention.",
+              "B. The US invoked a special emergency provision in the UN Charter.",
+              "C. The Soviet Union was temporarily boycotting the Council.",
+              "D. China had not yet been granted a permanent Security Council seat."
+            ],
+            "answer": "C",
+            "explanation": "The passage notes Korea was 'a notable exception enabled only by the temporary Soviet boycott of the Council.'"
+          },
+          {
+            "id": "ielts3-r2-8",
+            "question": "The passage describes the veto power as 'a double-edged sword' because:",
+            "options": [
+              "A. It gives small nations the same power as large ones.",
+              "B. While it brought major powers into the UN, it also allowed them to paralyse the Security Council.",
+              "C. It makes the Security Council too slow to respond in genuine emergencies.",
+              "D. It has been used only by Western nations, creating an inherent bias in the system."
+            ],
+            "answer": "B",
+            "explanation": "The passage explains the veto gave major powers a stake in the UN system but 'proved to be a double-edged sword' because it frequently 'paralysed' the Council during the Cold War."
+          },
+          {
+            "id": "ielts3-r2-9",
+            "question": "What does the passage identify as a persistent structural problem for UN peacekeeping operations?",
+            "options": [
+              "A. The UN Charter prohibits peacekeepers from using force in any circumstances.",
+              "B. Host governments consistently refuse to allow UN peacekeepers to enter their territory.",
+              "C. Reliance on voluntary contributions creates gaps between mandate and actual capability.",
+              "D. The Security Council must reach unanimous agreement before any mission can be authorised."
+            ],
+            "answer": "C",
+            "explanation": "The passage states 'the UN's reliance on voluntary contributions from member states for both its budget and its peacekeeping forces creates persistent gaps between mandate and capability.'"
+          },
+          {
+            "id": "ielts3-r2-10",
+            "question": "Which events does the passage cite as the most catastrophic failures of the international community's 'responsibility to protect'?",
+            "options": [
+              "A. The Korean War and the Cuban Missile Crisis.",
+              "B. The wars in Afghanistan and Iraq.",
+              "C. Rwanda in 1994 and Srebrenica in 1995.",
+              "D. The Suez Crisis and the Congo crisis."
+            ],
+            "answer": "C",
+            "explanation": "The passage identifies 'Rwanda in 1994 and Srebrenica in 1995' as the most catastrophic failures of the responsibility-to-protect norm."
+          },
+          {
+            "id": "ielts3-r2-11",
+            "question": "The passage implies that the UN's founding structure differed from the League's primarily in that:",
+            "options": [
+              "A. The UN had a larger membership from the outset.",
+              "B. The UN gave the major powers a formal stake through veto rights and broader mandate.",
+              "C. The UN relied on military alliances rather than collective security.",
+              "D. The UN was established by a single superpower rather than a coalition."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes how the UN was explicitly designed to address the League's failures by bringing major powers inside and granting them veto rights, plus a broader mandate covering human rights and development."
+          },
+          {
+            "id": "ielts3-r2-12",
+            "question": "According to the passage, what tension within the UN Charter has produced inconsistent responses to atrocities?",
+            "options": [
+              "A. The tension between the General Assembly and the Security Council over decision-making authority.",
+              "B. The conflict between state sovereignty and the emerging norm of responsibility to protect civilians.",
+              "C. The disagreement between permanent and non-permanent Security Council members over veto use.",
+              "D. The tension between military peacekeeping mandates and the UN's humanitarian functions."
+            ],
+            "answer": "B",
+            "explanation": "The passage identifies 'structural conflicts between the principle of state sovereignty — enshrined in the UN Charter — and the emerging norm of the international community's responsibility to protect civilians' as producing inconsistent responses."
+          },
+          {
+            "id": "ielts3-r2-13",
+            "question": "Which of the following best describes the author's overall tone in the passage?",
+            "options": [
+              "A. Strongly critical — the passage argues that international organisations have been an unmitigated failure.",
+              "B. Wholly optimistic — the passage argues that the UN has overcome all the League's weaknesses.",
+              "C. Analytically balanced — the passage acknowledges both achievements and persistent structural failures.",
+              "D. Nostalgic — the passage argues the League of Nations was superior to the UN in most respects."
+            ],
+            "answer": "C",
+            "explanation": "The passage covers the League's innovations and failures, the UN's deliberate improvements, and the UN's persistent limitations — a balanced analytical account throughout."
+          }
+        ]
+      },
+      {
+        "id": "ielts3-r-passage3",
+        "title": "The Gig Economy: Platform Work, Worker Rights, and the Regulatory Challenge",
+        "text": "In the space of roughly a decade, a new form of economic organisation has reshaped labour markets across the world. The gig economy — broadly defined as a labour market characterised by the prevalence of short-term, flexible, task-based work mediated by digital platforms — has produced companies of extraordinary scale and valuation. Uber, founded in 2009, became a global provider of ride-hailing services with operations in seventy countries within a decade of its launch. Airbnb, founded the same year, transformed the hospitality industry by enabling individuals to rent out private accommodation to travellers, growing to list over seven million properties worldwide. DoorDash, TaskRabbit, Deliveroo, and dozens of similar platforms have extended the gig model into food delivery, domestic services, and freelance professional work.\n\nThe economic appeal of platform companies rests on a distinctive architecture. By classifying the individuals who provide services through their platforms as independent contractors rather than employees, companies avoid the obligations that employment status entails: minimum wage guarantees, paid leave, employer contributions to social insurance, unfair dismissal protections, and the right to organise collectively. Platforms present this classification as a mutual benefit — workers gain flexibility, choosing when and how much to work without being bound by fixed schedules. Economists describe this model as a two-sided market: the platform connects supply (workers) and demand (customers) more efficiently than traditional intermediaries, generating gains for all parties from reduced transaction costs.\n\nCritics dispute this characterisation vigorously. While flexibility is a genuine and valued feature for some platform workers — particularly those using gig work as a supplementary income source — studies consistently find that a substantial proportion of platform workers depend on gig income as their primary or sole source of livelihood. For these workers, the lack of employee protections produces real precarity: earnings below the minimum wage once vehicle costs, insurance, and downtime are accounted for; no sick pay during illness; no pension contributions; and no recourse against arbitrary account deactivation, the platform equivalent of dismissal without notice or appeal. Research published by the Oxford Internet Institute found that median hourly earnings for crowdworkers — those performing digital tasks online for platforms — were below five US dollars when unpaid waiting time was included.\n\nThe legal battles over worker classification have been among the most consequential in employment law for decades. In the United Kingdom, a Supreme Court ruling in 2021 determined that Uber drivers were 'workers' — a legal category between employee and independent contractor — and therefore entitled to minimum wage, holiday pay, and pension access. Uber had argued that drivers were self-employed entrepreneurs who used its app as a mere tool; the Court rejected this framing, noting that Uber set fares, controlled the customer interface, and could deactivate drivers who maintained low ratings, indicating a relationship of subordination inconsistent with genuine self-employment. Similar rulings have followed in Spain and France. In the United States, legal outcomes have been more fragmented: California's Proposition 22, passed by ballot in 2020 after an eighty-six million dollar campaign funded by platform companies, created a new legal category that preserved contractor status for gig workers while providing limited benefits — a compromise critics described as insufficient and a precedent others feared would spread.\n\nRegulatory responses globally reflect significant divergence in political philosophy and institutional capacity. The European Union has proposed a Platform Work Directive that would establish a legal presumption of employment status for platform workers unless companies can demonstrate true independence — effectively reversing the burden of proof. The UK's response has been more incremental, extending some worker rights without resolving the fundamental classification question. Several developing countries, whose informal economies have long accommodated precarious work without legal protection, face particular challenges: platform work often represents a formalisation of existing informality, complicating regulatory intervention.\n\nBeyond the immediate question of worker rights, the gig economy raises broader questions about taxation, urban infrastructure, and market concentration. Platform companies have been criticised for structuring their operations to minimise tax liabilities across the jurisdictions in which they operate, depriving governments of revenues that partly fund the public services on which platform workers and customers depend. In cities, the proliferation of ride-hailing has contributed to increased road congestion and, in some analyses, reduced public transport ridership — the opposite of the environmental benefits platforms sometimes claim. And the winner-takes-all dynamics of platform markets — where network effects tend to concentrate market share in a small number of dominant players — raise antitrust concerns that existing competition law, designed for the industrial era, is ill-equipped to address.\n\nThe gig economy is neither the dystopian threat its harshest critics describe nor the liberated, flexible future its proponents celebrate. It is a genuine transformation in how work is organised, one that delivers real efficiencies and real freedoms alongside real harms. The policy challenge is to capture the former while mitigating the latter — and existing regulatory frameworks, designed for a world of stable employment relationships and physical markets, are only beginning to adapt.",
+        "questions": [
+          {
+            "id": "ielts3-r3-1",
+            "question": "How does the passage define the gig economy?",
+            "options": [
+              "A. A system in which all workers are self-employed and pay their own taxes.",
+              "B. A labour market characterised by short-term, flexible, task-based work mediated by digital platforms.",
+              "C. An economy dominated by small and medium-sized technology companies.",
+              "D. A form of employment unique to the transportation and hospitality sectors."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines the gig economy as 'a labour market characterised by the prevalence of short-term, flexible, task-based work mediated by digital platforms.'"
+          },
+          {
+            "id": "ielts3-r3-2",
+            "question": "Why do platform companies classify their workers as independent contractors rather than employees?",
+            "options": [
+              "A. Independent contractor status allows workers to earn higher hourly rates.",
+              "B. It enables platforms to offer more flexible scheduling to their customers.",
+              "C. It allows companies to avoid employment obligations such as minimum wage and social insurance.",
+              "D. It is a legal requirement in the countries where most platform companies operate."
+            ],
+            "answer": "C",
+            "explanation": "The passage states that by classifying workers as contractors, companies 'avoid the obligations that employment status entails: minimum wage guarantees, paid leave, employer contributions to social insurance' and others."
+          },
+          {
+            "id": "ielts3-r3-3",
+            "question": "The term 'two-sided market' in paragraph 2 refers to:",
+            "options": [
+              "A. A market that operates in both the physical and digital worlds simultaneously.",
+              "B. A platform that connects workers (supply) and customers (demand) more efficiently than traditional intermediaries.",
+              "C. A company with both a consumer-facing and a business-facing product line.",
+              "D. An economic system with both formal and informal labour market sectors."
+            ],
+            "answer": "B",
+            "explanation": "The passage defines the two-sided market as a model where 'the platform connects supply (workers) and demand (customers) more efficiently than traditional intermediaries.'"
+          },
+          {
+            "id": "ielts3-r3-4",
+            "question": "What did the Oxford Internet Institute research find about crowdworker earnings?",
+            "options": [
+              "A. That crowdworkers earn above-average wages compared to traditional service workers.",
+              "B. That median hourly earnings were below five US dollars when unpaid waiting time was included.",
+              "C. That crowdworkers' earnings had doubled over the five years preceding the study.",
+              "D. That the highest-earning crowdworkers made more than forty US dollars per hour."
+            ],
+            "answer": "B",
+            "explanation": "The passage states 'Research published by the Oxford Internet Institute found that median hourly earnings for crowdworkers were below five US dollars when unpaid waiting time was included.'"
+          },
+          {
+            "id": "ielts3-r3-5",
+            "question": "What did the UK Supreme Court rule in 2021 regarding Uber drivers?",
+            "options": [
+              "A. That Uber drivers are fully employed workers entitled to all employment rights.",
+              "B. That Uber drivers are 'workers' — a category between employee and contractor — entitled to minimum wage, holiday pay, and pension access.",
+              "C. That Uber drivers are self-employed entrepreneurs and Uber has no employment obligations.",
+              "D. That Uber must reclassify all its UK drivers as full employees within two years."
+            ],
+            "answer": "B",
+            "explanation": "The passage states the Supreme Court 'determined that Uber drivers were workers — a legal category between employee and independent contractor — and therefore entitled to minimum wage, holiday pay, and pension access.'"
+          },
+          {
+            "id": "ielts3-r3-6",
+            "question": "What reasoning did the Supreme Court use to reject Uber's claim that drivers were self-employed?",
+            "options": [
+              "A. It found that Uber drivers worked more hours per week than typical self-employed individuals.",
+              "B. It noted that Uber set fares, controlled the customer interface, and could deactivate drivers, indicating subordination.",
+              "C. It found that Uber had misrepresented its business model in its original operating licence applications.",
+              "D. It relied on the fact that Uber drivers did not pay their own business taxes."
+            ],
+            "answer": "B",
+            "explanation": "The Court rejected Uber's framing by 'noting that Uber set fares, controlled the customer interface, and could deactivate drivers who maintained low ratings, indicating a relationship of subordination inconsistent with genuine self-employment.'"
+          },
+          {
+            "id": "ielts3-r3-7",
+            "question": "What was California's Proposition 22 and why was it controversial?",
+            "options": [
+              "A. It granted full employment status to all gig workers; it was controversial because platforms claimed it would destroy their business model.",
+              "B. It preserved contractor status while providing limited benefits; critics argued it was insufficient and worried it set a damaging precedent.",
+              "C. It banned gig economy companies from operating in California; it was controversial because it eliminated thousands of jobs.",
+              "D. It imposed a minimum wage of twenty dollars per hour on platform companies; it was controversial because of its high cost."
+            ],
+            "answer": "B",
+            "explanation": "The passage describes Proposition 22 as creating 'a new legal category that preserved contractor status for gig workers while providing limited benefits — a compromise critics described as insufficient and a precedent others feared would spread.'"
+          },
+          {
+            "id": "ielts3-r3-8",
+            "question": "What approach has the European Union proposed for regulating platform work?",
+            "options": [
+              "A. A universal basic income for all gig workers funded by a tax on platform company revenues.",
+              "B. A directive establishing a legal presumption of employment status unless companies prove true independence.",
+              "C. A voluntary code of conduct for platform companies to adopt at their own discretion.",
+              "D. A requirement for all platform workers to register as self-employed within their national tax systems."
+            ],
+            "answer": "B",
+            "explanation": "The passage states the EU has proposed a 'Platform Work Directive that would establish a legal presumption of employment status for platform workers unless companies can demonstrate true independence.'"
+          },
+          {
+            "id": "ielts3-r3-9",
+            "question": "The passage implies that developing countries face a particular regulatory challenge regarding gig work because:",
+            "options": [
+              "A. Platform companies refuse to operate in countries without established gig economy legislation.",
+              "B. Platform work often represents a formalisation of existing informality, complicating regulatory intervention.",
+              "C. Developing country governments lack the digital infrastructure to monitor platform company activities.",
+              "D. Platform workers in developing countries earn significantly more than traditional workers, reducing political pressure for regulation."
+            ],
+            "answer": "B",
+            "explanation": "The passage notes developing countries face challenges because 'platform work often represents a formalisation of existing informality, complicating regulatory intervention.'"
+          },
+          {
+            "id": "ielts3-r3-10",
+            "question": "What does the passage say about the environmental impact of ride-hailing in cities?",
+            "options": [
+              "A. Ride-hailing has significantly reduced car ownership and urban carbon emissions.",
+              "B. Ride-hailing has contributed to increased road congestion and possibly reduced public transport ridership.",
+              "C. Ride-hailing's environmental impact is broadly positive because journeys are shared.",
+              "D. Ride-hailing platforms have invested heavily in electric vehicle fleets, reducing their net emissions."
+            ],
+            "answer": "B",
+            "explanation": "The passage states 'the proliferation of ride-hailing has contributed to increased road congestion and, in some analyses, reduced public transport ridership — the opposite of the environmental benefits platforms sometimes claim.'"
+          },
+          {
+            "id": "ielts3-r3-11",
+            "question": "What are 'winner-takes-all dynamics,' as used in paragraph 6?",
+            "options": [
+              "A. A pricing strategy in which the cheapest platform always captures the entire market.",
+              "B. The tendency for network effects to concentrate market share in a small number of dominant platform players.",
+              "C. The competitive advantage that established companies have over new market entrants.",
+              "D. A regulatory framework that grants exclusive licences to a single operator in each market."
+            ],
+            "answer": "B",
+            "explanation": "The passage explains these dynamics as a situation 'where network effects tend to concentrate market share in a small number of dominant players,' raising antitrust concerns."
+          },
+          {
+            "id": "ielts3-r3-12",
+            "question": "Which of the following best describes the author's position on the gig economy in the final paragraph?",
+            "options": [
+              "A. The gig economy is fundamentally harmful and should be banned.",
+              "B. The gig economy's benefits outweigh its harms and requires only minimal regulation.",
+              "C. The gig economy delivers both real efficiencies and real harms, and the regulatory challenge is to capture the benefits while mitigating the harms.",
+              "D. The gig economy is a temporary phenomenon that will disappear as labour laws catch up."
+            ],
+            "answer": "C",
+            "explanation": "The final paragraph explicitly states the gig economy 'delivers real efficiencies and real freedoms alongside real harms. The policy challenge is to capture the former while mitigating the latter.'"
+          },
+          {
+            "id": "ielts3-r3-13",
+            "question": "The passage implies that existing competition law is inadequate for addressing gig economy market concentration because:",
+            "options": [
+              "A. Competition law in most countries applies only to companies with annual revenues above a certain threshold.",
+              "B. It was designed for the industrial era and has not been updated to address digital market dynamics.",
+              "C. Platform companies operate across national borders, placing them beyond the reach of any single country's competition authority.",
+              "D. Competition law focuses on price-fixing, while the problem in platform markets is quality manipulation."
+            ],
+            "answer": "B",
+            "explanation": "The passage states existing competition law is 'designed for the industrial era' and is 'ill-equipped' to address platform market concentration — meaning its design has not kept pace with digital market dynamics."
+          },
+          {
+            "id": "ielts3-r3-14",
+            "question": "According to the passage, how does the gig economy's flexibility benefit some workers but harm others?",
+            "options": [
+              "A. Flexibility benefits skilled workers but disadvantages unskilled workers who cannot negotiate their rates.",
+              "B. Flexibility is genuine and valued for those using gig work supplementarily, but creates precarity for those who depend on it as their primary income.",
+              "C. Flexibility benefits younger workers who prefer variety, but harms older workers who prefer stability.",
+              "D. Flexibility is beneficial in countries with strong social safety nets but harmful in those without them."
+            ],
+            "answer": "B",
+            "explanation": "The passage states flexibility is 'genuine and valued' for workers using gig work as supplementary income, but 'studies consistently find that a substantial proportion of platform workers depend on gig income as their primary or sole source of livelihood' — for whom lack of protections produces 'real precarity.'"
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "timeLimit": 3600,
+    "tasks": [
+      {
+        "id": "ielts3-w-task1",
+        "type": "report",
+        "timeLimit": 1200,
+        "prompt": "The pie charts below show the distribution of household expenditure in a European country in 1990 and 2020.",
+        "visualDescription": "Two pie charts side by side. 1990 pie chart: Housing 30%, Food 25%, Transport 15%, Education 10%, Healthcare 8%, Entertainment 7%, Other 5%. 2020 pie chart: Housing 35%, Food 18%, Transport 12%, Education 14%, Healthcare 11%, Entertainment 6%, Other 4%. Overall, Housing increased its share by five percentage points and remains the largest category in both years. Food decreased substantially from 25% to 18%. Education grew from 10% to 14%, and Healthcare rose from 8% to 11%, reflecting changing spending priorities. Transport, Entertainment, and Other all declined modestly between the two periods.",
+        "wordCountMin": 150,
+        "wordCountMax": 200,
+        "instruction": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words."
+      },
+      {
+        "id": "ielts3-w-task2",
+        "type": "essay",
+        "timeLimit": 2400,
+        "prompt": "Some people argue that zoos play an important role in wildlife conservation and education. Others believe that keeping animals in captivity is cruel and unnecessary. Discuss both views and give your own opinion.",
+        "essayType": "discuss_both_views",
+        "wordCountMin": 250,
+        "wordCountMax": 320,
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+      }
+    ]
+  },
+  "speaking": {
+    "parts": [
+      {
+        "id": "ielts3-sp-part1",
+        "type": "introduction",
+        "name": "Part 1 — Introduction & Interview",
+        "duration": 300,
+        "instruction": "The examiner will ask you questions about yourself and familiar topics. Answer naturally and extend your responses where possible.",
+        "questions": [
+          "Do you try to recycle or reduce waste in your daily life? In what ways?",
+          "Are there good green spaces or parks near where you live? Do you visit them often?",
+          "Do you usually use public transport, drive, or cycle to get around? Why?",
+          "How concerned are you personally about climate change? Has this changed over time?",
+          "Are environmental issues discussed much in your community or among your friends?"
+        ]
+      },
+      {
+        "id": "ielts3-sp-part2",
+        "type": "cue_card",
+        "name": "Part 2 — Individual Long Turn",
+        "prepTime": 60,
+        "speakTime": 120,
+        "instruction": "Read the cue card carefully. You have 1 minute to prepare your answer. Then speak for 1 to 2 minutes. The examiner will tell you when to stop.",
+        "cueCard": {
+          "topic": "Describe an outdoor place you enjoy visiting.",
+          "points": [
+            "Where it is",
+            "What you do there",
+            "Who you usually go with",
+            "Why you find it enjoyable"
+          ],
+          "followUp": "Do you think young people today spend enough time outdoors?"
+        }
+      },
+      {
+        "id": "ielts3-sp-part3",
+        "type": "discussion",
+        "name": "Part 3 — Two-Way Discussion",
+        "duration": 420,
+        "instruction": "The examiner will ask you further questions connected to the topic in Part 2. Develop your answers fully, supporting your views with reasons and examples.",
+        "questions": [
+          "To what extent do you think governments are responsible for protecting the natural environment? What specific policies do you think are most effective?",
+          "Some people argue that large corporations cause far more environmental damage than individuals. Do you agree? What obligations should corporations have?",
+          "Is individual action — such as recycling, eating less meat, or using public transport — enough to address climate change, or does it require collective political action? What is your view?",
+          "Should climate change and environmental sustainability be compulsory subjects in schools? Why or why not?",
+          "International agreements such as the Paris Agreement rely on voluntary national commitments. Do you think this approach is sufficient, or should there be binding international environmental laws with penalties for non-compliance?"
+        ]
+      }
+    ]
+  }
+}

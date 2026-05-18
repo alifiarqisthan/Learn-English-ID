@@ -97,7 +97,94 @@ export type ItpPackage = {
   };
 };
 
-export type MockTestPackage = IbtPackage | ItpPackage;
+// IELTS package shape
+export type IeltsListeningItem = {
+  id: string;
+  question: string;
+  options: string[];
+  answer: string;
+  explanation: string;
+};
+
+export type IeltsListeningPart = {
+  id: string;
+  type: "everyday_conversation" | "monologue" | "academic_discussion" | "academic_lecture";
+  name: string;
+  instruction: string;
+  script: string;
+  items: IeltsListeningItem[];
+};
+
+export type IeltsReadingPassage = {
+  id: string;
+  title: string;
+  text: string;
+  questions: MockQuestion[];
+};
+
+export type IeltsWritingTask = {
+  id: string;
+  type: "report" | "essay";
+  timeLimit: number;
+  prompt: string;
+  instruction: string;
+  wordCountMin: number;
+  wordCountMax: number;
+  visualDescription?: string;
+  essayType?: string;
+};
+
+export type IeltsSpeakingPart =
+  | {
+      id: string;
+      type: "introduction";
+      name: string;
+      duration: number;
+      instruction: string;
+      questions: string[];
+    }
+  | {
+      id: string;
+      type: "cue_card";
+      name: string;
+      prepTime: number;
+      speakTime: number;
+      instruction: string;
+      cueCard: { topic: string; points: string[]; followUp: string };
+    }
+  | {
+      id: string;
+      type: "discussion";
+      name: string;
+      duration: number;
+      instruction: string;
+      questions: string[];
+    };
+
+export type IeltsPackage = {
+  id: string;
+  format: "ielts";
+  title: string;
+  listening: {
+    timeLimit: number;
+    totalQuestions: number;
+    parts: IeltsListeningPart[];
+  };
+  reading: {
+    timeLimit: number;
+    totalQuestions: number;
+    passages: IeltsReadingPassage[];
+  };
+  writing: {
+    timeLimit: number;
+    tasks: IeltsWritingTask[];
+  };
+  speaking: {
+    parts: IeltsSpeakingPart[];
+  };
+};
+
+export type MockTestPackage = IbtPackage | ItpPackage | IeltsPackage;
 
 export function getStoredUser(): AuthUser | null {
   try {
