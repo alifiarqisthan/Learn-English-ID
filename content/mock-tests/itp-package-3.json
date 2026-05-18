@@ -1,0 +1,1138 @@
+{
+  "id": "itp-package-3",
+  "format": "itp",
+  "title": "TOEFL ITP Practice Test 3",
+  "listening": {
+    "timeLimit": 2100,
+    "totalQuestions": 50,
+    "parts": [
+      {
+        "id": "itp3-l-part-a",
+        "type": "short_conversation",
+        "name": "Part A — Short Conversations",
+        "instruction": "You will hear short conversations between two people. After each conversation, you will hear a question about what the speakers said. Choose the best answer to each question.",
+        "items": [
+          {
+            "id": "itp3-la-1",
+            "script": "Man: I totally drew a blank during the oral exam. I couldn't remember a single formula.\nWoman: Oh no. Did you at least recover toward the end?\nNarrator: What does the man mean?",
+            "question": "What does the man mean?",
+            "options": ["A. He forgot everything during the oral exam.", "B. He wrote all the formulas correctly.", "C. He asked the examiner for a hint.", "D. He passed the oral exam with a good grade."],
+            "answer": "A",
+            "explanation": "'Drew a blank' is an idiom meaning to be unable to remember something."
+          },
+          {
+            "id": "itp3-la-2",
+            "script": "Woman: You hit the nail on the head with your analysis of the poem.\nMan: Really? I was worried my interpretation was too simple.\nNarrator: What does the woman mean?",
+            "question": "What does the woman mean?",
+            "options": ["A. The man made an error in his analysis.", "B. The man's interpretation was exactly right.", "C. The man should revise his analysis.", "D. The poem was too difficult for the man."],
+            "answer": "B",
+            "explanation": "'Hit the nail on the head' means to identify or say something exactly correctly."
+          },
+          {
+            "id": "itp3-la-3",
+            "script": "Man: I've been putting off registering for the language lab sessions.\nWoman: You might as well bite the bullet — the deadline is Friday.\nNarrator: What does the woman suggest?",
+            "question": "What does the woman suggest?",
+            "options": ["A. The man should skip the language lab.", "B. The man should do something unpleasant but necessary without further delay.", "C. The man should ask for a deadline extension.", "D. The man should find a different lab partner."],
+            "answer": "B",
+            "explanation": "'Bite the bullet' means to endure a difficult situation or do something unpleasant that cannot be avoided."
+          },
+          {
+            "id": "itp3-la-4",
+            "script": "Woman: When I asked about the grading criteria, Professor Lee kept beating around the bush.\nMan: That's frustrating. Did you ever get a straight answer?\nNarrator: What does the woman mean about Professor Lee?",
+            "question": "What does the woman mean about Professor Lee?",
+            "options": ["A. The professor explained the criteria very clearly.", "B. The professor avoided answering directly.", "C. The professor was angry at the woman's question.", "D. The professor gave her extra credit."],
+            "answer": "B",
+            "explanation": "'Beating around the bush' means avoiding the main topic or not giving a direct answer."
+          },
+          {
+            "id": "itp3-la-5",
+            "script": "Man: I need to print my thesis draft and also pick up a library book. The printing lab and library are in the same building.\nWoman: You could kill two birds with one stone.\nNarrator: What does the woman imply?",
+            "question": "What does the woman imply?",
+            "options": ["A. The man will have trouble getting to the library.", "B. The man can accomplish both tasks in one trip.", "C. The man should focus on printing first.", "D. The library book is not important."],
+            "answer": "B",
+            "explanation": "'Kill two birds with one stone' means to accomplish two things with a single action."
+          },
+          {
+            "id": "itp3-la-6",
+            "script": "Woman: The supervisor kept cutting corners during the lab safety review.\nMan: That worries me. Those procedures exist for good reason.\nNarrator: What does the woman mean?",
+            "question": "What does the woman mean?",
+            "options": ["A. The supervisor was very thorough.", "B. The supervisor took shortcuts and skipped proper steps.", "C. The supervisor found new safety methods.", "D. The supervisor asked students to help."],
+            "answer": "B",
+            "explanation": "'Cutting corners' means doing something the easy or quick way, often by ignoring proper procedures."
+          },
+          {
+            "id": "itp3-la-7",
+            "script": "Man: I'm still trying to wrap my head around the concept of quantum entanglement.\nWoman: Don't worry — most people find it confusing at first.\nNarrator: What does the man mean?",
+            "question": "What does the man mean?",
+            "options": ["A. He understands quantum entanglement well.", "B. He is having difficulty understanding quantum entanglement.", "C. He has already written a paper about the topic.", "D. He thinks quantum entanglement is unimportant."],
+            "answer": "B",
+            "explanation": "'Wrap your head around' means to fully understand a difficult concept."
+          },
+          {
+            "id": "itp3-la-8",
+            "script": "Woman: Are you and your lab partner on the same page about the experiment design?\nMan: We just met this morning and sorted everything out.\nNarrator: What does the woman want to know?",
+            "question": "What does the woman want to know?",
+            "options": ["A. Whether the man has read the same textbook chapter.", "B. Whether the man and his partner share the same understanding.", "C. Whether the experiment is finished.", "D. Whether the man chose his partner himself."],
+            "answer": "B",
+            "explanation": "'On the same page' means having the same understanding or agreement about something."
+          },
+          {
+            "id": "itp3-la-9",
+            "script": "Man: I heard the university is changing the parking permit policy next semester.\nWoman: Oh, that's just the tip of the iceberg. They're overhauling the entire transportation system.\nNarrator: What does the woman imply?",
+            "question": "What does the woman imply?",
+            "options": ["A. The parking permit change is the only change planned.", "B. The parking change is a small part of much larger changes.", "C. The transportation system is already working well.", "D. She disagrees with the parking policy change."],
+            "answer": "B",
+            "explanation": "'The tip of the iceberg' means a small visible part of a much larger problem or situation."
+          },
+          {
+            "id": "itp3-la-10",
+            "script": "Woman: My advisor read between the lines of my research proposal and knew exactly what I was struggling with.\nMan: That's what good advisors do, I guess.\nNarrator: What does the woman mean?",
+            "question": "What does the woman mean?",
+            "options": ["A. Her advisor misunderstood her proposal.", "B. Her advisor understood the implied meaning beyond what was written.", "C. Her advisor corrected many grammatical errors.", "D. Her advisor returned the proposal without comments."],
+            "answer": "B",
+            "explanation": "'Read between the lines' means to understand what is implied or not explicitly stated."
+          },
+          {
+            "id": "itp3-la-11",
+            "script": "Man: Did you take any notes during Professor Nguyen's lecture on macroeconomics?\nWoman: I tried, but it was too fast.\nNarrator: What does the woman say about the lecture?",
+            "question": "What does the woman say about the lecture?",
+            "options": ["A. She took complete notes.", "B. She could not keep up with the pace of the lecture.", "C. She recorded the lecture on her phone.", "D. She found the lecture too easy."],
+            "answer": "B",
+            "explanation": "She says she tried but it was too fast, implying she could not take adequate notes."
+          },
+          {
+            "id": "itp3-la-12",
+            "script": "Woman: Is it true you're thinking about changing your major from engineering to business?\nMan: I've been seriously considering it. Engineering is great, but I think I'm more drawn to entrepreneurship.\nNarrator: What does the man imply?",
+            "question": "What does the man imply?",
+            "options": ["A. He has already changed his major.", "B. He is actively thinking about switching to business.", "C. He wants to study both engineering and business.", "D. He is happy with engineering."],
+            "answer": "B",
+            "explanation": "'Seriously considering it' means he is actively thinking about the change but has not yet decided."
+          },
+          {
+            "id": "itp3-la-13",
+            "script": "Man: My professor leaves no stone unturned when it comes to checking our citations.\nWoman: I guess you'd better double-check every reference.\nNarrator: What does the man mean?",
+            "question": "What does the man mean?",
+            "options": ["A. The professor rarely checks citations.", "B. The professor is extremely thorough in reviewing citations.", "C. The professor only checks the first few citations.", "D. The professor asks students to check each other's work."],
+            "answer": "B",
+            "explanation": "'Leave no stone unturned' means to do everything possible; to be extremely thorough."
+          },
+          {
+            "id": "itp3-la-14",
+            "script": "Woman: I heard that student government meeting got heated.\nMan: Heated? When Mark announced the budget cuts, it just added fuel to the fire.\nNarrator: What does the man mean?",
+            "question": "What does the man mean?",
+            "options": ["A. Mark's announcement calmed people down.", "B. Mark's announcement made the situation worse.", "C. Mark started the student government meeting.", "D. Mark proposed increasing the budget."],
+            "answer": "B",
+            "explanation": "'Add fuel to the fire' means to make a bad situation worse."
+          },
+          {
+            "id": "itp3-la-15",
+            "script": "Man: I was surprised you agreed to join the intramural soccer team so quickly.\nWoman: Oh, I'll take on a new challenge at the drop of a hat.\nNarrator: What does the woman mean?",
+            "question": "What does the woman mean?",
+            "options": ["A. She spent a long time deciding.", "B. She is willing to do new things immediately and without hesitation.", "C. She does not enjoy playing soccer.", "D. She was forced to join the team."],
+            "answer": "B",
+            "explanation": "'At the drop of a hat' means immediately, without hesitation."
+          },
+          {
+            "id": "itp3-la-16",
+            "script": "Woman: I'm taking a make-up exam for chemistry next Monday.\nMan: I didn't know you could retake it. When did the professor announce that?\nNarrator: What does the man imply?",
+            "question": "What does the man imply?",
+            "options": ["A. He already knew about the make-up exam.", "B. He was unaware that a make-up exam was offered.", "C. He also wants to retake the chemistry exam.", "D. He took the chemistry exam last week."],
+            "answer": "B",
+            "explanation": "His question 'I didn't know you could retake it' shows he was unaware the make-up exam was available."
+          },
+          {
+            "id": "itp3-la-17",
+            "script": "Man: Every cloud has a silver lining — losing that campus event planning job opened up time for me to focus on my thesis.\nWoman: That's a good way to look at it.\nNarrator: What does the man mean?",
+            "question": "What does the man mean?",
+            "options": ["A. He is still upset about losing the job.", "B. He found something positive in a negative situation.", "C. He got a better job after losing the first one.", "D. He never wanted the event planning job."],
+            "answer": "B",
+            "explanation": "'Every cloud has a silver lining' means there is something positive in every negative situation."
+          },
+          {
+            "id": "itp3-la-18",
+            "script": "Woman: The campus café is packed every morning before nine o'clock.\nMan: That's why I go at ten. The line is much shorter.\nNarrator: What does the man suggest?",
+            "question": "What does the man suggest?",
+            "options": ["A. He avoids the campus café entirely.", "B. Going later avoids the crowd.", "C. The café should expand its hours.", "D. He always goes to the café at nine."],
+            "answer": "B",
+            "explanation": "He says the line is shorter at ten, implying it is better to avoid the busy early-morning rush."
+          },
+          {
+            "id": "itp3-la-19",
+            "script": "Man: I'm taking six courses this semester and working part-time.\nWoman: You're spreading yourself too thin.\nNarrator: What does the woman mean?",
+            "question": "What does the woman mean?",
+            "options": ["A. The man should take more courses.", "B. The man has taken on too many commitments.", "C. The man's part-time job pays well.", "D. The man should stop working."],
+            "answer": "B",
+            "explanation": "'Spreading yourself too thin' means taking on more responsibilities than one can handle effectively."
+          },
+          {
+            "id": "itp3-la-20",
+            "script": "Woman: I need to rent a textbook for organic chemistry. Do you know if the campus store has a rental program?\nMan: Yes, but you have to bring it back by the end of the semester or they charge you the full price.\nNarrator: What does the man say about the textbook rental?",
+            "question": "What does the man say about the textbook rental?",
+            "options": ["A. The rental program does not exist.", "B. The book must be returned by semester's end to avoid extra charges.", "C. The book can be kept after the semester ends.", "D. The rental fee is the same as the purchase price."],
+            "answer": "B",
+            "explanation": "He explains the book must be returned by the end of the semester; otherwise the full price is charged."
+          },
+          {
+            "id": "itp3-la-21",
+            "script": "Man: Our study group can't find a time that works for everyone.\nWoman: Why not use a shared calendar app to coordinate schedules?\nNarrator: What does the woman suggest?",
+            "question": "What does the woman suggest?",
+            "options": ["A. Canceling the study group.", "B. Using a digital tool to find a common available time.", "C. Asking the professor to schedule the session.", "D. Meeting at the library without notifying everyone."],
+            "answer": "B",
+            "explanation": "She recommends using a shared calendar app to coordinate and find a time that works for all members."
+          },
+          {
+            "id": "itp3-la-22",
+            "script": "Woman: I'm applying to graduate school in molecular biology. I've been working on my personal statement.\nMan: What are you planning to emphasize?\nNarrator: What are the speakers discussing?",
+            "question": "What are the speakers discussing?",
+            "options": ["A. Applying for a scholarship.", "B. The woman's graduate school application.", "C. Choosing a university major.", "D. Writing a biology research paper."],
+            "answer": "B",
+            "explanation": "The woman mentions she is applying to graduate school and working on her personal statement."
+          },
+          {
+            "id": "itp3-la-23",
+            "script": "Man: I think my lab partner turned in our shared report without telling me.\nWoman: You should address that directly. Academic integrity is serious.\nNarrator: What does the woman suggest?",
+            "question": "What does the woman suggest?",
+            "options": ["A. Ignoring the issue.", "B. Talking to the lab partner directly about the problem.", "C. Reporting the partner to the department immediately.", "D. Resubmitting a new version of the report."],
+            "answer": "B",
+            "explanation": "She advises him to address the issue directly with his lab partner, emphasizing the seriousness of academic integrity."
+          },
+          {
+            "id": "itp3-la-24",
+            "script": "Woman: I heard you need a campus parking permit to park in lot C.\nMan: Yes, and they're only valid until the end of the academic year.\nNarrator: What does the man say about the parking permit?",
+            "question": "What does the man say about the parking permit?",
+            "options": ["A. Permits are free for all students.", "B. Permits expire at the end of the academic year.", "C. Permits are available for purchase online only.", "D. Parking in lot C does not require a permit."],
+            "answer": "B",
+            "explanation": "The man states the permits are only valid until the end of the academic year."
+          },
+          {
+            "id": "itp3-la-25",
+            "script": "Man: I'm thinking of applying for student health insurance. Is it worth it?\nWoman: Absolutely, especially if you're planning on staying for grad school.\nNarrator: What does the woman imply?",
+            "question": "What does the woman imply?",
+            "options": ["A. Student health insurance is too expensive.", "B. Student health insurance is a good investment, particularly for long-term students.", "C. The man does not need health insurance.", "D. Health insurance is only available to graduate students."],
+            "answer": "B",
+            "explanation": "She says 'absolutely' and adds it's especially worthwhile for someone planning to stay through grad school."
+          },
+          {
+            "id": "itp3-la-26",
+            "script": "Woman: I've been helping organize the spring campus event. It's taken more time than I expected.\nMan: Event planning always does.\nNarrator: What does the man imply?",
+            "question": "What does the man imply?",
+            "options": ["A. The woman is wasting her time.", "B. It is common for event planning to take more time than anticipated.", "C. The spring event is not worth organizing.", "D. He has never planned an event before."],
+            "answer": "B",
+            "explanation": "His comment implies that it is typical for event planning to require more time than initially expected."
+          },
+          {
+            "id": "itp3-la-27",
+            "script": "Man: My thesis proposal was rejected. I have to start over.\nWoman: That's rough. Take it as feedback, not failure.\nNarrator: What does the woman suggest the man do?",
+            "question": "What does the woman suggest the man do?",
+            "options": ["A. Give up on the thesis.", "B. View the rejection as a learning opportunity.", "C. Find a new thesis advisor.", "D. Submit the same proposal again."],
+            "answer": "B",
+            "explanation": "She encourages him to see the rejection as constructive feedback rather than a personal failure."
+          },
+          {
+            "id": "itp3-la-28",
+            "script": "Woman: Did you take the health insurance waiver form to the registrar's office?\nMan: I forgot. I'll do it this afternoon before it closes.\nNarrator: What will the man probably do?",
+            "question": "What will the man probably do?",
+            "options": ["A. Submit the form tomorrow.", "B. Go to the registrar's office the same day.", "C. Ask the woman to submit the form for him.", "D. Cancel his health insurance."],
+            "answer": "B",
+            "explanation": "He says he will go to the registrar's office that same afternoon before it closes."
+          },
+          {
+            "id": "itp3-la-29",
+            "script": "Man: Is intramural basketball registration open yet?\nWoman: It opened yesterday, but spots fill up fast.\nNarrator: What does the woman imply?",
+            "question": "What does the woman imply?",
+            "options": ["A. Registration closed yesterday.", "B. The man should register soon before spots run out.", "C. Basketball is the least popular intramural sport.", "D. The man is not eligible to participate."],
+            "answer": "B",
+            "explanation": "By saying spots fill up fast, she implies the man should register quickly."
+          },
+          {
+            "id": "itp3-la-30",
+            "script": "Woman: I took my chemistry exam last week but I think I made several careless mistakes.\nMan: You should take it with a grain of salt until you see the actual grade.\nNarrator: What does the man mean?",
+            "question": "What does the man mean?",
+            "options": ["A. The woman should retake the chemistry exam.", "B. The woman should not be too worried until she has the actual results.", "C. The woman definitely failed the exam.", "D. The woman should study harder next time."],
+            "answer": "B",
+            "explanation": "'Take with a grain of salt' means not to take something too seriously or to be skeptical — here, not to worry too much until results are confirmed."
+          }
+        ]
+      },
+      {
+        "id": "itp3-l-part-b",
+        "type": "long_conversation",
+        "name": "Part B — Long Conversations",
+        "instruction": "You will hear two longer conversations. After each conversation, you will hear several questions. Choose the best answer to each question.",
+        "items": [
+          {
+            "id": "itp3-lb-conv1",
+            "script": "Narrator: Listen to a conversation between a student and an academic advisor.\nWoman: Good morning. I'm Lisa Chen. I have a ten o'clock appointment.\nMan: Yes, Lisa — come in. I have your file here. So, you're currently in the second year of the engineering program. What brings you in today?\nWoman: I've been thinking seriously about changing my major to business administration. I know that sounds drastic, but it's been on my mind for a while.\nMan: That's not as unusual as you might think. Before we talk about logistics, can you tell me what's driving the decision?\nWoman: Honestly, I love problem-solving and quantitative analysis — which I do in engineering — but I really want to apply those skills in a business context. I've been involved with a student startup, and I realized I'm more excited about strategy and management than circuit design.\nMan: That makes a lot of sense. Your math and analytical background will actually be very valuable in business. Have you looked at the business program's requirements?\nWoman: I checked online, but I wasn't sure how my current credits would transfer.\nMan: Let me pull up the equivalency chart. From what I can see, your calculus and statistics credits will transfer directly. Your economics elective also counts toward the business core. The main gap I see is that you'd need three additional courses: introduction to accounting, organizational behavior, and business communications.\nWoman: Would that push back my graduation date?\nMan: Potentially by one semester — possibly two, depending on when those courses run. The good news is that business communications is offered every semester. But organizational behavior is only in the spring, and intro accounting is fall and spring.\nWoman: So if I switch now, in the spring semester, I could take organizational behavior and one other course this term and then accounting in the fall?\nMan: Exactly right. If you do that, you'd likely graduate just one semester late. I'd recommend submitting a formal change-of-major petition within the next two weeks. You'll also need a brief statement explaining your reasons, and two signatures — one from your current engineering advisor and one from a business faculty member.\nWoman: Can you help me identify a business faculty contact?\nMan: Professor Yamada in the management department would be a good fit given your interest in entrepreneurship. I'll email you his office hours by end of day.\nWoman: Thank you so much. This is really helpful.\nMan: My pleasure. Stop by again if you have questions after you start the paperwork.",
+            "questions": [
+              {
+                "id": "itp3-lb-conv1-q1",
+                "question": "Why does the student want to change her major?",
+                "options": ["A. She finds engineering courses too difficult.", "B. She wants to apply her analytical skills in a business context.", "C. She was encouraged by her parents.", "D. The engineering department rejected her thesis proposal."],
+                "answer": "B",
+                "explanation": "Lisa explains she loves problem-solving and quantitative analysis but wants to use those skills in business, sparked by her experience with a student startup."
+              },
+              {
+                "id": "itp3-lb-conv1-q2",
+                "question": "Which courses will the student need to take in addition to her transferred credits?",
+                "options": ["A. Marketing, finance, and economics.", "B. Calculus, statistics, and economics.", "C. Introduction to accounting, organizational behavior, and business communications.", "D. Circuit design, organizational behavior, and marketing."],
+                "answer": "C",
+                "explanation": "The advisor identifies three courses she still needs: introduction to accounting, organizational behavior, and business communications."
+              },
+              {
+                "id": "itp3-lb-conv1-q3",
+                "question": "How much might the major change delay the student's graduation?",
+                "options": ["A. One full year.", "B. One or two semesters.", "C. Three semesters.", "D. Her graduation date will not change."],
+                "answer": "B",
+                "explanation": "The advisor says the delay could be one semester, possibly two, depending on course scheduling."
+              },
+              {
+                "id": "itp3-lb-conv1-q4",
+                "question": "What does the advisor say the student needs in order to complete the change-of-major petition?",
+                "options": ["A. A GPA of at least 3.5 and a written statement.", "B. A brief explanatory statement and two faculty signatures.", "C. Permission from the dean of students.", "D. A completed set of all three additional courses."],
+                "answer": "B",
+                "explanation": "The advisor specifies she needs a brief statement explaining her reasons and two signatures — one from her engineering advisor and one from a business faculty member."
+              }
+            ]
+          },
+          {
+            "id": "itp3-lb-conv2",
+            "script": "Narrator: Listen to a conversation between a student and a career center advisor.\nMan: Hi, I'm James. I have an appointment to talk about the job fair next week.\nWoman: Hi James, I'm Dr. Patel. Please sit down. So, are you a graduating senior?\nMan: Yes, I'm finishing my degree in computer science in May. This is my first time attending the job fair, and honestly I'm not sure where to start.\nWoman: That's completely normal. Let's first talk about your resume. Did you bring a copy?\nMan: Yes, here it is. I updated it last month.\nWoman: Okay, let me take a look... I can see you have a solid list of technical skills and your internship at a software company. That's a strong foundation. One thing I'd suggest is leading your bullet points with action verbs that emphasize impact. For example, instead of 'responsible for testing code,' try 'reduced software bugs by thirty percent through systematic testing protocols.' The second version shows a concrete result.\nMan: I see what you mean. It sounds more impressive.\nWoman: Exactly. Also, I noticed you don't have a summary statement at the top. For a competitive tech field, a two-sentence summary of who you are and what value you bring can help recruiters immediately understand your focus.\nMan: How long should the resume be?\nWoman: For an entry-level candidate, one page is ideal. You're right at that length, so that's good. Now, regarding the job fair — about forty companies will be attending, including a number of tech firms looking for software engineers and data analysts. I'd recommend researching at least ten of them beforehand so you can have targeted conversations.\nMan: Should I bring physical copies of my resume?\nWoman: Definitely. Bring at least twenty copies. Some recruiters prefer paper, and it shows preparation. Also, practice a thirty-second introduction about yourself — what you've studied, what you're looking for, and one thing that makes you stand out.\nMan: Should I follow up after the fair?\nWoman: Absolutely. Collect business cards and send a brief thank-you email within twenty-four hours of speaking with each recruiter. Personalize each email with something specific from your conversation.\nMan: This is really practical. Thank you.\nWoman: You're welcome. Good luck next week — come back and let me know how it goes.",
+            "questions": [
+              {
+                "id": "itp3-lb-conv2-q1",
+                "question": "What is the main purpose of the conversation?",
+                "options": ["A. To help the student apply for a scholarship.", "B. To prepare the student for a job fair and improve his resume.", "C. To discuss the student's academic performance.", "D. To help the student choose a graduate school."],
+                "answer": "B",
+                "explanation": "The advisor helps the student improve his resume and provides advice on preparing for the upcoming job fair."
+              },
+              {
+                "id": "itp3-lb-conv2-q2",
+                "question": "What change does the advisor suggest for the resume bullet points?",
+                "options": ["A. Making them shorter and less detailed.", "B. Listing only soft skills.", "C. Using action verbs that highlight concrete results.", "D. Removing the internship description."],
+                "answer": "C",
+                "explanation": "The advisor recommends starting bullet points with action verbs and focusing on measurable impact, such as 'reduced software bugs by thirty percent.'"
+              },
+              {
+                "id": "itp3-lb-conv2-q3",
+                "question": "How many physical resume copies does the advisor recommend bringing to the job fair?",
+                "options": ["A. At least ten copies.", "B. At least twenty copies.", "C. At least five copies.", "D. At least forty copies."],
+                "answer": "B",
+                "explanation": "The advisor specifically says to bring at least twenty copies of the resume."
+              },
+              {
+                "id": "itp3-lb-conv2-q4",
+                "question": "What does the advisor say about following up after the job fair?",
+                "options": ["A. Sending a general group email to all recruiters.", "B. Waiting one week before contacting recruiters.", "C. Sending a personalized thank-you email within twenty-four hours.", "D. Calling each recruiter's office the following morning."],
+                "answer": "C",
+                "explanation": "The advisor recommends sending a personalized thank-you email within twenty-four hours of meeting each recruiter."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "itp3-l-part-c",
+        "type": "mini_lecture",
+        "name": "Part C — Mini Lectures",
+        "instruction": "You will hear several short talks. After each talk, you will hear questions about it. Choose the best answer to each question.",
+        "items": [
+          {
+            "id": "itp3-lc-talk1",
+            "script": "Narrator: Listen to part of a lecture in an anthropology class.\nProfessor: Today I want to talk about one of the most important archaeological discoveries in the history of linguistics — the Rosetta Stone. Found in 1799 by French soldiers during Napoleon's Egyptian campaign, the Rosetta Stone is a granodiorite stele — that's essentially a large inscribed slab — that carries the same decree in three scripts: ancient Egyptian hieroglyphics, Demotic script, and ancient Greek.\n\nAt the time of its discovery, hieroglyphics had been an undeciphered mystery for over a thousand years. Scholars could see the symbols, but no one alive could read them. The genius of the Rosetta Stone was that, because one of its three versions was in Greek — which scholars could read — it provided a key to unlocking the other two. If all three texts conveyed the same message, then the Greek translation could serve as a guide for decoding the hieroglyphic script.\n\nThe credit for the actual decipherment generally goes to two scholars. Thomas Young, a British polymath, made early progress in identifying which hieroglyphic signs represented sounds rather than ideas. But it was the French scholar Jean-François Champollion who achieved the full breakthrough in 1822. Champollion was also fluent in Coptic, an ancient Egyptian language that was still used in the Coptic Christian church. His knowledge of Coptic allowed him to recognize sound values in the hieroglyphs that Young had missed.\n\nThe significance of the Rosetta Stone goes beyond linguistics. Once hieroglyphics could be read, a vast body of Egyptian history, religion, medicine, and literature — preserved on temple walls, papyrus scrolls, and monuments for three thousand years — suddenly became accessible to the modern world. In many ways, the decipherment of hieroglyphics opened a window onto one of humanity's earliest complex civilizations.\n\nThe Rosetta Stone is currently housed at the British Museum in London, where it remains one of the most visited artifacts in the world — though Egypt has repeatedly requested its return.",
+            "questions": [
+              {
+                "id": "itp3-lc-talk1-q1",
+                "question": "What is the main topic of the lecture?",
+                "options": ["A. Napoleon's military campaigns in Egypt.", "B. The discovery and significance of the Rosetta Stone.", "C. The history of the ancient Greek language.", "D. The construction of Egyptian temples."],
+                "answer": "B",
+                "explanation": "The lecture focuses on the discovery of the Rosetta Stone and its significance in decoding hieroglyphics."
+              },
+              {
+                "id": "itp3-lc-talk1-q2",
+                "question": "Why was the Rosetta Stone so valuable to scholars?",
+                "options": ["A. It contained the oldest known written text.", "B. It was made from a rare type of stone.", "C. It presented the same decree in three scripts, one of which was readable Greek.", "D. It was discovered in perfect condition."],
+                "answer": "C",
+                "explanation": "Because scholars could read the Greek version, it provided a key for decoding the hieroglyphic and Demotic scripts."
+              },
+              {
+                "id": "itp3-lc-talk1-q3",
+                "question": "According to the professor, what was Champollion's key advantage over Thomas Young?",
+                "options": ["A. He had more access to Egyptian artifacts.", "B. He was fluent in Coptic, which helped him identify sound values in hieroglyphs.", "C. He worked directly with Egyptian priests.", "D. He had studied ancient Greek longer than Young."],
+                "answer": "B",
+                "explanation": "The professor explains that Champollion's knowledge of Coptic allowed him to recognize sound values in the hieroglyphs that Young had missed."
+              },
+              {
+                "id": "itp3-lc-talk1-q4",
+                "question": "According to the professor, what happened after hieroglyphics were deciphered?",
+                "options": ["A. Egypt was reunified under a new government.", "B. The Rosetta Stone was returned to Egypt.", "C. A vast body of Egyptian history and culture became accessible to the modern world.", "D. Thomas Young published a complete dictionary of hieroglyphs."],
+                "answer": "C",
+                "explanation": "The professor says the decipherment opened up three thousand years of Egyptian history, religion, medicine, and literature."
+              }
+            ]
+          },
+          {
+            "id": "itp3-lc-talk2",
+            "script": "Narrator: Listen to part of a lecture in a chemistry class.\nProfessor: In recent years, one material has attracted enormous attention from scientists and engineers around the world — graphene. Graphene is a single layer of carbon atoms arranged in a two-dimensional hexagonal lattice — essentially a one-atom-thick sheet of graphite. Despite its simplicity, graphene has an extraordinary combination of properties that make it one of the most studied materials in modern science.\n\nFirst, let's talk about strength. Graphene is approximately two hundred times stronger than structural steel on a per-weight basis. Yet it is also incredibly flexible — it can be bent and stretched without breaking. This combination of strength and flexibility is almost unheard of in materials science. The theoretical tensile strength of graphene is about 130 gigapascals, though in practice, real-world sheets are somewhat weaker due to defects in the crystal lattice.\n\nGraphene is also an exceptional conductor of electricity. Electrons move through it at speeds approaching one percent of the speed of light, far faster than in conventional silicon — the material currently used in computer chips. This has led researchers to investigate graphene as a potential replacement for silicon in next-generation electronics. However, there is a significant challenge: graphene has no natural band gap, which means it cannot be easily switched off the way silicon transistors can. Engineers are still working to solve this fundamental problem.\n\nIn terms of thermal conductivity, graphene outperforms all known materials. Heat spreads through it extremely efficiently, which could make it useful in managing heat in high-performance electronics.\n\nBeyond electronics, researchers are exploring graphene for use in water filtration membranes, flexible solar cells, stronger composite materials for aerospace, and even targeted drug delivery in medicine. The challenge in each case is not the material's properties — those are impressive enough — but the difficulty of producing high-quality graphene at a large scale and at a low enough cost for commercial applications.\n\nGraphene was first isolated in 2004 by Andre Geim and Konstantin Novoselov at the University of Manchester. Their work earned them the Nobel Prize in Physics in 2010, making graphene one of the fastest routes from discovery to Nobel recognition in the history of the prize.",
+            "questions": [
+              {
+                "id": "itp3-lc-talk2-q1",
+                "question": "What is the main topic of the lecture?",
+                "options": ["A. The history of computer chip manufacturing.", "B. The properties and potential applications of graphene.", "C. Recent advances in aerospace engineering.", "D. The chemistry of carbon compounds in general."],
+                "answer": "B",
+                "explanation": "The lecture covers graphene's remarkable physical properties and the many fields in which it may be applied."
+              },
+              {
+                "id": "itp3-lc-talk2-q2",
+                "question": "According to the professor, what is the main challenge to using graphene in electronics?",
+                "options": ["A. It conducts electricity too slowly.", "B. It is too brittle to be used in circuits.", "C. It lacks a natural band gap, making it difficult to switch off like silicon transistors.", "D. It is too expensive to purify from graphite."],
+                "answer": "C",
+                "explanation": "The professor explains that graphene has no natural band gap, preventing it from being easily switched off the way silicon transistors can."
+              },
+              {
+                "id": "itp3-lc-talk2-q3",
+                "question": "The word 'lattice' in the lecture is closest in meaning to:",
+                "options": ["A. a random arrangement of atoms.", "B. a structured, repeating grid or framework.", "C. the outer surface of a material.", "D. an electrical current path."],
+                "answer": "B",
+                "explanation": "A lattice refers to a regular, repeating arrangement — in this case, the hexagonal grid of carbon atoms."
+              },
+              {
+                "id": "itp3-lc-talk2-q4",
+                "question": "According to the professor, what is the main obstacle to widespread commercial use of graphene?",
+                "options": ["A. Graphene's properties are not strong enough for most applications.", "B. There is no scientific agreement on graphene's uses.", "C. Producing high-quality graphene at large scale and low cost is difficult.", "D. Graphene degrades quickly when exposed to air."],
+                "answer": "C",
+                "explanation": "The professor says the challenge is producing high-quality graphene at scale and at low enough cost for commercial applications."
+              }
+            ]
+          },
+          {
+            "id": "itp3-lc-talk3",
+            "script": "Narrator: Listen to part of a lecture in a political science class.\nProfessor: Today we're going to look at a concept that has become increasingly important in understanding how countries interact with one another — the concept of soft power. The term was coined by Harvard political scientist Joseph Nye in the late 1980s. Nye defined soft power as the ability to influence other countries not through military force or economic coercion — what he called hard power — but through attraction, cultural appeal, and the perceived legitimacy of a country's values and policies.\n\nThe logic is straightforward. If one country admires another's culture, education system, or political values, it is more likely to cooperate with that country, align its foreign policy, and support its positions in international institutions. Soft power works through persuasion rather than compulsion.\n\nExamples of soft power are all around us. The global popularity of American films, music, and universities has long given the United States a form of soft power that goes beyond its military or economic strength. When students from across Asia and Africa come to American universities, they often return home with a positive view of American values and institutions. The same principle applies to the BBC, which has shaped how millions of people around the world understand international events through British editorial values.\n\nOther countries are actively building their soft power. China has established over five hundred Confucius Institutes around the world to promote Mandarin language learning and Chinese culture. South Korea's cultural exports — K-pop, Korean dramas, and cuisine — have generated enormous goodwill, particularly across Asia and increasingly in Latin America and Europe. This phenomenon is sometimes called the Korean Wave, or Hallyu.\n\nSoft power is not without its critics. Some scholars argue that it is difficult to measure precisely and that countries often overestimate their own cultural appeal. Others point out that soft power can be undermined by a country's hard-power actions. For example, a country's cultural influence can erode rapidly if its government is seen as acting aggressively or unjustly on the world stage.\n\nNevertheless, most contemporary analysts agree that in an interconnected world, the ability to attract rather than coerce is an increasingly valuable tool of statecraft.",
+            "questions": [
+              {
+                "id": "itp3-lc-talk3-q1",
+                "question": "How does the professor define soft power?",
+                "options": ["A. The use of military force to influence other nations.", "B. The ability to influence others through attraction and cultural appeal rather than coercion.", "C. Economic sanctions used as a diplomatic tool.", "D. A country's ability to negotiate international treaties."],
+                "answer": "B",
+                "explanation": "The professor quotes Nye's definition: soft power is influence through attraction, cultural appeal, and perceived legitimacy — not military or economic pressure."
+              },
+              {
+                "id": "itp3-lc-talk3-q2",
+                "question": "According to the professor, which of the following is an example of soft power?",
+                "options": ["A. A country imposing trade tariffs on imports.", "B. The global popularity of American films and universities.", "C. A military alliance between two nations.", "D. A country building nuclear weapons as a deterrent."],
+                "answer": "B",
+                "explanation": "The professor cites American films, music, and universities as examples of soft power because they attract positive views without coercion."
+              },
+              {
+                "id": "itp3-lc-talk3-q3",
+                "question": "What is the Korean Wave, or Hallyu?",
+                "options": ["A. A South Korean military strategy.", "B. A South Korean foreign aid program.", "C. The spread of South Korean cultural exports such as K-pop and Korean dramas.", "D. A South Korean economic reform policy."],
+                "answer": "C",
+                "explanation": "The professor identifies the Korean Wave as the spread of South Korean cultural exports — K-pop, dramas, and cuisine — that generate international goodwill."
+              },
+              {
+                "id": "itp3-lc-talk3-q4",
+                "question": "What criticism of soft power does the professor mention?",
+                "options": ["A. It is too expensive for most countries to develop.", "B. It is difficult to measure and can be undermined by aggressive hard-power actions.", "C. It only works between countries with shared languages.", "D. It has been rejected by most international organizations."],
+                "answer": "B",
+                "explanation": "The professor notes critics say soft power is hard to measure precisely and can be eroded if a country acts aggressively or unjustly."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "structure": {
+    "timeLimit": 1500,
+    "totalQuestions": 40,
+    "parts": [
+      {
+        "id": "itp3-s-part-a",
+        "type": "sentence_completion",
+        "name": "Part A — Structure (Sentence Completion)",
+        "instruction": "Choose the word or phrase that best completes the sentence.",
+        "items": [
+          {
+            "id": "itp3-sa-1",
+            "prompt": "It was the professor ___ first introduced the theory of cognitive dissonance to the class.",
+            "options": ["A. who", "B. which", "C. whom", "D. whose"],
+            "answer": "A",
+            "explanation": "Cleft sentence pattern: 'It was + noun + who/that + verb'. 'Who' is used for people as subject of the relative clause."
+          },
+          {
+            "id": "itp3-sa-2",
+            "prompt": "___ they arrived earlier, they would have seen the entire presentation.",
+            "options": ["A. Had", "B. Have", "C. Should", "D. Were"],
+            "answer": "A",
+            "explanation": "Inverted conditional (third conditional): 'Had + subject + past participle' = 'If they had arrived'. This is formal inversion of the past perfect conditional."
+          },
+          {
+            "id": "itp3-sa-3",
+            "prompt": "Not only did she finish the report on time, ___ she also submitted it ahead of the deadline.",
+            "options": ["A. but", "B. and", "C. yet", "D. so"],
+            "answer": "A",
+            "explanation": "Correlative conjunction pattern: 'Not only...but (also)'. After fronted 'Not only + did inversion', the second clause uses 'but also'."
+          },
+          {
+            "id": "itp3-sa-4",
+            "prompt": "The committee recommended that the proposal ___ thoroughly reviewed before the next meeting.",
+            "options": ["A. be", "B. is", "C. was", "D. being"],
+            "answer": "A",
+            "explanation": "After 'recommend that', the subjunctive mood requires the base form of the verb — 'be reviewed', not 'is reviewed' or 'was reviewed'."
+          },
+          {
+            "id": "itp3-sa-5",
+            "prompt": "___ he succeeded in the final round surprised everyone in the department.",
+            "options": ["A. That", "B. What", "C. Which", "D. How"],
+            "answer": "A",
+            "explanation": "A nominal clause functioning as subject uses 'That' to introduce a complete clause as the subject. 'That he succeeded' is the subject noun clause."
+          },
+          {
+            "id": "itp3-sa-6",
+            "prompt": "___ carefully, the researcher identified several anomalies in the dataset.",
+            "options": ["A. Working", "B. Worked", "C. To work", "D. Having work"],
+            "answer": "A",
+            "explanation": "Reduced adverb clause using present participle: 'Working carefully' modifies the subject 'the researcher' (same-subject condition applies)."
+          },
+          {
+            "id": "itp3-sa-7",
+            "prompt": "___ the project was presented to the board, where it received unanimous approval.",
+            "options": ["A. Once completed,", "B. Having been completed,", "C. Completed,", "D. After completing,"],
+            "answer": "C",
+            "explanation": "Absolute participial phrase: 'Completed' as a reduced passive participial functions as an adverb clause meaning 'After it was completed'. This is the most idiomatic form for this structure."
+          },
+          {
+            "id": "itp3-sa-8",
+            "prompt": "The more you practice public speaking, ___ you become at handling unexpected questions.",
+            "options": ["A. the more confident", "B. more confident", "C. the most confident", "D. confident"],
+            "answer": "A",
+            "explanation": "Double comparative pattern: 'The more X, the more/better Y'. The second clause requires 'the + comparative adjective'."
+          },
+          {
+            "id": "itp3-sa-9",
+            "prompt": "The data ___ by the research team over five years showed a significant upward trend.",
+            "options": ["A. collected", "B. collecting", "C. having collected", "D. to collect"],
+            "answer": "A",
+            "explanation": "Reduced passive relative clause: 'collected by the team' = 'that was collected by the team'. Past participle signals passive meaning."
+          },
+          {
+            "id": "itp3-sa-10",
+            "prompt": "She studies far more diligently than her classmates ___.",
+            "options": ["A. do", "B. does", "C. are", "D. have"],
+            "answer": "A",
+            "explanation": "Ellipsis: the full clause is 'than her classmates do (study)'. 'Classmates' is plural, so auxiliary 'do' is used."
+          },
+          {
+            "id": "itp3-sa-11",
+            "prompt": "Neither the students nor the professor ___ aware of the schedule change.",
+            "options": ["A. was", "B. were", "C. is", "D. are"],
+            "answer": "A",
+            "explanation": "With 'neither...nor', the verb agrees with the nearer subject. 'The professor' is singular and closest to the verb → 'was'. Present context → past tense form used here indicates a report of a past state."
+          },
+          {
+            "id": "itp3-sa-12",
+            "prompt": "Scarcely had he sat down ___ the fire alarm rang throughout the building.",
+            "options": ["A. when", "B. than", "C. that", "D. before"],
+            "answer": "A",
+            "explanation": "'Scarcely...when' is the correct paired conjunction. 'Scarcely had + subject + past participle + when' signals two events in rapid succession."
+          },
+          {
+            "id": "itp3-sa-13",
+            "prompt": "___ harder he worked, the better his academic results became.",
+            "options": ["A. The", "B. A", "C. As", "D. While"],
+            "answer": "A",
+            "explanation": "Double comparative structure: 'The + comparative, the + comparative'. 'The harder...the better' is the correct pattern."
+          },
+          {
+            "id": "itp3-sa-14",
+            "prompt": "The lecture was ___ complex that only a few students could follow it without difficulty.",
+            "options": ["A. so", "B. such", "C. too", "D. very"],
+            "answer": "A",
+            "explanation": "'So + adjective + that' introduces a result clause. 'Such' would require a noun ('such a complex lecture that...')."
+          },
+          {
+            "id": "itp3-sa-15",
+            "prompt": "___ surprised him most was the unexpected outcome of the final experiment.",
+            "options": ["A. What", "B. That", "C. Which", "D. It"],
+            "answer": "A",
+            "explanation": "What-cleft structure: 'What + subject + verb + was' introduces a noun clause as subject. 'What surprised him most' is a fused relative clause meaning 'The thing that surprised him most'."
+          }
+        ]
+      },
+      {
+        "id": "itp3-s-part-b",
+        "type": "error_identification",
+        "name": "Part B — Error Identification (Written Expression)",
+        "instruction": "Identify the underlined word or phrase that must be changed to make the sentence correct.",
+        "items": [
+          {
+            "id": "itp3-sb-1",
+            "prompt": "Despite of (A) the difficult conditions, the team (B) managed to complete (C) the project well before (D) the deadline.",
+            "options": ["A. Despite of", "B. the team", "C. managed to complete", "D. well before"],
+            "answer": "A",
+            "explanation": "'Despite' is a preposition and is never followed by 'of'. Correct form: 'Despite the difficult conditions' or 'In spite of the difficult conditions'."
+          },
+          {
+            "id": "itp3-sb-2",
+            "prompt": "Running quickly down the hallway (A), the bus (B) was missed (C) by him and he had to wait (D) for the next one.",
+            "options": ["A. Running quickly down the hallway", "B. the bus", "C. was missed", "D. had to wait"],
+            "answer": "A",
+            "explanation": "Dangling modifier: 'Running quickly' must modify the subject who is running. The sentence implies the bus was running, which is illogical. Correct: 'Running quickly down the hallway, he missed the bus.'"
+          },
+          {
+            "id": "itp3-sb-3",
+            "prompt": "The professor gave (A) a lengthy explanation, which (B) confused the students (C) and made them ask (D) for clarification.",
+            "options": ["A. gave", "B. which", "C. confused the students", "D. ask"],
+            "answer": "B",
+            "explanation": "When 'which' refers to an entire preceding clause rather than a specific noun, it is often ambiguous. In formal academic writing, rewriting with 'This explanation confused...' or using 'a fact that' avoids the vague reference. However, note that this usage is marked as error in ITP tests when 'which' refers to the entire event."
+          },
+          {
+            "id": "itp3-sb-4",
+            "prompt": "Each of the students in the advanced seminar (A) have submitted (B) their (C) thesis outline (D) for review.",
+            "options": ["A. Each of the students in the advanced seminar", "B. have submitted", "C. their", "D. for review"],
+            "answer": "B",
+            "explanation": "'Each' is singular → the verb must be 'has submitted', not 'have submitted'."
+          },
+          {
+            "id": "itp3-sb-5",
+            "prompt": "His new running technique (A) made him (B) more faster (C) than his competitors (D) in the regional tournament.",
+            "options": ["A. His new running technique", "B. made him", "C. more faster", "D. than his competitors"],
+            "answer": "C",
+            "explanation": "Double comparative error: 'faster' is already a comparative form; adding 'more' creates a redundant double comparative. Correct: 'faster'."
+          },
+          {
+            "id": "itp3-sb-6",
+            "prompt": "After lying (A) the documents on the table, the secretary (B) informed the director (C) that the meeting would begin (D) shortly.",
+            "options": ["A. lying", "B. informed", "C. the director", "D. would begin"],
+            "answer": "A",
+            "explanation": "'Lay' (past: laid) means to place something; 'lie' (past: lay) means to recline. Here, placing documents requires 'laying' (transitive). The correct word is 'laying', not 'lying'."
+          },
+          {
+            "id": "itp3-sb-7",
+            "prompt": "The outcome of the experiment was quite different than (A) what the researchers (B) had initially (C) predicted (D).",
+            "options": ["A. different than", "B. what the researchers", "C. had initially", "D. predicted"],
+            "answer": "A",
+            "explanation": "In formal academic English, 'different from' is the standard preposition. 'Different than' is non-standard in most formal contexts."
+          },
+          {
+            "id": "itp3-sb-8",
+            "prompt": "The speaker asked the audience (A) to please repeat again (B) any questions (C) they had (D) about the topic.",
+            "options": ["A. asked the audience", "B. repeat again", "C. any questions", "D. they had"],
+            "answer": "B",
+            "explanation": "'Repeat' already means to say or do again, so 'repeat again' is redundant. Correct: 'repeat' or 'say again'."
+          },
+          {
+            "id": "itp3-sb-9",
+            "prompt": "The situation looks (A) like (B) it might resolve itself (C) without any further (D) intervention.",
+            "options": ["A. looks", "B. like", "C. resolve itself", "D. further"],
+            "answer": "B",
+            "explanation": "'Like' is a preposition and should not be used before a clause with a subject and verb. Correct: 'looks as if it might resolve itself' or 'looks as though'."
+          },
+          {
+            "id": "itp3-sb-10",
+            "prompt": "The university aims (A) to actively promote (B) environmental sustainability (C) through all (D) its campus programs.",
+            "options": ["A. aims", "B. to actively promote", "C. environmental sustainability", "D. all"],
+            "answer": "B",
+            "explanation": "A split infinitive places an adverb between 'to' and the verb. While sometimes acceptable, formal academic style avoids it. Correct: 'to promote actively' or 'actively to promote'."
+          },
+          {
+            "id": "itp3-sb-11",
+            "prompt": "There are (A) less (B) students enrolled (C) in the evening session than (D) in the morning one.",
+            "options": ["A. are", "B. less", "C. enrolled", "D. than"],
+            "answer": "B",
+            "explanation": "'Less' is used with uncountable nouns; 'fewer' is correct with countable nouns like 'students'. Correct: 'fewer students'."
+          },
+          {
+            "id": "itp3-sb-12",
+            "prompt": "The report noted (A) that a large amount of (B) errors (C) had been made (D) during the data entry phase.",
+            "options": ["A. noted", "B. amount of", "C. errors", "D. had been made"],
+            "answer": "B",
+            "explanation": "'Amount' is used with uncountable nouns; 'number' is used with countable nouns like 'errors'. Correct: 'a large number of errors'."
+          },
+          {
+            "id": "itp3-sb-13",
+            "prompt": "The difference in results (A) between (B) the three groups (C) was statistically (D) significant.",
+            "options": ["A. in results", "B. between", "C. the three groups", "D. statistically"],
+            "answer": "B",
+            "explanation": "'Between' is used for exactly two items. For three or more, 'among' is the correct preposition. Correct: 'among the three groups'."
+          },
+          {
+            "id": "itp3-sb-14",
+            "prompt": "None of the proposed solutions (A) were (B) considered (C) effective by the review (D) panel.",
+            "options": ["A. None of the proposed solutions", "B. were", "C. considered", "D. panel"],
+            "answer": "B",
+            "explanation": "'None' with a plural noun can be debated, but in formal academic usage 'none' is treated as singular: 'None...was considered'. Correct: 'was'."
+          },
+          {
+            "id": "itp3-sb-15",
+            "prompt": "The award was given to whoever (A) the committee (B) felt had contributed (C) the most to the (D) research initiative.",
+            "options": ["A. whoever", "B. the committee", "C. had contributed", "D. the"],
+            "answer": "A",
+            "explanation": "After a preposition 'to', the pronoun should be 'whomever' (objective case). 'Whoever' is the subjective form and is incorrect here when serving as the object of 'to'."
+          },
+          {
+            "id": "itp3-sb-16",
+            "prompt": "You had ought to (A) review the guidelines (B) before submitting (C) your final draft (D) to the committee.",
+            "options": ["A. had ought to", "B. the guidelines", "C. before submitting", "D. your final draft"],
+            "answer": "A",
+            "explanation": "'Ought to' is a modal verb and never takes 'had' before it. Correct: 'ought to review' or 'should review'."
+          },
+          {
+            "id": "itp3-sb-17",
+            "prompt": "The professor (A) he explained (B) the concept of relativity (C) so clearly that even (D) the first-year students understood.",
+            "options": ["A. The professor", "B. he explained", "C. the concept of relativity", "D. even"],
+            "answer": "B",
+            "explanation": "Double subject error: the subject 'The professor' cannot be followed by the pronoun 'he' before the verb. Correct: 'The professor explained...'."
+          },
+          {
+            "id": "itp3-sb-18",
+            "prompt": "She has been studying abroad (A) since (B) three years (C), and she has greatly improved (D) her language skills.",
+            "options": ["A. abroad", "B. since", "C. three years", "D. improved"],
+            "answer": "B",
+            "explanation": "'Since' is used with a specific point in time (e.g., 'since 2021'); 'for' is used with a duration (e.g., 'for three years'). Correct: 'for three years'."
+          },
+          {
+            "id": "itp3-sb-19",
+            "prompt": "The student barely (A) had hardly (B) any time to review (C) the material before (D) the quiz began.",
+            "options": ["A. barely", "B. had hardly", "C. any time to review", "D. before"],
+            "answer": "B",
+            "explanation": "'Barely' and 'hardly' are both negative adverbs; using both creates a double negative. Correct: 'The student barely had any time' or 'The student had hardly any time'."
+          },
+          {
+            "id": "itp3-sb-20",
+            "prompt": "The visiting lecturer speaks (A) English very fluent (B) and can also (C) communicate (D) in French and German.",
+            "options": ["A. speaks", "B. very fluent", "C. can also", "D. communicate"],
+            "answer": "B",
+            "explanation": "'Fluent' is an adjective; an adverb is needed to modify the verb 'speaks'. Correct: 'very fluently'."
+          },
+          {
+            "id": "itp3-sb-21",
+            "prompt": "Being exhausted of (A) the long journey, the delegates (B) asked for (C) a brief recess (D) before the session resumed.",
+            "options": ["A. Being exhausted of", "B. the delegates", "C. asked for", "D. before"],
+            "answer": "A",
+            "explanation": "'Exhausted' collocates with 'by' (expressing cause), not 'of'. Correct: 'Being exhausted by the long journey' or 'Exhausted by the long journey'."
+          },
+          {
+            "id": "itp3-sb-22",
+            "prompt": "All the committee members (A) look forward to hear (B) the final (C) report at the (D) next quarterly meeting.",
+            "options": ["A. All the committee members", "B. look forward to hear", "C. final", "D. next quarterly"],
+            "answer": "B",
+            "explanation": "'Look forward to' is always followed by a gerund (verb + -ing), not an infinitive. Correct: 'look forward to hearing'."
+          },
+          {
+            "id": "itp3-sb-23",
+            "prompt": "The laboratory assistant raised (A) slowly from (B) her chair when she noticed (C) that the chemical reaction (D) had begun.",
+            "options": ["A. raised", "B. from", "C. noticed", "D. had begun"],
+            "answer": "A",
+            "explanation": "'Rise' (intransitive) means to move upward; 'raise' (transitive) means to lift something. A person rising from a chair is intransitive — correct: 'rose slowly'."
+          },
+          {
+            "id": "itp3-sb-24",
+            "prompt": "There is (A) too much (B) variables (C) in this model for the results to be (D) conclusive.",
+            "options": ["A. is", "B. too much", "C. variables", "D. to be"],
+            "answer": "B",
+            "explanation": "'Much' is used with uncountable nouns; 'variables' is countable. Correct: 'too many variables'. Also, subject-verb should be 'are' for plural 'variables'."
+          },
+          {
+            "id": "itp3-sb-25",
+            "prompt": "The mixture (A) is consisted of (B) three chemical compounds (C) that react (D) at room temperature.",
+            "options": ["A. The mixture", "B. is consisted of", "C. three chemical compounds", "D. react"],
+            "answer": "B",
+            "explanation": "'Consist of' is an active verb that cannot be used in the passive voice. Correct: 'consists of'. 'Is consisted of' does not exist in English."
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "timeLimit": 3300,
+    "totalQuestions": 50,
+    "passages": [
+      {
+        "id": "itp3-r-p1",
+        "title": "Passage 1 — Language Acquisition and the Critical Period Hypothesis",
+        "text": "One of the most debated questions in linguistics is whether human beings are born with an innate capacity for language. The American linguist Noam Chomsky argued in the 1960s that the ability to acquire language is built into the human brain as a universal grammar — a set of underlying principles shared by all human languages. This theory holds that children do not simply imitate what they hear; rather, they are genetically equipped to infer grammatical rules from the speech around them and to generate entirely new sentences they have never heard before.\n\nClosely related to universal grammar is the critical period hypothesis, proposed by neurologist Eric Lenneberg in 1967. Lenneberg observed that children acquire language effortlessly and rapidly up to a certain age — generally considered to be around puberty — after which the process becomes significantly more difficult. He linked this window to brain plasticity: before puberty, the brain is highly flexible and can devote neural resources to language acquisition with remarkable efficiency. After the critical period closes, the brain's plasticity decreases, making it harder to achieve native-like fluency in a new language.\n\nEvidence for the critical period comes from several sources. Case studies of children raised in extreme isolation — such as the famous case of a girl known as Genie, who was discovered in 1970 having been deprived of language input throughout childhood — showed severe and largely permanent language deficits, despite later intensive instruction. Similarly, studies of deaf children who received sign language input from birth achieved native-like fluency, while those who received input only after adolescence never fully mastered the grammar of sign language.\n\nResearch on bilingualism has added further nuance. Children raised in bilingual environments consistently show high proficiency in both languages, with some cognitive advantages such as enhanced attention control and mental flexibility. These advantages appear most strongly when both languages are acquired from an early age. Adults who learn a second language later in life may achieve high competence but typically retain an accent and show subtle differences in grammatical processing compared with native speakers.\n\nWhile the strict version of universal grammar — that all grammatical structures are innate — remains controversial, most linguists accept that humans have a uniquely strong biological predisposition for language acquisition, and that the timing of exposure plays a crucial role in outcomes.",
+        "questions": [
+          {
+            "id": "itp3-r-p1-q1",
+            "question": "What is the main idea of the passage?",
+            "options": ["A. All languages share exactly the same grammatical rules.", "B. Human language ability is innate, and the timing of language exposure significantly affects acquisition outcomes.", "C. Bilingual children always outperform monolingual children in academic settings.", "D. Adults cannot learn a second language successfully."],
+            "answer": "B",
+            "explanation": "The passage covers universal grammar, the critical period hypothesis, and bilingualism research — all supporting that human language ability is innate and timing matters."
+          },
+          {
+            "id": "itp3-r-p1-q2",
+            "question": "According to Chomsky's theory, how do children acquire language?",
+            "options": ["A. By imitating adult speech patterns exactly.", "B. By using an innate set of grammatical principles to infer rules from the language around them.", "C. By reading books and formal instruction.", "D. By copying the errors of other children."],
+            "answer": "B",
+            "explanation": "Chomsky argued children are genetically equipped with universal grammar, allowing them to infer rules and generate new sentences rather than merely imitating."
+          },
+          {
+            "id": "itp3-r-p1-q3",
+            "question": "The word 'plasticity' in paragraph 2 is closest in meaning to:",
+            "options": ["A. rigidity", "B. creativity", "C. flexibility and adaptability", "D. chemical composition"],
+            "answer": "C",
+            "explanation": "In neuroscience, brain plasticity refers to the brain's ability to adapt, change, and reorganize — i.e., its flexibility and adaptability."
+          },
+          {
+            "id": "itp3-r-p1-q4",
+            "question": "What does the case of the girl known as Genie illustrate?",
+            "options": ["A. That intensive instruction can fully overcome a missed critical period.", "B. That children deprived of language input during the critical period develop severe and lasting language deficits.", "C. That universal grammar is only present in hearing children.", "D. That sign language and spoken language are acquired by different brain regions."],
+            "answer": "B",
+            "explanation": "Genie showed severe and largely permanent language deficits even after intensive later instruction, supporting the critical period hypothesis."
+          },
+          {
+            "id": "itp3-r-p1-q5",
+            "question": "According to the passage, what cognitive advantages do early bilinguals show?",
+            "options": ["A. Higher mathematical ability.", "B. Better memory for historical facts.", "C. Enhanced attention control and mental flexibility.", "D. A larger vocabulary in both languages."],
+            "answer": "C",
+            "explanation": "The passage specifically mentions enhanced attention control and mental flexibility as cognitive advantages of early bilingualism."
+          },
+          {
+            "id": "itp3-r-p1-q6",
+            "question": "The word 'predisposition' in the final paragraph is closest in meaning to:",
+            "options": ["A. a natural tendency or inclination toward something.", "B. a learned habit developed over time.", "C. a social preference shaped by culture.", "D. a physical weakness or limitation."],
+            "answer": "A",
+            "explanation": "A predisposition is a natural tendency or inclination — in this case, a biological tendency toward language acquisition."
+          },
+          {
+            "id": "itp3-r-p1-q7",
+            "question": "According to the passage, what happens to language acquisition after the critical period closes?",
+            "options": ["A. It becomes impossible.", "B. It proceeds at the same rate as in childhood.", "C. It becomes significantly more difficult, and native-like fluency is harder to achieve.", "D. It accelerates due to increased cognitive capacity."],
+            "answer": "C",
+            "explanation": "The passage states that after the critical period, brain plasticity decreases, making the process significantly more difficult and native-like fluency harder to achieve."
+          },
+          {
+            "id": "itp3-r-p1-q8",
+            "question": "It can be inferred from the passage that Lenneberg's critical period hypothesis is supported by:",
+            "options": ["A. Only laboratory experiments with animals.", "B. Chomsky's analysis of grammar textbooks.", "C. Evidence from isolated children and studies of sign language acquisition.", "D. Surveys of adult language learners."],
+            "answer": "C",
+            "explanation": "The passage presents Genie's case and deaf children's sign language studies as supporting evidence for Lenneberg's hypothesis."
+          },
+          {
+            "id": "itp3-r-p1-q9",
+            "question": "What does the passage say about adults who learn a second language?",
+            "options": ["A. They cannot achieve high competence.", "B. They may achieve high competence but typically retain an accent and show subtle grammatical differences.", "C. They process grammar identically to native speakers.", "D. They benefit more from the critical period than children."],
+            "answer": "B",
+            "explanation": "The passage states that adult second-language learners may achieve high competence but typically retain an accent and show subtle differences in grammatical processing."
+          },
+          {
+            "id": "itp3-r-p1-q10",
+            "question": "Which of the following best describes the organization of the passage?",
+            "options": ["A. A debate between two linguists with no conclusion.", "B. A presentation of a central theory followed by supporting evidence and related findings.", "C. A chronological history of language development in one child.", "D. A list of arguments against universal grammar."],
+            "answer": "B",
+            "explanation": "The passage introduces universal grammar and the critical period hypothesis, then supports them with case studies and bilingualism research before offering a nuanced conclusion."
+          }
+        ]
+      },
+      {
+        "id": "itp3-r-p2",
+        "title": "Passage 2 — Pompeii: A Window into Roman Daily Life",
+        "text": "In August of 79 CE, Mount Vesuvius erupted with catastrophic force, burying the Roman city of Pompeii under several meters of volcanic ash and pumice. Though the disaster killed thousands of people, it also created an extraordinary time capsule. The rapid burial preserved buildings, objects, frescoes, and even food in remarkable detail, giving archaeologists a vivid picture of daily life in a prosperous Roman city during the first century.\n\nPompeii was a thriving commercial center of roughly twenty thousand inhabitants before the eruption. Its streets were lined with bakeries, taverns, shops, and workshops. Archaeologists have excavated more than thirty bakeries, many of which still contained carbonized loaves of bread — in one case, a loaf was found with the baker's stamp still visible. Thermopolia, which were essentially ancient fast-food counters with large clay pots set into stone counters to keep food warm, numbered in the hundreds and indicate that a large portion of the population ate prepared food daily rather than cooking at home.\n\nThe frescoes preserved on the walls of wealthy homes reveal much about Roman artistic taste and social values. Many feature mythological scenes, garden landscapes, and portraits. Some show erotic imagery that shocked early modern excavators and led to a hidden room at the Naples museum where such objects were kept away from the general public for over a century. The frescoes also document the popularity of Greek mythology among Roman elites, who used classical references to display their cultural sophistication.\n\nPerhaps the most striking physical remnants of Pompeii are the plaster casts of its victims. Archaeologist Giuseppe Fiorelli developed the technique of pouring plaster into the cavities left by decomposed bodies in the ash layers. The resulting casts show people frozen in their final moments — covering their faces, clutching loved ones, or crouched under furniture. These casts transformed Pompeii from an abstract historical site into a profoundly human story.\n\nPompeii has also altered scholars' understanding of Roman social structure. The mix of elaborate villas, modest workshops, and cramped apartments within a small area reflects the close proximity of different social classes in Roman urban life. Evidence of graffiti on walls — ranging from election slogans to declarations of love — humanizes the city's inhabitants and suggests a surprisingly high rate of literacy for the ancient world.",
+        "questions": [
+          {
+            "id": "itp3-r-p2-q1",
+            "question": "What is the main idea of the passage?",
+            "options": ["A. The eruption of Vesuvius was the deadliest volcanic event in history.", "B. The preservation of Pompeii has provided archaeologists with detailed evidence of Roman daily life.", "C. Roman architecture was superior to Greek architecture.", "D. The plaster cast technique was the most important archaeological breakthrough of all time."],
+            "answer": "B",
+            "explanation": "The passage focuses on how the volcanic burial preserved Pompeii so well that it gives archaeologists an exceptional view of first-century Roman life."
+          },
+          {
+            "id": "itp3-r-p2-q2",
+            "question": "According to the passage, what does the presence of hundreds of thermopolia suggest?",
+            "options": ["A. Romans rarely ate bread.", "B. The city had a large slave population.", "C. Many residents ate prepared food daily rather than cooking at home.", "D. Roman cuisine was heavily influenced by Greek cooking."],
+            "answer": "C",
+            "explanation": "The passage states that the large number of thermopolia indicates many people ate prepared food daily rather than cooking at home."
+          },
+          {
+            "id": "itp3-r-p2-q3",
+            "question": "The word 'carbonized' in paragraph 2 is closest in meaning to:",
+            "options": ["A. preserved by being turned into carbon through heat.", "B. decorated with carbon-based pigments.", "C. dissolved by chemical reaction.", "D. stored in airtight containers."],
+            "answer": "A",
+            "explanation": "'Carbonized' means converted into carbon through burning or extreme heat — the bread loaves were charred and preserved by the volcanic heat."
+          },
+          {
+            "id": "itp3-r-p2-q4",
+            "question": "Why were some erotic frescoes kept in a hidden room at the Naples museum?",
+            "options": ["A. Because they were too fragile to display publicly.", "B. Because early modern excavators found them shocking and inappropriate for the general public.", "C. Because their authenticity was disputed.", "D. Because the Roman government requested it."],
+            "answer": "B",
+            "explanation": "The passage says the erotic imagery shocked early modern excavators, leading to the objects being kept away from the public for over a century."
+          },
+          {
+            "id": "itp3-r-p2-q5",
+            "question": "According to the passage, what technique did Giuseppe Fiorelli develop?",
+            "options": ["A. Painting reproductions of the frescoes.", "B. Pouring plaster into cavities left by decomposed bodies to create casts.", "C. Using X-rays to examine buried artifacts.", "D. Excavating underground tunnels to access undamaged buildings."],
+            "answer": "B",
+            "explanation": "The passage explicitly describes Fiorelli's technique: pouring plaster into body-shaped cavities in the ash to produce casts of Pompeii's victims."
+          },
+          {
+            "id": "itp3-r-p2-q6",
+            "question": "The word 'proximity' in the final paragraph is closest in meaning to:",
+            "options": ["A. distance", "B. closeness", "C. rivalry", "D. independence"],
+            "answer": "B",
+            "explanation": "'Proximity' means nearness or closeness — the passage refers to different social classes living close to one another."
+          },
+          {
+            "id": "itp3-r-p2-q7",
+            "question": "What does the graffiti found on walls suggest about Pompeii's population?",
+            "options": ["A. Most residents were unemployed.", "B. The city was politically unstable.", "C. There was a surprisingly high rate of literacy for the ancient world.", "D. Roman elections were corrupt."],
+            "answer": "C",
+            "explanation": "The passage states that the widespread wall graffiti, including election slogans and love messages, suggests a surprisingly high literacy rate for the ancient world."
+          },
+          {
+            "id": "itp3-r-p2-q8",
+            "question": "It can be inferred from the passage that the frescoes in wealthy homes served to:",
+            "options": ["A. provide lighting in dark rooms.", "B. display the homeowners' cultural knowledge and sophistication.", "C. scare away intruders.", "D. teach visitors about Roman history."],
+            "answer": "B",
+            "explanation": "The passage says the frescoes, with their classical Greek mythological references, were used by Roman elites to display their cultural sophistication."
+          },
+          {
+            "id": "itp3-r-p2-q9",
+            "question": "According to the passage, approximately how many people lived in Pompeii before the eruption?",
+            "options": ["A. Five thousand.", "B. Ten thousand.", "C. Twenty thousand.", "D. Fifty thousand."],
+            "answer": "C",
+            "explanation": "The passage states that Pompeii had roughly twenty thousand inhabitants before the eruption."
+          },
+          {
+            "id": "itp3-r-p2-q10",
+            "question": "Which of the following best describes the organization of the passage?",
+            "options": ["A. A chronological account of the Roman Empire's rise and fall.", "B. A thematic exploration of different aspects of life revealed by Pompeii's preservation.", "C. A comparison of Pompeii with other Roman cities.", "D. A biography of the archaeologist Giuseppe Fiorelli."],
+            "answer": "B",
+            "explanation": "The passage covers food culture, art, death, and social structure as separate themes, all united by the central topic of what Pompeii reveals about Roman life."
+          }
+        ]
+      },
+      {
+        "id": "itp3-r-p3",
+        "title": "Passage 3 — El Niño and La Niña: Drivers of Global Weather",
+        "text": "Among the most influential climate phenomena on Earth are El Niño and La Niña, two opposing phases of a larger climate pattern known as the El Niño-Southern Oscillation, or ENSO. These events originate in the tropical Pacific Ocean and produce far-reaching effects on rainfall, temperature, and storm patterns across the globe.\n\nUnder normal conditions, strong trade winds blow westward across the Pacific, pushing warm surface water toward Australia and Southeast Asia while cooler water upwells along the South American coast. This upwelling brings nutrients to the surface, supporting rich marine ecosystems off Peru and Ecuador. During an El Niño event, these trade winds weaken or reverse. Warm water spreads eastward toward South America, suppressing upwelling and raising sea surface temperatures in the central and eastern Pacific.\n\nThe consequences are widespread. In South America, particularly Peru, El Niño brings heavy rainfall and flooding. Meanwhile, Australia, Indonesia, and parts of southern Africa typically experience drought. In the Atlantic, warmer sea surface temperatures can suppress hurricane formation. The opposite phase, La Niña, which involves stronger-than-normal trade winds and cooler Pacific temperatures, tends to produce the reverse effects: drought in South America, above-average rainfall in Australia, and a more active Atlantic hurricane season.\n\nScientists monitor ENSO through a network of ocean buoys, satellite observations, and atmospheric pressure measurements. One key indicator is the Southern Oscillation Index, which tracks the difference in air pressure between Tahiti and Darwin, Australia. When this index shows a sustained negative value, an El Niño is likely; a sustained positive value indicates La Niña conditions. Modern climate models can typically forecast El Niño events six to twelve months in advance, giving governments and disaster agencies time to prepare.\n\nThe global impacts of ENSO have significant implications for agriculture, water supply, and public health. Drought conditions can devastate crop yields and trigger food insecurity, while flooding can spread waterborne diseases. Understanding and predicting ENSO cycles is therefore one of the most practically important areas of climate science.",
+        "questions": [
+          {
+            "id": "itp3-r-p3-q1",
+            "question": "What is the main topic of the passage?",
+            "options": ["A. The history of weather forecasting technology.", "B. The causes, effects, and prediction of El Niño and La Niña.", "C. The impact of climate change on ocean temperatures.", "D. Hurricane formation in the Atlantic Ocean."],
+            "answer": "B",
+            "explanation": "The passage comprehensively covers how El Niño and La Niña develop, their global effects, and how scientists monitor and predict them."
+          },
+          {
+            "id": "itp3-r-p3-q2",
+            "question": "Under normal Pacific conditions, what do trade winds do?",
+            "options": ["A. Blow warm water toward South America.", "B. Push warm surface water westward toward Australia and Southeast Asia.", "C. Prevent upwelling along the South American coast.", "D. Cause heavy rainfall in Peru."],
+            "answer": "B",
+            "explanation": "The passage states that under normal conditions, trade winds blow westward, pushing warm water toward Australia and Southeast Asia."
+          },
+          {
+            "id": "itp3-r-p3-q3",
+            "question": "The word 'upwelling' in paragraph 2 is closest in meaning to:",
+            "options": ["A. the sinking of warm water to the ocean floor.", "B. the rising of cold water from deep ocean layers to the surface.", "C. the westward movement of ocean currents.", "D. the evaporation of seawater into the atmosphere."],
+            "answer": "B",
+            "explanation": "Upwelling refers to the process by which deeper, cooler ocean water rises to the surface, typically along coastlines."
+          },
+          {
+            "id": "itp3-r-p3-q4",
+            "question": "According to the passage, what effect does El Niño typically have on the Atlantic hurricane season?",
+            "options": ["A. It produces more frequent and stronger hurricanes.", "B. It suppresses hurricane formation.", "C. It shifts hurricanes toward the Pacific.", "D. It has no effect on Atlantic hurricanes."],
+            "answer": "B",
+            "explanation": "The passage states that during El Niño, warmer Atlantic sea surface temperatures can suppress hurricane formation."
+          },
+          {
+            "id": "itp3-r-p3-q5",
+            "question": "What is the Southern Oscillation Index?",
+            "options": ["A. A measure of Pacific Ocean salinity levels.", "B. A satellite system tracking sea surface temperature.", "C. An index tracking air pressure differences between Tahiti and Darwin.", "D. A measurement of trade wind speed at the equator."],
+            "answer": "C",
+            "explanation": "The passage defines the Southern Oscillation Index as a measure tracking the difference in air pressure between Tahiti and Darwin, Australia."
+          },
+          {
+            "id": "itp3-r-p3-q6",
+            "question": "The word 'sustained' in paragraph 4 is closest in meaning to:",
+            "options": ["A. brief and occasional.", "B. continued over a period of time.", "C. increasing rapidly.", "D. measured for the first time."],
+            "answer": "B",
+            "explanation": "'Sustained' means maintained or continued over a period of time — in this context, a prolonged reading of the index indicating a developing El Niño or La Niña."
+          },
+          {
+            "id": "itp3-r-p3-q7",
+            "question": "According to the passage, what are two health risks associated with ENSO events?",
+            "options": ["A. Sunburn and dehydration.", "B. Drought-driven food insecurity and flooding that spreads waterborne diseases.", "C. Air pollution and respiratory illness.", "D. Extreme cold temperatures and frostbite."],
+            "answer": "B",
+            "explanation": "The passage specifically mentions that drought can cause food insecurity and that flooding can spread waterborne diseases."
+          },
+          {
+            "id": "itp3-r-p3-q8",
+            "question": "It can be inferred from the passage that accurate ENSO forecasting is valuable because:",
+            "options": ["A. It allows governments to control trade wind patterns.", "B. It helps governments and agencies prepare for weather-related disasters.", "C. It enables scientists to prevent El Niño from occurring.", "D. It provides real-time satellite images of storms."],
+            "answer": "B",
+            "explanation": "The passage says modern models can forecast El Niño six to twelve months in advance, 'giving governments and disaster agencies time to prepare'."
+          },
+          {
+            "id": "itp3-r-p3-q9",
+            "question": "Which of the following is a characteristic of La Niña?",
+            "options": ["A. Weaker-than-normal trade winds.", "B. Drought in Peru and Colombia.", "C. Above-average rainfall in Australia.", "D. Warmer sea surface temperatures in the eastern Pacific."],
+            "answer": "C",
+            "explanation": "The passage states that La Niña tends to produce above-average rainfall in Australia, among other effects."
+          },
+          {
+            "id": "itp3-r-p3-q10",
+            "question": "The passage implies that El Niño and La Niña are best understood as:",
+            "options": ["A. Separate, unrelated climate events.", "B. Two opposite phases of a single recurring climate pattern.", "C. Phenomena caused entirely by human activity.", "D. Events that affect only South America and Australia."],
+            "answer": "B",
+            "explanation": "The passage introduces both as opposing phases of the El Niño-Southern Oscillation (ENSO), a larger climate pattern."
+          }
+        ]
+      },
+      {
+        "id": "itp3-r-p4",
+        "title": "Passage 4 — Thomas Kuhn and the Structure of Scientific Revolutions",
+        "text": "In 1962, the American philosopher and historian of science Thomas Kuhn published a book that transformed how people think about scientific progress. In The Structure of Scientific Revolutions, Kuhn argued that science does not advance by the simple accumulation of knowledge. Instead, it proceeds through dramatic shifts he called paradigm shifts — revolutionary changes in the fundamental assumptions and methods of a scientific field.\n\nKuhn introduced the concept of a paradigm — a set of shared beliefs, methods, and examples that define what counts as legitimate scientific practice within a given field at a given time. During what Kuhn called normal science, researchers work within the accepted paradigm, solving puzzles and refining existing theories. Anomalies — observations that cannot be explained by the current paradigm — are often ignored or explained away. But when anomalies accumulate to the point where they can no longer be dismissed, the field enters a state of crisis.\n\nDuring a crisis, competing theories emerge and scientists begin questioning fundamental assumptions. Eventually, a new paradigm displaces the old one in a revolutionary event. This is not simply a refinement of the old theory; it is a complete reconceptualization. Kuhn famously described different paradigms as 'incommensurable' — meaning they are so fundamentally different that proponents of competing paradigms talk past each other, using the same words with different meanings.\n\nKuhn supported his theory with historical examples. The Copernican revolution — the shift from an Earth-centered to a Sun-centered model of the solar system — was a classic paradigm shift. So was the transition from Newtonian mechanics to Einstein's relativity. In each case, the new paradigm did not merely correct errors in the old one; it restructured the entire conceptual framework of the field.\n\nKuhn's work generated enormous controversy. Critics argued that his description made science seem arbitrary and subjective — as if paradigms were adopted not because they were more correct, but because more scientists happened to believe in them. Kuhn himself later clarified that paradigm shifts are not purely sociological events; the new paradigm must solve the problems the old one could not. Nevertheless, his insight that scientific progress is discontinuous and shaped by human factors remains one of the most influential ideas in the philosophy of science.",
+        "questions": [
+          {
+            "id": "itp3-r-p4-q1",
+            "question": "What is the central argument of Kuhn's book, as described in the passage?",
+            "options": ["A. Science progresses through a steady accumulation of facts.", "B. Scientific progress occurs through dramatic paradigm shifts rather than gradual accumulation.", "C. Scientists always agree on fundamental methods.", "D. New theories always build directly on old theories."],
+            "answer": "B",
+            "explanation": "The passage states that Kuhn argued science advances through paradigm shifts — not simple accumulation — which is the central thesis of his book."
+          },
+          {
+            "id": "itp3-r-p4-q2",
+            "question": "According to the passage, what happens during 'normal science'?",
+            "options": ["A. Scientists challenge the existing paradigm regularly.", "B. Scientists work within the accepted paradigm, solving puzzles and refining theories.", "C. New paradigms are developed and debated.", "D. Anomalies immediately trigger a scientific crisis."],
+            "answer": "B",
+            "explanation": "The passage defines normal science as a period when researchers work within the established paradigm, solving puzzles without questioning fundamental assumptions."
+          },
+          {
+            "id": "itp3-r-p4-q3",
+            "question": "The word 'incommensurable' in paragraph 3 is closest in meaning to:",
+            "options": ["A. incomparable due to being of different fundamental frameworks.", "B. easily measured against each other.", "C. widely accepted by all scientists.", "D. proven by mathematical methods."],
+            "answer": "A",
+            "explanation": "Kuhn used 'incommensurable' to mean that different paradigms are so fundamentally different they cannot be directly compared or translated into each other's terms."
+          },
+          {
+            "id": "itp3-r-p4-q4",
+            "question": "Which historical examples does the passage give as paradigm shifts?",
+            "options": ["A. The discovery of penicillin and the development of vaccines.", "B. The Copernican revolution and the shift from Newtonian mechanics to Einstein's relativity.", "C. The invention of the printing press and the industrial revolution.", "D. Darwin's theory of evolution and Mendel's genetics."],
+            "answer": "B",
+            "explanation": "The passage explicitly names the Copernican revolution and the transition from Newtonian to Einsteinian physics as classic examples of paradigm shifts."
+          },
+          {
+            "id": "itp3-r-p4-q5",
+            "question": "According to the passage, why did critics object to Kuhn's theory?",
+            "options": ["A. They felt he relied too heavily on mathematics.", "B. They argued his description made science seem arbitrary and subjective.", "C. They believed paradigm shifts happen too frequently.", "D. They thought he ignored the role of experimentation."],
+            "answer": "B",
+            "explanation": "Critics argued Kuhn's description made science seem arbitrary — as if paradigms are adopted for social rather than empirical reasons."
+          },
+          {
+            "id": "itp3-r-p4-q6",
+            "question": "The word 'anomalies' in paragraph 2 is closest in meaning to:",
+            "options": ["A. expected and typical results.", "B. observations that cannot be explained by the current theory.", "C. mathematical equations used in physics.", "D. new experimental techniques."],
+            "answer": "B",
+            "explanation": "In Kuhn's framework, anomalies are observations that the current paradigm cannot explain — they are irregular and unexpected within the accepted framework."
+          },
+          {
+            "id": "itp3-r-p4-q7",
+            "question": "How did Kuhn clarify his position in response to critics?",
+            "options": ["A. He admitted that paradigm shifts are purely sociological events.", "B. He said paradigm shifts are random and unpredictable.", "C. He stated that the new paradigm must solve problems the old one could not.", "D. He withdrew his theory entirely."],
+            "answer": "C",
+            "explanation": "Kuhn responded to critics by clarifying that paradigm shifts are not purely social — the new paradigm must genuinely solve problems that the old one failed to address."
+          },
+          {
+            "id": "itp3-r-p4-q8",
+            "question": "It can be inferred from the passage that a scientific crisis occurs when:",
+            "options": ["A. A scientist publishes a controversial book.", "B. Accumulated anomalies can no longer be ignored or explained within the current paradigm.", "C. Government funding for research is cut.", "D. Two universities compete for research priority."],
+            "answer": "B",
+            "explanation": "The passage states that a crisis is triggered when anomalies accumulate to the point where they can no longer be dismissed, forcing scientists to question their fundamental assumptions."
+          },
+          {
+            "id": "itp3-r-p4-q9",
+            "question": "According to the passage, what distinguishes a paradigm shift from a normal scientific advance?",
+            "options": ["A. A paradigm shift is made by a single scientist; a normal advance involves many.", "B. A paradigm shift is a complete reconceptualization, not just a refinement of existing theory.", "C. A paradigm shift is accepted by all scientists immediately.", "D. A paradigm shift only occurs in physics."],
+            "answer": "B",
+            "explanation": "The passage explicitly states a paradigm shift is 'not simply a refinement of the old theory; it is a complete reconceptualization'."
+          },
+          {
+            "id": "itp3-r-p4-q10",
+            "question": "Which statement best describes the passage's overall structure?",
+            "options": ["A. A biography of Thomas Kuhn's personal life.", "B. A presentation of Kuhn's theory with historical examples, critical responses, and Kuhn's clarification.", "C. A comparison of two competing scientific theories.", "D. A chronological list of all major scientific discoveries."],
+            "answer": "B",
+            "explanation": "The passage introduces Kuhn's theory, illustrates it with examples, presents criticism, and then summarizes Kuhn's response — a full argumentative structure."
+          }
+        ]
+      },
+      {
+        "id": "itp3-r-p5",
+        "title": "Passage 5 — The 1918 Influenza Pandemic",
+        "text": "The 1918 influenza pandemic — often called the Spanish flu — is considered the deadliest infectious disease outbreak in recorded human history. Over the course of roughly two years, from 1918 to 1920, it infected an estimated five hundred million people, approximately one-third of the world's population at the time, and killed between fifty and one hundred million. By comparison, the First World War, which ended in November 1918, killed approximately seventeen million people. The influenza pandemic killed far more.\n\nThe name 'Spanish flu' is something of a misnomer. Spain was one of the few countries that did not censor news of the pandemic during the war years, so Spanish news reports were among the first to document its severity openly. Many other nations, particularly those at war, suppressed information about mass illness to maintain public morale and military readiness. As a result, Spain appeared to be the epicenter when in fact the virus had originated elsewhere — possibly in the United States or Europe.\n\nWhat made the 1918 strain so unusually deadly was its virulence in young adults between the ages of twenty and forty — a group that typically shows the strongest resistance to influenza. One explanation involves a phenomenon called a cytokine storm, in which an overactive immune response actually damages the patient's own lungs and organs. Individuals with stronger immune systems, paradoxically, suffered more severe illness in some cases because their bodies generated a more intense inflammatory response.\n\nThe pandemic spread with extraordinary speed, facilitated by the mass movement of troops and civilians during the First World War. Military camps, overcrowded with soldiers in close quarters, became hotbeds of transmission. The virus moved across continents within months, reaching remote Arctic communities and Pacific islands that had little prior exposure to influenza.\n\nThe legacy of the 1918 pandemic shaped twentieth-century medicine profoundly. It accelerated research into vaccines and antiviral drugs, led to the establishment of international disease surveillance networks, and influenced global public health policy for decades. Epidemiologists still study the 1918 virus as a reference point for understanding pandemic risk — and as a sobering reminder that infectious diseases remain a serious threat to global civilization.",
+        "questions": [
+          {
+            "id": "itp3-r-p5-q1",
+            "question": "What is the main topic of the passage?",
+            "options": ["A. The role of Spain in spreading the influenza virus.", "B. The causes, spread, deadliness, and legacy of the 1918 influenza pandemic.", "C. The development of influenza vaccines in the twentieth century.", "D. A comparison of the First World War and the pandemic."],
+            "answer": "B",
+            "explanation": "The passage covers where the pandemic came from, why it was deadly, how it spread, and what long-term effects it had — making the overall topic the 1918 pandemic in full."
+          },
+          {
+            "id": "itp3-r-p5-q2",
+            "question": "Why is the name 'Spanish flu' considered a misnomer?",
+            "options": ["A. The disease originated in Spain but spread elsewhere.", "B. Spain was simply one of the few countries that reported the illness openly, while others suppressed the news.", "C. The virus was first identified by Spanish scientists.", "D. Spanish citizens were the most severely affected."],
+            "answer": "B",
+            "explanation": "The passage explains Spain openly reported on the pandemic while other wartime nations suppressed the news, making Spain appear to be the epicenter even though the virus likely originated elsewhere."
+          },
+          {
+            "id": "itp3-r-p5-q3",
+            "question": "The word 'misnomer' in paragraph 2 is closest in meaning to:",
+            "options": ["A. an incorrect or misleading name.", "B. a scientific classification.", "C. a political controversy.", "D. a widely accepted title."],
+            "answer": "A",
+            "explanation": "A misnomer is a name or designation that is incorrect or misleading — 'Spanish flu' incorrectly implies Spain was the origin."
+          },
+          {
+            "id": "itp3-r-p5-q4",
+            "question": "According to the passage, why did the 1918 flu kill a higher proportion of young adults than typical influenza does?",
+            "options": ["A. Young adults were malnourished due to wartime food shortages.", "B. Young adults had weaker immune systems than children.", "C. Their strong immune systems produced a harmful overreaction called a cytokine storm.", "D. Young adults received no medical treatment during the war."],
+            "answer": "C",
+            "explanation": "The passage explains that the cytokine storm — an overactive immune response — caused those with stronger immune systems, including young adults, to suffer more severe illness."
+          },
+          {
+            "id": "itp3-r-p5-q5",
+            "question": "According to the passage, how did World War I contribute to the spread of the pandemic?",
+            "options": ["A. The war introduced chemical weapons that weakened immune systems.", "B. The mass movement of troops and overcrowded military camps facilitated rapid transmission.", "C. Wartime rationing led to widespread malnutrition.", "D. Bombs destroyed hospitals, reducing access to medical care."],
+            "answer": "B",
+            "explanation": "The passage states that mass movement of troops and overcrowded military camps were key factors in the pandemic's rapid global spread."
+          },
+          {
+            "id": "itp3-r-p5-q6",
+            "question": "The word 'virulence' in paragraph 3 is closest in meaning to:",
+            "options": ["A. rarity", "B. contagiousness combined with severity", "C. age of a disease", "D. geographic range"],
+            "answer": "B",
+            "explanation": "Virulence refers to the degree to which a pathogen is able to cause disease — encompassing both its capacity to infect and the severity of harm it causes."
+          },
+          {
+            "id": "itp3-r-p5-q7",
+            "question": "According to the passage, approximately how many people did the 1918 pandemic kill?",
+            "options": ["A. Between one and five million.", "B. Approximately seventeen million.", "C. Between fifty and one hundred million.", "D. Five hundred million."],
+            "answer": "C",
+            "explanation": "The passage states the pandemic killed between fifty and one hundred million people. Five hundred million was the number infected, not killed."
+          },
+          {
+            "id": "itp3-r-p5-q8",
+            "question": "It can be inferred from the passage that governments suppressed pandemic news during World War I primarily to:",
+            "options": ["A. protect national scientific research from foreign espionage.", "B. prevent mass panic and maintain public morale and military readiness.", "C. avoid paying compensation to families of victims.", "D. comply with international health regulations."],
+            "answer": "B",
+            "explanation": "The passage states that wartime nations suppressed illness reports 'to maintain public morale and military readiness'."
+          },
+          {
+            "id": "itp3-r-p5-q9",
+            "question": "According to the passage, which of the following was a long-term legacy of the 1918 pandemic?",
+            "options": ["A. The end of the First World War.", "B. The establishment of international disease surveillance networks.", "C. The discovery of penicillin.", "D. The creation of the United Nations."],
+            "answer": "B",
+            "explanation": "The passage explicitly lists the establishment of international disease surveillance networks as one of the legacies of the 1918 pandemic."
+          },
+          {
+            "id": "itp3-r-p5-q10",
+            "question": "The passage's final paragraph primarily serves to:",
+            "options": ["A. describe the specific vaccines developed after 1918.", "B. explain how the virus mutated over time.", "C. emphasize the pandemic's lasting impact on medicine and its continued relevance as a warning.", "D. compare the 1918 pandemic to modern-day influenza outbreaks."],
+            "answer": "C",
+            "explanation": "The final paragraph highlights the pandemic's medical legacy and notes that epidemiologists still study it as a reference for pandemic risk — framing it as a lesson and warning."
+          }
+        ]
+      }
+    ]
+  }
+}
