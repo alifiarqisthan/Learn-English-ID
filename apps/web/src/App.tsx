@@ -16,6 +16,7 @@ import MasterTestPage from "./pages/MasterTestPage";
 import MasterGroupTestPage from "./pages/MasterGroupTestPage";
 import ReferenceList from "./pages/ReferenceList";
 import ReferencePage from "./pages/ReferencePage";
+import VocabChallengePage from "./pages/VocabChallengePage";
 
 function AppRoutes() {
   const { user, loading } = useAuth();
@@ -44,6 +45,8 @@ function AppRoutes() {
           <Route path="/modules/:slug" element={<ModulePage />} />
           <Route path="/references" element={<ReferenceList />} />
           <Route path="/references/:slug" element={<ReferencePage />} />
+          <Route path="/vocab-challenge" element={<VocabChallengePage />} />
+          <Route path="/vocab-challenge/:day" element={<VocabChallengePage />} />
           <Route path="/practice" element={<PracticePage />} />
           <Route path="/progress" element={<ProgressPage />} />
           <Route path="/mock-test" element={<MockTestPage />} />

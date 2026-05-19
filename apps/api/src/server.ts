@@ -10,6 +10,7 @@ import { groupsRouter } from "./routes/groups.js";
 import { authRouter } from "./routes/auth.js";
 import { resolveUser } from "./middleware/auth.js";
 import { mockTestsRouter } from "./routes/mock-tests.js";
+import { vocabChallengeRouter } from "./routes/vocab-challenge.js";
 
 const app = express();
 
@@ -32,6 +33,8 @@ app.use("/attempts", attemptsRouter);
 app.use("/progress", progressRouter);
 // Mock tests change during development — disable cache for now
 app.use("/mock-tests", (_req, res, next) => { res.setHeader("Cache-Control", "no-store, must-revalidate"); next(); }, mockTestsRouter);
+// Vocab challenge — static content, cache aggressively
+app.use("/vocab-challenge", (_req, res, next) => { res.setHeader("Cache-Control", CONTENT_CACHE); next(); }, vocabChallengeRouter);
 
 const errorHandler: ErrorRequestHandler = (err, _req, res, _next) => {
   if (err instanceof ZodError) {
