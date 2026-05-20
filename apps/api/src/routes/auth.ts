@@ -36,7 +36,8 @@ authRouter.post("/login", async (req, res, next) => {
   }
 });
 
-// GET /auth/me — verify the current userId is valid
+// GET /auth/me — verify the current userId is valid.
+// Cache briefly (30s) on client — user identity rarely changes mid-session.
 authRouter.get("/me", requireAuth, async (req, res, next) => {
   try {
     const user = await prisma.user.findUnique({
@@ -47,6 +48,7 @@ authRouter.get("/me", requireAuth, async (req, res, next) => {
       res.status(404).json({ error: "User not found" });
       return;
     }
+    res.setHeader("Cache-Control", "private, max-age=30");
     res.json(user);
   } catch (err) {
     next(err);

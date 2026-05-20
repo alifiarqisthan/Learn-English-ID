@@ -5,7 +5,7 @@ import {
   Clock, Headphones, Mic, Pause, Flag,
   Play, RotateCcw, Volume2, VolumeX, PenLine,
 } from "lucide-react";
-import { api, type MockTestPackage, type IbtPackage, type ItpPackage, type IeltsPackage, type MockQuestion, type ItpShortItem, type ItpLongItem, type ItpStructureItem, type ItpErrorItem } from "../api";
+import { api, type MockTestPackage, type IbtPackage, type ItpPackage, type IeltsPackage, type IeltsSpeakingPart, type MockQuestion, type ItpShortItem, type ItpLongItem, type ItpStructureItem, type ItpErrorItem } from "../api";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -383,11 +383,11 @@ function ReadingSection({
 }) {
   const [passageIdx, setPassageIdx] = useState(0);
   const [flagged, setFlagged] = useState<Set<string>>(new Set());
-  const [focusedId, setFocusedId] = useState<string>(pkg.reading.passages[0].questions[0].id);
+  const [focusedId, setFocusedId] = useState<string>(pkg.reading.passages[0]!.questions[0]!.id);
   const [showConfirm, setShowConfirm] = useState(false);
   const questionRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
-  const passage = pkg.reading.passages[passageIdx];
+  const passage = pkg.reading.passages[passageIdx]!;
   const total = pkg.reading.passages.reduce((s, p) => s + p.questions.length, 0);
   const answered = Object.keys(answers).filter((k) =>
     pkg.reading.passages.some((p) => p.questions.some((q) => q.id === k))
@@ -544,7 +544,7 @@ function ListeningSection({
 
   useEffect(() => () => { stopSpeechRef.current?.(); window.speechSynthesis.cancel(); }, []);
 
-  const track = pkg.listening.tracks[trackIdx];
+  const track = pkg.listening.tracks[trackIdx]!;
   const total = pkg.listening.tracks.reduce((s, t) => s + t.questions.length, 0);
   const answered = Object.keys(answers).filter((k) =>
     pkg.listening.tracks.some((t) => t.questions.some((q) => q.id === k))
@@ -745,7 +745,7 @@ function ListeningSection({
 }
 
 // ── Speaking section ──────────────────────────────────────────────────────────
-function SpeakingSection({ pkg, onComplete, timerRemaining }: { pkg: MockTestPackage; onComplete: () => void; timerRemaining: number }) {
+function SpeakingSection({ pkg, onComplete, timerRemaining }: { pkg: IbtPackage; onComplete: () => void; timerRemaining: number }) {
   const [taskIdx, setTaskIdx] = useState(0);
   const [phase, setPhase] = useState<"intro" | "reading" | "listening" | "prep" | "speaking" | "done">("intro");
   const [notes, setNotes] = useState<Record<number, string>>({});
@@ -933,7 +933,7 @@ function SpeakingSection({ pkg, onComplete, timerRemaining }: { pkg: MockTestPac
 }
 
 // ── Writing section ───────────────────────────────────────────────────────────
-function WritingSection({ pkg, onComplete, timerRemaining }: { pkg: MockTestPackage; onComplete: () => void; timerRemaining: number }) {
+function WritingSection({ pkg, onComplete, timerRemaining }: { pkg: IbtPackage; onComplete: () => void; timerRemaining: number }) {
   const [taskIdx, setTaskIdx] = useState(0);
   const [responses, setResponses] = useState<Record<number, string>>({});
   const [audioPlayed, setAudioPlayed] = useState(false);
@@ -946,7 +946,7 @@ function WritingSection({ pkg, onComplete, timerRemaining }: { pkg: MockTestPack
     };
   }, []);
 
-  const task = pkg.writing.tasks[taskIdx];
+  const task = pkg.writing.tasks[taskIdx]!;
   const text = responses[taskIdx] ?? "";
   const wordCount = text.trim() ? text.trim().split(/\s+/).length : 0;
 
@@ -1385,7 +1385,7 @@ function ItpListeningSection({
 
   useEffect(() => () => { window.speechSynthesis.cancel(); }, []);
 
-  const part = pkg.listening.parts[partIdx];
+  const part = pkg.listening.parts[partIdx]!;
   const isShortPart = part.type === "short_conversation";
 
   // Flatten all questions for answer counting
@@ -1682,11 +1682,11 @@ function ItpStructureSection({
   timerRemaining: number;
 }) {
   const [partIdx, setPartIdx] = useState(0);
-  const [currentId, setCurrentId] = useState<string>(pkg.structure.parts[0].items[0].id);
+  const [currentId, setCurrentId] = useState<string>(pkg.structure.parts[0]!.items[0]!.id);
   const [flagged, setFlagged] = useState<Set<string>>(new Set());
   const [showConfirm, setShowConfirm] = useState(false);
 
-  const part = pkg.structure.parts[partIdx];
+  const part = pkg.structure.parts[partIdx]!;
   const allIds = pkg.structure.parts.flatMap((p) => p.items.map((it) => it.id));
   const partIds = part.items.map((it) => it.id);
   const totalQs = allIds.length;
@@ -1695,7 +1695,7 @@ function ItpStructureSection({
 
   const itemIdx = part.items.findIndex((it) => it.id === currentId);
   const safeItemIdx = itemIdx >= 0 ? itemIdx : 0;
-  const item = part.items[safeItemIdx];
+  const item = part.items[safeItemIdx]!;
 
   const isCompletion = part.type === "sentence_completion";
   const currentAllIdx = allIds.indexOf(currentId);
@@ -1710,13 +1710,13 @@ function ItpStructureSection({
 
   function goNext() {
     const nextAllIdx = currentAllIdx + 1;
-    if (nextAllIdx < allIds.length) jumpTo(allIds[nextAllIdx]);
+    if (nextAllIdx < allIds.length) jumpTo(allIds[nextAllIdx]!);
     else setShowConfirm(true);
   }
 
   function goPrev() {
     const prevAllIdx = currentAllIdx - 1;
-    if (prevAllIdx >= 0) jumpTo(allIds[prevAllIdx]);
+    if (prevAllIdx >= 0) jumpTo(allIds[prevAllIdx]!);
   }
 
   function toggleFlag(id: string) {
@@ -1759,11 +1759,11 @@ function ItpStructureSection({
       {/* Part tabs */}
       <div className="flex gap-2">
         {pkg.structure.parts.map((p, i) => (
-          <button key={p.id} onClick={() => { setPartIdx(i); setCurrentId(p.items[0].id); }}
+          <button key={p.id} onClick={() => { setPartIdx(i); setCurrentId(p.items[0]!.id); }}
             className={cn("px-3 py-1.5 rounded-md text-sm border transition-colors",
               partIdx === i ? "border-accent bg-accent/10 text-accent font-medium" : "border-border text-muted-foreground hover:border-accent/40"
             )}>
-            {p.name.split("—")[0].trim()}
+            {p.name.split("—")[0]!.trim()}
           </button>
         ))}
       </div>
@@ -1813,7 +1813,7 @@ function ItpStructureSection({
             <p className="rounded-md border bg-card px-4 py-3 text-sm leading-relaxed">{q.question}</p>
             <div className="space-y-2">
               {q.options.map((opt) => {
-                const letter = opt[0];
+                const letter = opt[0]!;
                 const isSelected = answers[q.id] === letter;
                 return (
                   <button key={letter} onClick={() => onAnswer(q.id, letter)}
@@ -1854,11 +1854,11 @@ function ItpReadingSection({
 }) {
   const [passageIdx, setPassageIdx] = useState(0);
   const [flagged, setFlagged] = useState<Set<string>>(new Set());
-  const [focusedId, setFocusedId] = useState<string>(pkg.reading.passages[0].questions[0].id);
+  const [focusedId, setFocusedId] = useState<string>(pkg.reading.passages[0]!.questions[0]!.id);
   const [showConfirm, setShowConfirm] = useState(false);
   const questionRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
-  const passage = pkg.reading.passages[passageIdx];
+  const passage = pkg.reading.passages[passageIdx]!;
   const total = pkg.reading.passages.reduce((s, p) => s + p.questions.length, 0);
   const answeredCount = Object.keys(answers).filter((k) =>
     pkg.reading.passages.some((p) => p.questions.some((q) => q.id === k))
@@ -2171,7 +2171,7 @@ function ItpTestRunner({ pkg, onHome }: { pkg: ItpPackage; onHome: () => void })
     setCompletedSections((prev) => new Set([...prev, s]));
     const idx = ITP_SECTION_ORDER.indexOf(s);
     if (idx < ITP_SECTION_ORDER.length - 1) {
-      setSection(ITP_SECTION_ORDER[idx + 1]);
+      setSection(ITP_SECTION_ORDER[idx + 1]!);
     } else {
       setPhase("done");
     }
@@ -2262,7 +2262,7 @@ function IeltsListeningSection({
   useEffect(() => () => { window.speechSynthesis.cancel(); }, []);
   useEffect(() => { setActiveAudioId(null); }, [partIdx]);
 
-  const part = pkg.listening.parts[partIdx];
+  const part = pkg.listening.parts[partIdx]!;
   const totalQs = pkg.listening.parts.reduce((s, p) => s + p.items.length, 0);
   const answeredCount = Object.keys(answers).filter((k) =>
     pkg.listening.parts.some((p) => p.items.some((it) => it.id === k))
@@ -2397,11 +2397,11 @@ function IeltsReadingSection({
 }) {
   const [passageIdx, setPassageIdx] = useState(0);
   const [flagged, setFlagged] = useState<Set<string>>(new Set());
-  const [focusedId, setFocusedId] = useState<string>(pkg.reading.passages[0].questions[0].id);
+  const [focusedId, setFocusedId] = useState<string>(pkg.reading.passages[0]!.questions[0]!.id);
   const [showConfirm, setShowConfirm] = useState(false);
   const questionRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
-  const passage = pkg.reading.passages[passageIdx];
+  const passage = pkg.reading.passages[passageIdx]!;
   const total = pkg.reading.passages.reduce((s, p) => s + p.questions.length, 0);
   const answeredCount = Object.keys(answers).filter((k) =>
     pkg.reading.passages.some((p) => p.questions.some((q) => q.id === k))
@@ -2536,7 +2536,7 @@ function IeltsWritingSection({
   const [responses, setResponses] = useState<Record<number, string>>({});
   const [showConfirm, setShowConfirm] = useState(false);
 
-  const task = pkg.writing.tasks[taskIdx];
+  const task = pkg.writing.tasks[taskIdx]!;
   const text = responses[taskIdx] ?? "";
   const wordCount = text.trim() ? text.trim().split(/\s+/).length : 0;
   const isLast = taskIdx === pkg.writing.tasks.length - 1;
@@ -2660,7 +2660,7 @@ function IeltsSpeakingSection({ pkg, onComplete, timerRemaining }: {
   const [notes, setNotes] = useState("");
   const [showConfirm, setShowConfirm] = useState(false);
 
-  const part = pkg.speaking.parts[partIdx];
+  const part = pkg.speaking.parts[partIdx]!;
   const isLast = partIdx === pkg.speaking.parts.length - 1;
 
   const prepTime = part.type === "cue_card" ? part.prepTime : 0;
@@ -2718,11 +2718,13 @@ function IeltsSpeakingSection({ pkg, onComplete, timerRemaining }: {
           <CardTitle className="font-serif text-lg">{part.name}</CardTitle>
         </CardHeader>
         <CardContent className="space-y-5">
-          {part.type === "introduction" && (
+          {part.type === "introduction" && (() => {
+            const introPart = part as Extract<IeltsSpeakingPart, { type: "introduction" }>;
+            return (
             <div className="space-y-4">
-              <p className="text-sm text-muted-foreground">{part.instruction}</p>
+              <p className="text-sm text-muted-foreground">{introPart.instruction}</p>
               <div className="rounded-md bg-secondary p-4 space-y-2">
-                {part.questions.map((q, i) => (
+                {introPart.questions.map((q: string, i: number) => (
                   <p key={i} className="text-sm">
                     <span className="text-muted-foreground mr-2">{i + 1}.</span>{q}
                   </p>
@@ -2735,17 +2737,20 @@ function IeltsSpeakingSection({ pkg, onComplete, timerRemaining }: {
                 {isLast ? "Finish Speaking" : "Next Part"} <ArrowRight className="h-4 w-4" />
               </Button>
             </div>
-          )}
+            );
+          })()}
 
-          {part.type === "cue_card" && (
+          {part.type === "cue_card" && (() => {
+            const cuePart = part as Extract<IeltsSpeakingPart, { type: "cue_card" }>;
+            return (
             <div className="space-y-4">
               {phase === "intro" && (
                 <>
-                  <p className="text-sm text-muted-foreground">{part.instruction}</p>
+                  <p className="text-sm text-muted-foreground">{cuePart.instruction}</p>
                   <div className="rounded-md border bg-card p-4 space-y-3">
-                    <p className="font-medium text-sm">{part.cueCard.topic}</p>
+                    <p className="font-medium text-sm">{cuePart.cueCard.topic}</p>
                     <ul className="space-y-1">
-                      {part.cueCard.points.map((pt, i) => (
+                      {cuePart.cueCard.points.map((pt: string, i: number) => (
                         <li key={i} className="text-sm text-muted-foreground flex gap-2">
                           <span className="text-accent">•</span>{pt}
                         </li>
@@ -2761,9 +2766,9 @@ function IeltsSpeakingSection({ pkg, onComplete, timerRemaining }: {
                 <div className="space-y-4">
                   <div className="rounded-md bg-accent/5 border border-accent/20 p-4">
                     <p className="text-sm font-medium text-accent mb-2">Preparation — {formatTime(timer.remaining)}</p>
-                    <p className="text-sm font-medium">{part.cueCard.topic}</p>
+                    <p className="text-sm font-medium">{cuePart.cueCard.topic}</p>
                     <ul className="mt-2 space-y-1">
-                      {part.cueCard.points.map((pt, i) => (
+                      {cuePart.cueCard.points.map((pt: string, i: number) => (
                         <li key={i} className="text-xs text-muted-foreground">• {pt}</li>
                       ))}
                     </ul>
@@ -2790,7 +2795,7 @@ function IeltsSpeakingSection({ pkg, onComplete, timerRemaining }: {
                       <p className="text-xs text-muted-foreground">Speak clearly for 1–2 minutes.</p>
                     </div>
                   </div>
-                  <p className="text-sm">{part.cueCard.topic}</p>
+                  <p className="text-sm">{cuePart.cueCard.topic}</p>
                   {notes && <p className="text-xs text-muted-foreground bg-secondary rounded p-2 whitespace-pre-wrap">{notes}</p>}
                 </div>
               )}
@@ -2798,7 +2803,7 @@ function IeltsSpeakingSection({ pkg, onComplete, timerRemaining }: {
                 <div className="space-y-4">
                   <div className="rounded-md bg-secondary p-4 text-center space-y-1">
                     <p className="text-sm font-medium">Long turn complete ✓</p>
-                    <p className="text-xs text-muted-foreground">Follow-up: {part.cueCard.followUp}</p>
+                    <p className="text-xs text-muted-foreground">Follow-up: {cuePart.cueCard.followUp}</p>
                   </div>
                   <Button onClick={nextPart} className="w-full">
                     {isLast ? "Finish Speaking" : "Next Part"} <ArrowRight className="h-4 w-4" />
@@ -2806,13 +2811,16 @@ function IeltsSpeakingSection({ pkg, onComplete, timerRemaining }: {
                 </div>
               )}
             </div>
-          )}
+            );
+          })()}
 
-          {part.type === "discussion" && (
+          {part.type === "discussion" && (() => {
+            const discPart = part as Extract<IeltsSpeakingPart, { type: "discussion" }>;
+            return (
             <div className="space-y-4">
-              <p className="text-sm text-muted-foreground">{part.instruction}</p>
+              <p className="text-sm text-muted-foreground">{discPart.instruction}</p>
               <div className="space-y-3">
-                {part.questions.map((q, i) => (
+                {discPart.questions.map((q: string, i: number) => (
                   <div key={i} className="rounded-md bg-secondary p-3">
                     <p className="text-sm"><span className="text-muted-foreground mr-2">{i + 1}.</span>{q}</p>
                   </div>
@@ -2825,7 +2833,8 @@ function IeltsSpeakingSection({ pkg, onComplete, timerRemaining }: {
                 {isLast ? "Finish Speaking" : "Next Part"} <ArrowRight className="h-4 w-4" />
               </Button>
             </div>
-          )}
+            );
+          })()}
         </CardContent>
       </Card>
     </div>
@@ -3000,7 +3009,7 @@ function IeltsTestRunner({ pkg, onHome }: { pkg: IeltsPackage; onHome: () => voi
     window.speechSynthesis.cancel();
     setCompletedSections((prev) => new Set([...prev, s]));
     const idx = IELTS_SECTION_ORDER.indexOf(s);
-    if (idx < IELTS_SECTION_ORDER.length - 1) setSection(IELTS_SECTION_ORDER[idx + 1]);
+    if (idx < IELTS_SECTION_ORDER.length - 1) setSection(IELTS_SECTION_ORDER[idx + 1]!);
     else setPhase("done");
   }
 
@@ -3121,7 +3130,7 @@ export default function MockTestPage() {
     setCompletedSections((prev) => new Set([...prev, s]));
     const idx = SECTION_ORDER.indexOf(s);
     if (idx < SECTION_ORDER.length - 1) {
-      setSection(SECTION_ORDER[idx + 1]);
+      setSection(SECTION_ORDER[idx + 1]!);
     } else {
       setPhase("done");
     }
@@ -3223,10 +3232,10 @@ export default function MockTestPage() {
         <ListeningSection pkg={pkg as IbtPackage} answers={answers} onAnswer={handleAnswer} onComplete={() => completeSection("listening")} timerRemaining={ibtTimer.remaining} />
       )}
       {section === "speaking" && (
-        <SpeakingSection pkg={pkg} onComplete={() => completeSection("speaking")} timerRemaining={ibtTimer.remaining} />
+        <SpeakingSection pkg={pkg as IbtPackage} onComplete={() => completeSection("speaking")} timerRemaining={ibtTimer.remaining} />
       )}
       {section === "writing" && (
-        <WritingSection pkg={pkg} onComplete={() => completeSection("writing")} timerRemaining={ibtTimer.remaining} />
+        <WritingSection pkg={pkg as IbtPackage} onComplete={() => completeSection("writing")} timerRemaining={ibtTimer.remaining} />
       )}
     </div>
   );

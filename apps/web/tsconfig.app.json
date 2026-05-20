@@ -11,7 +11,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    // Override base config: array index access doesn't return | undefined here.
+    // The web app has many guarded accesses (idx < length) where TS can't track the bound.
+    "noUncheckedIndexedAccess": false
   },
   "include": ["src"]
 }

@@ -1,5 +1,6 @@
 import express, { type ErrorRequestHandler } from "express";
 import cors from "cors";
+import compression from "compression";
 import { ZodError } from "zod";
 import { config } from "./config.js";
 import { modulesRouter } from "./routes/modules.js";
@@ -14,6 +15,9 @@ import { vocabChallengeRouter } from "./routes/vocab-challenge.js";
 
 const app = express();
 
+// Gzip compression — applied before route handlers so all responses get compressed.
+// `threshold: 1024` skips compression for tiny payloads where overhead > savings.
+app.use(compression({ threshold: 1024 }));
 app.use(cors());
 app.use(express.json());
 app.use(resolveUser);
@@ -27,14 +31,14 @@ const CONTENT_CACHE = "public, max-age=300, s-maxage=3600, stale-while-revalidat
 app.use("/modules", (_req, res, next) => { res.setHeader("Cache-Control", CONTENT_CACHE); next(); }, modulesRouter);
 app.use("/references", (_req, res, next) => { res.setHeader("Cache-Control", CONTENT_CACHE); next(); }, referencesRouter);
 app.use("/groups", (_req, res, next) => { res.setHeader("Cache-Control", CONTENT_CACHE); next(); }, groupsRouter);
+// Mock tests are static content — same cache policy as modules/references.
+app.use("/mock-tests", (_req, res, next) => { res.setHeader("Cache-Control", CONTENT_CACHE); next(); }, mockTestsRouter);
+// Vocab challenge — static content, cache aggressively
+app.use("/vocab-challenge", (_req, res, next) => { res.setHeader("Cache-Control", CONTENT_CACHE); next(); }, vocabChallengeRouter);
 
 // Progress and attempts are user-specific and must never be cached.
 app.use("/attempts", attemptsRouter);
 app.use("/progress", progressRouter);
-// Mock tests change during development — disable cache for now
-app.use("/mock-tests", (_req, res, next) => { res.setHeader("Cache-Control", "no-store, must-revalidate"); next(); }, mockTestsRouter);
-// Vocab challenge — static content, cache aggressively
-app.use("/vocab-challenge", (_req, res, next) => { res.setHeader("Cache-Control", CONTENT_CACHE); next(); }, vocabChallengeRouter);
 
 const errorHandler: ErrorRequestHandler = (err, _req, res, _next) => {
   if (err instanceof ZodError) {

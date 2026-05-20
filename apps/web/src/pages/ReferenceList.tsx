@@ -57,7 +57,7 @@ export default function ReferenceList() {
     } catch { return {}; }
   })();
   const completedDays = Object.keys(vocabProgress).filter(
-    (d) => vocabProgress[d]?.length >= 10
+    (d) => (vocabProgress[d]?.length ?? 0) >= 15
   ).length;
   const currentDay = Math.min(30, completedDays + 1);
 

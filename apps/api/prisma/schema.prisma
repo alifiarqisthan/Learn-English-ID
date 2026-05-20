@@ -27,6 +27,9 @@ model Attempt {
   user        User     @relation(fields: [userId], references: [id])
 
   @@index([userId, moduleSlug])
+  // Composite index: orders attempts by createdAt within a user's history.
+  // Avoids full-table sort when fetching recent attempts per user.
+  @@index([userId, createdAt(sort: Desc)])
 }
 
 model ModuleProgress {
