@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { AuthProvider, useAuth } from "./contexts/AuthContext";
 import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
@@ -32,9 +33,9 @@ function AppRoutes() {
   if (!user) return <LoginPage />;
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <SiteHeader />
-      <main className="container py-8">
+      <main className="container py-8 flex-1">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/groups" element={<GroupListPage />} />
@@ -53,6 +54,7 @@ function AppRoutes() {
           <Route path="/master-test" element={<MasterTestPage />} />
         </Routes>
       </main>
+      <SiteFooter />
     </div>
   );
 }
