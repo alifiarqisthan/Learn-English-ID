@@ -9,7 +9,7 @@ import type {
   ReferenceSummary,
 } from "@app/shared";
 
-const BASE = "/api";
+const BASE = import.meta.env.VITE_API_URL ?? "/api";
 
 export type AuthUser = { id: string; name: string };
 
