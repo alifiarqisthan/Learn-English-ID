@@ -367,7 +367,9 @@ export default function GroupListPage() {
       ) : (
         <div className="space-y-4">
           {/* Mobile: horizontal scroll tabs */}
-          <div className="md:hidden flex gap-1 overflow-x-auto pb-1 border-b w-full">
+          <div className="md:hidden relative">
+            <div className="flex gap-1 overflow-x-auto pb-1 border-b w-full scrollbar-none">
+
             <button
               onClick={() => setMaster(null)}
               className={cn(
@@ -389,6 +391,8 @@ export default function GroupListPage() {
                 {mg.icon} {mg.title}
               </button>
             ))}
+          </div>
+            <div className="pointer-events-none absolute right-0 top-0 h-full w-8 bg-gradient-to-l from-background to-transparent" />
           </div>
 
           <div className="flex gap-6 min-h-[calc(100vh-4rem)]">

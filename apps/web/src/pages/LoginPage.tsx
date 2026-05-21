@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BookOpen } from "lucide-react";
 import { useAuth } from "../contexts/AuthContext";
 import { Button } from "@/components/ui/button";
@@ -10,14 +10,22 @@ export default function LoginPage() {
   const [pin, setPin] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [slowServer, setSlowServer] = useState(false);
+  const slowTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => { if (slowTimer.current) clearTimeout(slowTimer.current); };
+  }, []);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError(null);
+    setSlowServer(false);
     if (name.trim().length === 0) { setError("Please enter your name."); return; }
     if (!/^\d{4}$/.test(pin)) { setError("PIN must be exactly 4 digits."); return; }
 
     setLoading(true);
+    slowTimer.current = setTimeout(() => setSlowServer(true), 5000);
     try {
       await login(name.trim(), pin);
     } catch (err) {
@@ -26,6 +34,8 @@ export default function LoginPage() {
       else setError("Something went wrong. Please try again.");
     } finally {
       setLoading(false);
+      setSlowServer(false);
+      if (slowTimer.current) clearTimeout(slowTimer.current);
     }
   }
 
@@ -76,6 +86,12 @@ export default function LoginPage() {
                   className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 tracking-widest"
                 />
               </div>
+
+              {slowServer && (
+                <p className="text-sm text-muted-foreground">
+                  Server sedang bangun dari tidur… harap tunggu ~30 detik ☕
+                </p>
+              )}
 
               {error && (
                 <p className="text-sm text-destructive">{error}</p>
