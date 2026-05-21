@@ -365,74 +365,76 @@ export default function GroupListPage() {
       {trimmedQuery.length >= 2 ? (
         <div>{renderSearchResults()}</div>
       ) : (
-    <div className="flex gap-6 min-h-[calc(100vh-4rem)]">
-      {/* Sidebar */}
-      <aside className="hidden md:flex flex-col w-56 shrink-0 gap-1 pt-1">
-        <button
-          onClick={() => setMaster(null)}
-          className={cn(
-            "text-left px-3 py-2 rounded-md text-sm transition-colors",
-            !masterSlug
-              ? "bg-secondary font-medium text-foreground"
-              : "text-muted-foreground hover:bg-secondary/60"
-          )}
-        >
-          All Groups
-        </button>
-        <Separator className="my-1" />
-        {MASTER_GROUPS.map((mg) => {
-          const stats = masterStats(mg.slug);
-          return (
+        <div className="space-y-4">
+          {/* Mobile: horizontal scroll tabs */}
+          <div className="md:hidden flex gap-1 overflow-x-auto pb-1 border-b w-full">
             <button
-              key={mg.slug}
-              onClick={() => setMaster(mg.slug)}
+              onClick={() => setMaster(null)}
               className={cn(
-                "text-left px-3 py-2 rounded-md text-sm transition-colors flex items-start justify-between gap-2",
-                masterSlug === mg.slug
-                  ? "bg-secondary font-medium text-foreground"
-                  : "text-muted-foreground hover:bg-secondary/60"
+                "px-3 py-1.5 rounded-md text-sm whitespace-nowrap shrink-0",
+                !masterSlug ? "bg-secondary font-medium" : "text-muted-foreground"
               )}
             >
-              <span className="flex items-center gap-2 min-w-0">
-                <span className="text-base shrink-0">{mg.icon}</span>
-                <span className="leading-tight">{mg.title}</span>
-              </span>
-              {stats.complete && <CheckCircle2 className="h-3.5 w-3.5 text-accent shrink-0" />}
+              All
             </button>
-          );
-        })}
-      </aside>
+            {MASTER_GROUPS.map((mg) => (
+              <button
+                key={mg.slug}
+                onClick={() => setMaster(mg.slug)}
+                className={cn(
+                  "px-3 py-1.5 rounded-md text-sm whitespace-nowrap shrink-0",
+                  masterSlug === mg.slug ? "bg-secondary font-medium" : "text-muted-foreground"
+                )}
+              >
+                {mg.icon} {mg.title}
+              </button>
+            ))}
+          </div>
 
-      {/* Mobile: horizontal scroll tabs */}
-      <div className="md:hidden flex gap-1 overflow-x-auto pb-1 border-b mb-4 w-full">
-        <button
-          onClick={() => setMaster(null)}
-          className={cn(
-            "px-3 py-1.5 rounded-md text-sm whitespace-nowrap shrink-0",
-            !masterSlug ? "bg-secondary font-medium" : "text-muted-foreground"
-          )}
-        >
-          All
-        </button>
-        {MASTER_GROUPS.map((mg) => (
-          <button
-            key={mg.slug}
-            onClick={() => setMaster(mg.slug)}
-            className={cn(
-              "px-3 py-1.5 rounded-md text-sm whitespace-nowrap shrink-0",
-              masterSlug === mg.slug ? "bg-secondary font-medium" : "text-muted-foreground"
-            )}
-          >
-            {mg.icon} {mg.title}
-          </button>
-        ))}
-      </div>
+          <div className="flex gap-6 min-h-[calc(100vh-4rem)]">
+            {/* Sidebar — desktop only */}
+            <aside className="hidden md:flex flex-col w-56 shrink-0 gap-1 pt-1">
+              <button
+                onClick={() => setMaster(null)}
+                className={cn(
+                  "text-left px-3 py-2 rounded-md text-sm transition-colors",
+                  !masterSlug
+                    ? "bg-secondary font-medium text-foreground"
+                    : "text-muted-foreground hover:bg-secondary/60"
+                )}
+              >
+                All Groups
+              </button>
+              <Separator className="my-1" />
+              {MASTER_GROUPS.map((mg) => {
+                const stats = masterStats(mg.slug);
+                return (
+                  <button
+                    key={mg.slug}
+                    onClick={() => setMaster(mg.slug)}
+                    className={cn(
+                      "text-left px-3 py-2 rounded-md text-sm transition-colors flex items-start justify-between gap-2",
+                      masterSlug === mg.slug
+                        ? "bg-secondary font-medium text-foreground"
+                        : "text-muted-foreground hover:bg-secondary/60"
+                    )}
+                  >
+                    <span className="flex items-center gap-2 min-w-0">
+                      <span className="text-base shrink-0">{mg.icon}</span>
+                      <span className="leading-tight">{mg.title}</span>
+                    </span>
+                    {stats.complete && <CheckCircle2 className="h-3.5 w-3.5 text-accent shrink-0" />}
+                  </button>
+                );
+              })}
+            </aside>
 
-      {/* Main content */}
-      <main className="flex-1 min-w-0 py-1">
-        {masterSlug ? renderMasterGroup(masterSlug) : renderOverview()}
-      </main>
-    </div>
+            {/* Main content */}
+            <main className="flex-1 min-w-0 py-1">
+              {masterSlug ? renderMasterGroup(masterSlug) : renderOverview()}
+            </main>
+          </div>
+        </div>
       )}
     </div>
   );
